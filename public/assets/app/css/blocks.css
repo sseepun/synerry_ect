@@ -8,6 +8,9 @@
 .section-02{
     height:100%; min-height:600px;
 }
+.section-02 .text-wrapper{
+    bottom:1rem; left:1rem;
+}
 
 /* Section 03 */
 .section-03 .text-wrapper{
