@@ -1,0 +1,12 @@
+.section-03 p {font-family: 'Prompt', sans-serif;}
+.section-03 .service{
+  display:flex; align-items:center; flex-wrap:wrap; align-items:center; 
+  max-width: 903px; margin: 0 auto;
+}
+.section-03 .text-content{
+  border-radius: 4px; padding:3rem 3.2rem 1.5rem 2rem; cursor:pointer; margin:0.5rem;
+}
+.section-03 .text-content .circle{
+ width:60px; height:60px; padding:1rem; border-radius:50%;
+ display:flex; justify-content:center; align-items:center;
+}
