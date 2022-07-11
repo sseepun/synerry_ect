@@ -106,6 +106,9 @@ nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 
 /* Section 02 */
 .section02 p {color:#6a6a6a !important;}
-.section-02 ul li a.active{
+.section-02 .categories a.active{
+    background:#0ab3de; color:#ffffff;
+}
+.section-02 .pagination a.active{
    box-shadow:0px 5px 20px 10px rgba(0,0,0,.1);
 }

@@ -20,58 +20,48 @@
         <h3 class="fw-700">ข่าวสาร/ประชาสัมพันธ์</h3>
         <p class="fw-300">ติดตามข่าวสารต่างๆ พร้อมลิงก์ที่น่าสนใจของ กกต.ได้ที่นี่</p>
       </div>
-      <div class="btns jc-center mt-3">
-        <a href="#" class="btn btn-action btn-p">
-          เรื่องเด่น กกต.
-        </a>
-        <a href="#" class="btn btn-action btn-s">
-          ข่าวประชาสัมพันธ์
-        </a>
-        <a href="#" class="btn btn-action btn-inactive">
-          ข่าว สนง. กกต.
-        </a>
-        <a href="#" class="btn btn-action btn-inactive">
-          ข่าวประกวดราคา
-        </a>
-        <a href="#" class="btn btn-action btn-inactive">
-          วิดีโอ
-        </a>
-      </div>
+      <ul class="categories">
+        <li><a href="#" class="fw-400">เรื่องเด่น กกต.</a></li>
+        <li><a href="#" class="active fw-400">ข่าวประชาสัมพันธ์</a></li>
+        <li><a href="#" class="fw-400">ข่าว สนง. กกต.</a></li>
+        <li><a href="#" class="fw-400">ข่าวประกวดราคา</a></li>
+        <li><a href="#" class="fw-400">วิดีโอ</a></li>
+      </ul>
       <div class="grids mt-5">
-        <div class="grid lg-70 md-60 sm-50 xs-100">
+        <div class="grid lg-70 md-60 sm-100 xs-100">
           <div class="pos-relative">
-            <img src="public/assets/app/images/bg/demo02.jpg" class="img bradius-round" style="height:525px;" />
-            <div class="pos-absolute text-wrapper ss-text-wrapper sm color-white">
+            <img src="public/assets/app/images/bg/03.jpg" class="img bradius-round" style="height:525px;" />
+            <div class="pos-absolute text-wrapper lg-text-wrapper lg color-white">
               <a href="#" class="d-inline-block bg-p bradius-round color-white pt-1 pr-3 pb-1 pl-3">เรื่องเด่น กกต.</a>
-              <p class="mt-3">การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ</p>
+              <h6 class="mt-3 fw-500">การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ</h6>
               <p>กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร</p>
-              <p class="mt-3">08 มิถุนายน 2565 / By <span><a href="#">PR ECT</a></span></p>
+              <p class="mt-3 text-sm">08 มิถุนายน 2565 / By <span class="text-sm"><a href="#">PR ECT</a></span></p>
             </div>
           </div>
         </div>
-        <div class="grid lg-30 md-40 sm-50 xs-100">
+        <div class="grid lg-30 md-40 sm-100 xs-100">
           <div class="pos-relative">
-            <img src="public/assets/app/images/bg/demo03.jpg" class="img bradius-round" style="height:252px;" />
+            <img src="public/assets/app/images/bg/04.jpg" class="img bradius-round" style="height:252px;" />
             <div class="pos-absolute text-wrapper ss-text-wrapper sm color-white">
               <a href="#" class="d-inline-block bg-p bradius-round color-white pt-1 pr-3 pb-1 pl-3">เรื่องเด่น กกต.</a>
-              <p class="mt-3">การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ</p>
-              <p class="mt-3">08 มิถุนายน 2565 / By <span><a href="#">PR ECT</a></span></p>
+              <h6 class="mt-3 fw-500 ">การประชุมพัฒนางานและยกระดับมาตรฐาน</h6>
+              <p class="text-sm">08 มิถุนายน 2565 / By <span class="text-sm"><a href="#">PR ECT</a></span></p>
             </div>
           </div>
-          <div class="grid lg-30 md-40 sm-50 xs-100">
+          <div class="grid lg-30 md-40 sm-100 xs-100">
             <div class="pos-relative pt-5">
-              <img src="public/assets/app/images/bg/demo03.jpg" class="img bradius-round" style="height:252px;" />
+              <img src="public/assets/app/images/bg/05.jpg" class="img bradius-round" style="height:252px;" />
               <div class="pos-absolute text-wrapper ss-text-wrapper sm color-white">
                 <a href="#" class="d-inline-block bg-p bradius-round color-white pt-1 pr-3 pb-1 pl-3">เรื่องเด่น กกต.</a>
-                <p class="mt-3">การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ</p>
-                <p class="mt-3">08 มิถุนายน 2565 / By <span><a href="#">PR ECT</a></span></p>
+                <h6 class="mt-3 fw-500">คณะกรรมการการเลือกตั้งครบรอบ 24 ปี</h6>
+                <p class="text-sm">08 มิถุนายน 2565 / By <span><a href="#">PR ECT</a></span></p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="btns jc-center mt-5">
-        <ul>
+        <ul class="pagination pl-0">
           <li><a href="#" class="active">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
@@ -86,39 +76,34 @@
     </div>
   </section>
 
-  <section class="section-03 section-padding bg-p">
+  <section class="section-03 section-padding" style="background-image: url(public/assets/app/images/bg/06.jpg);">
     <div class="container">
       <div class="grids">
-        <div class="grid lg-50">
+        <div class="grid lg-40">
           <!-- Insert Image -->
         </div>
-        <div class="grid lg-50">
+        <div class="grid lg-60">
           <div>
-            <h2 class="color-white fw-700">กกต. พร้อมให้บริการข้อมูลการเลือกตั้งแก่ภาคประชาชนทุกภาคส่วนด้วยหลากหลายแอพพลิเคชั่น</h2>
+            <h2 class="color-white fw-500">กกต. พร้อมให้บริการข้อมูลการเลือกตั้งแก่ภาคประชาชนทุกภาคส่วน</h2>
+            <p class="h2 color-white">ด้วยหลากหลายแอพพลิเคชั่น</p>
           </div>
           <div class="grids">
-            <div class="grid lg-1-3 md-50">
-              <div class="pos-relative">
-                <img src="public/assets/app/images/bg/demo05.jpg" class="img bradius-round"/>
-                <div class="pos-absolute text-wrapper">
-                  <h6>แอปพลิเคชั่นฉลาดเลือก</h6>
-                </div>
+            <div class="pos-relative mr-3" >
+              <img src="public/assets/app/images/bg/07.png" class="img bradius-round" />
+              <div class="pos-absolute text-wrapper">
+                <h6 class="text-center color-white fw-600">แอปพลิเคชั่นฉลาดเลือก</h6>
               </div>
             </div>
-            <div class="grid lg-1-3 md-50">
-              <div class="pos-relative">
-                <img src="public/assets/app/images/bg/demo05.jpg" class="img bradius-round" />
-                <div class="pos-absolute text-wrapper">
-                  <h6>แอปพลิเคชั่นฉลาดเลือก</h6>
-                </div>
+            <div class="pos-relative mr-3">
+              <img src="public/assets/app/images/bg/08.png" class="img bradius-round" />
+              <div class="pos-absolute text-wrapper">
+                <h6 class="text-center color-white fw-600">แอปพลิเคชั่นฉลาดเลือก</h6>
               </div>
             </div>
-            <div class="grid lg-1-3 md-50">
-              <div class="pos-relative">
-                <img src="public/assets/app/images/bg/demo05.jpg" class="img bradius-round" />
-                <div class="pos-absolute text-wrapper">
-                  <h6>แอปพลิเคชั่นฉลาดเลือก</h6>
-                </div>
+            <div class="pos-relative mr-3">
+              <img src="public/assets/app/images/bg/09.png" class="img bradius-round" />
+              <div class="pos-absolute text-wrapper">
+                <h6 class="text-center color-white fw-600">แอปพลิเคชั่นฉลาดเลือก</h6>
               </div>
             </div>
           </div>
