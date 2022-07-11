@@ -103,3 +103,9 @@ nav.sidenav .submenu:hover > *:first-child{color:#f4b510; background:#194e84;}
 nav.sidenav .dropdown-toggle{color:#232323;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
+
+/* Section 02 */
+.section02 p {color:#6a6a6a !important;}
+.section-02 ul li a.active{
+   box-shadow:0px 5px 20px 10px rgba(0,0,0,.1);
+}

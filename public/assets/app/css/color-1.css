@@ -65,6 +65,7 @@ input[type=tel].sgray, input[type=number].sgray, input[type=phone].sgray, input[
 input[type=file].sgray, select.sgray, textarea.sgray,
 .form-group .upload-wrapper.sgray::before{background:#e1e1e1!important;}
 
+/* Section 03 */
 .section-03 p {color:#666666;}
 .section-03 .text-content{border:1px solid #ec2c23;}
 .section-03 .text-content .circle{

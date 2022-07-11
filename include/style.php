@@ -22,5 +22,5 @@
 <link rel="stylesheet" href="public/assets/app/css/navs.css" />
 <link rel="stylesheet" href="public/assets/app/css/blocks.css" />
 
-<link rel="stylesheet" id="css-theme" href="public/assets/app/css/color-1.css" />
+<link rel="stylesheet" id="css-theme" href="public/assets/app/css/color-0.css" />
 <link rel="stylesheet" href="public/assets/app/css/ie-fix.css" />
