@@ -105,6 +105,25 @@ nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 
 
+/* Special Card 02 */
+.ss-card-02{color:#ffffff; box-shadow:0px 4px 16px 4px rgba(0,0,0,.15);}
+.ss-card-02.filter-01 .ss-img::after{
+    background-image:linear-gradient(to top,rgba(13,27,98,1),rgba(13,27,98,.9),
+        rgba(13,27,98,.4),rgba(13,27,98,0),rgba(13,27,98,0),rgba(13,27,98,0),
+        rgba(13,27,98,0),rgba(13,27,98,0));
+}
+.ss-card-02.filter-02 .ss-img::after{
+    background-image:linear-gradient(to top,rgba(243,181,15,1),rgba(243,181,15,.9),
+        rgba(243,181,15,.4),rgba(243,181,15,0),rgba(243,181,15,0),rgba(243,181,15,0),
+        rgba(243,181,15,0),rgba(243,181,15,0));
+}
+.ss-card-02.filter-03 .ss-img::after{
+    background-image:linear-gradient(to top,rgba(10,178,222,1),rgba(10,178,222,.9),
+        rgba(10,178,222,.4),rgba(10,178,222,0),rgba(10,178,222,0),rgba(10,178,222,0),
+        rgba(10,178,222,0),rgba(10,178,222,0));
+}
+
+
 /* Special Tags */
 .ss-tags > .tag{background:#04adf0; color:#ffffff;}
 

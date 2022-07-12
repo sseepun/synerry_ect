@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-
 <body class="loading">
   <?php include_once('include/topnav.php'); ?>
 
-  <section class="section-01 pos-relative" style="background-image: url(public/assets/app/images/bg/01.jpg);">
-    <div class="container">
-      <div class="grids mb-0">
-        <div class="grid lg-50">
-          <div class="text-intro d-flex ai-center jc-center color-white">
-            <div>
-              <img src="public/assets/app/images/icon/08.png"/>
-              <h3 class="fw-400">จัดการ<span class="h2 fw-600">การเลือกตั้ง</span>ตามหลัก</h3>
-              <h1 class="fw-600">ประชาธิปไตย</h1>
-              <p class="h1 fw-600">โปรงใส<span class="h3 fw-400">และ</span>เป็นธรรม</p>
-              <div class="text-right" >
-                <img src="public/assets/app/images/icon/07.png" />
+  <section class="banner-01">
+    <div class="slide-container">
+      <div class="slides">
+        <?php for($i=0; $i<4; $i++){?>
+          <div class="slide">
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/01.jpg');"></div>
+            <div class="hero animate" style="--delay:.55s;">
+              <img src="public/assets/app/images/hero/03.png" class="Hero" />
+            </div>
+            <div class="container">
+              <div class="quote-container animate" style="--delay:.4s;">
+                <div class="wrapper color-white">
+                  <h2 class="fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
+                  <h1 class="fw-700 mt-1">
+                    ประชาธิปไตย <br />
+                    โปรงใส<span class="h3 fw-500">และ</span>เป็นธรรม
+                  </h1>
+                  <img class="quote quote-left" src="public/assets/app/images/icon/07.png" alt="Quote" />
+                  <img class="quote quote-right" src="public/assets/app/images/icon/08.png" alt="Quote" />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="grid lg-50">
-          <div class="pos-absolute" style="top:8rem">
-            <img src="public/assets/app/images/bg/19.png" class="img"/>
-          </div>
-        </div>
+        <?php }?>
       </div>
     </div>
   </section>
@@ -158,33 +159,56 @@
     </div>
   </section>
 
-  <section class="section-03 section-padding" style="background-image: url(public/assets/app/images/bg/06.jpg);">
-    <img src="public/assets/app/images/bg/25.png" class="img"/>  
-    <div class="container">
+  <section class="section-01 section-padding" style="background-image:url('public/assets/app/images/bg/06.jpg');">
+    <div class="hero" data-aos="fade-in" data-aos-delay="750">
+      <img src="public/assets/app/images/hero/02-01.png" class="Hero Background" />
+    </div>
+    <div class="hero" data-aos="fade-up" data-aos-delay="150">
+      <img src="public/assets/app/images/hero/02-02.png" class="Hero" />
+    </div>
+    <div class="container pos-relative">
       <div class="grids">
-        <div class="grid lg-50 mt-0"></div>
-        <div class="grid lg-50">
-          <div>
-            <h2 class="color-white fw-500">กกต. พร้อมให้บริการข้อมูลการเลือกตั้งแก่ภาคประชาชนทุกภาคส่วน</h2>
-            <p class="h2 color-white">ด้วยหลากหลายแอพพลิเคชั่น</p>
-          </div>
+        <div class="grid xl-50 lg-50 sm-100 mt-0"></div>
+        <div class="grid xl-50 lg-50 sm-100">
+          <h2 class="color-white fw-500 md-no-br" data-aos="fade-up" data-aos-delay="0">
+            กกต. พร้อมให้บริการ <br />
+            ข้อมูลการเลือกตั้ง <br />
+            แก่ภาคประชาชนทุกภาคส่วน
+          </h2>
+          <p class="h3 color-white mt-1 mb-1" data-aos="fade-up" data-aos-delay="150">
+            ด้วยหลากหลายแอพพลิเคชั่น
+          </p>
           <div class="grids">
-            <div class="pos-relative mr-3" >
-              <!-- <img src="public/assets/app/images/bg/07.png" class="img bradius-round" /> -->
-              <div class="pos-absolute text-wrapper">
-                <!-- <h6 class="text-center color-white fw-600">แอปพลิเคชั่นฉลาดเลือก</h6> -->
+            <div class="grid sm-1-3">
+              <div class="ss-card ss-card-02 filter-01" data-aos="fade-up" data-aos-delay="300">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/bg/07.jpg');"></div>
+                </div>
+                <div class="text-container">
+                  <h6 class="fw-600">แอปพลิเคชั่นฉลาดเลือก</h6>
+                </div>
               </div>
             </div>
-            <div class="pos-relative mr-3">
-              <!-- <img src="public/assets/app/images/bg/08.png" class="img bradius-round" /> -->
-              <div class="pos-absolute text-wrapper">
-                <!-- <h6 class="text-center color-white fw-600">แอปพลิเคชั่นฉลาดเลือก</h6> -->
+            <div class="grid sm-1-3">
+              <div class="ss-card ss-card-02 filter-02" data-aos="fade-up" data-aos-delay="450">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/bg/08.jpg');"></div>
+                </div>
+                <div class="text-container">
+                  <h6 class="fw-600">แอปพลิเคชั่นตาสัปปะรด</h6>
+                </div>
               </div>
             </div>
-            <div class="pos-relative mr-3">
-              <!-- <img src="public/assets/app/images/bg/09.png" class="img bradius-round" /> -->
-              <div class="pos-absolute text-wrapper">
-                <!-- <h6 class="text-center color-white fw-600">แอปพลิเคชั่นฉลาดเลือก</h6> -->
+            <div class="grid sm-1-3">
+              <div class="ss-card ss-card-02 filter-03" data-aos="fade-up" data-aos-delay="600">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/bg/09.jpg');"></div>
+                </div>
+                <div class="text-container">
+                  <h6 class="fw-600">
+                    แอปพลิเคชั่น <br /> CIVIL EDUCATION
+                  </h6>
+                </div>
               </div>
             </div>
           </div>
@@ -237,9 +261,9 @@
     </div>
   </section>
 
-  <section class="section-05 section-padding">
+  <!-- <section class="section-05 section-padding">
     <div class="container">
-      <h3 class="text-center fw-700">บทความพิเศษ</h3>
+      <h2 class="text-center fw-700">บทความพิเศษ</h2>
       <div class="grids">
         <div class="grid lg-1-3 md-50 sm-50 xs-100">
           <img src="public/assets/app/images/bg/11.jpg" class="img bradius-round" />
@@ -335,11 +359,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <?php include_once('include/footer.php'); 
-  ?>
+  <?php include_once('include/footer.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
-
 </html>
