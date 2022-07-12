@@ -22,7 +22,7 @@
                   <h2 class="fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
                   <h1 class="fw-700 mt-1">
                     ประชาธิปไตย <br />
-                    โปรงใส<span class="h3 fw-500">และ</span>เป็นธรรม
+                    โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
                   </h1>
                   <img class="quote quote-left" src="public/assets/app/images/icon/07.png" alt="Quote" />
                   <img class="quote quote-right" src="public/assets/app/images/icon/08.png" alt="Quote" />
@@ -31,6 +31,14 @@
             </div>
           </div>
         <?php }?>
+      </div>
+      <div class="arrows">
+        <div class="arrow arrow-prev">
+          <img src="public/assets/app/images/icon/09.png" alt="Arrow" />
+        </div>
+        <div class="arrow arrow-next">
+          <img src="public/assets/app/images/icon/10.png" alt="Arrow" />
+        </div>
       </div>
     </div>
   </section>
@@ -59,7 +67,7 @@
     <div class="container">
       <div class="text-center">
         <h3 class="fw-700 color-dark" data-aos="fade-up" data-aos-delay="0">
-          ข่าวสาร/ประชาสัมพันธ์
+          <?= $categories[1]['title'] ?>
         </h3>
         <p class="h6 fw-400 color-gray mt-1" data-aos="fade-up" data-aos-delay="150">
           ติดตามข่าวสารต่างๆ พร้อมลิงก์ที่น่าสนใจของ กกต.ได้ที่นี่
@@ -217,40 +225,44 @@
     </div>
   </section>
 
-  <section class="section-04 section-padding" style="background-image: url(public/assets/app/images/bg/10.jpg);">
+  <section class="section-02 section-padding" style="background-image:url('public/assets/app/images/bg/10.jpg');">
     <div class="container">
-      <h3 class="fw-700">องค์ความรู้การเลือกตั้ง</h3>
+      <h3 class="fw-700" data-aos="fade-up" data-aos-delay="0">
+        องค์ความรู้การเลือกตั้ง
+      </h3>
       <div class="grids">
-        <div class="grid lg-50 md-100 sm-100 xs-100">
+        <div class="grid xl-50 lg-75 sm-100">
           <div class="grids">
-            <div class="grid lg-50 md-50 sm-50 xs-100">
-              <div class="text-wrapper ss-text-wrapper bradius-round p-5">
-                <h5 class="color-s fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
-                <p class="mt-2 text-nm fw-400">
-                  วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
+            <div class="grid sm-50">
+              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="150">
+                <h5 class="title color-s fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
+                <p class="desc fw-400 mt-1">
+                  วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. 
+                  เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
                 </p>
               </div>
             </div>
-            <div class="grid lg-50 md-50 sm-50">
-              <div class="text-wrapper ss-text-wrapper bradius-round p-5">
-                <h5 class="color-s fw-500">การบริจาคภาษีแก่พรรค <br> การเมือง</h5>
-                <p class="mt-2 text-nm fw-400">
+            <div class="grid sm-50">
+              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="300">
+                <h5 class="title color-s fw-500">การบริจาคภาษีแก่พรรคการเมือง</h5>
+                <p class="desc fw-400 mt-1">
                   ประชาชนผู้เสียภาษีที่เป็นบุคคลธรรมดาสามารถมีส่วนร่วมทางการเมืองได้ ด้วยผ่านการบริจาคภาษีเงิน
                 </p>
               </div>
             </div>
-            <div class="grid lg-50 md-50 sm-50">
-              <div class="text-wrapper ss-text-wrapper bradius-round p-5">
-                <h5 class="color-s fw-500">เลือกตั้ง อบต.</h5>
-                <p class="mt-2 text-nm fw-400">
-                  วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบลและ
+            <div class="grid sm-50">
+              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="450">
+                <h5 class="title color-s fw-500">เลือกตั้ง อบต.</h5>
+                <p class="desc fw-400 mt-1">
+                  วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. 
+                  เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบลและ
                 </p>
               </div>
             </div>
-            <div class="grid lg-50 md-50 sm-50">
-              <div class="text-wrapper text-wrapper bradius-round p-5">
-                <h5 class="color-s fw-500">การแจ้งเหตุไม่อาจไปใช้สิทธิเลือกตั้งทางสื่ออิเล็กทรอนิกส์</h5>
-                <p class="mt-2 text-nm fw-400">
+            <div class="grid sm-50">
+              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="600">
+                <h5 class="title color-s fw-500">การแจ้งเหตุไม่อาจไปใช้สิทธิเลือกตั้งทางสื่ออิเล็กทรอนิกส์</h5>
+                <p class="desc fw-400 mt-1">
                   เพื่อเป็นการเพิ่มช่องทางอำนวยความสะดวกแก่ประชาชนผู้มีสิทธิเลือกตั้งที่มีความจำเป็นไม่อาจไปใช้สิทธิเลือกตั้ง
                 </p>
               </div>
@@ -261,30 +273,79 @@
     </div>
   </section>
 
-  <!-- <section class="section-05 section-padding">
+  <section class="section-padding">
     <div class="container">
-      <h2 class="text-center fw-700">บทความพิเศษ</h2>
-      <div class="grids">
-        <div class="grid lg-1-3 md-50 sm-50 xs-100">
-          <img src="public/assets/app/images/bg/11.jpg" class="img bradius-round" />
-          <h5 class="mt-5">วารสารสำงานกรรมการเลือกตั้ง:พรรค การเมืองกับการเปลี่ยนแปลงทางการเมืองและการเลือกตั้ง</h5>
-          <p class="mt-3">08 มิถุนายน 2565 / By <span><a href="#">Admin</a></span></p>
-          <p>หยวนออร์แกนิค โบรกเกอร์บ๊อบ รีทัชแคนยอน แบล็คซะบรรพชน แชมเปี้ยน จัมโบ้มาร์ตออดิทอเรียม ลีก เชฟคองเกรสเยลลี่ เพรสแคมป์สี่แยกยูโร กุนซือแบรนด์ ตุ๊กเวเฟอร์โชห่วย แหวว ต่อรองช็อปปิ้งเก๊ะแบล็คลิมิต ฮันนีมูนเปียโนคอรัปชันห่วย แตงกวาช็อปเปอร์แมนชั่น เป็นไงแทงกั๊กลีก</p>
+      <h2 class="text-center fw-700 mb-3" data-aos="fade-up" data-aos-delay="0">
+        บทความพิเศษ
+      </h2>
+      <div class="grids jc-center">
+        <div class="grid lg-1-3 sm-50">
+          <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="150">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
+            </div>
+            <div class="text-container color-black">
+              <a class="title h6 fw-500 h-color-p" href="#">
+                วารสารสำนักงานคณะกรรมการการเลือกตั้ง : พรรค การเมืองกับการเปลี่ยนแปลงทางการเมือง และการเลือกตั้ง
+              </a>
+              <p class="sm fw-400 mt-2">
+                08 มิถุนายน 2565 / By <a class="color-p h-color-s" href="#">Admin</a>
+              </p>
+              <p class="desc fw-300 mt-2">
+                วารสารสำนักงานคณะกรรมการการเลือกตั้ง ฉบับที่ 2 ประจำปี 2563 ภายใต้หัวข้อเรื่อง 
+                พรรคการเมืองกับการเปลี่ยนแปลงทางการเมืองและการเลือกตั้ง” 
+                ซึ่งได้รวบรวมบทความจากนักวิชาการในสาขาวิชาที่เกี่ยวข้อง ซึ่งมีชื่อเสียงอยู่ในระดับต้นๆ ของประเทศ 
+                ทุกบทความที่นำเสนอในวารสารล้วนผ่านการศึกษา ค้นคว้าอย่างเป็นระบบควรค่าแก่การศึกษา 
+                เพื่อทำความเข้าใจระบบพรรคการเมืองไทยให้ลึกซึ้งเป็นอย่างยิ่ง
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="grid lg-1-3 md-50 sm-50 xs-100">
-          <img src="public/assets/app/images/bg/12.jpg" class="img bradius-round" />
-          <h5 class="mt-5">วารสารสำงานกรรมการเลือกตั้ง:พรรค การเมืองกับการเปลี่ยนแปลงทางการเมืองและการเลือกตั้ง</h5>
-          <p class="mt-3">08 มิถุนายน 2565 / By <span><a href="#">Admin</a></span></p>
-          <p>หยวนออร์แกนิค โบรกเกอร์บ๊อบ รีทัชแคนยอน แบล็คซะบรรพชน แชมเปี้ยน จัมโบ้มาร์ตออดิทอเรียม ลีก เชฟคองเกรสเยลลี่ เพรสแคมป์สี่แยกยูโร กุนซือแบรนด์ ตุ๊กเวเฟอร์โชห่วย แหวว ต่อรองช็อปปิ้งเก๊ะแบล็คลิมิต ฮันนีมูนเปียโนคอรัปชันห่วย แตงกวาช็อปเปอร์แมนชั่น เป็นไงแทงกั๊กลีก</p>
+        <div class="grid lg-1-3 sm-50">
+          <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="300">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
+            </div>
+            <div class="text-container color-black">
+              <a class="title h6 fw-500 h-color-p" href="#">
+                หนังสือสรุปผลงานเนื่องในโอกาสครบรอบวันสถาปนาสำนักงานคณะกรรมการการเลือกตั้งปีที่ 23
+              </a>
+              <p class="sm fw-400 mt-2">
+                08 มิถุนายน 2565 / By <a class="color-p h-color-s" href="#">Admin</a>
+              </p>
+              <p class="desc fw-300 mt-2">
+                หนังสือสรุปผลงานเนื่องในโอกาสครบรอบวันสถาปนาสำนักงานคณะกรรมการการเลือกตั้ง ปีที่ 23 ภายใต้แนวคิด 
+                "ECT Transformation สู่องค์กรจัดการเลือกตั้งมืออาชีพ" โดยหนังสือประกอบไปด้วย 
+                สารจากคณะกรรมการการการเลือกตั้งและเลขาธิการคณะกรรมการการเลือกตั้ง 
+                และบทความพิเศษสรุปภาพรวมภารกิจของคณะกรรมการการการเลือกตั้งในรอบปีที่ผ่านมา
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="grid lg-1-3 md-50 sm-50 xs-100">
-          <img src="public/assets/app/images/bg/13.jpg" class="img bradius-round" />
-          <h5 class="mt-5">วารสารสำงานกรรมการเลือกตั้ง:พรรค การเมืองกับการเปลี่ยนแปลงทางการเมืองและการเลือกตั้ง</h5>
-          <p class="mt-3">08 มิถุนายน 2565 / By <span><a href="#">Admin</a></span></p>
-          <p>หยวนออร์แกนิค โบรกเกอร์บ๊อบ รีทัชแคนยอน แบล็คซะบรรพชน แชมเปี้ยน จัมโบ้มาร์ตออดิทอเรียม ลีก เชฟคองเกรสเยลลี่ เพรสแคมป์สี่แยกยูโร กุนซือแบรนด์ ตุ๊กเวเฟอร์โชห่วย แหวว ต่อรองช็อปปิ้งเก๊ะแบล็คลิมิต ฮันนีมูนเปียโนคอรัปชันห่วย แตงกวาช็อปเปอร์แมนชั่น เป็นไงแทงกั๊กลีก</p>
+        <div class="grid lg-1-3 sm-50">
+          <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="450">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/13.jpg');"></div>
+            </div>
+            <div class="text-container color-black">
+              <a class="title h6 fw-500 h-color-p" href="#">
+                วารสารสำนักงานคณะกรรมการการเลือกตั้ง : ปีแห่งการเลือกตั้งท้องถิ่น 2
+              </a>
+              <p class="sm fw-400 mt-2">
+                08 มิถุนายน 2565 / By <a class="color-p h-color-s" href="#">Admin</a>
+              </p>
+              <p class="desc fw-300 mt-2">
+                ภาคสองของการเลือกตั้งท้องถิ่น ซึ่งจะเป็นส่วนต่อขยายเดิม โดยมีเนื้อหาใน 2 ส่วนหลัก คือ 
+                เนื้อหาที่เกี่ยวกับการจัดการเลือกตั้งท้องถิ่น และอีกส่วนหนึ่งเป็น 
+                เนื้อหาที่เกี่ยวกับบทบาทหน้าที่ขององค์กรปกครองส่วนท้องถิ่น ได้แก่ 
+                บทบาทหน้าที่การจัดทำบริการสาธารณะขององค์กรปกครองส่วนท้องถิ่นในบริบทสมัยใหม่ 
+                และองค์กรปกครองส่วนท้องถิ่นยุคใหม่ กับการเสริมพลังอำนาจให้แก่ประชาชน
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="btns jc-center mt-5">
+      <div class="btns jc-center pt-5" data-aos="fade-up" data-aos-delay="0">
         <a href="#" class="btn btn-action btn-p">
           บทความทั้งหมด
         </a>
@@ -292,12 +353,12 @@
     </div>
   </section>
 
-  <section class="section-06 section-padding" style="background-image: url(public/assets/app/images/bg/14.jpg);">
+  <section class="section-padding img-fill" style="background-image:url('public/assets/app/images/bg/14.jpg');">
     <div class="container">
       <div class="grids">
         <div class="grid lg-25 md-50 sm-50 xs-100">
           <div class="pos-relative">
-            <img src="public/assets/app/images/bg/15.png" class="img bradius-round" />
+            <img src="public/assets/app/images/bg/15.jpg" class="img bradius-round" />
             <div class="pos-absolute text-wrapper">
               <h4>คำวินิจฉัย</h4>
               <h6>คณะกรรมการการเลือกตั้ง</h6>
@@ -307,7 +368,7 @@
         </div>
         <div class="grid lg-25 md-50 sm-50 xs-100">
           <div class="pos-relative">
-            <img src="public/assets/app/images/bg/16.png" class="img bradius-round" />
+            <img src="public/assets/app/images/bg/16.jpg" class="img bradius-round" />
             <div class="pos-absolute text-wrapper">
               <h4>รวมถาม-ตอบ</h4>
               <h6>ข้อซักถามพรรคการเมือง</h6>
@@ -317,7 +378,7 @@
         </div>
         <div class="grid lg-25 md-50 sm-50 xs-100">
           <div class="pos-relative">
-            <img src="public/assets/app/images/bg/17.png" class="img bradius-round" />
+            <img src="public/assets/app/images/bg/17.jpg" class="img bradius-round" />
             <div class="pos-absolute text-wrapper">
               <h4>สายด่วน<span class="">1444</span></h4>
               <h6>คณะกรรมการการเลือกตั้ง</h6>
@@ -327,7 +388,7 @@
         </div>
         <div class="grid lg-25 md-50 sm-50 xs-100">
           <div class="pos-relative">
-            <img src="public/assets/app/images/bg/18.png" class="img bradius-round" />
+            <img src="public/assets/app/images/bg/18.jpg" class="img bradius-round" />
             <div class="pos-absolute text-wrapper">
               <h4>Poll Vote</h4>
               <h6>คณะกรรมการการเลือกตั้ง</h6>
@@ -339,27 +400,21 @@
     </div>
   </section>
 
-  <section class="section-07 section-padding">
-    <div class="container">
-      <div class="grids">
-        <div class="grid lg-20 md-50 sm-50 xs-50">
-          <img src="public/assets/app/images/bg/24.png" class="img bradius-round"/>
-        </div>
-        <div class="grid lg-20 md-50 sm-50 xs-50">
-          <img src="public/assets/app/images/bg/23.png" class="img bradius-round" />
-        </div>
-        <div class="grid lg-20 md-50 sm-50 xs-50">
-          <img src="public/assets/app/images/bg/22.png" class="img bradius-round" />
-        </div>
-        <div class="grid lg-20 md-50 sm-50 xs-50">
-          <img src="public/assets/app/images/bg/21.png" class="img bradius-round" />
-        </div>
-        <div class="grid lg-20 md-50 sm-50 xs-50">
-          <img src="public/assets/app/images/bg/20.png" class="img bradius-round" />
-        </div>
+  <section class="client-01 section-padding">
+    <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
+      <div class="slides">
+        <?php for($i=0; $i<5; $i++){?>
+          <div class="slide">
+            <div class="wrapper">
+              <a class="client" href="#">
+                <img src="public/assets/app/images/client/0<?= $i+1 ?>.png" alt="Client" />
+              </a>
+            </div>
+          </div>
+        <?php }?>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <?php include_once('include/footer.php'); ?>
   <?php include_once('include/script.php'); ?>

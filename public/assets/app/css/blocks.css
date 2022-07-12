@@ -22,14 +22,25 @@
 .banner-01 .quote-container .quote{position:absolute; display:block; height:3rem; width:auto;}
 .banner-01 .quote-container .quote.quote-left{bottom:calc(100% + .25rem); left:0;}
 .banner-01 .quote-container .quote.quote-right{top:calc(100% + .25rem); right:0;}
+.banner-01 .arrows{
+    position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:center;
+    justify-content:space-between; pointer-events:none;
+}
+.banner-01 .arrows > .arrow{
+    display:block; pointer-events:auto; cursor:pointer; transition:opacity .25s;
+}
+.banner-01 .arrows > .arrow:hover{opacity:.7;}
+.banner-01 .arrows > .arrow img{display:block; height:5rem; width:auto;}
 @media screen and (max-width:1199.98px){
     .banner-01 .slide > .hero{right:0; width:50vw;}
     .banner-01 .quote-container .quote{height:2.875rem;}
+    .banner-01 .arrows > .arrow img{height:4.5rem;}
 }
 @media screen and (max-width:991.98px){
     .banner-01 .slide{align-items:flex-start; padding:3rem 0;}
     .banner-01 .slide > .hero{right:-3rem; width:28rem;}
     .banner-01 .quote-container .quote{height:2.625rem;}
+    .banner-01 .arrows > .arrow img{height:4rem;}
 }
 @media screen and (max-width:767.98px){
     .banner-01 .slide{padding:2.5rem 0;}
@@ -40,6 +51,7 @@
 @media screen and (max-width:575.98px){
     .banner-01 .slide{padding:2rem 0;}
     .banner-01 .quote-container .quote{height:2.25rem;}
+    .banner-01 .arrows{display:none;}
 }
 .banner-01 .slide .animate{
     opacity:0; transform:translateY(4rem); transition:all ease-in-out .75s;
@@ -47,6 +59,13 @@
 .banner-01 .slide.slick-active .animate{opacity:1; transform:none; transition-delay:var(--delay);}
 .loading .banner-01 .slide .animate{opacity:0!important; transform:translateY(4rem)!important;}
 
+
+/* Client 01 */
+.client-01 .slide-container{width:100%;}
+.client-01 .slide > .wrapper{width:100%; padding:0 .5rem;}
+.client-01 .slide .client{display:block; width:100%; transition:opacity .25s;}
+.client-01 .slide .client:hover{opacity:.8;}
+.client-01 .slide .client > img{display:block; width:100%; height:auto;}
 
 
 /* Paginate */
@@ -80,14 +99,18 @@
 }
 
 
-/* Section 03 */
-.section-03{
-    height:100%; min-height:805px; background-size:cover; background-repeat:no-repeat;
-    background-position: center; 
+/* Section 02 */
+.section-02{padding-bottom:8rem;}
+@media screen and (max-width:991.98px){
+    .section-02{padding-bottom:7rem;}
 }
-.section-03 .text-wrapper{
-    bottom:1rem; width:222px; 
+@media screen and (max-width:767.98px){
+    .section-02{padding-bottom:6rem;}
 }
+@media screen and (max-width:575.98px){
+    .section-02{padding-bottom:5rem;}
+}
+
 
 /* Section 04 */
 .section-04{

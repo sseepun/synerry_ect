@@ -402,152 +402,38 @@ $(function(){ 'use strict';
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
-                    arrows: true, appendArrows: self.find('.arrows'),
-                    dots: true, appendDots: self.find('.dots')
+                    dots: false, arrows: true,
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
                 };
             if(self.hasClass('img-only')){
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
                     focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
-                    arrows: true, appendArrows: self.find('.arrows'),
-                    dots: true, appendDots: self.find('.dots'),
-                    adaptiveHeight: false
+                    dots: false, adaptiveHeight: false, arrows: true, 
+                    prevArrow: self.find('.arrow.arrow-prev'),
+                    nextArrow: self.find('.arrow.arrow-next'),
                 };
             }
             self.find('.slides').slick(options);
         });
     }
     
-
     // Client 01
     var client01 = $('.client-01');
     if(client01.length){
         client01.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 4, swipeToSlide: true,
+                centerMode: true, centerPadding: '8px', slidesToShow: 5, swipeToSlide: true,
                 focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
-                arrows: true, appendArrows: self.find('.arrows'), dots: false,
+                dots: false, arrows: false,
                 responsive: [
+                    { breakpoint: 1199.98, settings: { slidesToShow: 4, } },
                     { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 2, centerPadding: '40px' } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '50px' } },
                 ]
-            });
-        });
-    }
-
-
-    // Intro 03
-    var intro03 = $('.intro-03');
-    if(intro03.length){
-        intro03.find('.slide-container').each(function(){
-            var self = $(this);
-            self.find('.slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 1, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
-                dots: false, arrows: true, appendArrows: self.find('.arrows')
-            });
-        });
-    }
-    
-    // Intro 06
-    var intro06 = $('.intro-06');
-    if(intro06.length){
-        intro06.each(function(){
-            var self = $(this);
-            self.find('.slides').slick({
-                slidesToShow: 7, focusOnSelect: false, infinite: true,
-                autoplay: true, autoplaySpeed: 0, speed: 1200,
-                cssEase: 'linear', arrows: false, dots: false,
-                responsive: [
-                    { breakpoint: 1199.98, settings: { slidesToShow: 6, } },
-                    { breakpoint: 1099.98, settings: { slidesToShow: 5, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 4, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, } },
-                ]
-            });
-        });
-    }
-    
-    // Intro 07
-    var intro07 = $('.intro-07');
-    if(intro07.length){
-        intro07.find('.slide-container').each(function(){
-            var self = $(this);
-            self.find('> .slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 4, swipeToSlide: true,
-                focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
-                dots: false, arrows: true,
-                prevArrow: self.find('.arrow.arrow-prev'),
-                nextArrow: self.find('.arrow.arrow-next'),
-                responsive: [
-                    { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 1, } },
-                ]
-            });
-        });
-    }
-
-    
-    // FAQ 01
-    var faq01 = $('.faq-01');
-    if(faq01.length){
-        faq01.each(function(){
-            $(this).find('.faq > .question .btn.btn-action').click(function(e){
-                e.preventDefault();
-                var self = $(this),
-                    parent = $(this).closest('.faq');
-                if(parent.hasClass('active')){
-                    self.html('ดูคำตอบ');
-                    parent.removeClass('active');
-                    parent.find('> .answer').slideUp();
-                }else{
-                    self.html('ปิดคำตอบ');
-                    parent.addClass('active');
-                    parent.find('> .answer').slideDown();
-                }
-            });
-        });
-    }
-    
-    // FAQ 02
-    var faq02 = $('.faq-02');
-    if(faq02.length){
-        faq02.each(function(){
-            $(this).find('.faq > .question').click(function(e){
-                var parent = $(this).parent(),
-                    target = parent.find('> .answer');
-                if(target.length){
-                    e.preventDefault();
-                    if(parent.hasClass('active')){
-                        parent.removeClass('active');
-                        target.slideUp();
-                    }else{
-                        parent.addClass('active');
-                        target.slideDown();
-                    }
-                }
-            });
-        });
-    }
-
-    
-    // Survey 01
-    var survey01 = $('.survey-01');
-    if(survey01.length){
-        survey01.each(function(){
-            $(this).find('.survey .survey-toggle').click(function(e){
-                e.preventDefault();
-                var parent = $(this).closest('.survey');
-                if(parent.hasClass('active')){
-                    parent.removeClass('active');
-                    parent.find('> .body').slideUp();
-                }else{
-                    parent.addClass('active');
-                    parent.find('> .body').slideDown();
-                }
             });
         });
     }

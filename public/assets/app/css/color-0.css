@@ -105,6 +105,13 @@ nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 
 
+/* Special Card 01 */
+.ss-card-01 .ss-img::after{
+    background-image:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.7),
+        rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
+        rgba(0,0,0,0),rgba(0,0,0,0));
+}
+
 /* Special Card 02 */
 .ss-card-02{color:#ffffff; box-shadow:0px 4px 16px 4px rgba(0,0,0,.15);}
 .ss-card-02.filter-01 .ss-img::after{
@@ -123,9 +130,16 @@ nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
         rgba(10,178,222,0),rgba(10,178,222,0));
 }
 
+/* Special Card 03 */
+.ss-card-03{background:rgba(255,255,255,.6); box-shadow:0px 4px 10px 8px rgba(0,0,0,.01);}
+
 
 /* Special Tags */
 .ss-tags > .tag{background:#04adf0; color:#ffffff;}
+
+
+/* Banner 01 */
+.banner-01{background:#ffffff; box-shadow:0px 4px 10px 8px rgba(0,0,0,.08);}
 
 
 /* Paginate */
