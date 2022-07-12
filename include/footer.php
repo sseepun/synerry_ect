@@ -1,11 +1,15 @@
 
 <!-- Back to Top -->
-<a class="back-to-top active" href="#">
+<!-- <a class="back-to-top active" href="#">
     <i class="fas fa-chevron-up"></i>
-</a>
+</a> -->
 
 <!-- Footer -->
-<nav class="footer border-top bcolor-white">
+<nav class="footer" style="background-image: url(public/assets/app/images/bg/25.jpg);">
+
+</nav>
+
+<!-- <nav class="footer border-top bcolor-white">
     <div class="footer-wrapper" style="display:none;">
         <div class="pattern-container">
             <div class="pattern" style="background-image:url('public/assets/app/images/misc/pattern-02.png');"></div>
@@ -121,10 +125,10 @@
             แผนผังเว็บไซต์ <em class="fas fa-chevron-down"></em>
         </a>
     </div>
-</nav>
+</nav> -->
 
 <!-- Super Footer -->
-<nav class="sfooter color-white bg-07 border-top bcolor-07">
+<!-- <nav class="sfooter color-white bg-07 border-top bcolor-07">
     <div class="container">
         <div class="grids border-bottom-2 bcolor-white">
             <div class="grid xl-40 lg-50 sm-100 mt-0">
@@ -237,4 +241,4 @@
             </div>
         </div>
     </div>
-</nav>
+</nav> -->

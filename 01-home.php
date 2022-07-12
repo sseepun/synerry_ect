@@ -14,7 +14,17 @@
     <div class="container">
       <div class="grids mb-0">
         <div class="grid lg-50">
-
+          <div class="text-intro d-flex ai-center jc-center color-white">
+            <div>
+              <img src="public/assets/app/images/icon/08.png"/>
+              <h3 class="fw-400">จัดการ<span class="h2 fw-600">การเลือกตั้ง</span>ตามหลัก</h3>
+              <h1 class="fw-600">ประชาธิปไตย</h1>
+              <p class="h1 fw-600">โปรงใส<span class="h3 fw-400">และ</span>เป็นธรรม</p>
+              <div class="text-right" >
+                <img src="public/assets/app/images/icon/07.png" />
+              </div>
+            </div>
+          </div>
         </div>
         <div class="grid lg-50">
           <div class="pos-absolute" style="top:8rem">
@@ -122,7 +132,7 @@
     <div class="container">
       <div class="grids">
         <div class="grid lg-40">
-          <!-- Insert Image -->
+          <img src="public/assets/app/images/bg/25.png" class="img"/>
         </div>
         <div class="grid lg-60">
           <div>
@@ -298,7 +308,7 @@
     </div>
   </section>
 
-  <?php // include_once('include/footer.php'); 
+  <?php include_once('include/footer.php'); 
   ?>
   <?php include_once('include/script.php'); ?>
 </body>
