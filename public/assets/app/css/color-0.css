@@ -112,3 +112,8 @@ nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 .section-02 .pagination a.active{
    box-shadow:0px 5px 20px 10px rgba(0,0,0,.1);
 }
+
+/* Section 04 */
+.section-04 .text-wrapper{
+    background:#ffffff; 
+}

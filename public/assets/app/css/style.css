@@ -62,7 +62,7 @@ h1, .h1{font-size:3.5rem;}
 h2, .h2{font-size:2.5rem;}
 h3, .h3{font-size:1.75rem;} 
 h4, .h4{font-size:1.5rem;} 
-h5, .h5{font-size:1.4375rem;}
+h5, .h5{font-size:1.315rem;}
 h6, .h6{font-size:1.125rem;}
 p, .p, li, label{font-size:1rem;}
 @media screen and (max-width:1199.98px){
@@ -1376,6 +1376,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .fw-wrap{flex-wrap:wrap!important;}
 .fw-unset{flex-wrap:unset!important;}
 
+.flex-column{flex-direction:column!important;}
+
 .width-auto, .w-auto{width:auto!important;}
 .width-full, .w-full{width:100%!important; max-width:100%!important;}
 .height-auto, .h-auto{height:auto!important;}
@@ -1424,6 +1426,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .clear-both{clear:both!important;}
 
 .va-baseline{vertical-align:baseline!important;}
+.va-middle{vertical-align:middle!important;}
 
 @media screen and (max-width:1199.98px){
     .lg-no-br > br{display:none;}
