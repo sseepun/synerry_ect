@@ -104,16 +104,25 @@ nav.sidenav .dropdown-toggle{color:#232323;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 
-/* Section 02 */
-.section02 p {color:#6a6a6a !important;}
-.section-02 .categories a.active{
-    background:#0ab3de; color:#ffffff;
-}
-.section-02 .pagination a.active{
-   box-shadow:0px 5px 20px 10px rgba(0,0,0,.1);
-}
+
+/* Special Tags */
+.ss-tags > .tag{background:#04adf0; color:#ffffff;}
+
+
+/* Paginate */
+.paginate{display:flex; align-items:center;}
+.paginate .page:hover{background:#f0f0f0;}
+.paginate .page.active{background:#ffffff; box-shadow:0px 2px 5px 3px rgba(0,0,0,.06);}
+
 
 /* Section 04 */
 .section-04 .text-wrapper{
     background:#ffffff; 
 }
+
+
+/* Tabs 01 */
+.tab-container .tabs.tabs-01 .tab{color:#222325;}
+.tab-container .tabs.tabs-01 .tab:hover{color:#04adf0;}
+.tab-container .tabs.tabs-01 .tab.active{background:#04adf0; color:#ffffff;}
+.tab-container .tabs.tabs-01 .tab::after{background:#e1e1e1;}

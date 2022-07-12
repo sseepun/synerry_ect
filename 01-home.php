@@ -9,7 +9,6 @@
 <body class="loading">
   <?php include_once('include/topnav.php'); ?>
 
-
   <section class="section-01 pos-relative" style="background-image: url(public/assets/app/images/bg/01.jpg);">
     <div class="container">
       <div class="grids mb-0">
@@ -35,106 +34,136 @@
     </div>
   </section>
 
-  <section class="section-02 section-padding">
+  <?php
+    $categories = [
+      [ 
+        'title' => 'เรื่องเด่น กกต.', 'icon' => 'public/assets/app/images/icon/02.png',
+        'icon_active' => 'public/assets/app/images/icon/02-white.png'
+      ], [
+        'title' => 'ข่าวประชาสัมพันธ์', 'icon' => 'public/assets/app/images/icon/06.png',
+        'icon_active' => 'public/assets/app/images/icon/06-white.png'
+      ], [
+        'title' => 'ข่าว สนง. กกต.', 'icon' => 'public/assets/app/images/icon/03.png',
+        'icon_active' => 'public/assets/app/images/icon/03-white.png'
+      ], [
+        'title' => 'ข่าว ประกวดราคา', 'icon' => 'public/assets/app/images/icon/04.png',
+        'icon_active' => 'public/assets/app/images/icon/04-white.png'
+      ], [
+        'title' => 'วิดีโอ', 'icon' => 'public/assets/app/images/icon/05.png',
+        'icon_active' => 'public/assets/app/images/icon/05-white.png'
+      ],
+    ];
+  ?>
+  <section class="section-padding tab-container">
     <div class="container">
       <div class="text-center">
-        <h3 class="fw-700">ข่าวสาร/ประชาสัมพันธ์</h3>
-        <p class="fw-300">ติดตามข่าวสารต่างๆ พร้อมลิงก์ที่น่าสนใจของ กกต.ได้ที่นี่</p>
+        <h3 class="fw-700 color-dark" data-aos="fade-up" data-aos-delay="0">
+          ข่าวสาร/ประชาสัมพันธ์
+        </h3>
+        <p class="h6 fw-400 color-gray mt-1" data-aos="fade-up" data-aos-delay="150">
+          ติดตามข่าวสารต่างๆ พร้อมลิงก์ที่น่าสนใจของ กกต.ได้ที่นี่
+        </p>
       </div>
-      <ul class="categories pl-0">
-        <li>
-          <a href="#" class="fw-400">
-            <img src="public/assets/app/images/icon/02.png" alt="icon" class="va-middle mr-2" width="22" />
-            เรื่องเด่น กกต.
-          </a>
-        </li>
-        <li>
-          <a href="#" class="fw-400 active">
-            <img src="public/assets/app/images/icon/06.png" alt="icon" class="va-middle mr-2" width="22" />
-             ข่าวประชาสัมพันธ์
-          </a>
-        </li>
-        <li class="ml-3">
-          <a href="#" class="fw-400">
-            <img src="public/assets/app/images/icon/03.png" alt="icon" class="va-middle mr-2" width="22" />
-            ข่าว สนง. กกต.
-          </a>
-        </li>
-        <li class="ml-3">
-          <a href="#" class="fw-400">
-            <img src="public/assets/app/images/icon/04.png" alt="icon" class="va-middle mr-2" width="22" />
-            ข่าว ประกวดราคา
-          </a>
-        </li>
-        <li class="ml-3">
-          <a href="#" class="fw-400">
-            <img src="public/assets/app/images/icon/05.png" alt="icon" class="va-middle mr-2" width="22" />
-            วิดีโอ
-          </a>
-        </li>
-      </ul>
-      <div class="grids mt-5">
-        <div class="grid lg-70 md-60 sm-100 xs-100">
-          <div class="pos-relative">
-            <a href="#">
-              <img src="public/assets/app/images/bg/03.jpg" class="img bradius-round" style="height:525px;" />
-            </a>
-            <div class="pos-absolute text-wrapper lg-text-wrapper lg color-white">
-              <a href="#" class="d-inline-block bg-p bradius-round color-white pt-1 pr-3 pb-1 pl-3">เรื่องเด่น กกต.</a>
-              <h6 class="mt-3 fw-500"><a href="#">การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ</a></h6>
-              <p>กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร</p>
-              <p class="mt-3 text-sm">08 มิถุนายน 2565 / By <span class="text-sm"><a href="#">PR ECT</a></span></p>
-            </div>
+      <div class="tabs tabs-01 mt-6" data-aos="fade-up" data-aos-delay="300">
+        <?php foreach($categories as $i=>$d){?>
+          <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+            <div class="icon-inactive"><img src="<?= $d['icon'] ?>" alt="Icon" /></div>
+            <div class="icon-active"><img src="<?= $d['icon_active'] ?>" alt="Icon" /></div>
+            <?= $d['title'] ?>
           </div>
-        </div>
-        <div class="grid lg-30 md-40 sm-100 xs-100">
-          <div class="pos-relative">
-            <a href="#">
-              <img src="public/assets/app/images/bg/04.jpg" class="img bradius-round" style="height:252px;" />
-            </a>
-            <div class="pos-absolute text-wrapper ss-text-wrapper sm color-white">
-              <a href="#" class="d-inline-block bg-p bradius-round color-white pt-1 pr-3 pb-1 pl-3">เรื่องเด่น กกต.</a>
-              <h6 class="mt-3 fw-500 "><a href="#">การประชุมพัฒนางานและยกระดับมาตรฐาน</a></h6>
-              <p class="text-sm">08 มิถุนายน 2565 / By <span class="text-sm"><a href="#">PR ECT</a></span></p>
+        <?php }?>
+      </div>
+      <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="450">
+        <?php foreach($categories as $i=>$d){?>
+          <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+            <div class="grids">
+              <div class="grid lg-70 sm-100">
+
+                <div class="ss-card ss-card-01 main-card">
+                  <a class="ss-img" href="#">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+0)%3+3 ?>.jpg');"></div>
+                  </a>
+                  <div class="text-container color-white">
+                    <div class="ss-tags">
+                      <a class="tag" href="#">เรื่องเด่น กกต.</a>
+                    </div>
+                    <a class="title h5 fw-600 h-color-p mt-3" href="#">
+                      การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ
+                    </a>
+                    <p class="desc">
+                      กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร
+                    </p>
+                    <p class="xs mt-3">
+                      08 มิถุนายน 2565 / By <a class="h-color-p" href="#">PR ECT</a>
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="grid lg-30 sm-100">
+                
+                <div class="ss-card ss-card-01 sub-card">
+                  <a class="ss-img" href="#">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+1)%3+3 ?>.jpg');"></div>
+                  </a>
+                  <div class="text-container color-white">
+                    <div class="ss-tags">
+                      <a class="tag" href="#">เรื่องเด่น กกต.</a>
+                    </div>
+                    <a class="title h5 fw-600 h-color-p mt-2" href="#">
+                      การประชุมพัฒนางานและยกระดับมาตรฐาน
+                    </a>
+                    <p class="xs">
+                      08 มิถุนายน 2565 / By <a class="h-color-p" href="#">PR ECT</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="ss-card ss-card-01 sub-card mt-4">
+                  <a class="ss-img" href="#">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+2)%3+3 ?>.jpg');"></div>
+                  </a>
+                  <div class="text-container color-white">
+                    <div class="ss-tags">
+                      <a class="tag" href="#">เรื่องเด่น กกต.</a>
+                    </div>
+                    <a class="title h5 fw-600 h-color-p mt-2" href="#">
+                      คณะกรรมการการเลือกตั้งครบรอบ 24 ปี
+                    </a>
+                    <p class="xs">
+                      08 มิถุนายน 2565 / By <a class="h-color-p" href="#">PR ECT</a>
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
             </div>
-          </div>
-          <div class="grid lg-30 md-40 sm-100 xs-100">
-            <div class="pos-relative pt-5">
-              <a href="#">
-                <img src="public/assets/app/images/bg/05.jpg" class="img bradius-round" style="height:252px;" />
-              </a>
-              <div class="pos-absolute text-wrapper ss-text-wrapper sm color-white">
-                <a href="#" class="d-inline-block bg-p bradius-round color-white pt-1 pr-3 pb-1 pl-3">เรื่องเด่น กกต.</a>
-                <h6 class="mt-3 fw-500"><a>คณะกรรมการการเลือกตั้งครบรอบ 24 ปี</a></h6>
-                <p class="text-sm">08 มิถุนายน 2565 / By <span><a href="#">PR ECT</a></span></p>
+            <div class="table-footer mt-6 pt-3">
+              <div class="paginate">
+                <div class="page active">1</div>
+                <div class="page">2</div>
+                <div class="page">3</div>
+                <div class="page">4</div>
+                <div class="page">5</div>
+                <div class="page">6</div>
+              </div>
+              <div class="btns">
+                <a class="btn btn-action btn-p" href="#">
+                  <?= $d['title'] ?>ทั้งหมด
+                </a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="btns jc-center mt-5">
-        <ul class="pagination pl-0">
-          <li><a href="#" class="active">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">6</a></li>
-        </ul>
-        <a href="#" class="btn btn-action btn-p">
-          ข่าวประชาสัมพันธ์ทั้งหมด
-        </a>
+        <?php }?>
       </div>
     </div>
   </section>
 
   <section class="section-03 section-padding" style="background-image: url(public/assets/app/images/bg/06.jpg);">
+    <img src="public/assets/app/images/bg/25.png" class="img"/>  
     <div class="container">
       <div class="grids">
-        <div class="grid lg-40">
-          <img src="public/assets/app/images/bg/25.png" class="img"/>
-        </div>
-        <div class="grid lg-60">
+        <div class="grid lg-50 mt-0"></div>
+        <div class="grid lg-50">
           <div>
             <h2 class="color-white fw-500">กกต. พร้อมให้บริการข้อมูลการเลือกตั้งแก่ภาคประชาชนทุกภาคส่วน</h2>
             <p class="h2 color-white">ด้วยหลากหลายแอพพลิเคชั่น</p>
