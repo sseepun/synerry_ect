@@ -158,9 +158,9 @@
     <div class="container">
       <h3 class="fw-700">องค์ความรู้การเลือกตั้ง</h3>
       <div class="grids">
-        <div class="grid lg-50 md-100 sm-100">
+        <div class="grid lg-50 md-100 sm-100 xs-100">
           <div class="grids">
-            <div class="grid lg-50 md-50 sm-50">
+            <div class="grid lg-50 md-50 sm-50 xs-100">
               <div class="text-wrapper ss-text-wrapper bradius-round p-5">
                 <h5 class="color-s fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
                 <p class="mt-2 text-nm fw-400">
@@ -279,20 +279,20 @@
   <section class="section-07 section-padding">
     <div class="container">
       <div class="grids">
-        <div class="grid lg-20 md-50">
-          <img src="public/assets/app/images/bg/demo08.jpg" class="img bradius-round"/>
+        <div class="grid lg-20 md-50 sm-50 xs-50">
+          <img src="public/assets/app/images/bg/24.png" class="img bradius-round"/>
         </div>
-        <div class="grid lg-20 md-50">
-          <img src="public/assets/app/images/bg/demo08.jpg" class="img bradius-round" />
+        <div class="grid lg-20 md-50 sm-50 xs-50">
+          <img src="public/assets/app/images/bg/23.png" class="img bradius-round" />
         </div>
-        <div class="grid lg-20 md-50">
-          <img src="public/assets/app/images/bg/demo08.jpg" class="img bradius-round" />
+        <div class="grid lg-20 md-50 sm-50 xs-50">
+          <img src="public/assets/app/images/bg/22.png" class="img bradius-round" />
         </div>
-        <div class="grid lg-20 md-50">
-          <img src="public/assets/app/images/bg/demo08.jpg" class="img bradius-round" />
+        <div class="grid lg-20 md-50 sm-50 xs-50">
+          <img src="public/assets/app/images/bg/21.png" class="img bradius-round" />
         </div>
-        <div class="grid lg-20 md-50">
-          <img src="public/assets/app/images/bg/demo08.jpg" class="img bradius-round" />
+        <div class="grid lg-20 md-50 sm-50 xs-50">
+          <img src="public/assets/app/images/bg/20.png" class="img bradius-round" />
         </div>
       </div>
     </div>
