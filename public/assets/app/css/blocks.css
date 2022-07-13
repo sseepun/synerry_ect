@@ -112,26 +112,9 @@
 }
 
 
-/* Section 04 */
-.section-04{
-    height:100%; min-height:804px; background-size:cover; background-repeat:no-repeat;
-    background-position: center; 
-}
-.section-04 h5{
-   min-height:80px;
-}
-.section-04 .text-wrapper{
-    min-height:250px;
-}
-
-/* Section 06 */
-.section-06{
-    height:100%; min-height:630px; background-size:cover; background-repeat:no-repeat;
-    background-position: center; 
-}
-.section-06 .text-wrapper{
-    bottom:1.5rem; left:1.5rem;
-}
+/* Section 03 */
+.section-03{background-size:cover; background-position:center;}
+.section-03 > .container{margin-top:-1rem;}
 
 
 /* Tab Container */

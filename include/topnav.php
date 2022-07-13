@@ -168,49 +168,7 @@
   <div class="wrapper">
     <div class="close-filter global-search-toggle"></div>
     <div class="container">
-      <div class="search-panel">
-        <form action="/" method="GET">
-          <div class="form-group mt-0">
-            <div class="append">
-              <input type="text" class="md sgray" placeholder="พิมพ์คำค้นหาที่ต้องการ" required />
-              <button type="submit" class="icon lg">
-                <em class="fas fa-search"></em>
-              </button>
-            </div>
-          </div>
-        </form>
-        <div class="item-container">
-          <p class="fw-600 color-08">คำแนะนำค้นหา</p>
-          <div class="items" data-simplebar>
-            <?php
-              foreach([
-                'ร่างธรรมนูญว่าด้วยการผังเมือง',
-                'นโยบายการตั้งถิ่นฐานและผังเมือง',
-                'สำนักงานสภาพัฒนาการเศรษฐกิจและ',
-                'สังคมแห่งชาติ',
-                'ทิศทางการพัฒนาเชิงพื้นที่',
-                'การจัดระบบเมืองที่มีคุณภาพ',
-                'ร่างธรรมนูญว่าด้วยการผังเมือง',
-                'นโยบายการตั้งถิ่นฐานและผังเมือง',
-              ] as $d){
-            ?>
-              <a class="item p sm fw-600" href="#">
-                <div class="text-container font-01">
-                  <?= $d ?>
-                </div>
-                <div class="icon">
-                  <img src="public/assets/app/images/icon/arrow-right-black.png" alt="Image Icon" />
-                </div>
-              </a>
-            <?php }?>
-          </div>
-          <div class="btns">
-            <a class="btn btn-action btn-color-05 width-full clip-path-01" href="#">
-              ค้นหาขั้นสูง <em class="fas fa-chevron-right sm ml-2"></em>
-            </a>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
 </div>

@@ -353,46 +353,89 @@
     </div>
   </section>
 
-  <section class="section-padding img-fill" style="background-image:url('public/assets/app/images/bg/14.jpg');">
+  <section class="section-03 section-padding" style="background-image:url('public/assets/app/images/bg/14.jpg');">
     <div class="container">
-      <div class="grids">
-        <div class="grid lg-25 md-50 sm-50 xs-100">
-          <div class="pos-relative">
-            <img src="public/assets/app/images/bg/15.jpg" class="img bradius-round" />
-            <div class="pos-absolute text-wrapper">
-              <h4>คำวินิจฉัย</h4>
+      <div class="grids jc-center">
+        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
+          <div class="ss-card ss-card-05 filter-01" data-aos="fade-up" data-aos-delay="0">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
+            </div>
+            <div class="text-container">
+              <h3 class="fw-400 lh-2xs">คำวินิจฉัย</h3>
               <h6>คณะกรรมการการเลือกตั้ง</h6>
-              <a>คลิ๊กที่นี่เพื่ออ่านประกาศ</a>
+              <p class="mt-2">
+                <a class="h-color-t" href="#">คลิกที่นี่เพื่ออ่านประกาศ</a>
+              </p>
             </div>
           </div>
         </div>
-        <div class="grid lg-25 md-50 sm-50 xs-100">
-          <div class="pos-relative">
-            <img src="public/assets/app/images/bg/16.jpg" class="img bradius-round" />
-            <div class="pos-absolute text-wrapper">
-              <h4>รวมถาม-ตอบ</h4>
+        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
+          <div class="ss-card ss-card-05 filter-01" data-aos="fade-up" data-aos-delay="150">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.jpg');"></div>
+            </div>
+            <div class="text-container">
+              <h3 class="fw-400 lh-2xs">รวมถาม-ตอบ</h3>
               <h6>ข้อซักถามพรรคการเมือง</h6>
-              <a>คลิ๊กที่นี่เพื่ออ่านประกาศ</a>
+              <p class="mt-2">
+                <a class="h-color-t" href="#">คลิกที่นี่เพื่ออ่านรายละเอียด</a>
+              </p>
             </div>
           </div>
         </div>
-        <div class="grid lg-25 md-50 sm-50 xs-100">
-          <div class="pos-relative">
-            <img src="public/assets/app/images/bg/17.jpg" class="img bradius-round" />
-            <div class="pos-absolute text-wrapper">
-              <h4>สายด่วน<span class="">1444</span></h4>
-              <h6>คณะกรรมการการเลือกตั้ง</h6>
-              <a>คลิ๊กที่นี่เพื่ออ่านประกาศ</a>
+        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
+          <div class="ss-card ss-card-05 filter-01" data-aos="fade-up" data-aos-delay="300">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.jpg');"></div>
+            </div>
+            <div class="text-container">
+              <div class="d-flex ai-end">
+                <h3 class="fw-400 lh-2xs mr-1">สายด่วน</h3>
+                <h1 class="fw-300 lh-3xs color-t">1444</h1>
+              </div>
+              <h6>สอบถามข้อมูลการเลือกตั้ง</h6>
+              <p class="mt-2">เปิดให้บริการในวันและเวลาราชการ</p>
             </div>
           </div>
         </div>
-        <div class="grid lg-25 md-50 sm-50 xs-100">
-          <div class="pos-relative">
-            <img src="public/assets/app/images/bg/18.jpg" class="img bradius-round" />
-            <div class="pos-absolute text-wrapper">
-              <h4>Poll Vote</h4>
-              <h6>คณะกรรมการการเลือกตั้ง</h6>
-              <a>คลิ๊กที่นี่เพื่ออ่านประกาศ</a>
+        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
+          <div class="ss-card ss-card-05" data-aos="fade-up" data-aos-delay="450">
+            <div class="ss-img">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/18.jpg');"></div>
+            </div>
+            <div class="text-container">
+              <form action="">
+                <h2 class="fw-100 lh-2xs color-t">Poll Vote</h2>
+                <p class="mt-1">
+                  ท่านมีความพึงพอใจในการใช้บริการ
+                  เว็บไซต์ของสำนักงานคณะกรรมการ
+                  การเลือกตั้งในระดับใด ?
+                </p>
+                <fieldset class="mt-1">
+                  <div class="gallery-grids">
+                    <?php foreach(['พอใจมากที่สุด', 'พอใจมาก', 'ปานกลาง', 'เฉยๆ', 'ไม่น่าพอใจ'] as $i=>$d){?>
+                      <div class="grid sm-50 xs-50">
+                        <div class="rc-container">
+                          <input type="radio" id="poll_<?= $i ?>" name="poll" value="<?= $i ?>" />
+                          <label for="poll_<?= $i ?>"><?= $d ?></label>
+                        </div>
+                      </div>
+                    <?php }?>
+                  </div>
+                </fieldset>
+                <div class="btns pt-4">
+                  <button type="submit" class="btn btn-action btn-01 w-full">
+                    <div class="d-flex ai-center jc-center pt-2 pb-2">
+                      <img 
+                        class="img mr-3" src="public/assets/app/images/icon/12.png" 
+                        style="width:1.75rem;" alt="Icon" 
+                      />
+                      <h6 class="fw-600">Vote</h6>
+                    </div>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

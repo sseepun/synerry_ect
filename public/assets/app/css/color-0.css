@@ -12,6 +12,7 @@ html, body, table.table{color:#000000;}
 .color-dark, .h-color-dark:hover{color:#222325!important;}
 .color-gray, .h-color-gray:hover{color:#696969!important;}
 .color-sgray, .h-color-sgray:hover{color:#e1e1e1!important;}
+.color-01, .h-color-01:hover{color:#ff9933!important;}
 
 .bg-p{background:#0ab3de!important;}
 .bg-s{background:#194e84!important;}
@@ -21,6 +22,7 @@ html, body, table.table{color:#000000;}
 .bg-dark{background:#222325!important;}
 .bg-gray{background:#696969!important;}
 .bg-sgray{background:#e1e1e1!important;}
+.bg-01{background:#ff9933!important;}
 
 .bcolor-p{border-color:#0ab3de!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -30,6 +32,7 @@ html, body, table.table{color:#000000;}
 .bcolor-dark{border-color:#222325!important;}
 .bcolor-gray{border-color:#696969!important;}
 .bcolor-sgray{border-color:#e1e1e1!important;}
+.bcolor-01{border-color:#ff9933!important;}
 
 
 /* Buttons */
@@ -43,6 +46,10 @@ html, body, table.table{color:#000000;}
 
 .btn.btn-inactive, .btn.btn-inactive:focus, .btn.btn-inactive:hover,
 .btn.btn-inactive:active{color:#ffffff; background:#e1e1e1; border-color:#e1e1e1;}
+
+.btn.btn-01, .btn.btn-01:focus{color:#ffffff; background:#000033; border-color:#000033;}
+.btn.btn-01:hover{background:#696969; border-color:#696969;}
+.btn.btn-01:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 
 /* Inputs */
@@ -64,6 +71,10 @@ input[type=text].sgray, input[type=email].sgray, input[type=password].sgray, inp
 input[type=tel].sgray, input[type=number].sgray, input[type=phone].sgray, input[type=submit].sgray, 
 input[type=file].sgray, select.sgray, textarea.sgray,
 .form-group .upload-wrapper.sgray::before{background:#e1e1e1!important;}
+
+/* Radio & Checkbox Container */
+.rc-container > label::before{border-color:#0ab3de;}
+.rc-container > label::after{background:#0ab3de;}
 
 
 /* Super Topnav */
@@ -104,6 +115,17 @@ nav.sidenav .dropdown-toggle{color:#232323;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 
+/* Back to Top */
+.back-to-top{background:#194e84; color:#ffffff;}
+.back-to-top:hover{background:#0ab3de;}
+
+/* Footer */
+nav.footer{background:#0d1b62; color:#ffffff;}
+nav.footer .footer-socials > .social{
+    background:transparent; color:#ffffff; border-color:#ffffff;
+}
+nav.footer .footer-socials > .social:hover{background:#0ab3de; border-color:#0ab3de;}
+
 
 /* Special Card 01 */
 .ss-card-01 .ss-img::after{
@@ -132,6 +154,18 @@ nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 
 /* Special Card 03 */
 .ss-card-03{background:rgba(255,255,255,.6); box-shadow:0px 4px 10px 8px rgba(0,0,0,.01);}
+
+/* Special Card 05 */
+.ss-card-05{color:#ffffff; box-shadow:0px 4px 16px 4px rgba(0,0,0,.15);}
+.ss-card-05.filter-01 .ss-img::after{
+    background-image:linear-gradient(to top,rgba(13,27,98,1),rgba(13,27,98,.9),
+        rgba(13,27,98,.4),rgba(13,27,98,0),rgba(13,27,98,0),rgba(13,27,98,0),
+        rgba(13,27,98,0));
+}
+
+
+/* Special List */
+.ss-list > li::before{background:#0ab2de;}
 
 
 /* Special Tags */

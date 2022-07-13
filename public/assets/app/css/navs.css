@@ -212,81 +212,66 @@ nav.sidenav.minisite .options > .option-btn{width:calc(100% - 3.9375rem);}
 
 /* Global Search Container */
 .global-search-container{
-    display:block; position:absolute; left:0; width:100%; height:100vh; z-index:97;
-    opacity:0; pointer-events:none; background:rgba(0,0,0,.7); transition:opacity .45s;
+  display:block; position:absolute; top:6.75rem; left:0; width:100%; height:100vh; z-index:97;
+  opacity:0; pointer-events:none; background:rgba(0,0,0,.7); transition:opacity .45s;
 }
 .global-search-container.active{opacity:1; pointer-events:all;}
-.global-search-container.sticky{position:fixed; top:4.5rem;}
+.global-search-container.sticky{position:fixed; top:4.25rem;}
 .global-search-container > .wrapper{position:relative; width:100%; height:100%; padding:0;}
 .global-search-container .close-filter{
-    position:absolute; top:0; bottom:0; left:0; right:0; cursor:pointer;
-}
-.global-search-container .container{position:relative; display:flex; justify-content:flex-end;}
-.global-search-container .search-panel{display:block; width:100%; max-width:20rem;}
-.global-search-container:not(.minisite) input[type=text]{
-    border:0!important; border-bottom:3px solid transparent!important;
-}
-.global-search-container .form-group .append .icon{width:2.9375rem; background:transparent;}
-.global-search-container .btns{margin:1rem 0 0 0;}
-.global-search-container .item-container{width:100%; padding:1rem;}
-.global-search-container .items{
-    width:calc(100% + 1rem); margin:.25rem -1rem 0 0; max-height:calc(100vh - 17rem);
-    min-height:calc(100vh - 27rem); overflow-x:hidden; overflow-y:auto;
-}
-.global-search-container .item{
-    display:flex; align-items:center; margin:.75rem 1rem 0 0; transition:color .25s;
-}
-.global-search-container .item .text-container{
-    width:calc(100% - 2.5rem); display:block; display:-webkit-box; text-overflow:ellipsis;
-    overflow:hidden; -webkit-box-orient:vertical; -webkit-line-clamp:1;
-}
-.global-search-container .item .icon{
-    display:block; width:2.5rem; padding:0 0 0 1rem; transition:transform .25s;
-}
-.global-search-container .item:hover .icon{transform:translateX(.5rem);}
-.global-search-container .item .icon > img{display:block; width:100%; height:auto;}
-
-.global-search-container.minisite{position:fixed; top:0; left:0;}
-.global-search-container.minisite .container{flex-wrap:wrap;}
-.global-search-container.minisite .btns{width:100%; margin:0;}
-.global-search-container.minisite .btn-close{
-    display:flex; align-items:center; justify-content:center;
-    width:4.5rem; height:4.4375rem; margin:0 0 0 auto;
-}
-.global-search-container.minisite .search-panel{
-    max-width:40rem; padding:2rem 2rem 1.75rem 2rem;
-}
-.global-search-container.minisite .form-group button{border:0;}
-
-@media screen and (max-width:1199.98px){
-    .global-search-container.sticky{top:4.5rem;}
-}
-@media screen and (max-width:991.98px){
-    .global-search-container.minisite .btn-close{
-        width:3.75rem; height:3.9375rem; margin:0 3.875rem 0 auto;
-    }
-    .global-search-container.minisite .search-panel{padding:1.5rem 1.5rem 1.25rem 1.5rem;}
-}
-@media screen and (max-width:767.98px){
-    .global-search-container.sticky{top:4rem;}
-    .global-search-container.minisite .search-panel{padding:1rem 1rem .75rem 1rem;}
+  position:absolute; top:0; bottom:0; left:0; right:0; cursor:pointer;
 }
 
 
 /* Back to Top */
 .back-to-top{
-    display:block; text-decoration:none; width:3rem; height:3rem; border-radius:.3125rem;
-    text-align:center; line-height:3.25rem; font-size:1.25rem; opacity:0; z-index:90;
-    position:fixed; bottom:1rem; right:1rem; border:1.8px solid transparent;
-    pointer-events:none; transition:opacity .25s;
+  display:block; text-decoration:none; width:3rem; height:3rem; border-radius:.3125rem;
+  text-align:center; line-height:3.25rem; font-size:1.25rem; opacity:0; z-index:90;
+  position:fixed; bottom:1rem; right:1rem; border:1.8px solid transparent;
+  pointer-events:none; transition:opacity .25s, background .25s, color .25s;
 }
-.back-to-top.active{opacity:.6; pointer-events:all;}
+.back-to-top.active{opacity:1; pointer-events:all;}
 .back-to-top.active:hover{opacity:1;}
 .back-to-top > i{transform:translateY(-.1875rem);}
 
 
 /* Footer */
-nav.footer{
-  height:100%; min-height:430px; background-size:cover; background-repeat:no-repeat;
-  background-position:center; 
+nav.footer{position:relative; width:100%; padding:2.5rem 0; overflow:hidden;}
+nav.footer > .container{position:relative;}
+nav.footer > .pattern{
+  display:block; height:37rem; width:auto; position:absolute; bottom:-15.5rem; right:-9rem;
+  pointer-events:none; opacity:.08;
+}
+nav.footer .list-icon{display:flex; align-items:center;}
+nav.footer .list-icon > .icon{
+  display:block; width:1.5rem; text-align:center; margin:0 .5rem 0 0; font-size:.875rem;
+}
+nav.footer .title-empty{opacity:0;}
+nav.footer .footer-socials{display:flex; align-items:center; margin:-.375rem -.375rem 0 0;}
+nav.footer .footer-socials > .social{
+  display:flex; align-items:center; justify-content:center; border:2px solid transparent;
+  border-radius:.5rem; font-size:1rem; width:2.375rem; height:2.375rem;
+  margin:.375rem .375rem 0 0; transition:background .25s, color .25s, border-color .25s;
+}
+@media screen and (max-width:1299.98px){
+  nav.footer > .pattern{height:35rem; bottom:-14rem; right:-11rem;}
+  nav.footer .grid.mute-lg{margin-top:0;}
+  nav.footer .grid.mute-lg .title-empty{display:none;}
+}
+@media screen and (max-width:1199.98px){
+  nav.footer{padding:2rem 0;}
+  nav.footer > .pattern{height:32rem; bottom:-12rem; right:-10rem;}
+}
+@media screen and (max-width:991.98px){
+  nav.footer{padding:1.5rem 0 2rem 0;}
+  nav.footer > .pattern{display:none;}
+}
+@media screen and (max-width:767.98px){
+  nav.footer{padding:1.25rem 0 2rem 0;}
+  nav.footer > .pattern{height:28rem; bottom:-11rem; right:-9rem;}
+}
+@media screen and (max-width:575.98px){
+  nav.footer > .pattern{height:25rem; bottom:-10rem; right:-10rem;}
+  nav.footer .grid.mute-xs{margin-top:0;}
+  nav.footer .grid.mute-xs .title-empty{display:none;}
 }
