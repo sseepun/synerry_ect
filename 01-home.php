@@ -65,15 +65,17 @@
   ?>
   <section class="section-padding tab-container">
     <div class="container">
-      <div class="text-center">
-        <h3 class="fw-700 color-dark" data-aos="fade-up" data-aos-delay="0">
-          <?= $categories[1]['title'] ?>
-        </h3>
-        <p class="h6 fw-400 color-gray mt-1" data-aos="fade-up" data-aos-delay="150">
-          ติดตามข่าวสารต่างๆ พร้อมลิงก์ที่น่าสนใจของ กกต.ได้ที่นี่
-        </p>
+      <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
+        <?php foreach($categories as $i=>$d){?>
+          <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+            <div class="text-center">
+              <h3 class="fw-700 color-dark"><?= $d['title'] ?></h3>
+              <p class="h6 fw-400 color-gray mt-1">ติดตามข่าวสารต่างๆ พร้อมลิงก์ที่น่าสนใจของ กกต.ได้ที่นี่</p>
+            </div>
+          </div>
+        <?php }?>
       </div>
-      <div class="tabs tabs-01 mt-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="tabs tabs-01 mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php foreach($categories as $i=>$d){?>
           <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
             <div class="icon-inactive"><img src="<?= $d['icon'] ?>" alt="Icon" /></div>
@@ -82,7 +84,7 @@
           </div>
         <?php }?>
       </div>
-      <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="450">
+      <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($categories as $i=>$d){?>
           <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
             <div class="grids">
