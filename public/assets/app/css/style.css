@@ -544,6 +544,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .ss-band.left::after{left:unset; right:calc(100% + .5rem);}
 
+/* Filter */
 
 /* Special Box */
 .ss-box{display:block; width:100%; max-width:30rem; margin:0 auto;}
@@ -590,10 +591,10 @@ fieldset{padding:0; margin:0; border:0;}
     box-shadow:0 0 10px 2px rgb(0 0 0 / 15%);
 }
 
-
 /* Special Card */
 .ss-card{display:block; width:100%;}
-.ss-card .text-container .title, .ss-card .text-container .desc{
+.ss-card .text-container .title, .ss-card .text-container .desc,
+.ss-card .text-wrapper .title, .ss-card .text-wrapper .desc{
     display:block; display:-webkit-box; text-overflow:ellipsis; overflow:hidden;
     -webkit-box-orient:vertical; transition:color .25s;
 }
@@ -655,6 +656,28 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-card-05 .text-container{position:absolute; bottom:0; left:0; right:0; padding:1rem;}
 @media screen and (max-width:575.98px){
     .ss-card-05 .ss-img{padding:100% 0 0 0;}
+}
+
+/* Special Card 06 */
+.ss-card-06{position:relative; border-radius:.5rem; overflow:hidden;}
+.ss-card-06 .text-wrapper{position:absolute; bottom:0; z-index:2; padding:1.5rem;}
+.ss-card-06 .text-wrapper > .card-top .wrapper{display:flex; align-items:center;}
+.ss-card-06 .text-wrapper > .card-top .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
+.ss-card-06 .text-wrapper > .card-top .wrapper > .icon em{font-size:.8125rem;}
+.ss-card-06 .text-wrapper > .desc{-webkit-line-clamp:3;}
+.ss-card-06 .filter-01{content:''; position:absolute; top:0; bottom:0; left:0; right:0;}
+
+/* Special Card 07 */
+.ss-card-07 .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
+.ss-card-07 .wrapper > .img-container{width:40%; border-radius:.5rem; overflow:hidden;}
+.ss-card-07 .wrapper > .text-container{width:60%; padding-left:1rem;}
+.ss-card-07 .wrapper > .text-container .title{-webkit-line-clamp:3;}
+.ss-card-07 .wrapper > .text-container .card-footer > .wrapper{display:flex; align-items:center;}
+.ss-card-07 .wrapper > .text-container .card-footer > .wrapper .icon{display:flex; align-items:center; margin-right:1rem;}
+.ss-card-07 .wrapper > .text-container .card-footer > .wrapper .icon > em{font-size:.8125rem;}
+@media screen and (max-width:991.98px){
+  .ss-card-07 .wrapper > .img-container{width:100%;}
+  .ss-card-07 .wrapper > .text-container{width:100%; padding-left:0; margin-top:.5rem;}
 }
 
 

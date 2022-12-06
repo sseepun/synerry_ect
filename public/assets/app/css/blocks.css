@@ -116,6 +116,18 @@
 .section-03{background-size:cover; background-position:center;}
 .section-03 > .container{margin-top:-1rem;}
 
+/* Breadcrumb 01 */
+.breadcrumb-01 .top{position:relative; width:100%; padding:1.5rem 0 4rem 0;}
+.breadcrumb-01 .top > .img-bg{
+    position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
+    background-position:center;
+}
+.breadcrumb-01 .bottom .wrapper a:last-child{position:relative; padding-left:2.375rem;}
+.breadcrumb-01 .bottom .wrapper a:last-child::before{
+  position:absolute; content:""; width:1rem; height:4px; top:40%; left:.5rem;
+}
+
+
 
 /* Tab Container */
 .tab-container{position:relative; display:block; width:100%;}
