@@ -497,3 +497,25 @@ function ssPageProcess(){
         });
     }
 }
+
+    // Section 04
+    var section04 = $('.section-05');
+    if(section04.length){
+        section04.each(function(){
+            var self = $(this);
+            new Swiper(self.find('.swiper-container'), {
+                loop: true,
+                slidesPerView: 1,
+                speed: 800,
+                grabCursor: true,
+                navigation: {
+                    nextEl: self.find('.btn-icon-next'),
+                    prevEl: self.find('.btn-icon-prev'),
+                },
+                pagination: {
+                    el: self.find('.dots'),
+                    clickable: true,
+                },
+            });
+        });
+    }

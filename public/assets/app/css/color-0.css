@@ -13,6 +13,7 @@ html, body, table.table{color:#000000;}
 .color-gray, .h-color-gray:hover{color:#696969!important;}
 .color-sgray, .h-color-sgray:hover{color:#e1e1e1!important;}
 .color-01, .h-color-01:hover{color:#ff9933!important;}
+.color-02, .h-color-02:hover{color:#2e603b!important;}
 
 .bg-p{background:#0ab3de!important;}
 .bg-s{background:#194e84!important;}
@@ -23,6 +24,7 @@ html, body, table.table{color:#000000;}
 .bg-gray{background:#696969!important;}
 .bg-sgray{background:#e1e1e1!important;}
 .bg-01{background:#ff9933!important;}
+.bg-02{background:#2e603b!important;}
 
 .bcolor-p{border-color:#0ab3de!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -33,6 +35,7 @@ html, body, table.table{color:#000000;}
 .bcolor-gray{border-color:#696969!important;}
 .bcolor-sgray{border-color:#e1e1e1!important;}
 .bcolor-01{border-color:#ff9933!important;}
+.bcolor-02{border-color:#2e603b!important;}
 
 
 /* Buttons */
@@ -50,6 +53,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-01, .btn.btn-01:focus{color:#ffffff; background:#000033; border-color:#000033;}
 .btn.btn-01:hover{background:#696969; border-color:#696969;}
 .btn.btn-01:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+.btn.btn-02, .btn.btn-02:focus{color:#ffffff; background:#2e603b; border-color:#2e603b;}
+.btn.btn-02:hover{background:#fef200; border-color:#ffffff; color:#2e603b;}
+.btn.btn-02:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 
 /* Inputs */
@@ -75,6 +82,9 @@ input[type=file].sgray, select.sgray, textarea.sgray,
 /* Radio & Checkbox Container */
 .rc-container > label::before{border-color:#0ab3de;}
 .rc-container > label::after{background:#0ab3de;}
+
+/* Select */
+select.style-02{background:#2e603b!important; color:#ffffff!important; border-color:#2e603b!important;}
 
 
 /* Super Topnav */
@@ -133,6 +143,51 @@ nav.footer .footer-socials > .social:hover{background:#0ab3de; border-color:#0ab
 .breadcrumb-01 .wrapper a::after{background:#ffffff;}
 .breadcrumb-01 .title{color:#30906a;}
 
+/* Special List */
+.ss-list > li::before{background:#0ab2de;}
+
+/* Special Tags */
+.ss-tags > .tag{background:#04adf0; color:#ffffff;}
+
+/* Paginate */
+.paginate{display:flex; align-items:center;}
+.paginate .page:hover{background:#f0f0f0;}
+.paginate .page.active{background:#ffffff; box-shadow:0px 2px 5px 3px rgba(0,0,0,.06);}
+
+.paginate.style-02 .arrow{border-color:#e2e2e2; color:#ffffff; background:#e2e2e2;}
+.paginate.style-02 .arrow:hover{background:#2e603b}
+.paginate.style-02 .page{border-color:#e2e2e2; color:#a1a1a1;}
+.paginate.style-02 .page:hover, .paginate .page.active{background:#2e603b; color:#ffffff;}
+
+
+.ui.icon.input > em.icon{background:#30906a; color:#ffffff;}
+
+
+/* Tabs 01 */
+.tab-container .tabs.tabs-01 .tab{color:#222325;}
+.tab-container .tabs.tabs-01 .tab:hover{color:#04adf0;}
+.tab-container .tabs.tabs-01 .tab.active{background:#04adf0; color:#ffffff;}
+.tab-container .tabs.tabs-01 .tab::after{background:#e1e1e1;}
+
+/* List Header */
+.list-header.style-02 .option .icon-view{border-color:#e6e7e9; color:#30906a;}
+.list-header.style-02 .option .icon-view:hover, .list-header.style-02 .option .icon-view.active{
+  border-color:#f86f38; color:#ffffff; background:#30906a;
+}
+.list-header.style-02.calendar .tabs::before{background:#e6e7e9;}
+.list-header.style-02.calendar .tabs > .tab{color:#000000;}
+.list-header.style-02.calendar .tabs > .tab::after{background:#30906a;}
+.list-header.style-02.calendar .tabs > .tab:hover, 
+.list-header.style-02.calendar .tabs > .tab.active{color:#30906a;}
+.list-header.style-02.calendar .tabs > .tab > .count{color:#a9a9a9;}
+
+/* Banner 01 */
+.banner-01{background:#ffffff; box-shadow:0px 4px 10px 8px rgba(0,0,0,.08);}
+
+/* Section 04 */
+.section-04 .text-wrapper{
+  background:#ffffff; 
+}
 
 /* Special Card 01 */
 .ss-card-01 .ss-img::after{
@@ -178,33 +233,5 @@ nav.footer .footer-socials > .social:hover{background:#0ab3de; border-color:#0ab
   rgba(0,0,0,0),rgba(0,0,0,0));
 }
 
-
-/* Special List */
-.ss-list > li::before{background:#0ab2de;}
-
-
-/* Special Tags */
-.ss-tags > .tag{background:#04adf0; color:#ffffff;}
-
-
-/* Banner 01 */
-.banner-01{background:#ffffff; box-shadow:0px 4px 10px 8px rgba(0,0,0,.08);}
-
-
-/* Paginate */
-.paginate{display:flex; align-items:center;}
-.paginate .page:hover{background:#f0f0f0;}
-.paginate .page.active{background:#ffffff; box-shadow:0px 2px 5px 3px rgba(0,0,0,.06);}
-
-
-/* Section 04 */
-.section-04 .text-wrapper{
-    background:#ffffff; 
-}
-
-
-/* Tabs 01 */
-.tab-container .tabs.tabs-01 .tab{color:#222325;}
-.tab-container .tabs.tabs-01 .tab:hover{color:#04adf0;}
-.tab-container .tabs.tabs-01 .tab.active{background:#04adf0; color:#ffffff;}
-.tab-container .tabs.tabs-01 .tab::after{background:#e1e1e1;}
+/* Special Card 09 */
+.ss-card-09 .wrapper > .text-container .text > .card-top .wrapper > .icon em{color:#2e603b;}

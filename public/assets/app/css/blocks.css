@@ -71,11 +71,38 @@
 /* Paginate */
 .paginate{display:flex; align-items:center;}
 .paginate .page{
-    display:flex; align-items:center; justify-content:center;
-    border-radius:50%; cursor:pointer; font-size:1rem; font-weight:400;
-    padding:.125rem 0 0 0; margin:.125rem .1875rem; width:2.25rem; height:2.25rem;
-    transition:background .25s, color .25s, box-shadow .25s;
+  display:flex; align-items:center; justify-content:center;
+  border-radius:50%; cursor:pointer; font-size:1rem; font-weight:400;
+  padding:.125rem 0 0 0; margin:.125rem .1875rem; width:2.25rem; height:2.25rem;
+  transition:background .25s, color .25s, box-shadow .25s;
 }
+
+.paginate.style-02{display:flex; align-items:center;}
+.paginate.style-02 .arrow{
+  display:flex; align-items:center; position:relative; pointer-events:auto; border:1px solid transparent; 
+  background:none; box-shadow:none; cursor:pointer; font-size:1rem; width:2rem; height:2rem;
+  transition:color .25s; border-radius:50%; justify-content:center; 
+}
+
+.paginate.style-02 .pages{display:flex; align-items:center; margin:0 .375rem;}
+.paginate.style-02 .page{
+  display:block; border:0; width:2rem; height:2rem; line-height:2rem;
+  font-size:.875rem; font-weight:400; border-radius:50%; box-shadow:none;
+  cursor:pointer; margin:0 .0625rem; padding:0; text-align:center;
+  transition:background .25s, color .25s; border:1px solid transparent;
+}
+
+
+.paginate.style-02 .page.active, .paginate.style-02 .dot{pointer-events:none;}
+.paginate.style-02 .page.disabled{pointer-events:none; opacity:.7;}
+@media screen and (max-width:767.98px){
+    .paginate.style-02 .pages{margin:0 1.125rem;}
+}
+@media screen and (max-width:575.98px){
+    .paginate.style-02 .pages{margin:0 .75rem;}
+}
+
+
 
 
 /* Section 01 */
