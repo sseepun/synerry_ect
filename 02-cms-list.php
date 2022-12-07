@@ -28,7 +28,7 @@
       <h3 class="fw-500">ไฮไลต์ข่าวประชาสัมพันธ์</h3>
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <?php for($i=0; $i<5; $i++){?>
+          <?php for($i=0; $i<4; $i++){?>
             <div class="swiper-slide">
               <div class="grids">
                 <?php foreach($news01 as $d) {?>
@@ -119,6 +119,13 @@
             </div>
           <?php }?>
         </div>
+        <div class="bullet mt-3">
+          <div class="container">
+            <div class="bullet-wrapper">
+              <div class="dots"></div>
+            </div>
+          </div>  
+        </div>
       </div>
     </div>
   </section>
@@ -148,61 +155,67 @@
   <section class="section-padding">
     <div class="container">
       <h3 class="fw-500">ข่าวสารประชาสัมพันธ์</h3>
+      <div class="mt-6">
+        <?php
+          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          include('component/list-header.php');
+        ?>
+      </div>
       <div class="grids">
         <?php foreach($news03 as $d) {?>
-          <div class="grid lg-100 md-100">
-          <a class="ss-card ss-card-09" href="#">
-            <div class="wrapper">
-              <div class="img-container">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+          <div class="grid lg-100 md-50">
+            <a class="ss-card ss-card-09" href="#">
+              <div class="wrapper">
+                <div class="img-container">
+                  <div class="ss-img">
+                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  </div>
                 </div>
-              </div>
-              <div class="text-container">
-                <div class="text">
-                  <p class="title fw-500 mt-1">
-                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                  </p>
-                  <div class="card-top mt-1">
-                    <div class="wrapper">
-                      <div class="icon">
-                        <em class="fa-solid fa-calendar-days"></em>
-                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
-                      </div>
-                      <div class="icon">
-                        <em class="fa-solid fa-eye"></em>
-                        <span class="p sm ml-2">255</span>
-                      </div>
-                      <div class="icon">
-                        <em class="fa-solid fa-share-nodes"></em>
-                        <span class="p sm ml-2">208</span>
+                <div class="text-container">
+                  <div class="text">
+                    <p class="title fw-500 mt-1">
+                      กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                      ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                      กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                      ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                    </p>
+                    <div class="card-top mt-1">
+                      <div class="wrapper">
+                        <div class="icon">
+                          <em class="fa-solid fa-calendar-days"></em>
+                          <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-eye"></em>
+                          <span class="p sm ml-2">255</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-share-nodes"></em>
+                          <span class="p sm ml-2">208</span>
+                        </div>
                       </div>
                     </div>
+                    <p class="desc sm color-gray mt-1">
+                      กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                      ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                      ปฏิบัติงานระดับการชำนาญพิเศษ
+                      กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                      ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                      ปฏิบัติงานระดับการชำนาญพิเศษ
+                      กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                      ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                      ปฏิบัติงานระดับการชำนาญพิเศษ
+                    </p>
                   </div>
-                  <p class="desc sm color-gray mt-1">
-                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                  </p>
-                </div>
-                <div class="btns jc-center" data-aos="fade-up" data-aos-delay="0">
-                  <div href="#" class="btn btn-action btn-02">
-                    อ่านเพิ่มเติม
+                  <div class="btns jc-center" data-aos="fade-up" data-aos-delay="0">
+                    <div href="#" class="btn btn-action btn-02">
+                      อ่านเพิ่มเติม
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
         <?php }?>
       </div>
 

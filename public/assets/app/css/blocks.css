@@ -143,6 +143,17 @@
 .section-03{background-size:cover; background-position:center;}
 .section-03 > .container{margin-top:-1rem;}
 
+
+/* Section 05 */
+.section-05 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
+.section-05 .swiper-pagination-bullets{padding:0 .5rem; border-radius:1000em;}
+.section-05 .swiper-pagination-bullet{
+    margin:0 .25rem;  width:0.625rem; height:0.625rem; border-radius:.3125rem; 
+    transition:width .25s; opacity:1;
+}
+.section-05 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:2.875rem;}
+
+
 /* Breadcrumb 01 */
 .breadcrumb-01 .top{position:relative; width:100%; padding:1.5rem 0 4rem 0;}
 .breadcrumb-01 .top > .img-bg{
