@@ -498,10 +498,10 @@ function ssPageProcess(){
     }
 }
 
-    // Section 04
-    var section04 = $('.section-05');
-    if(section04.length){
-        section04.each(function(){
+    // Section 05
+    var section05 = $('.section-05');
+    if(section05.length){
+        section05.each(function(){
             var self = $(this);
             new Swiper(self.find('.swiper-container'), {
                 loop: true,
@@ -519,3 +519,56 @@ function ssPageProcess(){
             });
         });
     }
+
+     // Section 06
+     var section06 = $('.section-06');
+     if(section06.length){
+         section06.each(function(){
+             var self = $(this);
+             new Swiper(self.find('.swiper-container'), {
+                 loop: true,
+                 spaceBetween: 20,
+                 slidesPerView: 3,
+                 speed: 800,
+                 grabCursor: true,
+                 navigation: {
+                     nextEl: self.find('.btn-icon-next'),
+                     prevEl: self.find('.btn-icon-prev'),
+                 },
+                 breakpoints: {
+                    1299.98: { slidesPerView: 3 },
+                    991.98: { slidesPerView: 2 },
+                    767.98: { slidesPerView: 2 },
+                    575.98:{ slidesPerView: 1 }
+                },
+                 pagination: {
+                     el: self.find('.dots'),
+                     clickable: true,
+                 },
+             });
+         });
+     }
+
+     // Section 07
+     var section07 = $('.section-07');
+     if(section07.length){
+         section07.each(function(){
+             var self = $(this);
+             new Swiper(self.find('.swiper-container'), {
+                 loop: true,
+                 spaceBetween: 20,
+                 slidesPerView: 1,
+                 speed: 800,
+                 grabCursor: true,
+                 type: "fraction",
+                 navigation: {
+                     nextEl: self.find('.btn-icon-next'),
+                     prevEl: self.find('.btn-icon-prev'),
+                 },
+                 pagination: {
+                     el: self.find('.dots'),
+                     type: "fraction",
+                 },
+             });
+         });
+     }

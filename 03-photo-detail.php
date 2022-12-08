@@ -9,29 +9,28 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ],
+      [ 'url' => '#', 'display' => 'ภาพข่าวสาร/ประชาสัมพันธ์' ],
     ];
-    $breadcrumbTitle = 'ข่าวประชาสัมพันธ์';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/01.jpg';
+    $breadcrumbTitle = 'ภาพกิจกรรม';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/02.jpg';
     include('component/breadcrumb.php');
   ?>
 
-  <section class="section-padding">
+  <section class="section-padding section-07">
     <div class="container">
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-60 sm-100">
           <div class="ss-card ss-card-10">
             <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
-              กรรมการเลือกตั้งมอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตรการอบรมหลักสูตรการ
-              ปฏิบัติงานระดับการชำนาญพิเศษ แนวทางแก้ไขปัญหาในการ
+              ผอ.สนง.กกต.จว.พัทลุง ลงพื้นที่ประสานนายอำเภอเพื่อเตรียมความพร้อมการเลือกตั้งสมาชิกวุฒิสภา
+              ผอ.สนง.กกต.จว.พัทลุง ลงพื้นที่ประสานนายอำเภอเพื่อเตรียมความพร้อมการเลือกตั้งสมาชิกวุฒิสภา
             </h4>
             <div class="card-top mt-3">
               <div class="wrapper">
                 <div class="icon">
                   <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-2 fw-500">เรื่องเด่น กกต.</span>
+                  <span class="p sm ml-2 fw-500">ภาพกิจกรรม</span>
                 </div>
                 <div class="icon">
                   <em class="fa-solid fa-calendar-days"></em>
@@ -47,8 +46,31 @@
                 </div>
               </div>
             </div>
-            <div class="ss-img horizontal mt-3">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <?php for($i=0; $i<20; $i++){?>
+                  <div class="swiper-slide">
+                    <div class="ss-img horizontal mt-3">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= ($i%3+4) ?>.jpg');"></div>
+                    </div>
+                  </div>
+                <?php }?>
+              </div>
+              <div class="btns-swiper">
+                <div class="wrapper">
+                  <div class="btn btn-icon-prev">
+                    <div class="arrow">
+                      <em class="fa-solid fa-arrow-left"></em>
+                    </div>
+                  </div>
+                  <div class="dots"></div>
+                  <div class="btn btn-icon-next">
+                    <div class="arrow">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <p class="desc color-gray fw-400 mt-3">
               กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
@@ -184,7 +206,7 @@
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                       </div>
                     </td>
-                    <td style="min-width:450px;">
+                    <td style="min-width:250px;">
                       <a class="fw-600 h-color-t" href="#">
                         รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                       </a>
@@ -199,13 +221,12 @@
                         </div>
                       </div>
                     </td>
-                    <td style="min-width:100px;">
-                      <div class="d-flex ai-center jc-center fw-wrap">
-                        <a class="btn btn-action-style-02" href="#">
-                          <em class="fa-solid fa-arrow-down"></em>
+                    <td style="min-width:300px;">
+                      <div class="d-flex ai-center jc-end fw-wrap">
+                        <a class="btn btn-action btn-color-07 no-bradius btn-xs" href="#">
+                          ดาวน์โหลด
                         </a>
                       </div>
-                      <p class="xs text-center mt-1">ดาวน์โหลด</p>
                     </td>
                   </tr>
                 <?php }?>
@@ -240,41 +261,34 @@
                 <p class="fw-400">รายการ</p>
               </div> 
               <div class="cate-list mt-2">
-                <p class="color-02 fw-600">ข่าวประชาสัมพันธ์</p>
+                <p class="color-02 fw-600">ภาพกิจกรรม</p>
                 <p class="color-02 fw-600">108</p>
               </div> 
               <div class="cate-list">
-                <p class="fw-400">เรื่องเด่น กกต.</p>
+                <p class="fw-400">ภาพการดูงาน</p>
                 <p class="fw-400">11</p>
-              </div> 
-              <div class="cate-list">
-                <p class="fw-400">ข่าว สนง. กกต.</p>
-                <p class="fw-400">50</p>
-              </div> 
-              <div class="cate-list">
-                <p class="fw-400">ข่าวประกวดราคา</p>
-                <p class="fw-400">3</p>
               </div> 
             </div>   
             <?php 
               $lastestnews = [
-                ['image' => 'public/assets/app/images/content/03.jpg'],
-                ['image' => 'public/assets/app/images/content/08.jpg'],
-                ['image' => 'public/assets/app/images/content/03.jpg']
+                ['image' => 'public/assets/app/images/content/16.jpg'],
+                ['image' => 'public/assets/app/images/content/23.jpg'],
+                ['image' => 'public/assets/app/images/content/16.jpg']
               ]
             ?>
             <h5 class="fw-600" data-aos="fade-up" data-aos-delay="150">
               ข่าวล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <div class="ss-card ss-card-12 mt-3" data-aos="fade-up" data-aos-delay="300">
+              <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                 </div>
                 <div class="text-container">
-                  <p class="fw-400 lh-sm mt-2">
-                    รองเลขาธิการคณะกรรมการเลือกตั้ง เป็นประธานในการประชุม
-                    ผู้บริหารกลุ่มภารกิจ
+                  <p class="title fw-400 lh-sm mt-2">
+                    สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม 
+                    ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
+                    ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
                   </p>
                   <div class="card-footer mt-2">
                     <div class="wrapper">
@@ -293,7 +307,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             <?php }?>
           </div>   
         </div>
