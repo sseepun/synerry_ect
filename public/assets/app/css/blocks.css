@@ -102,6 +102,61 @@
     .paginate.style-02 .pages{margin:0 .75rem;}
 }
 
+/* Faq 01 */
+.faq-01{width:100%;}
+.faq-01 .faq{width:100%; margin:.4375rem 0 0 0;}
+.faq-01 .faq > .question{
+    width:100%; display:flex; padding:.4375rem; border:1px solid transparent;
+    cursor:pointer; transition:border-color .25s; border-radius:.4375rem;
+}
+.faq-01 .faq > .question h6{
+    display:block; width:calc(100% - 5rem); padding:0 .625rem; margin:.625rem 0 0 0;
+    transition:color .25s;
+}
+.faq-01 .faq .ftag, .faq-01 .faq .arrow{
+    display:block; width:2.625rem; height:2.625rem;
+    position:relative; font-size:1.875rem; text-align:center; font-weight:600;
+    transition:border-color .25s, color .25s; 
+}
+.faq-01 .faq .arrow::before, .faq-01 .faq .arrow::after{
+    content:''; position:absolute; transition:transform .25s, background .25s;
+}
+.faq-01 .faq .arrow::before{
+    top:calc(50% - .0625rem); left:.5rem; right:.5rem; height:.125rem;
+}
+.faq-01 .faq .arrow::after{
+    top:.5rem; bottom:.5rem; left:calc(50% - .0625rem); width:.125rem;
+}
+.faq-01 .faq.active .arrow::after{transform:rotate(90deg);}
+.faq-01 .faq > .answer{display:none; width:100%; padding:.75rem .4375rem;}
+.faq-01 .faq > .answer > .wrapper{
+    display:flex; justify-content:space-between; width:100%; max-width:calc(100% - 6.5rem);
+    margin:0 auto;
+}
+.faq-01 .faq > .answer .content{
+    width:calc(100% - 2.625rem); padding:1.25rem 1.25rem .5rem 1.25rem;
+    border:1px solid transparent;
+}
+.faq-01 .faq > .answer .content > .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
+.faq-01 .faq > .answer .content > .wrapper .img-container{width:25%; border-radius:.5rem; overflow:hidden;}
+.faq-01 .faq > .answer .content > .wrapper .text-container{width:75%; padding:0 1.5rem;}
+
+.faq-01.round .faq > .question{border-radius:1.8125rem;}
+.faq-01.round .faq .ftag, .faq-01.round .faq .arrow{border-radius:50%;}
+.faq-01.round .faq > .answer .content{width:calc(100% - 3rem); border-radius:1.5rem;}
+@media screen and (max-width:991.98px){
+    .faq-01 .faq > .answer > .wrapper{max-width:100%;}
+}
+@media screen and (max-width:767.98px){
+    .faq-01 .faq > .answer .content > .wrapper .img-container{width:100%;}
+    .faq-01 .faq > .answer .content > .wrapper .text-container{width:100%; padding:.5rem 0;}
+    .faq-01 .faq > .question h6{margin:.4375rem 0 0 0; width:calc(100% - 4.5rem);}
+    .faq-01 .faq .ftag, .faq-01 .faq .arrow{
+        width:2.25rem; height:2.25rem; line-height:2.25rem; font-size:.9375rem;
+    }
+    .faq-01 .faq > .answer .content{padding:1rem 1rem 0 1rem;}
+    .faq-01.round .faq > .answer .content{width:calc(100% - 2.625rem);}
+}
 
 
 
