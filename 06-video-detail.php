@@ -9,28 +9,29 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ภาพข่าวสาร/ประชาสัมพันธ์' ],
+      [ 'url' => '#', 'display' => 'วิดีโอ' ],
     ];
-    $breadcrumbTitle = 'ภาพกิจกรรม';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/02.jpg';
+    $breadcrumbTitle = 'วิดีโอ';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/05.jpg';
     include('component/breadcrumb.php');
   ?>
 
-  <section class="section-padding section-07">
+  <section class="section-padding">
     <div class="container">
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-60 sm-100">
           <div class="ss-card ss-card-10">
             <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
-              ผอ.สนง.กกต.จว.พัทลุง ลงพื้นที่ประสานนายอำเภอเพื่อเตรียมความพร้อมการเลือกตั้งสมาชิกวุฒิสภา
-              ผอ.สนง.กกต.จว.พัทลุง ลงพื้นที่ประสานนายอำเภอเพื่อเตรียมความพร้อมการเลือกตั้งสมาชิกวุฒิสภา
+              กรรมการเลือกตั้งมอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตรการอบรมหลักสูตรการ
+              ปฏิบัติงานระดับการชำนาญพิเศษ แนวทางแก้ไขปัญหาในการ
             </h4>
             <div class="card-top mt-3">
               <div class="wrapper">
                 <div class="icon">
                   <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-2 fw-500">ภาพกิจกรรม</span>
+                  <span class="p sm ml-2 fw-500">เรื่องเด่น กกต.</span>
                 </div>
                 <div class="icon">
                   <em class="fa-solid fa-calendar-days"></em>
@@ -46,31 +47,8 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <?php for($i=0; $i<20; $i++){?>
-                  <div class="swiper-slide">
-                    <div class="ss-img horizontal mt-3">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= ($i%3+4) ?>.jpg');"></div>
-                    </div>
-                  </div>
-                <?php }?>
-              </div>
-              <div class="btns-swiper">
-                <div class="wrapper">
-                  <div class="btn btn-icon-prev">
-                    <div class="arrow">
-                      <em class="fa-solid fa-arrow-left"></em>
-                    </div>
-                  </div>
-                  <div class="dots"></div>
-                  <div class="btn btn-icon-next">
-                    <div class="arrow">
-                      <em class="fa-solid fa-arrow-right"></em>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="ss-img horizontal mt-3">
+              <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
             </div>
             <p class="desc color-gray fw-400 mt-3">
               กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
@@ -84,40 +62,6 @@
               กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
               ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
             </p>
-          </div>
-          <?php 
-            $news01 = [
-              ['image' => 'public/assets/app/images/content/02.jpg'],
-              ['image' => 'public/assets/app/images/content/10.jpg'],
-              ['image' => 'public/assets/app/images/content/11.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg'],
-              ['image' => 'public/assets/app/images/content/13.jpg'],
-              ['image' => 'public/assets/app/images/content/14.jpg'],
-              ['image' => 'public/assets/app/images/content/15.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg', 'classer' => 'active'],
-            ]
-          ?>
-          <div class="grids jc-center mt-4" data-aos="fade-up" data-aos-delay="0">
-            <?php foreach($news01 as $d) {?>
-              <div class="grid xl-25 lg-1-3">
-                <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                  </div>
-                  <div class="filter-01">
-                    <div class="text">
-                      <h3 class="number lh-3xs fw-600">+30</h3>
-                      <p class="h6 fw-500">รูปภาพ</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            <?php }?>
-          </div>
-          <div class="btns jc-center mt-3" data-aos="fade-up" data-aos-delay="150">
-            <div href="#" class="btn btn-action btn-02">
-              ดาวน์โหลดทั้งหมด (30)
-            </div>
           </div>
           <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
             <div>
@@ -161,33 +105,6 @@
               </div>
             </div>
           </div>
-          <?php 
-            $videos = [
-              ['image' => 'public/assets/app/images/content/14.jpg'],
-              ['image' => 'public/assets/app/images/content/15.jpg'],
-              ['image' => 'public/assets/app/images/content/13.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg'],
-            ]
-          ?>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="0">
-            วิดีโอที่เกี่ยวข้อง
-          </h4>
-          <div class="grids" data-aos="fade-up" data-aos-delay="150">
-            <?php foreach($videos as $d) {?>
-              <div class="grid lg-25 sm-50 mt-2">
-                <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="hover-container show">
-                      <div class="icon sm">
-                        <img src="public/assets/app/images/icon/play-thin.png" alt="Play Icon">
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            <?php }?>
-          </div>
           <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="300">
             ไฟล์ที่เกี่ยวข้อง
           </h4>  
@@ -196,8 +113,7 @@
               <tbody>
                 <?php
                   foreach([
-                    'pdf', 'doc', 'docx', 'xls', 'xlsx',
-                    'ppt', 'pptx', 'zip', 'rar'
+                    'pdf', 'pdf', 'pdf'
                   ] as $k){
                 ?>
                   <tr class="box-shadow style-02 mb-2">
@@ -262,36 +178,43 @@
                 <p class="fw-400">รายการ</p>
               </div> 
               <div class="cate-list mt-2">
-                <p class="color-02 fw-600">ภาพกิจกรรม</p>
+                <p class="color-02 fw-600">งานกิจกรรม</p>
                 <p class="color-02 fw-600">108</p>
               </div> 
               <div class="cate-list">
-                <p class="fw-400">ภาพการดูงาน</p>
+                <p class="fw-400">งานสัมนา</p>
                 <p class="fw-400">11</p>
               </div> 
+              <div class="cate-list">
+                <p class="fw-400">แหล่งความรู้</p>
+                <p class="fw-400">50</p>
+              </div>  
             </div>   
             <?php 
               $lastestnews = [
-                ['image' => 'public/assets/app/images/content/16.jpg'],
-                ['image' => 'public/assets/app/images/content/23.jpg'],
-                ['image' => 'public/assets/app/images/content/16.jpg']
+                ['image' => 'public/assets/app/images/content/43.jpg'],
+                ['image' => 'public/assets/app/images/content/42.jpg'],
+                ['image' => 'public/assets/app/images/content/43.jpg']
               ]
             ?>
             <h5 class="fw-600" data-aos="fade-up" data-aos-delay="150">
               ข่าวล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
+              <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="hover-container show">
+                    <div class="icon sm">
+                      <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                    </div>
+                  </div>
                 </div>
                 <div class="text-container">
-                  <p class="title fw-400 lh-sm mt-2">
-                    สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม 
-                    ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
-                    ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
+                  <p class="title fw-500">
+                    "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
                   </p>
-                  <div class="card-footer mt-2">
+                  <div class="card-bottom mt-1">
                     <div class="wrapper">
                       <div class="icon">
                         <em class="fa-solid fa-calendar-days"></em>

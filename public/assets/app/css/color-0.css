@@ -79,6 +79,13 @@ html, body, table.table{color:#000000;}
 .faq-01 .faq > .question .ftag{color:#2e603c;}
 .faq-01 .faq.active > .question .ftag{color:#ffffff;}
 .faq-01 .faq .arrow::before, .faq-01 .faq .arrow::after{background:#fef200;}
+.faq-01 .fag.active > .answer{border:3px solid yellow; display:block!important;}
+.faq-01 .fag.active > .answer{border-color:#3aa57b!important;}
+.faq-01 .faq .answer-wrapper{background:#044c21; color:#ffffff;}
+.faq-01 .faq.active .date-view{color:#ffffff;}
+.faq-01 .faq .arrow > .wrapper em{color:#fef200;}
+.faq-01 .faq .date-view > .wrapper .icon > em{color:#2e603c;}
+.faq-01 .faq.active .date-view > .wrapper .icon > em{color:#ffffff;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -312,3 +319,8 @@ table.table.table-download .text-footer > .wrapper .icon{color:#30906a;}
 .ss-card-15:hover .ss-img{border-color:#fff311;}
 .ss-card-15 .wrapper > .img-container .ss-img > .filter-01{background:rgb(48,144,106,.6);}
 .ss-card-15:hover .btn{background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);}
+
+/* Special Card 16 */
+.ss-card-16:hover .ss-img{border-color:#fff311;}
+.ss-card-16:hover .btn{background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);}
+.ss-card-16 .text-container > .card-bottom .wrapper > .icon em{color:#2e603b;}

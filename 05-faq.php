@@ -30,11 +30,32 @@
           <div class="faq <?php if($i==0)echo 'active'; ?>">
             <div class="question box-shadow style-02">
               <h3 class="ftag"><?php echo $i+1 ?></h3>
-              <h6 class="p lg fw-500">
-                การเลือกตั้งผู้ว่ากรุงเทพมหานครในวันที่ 22 พค.นี้ 
-                จะมีการจัดการเลือกตั้งล่วงหน้าหรือไม่ เนื่องจากจะเดินทางไปต่างจังหวัดและคงกลับ 
+              <h6 class="title p lg fw-400">
+                สำนักงานคณะกรรมการการเลือกตั้งตอบข้อสอบถามพรรคกล้าเกี่ยวกับ
+                การปฏิบัติของพรรคการเมืองในการให้ความช่วยเหลือประชาชนในสถานการณ์
+                การระบาดของเชื่อไวรัสโควิด-19 รายละเอียดตามเอกสารตอบข้อหารือ 
               </h6>
-              <div class="arrow"></div>
+              <div class="date-view">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-calendar-days"></em>
+                    <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                  </div>
+                  <div class="icon">
+                    <em class="fa-solid fa-eye"></em>
+                    <span class="p sm ml-2">255</span>
+                  </div>
+                </div>
+              </div>
+              <div class="arrow">
+                <div class="wrapper">
+                  <em class="fa-solid fa-minus"></em>
+                </div>
+              </div>
+              <div class="answer-wrapper">
+                <img src="public/assets/app/images/icon/13.png" alt="">
+                <p class="sm">คำตอบ</p>
+              </div>
             </div>
             <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
               <div class="content">
@@ -61,7 +82,7 @@
                       <tbody>
                         <?php
                           foreach([
-                            'pdf', 'doc'
+                            'pdf'
                           ] as $k){
                         ?>
                           <tr class="box-shadow style-02 mb-2">
@@ -145,6 +166,8 @@
             </div>
           <?php }?>
       </div>
+  
+      
       <div class="mt-6 pt-4">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
