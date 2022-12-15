@@ -14,6 +14,7 @@ html, body, table.table{color:#000000;}
 .color-sgray, .h-color-sgray:hover{color:#e1e1e1!important;}
 .color-01, .h-color-01:hover{color:#ff9933!important;}
 .color-02, .h-color-02:hover{color:#2e603c!important;}
+.color-03, .h-color-03:hover{color:#c6dccc!important;}
 
 .bg-p{background:#0ab3de!important;}
 .bg-s{background:#194e84!important;}
@@ -25,6 +26,7 @@ html, body, table.table{color:#000000;}
 .bg-sgray{background:#e1e1e1!important;}
 .bg-01{background:#ff9933!important;}
 .bg-02{background:#2e603c!important;}
+.bg-03{background:#c6dccc!important;}
 
 .bcolor-p{border-color:#0ab3de!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -36,6 +38,7 @@ html, body, table.table{color:#000000;}
 .bcolor-sgray{border-color:#e1e1e1!important;}
 .bcolor-01{border-color:#ff9933!important;}
 .bcolor-02{border-color:#2e603c!important;}
+.bcolor-03{border-color:#c6dccc!important;}
 
 
 /* Buttons */
@@ -324,3 +327,16 @@ table.table.table-download .text-footer > .wrapper .icon{color:#30906a;}
 .ss-card-16:hover .ss-img{border-color:#fff311;}
 .ss-card-16:hover .btn{background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);}
 .ss-card-16 .text-container > .card-bottom .wrapper > .icon em{color:#2e603b;}
+
+/* Special Card 17 */
+.ss-card-17:hover .ss-img{border-color:#fff311;}
+.ss-card-17:hover .btn{background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);}
+.ss-card-17 .text-container > .card-bottom .wrapper > .icon em{color:#2e603b;}
+
+/* Special Card 18 */
+.ss-card-18:hover .wrapper > .img-container .ebook-container > .wrapper{border-color:#fff311;}
+.ss-card-18 .wrapper > .img-container .ebook-container > .wrapper .filter-01{background:rgb(48,144,106,.6);}
+.ss-card-18:hover .wrapper > .text-container .btns > .btn{
+  background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);
+}
+.ss-card-18 .wrapper > .img-container .ebook-container::after{background:#c6dccc;}

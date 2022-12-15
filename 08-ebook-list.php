@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <?php include_once('include/header.php'); ?>
+  <?php include_once('include/style.php'); ?>
+</head>
+<body class="loading">
+  <?php include_once('include/topnav.php'); ?>
+  <?php
+    $breadcrumb = [
+      [ 'url' => '#', 'display' => 'หน้าหลัก' ],
+      [ 'url' => '#', 'display' => 'สื่อประชาสัมพันธ์' ],
+    ];
+    $breadcrumbTitle = 'สื่อประชาสัมพันธ์';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/07.jpg';
+    include('component/breadcrumb.php');
+  ?>
+
+  <?php 
+    $ebooks = [
+      ['image' => 'public/assets/app/images/content/55.jpg'], 
+      ['image' => 'public/assets/app/images/content/56.jpg'],
+      ['image' => 'public/assets/app/images/content/57.jpg'],
+      ['image' => 'public/assets/app/images/content/58.jpg'],
+      ['image' => 'public/assets/app/images/content/59.jpg'],
+    ]
+  ?>
+
+  <section class="section-padding section-09">
+    <div class="swiper-background bg-03"></div>
+    <!-- <div class="swiper-background bg-03">
+      <div class="arrows-container">
+        <div class="wrapper">
+          <div class="btn btn-icon-prev">
+            <div class="arrow">
+              <em class="fa-solid fa-arrow-left"></em>
+            </div>
+          </div>
+          <div class="btn btn-icon-next">
+            <div class="arrow">
+              <em class="fa-solid fa-arrow-right"></em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+        ไฮไลต์สื่อประชาสัมพันธ์
+      </h3>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <?php foreach($ebooks as $d) {?>
+            <div class="swiper-slide">
+              <div class="ss-img vertical">
+                <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+        <div class="shelf-container">
+          <img class="img" src="public/assets/app/images/content/shelf.png">  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <?php 
+    $ebook02 = [
+      ['image' => 'public/assets/app/images/content/e-book-01.png'],
+      ['image' => 'public/assets/app/images/content/e-book-02.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-03.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-04.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-01.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-02.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-03.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-04.png']
+    ]
+  ?>
+
+  <section class="section-padding">
+    <div class="container">
+      <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+        สื่อประชาสัมพันธ์
+      </h3>
+      <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
+        <?php
+          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          include('component/list-header.php');
+        ?>
+      </div>
+      <div class="grids" data-aos="fade-up" data-aos-delay="300">
+        <?php foreach($ebook02 as $d) {?>
+          <div class="grid lg-100 md-50 sm-50 xs-100">
+            <a class="ss-card ss-card-18" href="#">
+              <div class="wrapper">
+                <div class="img-container">
+                  <div class="ss-img horizontal-02">
+                    <div class="ebook-container">
+                      <div class="wrapper">
+                        <img src="<?= $d['image']?>" alt="Ebook">
+                        <div class="filter-01"></div>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+                <div class="text-container">
+                  <p class="title fw-500">
+                    คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+                    คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+                    คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+                  </p>
+                  <div class="card-bottom mt-1">
+                    <div class="wrapper">
+                      <div class="icon">
+                        <em class="fa-solid fa-calendar-days"></em>
+                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-eye"></em>
+                        <span class="p sm ml-2">255</span>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-share-nodes"></em>
+                        <span class="p sm ml-2">208</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btns mt-6" data-aos="fade-up" data-aos-delay="300">
+                    <div href="#" class="btn btn-action btn-02">
+                      <em class="icon fa-solid fa-arrow-right"></em>
+                      อ่านเพิ่มเติม
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        <?php }?>
+      </div>
+      <div class="mt-6 pt-4">
+        <?php
+          $listFooter = ['total', 'paginate', 'pp'];
+          include('component/list-footer.php');
+        ?>
+      </div>
+    </div>
+  </section>
+
+  <?php include_once('include/footer.php'); ?>
+  <?php include_once('include/script.php'); ?>
+</body>
+</html>

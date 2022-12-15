@@ -590,3 +590,37 @@ function ssPageProcess(){
              });
          });
      }
+
+     // Section 09
+     var section09 = $('.section-09');
+     if(section09.length){
+         section09.each(function(){
+             var self = $(this);
+             new Swiper(self.find('.swiper-container'), {
+                 loop: true,
+                 spaceBetween: 50,
+                 slidesPerView: 5,
+                 effect: 'coverflow', 
+                 coverflowEffect: {
+                     rotate: 0,
+                     stretch: 0,
+                     // depth: 0,
+                     modifier: 1,
+                     slideShadows : true
+                 },
+                 breakpoints: {
+                    1299.98: { slidesPerView: 5 },
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 3 },
+                    575.98:{ slidesPerView: 3 }
+                },
+                 speed: 800,
+                 grabCursor: true,
+                 type: "fraction",
+                 navigation: {
+                     nextEl: self.find('.btn-icon-next'),
+                     prevEl: self.find('.btn-icon-prev'),
+                 },
+             });
+         });
+     }
