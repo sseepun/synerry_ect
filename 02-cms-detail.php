@@ -296,6 +296,26 @@
               </div>
             <?php }?>
           </div>   
+          <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
+              <p class="h5 fw-600">แท็กยอดนิยม</p>
+              <div class="mt-1">
+                <div class="ss-tags">
+                  <div class="tag">ข่าวประกาศ</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">อบรมหลักสูตร</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">การเลือกตั้ง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">ระดับชำนาญการพิเศษ</div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>

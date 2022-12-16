@@ -16,7 +16,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
 <link rel="stylesheet" href="public/assets/lib/fancybox-3.5.7/dist/jquery.fancybox.min.css" />
 <link rel="stylesheet" href="public/assets/lib/simplebar/simplebar.css" />
+<link rel="stylesheet" href="public/assets/lib/wow_book/wow_book/wow_book.css" />
 <link rel="stylesheet" href="public/assets/lib/aos-2.3.1/aos.min.css" />
+
 
 <link rel="stylesheet" href="public/assets/app/css/grids.css" />
 <link rel="stylesheet" href="public/assets/app/css/style.css" />

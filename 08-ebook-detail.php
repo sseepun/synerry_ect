@@ -18,88 +18,54 @@
 
   <section class="section-padding section-07">
     <div class="container">
+      <div class="ss-card ss-card-10">
+        <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
+          คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือ
+        </h4>
+        <div class="card-top mt-3">
+          <div class="wrapper">
+            <div class="icon">
+              <em class="fa-regular fa-file-lines"></em>
+              <span class="p sm ml-2 fw-500">ภาพกิจกรรม</span>
+            </div>
+            <div class="icon">
+              <em class="fa-solid fa-calendar-days"></em>
+              <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
+            </div>
+            <div class="icon">
+              <em class="fa-solid fa-eye"></em>
+              <span class="p sm ml-2 fw-500">255</span>
+            </div>
+            <div class="icon">
+              <em class="fa-solid fa-share-nodes"></em>
+              <span class="p sm ml-2 fw-500">208</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="book-container mt-3">
+        <div class="wow-book" id="wow-book">
+          <?php for($i=0; $i<6; $i++){?>
+            <div><img class="img" src="public/assets/app/images/content/6<?= ($i%2+4) ?>.jpg" alt="Page <?= $i ?>" /></div>
+          <?php }?>
+        </div>
+      </div>
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-60 sm-100">
-          <div class="ss-card ss-card-10">
-            <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
-              คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือ
-            </h4>
-            <div class="card-top mt-3">
-              <div class="wrapper">
-                <div class="icon">
-                  <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-2 fw-500">ภาพกิจกรรม</span>
-                </div>
-                <div class="icon">
-                  <em class="fa-solid fa-calendar-days"></em>
-                  <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
-                </div>
-                <div class="icon">
-                  <em class="fa-solid fa-eye"></em>
-                  <span class="p sm ml-2 fw-500">255</span>
-                </div>
-                <div class="icon">
-                  <em class="fa-solid fa-share-nodes"></em>
-                  <span class="p sm ml-2 fw-500">208</span>
-                </div>
-              </div>
-            </div>
-            <div class="book-container mt-3">
-              <div class="wow-book" id="wow-book">
-                <?php for($i=0; $i<6; $i++){?>
-                  <div><img class="img" src="public/assets/app/images/content/02.jpg" alt="Page <?= $i ?>" /></div>
-                <?php }?>
-              </div>
-            </div>
-            <p class="desc color-gray fw-400 mt-3">
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-            </p>
-          </div>
-          <?php 
-            $news01 = [
-              ['image' => 'public/assets/app/images/content/02.jpg'],
-              ['image' => 'public/assets/app/images/content/10.jpg'],
-              ['image' => 'public/assets/app/images/content/11.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg'],
-              ['image' => 'public/assets/app/images/content/13.jpg'],
-              ['image' => 'public/assets/app/images/content/14.jpg'],
-              ['image' => 'public/assets/app/images/content/15.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg', 'classer' => 'active'],
-            ]
-          ?>
-          <div class="grids jc-center mt-4" data-aos="fade-up" data-aos-delay="0">
-            <?php foreach($news01 as $d) {?>
-              <div class="grid xl-25 lg-1-3">
-                <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                  </div>
-                  <div class="filter-01">
-                    <div class="text">
-                      <h3 class="number lh-3xs fw-600">+30</h3>
-                      <p class="h6 fw-500">รูปภาพ</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            <?php }?>
-          </div>
-          <div class="btns jc-center mt-3" data-aos="fade-up" data-aos-delay="150">
-            <div href="#" class="btn btn-action btn-02">
-              ดาวน์โหลดทั้งหมด (30)
-            </div>
-          </div>
-          <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
+          <p class="color-gray fw-400 mt-3">
+            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+          </p>
+          <div class="tags-container mt-3" data-aos="fade-up" data-aos-delay="300">
             <div>
               <span class="fw-500">แท็ก:</span>
               <div class="ss-tags d-inline-block">
@@ -149,25 +115,6 @@
               ['image' => 'public/assets/app/images/content/12.jpg'],
             ]
           ?>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="0">
-            วิดีโอที่เกี่ยวข้อง
-          </h4>
-          <div class="grids" data-aos="fade-up" data-aos-delay="150">
-            <?php foreach($videos as $d) {?>
-              <div class="grid lg-25 sm-50 mt-2">
-                <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="hover-container show">
-                      <div class="icon sm">
-                        <img src="public/assets/app/images/icon/play-thin.png" alt="Play Icon">
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            <?php }?>
-          </div>
           <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="300">
             ไฟล์ที่เกี่ยวข้อง
           </h4>  
@@ -176,8 +123,7 @@
               <tbody>
                 <?php
                   foreach([
-                    'pdf', 'doc', 'docx', 'xls', 'xlsx',
-                    'ppt', 'pptx', 'zip', 'rar'
+                    'pdf', 'doc', 'docx', 'xls'
                   ] as $k){
                 ?>
                   <tr class="box-shadow style-02 mb-2">
@@ -218,16 +164,16 @@
             <div class="wrapper">
               <div class="btns">
                 <div href="#" class="btn btn-action btn-02">
-                  ข่าวก่อนหน้า
+                  สื่อก่อนหน้า
                 </div>
               </div> 
               <div class="icon">
                 <em class="fa-solid fa-list mr-2"></em>
-                <p class="fw-400">หน้ารวมข่าว</p>
+                <p class="fw-400">หน้ารวมสื่อประชาสัมพันธ์</p>
               </div>
               <div class="btns jc-end">
                 <div href="#" class="btn btn-action btn-02">
-                  ข่าวถัดไป
+                  สื่อถัดไป
                 </div>
               </div>     
             </div>
@@ -242,54 +188,76 @@
                 <p class="fw-400">รายการ</p>
               </div> 
               <div class="cate-list mt-2">
-                <p class="color-02 fw-600">ภาพกิจกรรม</p>
+                <p class="color-02 fw-600">สื่อประชาสัมพันธ์</p>
                 <p class="color-02 fw-600">108</p>
               </div> 
               <div class="cate-list">
-                <p class="fw-400">ภาพการดูงาน</p>
+                <p class="fw-400">Info Graphic</p>
                 <p class="fw-400">11</p>
               </div> 
+              <div class="cate-list">
+                <p class="fw-400">คู่มือหรือมาตรฐานการปฏิบัติงาน</p>
+                <p class="fw-400">50</p>
+              </div> 
+              <div class="cate-list">
+                <p class="fw-400">บทความสั้น</p>
+                <p class="fw-400">3</p>
+              </div>
             </div>   
             <?php 
               $lastestnews = [
-                ['image' => 'public/assets/app/images/content/16.jpg'],
-                ['image' => 'public/assets/app/images/content/23.jpg'],
-                ['image' => 'public/assets/app/images/content/16.jpg']
+                ['image' => 'public/assets/app/images/content/62.jpg'],
+                ['image' => 'public/assets/app/images/content/63.jpg']
               ]
             ?>
             <h5 class="fw-600" data-aos="fade-up" data-aos-delay="150">
-              ข่าวล่าสุด
+              สื่อประชาสัมพันธ์ล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                </div>
-                <div class="text-container">
-                  <p class="title fw-400 lh-sm mt-2">
-                    สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม 
-                    ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
-                    ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
-                  </p>
-                  <div class="card-footer mt-2">
-                    <div class="wrapper">
-                      <div class="icon">
-                        <em class="fa-solid fa-calendar-days"></em>
-                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
+              <a class="ss-card ss-card-19 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
+                <div class="ss-card ss-card-19">
+                  <div class="wrapper">
+                    <div class="img-container">
+                      <div class="ss-img vertical">
+                        <div class="img-bg" style="background:url('<?= $d['image']?>')"></div>
                       </div>
-                      <div class="icon">
-                        <em class="fa-solid fa-eye"></em>
-                        <span class="p sm ml-2">255</span>
-                      </div>
-                      <div class="icon">
-                        <em class="fa-solid fa-share-nodes"></em>
-                        <span class="p sm ml-2">208</span>
+                    </div>
+                    <div class="text-container">
+                      <p class="title sm fw-500">
+                        คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับ
+                        เลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+                      </p>
+                      <div class="date">
+                        <div class="icon">
+                          <em class="fa-solid fa-calendar-days"></em>
+                          <span class="p xs ml-2 fw-500">08 มิถุนายน 2565</span>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </a>
             <?php }?>
+            <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
+              <p class="h5 fw-600">แท็กยอดนิยม</p>
+              <div class="mt-1">
+                <div class="ss-tags">
+                  <div class="tag">ข่าวประกาศ</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">อบรมหลักสูตร</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">การเลือกตั้ง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">ระดับชำนาญการพิเศษ</div>
+                </div>
+              </div>
+            </div>
           </div>   
         </div>
       </div>
@@ -298,5 +266,20 @@
 
   <?php include_once('include/footer.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    $('#wow-book').wowBook({
+      height: 500,
+      width: 800,
+      container: true,
+      containerBackground: '#777',
+      containerWidth: '100%',
+      containerHeight: '100%',
+      containerPadding: '20px',
+      toolbarPosition: 'bottom',
+      thumbnails: true,
+      toolbar: 'first, back, next, last, zoomin, zoomout, slideshow, flipsound, fullscreen',
+    });
+  </script>
 </body>
 </html>

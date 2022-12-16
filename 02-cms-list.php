@@ -89,7 +89,7 @@
                               </div>
                             </div>
                             <div class="text-container">
-                              <a class="title p fw-400 h-color-t" href="#">
+                              <a class="title p fw-600 h-color-t" href="#">
                                 กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
                                 ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
                                 ปฏิบัติงานระดับการชำนาญพิเศษ
@@ -98,15 +98,15 @@
                                 <div class="wrapper">
                                   <div class="icon">
                                     <em class="fa-solid fa-calendar-days"></em>
-                                    <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                                    <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
                                   </div>
                                   <div class="icon">
                                     <em class="fa-solid fa-eye"></em>
-                                    <span class="p sm ml-2">255</span>
+                                    <span class="p sm ml-2 fw-500">255</span>
                                   </div>
                                   <div class="icon">
                                     <em class="fa-solid fa-share-nodes"></em>
-                                    <span class="p sm ml-2">208</span>
+                                    <span class="p sm ml-2 fw-500">208</span>
                                   </div>
                                 </div>
                               </div>
@@ -169,7 +169,7 @@
                 </div>
                 <div class="text-container">
                   <div class="text">
-                    <p class="title fw-500 mt-1">
+                    <p class="title fw-600 mt-1">
                       รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
                       สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี รองเลขาธิการคณะกรรมการการเลือกตั้ง 
                       ประชุมหารือเตรียมการจัดงานวันสถาปนา สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
@@ -178,19 +178,19 @@
                       <div class="wrapper">
                         <div class="icon">
                           <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                          <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-eye"></em>
-                          <span class="p sm ml-2">255</span>
+                          <span class="p sm ml-2 fw-500">255</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm ml-2">208</span>
+                          <span class="p sm ml-2 fw-500">208</span>
                         </div>
                       </div>
                     </div>
-                    <p class="desc sm color-gray mt-1">
+                    <p class="desc sm color-gray mt-1 fw-400">
                       วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายเกรียงไกร พานดอกไม้ 
                       รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงาน
                       ในการศึกษาวิธีการปฏิบัติที่ผ่านมาสำหรับการประเมินผลการปฏิบัติงาน

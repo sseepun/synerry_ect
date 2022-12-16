@@ -13,29 +13,33 @@
         <?php }?>
         <?php if(in_array('category', $listHeader)){?>
           <div class="option">
+            <span class="p sm fw-500 mr-2">ประเภท</span>
             <select class="ui dropdown">
               <option value="">เลือกหมวดหมู่</option>
               <option value="1">ข่าวประชาสัมพันธ์ 1</option>
               <option value="2">ข่าวประชาสัมพันธ์ 2</option>
               <option value="3">ข่าวประชาสัมพันธ์ 3</option>
             </select>
+            <div class="dropdown-icon">
+              <em class="fa-solid fa-chevron-down"></em>
+            </div>
           </div>
         <?php }?>
         <?php if(in_array('order', $listHeader)){?>
           <div class="option">
+            <span class="p sm fw-500 mr-2">เรียงลำดับ</span>
             <select class="ui dropdown">
               <option value="">เรียงลำดับข้อมูล</option>
               <option value="1">จากล่าสุดไปเก่าสุด</option>
               <option value="2">จากเก่าสุดไปล่าสุด</option>
               <option value="3">กำลังเป็นที่นิยม</option>
             </select>
+            <div class="dropdown-icon">
+              <em class="fa-solid fa-chevron-down"></em>
+            </div>
           </div>
         <?php }?>
-      </div>
-    <?php }?>
-
-    <?php if(in_array('view', $listHeader) || in_array('expand', $listHeader)){?>
-      <div class="options right">
+        <?php if(in_array('view', $listHeader) || in_array('expand', $listHeader)){?>
         <?php if(in_array('view', $listHeader)){?>
           <div class="option">
             <a class="icon-view" href="#">
@@ -61,8 +65,13 @@
             </a>
           </div>
         <?php }?>
+      
+    <?php }?>
+
       </div>
     <?php }?>
+
+   
 
   </div>
 <?php }?>
