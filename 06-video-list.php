@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/topnav.php'); ?>
+  <?php include_once('include/topnav-02.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -251,7 +251,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer.php'); ?>
+  <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>

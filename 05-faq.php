@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/topnav.php'); ?>
+  <?php include_once('include/topnav-02.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -76,98 +76,53 @@
                     </p>
                   </div>
                 </div>
-                <?php if(true){?>
-                  <div class="scroll-x-wrapper mt-3" data-simplebar>
-                    <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
-                      <tbody>
-                        <?php
-                          foreach([
-                            'pdf'
-                          ] as $k){
-                        ?>
-                          <tr class="box-shadow style-02 mb-2">
-                            <td>
-                              <div class="download-card">
-                                <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
-                              </div>
-                            </td>
-                            <td style="min-width:450px;">
-                              <a class="fw-600 h-color-t" href="#">
-                                รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
-                              </a>
-                              <div class="text-footer">
-                                <div class="wrapper">
-                                  <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
-                                  <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                                  <div class="icon">
-                                    <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                    <p class="sm color-black fw-400">แจ้งไฟล์เสีย</p>
-                                  </div>
+                <div class="scroll-x-wrapper mt-3" data-simplebar>
+                  <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
+                    <tbody>
+                      <?php
+                        foreach([
+                          'pdf'
+                        ] as $k){
+                      ?>
+                        <tr class="box-shadow style-02 mb-2">
+                          <td>
+                            <div class="download-card">
+                              <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                            </div>
+                          </td>
+                          <td style="min-width:450px;">
+                            <a class="fw-600 h-color-t" href="#">
+                              รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
+                            </a>
+                            <div class="text-footer">
+                              <div class="wrapper">
+                                <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
+                                <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
+                                <div class="icon">
+                                  <em class="fa-solid fa-circle-exclamation mr-1"></em>
+                                  <p class="sm color-black fw-400">แจ้งไฟล์เสีย</p>
                                 </div>
                               </div>
-                            </td>
-                            <td style="min-width:100px;">
-                              <div class="d-flex ai-center jc-center fw-wrap">
-                                <a class="btn btn-action-style-02" href="#">
-                                  <em class="fa-solid fa-arrow-down"></em>
-                                </a>
-                              </div>
-                              <p class="xs text-center mt-1">ดาวน์โหลด</p>
-                            </td>
-                          </tr>
-                        <?php }?>
-                      </tbody>
-                    </table>
-                  </div>
-                <?php }else{?>
-                  <!-- <div class="scroll-x-wrapper mt-3">
-                    <table class="table">
-                      <tbody>
-                        <?php for($j=0; $j<2; $j++){?>
-                          <tr>
-                            <td class="va-baseline pr-0">
-                              <h6 class="color-02">
-                                <em class="far fa-file-pdf"></em>
-                              </h6>
-                            </td>
-                            <td style="min-width:380px;">
-                              <p class="md fw-600">
-                                นโยบายควบคุมราคาก๊าซปิโตรเลียมเหลว (LPG)
-                              </p>
-                              <p class="sm fw-200 color-gray mt-1">
-                                ขนาดไฟล์
-                                <span class="fw-500 color-black">1.31 MB</span>
-                                <span class="sep"></span>
-                                จำนวนดาวน์โหลด
-                                <span class="fw-500 color-black">16 ครั้ง</span>
-                                <span class="sep"></span>
-                                <a class="color-01 h-color-02 btn-popup-toggle" data-popup="file-report" href="#">
-                                  <em class="fas fa-exclamation-circle text-xs mr-05"></em>
-                                  แจ้งไฟล์เสีย
-                                </a>
-                              </p>
-                            </td>
-                            <td style="min-width:130px;">
-                              <div class="d-flex ai-center jc-end">
-                                <a class="btn btn-action btn-color-03 btn-round btn-sm" href="#">
-                                  ดาวน์โหลด 
-                                  <em class="far fa-arrow-alt-circle-down ml-1"></em>
-                                </a>
-                              </div>
-                            </td>
-                          </tr>
-                        <?php }?>
-                      </tbody>
-                    </table>
-                  </div> -->
-                <?php }?>
-              </div>
+                            </div>
+                          </td>
+                          <td style="min-width:100px;">
+                            <div class="d-flex ai-center jc-center fw-wrap">
+                              <a class="btn btn-action-style-02" href="#">
+                                <em class="fa-solid fa-arrow-down"></em>
+                              </a>
+                            </div>
+                            <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                          </td>
+                        </tr>
+                      <?php }?>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
-          <?php }?>
+          </div>
+        <?php }?>
       </div>
-  
-      
       <div class="mt-6 pt-4">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
@@ -177,7 +132,7 @@
     </div>
   </div>
 
-  <?php include_once('include/footer.php'); ?>
+  <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>
