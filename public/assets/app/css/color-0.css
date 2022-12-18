@@ -174,6 +174,8 @@ nav.stopnav .option-select > .dropdown .item:hover{background:#194e84; color:#f4
 nav.stopnav .btn-social:hover{background:#194e84; color:#f4b510;}
 
 nav.stopnav.style-02 .btn-social:hover{background:#1c4d38; color:#ffffff;}
+nav.stopnav.style-02 .option-select > .dropdown{background:#30906a;}
+nav.stopnav.style-02 .option-select > .dropdown .item:hover{background:#1c4d38; color:#fff102;}
 
 /* Topnav */
 nav.topnav{background:#ffffff;}
@@ -193,6 +195,10 @@ nav.topnav.style-02 .menu:hover > *:first-child{color:#30906a;}
 nav.topnav.style-02 .menu > *:first-child::after{background:#30906a;}
 nav.topnav.style-02 .submenu-dropdown{background:rgba(45,129,96,.92); color:#ffffff;}
 nav.topnav.style-02 .submenu:hover > *:first-child{background:#1c4d38; color:#fffffd;}
+nav.topnav.style-02 .submenu > .submenu-dropdown{background:#1f4e3a;}
+nav.topnav.style-02 .submenu > .submenu-dropdown .submenu:hover > *:first-child{background:#303032;}
+nav.topnav.style-02 .sidenav-toggle::before{background:#1f4e3a;}
+nav.topnav.style-02 .sidenav-toggle:hover::before{background:#303032;}
 
 /* Sidenav */
 nav.sidenav{background:#ffffff;}
@@ -212,6 +218,14 @@ nav.sidenav .dropdown-toggle{color:#232323;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 
+nav.sidenav.style-02 .menu:hover > *:first-child{color:#2d8160;}
+nav.sidenav.style-02 .submenu > *:first-child{background:#2d8160;}
+nav.sidenav.style-02 .submenu:hover > *:first-child{background:#2d8160; color:#fff102;}
+nav.sidenav.style-02 .submenu .dropdown-toggle{color:#ffffff;}
+nav.sidenav.style-02 .submenu .submenu > *:first-child{background:#1f4e3a; color:#ffffff;}
+nav.sidenav.style-02 .submenu:hover > *:first-child{color:#fff102;}
+
+nav.stopnav .option-select > .dropdown
 /* Back to Top */
 .back-to-top{background:#194e84; color:#ffffff;}
 .back-to-top:hover{background:#0ab3de;}

@@ -1,3 +1,26 @@
+<?php
+  $submenu = '<div class="submenu-dropdown">
+      <div class="submenu-container">
+        <div class="submenu-wrapper">
+          <div class="submenu">
+            <a href="#">การเลือกตั้งสมาชิกผู้แทนราษฎร</a>
+          </div>
+          <div class="submenu">
+            <a href="#">การได้มาซึ่งสมาชิกวุฒิสภา</a>
+          </div>
+          <div class="submenu">
+              <a href="#">การออกเสียงประชามติ</a>
+          </div>
+          <div class="submenu">
+            <a href="#">การเลือกตั้งท้องถิ่น</a>
+          </div>
+          <div class="submenu">
+            <a href="#">สถิติการวินิจฉัยชี้ขาดเรื่องคัดค้านการเลือกตั้ง</a>
+          </div>
+        </div>
+      </div>
+    </div>';
+?>
 
 <!-- Super Topnav -->
 <nav class="stopnav style-02 bg-04 color-white">
@@ -57,45 +80,56 @@
           'ตอบข้อซักถาม/แจ้งเบาะเเส', 'จัดซื้อ/จัดจ้าง'
         ] as $i=>$d){
       ?>
-        <div class="menu has-children">
+        <div class="menu has-children" <?= $i==0? 'active': '' ?>>
           <a href="#" data-dropdown="<?= $i ?>">
             <?= $d ?> <em class="fas fa-chevron-down"></em>
           </a>
-          <div class="submenu-dropdown <?php if($i>5)echo 'anchor-right'; ?>">
+          <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
             <div class="submenu-container">
               <div class="submenu-wrapper">
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">สถิติการเลือกตั้ง</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">ประกาศผลการเลือกตั้ง</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
-                    <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
+                <div class="submenu has-children">
+                  <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">ข้อมูลพรรคการเมือง</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">สื่อประชาสัมพันธ์</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">คู่มือปฏิบัติงาน</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">แบบฟอร์ม</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">บริการสารสนเทศภายในหน่วยงาน</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">Knowledge Management</a>
+                  <?= $submenu ?>
                 </div>
-                <div class="submenu">
+                <div class="submenu has-children">
                   <a href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a>
+                  <?= $submenu ?>
                 </div>
               </div>
             </div>
@@ -120,7 +154,7 @@
 <div class="topnav-spacer"></div>
 
 <!-- Sidenav -->
-<nav class="sidenav">
+<nav class="sidenav style-02">
   <div class="wrapper">
     <div class="sidenav-toggle">
       <div class="hamburger">
