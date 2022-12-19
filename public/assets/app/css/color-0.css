@@ -280,15 +280,14 @@ nav.sidenav.style-02 .submenu .dropdown-toggle{color:#ffffff;}
 nav.sidenav.style-02 .submenu .submenu > *:first-child{background:#1f4e3a; color:#ffffff;}
 nav.sidenav.style-02 .submenu:hover > *:first-child{color:#fff102;}
 
-nav.stopnav .option-select > .dropdown
 /* Back to Top */
-.back-to-top{background:#194e84; color:#ffffff;}
-.back-to-top:hover{background:#0ab3de;}
+.back-to-top{background:#2e603b; color:#ffffff;}
+.back-to-top:hover{background:#fef200;}
 
 /* Footer */
 nav.footer{background:#0d1b62; color:#ffffff;}
 nav.footer .footer-socials > .social{
-    background:transparent; color:#ffffff; border-color:#ffffff;
+  background:transparent; color:#ffffff; border-color:#ffffff;
 }
 nav.footer .footer-socials > .social:hover{background:#0ab3de; border-color:#0ab3de;}
 
