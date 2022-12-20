@@ -729,6 +729,72 @@ fieldset{padding:0; margin:0; border:0;}
   padding-bottom:.5rem; margin-bottom:.5rem;
 }
 
+/* Calendar Style 02 */
+.calendar-style-02{position:relative;}
+.calendar-style-02 .calendar-header{position:relative; border:none; margin-top:-8rem; margin-bottom:5rem;}
+.calendar-style-02 .calendar-header table{display:flex; align-items:center;}
+.calendar-style-02 .calendar-header .today{position:absolute;}
+.calendar-style-02 .calendar-header table th.prev{position:absolute; left:15rem;}
+.calendar-style-02 .calendar-header table th.next{position:absolute; left:20rem;}
+.calendar-style-02 .calendar-header table th.prev, .calendar-style-02 .calendar-header table th.next{
+  width:2.5rem; height:2.5rem; border-radius:50%; display:flex; cursor:pointer; border:2px solid transparent;
+  justify-content:center; align-items:center; transition:background .25s, color .25s; 
+}
+.calendar-style-02 .calendar-header .year-title{height:auto; font-size:2rem;}
+.calendar-style-02 .calendar-header .year-title:before{content:"ปีค.ศ."; margin-right:.5rem;}
+.calendar-style-02 .calendar-header .year-title.year-neighbor, 
+.calendar-style-02 .calendar-header .year-title.year-neighbor2{display:none;}
+.calendar-style-02 .months-container{flex-wrap:wrap;}
+.calendar-style-02 .months-container .month-container{
+  width:33.33%!important; margin-top:2rem;
+  border-radius:.4375rem; padding:1rem; 
+}
+.calendar-style-02 .months-container .month-container .month-title{
+  text-align:center; height:2.5rem; border-radius:.4375rem .4375rem 0 0; font-size:1.125rem;
+}
+.calendar-style-02 .months-container table.month{width:100%; border:1px solid transparent;}
+.calendar-style-02 .months-container table.month .day-header{
+  padding:.5rem 0; font-size:.875rem; border-bottom:1px solid transparent;
+}
+.calendar-style-02 .months-container table.month > thead{border-bottom:1px solid transparent;}
+.calendar-style-02 table.month th.month-title{text-align:left; padding-left:.5rem;}
+.calendar-style-02 .months-container table.month td.day .day-content{
+  width:1.875rem; height:1.875rem; cursor:pointer; margin:0 auto; display:flex; justify-content:center;
+  align-items:center; transition:background .5s, color .5s; font-weight:400; font-size:.875rem;
+}
+.calendar-style-02 .calendar-header table th:hover{background:transparent!important;}
+@media screen and (max-width:1199.98px){
+  .calendar-style-02 .calendar-header{margin-top:-11rem; margin-bottom:7rem;}
+}
+@media screen and (max-width:991.98px){
+  .calendar-style-02 .calendar-header{margin-top:-14.5rem; margin-bottom:9.5rem;}
+  .calendar-style-02 .months-container .month-container{width:50%!important;}
+}
+@media screen and (max-width:575.98px){
+  .calendar-style-02 .calendar-header{margin-top:-18rem; margin-bottom:13rem;}
+  .calendar-style-02 .months-container .month-container{width:100%!important;}
+}
+
+.calendar-style-02 .calendar-footer{padding-left:1.375rem; margin-top:1rem; display:inline-block;}
+.calendar-style-02 .calendar-footer > .wrapper-container{display:flex; align-items:center; cursor:pointer;}
+.calendar-style-02 .calendar-footer > .wrapper-container p::before{
+  content:"รายการ"; color:#000000; margin-right:.4375rem;
+}
+.calendar-style-02 .calendar-footer > .wrapper-container p::after{
+  content:"กิจกรรม"; color:#000000; margin:.4375rem;
+}
+.calendar-style-02 .calendar-footer > .wrapper-container .arrow-icon{
+  width:1.5rem; height:1.5rem; display:flex; justify-content:center; align-items:center;
+  font-size:1.125rem; margin:.0625rem 0 0 .125rem; transition:margin .25s;
+}
+.calendar-style-02 .calendar-footer > .wrapper-container:hover .arrow-icon{margin:.0625rem 0 0 .75rem;}
+@media screen and (max-width:991.98px){
+  .calendar-style-02 .calendar-footer{padding-left:1rem;}
+}
+@media screen and (max-width:575.98px){
+  .calendar-style-02 .calendar-footer{padding-left:1.375rem;}
+}
+
 
 /* Special Box */
 .ss-box{display:block; width:100%; max-width:30rem; margin:0 auto;}
@@ -852,7 +918,6 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-list ul > li::before{display:none;}
 
 
-
 /* Special Tags */
 .ss-tags{display:block;}
 .ss-tags > .tag{
@@ -925,8 +990,6 @@ table.table.table-download .download-card img{
 table.table.table-download .text-footer > .wrapper{display:flex;}
 table.table.table-download .text-footer > .wrapper .icon{display:flex; align-items:center;}
 table.table.style-02.table-download td:nth-child(2){padding-left:0;}
-
-
 
 
 /* Table Download 02 */
@@ -1480,3 +1543,39 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 .ss-card-19 .wrapper > .text-container .title{-webkit-line-clamp:3;}
 .ss-card-19 .wrapper > .text-container .date > .icon{display:flex; align-items:center; font-size:.875rem;}
+
+/* Special Card 20 */
+.ss-card-20 .wrapper{display:flex; flex-wrap:wrap;}
+.ss-card-20 .wrapper > .date .wrapper{
+  width:3rem; text-align:center; border-radius:.4375rem; overflow:hidden; margin-right:.375rem;
+  margin-top:4px;
+}
+.ss-card-20 .wrapper > .date .wrapper > .day, .ss-card-20 .wrapper > .date .wrapper > .month{width:100%;}
+.ss-card-20 .wrapper > .date .wrapper > .day, .ss-card-20 .wrapper > .date .wrapper > .month{padding:.125rem 0;}
+.ss-card-20 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
+.ss-card-20 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
+.ss-card-20 .wrapper > .img-container{position:relative; width:calc(25% - 3.375rem); border-radius:.5rem; overflow:hidden;}
+.ss-card-20 .wrapper > .img-container .ss-img > .filter-01{
+  position:absolute; top:0; left:0; bottom:0; right:0; opacity:0; transition:opacity .5s;
+}
+.ss-card-20:hover .wrapper > .img-container .ss-img > .filter-01{opacity:1;}
+.ss-card-20 .ss-img{border-radius:.5rem; overflow:hidden; border:4px solid transparent; transition:border .5s;}
+.ss-card-20 .wrapper > .text-container{width:75%; padding-left:1rem; display:flex;}
+.ss-card-20 .wrapper > .text-container .text > .title{-webkit-line-clamp:2;}
+.ss-card-20 .wrapper > .text-container .text > .desc{-webkit-line-clamp:3;}
+.ss-card-20 .wrapper > .text-container .text > .card-top .wrapper{display:flex; align-items:center;}
+.ss-card-20 .wrapper > .text-container .text > .card-top .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
+.ss-card-20 .wrapper > .text-container .text > .card-top .wrapper > .icon em{font-size:.8125rem;}
+.ss-card-20 .btns > .btn{transition:background .5s;}
+.ss-card-20 .btns .icon{display:none; transition:all .5s;}
+.ss-card-20:hover .btns .icon{display:inline-block; margin-right:.375rem;}
+@media screen and (max-width:1199.98px){
+  .ss-card-20 .wrapper > .img-container{width:calc(30% - 3.375rem);}
+  .ss-card-20 .wrapper > .text-container{width:70%;}
+}
+@media screen and (max-width:991.98px){
+  .ss-card-20 .wrapper > .img-container{width:calc(100% - 3.375rem);}
+  .ss-card-20 .wrapper > .text-container{width:100%; flex-direction:column; padding-left:0;}
+  .ss-card-20 .wrapper > .text-container .btns{margin-top:1rem;}
+}
+

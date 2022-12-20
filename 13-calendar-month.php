@@ -28,7 +28,7 @@
             <em class="fa-solid fa-arrow-left"></em>
           </div>
           <a class="text fw-400" href="#">วันนี้</a>
-          <div id="next-week-btn" class="btn-calendar">
+          <div id="next-month-btn" class="btn-calendar">
             <em class="fa-solid fa-arrow-right"></em>
           </div>
         </div>
@@ -110,7 +110,7 @@
         firstDay: 0,
         locale: 'th',
         contentHeight: 'auto',
-        eventLimit: true,
+        eventLimit: true,      
         eventLimitText: '',
         views: {dayGrid: {eventLimit: 2}},
         events: [
