@@ -469,6 +469,7 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 
 /* Special Card 12 */
 .ss-card-12 .text-container{border-color:#eeeeee;}
+.ss-card-12 .card-footer > .wrapper .icon > em{color:#2e603c;}
 
 /* Special Card 15 */
 .ss-card-15 .wrapper > .text-container .info-content > .icon em{color:#2e603c;}
@@ -499,3 +500,16 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 .ss-card-20:hover .ss-img{border-color:#fff311;}
 .ss-card-20:hover .btn{background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);}
 .ss-card-20 .wrapper > .img-container .ss-img > .filter-01{background:rgb(48,144,106,.6);}
+.ss-card-20 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
+.ss-card-20 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
+
+/* Special Card 21 */
+.ss-card-21 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
+.ss-card-21 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon > em{color:#2e603c;}
+
+/* Special Card 22 */
+.ss-card-22:hover .ss-img{border-color:#fff311;}
+.ss-card-22:hover .btn{
+  background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);
+}

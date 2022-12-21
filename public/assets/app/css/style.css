@@ -175,6 +175,44 @@ textarea[data-copy]{pointer-events:none!important;}
     textarea[data-copy].adaptive{height:8.25rem;}
 }
 
+/* Input Form Group */
+.form-group{margin:.5625rem 0 0 0;}
+.form-group label{margin:0 0 .125rem 0;}
+.form-group .select-wrapper, .form-group .search-wrapper, 
+.form-group .date-wrapper{display:block; width:100%;}
+.form-group .form-control{width:100%; height:auto;}
+.form-group .wrapper{position:relative;}
+.form-group .wrapper span{ 
+    position: absolute; right:1rem; top:50%;
+    cursor: pointer; transform: translate(0, -50%);
+}
+.form-group .input-fit{width:100%; display:flex; align-items:center;}
+
+.form-check{margin:.5rem 0 0 0; display:flex;}
+.form-check label{
+    font-size:.9375rem; font-weight:300; margin:.1875rem 0 0 0; cursor:pointer; 
+}
+.form-check > input[type="checkbox"], .form-check > input[type="radio"]{
+    font-size:1rem; width:1rem; height:1rem; cursor:pointer
+}
+.form-check.sm > label{padding:0; margin:0; transform:translateY(-.0625rem);}
+.form-check.sm > input[type="checkbox"], .form-check.sm > input[type="radio"]{
+    font-size:.75rem; width:.75rem; height:.75rem; 
+}
+
+.form-check-container{
+  padding:.9375rem; border-radius:.4375rem; border:2px solid transparent; transition:background .5s;
+}
+.form-check-container{border-color:#eeeeee;}
+.form-check-container.active{background:#eeeeee;}
+@media screen and (max-width:991.98px){
+  .form-check-container{min-height:6.5rem;}
+}
+@media screen and (max-width:575.98px){
+  .form-check-container{min-height:0;}
+}
+
+
 /* Radio & Checkbox Container */
 fieldset{padding:0; margin:0; border:0;}
 .rc-container{position:relative; width:100%;}
@@ -802,7 +840,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-box.md{max-width:34rem;}
 .ss-box.lg{max-width:38rem;}
 .ss-box.xl{max-width:44rem;}
-.ss-box.xxl{max-width:54rem;}
+.ss-box.xxl{max-width:50rem;}
 .ss-box > .header, .ss-box > .body{
     display:block; position:relative; width:100%; padding:1.25rem 1.75rem;
 }
@@ -1552,8 +1590,6 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 .ss-card-20 .wrapper > .date .wrapper > .day, .ss-card-20 .wrapper > .date .wrapper > .month{width:100%;}
 .ss-card-20 .wrapper > .date .wrapper > .day, .ss-card-20 .wrapper > .date .wrapper > .month{padding:.125rem 0;}
-.ss-card-20 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
-.ss-card-20 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
 .ss-card-20 .wrapper > .img-container{position:relative; width:calc(25% - 3.375rem); border-radius:.5rem; overflow:hidden;}
 .ss-card-20 .wrapper > .img-container .ss-img > .filter-01{
   position:absolute; top:0; left:0; bottom:0; right:0; opacity:0; transition:opacity .5s;
@@ -1579,3 +1615,32 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ss-card-20 .wrapper > .text-container .btns{margin-top:1rem;}
 }
 
+/* Special Card 21 */
+.ss-card-21 > .wrapper{display:flex;}
+.ss-card-21 .wrapper > .date .wrapper{
+  width:3.5rem; text-align:center; border-radius:.4375rem; overflow:hidden; margin-right:.875rem;  
+}
+.ss-card-21 .wrapper > .date .wrapper > .day, .ss-card-21 .wrapper > .date .wrapper > .month{width:100%;}
+.ss-card-21 .wrapper > .date .wrapper > .day{padding:.125rem 0;}
+.ss-card-21 .wrapper > .date .wrapper > .month{padding:.375rem 0;}
+.ss-card-21 .wrapper > .text-container{width:calc(100% - 4.375rem);}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper{display:flex; align-items:center;}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .item{display:inline-block!important;}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon{
+  display:flex; align-items:center; margin-right:1rem; 
+}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon > em{
+  width:1.125rem; display:flex; align-items:center; font-size:.875rem;
+}
+.ss-card-21 .img-container > .ss-img{border-radius:.5rem;}
+@media screen and (max-width:991.98px){
+  .ss-card-21 .wrapper > .text-container .title-footer > .wrapper{display:unset;}
+}
+
+/* Special Card 22 */
+.ss-card-22{position:relative;}
+.ss-card-22 .ss-img{border-radius:.5rem; overflow:hidden; border:4px solid transparent; transition:border .5s;}
+.ss-card-22 .text-container > .title{-webkit-line-clamp:2;}
+.ss-card-22:hover .btns > .btn{transition:background .5s;}
+.ss-card-22 .btns .icon{display:none; transition:all .5s;}
+.ss-card-22:hover .btns .icon{display:inline-block; margin-right:.375rem;}
