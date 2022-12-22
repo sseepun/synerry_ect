@@ -301,7 +301,7 @@
     <div class="hero size-01" data-aos="fade-up" data-aos-delay="150">
       <img src="public/assets/app/images/hero/04.png" class="Hero" />
     </div>
-    <div class="container pos-relative">
+    <div class="container pos-static">
       <div class="grids">
         <div class="grid xl-50 lg-50 sm-100 mt-0"></div>
         <div class="grid xl-50 lg-50 sm-100">
@@ -312,43 +312,52 @@
           <p class="h3 color-05 mt-1 mb-1" data-aos="fade-up" data-aos-delay="150">
             ด้วยหลากหลายแอพพลิเคชั่น
           </p>
-          <div class="grids">
-            <div class="grid sm-1-3">
-              <div class="ss-card ss-card-27">
-                <div class="mobile-container" style="background-image:url('public/assets/app/images/content/mobile-device.png');">
-                  <div class="mobile-showcase" style="background-image:url('public/assets/app/images/content/showcase-01.jpg');"></div>
+          <div class="grids jc-center">
+            <div class="grid md-1-3 sm-50 xs-50">
+              <div class="mobile-device-container">
+                <div class="wrapper">
+                  <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
+                  <div class="mobile-screen-container">
+                    <div class="mobile-screen" 
+                      style="background-image:url('public/assets/app/images/content/showcase-01.jpg');">
+                    </div> 
+                  </div>    
                   <div class="text-container text-center color-white">
-                    <div class="wrapper">
-                      <p>แอปพลิเคชั่น</p>
-                      <p class="h6 lh-3xs fw-500">ฉลาดเลือก</p>
-                    </div>
-                  </div>
+                    <p>แอปพลิเคชั่น</p>
+                    <p class="h6 lh-3xs fw-500">ฉลาดเลือก</p>
+                  </div>       
                 </div>
               </div>
             </div>
-            <div class="grid sm-1-3">
-              <div class="ss-card ss-card-27">
-                <div class="mobile-container" style="background-image:url('public/assets/app/images/content/mobile-device.png');">
-                  <div class="mobile-showcase" style="background-image:url('public/assets/app/images/content/showcase-02.jpg');"></div>
+            <div class="grid md-1-3 sm-50 xs-50">
+              <div class="mobile-device-container">
+                <div class="wrapper">
+                  <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
+                  <div class="mobile-screen-container">
+                    <div class="mobile-screen" 
+                      style="background-image:url('public/assets/app/images/content/showcase-02.jpg');">
+                    </div> 
+                  </div>    
                   <div class="text-container text-center color-white">
-                    <div class="wrapper">
-                      <p>แอปพลิเคชั่น</p>
-                      <p class="h6 lh-3xs fw-500">ตาสัปปะรด</p>
-                    </div>
-                  </div>
+                    <p>แอปพลิเคชั่น</p>
+                    <p class="h6 lh-3xs fw-500">ตาสัปปะรด</p>
+                  </div>       
                 </div>
               </div>
             </div>
-            <div class="grid sm-1-3">
-              <div class="ss-card ss-card-27">
-                <div class="mobile-container" style="background-image:url('public/assets/app/images/content/mobile-device.png');">
-                  <div class="mobile-showcase" style="background-image:url('public/assets/app/images/content/showcase-03.jpg');"></div>
+            <div class="grid md-1-3 sm-50 xs-50">
+              <div class="mobile-device-container">
+                <div class="wrapper">
+                  <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
+                  <div class="mobile-screen-container">
+                    <div class="mobile-screen" 
+                      style="background-image:url('public/assets/app/images/content/showcase-03.jpg');">
+                    </div> 
+                  </div>    
                   <div class="text-container text-center color-white">
-                    <div class="wrapper">
-                      <p>แอปพลิเคชั่น</p>
-                      <p class="h6 lh-3xs fw-500">CIVIL EDUCATION</p>
-                    </div>
-                  </div>
+                    <p>แอปพลิเคชั่น</p>
+                    <p class="h6 lh-3xs fw-500">CIVIL EDUCATION</p>
+                  </div>       
                 </div>
               </div>
             </div>
