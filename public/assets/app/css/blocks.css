@@ -26,11 +26,13 @@
     position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:center;
     justify-content:space-between; pointer-events:none;
 }
+.banner-01 .arrows.style-02{left:1.5rem; right:1.5rem;}
 .banner-01 .arrows > .arrow{
     display:block; pointer-events:auto; cursor:pointer; transition:opacity .25s;
 }
 .banner-01 .arrows > .arrow:hover{opacity:.7;}
 .banner-01 .arrows > .arrow img{display:block; height:5rem; width:auto;}
+.banner-01 .arrows > .arrow.size-01 img{height:2.5rem;}
 @media screen and (max-width:1199.98px){
     .banner-01 .slide > .hero{right:0; width:50vw;}
     .banner-01 .quote-container .quote{height:2.875rem;}
@@ -293,6 +295,7 @@
     display:flex; align-items:flex-end; justify-content:center;
 }
 .section-01 > .hero img{display:block; width:auto; max-width:100%; height:auto; max-height:100%;}
+.section-01 > .hero.size-01 img{height:32rem;}
 @media screen and (max-width:991.98px){
     .section-01{padding-bottom:36rem;}
     .section-01 > .hero{width:100vw; height:36rem;}
@@ -399,7 +402,10 @@
 
 
 /* Breadcrumb 01 */
-.breadcrumb-01 .top{position:relative; width:100%; padding:1.5rem 0 4rem 0;}
+.breadcrumb-01 .top{
+  position:relative; width:100%; height:100%; min-height:12.5rem; padding:1.5rem 0 4rem 0;
+  display:flex; align-items:center;
+}
 .breadcrumb-01 .top > .img-bg{
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
     background-position:center;

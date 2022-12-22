@@ -16,7 +16,7 @@ html, body, table.table{color:#000000;}
 .color-02, .h-color-02:hover{color:#2e603c!important;}
 .color-03, .h-color-03:hover{color:#c6dccc!important;}
 .color-04, .h-color-04:hover{color:#30906a!important;}
-.color-05, .h-color-05:hover{color:#303032!important;}
+.color-05, .h-color-05:hover{color:#303031!important;}
 .color-06, .h-color-06:hover{color:#1c4d38!important;}
 .color-07, .h-color-07:hover{color:#fff102!important;}
 
@@ -228,6 +228,10 @@ input[type=tel].sgray, input[type=number].sgray, input[type=phone].sgray, input[
 input[type=file].sgray, select.sgray, textarea.sgray,
 .form-group .upload-wrapper.sgray::before{background:#e1e1e1!important;}
 
+/* Input Style 02 */
+input.style-02[type=text]:focus{border-color:#30906a!important;}
+input.style-02[type=text]{background:#eeeeee!important; border-color:#30906a!important;}
+
 /* Radio & Checkbox Container */
 .rc-container > label::before{border-color:#0ab3de;}
 .rc-container > label::after{background:#0ab3de;}
@@ -318,6 +322,13 @@ nav.footer .footer-socials > .social:hover{background:#fff102; border-color:#fff
 .breadcrumb-01 .wrapper a::after{background:#ffffff;}
 .breadcrumb-01 .title{color:#30906a;}
 
+/* Form Group Style 02 */
+.form-group.style-02 > .form-input .password-level > .levels > *{border-color:#d5d5d5;}
+.form-group.style-02 > .form-input .password-level.level-1 > .levels > *:nth-child(1){
+  background:#ff0000; border-color:#ff0000;
+}
+.form-group.style-02 > .form-input .password-level.level-1 .text{color:#ff0000;}
+
 /* Special List */
 .ss-list > li::before{background:#0ab2de;}
 .ss-list.style-02 > li::before{background:#fff000;}
@@ -334,7 +345,9 @@ nav.footer .footer-socials > .social:hover{background:#fff102; border-color:#fff
 .paginate.style-02 .arrow{border-color:#e2e2e2; color:#ffffff; background:#e2e2e2;}
 .paginate.style-02 .arrow:hover{background:#2e603b}
 .paginate.style-02 .page{border-color:#e2e2e2; color:#a1a1a1;}
-.paginate.style-02 .page:hover, .paginate .page.active{background:#2e603b; color:#ffffff;}
+.paginate.style-02 .page:hover, .paginate.style-02 .page.active{background:#2e603b; color:#ffffff;}
+
+.paginate.style-03 .page:hover, .paginate.style-03 .page.active{background:#303031; color:#ffffff;}
 
 
 .ui.icon.input > em.icon{background:#30906a; color:#ffffff;}
@@ -351,6 +364,10 @@ nav.footer .footer-socials > .social:hover{background:#fff102; border-color:#fff
 .tab-container .tabs.tabs-01 .tab:hover{color:#04adf0;}
 .tab-container .tabs.tabs-01 .tab.active{background:#04adf0; color:#ffffff;}
 .tab-container .tabs.tabs-01 .tab::after{background:#e1e1e1;}
+
+.tab-container .tabs.tabs-01.style-02 .tab.active{background:#30906a; color:#ffffff;}
+.tab-container .tabs.tabs-01.style-02 .tab.active:hover{color:#ffffff;}
+.tab-container .tabs.tabs-01.style-02 .tab:hover{color:#30906a;}
 
 /* List Header */
 .list-header.style-02 .option .icon-view{color:#30906a;}
@@ -372,6 +389,9 @@ nav.footer .footer-socials > .social:hover{background:#fff102; border-color:#fff
 table.table.table-download .download-card{background:#30906a;}
 table.table.table-download .text-footer > .wrapper .icon{color:#30906a;}
 table.table.style-02.table-download .download-card{background:#ffffff;}
+
+/* Text Danger */
+.text-danger{color:#dc3545!important;}
 
 /* wowbook */
 .wowbook-book-container{background:#eeeeee;}
@@ -513,3 +533,19 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 .ss-card-22:hover .btn{
   background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);
 }
+
+/* Special Card 23 */
+.ss-card-23 .text-container{background:#ffffff;}
+.ss-card-23 .text-container > .ss-tags .tag{background:#30906a;}
+
+/* Special Card 24 */
+.ss-card-24{background:#f2f2f2;}
+.ss-card-24 .wrapper > .icon{background:#30906a; color:#ffffff;}
+.ss-card-24 .wrapper > .text-container .arrow{color:#30906a;}
+
+/* Special Card 25 */
+.ss-card-25 .text-container > .arrow{color:#30906a;}
+.ss-card-25{border-color:#30906a;}
+
+/* Special Card 27 */
+.ss-card-27 .mobile-container > .text-container{background:#303031;}
