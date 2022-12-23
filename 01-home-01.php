@@ -444,7 +444,7 @@
           <?php foreach($syndicates as $d) {?>
             <div class="swiper-slide ">
               <div class="ss-card ss-card-28">
-                <div class="ss-img vertical no-hover">
+                <div class="ss-img vertical">
                   <div class="img-bg" style="background:url('<?= $d['image']?>')"></div>
                 </div>
                 <div class="text-container">

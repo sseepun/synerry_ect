@@ -1779,7 +1779,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 /* Special Card 28 */
 .ss-card-28{position:relative;}
 .ss-card-28 .ss-img{border-radius:.875rem; overflow:hidden;}
-.ss-card-28 .text-container{position:absolute; left:0; bottom:1rem; right:0; padding:.5rem;}
+.ss-card-28 .text-container{position:absolute; left:0; bottom:1rem; right:0; padding:.5rem; transition:color .5s;}
 @media screen and (max-width:991.98px){
   .ss-card-28 .text-container > .name-th{font-size:.9375rem;}
   .ss-card-28 .text-container > .name-eng{font-size:.6875rem;}
@@ -1789,7 +1789,6 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ss-card-28 .text-container > .name-th{font-size:.875rem;}
   .ss-card-28 .text-container > .name-eng{font-size:.6875rem;}
 }
-
 
 
 
