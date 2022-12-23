@@ -228,7 +228,7 @@ nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-c
   background:#30906a; color:#ffffff; fill:#ffffff;
 }
 nav.side-panel .option-row{color:#000000;}
-nav.side-panel .option-row .icon + *::before{background:#8c59b7;}
+nav.side-panel .option-row .icon + *::before{background:#30906a;}
 nav.side-panel .hamburger > *{background:#ffffff;}
 
 /* Inputs */
@@ -278,6 +278,10 @@ nav.stopnav .btn-social:hover{background:#194e84; color:#f4b510;}
 nav.stopnav.style-02 .btn-social:hover{background:#1c4d38; color:#ffffff;}
 nav.stopnav.style-02 .option-select > .dropdown{background:#30906a;}
 nav.stopnav.style-02 .option-select > .dropdown .item:hover{background:#1c4d38; color:#fff102;}
+
+nav.stopnav .blocks > .option .hotline:hover{color:#1c4d38;}
+nav.stopnav .blocks > .option .hotline > em{border-color:#f6faf9;}
+nav.stopnav .blocks > .option .hotline:hover > em{border-color:#1c4d38;}
 
 /* Topnav */
 nav.topnav{background:#ffffff;}

@@ -37,6 +37,12 @@
         </a>
       </div>
       <div class="blocks hide-mobile">
+        <div class="option bcolor-04">
+          <div class="icon hotline">
+            <em class="fa-solid fa-phone"></em>
+            สายด่วน 1444
+          </div>
+        </div>
         <div class="option-select">
           <div class="select bg-05">
             TH <div class="chev"><em class="fa-solid fa-chevron-down"></em></div>

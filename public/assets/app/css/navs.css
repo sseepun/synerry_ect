@@ -6,6 +6,13 @@ nav.stopnav{
 }
 nav.stopnav > .wrapper{display:block; width:100%; padding:0 1.75rem;}
 nav.stopnav .blocks{display:flex; align-items:center;}
+nav.stopnav .blocks > .option .hotline{
+  display:flex; align-items:center; margin:0; cursor:pointer; transition:color .5s, border .5s;
+}
+nav.stopnav .blocks > .option .hotline > em{
+  width:1.5rem; height:1.5rem; display:flex; justify-content:center; align-items:center; 
+  margin-right:.375rem; background:transparent; border-radius:50%; border:1px solid transparent;
+}
 nav.stopnav .blocks.blocks-main{width:100%; justify-content:space-between;}
 nav.stopnav .option{
   display:flex; align-items:center; border-right:1px solid transparent;

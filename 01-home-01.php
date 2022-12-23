@@ -11,13 +11,13 @@
     <div class="slide-container">
       <div class="slides">
         <?php for($i=0; $i<4; $i++){?>
-          <div class="slide">
+          <div class="slide size-02">
             <div class="img-bg" style="background-image:url('public/assets/app/images/bg/02.jpg');"></div>
-            <div class="hero animate" style="--delay:.55s;">
-              <img src="public/assets/app/images/hero/03.png" class="Hero" />
+            <div class="hero size-02 animate" style="--delay:.55s;">
+              <img src="public/assets/app/images/hero/05.png" class="Hero" />
             </div>
             <div class="container">
-              <div class="quote-container animate" style="--delay:.4s;">
+              <div class="quote-container style-02 animate" style="--delay:.4s;">
                 <div class="wrapper">
                   <h2 class="fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
                   <h1 class="fw-700 mt-1">
@@ -63,7 +63,17 @@
       ],
     ];
   ?>
-  <section class="section-padding tab-container">
+  <section class="section-padding section-12 tab-container">
+    <div class="pattern style-01">
+      <div class="wrapper">
+        <img src="public/assets/app/images/pattern/02.png" alt="Hero">
+      </div>
+    </div>
+    <div class="pattern style-02">
+      <div class="wrapper">
+        <img src="public/assets/app/images/pattern/03.png" alt="Hero">
+      </div>
+    </div>
     <div class="container">
       <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
         <?php foreach($categories as $i=>$d){?>
@@ -182,7 +192,12 @@
       ]
     ]; 
   ?>
-  <section class="section-padding">
+  <section class="section-padding section-12">
+    <div class="pattern style-03">
+      <div class="wrapper">
+        <img src="public/assets/app/images/pattern/04.png" alt="Hero">
+      </div>
+    </div>
     <div class="container">
       <div class="grids no-gap">
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="0">
@@ -493,7 +508,12 @@
     </div>
   </section>
 
-  <section class="section-padding">
+  <section class="section-padding section-11">
+    <div class="pattern">
+      <div class="wrapper">
+        <img src="public/assets/app/images/pattern/01.png" alt="Hero">
+      </div>
+    </div>
     <div class="container">
       <h2 class="text-center fw-700 mb-3" data-aos="fade-up" data-aos-delay="0">
         บทความพิเศษ
@@ -505,18 +525,11 @@
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
             </div>
             <div class="text-container color-black">
-              <a class="title h6 fw-500 h-color-p" href="#">
+              <a class="title h6 fw-500 h-color-04" href="#">
                 วารสารสำนักงานคณะกรรมการการเลือกตั้ง : พรรค การเมืองกับการเปลี่ยนแปลงทางการเมือง และการเลือกตั้ง
               </a>
               <p class="sm fw-400 mt-2">
-                08 มิถุนายน 2565 / By <a class="color-p h-color-s" href="#">Admin</a>
-              </p>
-              <p class="desc fw-300 mt-2">
-                วารสารสำนักงานคณะกรรมการการเลือกตั้ง ฉบับที่ 2 ประจำปี 2563 ภายใต้หัวข้อเรื่อง 
-                พรรคการเมืองกับการเปลี่ยนแปลงทางการเมืองและการเลือกตั้ง” 
-                ซึ่งได้รวบรวมบทความจากนักวิชาการในสาขาวิชาที่เกี่ยวข้อง ซึ่งมีชื่อเสียงอยู่ในระดับต้นๆ ของประเทศ 
-                ทุกบทความที่นำเสนอในวารสารล้วนผ่านการศึกษา ค้นคว้าอย่างเป็นระบบควรค่าแก่การศึกษา 
-                เพื่อทำความเข้าใจระบบพรรคการเมืองไทยให้ลึกซึ้งเป็นอย่างยิ่ง
+                08 มิถุนายน 2565 เวลา 20:34 น. / By <a class="color-02 h-color-04 border-bottom bcolor-04" href="#">Admin</a>
               </p>
             </div>
           </div>
@@ -527,17 +540,11 @@
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
             </div>
             <div class="text-container color-black">
-              <a class="title h6 fw-500 h-color-p" href="#">
+              <a class="title h6 fw-500 h-color-04" href="#">
                 หนังสือสรุปผลงานเนื่องในโอกาสครบรอบวันสถาปนาสำนักงานคณะกรรมการการเลือกตั้งปีที่ 23
               </a>
               <p class="sm fw-400 mt-2">
-                08 มิถุนายน 2565 / By <a class="color-p h-color-s" href="#">Admin</a>
-              </p>
-              <p class="desc fw-300 mt-2">
-                หนังสือสรุปผลงานเนื่องในโอกาสครบรอบวันสถาปนาสำนักงานคณะกรรมการการเลือกตั้ง ปีที่ 23 ภายใต้แนวคิด 
-                "ECT Transformation สู่องค์กรจัดการเลือกตั้งมืออาชีพ" โดยหนังสือประกอบไปด้วย 
-                สารจากคณะกรรมการการการเลือกตั้งและเลขาธิการคณะกรรมการการเลือกตั้ง 
-                และบทความพิเศษสรุปภาพรวมภารกิจของคณะกรรมการการการเลือกตั้งในรอบปีที่ผ่านมา
+                08 มิถุนายน 2565 เวลา 20:34 น. / By <a class="color-02 h-color-04 border-bottom bcolor-04" href="#">Admin</a>
               </p>
             </div>
           </div>
@@ -548,18 +555,11 @@
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/13.jpg');"></div>
             </div>
             <div class="text-container color-black">
-              <a class="title h6 fw-500 h-color-p" href="#">
+              <a class="title h6 fw-500 h-color-04" href="#">
                 วารสารสำนักงานคณะกรรมการการเลือกตั้ง : ปีแห่งการเลือกตั้งท้องถิ่น 2
               </a>
               <p class="sm fw-400 mt-2">
-                08 มิถุนายน 2565 / By <a class="color-p h-color-s" href="#">Admin</a>
-              </p>
-              <p class="desc fw-300 mt-2">
-                ภาคสองของการเลือกตั้งท้องถิ่น ซึ่งจะเป็นส่วนต่อขยายเดิม โดยมีเนื้อหาใน 2 ส่วนหลัก คือ 
-                เนื้อหาที่เกี่ยวกับการจัดการเลือกตั้งท้องถิ่น และอีกส่วนหนึ่งเป็น 
-                เนื้อหาที่เกี่ยวกับบทบาทหน้าที่ขององค์กรปกครองส่วนท้องถิ่น ได้แก่ 
-                บทบาทหน้าที่การจัดทำบริการสาธารณะขององค์กรปกครองส่วนท้องถิ่นในบริบทสมัยใหม่ 
-                และองค์กรปกครองส่วนท้องถิ่นยุคใหม่ กับการเสริมพลังอำนาจให้แก่ประชาชน
+                08 มิถุนายน 2565 เวลา 20:34 น. / By <a class="color-02 h-color-04 border-bottom bcolor-04" href="#">Admin</a>
               </p>
             </div>
           </div>
