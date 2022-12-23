@@ -186,7 +186,7 @@
     <div class="container">
       <div class="grids no-gap">
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="0">
-          <div class="cate-container">
+          <div class="cate-container bc-none-01">
             <h3 class="fw-600">ถาม-ตอบข้อซักถามพรรคการเมือง</h3>
             <?php foreach($titles as $d) {?>
               <div class="ss-card ss-card-24 mt-3">
@@ -231,7 +231,7 @@
           ]; 
         ?>
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="150">
-          <div class="cate-container">
+          <div class="cate-container bc-none-02">
             <h3 class="fw-600">คำวินิจฉัย กกต.</h3>
             <?php foreach($titles02 as $d) {?>
               <div class="ss-card ss-card-25 mt-3">
@@ -266,7 +266,7 @@
           ]; 
         ?>
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="300">
-          <div class="cate-container bc-none">
+          <div class="cate-container bc-none-03">
             <h3 class="fw-600">รวมข่าว กกต.</h3>
             <?php foreach($titles03 as $d) {?>
               <div class="ss-card ss-card-26 mt-3">
@@ -314,50 +314,56 @@
           </p>
           <div class="grids jc-center">
             <div class="grid md-1-3 sm-50 xs-50">
-              <div class="mobile-device-container">
-                <div class="wrapper">
-                  <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
-                  <div class="mobile-screen-container">
-                    <div class="mobile-screen" 
-                      style="background-image:url('public/assets/app/images/content/showcase-01.jpg');">
-                    </div> 
-                  </div>    
-                  <div class="text-container text-center color-white">
-                    <p>แอปพลิเคชั่น</p>
-                    <p class="h6 lh-3xs fw-500">ฉลาดเลือก</p>
-                  </div>       
+              <div class="showcase">
+                <div class="mobile-device-container">
+                  <div class="wrapper">
+                    <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
+                    <div class="mobile-screen-container">
+                      <div class="mobile-screen" 
+                        style="background-image:url('public/assets/app/images/content/showcase-01.jpg');">
+                      </div> 
+                    </div>    
+                    <div class="text-container text-center color-white">
+                      <p>แอปพลิเคชั่น</p>
+                      <p class="h6 lh-3xs fw-500">ฉลาดเลือก</p>
+                    </div>       
+                  </div>
                 </div>
               </div>
             </div>
             <div class="grid md-1-3 sm-50 xs-50">
-              <div class="mobile-device-container">
-                <div class="wrapper">
-                  <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
-                  <div class="mobile-screen-container">
-                    <div class="mobile-screen" 
-                      style="background-image:url('public/assets/app/images/content/showcase-02.jpg');">
-                    </div> 
-                  </div>    
-                  <div class="text-container text-center color-white">
-                    <p>แอปพลิเคชั่น</p>
-                    <p class="h6 lh-3xs fw-500">ตาสัปปะรด</p>
-                  </div>       
+              <div class="showcase">
+                <div class="mobile-device-container">
+                  <div class="wrapper">
+                    <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
+                    <div class="mobile-screen-container">
+                      <div class="mobile-screen" 
+                        style="background-image:url('public/assets/app/images/content/showcase-02.jpg');">
+                      </div> 
+                    </div>    
+                    <div class="text-container text-center color-white">
+                      <p>แอปพลิเคชั่น</p>
+                      <p class="h6 lh-3xs fw-500">ตาสัปปะรด</p>
+                    </div>       
+                  </div>
                 </div>
               </div>
             </div>
             <div class="grid md-1-3 sm-50 xs-50">
-              <div class="mobile-device-container">
-                <div class="wrapper">
-                  <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
-                  <div class="mobile-screen-container">
-                    <div class="mobile-screen" 
-                      style="background-image:url('public/assets/app/images/content/showcase-03.jpg');">
-                    </div> 
-                  </div>    
-                  <div class="text-container text-center color-white">
-                    <p>แอปพลิเคชั่น</p>
-                    <p class="h6 lh-3xs fw-500">CIVIL EDUCATION</p>
-                  </div>       
+              <div class="showcase">
+                <div class="mobile-device-container">
+                  <div class="wrapper">
+                    <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
+                    <div class="mobile-screen-container">
+                      <div class="mobile-screen" 
+                        style="background-image:url('public/assets/app/images/content/showcase-03.jpg');">
+                      </div> 
+                    </div>    
+                    <div class="text-container text-center color-white">
+                      <p>แอปพลิเคชั่น</p>
+                      <p class="h6 lh-3xs fcustom fw-500">CIVIL EDUCATION</p>
+                    </div>       
+                  </div>
                 </div>
               </div>
             </div>
