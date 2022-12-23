@@ -584,8 +584,8 @@
             <div class="text-container">
               <h3 class="fw-400 lh-2xs">คำวินิจฉัย</h3>
               <h6>คณะกรรมการการเลือกตั้ง</h6>
-              <p class="mt-2">
-                <a class="h-color-t" href="#">คลิกที่นี่เพื่ออ่านประกาศ</a>
+              <p class="mt-2 sm">
+                <a class="h-color-07" href="#">คลิกที่นี่เพื่ออ่านประกาศ</a>
               </p>
             </div>
           </div>
@@ -598,8 +598,8 @@
             <div class="text-container">
               <h3 class="fw-400 lh-2xs">รวมถาม-ตอบ</h3>
               <h6>ข้อซักถามพรรคการเมือง</h6>
-              <p class="mt-2">
-                <a class="h-color-t" href="#">คลิกที่นี่เพื่ออ่านรายละเอียด</a>
+              <p class="mt-2 sm">
+                <a class="h-color-07" href="#">คลิกที่นี่เพื่ออ่านรายละเอียด</a>
               </p>
             </div>
           </div>
@@ -612,10 +612,10 @@
             <div class="text-container">
               <div class="d-flex ai-end">
                 <h3 class="fw-400 lh-2xs mr-1">สายด่วน</h3>
-                <h1 class="fw-300 lh-3xs color-t">1444</h1>
+                <h1 class="fw-300 lh-3xs color-07">1444</h1>
               </div>
               <h6>สอบถามข้อมูลการเลือกตั้ง</h6>
-              <p class="mt-2">เปิดให้บริการในวันและเวลาราชการ</p>
+              <p class="sm mt-2">เปิดให้บริการในวันและเวลาราชการ</p>
             </div>
           </div>
         </div>
