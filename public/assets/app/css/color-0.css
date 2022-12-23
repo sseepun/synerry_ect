@@ -211,17 +211,17 @@ html, body, table.table{color:#000000;}
 .faq-05 .faq:hover > .question .button-download > .btn{background:#fef200; color:#2e603c;}
 
 /* Accessibility & Quick Links */
-nav.side-panel .icon{background:#8c59b7; color:#ffffff;}
+nav.side-panel .icon{background:#30906a; color:#ffffff;}
 nav.side-panel .panel{box-shadow:0px 4px 8px 5px rgba(0,0,0,.08);}
 nav.side-panel > .wrapper > .icon{background:#303031;}
 nav.side-panel > .wrapper > .icon:hover{background:#fff102;}
-nav.side-panel.active > .wrapper > .icon{background:#8c59b7;}
+nav.side-panel.active > .wrapper > .icon{background:#30906a;}
 nav.side-panel .panel-row{background:#ffffff; color:#000000;}
 nav.side-panel .panel-row:nth-child(odd){background:#f2f2f2;}
-nav.side-panel .panel-row:first-child{background:#8c59b7; color:#ffffff;}
+nav.side-panel .panel-row:first-child{background:#30906a; color:#ffffff;}nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active
 nav.side-panel .option{color:#000000;}
 nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active{
-  background:#8c59b7; color:#ffffff; fill:#ffffff;
+  background:#30906a; color:#ffffff; fill:#ffffff;
 }
 nav.side-panel .option-row{color:#000000;}
 nav.side-panel .option-row .icon + *::before{background:#8c59b7;}
