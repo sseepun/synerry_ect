@@ -209,3 +209,6 @@
     </div>
   </div>
 </div>
+
+<!-- Options -->
+<?php include_once('component/options.php'); ?>

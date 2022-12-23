@@ -1344,7 +1344,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Mobile Container */
 .showcase{position:absolute; bottom:0; height:100%; display:flex; align-items:flex-end;}
-.mobile-device-container{position:relative; overflow:hidden;}
+.mobile-device-container{position:relative; overflow:hidden; cursor:pointer;}
 .mobile-device-container .wrapper > .mobile-screen-container{position:absolute; top:0; left:0; right:0; width:88%; margin:0 auto;}
 .mobile-device-container .wrapper > .mobile-screen-container .mobile-screen{
   position:absolute; top:.875rem; left:0; right:0; height:15.5rem; cursor:pointer; background-position:top; 
@@ -1352,14 +1352,12 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 .mobile-device-container:hover .wrapper > .mobile-screen-container .mobile-screen{background-position:bottom;}
 .mobile-device-container .wrapper > .text-container{
-  position:absolute; bottom:0; min-height:6.4375rem; left:0; right:0; width:100%;
+  position:absolute; bottom:0; min-height:6.4375rem; left:0; right:0; width:100%; 
   display:flex; flex-direction:column; align-items:center; justify-content:center; transition:all .7s;
 }
-.mobile-device-container .text-container{background:#303031;}
 @media screen and (max-width:1299.98px){
   .showcase{position:relative;}
   .mobile-device-container .wrapper > .text-container{min-height:5.5rem;}
- 
 }
 @media screen and (max-width:1199.98px){
   .mobile-device-container .wrapper > .text-container{min-height:4.125rem;}
@@ -1776,8 +1774,21 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-26 .wrapper > .text-container{padding:0 .9375rem;}
 .ss-card-26 .wrapper > .text-container .title{cursor:pointer;}
 
-.ss-card-26{border-color:#e1e1e1;}
-.ss-card-26 .wrapper > .icon{background:#30906a; color:#ffffff;}
+/* Special Card 28 */
+.ss-card-28{position:relative;}
+.ss-card-28 .ss-img{border-radius:.875rem; overflow:hidden;}
+.ss-card-28 .text-container{position:absolute; left:0; bottom:1rem; right:0; padding:.5rem;}
+@media screen and (max-width:991.98px){
+  .ss-card-28 .text-container > .name-th{font-size:.9375rem;}
+  .ss-card-28 .text-container > .name-eng{font-size:.6875rem;}
+}
+@media screen and (max-width:401.98px){
+  .ss-card-28 .text-container > .rank{font-size:.75rem;}
+  .ss-card-28 .text-container > .name-th{font-size:.875rem;}
+  .ss-card-28 .text-container > .name-eng{font-size:.6875rem;}
+}
+
+
 
 
 

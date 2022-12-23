@@ -154,6 +154,9 @@ html, body, table.table{color:#000000;}
   background:#2e603c; color:#ffffff;
 }
 
+.mobile-device-container .text-container{background:#303031; color:#ffffff;}
+.mobile-device-container:hover .text-container{color:#fff102;}
+
 .popular-search-container .ss-tags > .tag{background:#eeeeee; color:#191919;}
 
 /* Faq 01 */
@@ -207,6 +210,22 @@ html, body, table.table{color:#000000;}
 .faq-05 .faq:hover > .question .date-view > .wrapper .icon > em{color:#ffffff;}
 .faq-05 .faq:hover > .question .button-download > .btn{background:#fef200; color:#2e603c;}
 
+/* Accessibility & Quick Links */
+nav.side-panel .icon{background:#8c59b7; color:#ffffff;}
+nav.side-panel .panel{box-shadow:0px 4px 8px 5px rgba(0,0,0,.08);}
+nav.side-panel > .wrapper > .icon{background:#303031;}
+nav.side-panel > .wrapper > .icon:hover{background:#fff102;}
+nav.side-panel.active > .wrapper > .icon{background:#8c59b7;}
+nav.side-panel .panel-row{background:#ffffff; color:#000000;}
+nav.side-panel .panel-row:nth-child(odd){background:#f2f2f2;}
+nav.side-panel .panel-row:first-child{background:#8c59b7; color:#ffffff;}
+nav.side-panel .option{color:#000000;}
+nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active{
+  background:#8c59b7; color:#ffffff; fill:#ffffff;
+}
+nav.side-panel .option-row{color:#000000;}
+nav.side-panel .option-row .icon + *::before{background:#8c59b7;}
+nav.side-panel .hamburger > *{background:#ffffff;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -421,6 +440,10 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
   background:#3a8b6c; color:#ffffff; border-color:#ffffff;
 }
 
+/* Section 09 */
+.section-09 .swiper-background > .arrows-container .arrow{border-color:#303031;}
+.section-09 .swiper-background > .arrows-container .arrow > em{color:#303031;}
+
 /* Special Card 01 */
 .ss-card-01 .ss-img::after{
   background-image:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.7),
@@ -547,5 +570,12 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 .ss-card-25 .text-container > .arrow{color:#30906a;}
 .ss-card-25{border-color:#30906a;}
 
+/* Special Card 26 */
+.ss-card-26{border-color:#e1e1e1;}
+.ss-card-26 .wrapper > .icon{background:#30906a; color:#ffffff;}
+
 /* Special Card 27 */
 .ss-card-27 .mobile-container > .text-container{background:#303031;}
+
+/* Special Card 28 */
+.ss-card-28 .text-container{background:#2e603c; color:#ffffff;}

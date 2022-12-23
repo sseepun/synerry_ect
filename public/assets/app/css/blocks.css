@@ -387,7 +387,6 @@
 .section-09 .swiper-background{
   position:absolute; top:7rem; left:0; right:0; bottom:0; height:calc(100% - 300px); width:auto; z-index:-1;
 }
-/* .section-09 .swiper-container > .swiper-wrapper{margin-bottom:calc(100% -15rem) ;} */
 .section-09 .swiper-container > .shelf-container{margin-top:-3%;}
 .section-09 .swiper-background > .arrows-container{width:100%; padding:0 2rem; margin-top:10rem;}
 .section-09 .swiper-background > .arrows-container .wrapper{display:flex; justify-content:space-between;}
@@ -397,8 +396,10 @@
   justify-content:center; align-items:center; border-radius:50%; cursor:pointer;
 }
 
-.section-09 .swiper-background > .arrows-container .arrow{border-color:#303031;}
-.section-09 .swiper-background > .arrows-container .arrow > em{color:#303031;}
+
+/* Section 10 */
+.section-10 .swiper-container{margin-top:3rem; padding:0 .3125rem;}
+
 
 
 /* Breadcrumb 01 */

@@ -323,11 +323,12 @@
                         style="background-image:url('public/assets/app/images/content/showcase-01.jpg');">
                       </div> 
                     </div>    
-                    <div class="text-container text-center color-white">
+                    <div class="text-container text-center">
                       <p>แอปพลิเคชั่น</p>
                       <p class="h6 lh-3xs fw-500">ฉลาดเลือก</p>
                     </div>       
                   </div>
+                 
                 </div>
               </div>
             </div>
@@ -341,7 +342,7 @@
                         style="background-image:url('public/assets/app/images/content/showcase-02.jpg');">
                       </div> 
                     </div>    
-                    <div class="text-container text-center color-white">
+                    <div class="text-container text-center">
                       <p>แอปพลิเคชั่น</p>
                       <p class="h6 lh-3xs fw-500">ตาสัปปะรด</p>
                     </div>       
@@ -359,7 +360,7 @@
                         style="background-image:url('public/assets/app/images/content/showcase-03.jpg');">
                       </div> 
                     </div>    
-                    <div class="text-container text-center color-white">
+                    <div class="text-container text-center">
                       <p>แอปพลิเคชั่น</p>
                       <p class="h6 lh-3xs fcustom fw-500">CIVIL EDUCATION</p>
                     </div>       
@@ -371,6 +372,77 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <?php 
+    $syndicates = [
+      [
+        'image' => 'public/assets/app/images/content/83.jpg',
+        'rank' => 'ประธานกรรมการการเลือกตั้่ง',
+        'nameTH' => 'นายฉัตรไชย จันทร์พรายศรี',
+        'nameEng' => 'Mr. Ittiporn Boonpracong'
+      ],[
+        'image' => 'public/assets/app/images/content/84.jpg',
+        'rank' => 'กรรมการการเลือกตั้่ง',
+        'nameTH' => 'ศ.สันทัด ศิริอนันต์ไพบูลย์',
+        'nameEng' => 'Prof. Suntud Sirianuntapiboon'
+      ],[
+        'image' => 'public/assets/app/images/content/85.jpg',
+        'rank' => 'กรรมการการเลือกตั้่ง',
+        'nameTH' => 'นายธวัชชัย เทอดเผ่าไทย',
+        'nameEng' => 'Mr. Tawatchai Therdphaothai'
+      ],[
+        'image' => 'public/assets/app/images/content/86.jpg',
+        'rank' => 'กรรมการการเลือกตั้่ง',
+        'nameTH' => 'นายฉัตรไชย จันทร์พรายศรี',
+        'nameEng' => 'Mr. Chatchai Janpraisri'
+      ],[
+        'image' => 'public/assets/app/images/content/87.jpg',
+        'rank' => 'กรรมการการเลือกตั้่ง',
+        'nameTH' => 'นายปกรณ์ มหรรณพ',
+        'nameEng' => 'Mr. Pakron Mahannop'
+      ],[
+        'image' => 'public/assets/app/images/content/88.jpg',
+        'rank' => 'กรรมการการเลือกตั้่ง',
+        'nameTH' => 'นายเลิศวิโรจน์ โกวัฒนะ',
+        'nameEng' => 'Mr. Lertviroj Kowattana'
+      ],[
+        'image' => 'public/assets/app/images/content/89.jpg',
+        'rank' => 'กรรมการการเลือกตั้่ง',
+        'nameTH' => 'นายฐิติเชฏฐ์ นุชนาฏ',
+        'nameEng' => 'Mr. Titichet Nutchanart'
+      ],
+    ]
+  ?>
+
+  <section class="section-padding section-10">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="fw-700" data-aos="fade-up" data-aos-delay="0">
+          คณะกรรมการการเลือกตั้ง
+        </h3>        
+        <p>สุจริต โปร่งใส เที่ยงธรรม และชอบด้วยกฎหมาย</p>
+      </div>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <?php foreach($syndicates as $d) {?>
+            <div class="swiper-slide ">
+            <div class="ss-card ss-card-28">
+              <div class="ss-img vertical no-hover">
+                <div class="img-bg" style="background:url('<?= $d['image']?>')"></div>
+              </div>
+              <div class="text-container">
+                <p class="rank sm"><?= $d['rank'] ?></p>
+                <h6 class="name-th lh-sm fw-400"><?= $d['nameTH'] ?></h6>
+                <p class="name-eng sm"><?= $d['nameEng'] ?><p>
+              </div>
+            </div>
+          </div>
+          <?php }?>
+        </div>
+      </div>
+    
   </section>
 
   <section class="section-02 section-padding" style="background-image:url('public/assets/app/images/bg/21.jpg');">
