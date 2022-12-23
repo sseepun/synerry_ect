@@ -978,6 +978,8 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .ss-list ul > li::before{display:none;}
 
+.ss-list.style-03 > li a{font-weight:500}
+
 
 /* Special Tags */
 .ss-tags{display:block;}

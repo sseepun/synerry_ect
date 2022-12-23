@@ -428,17 +428,17 @@
         <div class="swiper-wrapper">
           <?php foreach($syndicates as $d) {?>
             <div class="swiper-slide ">
-            <div class="ss-card ss-card-28">
-              <div class="ss-img vertical no-hover">
-                <div class="img-bg" style="background:url('<?= $d['image']?>')"></div>
-              </div>
-              <div class="text-container">
-                <p class="rank sm"><?= $d['rank'] ?></p>
-                <h6 class="name-th lh-sm fw-400"><?= $d['nameTH'] ?></h6>
-                <p class="name-eng sm"><?= $d['nameEng'] ?><p>
+              <div class="ss-card ss-card-28">
+                <div class="ss-img vertical no-hover">
+                  <div class="img-bg" style="background:url('<?= $d['image']?>')"></div>
+                </div>
+                <div class="text-container">
+                  <p class="rank sm"><?= $d['rank'] ?></p>
+                  <h6 class="name-th lh-sm fw-400"><?= $d['nameTH'] ?></h6>
+                  <p class="name-eng sm"><?= $d['nameEng'] ?><p>
+                </div>
               </div>
             </div>
-          </div>
           <?php }?>
         </div>
       </div>
@@ -577,7 +577,7 @@
     <div class="container">
       <div class="grids jc-center">
         <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
-          <div class="ss-card ss-card-05 filter-01" data-aos="fade-up" data-aos-delay="0">
+          <div class="ss-card ss-card-05 filter-02" data-aos="fade-up" data-aos-delay="0">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
             </div>
@@ -591,7 +591,7 @@
           </div>
         </div>
         <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
-          <div class="ss-card ss-card-05 filter-01" data-aos="fade-up" data-aos-delay="150">
+          <div class="ss-card ss-card-05 filter-02" data-aos="fade-up" data-aos-delay="150">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.jpg');"></div>
             </div>
@@ -605,7 +605,7 @@
           </div>
         </div>
         <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
-          <div class="ss-card ss-card-05 filter-01" data-aos="fade-up" data-aos-delay="300">
+          <div class="ss-card ss-card-05 filter-02" data-aos="fade-up" data-aos-delay="300">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.jpg');"></div>
             </div>
@@ -622,11 +622,11 @@
         <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
           <div class="ss-card ss-card-05" data-aos="fade-up" data-aos-delay="450">
             <div class="ss-img">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/18.jpg');"></div>
+              <div class="img-bg" style="background-image:url('public/assets/app/images/content/01.png');"></div>
             </div>
             <div class="text-container">
               <form action="">
-                <h2 class="fw-100 lh-2xs color-t">Poll Vote</h2>
+                <h2 class="fw-300 lh-2xs color-07">Poll Vote</h2>
                 <p class="mt-1">
                   ท่านมีความพึงพอใจในการใช้บริการ
                   เว็บไซต์ของสำนักงานคณะกรรมการ
@@ -636,7 +636,7 @@
                   <div class="gallery-grids">
                     <?php foreach(['พอใจมากที่สุด', 'พอใจมาก', 'ปานกลาง', 'เฉยๆ', 'ไม่น่าพอใจ'] as $i=>$d){?>
                       <div class="grid sm-50 xs-50">
-                        <div class="rc-container">
+                        <div class="rc-container style-02">
                           <input type="radio" id="poll_<?= $i ?>" name="poll" value="<?= $i ?>" />
                           <label for="poll_<?= $i ?>"><?= $d ?></label>
                         </div>
@@ -645,7 +645,7 @@
                   </div>
                 </fieldset>
                 <div class="btns pt-4">
-                  <button type="submit" class="btn btn-action btn-01 w-full">
+                  <button type="submit" class="btn btn-action btn-04 w-full">
                     <div class="d-flex ai-center jc-center pt-2 pb-2">
                       <img 
                         class="img mr-3" src="public/assets/app/images/icon/12.png" 
@@ -663,23 +663,7 @@
     </div>
   </section>
 
-  <section class="client-01 section-padding">
-    <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
-      <div class="slides">
-        <?php for($i=0; $i<5; $i++){?>
-          <div class="slide">
-            <div class="wrapper">
-              <a class="client" href="#">
-                <img src="public/assets/app/images/client/0<?= $i+1 ?>.png" alt="Client" />
-              </a>
-            </div>
-          </div>
-        <?php }?>
-      </div>
-    </div>
-  </section>
-
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-03.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>
