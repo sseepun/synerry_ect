@@ -432,14 +432,14 @@
 
   <section class="section-padding section-10">
     <div class="container">
-      <div class="text-center">
-        <h3 class="fw-700" data-aos="fade-up" data-aos-delay="0">
+      <div class="text-center" data-aos="fade-up" data-aos-delay="0">
+        <h3 class="fw-700">
           คณะกรรมการการเลือกตั้ง
         </h3>        
         <p>สุจริต โปร่งใส เที่ยงธรรม และชอบด้วยกฎหมาย</p>
       </div>
       </div>
-      <div class="swiper-container">
+      <div class="swiper-container" data-aos="fade-up" data-aos-delay="150">
         <div class="swiper-wrapper">
           <?php foreach($syndicates as $d) {?>
             <div class="swiper-slide ">

@@ -23,7 +23,7 @@
   </div>
   <img class="pattern" src="public/assets/app/images/icon/11.png" alt="Pattern" />
   <div class="container">
-    <div class="footer-container">
+    <div class="footer-container" data-aos="fade-up" data-aos-delay="0">
       <div class="wrapper">
         <div class="grids">
           <div class="grid xl-30 lg-40 sm-100">
