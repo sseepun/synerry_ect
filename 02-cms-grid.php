@@ -215,5 +215,7 @@
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  </script>
 </body>
 </html>

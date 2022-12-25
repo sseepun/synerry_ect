@@ -4,15 +4,15 @@
     <?php if(in_array('search', $listHeader) || in_array('category', $listHeader) || in_array('order', $listHeader)){?>
       <div class="options">
         <?php if(in_array('search', $listHeader)){?>
-          <div class="option">
+          <div class="option search">
             <div class="ui icon input">
-              <input type="text" placeholder="ค้นหา" />
+              <input id="search" type="search" placeholder="ค้นหา" />
               <em class="icon fa-solid fa-magnifying-glass"></em>
             </div>
           </div>
         <?php }?>
         <?php if(in_array('category', $listHeader)){?>
-          <div class="option">
+          <div class="option cate">
             <span class="p sm fw-500 mr-2">ประเภท</span>
             <select class="ui dropdown">
               <option value="">เลือกหมวดหมู่</option>
@@ -26,7 +26,7 @@
           </div>
         <?php }?>
         <?php if(in_array('order', $listHeader)){?>
-          <div class="option">
+          <div class="option order">
             <span class="p sm fw-500 mr-2">เรียงลำดับ</span>
             <select class="ui dropdown">
               <option value="">เรียงลำดับข้อมูล</option>
@@ -41,7 +41,7 @@
         <?php }?>
         <?php if(in_array('view', $listHeader) || in_array('expand', $listHeader)){?>
         <?php if(in_array('view', $listHeader)){?>
-          <div class="option">
+          <div class="option view">
             <a class="icon-view" href="#">
               <em class="fas fa-th"></em>
             </a>
