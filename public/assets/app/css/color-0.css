@@ -163,6 +163,16 @@ html, body, table.table{color:#000000;}
 
 .popular-search-container .ss-tags > .tag{background:#eeeeee; color:#191919;}
 
+/* Form check container */
+.form-check-container{border-color:#eeeeee;}
+.form-check-container.active{background:#eeeeee;}
+.form-check-container .checkmark,
+.form-check-container-02 .checkmark{ background:#ffffff; border-color:#2e603c;}
+.form-check-container  input:checked ~ .checkmark,
+.form-check-container-02  input:checked ~ .checkmark{background-color:#2e603c!important;}
+.form-check-container .checkmark:after,
+.form-check-container-02 .checkmark:after{border-color:white;}
+
 /* Faq 01 */
 .faq-01 .faq.active > .question{background:#3aa57b; border-color:#3aa57b;}
 .faq-01 .faq.active > .question h6{color:#ffffff;}

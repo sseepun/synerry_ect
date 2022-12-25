@@ -29,70 +29,79 @@
       <div class="ss-box m-unset xxl" data-aos="fade-up" data-aos-delay="150">
         <form action="" class="mt-5">
           <div class="form-group">
-            <label for="">
+            <label>
               <span class="p sm fw-400">กรุณากรอกอีเมลที่ต้องการรับข่าวสาร</span>
             </label>
             <input class="style-02 mt-1" type="text" placeholder="อีเมล *">
             <p class="sm fw-400 mt-3">กรุณาเลือกประเภทของข่าวสารที่คุณมีความสนใจในการติดตาม</p>
-            <fieldset>
-              <div class="form-check d-flex ai-center" style="padding-left:.9375rem;">
-                <input type="checkbox" onclick="allChecked()" class="form-check-input" id="checkAll" value="0" title="General Checkbox Input" />
-                <label for="c_7">เลือกทั้งหมด</label>
-              </div>
+            <fieldset class="mt-2">
+              <label class="form-check ai-center form-check-container-02">
+                <input type="checkbox" onclick="allChecked()" class="form-check-input" id="checkAll"/>
+                <span class="checkmark"></span>
+                <div>
+                  <p class="fw-400">เลือกทั้งหมด</p>
+                </div>
+              </label>
               <div class="grids">
-                <div class="grid sm-50">
-                  <div class="form-check form-check-container" id="check_01">
-                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_1" value="0" title="General Checkbox Input" />
-                    <div class="ml-1">
-                      <label class="color-02 fw-600" for="c_0">ข่าวประชาสัมพันธ์</label>
+                <div class="grid sm-50 mt-3">
+                  <label class="form-check form-check-container" id="check_01">
+                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_1"/>
+                    <span class="checkmark"></span>
+                    <div>
+                      <p class="color-02 fw-600">ข่าวประชาสัมพันธ์</p>
                       <p class="xs fw-400">ติดตามข่าวความเคลื่อนต่างๆ การเลือกตั้ง</p>
                     </div>
-                  </div>
+                  </label>
                 </div>
-                <div class="grid sm-50">
-                  <div class="form-check form-check-container" id="check_02">
-                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_2" value="0" title="General Checkbox Input" />
-                    <div class="ml-1">
-                      <label class="color-02 fw-600" for="c_1">คลังภาพ</label>
+                <div class="grid sm-50 mt-3">
+                  <label class="form-check form-check-container" id="check_02">
+                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_2"/>
+                    <span class="checkmark"></span>
+                    <div>
+                      <label class="color-02 fw-600">คลังภาพ</label>
                       <p class="xs fw-400">กกต. พร้อมให้ข้อมูลที่เป็นประโยชน์ด้านการเลือกตั้งเพื่อประชาชน</p>
                     </div>
-                  </div>
+                  </label>
                 </div>
-                <div class="grid sm-50">
-                  <div class="form-check form-check-container" id="check_03">
-                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_3" value="0" title="General Checkbox Input" />
-                    <div class="ml-1">
-                      <label class="color-02 fw-600" for="c_2">วิดีโอ</label>
+                <div class="grid sm-50 mt-3">
+                  <label class="form-check form-check-container" id="check_03">
+                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_3"/>
+                    <span class="checkmark"></span>
+                    <div>
+                      <label class="color-02 fw-600">วิดีโอ</label>
                       <p class="xs fw-400">อัพเดทสื่อมัลติมิเดียเพื่อประชาชน</p>
                     </div>
-                  </div>
+                  </label>
                 </div>
-                <div class="grid sm-50">
-                  <div class="form-check form-check-container" id="check_04">
-                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_4" value="0" title="General Checkbox Input" />
-                    <div class="ml-1">
-                      <label class="color-02 fw-600" for="c_3">หนังสืออิเล็กทรอนิกส์</label>
+                <div class="grid sm-50 mt-3">
+                  <label class="form-check form-check-container" id="check_04">
+                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_4"/>
+                    <span class="checkmark"></span>
+                    <div>
+                      <label class="color-02 fw-600">หนังสืออิเล็กทรอนิกส์</label>
                       <p class="xs fw-400">คลังความรู้ ในรูปแบบอีบุ๊ค พร้อมกับความรู้ใหม่ๆ</p>
                     </div>
-                  </div>
+                  </label>
                 </div>
-                <div class="grid sm-50">
-                  <div class="form-check form-check-container" id="check_05">
-                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_5" value="0" title="General Checkbox Input" />
-                    <div class="ml-1">
-                      <label class="color-02 fw-600" for="c_4">หนังสืออิเล็กทรอนิกส์</label>
-                      <p class="xs fw-400">คลังความรู้ ในรูปแบบอีบุ๊ค พร้อมกับความรู้ใหม่ๆ</p>
+                <div class="grid sm-50 mt-3">
+                  <label class="form-check form-check-container" id="check_05">
+                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_5"/>
+                    <span class="checkmark"></span>
+                    <div>
+                      <label class="color-02 fw-600">เอกสารดาวโหลดน์</label>
+                      <p class="xs fw-400">อำนวยความสะดวก เอกสารทางการต่างๆที่เกี่ยวข้องกับหน่วยงาน</p>
                     </div>
-                  </div>
+                  </label>
                 </div>
-                <div class="grid sm-50">
-                  <div class="form-check form-check-container" id="check_06">
-                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_6" value="0" title="General Checkbox Input" />
-                    <div class="ml-1">
-                      <label class="color-02 fw-600" for="c_5">ประกาศรับสมัครงาน</label>
+                <div class="grid sm-50 mt-3">
+                  <label class="form-check form-check-container" id="check_06">
+                    <input type="checkbox" onclick="checkedFunction()" class="form-check-input" id="c_6"/>
+                    <span class="checkmark"></span>
+                    <div>
+                      <label class="color-02 fw-600">ประกาศรับสมัครงาน</label>
                       <p class="xs fw-400">ติดตาม และอัพเดท ตำแหน่งงานต่างๆ ของหน่วยงาน กกต.</p>
                     </div>
-                  </div>
+                  </label>
                 </div>
               </div>
             </fieldset>

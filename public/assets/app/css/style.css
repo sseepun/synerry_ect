@@ -195,6 +195,7 @@ textarea[data-copy]{pointer-events:none!important;}
 /* Input Form Group */
 .form-group{margin:.5625rem 0 0 0;}
 .form-group label{margin:0 0 .125rem 0;}
+.form-group.style-02 label{margin:unset;}
 .form-group .select-wrapper, .form-group .search-wrapper, 
 .form-group .date-wrapper{display:block; width:100%;}
 .form-group .form-control{width:100%; height:auto;}
@@ -209,6 +210,7 @@ textarea[data-copy]{pointer-events:none!important;}
 .form-check label{
     font-size:.9375rem; font-weight:300; margin:.1875rem 0 0 0; cursor:pointer; 
 }
+.form-check.style-02 label{margin:5rem;}
 .form-check > input[type="checkbox"], .form-check > input[type="radio"]{
     font-size:1rem; width:1rem; height:1rem; cursor:pointer
 }
@@ -218,10 +220,33 @@ textarea[data-copy]{pointer-events:none!important;}
 }
 
 .form-check-container{
-  padding:.9375rem; border-radius:.4375rem; border:2px solid transparent; transition:background .5s;
+  position:relative; padding:.9375rem .9375rem .9375rem 2.5rem; border-radius:.4375rem; 
+  border:2px solid transparent; transition:background .5s;
 }
-.form-check-container{border-color:#eeeeee;}
-.form-check-container.active{background:#eeeeee;}
+.form-check-container-02{position:relative; padding-left:2.5rem;}
+.form-check-container input,
+.form-check-container-02 input{
+  position:absolute; width:0!important; height:0!important; opacity:0;
+}
+.form-check-container .checkmark{
+  position:absolute; top:1.125rem; left:1rem; width:1.125rem; height:1.125rem;
+  border-radius:.1875rem; border:1px solid transparent;
+}
+.form-check-container-02 .checkmark{
+  position:absolute; top:.1875rem; left:1rem; width:1.125rem; height:1.125rem;
+  border-radius:.1875rem; border:1px solid transparent;
+}
+.form-check-container .checkmark:after,
+.form-check-container-02 .checkmark:after{
+  content: ""; position:absolute; display:none;
+}
+.form-check-container  input:checked ~ .checkmark:after,
+.form-check-container-02  input:checked ~ .checkmark:after{display:block;}
+.form-check-container .checkmark:after,
+.form-check-container-02 .checkmark:after{
+  top:.09375rem; left:.375rem; width:.1875rem; height:.4375rem;
+  border:solid transparent; border-width:0 .1875rem .1875rem 0; transform:rotate(45deg);
+}
 @media screen and (max-width:991.98px){
   .form-check-container{min-height:6.5rem;}
 }
