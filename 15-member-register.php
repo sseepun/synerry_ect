@@ -27,7 +27,7 @@
         สมัครสมาชิก
       </h3>
       <div class="grids">
-        <div class="grid lg-50">
+        <div class="grid lg-50 md-2-3 sm-100 mt-0">
           <form action="" class="mt-5">
             <div class="form-group style-02">
               <label class="p fw-500">ชื่อ <span class="text-danger">*</span></label>
@@ -47,42 +47,72 @@
                 <input class="style-02 size-01" type="text">
               </div>
             </div>
-            <div class="d-flex jc-end mt-2">
-              <p class="sm">รหัสผ่านควรมีอย่างน้อย 8 ตัว</p>
-            </div>
             <div class="form-group style-02 mt-0">
-              <label class="p fw-500">รหัสผ่าน <span class="text-danger">*</span></label>
+              <label class="p pw-title fw-500">รหัสผ่าน <span class="text-danger">*</span></label>
               <div class="form-input">
-                <input class="style-02 size-01" type="text">
-                <div class="password-level level-1">
-                <div class="levels">
-                  <div></div><div></div><div></div><div></div>
+                <div class="d-flex jc-end pw-desc mt-2">
+                  <p class="sm">รหัสผ่านควรมีอย่างน้อย 8 ตัว</p>
                 </div>
-                <p class="sm fw-300">
-                  การคาดเดาของรหัสผ่าน <span class="fw-600 text">ง่าย</span>
-                </p>
+                <input class="style-02 size-01" type="password"/>
+                <div class="password-level level-1">
+                  <div class="levels">
+                    <div></div><div></div><div></div><div></div>
+                  </div>
+                  <p class="sm fw-300">
+                    การคาดเดาของรหัสผ่าน <span class="fw-600 text">ง่าย</span>
+                  </p>
+                </div>
               </div>
-              </div>
-             
             </div>
             <div class="form-group style-02 mt-3">
               <label class="p fw-500">ยืนยันรหัสผ่าน <span class="text-danger">*</span></label>
               <div class="form-input">
-                <input class="style-02 size-01" type="text">
-              </div>
-            </div>
-            <div class="captcha-container mt-5">
-              <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
-              <div class="btns ml-4">
-                <div href="#" class="btn btn-action btn-03">
-                  ยกเลิกรับข่าวสาร
+                <input class="style-02 size-01" type="text"/>
+                <label class="form-check ai-center form-check-container-02 pl-6 mt-3">
+                  <input type="checkbox" class="form-check-input"/>
+                  <span class="checkmark" style="left:0;"></span>
+                  <div>
+                    <p class="fw-400">
+                      ข้าพเจ้ายอมรับและได้อ่านข้อความใน 
+                      <a class="color-02 border-bottom bcolor-02 fw-400">ข้อตกลงและเงื่อนไข</a>
+                      นี้โดยละเอียดแล้ว
+                    </p>
+                  </div>
+                </label>
+                <div class="captcha-container mt-5">
+                  <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                </div>
+                <div class="btns mt-2">
+                  <div href="#" class="btn btn-action size-03 btn-03">
+                    ยืนยัน
+                  </div>
+                  <div href="#" class="btn btn-action size-03 btn-05">
+                    ยกเลิก
+                  </div>
                 </div>
               </div>
             </div>
           </form>
         </div>
-        <div class="grid lg-50">
-
+        <div class="grid lg-50 md-1-3 sm-100">
+          <a class="ss-card ss-card-29" href="#">
+            <div class="wrapper">
+              <div class="icon">
+                <img src="public/assets/app/images/icon/30.png" alt="">
+              </div>
+              <div class="text-container">
+                <div class="text">
+                  <p class="color-white fw-500">เป็นสมาชิกแล้ว ?</p>
+                  <p class="sm color-white">สามารถเข้าสู่ระบบได้ที่นี่</p>
+                </div>
+                <div class="arrow">
+                  <div class="arrow arrow-next">
+                    <em class="fa-solid fa-arrow-right"></em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
         
