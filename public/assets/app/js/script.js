@@ -418,6 +418,28 @@ $(function(){ 'use strict';
             self.find('.slides').slick(options);
         });
     }
+
+     // Banner 02
+     var banner02 = $('.banner-02');
+     if(banner02.length){
+         banner02.each(function(){
+            var self = $(this);
+            new Swiper(self.find('.swiper-container'), {
+                loop: true,
+                slidesPerView: 1,
+                speed: 800,
+                grabCursor: true,
+                navigation: {
+                nextEl: self.find('.btn-icon-next'),
+                prevEl: self.find('.btn-icon-prev'),
+                },
+                pagination: {
+                    el: self.find('.dots'),
+                    clickable: true,
+                },
+            });
+        });
+     }
     
     // Client 01
     var client01 = $('.client-01');
@@ -647,6 +669,36 @@ function ssPageProcess(){
       var section10 = $('.section-10');
       if(section10.length){
           section10.each(function(){
+              var self = $(this);
+              new Swiper(self.find('.swiper-container'), {
+                  loop: true,
+                  spaceBetween: 5,
+                  slidesPerView: 7,
+                  speed: 800,
+                  grabCursor: true,
+                  navigation: {
+                      nextEl: self.find('.btn-icon-next'),
+                      prevEl: self.find('.btn-icon-prev'),
+                  },
+                  breakpoints: {
+                     1299.98: { slidesPerView:5},
+                     1199.98: { slidesPerView:4,},
+                     991.98: { slidesPerView:4,},
+                     767.98: { slidesPerView:3,},
+                     575.98: { slidesPerView:2, spaceBetween:20},
+                 },
+                  pagination: {
+                      el: self.find('.dots'),
+                      clickable: true,
+                  },
+              });
+          });
+      }
+
+      // Section 13
+      var section13 = $('.section-13');
+      if(section13.length){
+          section13.each(function(){
               var self = $(this);
               new Swiper(self.find('.swiper-container'), {
                   loop: true,

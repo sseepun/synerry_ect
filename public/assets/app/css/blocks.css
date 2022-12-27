@@ -75,6 +75,58 @@
 .banner-01 .slide.slick-active .animate{opacity:1; transform:none; transition-delay:var(--delay);}
 .loading .banner-01 .slide .animate{opacity:0!important; transform:translateY(4rem)!important;}
 
+/* Banner 02 */
+.banner-02{
+  position:relative; width:100%; display:flex; align-items:center;
+  transition:.5s;
+}
+.banner-02 .swiper-container .swiper-slide{position:relative; height:300px;}
+.banner-02 .swiper-slide > .wrapper{
+    position:relative; width:100%; height:100%; display:flex; align-items:center;
+}
+.banner-02 .swiper-slide .img-bg{
+    position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
+    background-position:center;
+}
+.banner-02 .swiper-slide > .wrapper .text-wrapper{
+    position:relative; width:100%; height:100%;
+}
+.banner-02 .swiper-slide > .wrapper .text-wrapper > .slogan{display:flex; flex-wrap:wrap;}
+.banner-02 .swiper-slide > .wrapper .text-wrapper > .slogan .list-item{position:relative; margin-right:1.5rem;}
+.banner-02 .swiper-slide > .wrapper .text-wrapper > .slogan .list-item::after{
+    content:""; position:absolute; top:calc(50% - 0.1875rem); width:.375rem; height:.375rem; margin-left:.5rem;
+}
+.banner-02 .swiper-slide > .wrapper .text-wrapper > .slogan .list-item:last-child::after{display:none;}
+.banner-02 .bullet{
+   position:absolute; left:0; right:0; bottom:8rem;
+}
+.banner-02 .bullet-wrapper{
+   position:relative; position:relative; z-index:2; display:flex; align-items:center; 
+   flex-wrap:wrap; justify-content:flex-end; margin-right:12rem;
+}
+.banner-02 .swiper-slide .swiper-slide-active{width:100%!important;}
+.banner-02 .bullet-wrapper .dots{display:flex; align-items:center;}
+.banner-02 .swiper-pagination-bullet{
+    width:0.625rem; height:0.625rem; border-radius:.3125rem; 
+    transition:width .25s; margin:.1875rem; opacity:1;
+}
+.banner-02 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:1.375rem;}
+.banner-02 .arrow-container{
+  display:flex; flex-direction:column; 
+}
+.banner-02 .arrow{display:block; pointer-events:auto; cursor:pointer; transition:opacity .25s;}
+.banner-02 .arrow:hover{opacity:.75;}
+.banner-02 .arrow{
+    width:2rem; height:2rem; display:flex; justify-content:center; align-items:center; 
+    border-radius:1000em; margin:.125rem;
+}
+
+.banner-02 .arrow{border:1px solid transparent;}
+.banner-02 .arrow{border-color:#303031;}
+
+
+
+
 
 /* Client 01 */
 .client-01 .slide-container{width:100%;}

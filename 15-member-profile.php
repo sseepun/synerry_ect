@@ -34,6 +34,56 @@
         </div>
       </div>
     </div>
+    <div class="menu-container">
+      <a class="menu-item" href="#">
+        <div class="wrapper">
+          <div class="icon">
+            <img src="public/assets/app/images/icon/31.png" alt="">
+          </div>
+          <p class="sm color-white">หน้าแรก</p>
+        </div>
+      </a>
+      <a class="menu-item" href="#">
+        <div class="wrapper">
+          <div class="icon">
+            <img src="public/assets/app/images/icon/32.png" alt="">
+          </div>
+          <p class="sm color-white">ข้อมูลส่วนตัว</ย>
+        </div>
+      </a>
+      <a class="menu-item" href="#">
+        <div class="wrapper">
+          <div class="icon">
+            <img src="public/assets/app/images/icon/33.png" alt="">
+          </div>
+          <p class="sm color-white">เปลี่ยนรหัสผ่าน</p>
+        </div>
+      </a>
+      <a class="menu-item" href="#">
+        <div class="wrapper">
+          <div class="icon">
+            <img src="public/assets/app/images/icon/34.png" alt="">
+          </div>
+          <p class="sm color-white">จดหมายข่าวสาร</p>
+        </div>
+      </a>
+      <a class="menu-item" href="#">
+        <div class="wrapper">
+          <div class="icon">
+            <img src="public/assets/app/images/icon/35.png" alt="">
+          </div>
+          <p class="sm color-white">กระทู้ของฉัน</p>
+        </div>
+      </a>
+      <a class="menu-item" href="#">
+        <div class="wrapper">
+          <div class="icon">
+            <img src="public/assets/app/images/icon/36.png" alt="">
+          </div>
+          <p class="sm color-white">ออกจากระบบ</p>
+        </div>
+      </a>
+    </div>
   </div>
  
   <div id="main" class="main-container">
@@ -45,26 +95,123 @@
         ไปที่เว็บไซต์
       </div>
     </div>
+    
+    <div id="mainContent" class="main-content">
+    <div id="banner02" class="banner-02">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <?php for($i=0; $i<5; $i++){?>
+            <div class="swiper-slide">
+              <div class="wrapper">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/bg/25.jpg');"></div>
+                <div class="container">
+                  <div class="text-wrapper" style="visibility:hidden;">
+                    <div class="slogan color-white">
+                      <p class="h4 list-item fw-100">สร้าง</p>
+                      <p class="h4 list-item fw-100">เสริม</p>
+                      <p class="h4 list-item fw-100">รักษา</p>
+                      <p class="h4 list-item fw-100">สืบทอด</p>
+                      <p class="h4 list-item fw-100">ยกระดับ</p>
+                    </div>
+                    <h1 class="color-white fw-600 lh-2xs mt-3">
+                      วิถีชีวิต ค่านิยม <br> ความเป็นไทย
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <?php }?>
+        </div>
+        <div class="bullet">
+          <div class="container">
+            <div id="bulletWrapper" class="bullet-wrapper">
+              <div class="arrow-container">
+                <div class="arrow btn-icon-prev">
+                  <em class="fa-solid fa-arrow-right"></em>
+                </div>
+                <div class="arrow btn-icon-next">
+                  <em class="fa-solid fa-arrow-left"></em>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+      <div class="ss-box m-unset bg-white xl p-5">
+        <h5 class="color-black color-02 fw-500">ข้อมูลส่วนตัว</h5>   
+        <form action="" class="mt-5">
+          <div class="form-group style-02">
+            <label class="p size-02 fw-500">ชื่อ</label>
+            <div class="form-input size-02">
+              <input class="style-02 size-01" type="text">
+            </div>
+          </div>
+          <div class="form-group style-02 mt-3">
+            <label class="p size-02 fw-500">นามสกุล</label>
+            <div class="form-input size-02">
+              <input class="style-02 size-01" type="text">
+            </div>
+          </div>
+          <div class="form-group style-02 mt-3">
+            <label class="p size-02 fw-500">อีเมล</label>
+            <div class="form-input size-02">
+              <input class="style-02 size-01" type="text">
+            </div>
+          </div>
+          <div class="form-group style-02 mt-3">
+            <label class="p size-02 fw-500">หมายเลขติดต่อ</label>
+            <div class="form-input size-02">
+              <input class="style-02 size-01" type="text">
+              <!-- <div class="captcha-container d-flex fw-wrap ai-center mt-5">
+                <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                <div class="btns ml-3">
+                  <div href="#" class="btn btn-action btn-02" value="submit" type="submit">
+                    อัพเดทข้อมูลส่วนตัว
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </form>
+      </div>      
+    </div>
   </div>
 
   <?php include_once('include/script.php'); ?>
 
   <script>
-    function openNav() {
-      document.getElementById("openBtn").style.transitionDelay = "unset";
-      document.getElementById("openBtn").style.visibility = "hidden";
-      document.getElementById("Sidebar").style.width = "18.75rem";
-      document.getElementById("main").style.marginLeft = "18.75rem";
+
+    var x = window.matchMedia("(max-width:767.98px)")
+
+    function myFunction(x) {
+      if (x.matches) { 
+        document.getElementById("Sidebar").style.width = "0";
+        document.getElementById("mainContent").style.marginLeft= "0";
+      }else{
+        document.getElementById("Sidebar").style.width = "18.75rem";
+        document.getElementById("mainContent").style.marginLeft= "18.75rem";
+      }
     }
+    myFunction(x) 
+    x.addListener(myFunction)
+   
+    function openNav() {
+      let y = window.matchMedia("(max-width:767.98px)")
+      if (y.matches) { 
+        document.getElementById("Sidebar").style.width = "18.75rem";
+        document.getElementById("mainContent").style.marginLeft= "unset";
+      }else{
+        document.getElementById("Sidebar").style.width = "18.75rem";
+        document.getElementById("mainContent").style.marginLeft= "18.75rem";
+      }
+    }
+  
     function closeNav() {
       document.getElementById("Sidebar").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
-      document.getElementById("openBtn").style.transitionDelay = ".4s";
-      document.getElementById("Sidebar").style.transitionDelay = ".2s";
-      document.getElementById("main").style.transitionDelay = ".2s";
-      document.getElementById("openBtn").style.visibility = "visible";
-    
+      document.getElementById("mainContent").style.marginLeft= "unset";
     }
+
   </script>
 </body>
 </html>
