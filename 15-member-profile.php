@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="menu-container">
-      <a class="menu-item" href="#">
+      <a class="menu-item" href="#" onclick="closeNav()">
         <div class="wrapper">
           <div class="icon">
             <img src="public/assets/app/images/icon/31.png" alt="">
@@ -43,7 +43,7 @@
           <p class="sm color-white">หน้าแรก</p>
         </div>
       </a>
-      <a class="menu-item" href="#">
+      <a class="menu-item" href="#" onclick="closeNav()">
         <div class="wrapper">
           <div class="icon">
             <img src="public/assets/app/images/icon/32.png" alt="">
@@ -51,7 +51,7 @@
           <p class="sm color-white">ข้อมูลส่วนตัว</ย>
         </div>
       </a>
-      <a class="menu-item" href="#">
+      <a class="menu-item" href="#" onclick="closeNav()">
         <div class="wrapper">
           <div class="icon">
             <img src="public/assets/app/images/icon/33.png" alt="">
@@ -59,7 +59,7 @@
           <p class="sm color-white">เปลี่ยนรหัสผ่าน</p>
         </div>
       </a>
-      <a class="menu-item" href="#">
+      <a class="menu-item" href="#" onclick="closeNav()">
         <div class="wrapper">
           <div class="icon">
             <img src="public/assets/app/images/icon/34.png" alt="">
@@ -67,7 +67,7 @@
           <p class="sm color-white">จดหมายข่าวสาร</p>
         </div>
       </a>
-      <a class="menu-item" href="#">
+      <a class="menu-item" href="#" onclick="closeNav()">
         <div class="wrapper">
           <div class="icon">
             <img src="public/assets/app/images/icon/35.png" alt="">
@@ -75,7 +75,7 @@
           <p class="sm color-white">กระทู้ของฉัน</p>
         </div>
       </a>
-      <a class="menu-item" href="#">
+      <a class="menu-item" href="#" onclick="closeNav()">
         <div class="wrapper">
           <div class="icon">
             <img src="public/assets/app/images/icon/36.png" alt="">
