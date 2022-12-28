@@ -426,6 +426,7 @@ $(function(){ 'use strict';
             var self = $(this);
             new Swiper(self.find('.swiper-container'), {
                 loop: true,
+                spaceBetween:0,
                 slidesPerView: 1,
                 speed: 800,
                 grabCursor: true,

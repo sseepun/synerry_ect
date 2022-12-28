@@ -24,9 +24,7 @@
     <div class="profile-container">
       <div class="wrapper">
         <div class="img-container">
-          <div class="img-container">
-            <img class="img" src="public/assets/app/images/avatars/02.jpg" alt="Avatar">
-          </div>
+          <img class="img" src="public/assets/app/images/avatars/02.jpg" alt="Avatar">
         </div>
         <div class="text-container">
           <p class="color-white lh-xs fw-400">สวัสดี</p>
@@ -95,6 +93,7 @@
         ไปที่เว็บไซต์
       </div>
     </div>
+    
     <div id="mainContent" class="main-content">
       <div id="banner02" class="banner-02">
         <div class="swiper-container">
@@ -138,88 +137,40 @@
       <div class="wrapper">
         <div class="ss-box m-unset xxl">
           <div class="ss-box-header">
-            <h5 class="color-black color-02 fw-500">ข้อมูลส่วนตัว</h5>  
+            <h5 class="color-black color-02 fw-500">เปลี่ยนรหัสผ่าน</h5>  
           </div> 
           <div class="ss-box lg" style="padding:1.5rem 1rem;">
             <form action="">
-              <div class="grids no-gap">
+              <div class="grids">
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
-                    <div class="search-file-container">
-                      <label class="p fw-500">เปลี่ยนภาพโปรไฟล์</label>
-                    </div>
-                    <div class="search-btn-container">
-                      <div class="btns">
-                        <div href="#" class="btn btn-action size-04 btn-02">ค้นหาไฟล์</div>
-                      </div>
-                      <p class="xs fw-400">ประเภทไฟล์ที่รองรับ JPG, PNG, GIF ขนาดรวมไม่เกิน 2 MB</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid sm-100 mt-2">
-                  <div class="form-group style-02">
-                    <label class="p fw-500">ชื่อ</label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="text"/>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid sm-100 mt-2">
-                  <div class="form-group style-02">
-                    <label class="p pw-title fw-500">นามสกุล</label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="text"/>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid sm-100 mt-2">
-                  <div class="form-group style-02">
-                    <label class="p fw-500">อีเมล</label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="email"/>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid sm-100 mt-2">
-                  <div class="form-group style-02">
-                    <label class="p fw-500">หมายเลขติดต่อ</label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="text"/>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid lg-50 md-100 sm-100 mt-2">
-                  <div class="form-group style-02">
-                    <label class="p fw-500">วันเกิด</label>
+                    <label class="p fw-500">รหัสผ่านเดิม <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <input class="style-02 size-01" type="password"/>
                     </div>
                   </div>
                 </div>
-                <div class="grid lg-50 md-100 sm-100 mt-2">
+                <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
-                    <label class="ย fw-500">เพศ</label>
+                    <label class="p pw-title fw-500">รหัสผ่านใหม่ <span class="text-danger">*</span></label>
                     <div class="form-input">
-                      <fieldset>
-                        <div class="gallery-grids">
-                          <div class="grid sm-50 xs-50">
-                            <div class="checkbox-set">
-                              <input type="radio" name="radio" id="radio_0" checked="">
-                              <label for="radio_0" class="p sm">
-                                <span>ชาย</span>
-                              </label>
-                            </div>
-                          </div>
-                          <div class="grid sm-50 xs-50">
-                            <div class="checkbox-set">
-                              <input type="radio" name="radio" id="radio_2">
-                              <label for="radio_2" class="p sm">
-                                <span>หญิง</span>
-                              </label>
-                            </div>
-                          </div>
+                      <input class="style-02 size-01" type="password"/>
+                      <div class="password-level level-1">
+                        <div class="levels">
+                          <div></div><div></div><div></div><div></div>
                         </div>
-                      </fieldset>
+                        <p class="sm fw-300">
+                          การคาดเดาของรหัสผ่าน <span class="fw-600 text">ง่าย</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid sm-100 mt-2">
+                  <div class="form-group style-02">
+                    <label class="p fw-500">ยืนยันรหัสผ่าน <span class="text-danger">*</span></label>
+                    <div class="form-input">
+                      <input class="style-02 size-01" type="password"/>
                     </div>
                   </div>
                 </div>
@@ -229,18 +180,18 @@
                   </div>
                 </div>
                 <div class="grid xl-1-3 lg-30 md-100 sm-100">
-                  <div class="btns pl-3 pl-unset-xs h-full">
+                  <div class="btns pl-1 pl-unset-xs h-full w-full">
                     <div href="#" class="btn btn-action btn-02 w-full">
-                      เข้าสู่ระบบ
+                      อัพเดทรหัสผ่าน
                     </div>
                   </div>
                 </div>
               </div>
-            </form> 
+            </form>  
           </div>
-        </div>
-      </div>       
-    </div>     
+        </div>       
+      </div>     
+    </div>
   </div>
 
   <?php include_once('include/script.php'); ?>
