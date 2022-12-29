@@ -162,6 +162,10 @@ html, body, table.table{color:#000000;}
   background:#2e603c; color:#ffffff;
 }
 
+/* Special Separation 01 */
+.ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#e1e1e1;}
+.ss-sep-01.style-02 > *::before, .ss-sep-01 > *::after{background:#2e603c;}
+
 .mobile-device-container .text-container{background:#303031; color:#ffffff;}
 .mobile-device-container:hover .text-container{color:#fff102;}
 
@@ -271,6 +275,8 @@ input.style-02[type=email]:focus{border-color:#30906a!important;}
 input.style-02[type=text], input.style-02[type=password],
 input.style-02[type=email]{background:#eeeeee!important; border-color:#30906a!important;}
 
+textarea.style-02{background:#eeeeee!important; border-color:#eeeeee!important;}
+
 /* Radio & Checkbox Container */
 .rc-container > label::before{border-color:#0ab3de;}
 .rc-container > label::after{background:#0ab3de;}
@@ -367,15 +373,15 @@ nav.footer .footer-socials > .social{
 }
 nav.footer.style-03 .footer-socials > .social:hover{color:#ffffff; background:#2e603c; border-color:#2e603c;}
 
-
-
-
 /* Breadcrumb 01 */
 .breadcrumb-01 .bottom > .wrapper{background:#ffffff;}
 .breadcrumb-01 .bottom > .wrapper a{color:#000000;}
 .breadcrumb-01 .wrapper a:last-child::before{background:#30906a;}
 .breadcrumb-01 .wrapper a::after{background:#ffffff;}
 .breadcrumb-01 .title{color:#30906a;}
+
+/* Form Container 01 */
+.form-container-01{background:#ffffff;}
 
 /* Form Group Style 02 */
 .form-group.style-02 > .form-input .password-level > .levels > *{border-color:#d5d5d5;}
@@ -624,3 +630,11 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 /* Special Card 28 */
 .ss-card-28 .text-container{background:#2e603c; color:#ffffff;}
 .ss-card-28:hover .text-container{color:#fff102;}
+
+/* Special Card 29 */
+.ss-card-29 .text-container > .arrow{color:#ffffff;}
+.ss-card-29{background:#30906a;}
+
+/* Special Card 31 */
+.ss-card-31{background:#eeeeee; border-color:#2d5e3b;}
+.ss-card-31 .top > .wrapper .item:nth-child(1) > .icon{background:#30906a; color:#ffffff;}

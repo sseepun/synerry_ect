@@ -171,6 +171,14 @@
     .paginate.style-02 .pages{margin:0 .75rem;}
 }
 
+/* Form Container 01 */
+.form-container-01{margin:2rem 0; padding:2rem 2rem;}
+.form-container-01 .img-container{width:auto; height:6rem; margin-top:1rem;}
+.form-container-01 .img-container > img{display:block; max-width:100%; max-height:100%;}
+@media screen and (max-width:767.98px){
+  .form-container-01 .img-container{margin:1rem 0;}
+}
+
 /* Faq 01 */
 .faq-01{width:100%;}
 .faq-01 .faq{width:100%; margin:.4375rem 0 0 0;}
@@ -463,7 +471,6 @@
   justify-content:center; align-items:center; border-radius:50%; cursor:pointer;
 }
 
-
 /* Section 10 */
 .section-10 .swiper-container{margin-top:3rem; padding:0 .3125rem;}
 
@@ -495,6 +502,10 @@
   .section-12 .pattern.style-01, .section-12 .pattern.style-02{display:none;}
 }
 
+/* Section 13 */
+.section-13{
+  position:relative; width:100%; height:100%; background-size:cover; background-position:bottom;
+}
 
 
 /* Breadcrumb 01 */

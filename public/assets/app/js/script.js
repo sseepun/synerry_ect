@@ -682,11 +682,13 @@ function ssPageProcess(){
                       prevEl: self.find('.btn-icon-prev'),
                   },
                   breakpoints: {
+                     1599.98: { slidesPerView:6},
                      1299.98: { slidesPerView:5},
                      1199.98: { slidesPerView:4,},
-                     991.98: { slidesPerView:4,},
+                     991.98: { slidesPerView:3,},
                      767.98: { slidesPerView:3,},
-                     575.98: { slidesPerView:2, spaceBetween:20},
+                     575.98: { slidesPerView:2},
+                     499.98: { slidesPerView:1},
                  },
                   pagination: {
                       el: self.find('.dots'),

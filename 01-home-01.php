@@ -445,7 +445,7 @@
             <div class="swiper-slide ">
               <div class="ss-card ss-card-28">
                 <div class="ss-img vertical">
-                  <div class="img-bg" style="background:url('<?= $d['image']?>')"></div>
+                  <div class="img-bg" style="background-image:url('<?= $d['image']?>')"></div>
                 </div>
                 <div class="text-container">
                   <p class="rank sm"><?= $d['rank'] ?></p>
