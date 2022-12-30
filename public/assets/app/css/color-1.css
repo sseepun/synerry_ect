@@ -1,6 +1,7 @@
 
 /* Reset */
 html, body, table.table{color:#000000;}
+img, .img-bg, .icon, .hero, .section-bg, .img-fill, .footer-top, .section-03 .section-card::before{filter:grayscale(1)!important;}
 
 
 /* Colors */
@@ -71,3 +72,26 @@ input[type=file].sgray, select.sgray, textarea.sgray,
 .section-03 .text-content .circle{
   border:3px solid #ec2c23;
 }
+
+nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active {
+  background:#ffffff; color:#000000; fill:#000000;
+}
+nav.side-panel .option{color:#ffffff; fill:#ffffff;}
+nav.side-panel .panel-row:first-child{background:#000000; color:#ffffff;}
+nav.side-panel .panel-row {background:#000000; color:#ffffff;}
+nav.side-panel .option-row .icon + *::before {background:#ffffff;}
+nav.side-panel .panel{border-color: rgba(255,255,255,.3);}
+
+nav.stopnav{background:#000000;}
+nav.stopnav .blocks > .option .hotline > em{border-color:#ffffff;}
+nav.stopnav .option-select > .select{background:#ffffff; color:#000000;}
+nav.stopnav.style-02 .option-select > .dropdown{background:#000000;}
+nav.stopnav .option-select > .dropdown .item{border-color:#ffffff;}
+nav.stopnav.style-02 .option-select > .dropdown .item:hover{background:#ffffff; color:#000000;}
+nav.stopnav.style-02 .btn-social:hover{background:#ffffff; color:#000000;}
+
+nav.topnav{background:#ffffff;}
+nav.topnav.style-02 .sidenav-toggle::before{background:#000000;}
+nav.topnav .hamburger > *{background:#ffffff;}
+
+nav.sidenav{background:#ffffff;}

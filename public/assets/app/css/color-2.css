@@ -2,6 +2,9 @@
 /* Reset */
 html, body{background:#000000;}
 html, body, a, a:hover, table.table{color:#fecb00;}
+img, .img-bg, .icon, .hero, .section-bg, .img-fill, .footer-top, .section-03 .section-card::before {
+  filter: grayscale(1)!important;
+}
 
 
 /* Colors */
@@ -115,6 +118,16 @@ nav.sidenav .menu > a{color:#fecb00;}
 nav.sidenav .submenu > a{color:#000000; background:#fecb00;}
 nav.sidenav .dropdown-toggle{color:#fecb00;}
 nav.sidenav .submenu .dropdown-toggle{color:#000000;}
+
+nav.side-panel .panel-row:first-child {background:#000000; color:#ffff00;}
+nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active{
+  background:#ffff00; color:#000000; fill:#000000;
+}
+nav.side-panel .option {color:#ffff00; fill:#ffff00;}
+nav.side-panel .panel-row:nth-child(even){background:#171717;}
+nav.side-panel .panel-row{background:#000000; color:#ffff00;}
+nav.side-panel .panel{border-color:rgba(255,255,0,.3);}
+nav.side-panel .option-row .icon + *::before{background:#ffff00;}
 
 /* Global Search Container */
 .global-search-container .search-panel{background:#000000; border:1px solid #fecb00;}
