@@ -9,7 +9,7 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ข่าวประกวดราคา/สอบราคา' ],
+      [ 'url' => '#', 'display' => 'บริการ RSS' ],
     ];
     $breadcrumbTitle = 'บริการ RSS';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/09.jpg';
@@ -23,7 +23,7 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category'];
           include('component/list-header.php');
         ?>
       </div>

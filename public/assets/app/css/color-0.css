@@ -380,8 +380,9 @@ nav.footer.style-03 .footer-socials > .social:hover{color:#ffffff; background:#2
 .breadcrumb-01 .wrapper a::after{background:#ffffff;}
 .breadcrumb-01 .title{color:#30906a;}
 
-/* Form Container 01 */
+/* Form Container */
 .form-container-01{background:#ffffff;}
+.form-container-02{background:#ffffff;}
 
 /* Form Group Style 02 */
 .form-group.style-02 > .form-input .password-level > .levels > *{border-color:#d5d5d5;}
@@ -448,6 +449,10 @@ nav.footer.style-03 .footer-socials > .social:hover{color:#ffffff; background:#2
     color:#ffffff; background:#fe4d01; border-color:#fe4d01;
 }
 .list-header.style-03 .btn-icon em{background:#fe4d01; color:#ffffff;}
+
+
+select{background:#eeeeee!important;}
+.dropdown-icon{background:#30906a; color:#ffffff;}
 
 /* Table */
 table.table.table-download .download-card{background:#30906a;}
@@ -638,3 +643,8 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 /* Special Card 31 */
 .ss-card-31{background:#eeeeee; border-color:#2d5e3b;}
 .ss-card-31 .top > .wrapper .item:nth-child(1) > .icon{background:#30906a; color:#ffffff;}
+
+/* Special Card 32 */
+.ss-card-32 .wrapper > .text-container .x-mark{background:#000000; color:#ffffff;}
+.ss-card-32 .wrapper > .text-container .x-mark:hover{background:#fff102; color:#000000;}
+.ss-card-32 .wrapper > .icon{background:#30906a;}

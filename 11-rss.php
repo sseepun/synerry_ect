@@ -21,14 +21,14 @@
       <h3 class="fw-600 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
         RSS
       </h3>
-      <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
+      <div data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category', 'order'];
           include('component/list-header.php');
         ?>
       </div>
-      <div class="scroll-x-wrapper mt-3" data-simplebar>
-        <div class="faq-04 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
+      <div class="scroll-x-wrapper mt-4" data-simplebar>
+        <div class="faq-04 pb-1" data-aos="fade-up" data-aos-delay="300">
           <?php for($i=0; $i<10; $i++){?>
             <div class="faq">
               <div class="question box-shadow style-02">

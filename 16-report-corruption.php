@@ -9,55 +9,92 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ศูนย์รับเรื่องร้องเรียน' ],
+      [ 'url' => '#', 'display' => 'ระบบแจ้งเบาะแสทุจริตการเลือกตั้ง'],
     ];
-    $breadcrumbTitle = 'ศูนย์รับเรื่องร้องเรียน';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/13.jpg';
+    $breadcrumbTitle = 'ระบบแจ้งเบาะแสทุจริตการเลือกตั้ง';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/14.jpg';
     include('component/breadcrumb.php');
   ?>
 
   <section class="section-padding section-13" style="background-image:url('public/assets/app/images/bg/25.jpg')">
     <div class="container">
       <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-        ศูนย์รับเรื่องร้องเรียน
+        ระบบแจ้งเบาะแสทุจริตการเลือกตั้ง
       </h3>
-      <div class="ss-card ss-card-30 mt-4" data-aos="fade-up" data-aos-delay="150">
-        <div class="wrapper">
-          <div class="img-container">
-            <div class="ss-img no-hover">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/content/90.jpg')"></div>
-            </div>
+      <p class="fw-400" data-aos="fade-up" data-aos-delay="150">
+        หากท่านพบปัญหาหรือพบเบาะแสทุจริตในการเลือกตั้ง ท่านสามารถแจ้งเราได้ผ่านทางแบบฟอร์มบนเว็บไซต์ในหน้านี้ 
+        โดยข้อมูลต่างๆ ของท่านจะถูกเก็บเป็นความลับท่านสามารถแจ้งได้ที่
+      </p>
+      <div class="grids" data-aos="fade-up" data-aos-delay="300">
+        <div class="grid lg-25">
+          <div class="ss-card ss-card-33">
+            <p class="fw-600">สำนักงานคณะกรรมการการ<br>เลือกตั้งประจำจังหวัดทุก</p>
           </div>
-          <div class="text-container">
+        </div>
+        <div class="grid lg-25">
+          <div class="ss-card ss-card-33">
+            <p class="fw-600">ฝ่ายปฏิบัติการข่าว</p>
+            <p class="sm color-02 fw-400">โทร. 02-141-8050 หรือ</p>
+            <p class="sm color-02 fw-400">02-141-8201 หรือ 02-141-2611</p>
+          </div>
+        </div>
+        <div class="grid lg-25">
+          <div class="ss-card ss-card-33">
+            <p class="fw-600">สายด่วน กกต.</p>
+            <p class="sm color-02 fw-400">โทร. 1444 กด 2</p>
+          </div>
+        </div>
+        <div class="grid lg-25">
+          <div class="ss-card ss-card-33">
             <p class="fw-400">
-              สำนักงานคณะกรรมการการเลือกตั้ง จัดทำศูนย์ร้องเรียนขึ้นเพื่อมีไว้สำหรับผู้ที่มีความเดือดร้อน 
-              หรือผู้ที่ต้องการสอบถามปัญหาต่างๆ ของสำนักงานคณะกรรมการการเลือกตั้ง ได้เสนอเรื่องหรือข้อร้องเรียน 
-              ให้ทางสำนักงานฯ รับทราบและนำไปดำเนินการแก้ไข ซึ่งข้อร้องเรียนบางเรื่องอาจไม่อยู่ในความรับผิดชอบของสำนักงานฯ 
-              ดังนั้น เพื่อให้เรื่องของท่านถึงผู้รับผิดชอบโดยตรงและรวดเร็ว ท่านควรตรวจสอบก่อน และร้องเรียนโดยตรงได้ที่
+              แจ้งทางเว็บไซต์โดยกรอกข้อมูลลง<br>
+              ในแบบฟอร์ม
             </p>
-            <ul class="list-style-01">
-              <li class="fw-400">
-                ส่งเรื่องร้องเรียนผ่านทาง E-mail มาที่<a class="color-02 border-bottom bcolor-02 ml-1" href="#">help@ect.go.th</a>
-                <em class="fa-solid fa-arrow-up-right-from-square ml-2"></em>
-              </li>
-              <li class="fw-400 mt-2">หรือสามารถแจ้งผ่านแบบฟอร์มด้านล่าง (ควรเป็นเรื่องที่เปิดเผยต่อสาธารณชนได้)</li>
-            </ul>
           </div>
         </div>
       </div>
       <!-- FORM -->
-      <div class="form-container-01 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
+      <div class="form-container-02 box-shadow style-02" data-aos="fade-up" data-aos-delay="350">
         <div class="grids">
           <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
-            <h4 class="fw-500">แบบฟอร์มรับเรื่อง</h4>
-            <p>กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย<span class="text-danger fw-400 ml-1">*</span></p>
-            <div class="img-container">
-              <img src="public/assets/app/images/content/02.png" alt="Message">
+            <div class="header">
+              <div class="img-container">
+                <img src="public/assets/app/images/icon/38.png" alt="Message">
+              </div>
+              <div class="text-container">
+                <h4 class="fw-500 lh-2xs color-02">ข้อตกลง</h4>
+                <p class="fw-400">การแจ้งเหตุหรือเบาะแสผ่านเว็บไซต์</p>
+                <ul class="list-style-02">
+                  <li class="fw-500">
+                    ไม่ถือว่าเป็นการยื่นคำร้องคัดค้านการเลือกตั้งตามระเบียบคณะกรรมการการเลือกตั้งว่าด้วยการสืบสวนสอบสวนและการวินิจฉัยชี้ขาด
+                  </li>
+                  <li class="fw-500 mt-2">
+                    ต้องไม่มีเจตนาหรือจงใจกลั่นแกล้ง เพื่อทำให้บุคคลอื่นได้รับความเสื่อมเสียหรือเสียหาย
+                  </li>
+                  <li class="fw-500 mt-2">
+                    ต้องไม่แจ้งด้วยข้อความอันเป็นเท็จ
+                  </li>
+                  <li class="fw-500 mt-2">
+                    กรุณาใช้ถ้อยคำสุภาพ
+                  </li>
+                  <li class="fw-500 mt-2">
+                    เลือกข้อที่ต้องการจะแจ้งข้อมูล
+                    <ul class="list-style-02 size-02 line-black">
+                      <li class="fw-400">การเลือก ส.ว.</li>
+                      <li class="fw-400">การเลือกตั้ง ส.ส.</li>
+                      <li class="fw-400">การเลือกตั้งท้องถิ่น</li>
+                      <li class="fw-400">เบาะแสการหาเสียงทางสื่ออิเล็กทรอนิกส์</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
+            <h5 class="color-02 fw-500">แบบฟอร์มแจ้งเบาะแสทุจริตการเลือกตั้ง</h5>
+            <p class="color-gray fw-300">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย <span class="text-danger fw-600">*</span></p>
             <form action="action.php" method="post">
-              <div class="grids">
+              <div class="grids mt-2">
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
                     <div class="form-input">
@@ -131,7 +168,7 @@
                       </div>
                     </div>
                     <div class="footer mt-2">
-                      <p class="sm fw-400">ประเภทไฟล์ที่รองรับ PDF, JPG, JPEG, PNG, GIF ขนาดไม่เกิน 5 MB</p>
+                      <p class="sm fw-400">ประเภทไฟล์ที่รองรับ PDF, MP4, JPG, PNG, GIF ขนาดไม่เกิน 50 MB</p>
                     </div>
                   </div>
                 </div>
@@ -139,11 +176,11 @@
                   <div class="ss-card ss-card-32">
                     <div class="wrapper">
                       <div class="icon">
-                        <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                        <img src="public/assets/app/images/file/mp4.png" alt="Image File" />
                       </div>
                       <div class="text-container box-shadow style-02">
                         <p class="title lh-sm fw-500">
-                          ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
+                          บันทึกเบาะแสการทุจริตในวันเลือกตั้ง
                         </p>
                         <div class="x-mark">
                           <em class="fa-solid fa-xmark"></em>
@@ -160,7 +197,24 @@
                       </div>
                       <div class="text-container box-shadow style-02">
                         <p class="title lh-sm fw-500">
-                          บันทึกเบาะแสการทุจริตในวันเลือกตั้ง
+                          บันทึกภาพเจ้าหน้าที่ขณะปฏิบัติหน้าที่
+                        </p>
+                        <div class="x-mark">
+                          <em class="fa-solid fa-xmark"></em>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid sm-100 mt-2">
+                  <div class="ss-card ss-card-32">
+                    <div class="wrapper">
+                      <div class="icon">
+                        <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                      </div>
+                      <div class="text-container box-shadow style-02">
+                        <p class="title lh-sm fw-500">
+                          สำเนาเอกสาร
                         </p>
                         <div class="x-mark">
                           <em class="fa-solid fa-xmark"></em>
@@ -179,7 +233,7 @@
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
                         <div href="#" class="btn btn-action mw-auto btn-03">
-                          ส่งข้อความ
+                          แจ้งเบาะแส
                         </div>
                       </div>
                     </div>

@@ -215,8 +215,9 @@
           <div class="buttons-group" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="btns">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวก่อนหน้า
+                <div href="#" class="d-flex ai-center jc-center btn btn-action btn-05">
+                  <em class="fa-solid fa-arrow-left"></em>
+                  <p class="ml-2 fw-400">ข่าวก่อนหน้า</p>
                 </div>
               </div> 
               <div class="icon">
@@ -224,8 +225,9 @@
                 <p class="fw-400">หน้ารวมข่าว</p>
               </div>
               <div class="btns jc-end">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวถัดไป
+                <div href="#" class="d-flex ai-center jc-center btn btn-action btn-02">
+                  <p class="mr-1">ข่าวถัดไป</p>
+                  <em class="fa-solid fa-arrow-right"></em>
                 </div>
               </div>     
             </div>
@@ -233,7 +235,7 @@
         </div>
         <!-- Right Content -->
         <div class="grid xl-30 lg-40 md-40 sm-100">
-          <div class="pl-5">
+          <div class="pl-5 pl-unset-xs">
             <div class="category-container" data-aos="fade-up" data-aos-delay="0">
               <div class="cate-header">
                 <h5 class="fw-600">ประเภท</h5>

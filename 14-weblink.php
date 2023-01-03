@@ -89,7 +89,7 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category', 'order'];
           include('component/list-header.php');
         ?>
       </div>

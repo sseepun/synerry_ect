@@ -39,7 +39,6 @@
             </div>
           </div>
         <?php }?>
-        <?php if(in_array('view', $listHeader) || in_array('expand', $listHeader)){?>
         <?php if(in_array('view', $listHeader)){?>
           <div class="option view">
             <a class="icon-view" href="#">
@@ -55,23 +54,7 @@
             <?php }?>
           </div>
         <?php }?>
-        <?php if(in_array('expand', $listHeader)){?>
-          <div class="option">
-            <a class="icon-view faq-expand-all" href="#">
-              <em class="fas fa-expand-arrows-alt"></em>
-            </a>
-            <a class="icon-view active ml-1 faq-collapse-all" href="#">
-              <em class="fas fa-compress"></em>
-            </a>
-          </div>
-        <?php }?>
-      
-    <?php }?>
-
       </div>
     <?php }?>
-
-   
-
   </div>
 <?php }?>
