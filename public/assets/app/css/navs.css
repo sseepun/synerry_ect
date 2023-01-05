@@ -365,6 +365,10 @@ nav.side-panel.active + .access-filter{opacity:1; pointer-events:auto;}
 }
 .main-container .main-content{margin-left:18.75rem; transition:margin-left .5s;}
 .main-container .main-content > .wrapper{padding:1rem;}
+/* .simplebar-wrapper{margin: 0 0 -100px!important;} */
+.main-container  .ss-box > .ss-box-content{min-height:32rem;}
+.main-container  .ss-box > .ss-box-content.size-02{min-height:28rem;}
+.main-container  .ss-box > .ss-box-content.size-unset{min-height:0;}
 
 
 .sidebar{background:#1e4428;}
