@@ -21,7 +21,6 @@
       </div>
     </div>
   </div>
-  <img class="pattern" src="public/assets/app/images/icon/11.png" alt="Pattern" />
   <div class="container">
     <div class="footer-container" data-aos="fade-up" data-aos-delay="0">
       <div class="wrapper">
@@ -94,9 +93,11 @@
               </div>
               <div class="grid xl-40 lg-100 md-100 sm-100">
                 <h6 class="color-02 fw-500 mb-2">แผนที่</h6>
-                <div class="ss-img square">
-                  <div class="img-bg" style="background:url('public/assets/app/images/content/google-map.jpg')"></div>
-                </div>
+                <!-- Goolgle Map -->
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.285629391629!2d100.56366531478078!3d13.8818618902634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e28323d10290b5%3A0x946e22bc8754445a!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4LiE4LiT4Liw4LiB4Lij4Lij4Lih4LiB4Liy4Lij4LiB4Liy4Lij4LmA4Lil4Li34Lit4LiB4LiV4Lix4LmJ4LiH!5e0!3m2!1sth!2sth!4v1672824557112!5m2!1sth!2sth" 
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
               </div>
             </div>
           </div>
