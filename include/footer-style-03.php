@@ -67,7 +67,7 @@
           </div>
           <div class="grid xl-30 lg-50 mute-xs">
             <h6 class="fw-400 title-empty mb-1">แผนผังเว็บไซต์</h6>
-            <ul class="ss-list style-07">
+            <ul class="ss-list style-07 ">
               <li class="sm"><a href="#" class="xl-no-br">โครงการพัฒนาศูนย์กลาง<br/>ความรู้แห่งชาติ</a></li>
               <li class="sm"><a href="#">ฐานข้อมูลหน่วยงานของรัฐ</a></li>
               <li class="sm"><a href="#">เว็บไซด์รับฟังความคิดเห็นด้านกฎหมายไทย</a></li>

@@ -43,16 +43,43 @@ nav.stopnav .btn-social{
   border-radius:50%; font-size:.875rem; margin:0 0 0 .1875rem;
   transition:background .25s, color .25s;
 }
+
+nav.stopnav.style-03 .blocks.blocks-main{width:100%; justify-content:flex-end;}
+nav.stopnav.style-03 .option:first-child{padding-left:.875rem;}
+nav.stopnav.style-03 .option:last-child{padding:.5625rem .875rem; border-right:1px solid transparent;}
+
+nav.stopnav.style-04 .blocks.hid{display:flex; align-items:center;}
+nav.stopnav.style-04 .logo {
+  display: flex; align-items: center; white-space: nowrap; padding: 0 .625rem 0 0;
+  padding: .375rem 0; transition: color .25s;
+}
+nav.stopnav.style-04 .logo img {display:block; height:3.5rem; width:auto;}
+nav.stopnav.style-04 .logo .img-container{margin: 0 .625rem 0 0;}
+nav.stopnav.style-04 .logo p{
+  font-size:1.25rem; font-weight:500; transition:color .25s;
+}
+nav.stopnav.style-04 .blocks.blocks-main{width:100%; justify-content:space-between;}
+nav.stopnav.style-04 .option:first-child{padding-left:.875rem;}
+nav.stopnav.style-04 .option:last-child{padding:.5625rem .875rem; border-right:1px solid transparent;}
+nav.stopnav.style-04 .option > .icon{font-size:1.25rem; display:flex; align-items:center;}
+
 @media screen and (max-width:1199.98px){
   nav.stopnav > .wrapper{padding:0 1.5rem;}
 }
 @media screen and (max-width:991.98px){
   nav.stopnav > .wrapper{padding:0 1.25rem;}
+  nav.stopnav.style-04 .blocks.hide-tablet{display:none;}
+  nav.stopnav.style-04 .option:nth-child(2){border-right:0;}
 }
 @media screen and (max-width:767.98px){
   nav.stopnav > .wrapper{padding:0 1rem;}
   nav.stopnav .blocks.hide-mobile{display:none;}
   nav.stopnav .blocks.blocks-main{width:100%; justify-content:center;}
+  nav.stopnav.style-03 .blocks.blocks-main{justify-content:center;}
+  nav.stopnav.style-03 .option:last-child{padding:.5625rem .875rem; border-right:0px;}
+  nav.stopnav > .wrapper{padding:1rem 1rem;}
+  nav.stopnav.style-04 .blocks.blocks-main{justify-content:space-between; flex-direction:column;}
+  nav.stopnav.style-04 .option:last-child{padding:.5625rem .875rem; border-right:0px;}
 }
 
 
@@ -141,6 +168,32 @@ nav.topnav.style-02 .submenu-dropdown.anchor-right .submenu > .submenu-dropdown{
 }
 nav.topnav.style-02 .submenu:hover > .submenu-dropdown{opacity:1!important; left:100%; pointer-events:auto;}
 nav.topnav.style-02 .submenu-dropdown.anchor-right .submenu:hover > .submenu-dropdown{right:100%;}
+
+nav.topnav.style-03 .submenu > .submenu-dropdown{top:-.5125rem; left:100%;}
+nav.topnav.style-03 .submenu-dropdown.anchor-right .submenu > .submenu-dropdown{
+  left:unset; right:100%; padding:0 .625rem 0 0;
+}
+nav.topnav.style-03 .submenu:hover > .submenu-dropdown{opacity:1!important; left:100%; pointer-events:auto;}
+nav.topnav.style-03 .submenu-dropdown.anchor-right .submenu:hover > .submenu-dropdown{right:100%;}
+nav.topnav.style-03 .menu{transition:background .25s}
+nav.topnav.style-03 .menu > *:first-child{transition:color .25s;}
+nav.topnav.style-03 .menu:hover > *:first-child::after{left:0; right:unset; width:0;}
+
+/* nav.topnav.style-04 .menu:hover > .submenu-dropdown{top:128%;} */
+nav.topnav.style-04 > .wrapper{display:flex; justify-content:space-between;}
+nav.topnav.style-04 .menu-container{display:flex; align-items:center; margin:unset;}
+nav.topnav.style-04 .submenu > .submenu-dropdown{top:-.5125rem; left:100%;}
+nav.topnav.style-04 .submenu-dropdown.anchor-right .submenu > .submenu-dropdown{
+  left:unset; right:100%;
+}
+nav.topnav.style-04 .submenu:hover > .submenu-dropdown{opacity:1!important; left:100%; pointer-events:auto;}
+nav.topnav.style-04 .submenu-dropdown.anchor-right .submenu:hover > .submenu-dropdown{right:100%;}
+nav.topnav.style-04 .menu{transition:background .25s; padding:1rem .375rem;}
+nav.topnav.style-04 .menu > a{display:inline-block; padding:.5rem;}
+nav.topnav.style-04 .menu > *:first-child{transition:background .25s, color .25s; border-radius:.375rem;}
+nav.topnav.style-04 .menu:hover > *:first-child::after{left:0; right:unset; width:0;}
+
+nav.topnav.style-04 .menu:hover > *:first-child{background:#ffffff; color:#303030!important;}
 
 
 /* Sidenav */

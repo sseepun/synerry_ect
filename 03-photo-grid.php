@@ -38,15 +38,15 @@
                     <div class="wrapper">
                       <div class="icon">
                         <em class="fa-solid fa-calendar-days"></em>
-                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-eye"></em>
-                        <span class="p sm ml-2">255</span>
+                        <span class="p sm fw-400 ml-2">255</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-share-nodes"></em>
-                        <span class="p sm ml-2">208</span>
+                        <span class="p sm fw-400 ml-2">208</span>
                       </div>
                     </div>
                   </div>
@@ -115,15 +115,15 @@
                 <div class="wrapper">
                   <div class="icon">
                     <em class="fa-solid fa-calendar-days"></em>
-                    <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                   </div>
                   <div class="icon">
                     <em class="fa-solid fa-eye"></em>
-                    <span class="p sm ml-2">255</span>
+                    <span class="p sm fw-400 ml-2">255</span>
                   </div>
                   <div class="icon">
                     <em class="fa-solid fa-share-nodes"></em>
-                    <span class="p sm ml-2">208</span>
+                    <span class="p sm fw-400 ml-2">208</span>
                   </div>
                 </div>
               </div>

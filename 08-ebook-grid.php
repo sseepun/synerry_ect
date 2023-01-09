@@ -27,40 +27,48 @@
   ?>
 
   <section class="section-padding section-09">
-    <div class="swiper-background bg-03"></div>
-    <!-- <div class="swiper-background bg-03">
-      <div class="arrows-container">
-        <div class="wrapper">
-          <div class="btn btn-icon-prev">
-            <div class="arrow">
-              <em class="fa-solid fa-arrow-left"></em>
-            </div>
-          </div>
-          <div class="btn btn-icon-next">
-            <div class="arrow">
-              <em class="fa-solid fa-arrow-right"></em>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="container">
       <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
         ไฮไลต์สื่อประชาสัมพันธ์
       </h3>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <?php foreach($ebooks as $d) {?>
-            <div class="swiper-slide">
-              <div class="ss-img vertical">
-                <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+      <div class="swiper-background bg-03 mt-5" data-aos="fade-up" data-aos-delay="150">
+        <div class="text-wrapper text-center">
+          <p class="h6 fw-500">
+            คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง<br/>
+            ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ
+            <br/>การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น
+          </p>
+        </div>
+        <div class="swiper-container pos-relative">
+          <div class="swiper-wrapper">
+            <?php foreach($ebooks as $d) {?>
+              <div class="swiper-slide">
+                <div class="ss-img vertical">
+                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                </div>
+              </div>
+            <?php }?>
+          </div>
+        </div> 
+        <div class="swiper-arrows-container">
+          <div class="arrows-container">
+            <div class="wrapper">
+              <div class="btn btn-icon-prev">
+                <div class="arrow">
+                  <em class="fa-solid fa-arrow-left"></em>
+                </div>
+              </div>
+              <div class="btn btn-icon-next">
+                <div class="arrow">
+                  <em class="fa-solid fa-arrow-right"></em>
+                </div>
               </div>
             </div>
-          <?php }?>
+          </div>
         </div>
-        <div class="shelf-container">
-          <img class="img" src="public/assets/app/images/content/shelf.png">  
-        </div>
+      <div class="shelf-container">
+        <img class="img" src="public/assets/app/images/content/shelf.png">  
+      </div>
       </div>
     </div>
   </section>

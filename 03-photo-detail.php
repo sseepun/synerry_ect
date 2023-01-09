@@ -21,9 +21,8 @@
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-60 sm-100">
-          <div class="ss-card ss-card-10">
-            <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
-              ผอ.สนง.กกต.จว.พัทลุง ลงพื้นที่ประสานนายอำเภอเพื่อเตรียมความพร้อมการเลือกตั้งสมาชิกวุฒิสภา
+          <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
+            <h4 class="title lh-sm fw-500">
               ผอ.สนง.กกต.จว.พัทลุง ลงพื้นที่ประสานนายอำเภอเพื่อเตรียมความพร้อมการเลือกตั้งสมาชิกวุฒิสภา
             </h4>
             <div class="card-top mt-3">
@@ -72,19 +71,6 @@
                 </div>
               </div>
             </div>
-            <p class="desc color-gray fw-400 mt-3">
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-            </p>
-          </div>
           <?php 
             $news01 = [
               ['image' => 'public/assets/app/images/content/02.jpg'],
@@ -114,12 +100,21 @@
               </div>
             <?php }?>
           </div>
+          </div>
           <div class="btns jc-center mt-3" data-aos="fade-up" data-aos-delay="150">
             <div href="#" class="btn btn-action btn-02">
               ดาวน์โหลดทั้งหมด (30)
             </div>
           </div>
-          <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
+          <p class="desc color-gray fw-400 mt-5" data-aos="fade-up" data-aos-delay="300">
+            วันที่ 10 ตุลาคม 2561 ร้อยตำรวจเอกสุชีพ จาดย่านขาด ผอ.สนง.กกต.จว.พท พร้อมด้วยนายประภาส 
+            เศียรอุ่น พนักงานสืบสวนและไต่สวน ชำนาญการ ปฏิบัติหน้าที่หัวหน้างานสืบสวนสอบสวนและพรรคการเมือง 
+            นายสมทบ ไชยรัตน์ พนักงานการเลือกตั้ง ชำนาญการ และนายประเสริฐ ธรรมเพชร พนักงานสืบสวนและไต่สวน 
+            ชำนาญการ ลงพื้นที่พบปะพูดคุยกับนายอำเภอบางแก้ว ปลัดอาวุโสอำเภอบางแก้ว นายอำเภอตะโหมด 
+            นายอำเภอกงหราและปลัดอาวุโสอำเภอศรีนครินทร์ เพื่อประสานงานการเตรียมความพร้อมตามแผนงานการเลือกสมาชิกวุฒิสภา 
+            ให้เป็นไปด้วยความเรียบร้อยและให้การสนับสนุนภารกิจดังกล่าว
+          </p>
+          <div class="tags-container" data-aos="fade-up" data-aos-delay="450">
             <div>
               <span class="fw-500">แท็ก:</span>
               <div class="ss-tags d-inline-block">
@@ -135,7 +130,7 @@
             <div class="social-list">
               <span class="fw-500 mr-1">แบ่งปัน:</span>
               <div class="d-inline-block">
-                <a class="icon active" href="#">
+                <a class="icon" href="#">
                   <em class="fa-solid fa-code"></em>
                 </a>
               </div>
@@ -155,55 +150,38 @@
                 </a>
               </div>
               <div class="d-inline-block">
-                <a class="icon" href="#">
+                <a class="icon active" href="#">
                   <em class="fa-solid fa-link"></em>
                 </a>
               </div>
             </div>
           </div>
-          <?php 
-            $videos = [
-              ['image' => 'public/assets/app/images/content/14.jpg'],
-              ['image' => 'public/assets/app/images/content/15.jpg'],
-              ['image' => 'public/assets/app/images/content/13.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg'],
-            ]
-          ?>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="0">
-            วิดีโอที่เกี่ยวข้อง
-          </h4>
-          <div class="grids" data-aos="fade-up" data-aos-delay="150">
-            <?php foreach($videos as $d) {?>
-              <div class="grid lg-25 sm-50 mt-2">
-                <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="hover-container show">
-                      <div class="icon sm">
-                        <img src="public/assets/app/images/icon/play-thin.png" alt="Play Icon">
-                      </div>
-                    </div>
-                  </div>
-                </a>
+          <div class="file-header-container mt-5" data-aos="fade-up" data-aos-delay="650">
+            <h4 class="title fw-600">
+              ไฟล์ที่เกี่ยวข้อง
+            </h4>     
+            <div class="btns">
+              <div class="btn btn-action-style-03 btn-02 mr-3" href="#">
+                <em class="fa-solid fa-arrow-down"></em>
+                <em class="fa-solid fa-arrow-up"></em>
               </div>
-            <?php }?>
-          </div>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="300">
-            ไฟล์ที่เกี่ยวข้อง
-          </h4>  
+              <div href="#" class="btn btn-action size-02 btn-02">
+                ดาวน์โหลดทั้งหมด (30)
+              </div>
+            </div>
+          </div> 
           <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="800">
               <tbody>
                 <?php
                   foreach([
-                    'pdf', 'doc', 'docx', 'xls', 'xlsx',
-                    'ppt', 'pptx', 'zip', 'rar'
+                    'pdf', 'pdf', 'pdf'
                   ] as $k){
                 ?>
                   <tr class="box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card">
-                        <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                        <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                       </div>
                     </td>
                     <td style="min-width:450px;">
@@ -223,31 +201,33 @@
                     </td>
                     <td style="min-width:100px;">
                       <div class="d-flex ai-center jc-center fw-wrap">
-                        <a class="btn btn-action-style-02" href="#">
+                        <a class="btn btn-action-style-02 btn-02" href="#">
                           <em class="fa-solid fa-arrow-down"></em>
                         </a>
                       </div>
-                      <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                      <p class="xs color-02 fw-500 text-center mt-1">ดาวน์โหลด</p>
                     </td>
                   </tr>
                 <?php }?>
               </tbody>
             </table>
           </div> 
-          <div class="buttons-group" data-aos="fade-up" data-aos-delay="0">
+          <div class="buttons-group" data-aos="fade-up" data-aos-delay="950">
             <div class="wrapper">
               <div class="btns">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวก่อนหน้า
+                <div href="#" class="btn width-auto btn-action btn-09">
+                  <em class="fa-solid fa-arrow-left"></em>
+                  สื่อก่อนหน้า
                 </div>
               </div> 
-              <div class="icon">
-                <em class="fa-solid fa-list mr-2"></em>
-                <p class="fw-400">หน้ารวมข่าว</p>
+              <div class="icon-container">
+                <div class="icon"><em class="fa-solid fa-list"></em></div>
+                <p class="text fw-500">หน้ารวมภาพ</p>
               </div>
               <div class="btns jc-end">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวถัดไป
+                <div href="#" class="btn width-auto btn-action btn-02">
+                  สื่อถัดไป
+                  <em class="fa-solid fa-arrow-right"></em>
                 </div>
               </div>     
             </div>
@@ -295,21 +275,41 @@
                     <div class="wrapper">
                       <div class="icon">
                         <em class="fa-solid fa-calendar-days"></em>
-                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-eye"></em>
-                        <span class="p sm ml-2">255</span>
+                        <span class="p sm fw-400 ml-2">255</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-share-nodes"></em>
-                        <span class="p sm ml-2">208</span>
+                        <span class="p sm fw-400 ml-2">208</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </a>
             <?php }?>
+            <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
+              <p class="h5 fw-600">แท็กยอดนิยม</p>
+              <div class="mt-1">
+                <div class="ss-tags">
+                  <div class="tag">ข่าวประกาศ</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">อบรมหลักสูตร</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">การเลือกตั้ง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">ระดับชำนาญการพิเศษ</div>
+                </div>
+              </div>
+            </div>
           </div>   
         </div>
       </div>

@@ -657,21 +657,21 @@ function ssPageProcess(){
              var self = $(this);
              new Swiper(self.find('.swiper-container'), {
                  loop: true,
-                 spaceBetween: 50,
+                 spaceBetween: 30,
                  slidesPerView: 5,
                  effect: 'coverflow', 
                  coverflowEffect: {
                      rotate: 0,
-                     stretch: 0,
+                     stretch: -40,
                      // depth: 0,
                      modifier: 1,
                      slideShadows : true
                  },
                  breakpoints: {
-                    1299.98: { slidesPerView: 5 },
-                    991.98: { slidesPerView: 3 },
-                    767.98: { slidesPerView: 3 },
-                    575.98:{ slidesPerView: 3 }
+                    1299.98: { slidesPerView:5},
+                    991.98: { slidesPerView:3,  spaceBetween:0},
+                    767.98: { slidesPerView:3, spaceBetween:0},
+                    575.98:{ slidesPerView:1}
                 },
                  speed: 800,
                  grabCursor: true,

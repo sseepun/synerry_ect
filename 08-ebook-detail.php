@@ -20,25 +20,25 @@
     <div class="container">
       <div class="ss-card ss-card-10">
         <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
-          คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือ
+          คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
         </h4>
         <div class="card-top mt-3">
           <div class="wrapper">
-            <div class="icon">
+            <div class="icon d-inline-block">
               <em class="fa-regular fa-file-lines"></em>
-              <span class="p sm ml-2 fw-500">ภาพกิจกรรม</span>
+              <span class="p sm ml-1 fw-500">ภาพกิจกรรม</span>
             </div>
-            <div class="icon">
+            <div class="icon d-inline-block">
               <em class="fa-solid fa-calendar-days"></em>
-              <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
+              <span class="p sm ml-1 fw-500">08 มิถุนายน 2565</span>
             </div>
-            <div class="icon">
+            <div class="icon d-inline-block">
               <em class="fa-solid fa-eye"></em>
-              <span class="p sm ml-2 fw-500">255</span>
+              <span class="p sm ml-1 fw-500">255</span>
             </div>
-            <div class="icon">
+            <div class="icon d-inline-block">
               <em class="fa-solid fa-share-nodes"></em>
-              <span class="p sm ml-2 fw-500">208</span>
+              <span class="p sm ml-1 fw-500">208</span>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
       </div>
       <div class="grids">
         <!-- Left Content -->
-        <div class="grid xl-70 lg-60 md-60 sm-100">
+        <div class="grid xl-70 lg-60 md-2-3 sm-100">
           <p class="color-gray fw-400 mt-3">
             กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
             ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
@@ -115,9 +115,20 @@
               ['image' => 'public/assets/app/images/content/12.jpg'],
             ]
           ?>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="300">
-            ไฟล์ที่เกี่ยวข้อง
-          </h4>  
+          <div class="file-header-container mt-5">
+            <h4 class="title fw-600" data-aos="fade-up" data-aos-delay="300">
+              ไฟล์ที่เกี่ยวข้อง
+            </h4>     
+            <div class="btns">
+              <div class="btn btn-action-style-03 btn-02 mr-3" href="#">
+                <em class="fa-solid fa-arrow-down"></em>
+                <em class="fa-solid fa-arrow-up"></em>
+              </div>
+              <div href="#" class="btn btn-action size-02 btn-02">
+                ดาวน์โหลดทั้งหมด (30)
+              </div>
+            </div>
+          </div> 
           <div class="scroll-x-wrapper mt-3" data-simplebar>
             <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
               <tbody>
@@ -149,11 +160,11 @@
                     </td>
                     <td style="min-width:100px;">
                       <div class="d-flex ai-center jc-center fw-wrap">
-                        <a class="btn btn-action-style-02" href="#">
+                        <a class="btn btn-action-style-02 btn-02" href="#">
                           <em class="fa-solid fa-arrow-down"></em>
                         </a>
                       </div>
-                      <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                      <p class="xs color-02 fw-500 text-center mt-1">ดาวน์โหลด</p>
                     </td>
                   </tr>
                 <?php }?>
@@ -163,25 +174,27 @@
           <div class="buttons-group" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="btns">
-                <div href="#" class="btn btn-action btn-02">
+                <div href="#" class="btn width-auto btn-action btn-09">
+                  <em class="fa-solid fa-arrow-left"></em>
                   สื่อก่อนหน้า
                 </div>
               </div> 
-              <div class="icon">
-                <em class="fa-solid fa-list mr-2"></em>
-                <p class="fw-400">หน้ารวมสื่อประชาสัมพันธ์</p>
+              <div class="icon-container">
+                <div class="icon"><em class="fa-solid fa-list"></em></div>
+                <p class="text fw-500">หน้ารวมสื่อประชาสัมพันธ์</p>
               </div>
               <div class="btns jc-end">
-                <div href="#" class="btn btn-action btn-02">
+                <div href="#" class="btn width-auto btn-action btn-02">
                   สื่อถัดไป
+                  <em class="fa-solid fa-arrow-right"></em>
                 </div>
               </div>     
             </div>
           </div>
         </div>
         <!-- Right Content -->
-        <div class="grid xl-30 lg-40 md-40 sm-100">
-          <div class="pl-5">
+        <div class="grid xl-30 lg-40 md-1-3 sm-100">
+          <div class="pl-5 pl-unset-sm">
             <div class="category-container" data-aos="fade-up" data-aos-delay="0">
               <div class="cate-header">
                 <h5 class="fw-600">ประเภท</h5>
@@ -219,7 +232,7 @@
                   <div class="wrapper">
                     <div class="img-container">
                       <div class="ss-img vertical">
-                        <div class="img-bg" style="background:url('<?= $d['image']?>')"></div>
+                        <div class="img-bg" style="background-image:url('<?= $d['image']?>')"></div>
                       </div>
                     </div>
                     <div class="text-container">
