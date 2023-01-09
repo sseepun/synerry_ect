@@ -393,37 +393,37 @@
     $syndicates = [
       [
         'image' => 'public/assets/app/images/content/83.jpg',
-        'rank' => 'ประธานกรรมการการเลือกตั้่ง',
+        'rank' => 'ประธานกรรมการการเลือกตั้ง',
         'nameTH' => 'นายฉัตรไชย จันทร์พรายศรี',
         'nameEng' => 'Mr. Ittiporn Boonpracong'
       ],[
         'image' => 'public/assets/app/images/content/84.jpg',
-        'rank' => 'กรรมการการเลือกตั้่ง',
+        'rank' => 'กรรมการการเลือกตั้ง',
         'nameTH' => 'ศ.สันทัด ศิริอนันต์ไพบูลย์',
         'nameEng' => 'Prof. Suntud Sirianuntapiboon'
       ],[
         'image' => 'public/assets/app/images/content/85.jpg',
-        'rank' => 'กรรมการการเลือกตั้่ง',
+        'rank' => 'กรรมการการเลือกตั้ง',
         'nameTH' => 'นายธวัชชัย เทอดเผ่าไทย',
         'nameEng' => 'Mr. Tawatchai Therdphaothai'
       ],[
         'image' => 'public/assets/app/images/content/86.jpg',
-        'rank' => 'กรรมการการเลือกตั้่ง',
+        'rank' => 'กรรมการการเลือกตั้ง',
         'nameTH' => 'นายฉัตรไชย จันทร์พรายศรี',
         'nameEng' => 'Mr. Chatchai Janpraisri'
       ],[
         'image' => 'public/assets/app/images/content/87.jpg',
-        'rank' => 'กรรมการการเลือกตั้่ง',
+        'rank' => 'กรรมการการเลือกตั้ง',
         'nameTH' => 'นายปกรณ์ มหรรณพ',
         'nameEng' => 'Mr. Pakron Mahannop'
       ],[
         'image' => 'public/assets/app/images/content/88.jpg',
-        'rank' => 'กรรมการการเลือกตั้่ง',
+        'rank' => 'กรรมการการเลือกตั้ง',
         'nameTH' => 'นายเลิศวิโรจน์ โกวัฒนะ',
         'nameEng' => 'Mr. Lertviroj Kowattana'
       ],[
         'image' => 'public/assets/app/images/content/89.jpg',
-        'rank' => 'กรรมการการเลือกตั้่ง',
+        'rank' => 'กรรมการการเลือกตั้ง',
         'nameTH' => 'นายฐิติเชฏฐ์ นุชนาฏ',
         'nameEng' => 'Mr. Titichet Nutchanart'
       ],
