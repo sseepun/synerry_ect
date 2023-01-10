@@ -144,7 +144,7 @@
           <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="450">
             วิดีโอที่เกี่ยวข้อง
           </h4>
-          <div class="grids" data-aos="fade-up" data-aos-delay="150">
+          <div class="grids" data-aos="fade-up" data-aos-delay="650">
             <?php foreach($videos as $d) {?>
               <div class="grid lg-25 sm-50 mt-2">
                 <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
@@ -160,7 +160,7 @@
               </div>
             <?php }?>
           </div>
-          <div class="file-header-container mt-5" data-aos="fade-up" data-aos-delay="650">
+          <div class="file-header-container mt-5" data-aos="fade-up" data-aos-delay="800">
             <h4 class="title fw-600">
               ไฟล์ที่เกี่ยวข้อง
             </h4>     
@@ -175,7 +175,7 @@
             </div>
           </div>  
           <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="950">
               <tbody>
                 <?php
                   foreach([
@@ -206,18 +206,18 @@
                     </td>
                     <td style="min-width:100px;">
                       <div class="d-flex ai-center jc-center fw-wrap">
-                        <a class="btn btn-action-style-02" href="#">
+                        <a class="btn btn-action-style-02 btn-02" href="#">
                           <em class="fa-solid fa-arrow-down"></em>
                         </a>
                       </div>
-                      <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                      <p class="xs color-02 text-center fw-500 mt-1">ดาวน์โหลด</p>
                     </td>
                   </tr>
                 <?php }?>
               </tbody>
             </table>
           </div> 
-          <div class="buttons-group" data-aos="fade-up" data-aos-delay="950">
+          <div class="buttons-group" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="btns">
                 <div href="#" class="btn width-auto btn-action btn-09">
@@ -227,7 +227,7 @@
               </div> 
               <div class="icon-container">
                 <div class="icon"><em class="fa-solid fa-list"></em></div>
-                <p class="text fw-500">หน้ารวมภาพ</p>
+                <p class="text fw-500">หน้ารวมข่าว</p>
               </div>
               <div class="btns jc-end">
                 <div href="#" class="btn width-auto btn-action btn-02">
@@ -274,7 +274,7 @@
               ข่าวล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <div class="ss-card ss-card-12 mt-3" data-aos="fade-up" data-aos-delay="300">
+              <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                 </div>
@@ -300,29 +300,29 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </ฟ>
             <?php }?>
           </div>   
           <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
-              <p class="h5 fw-600">แท็กยอดนิยม</p>
-              <div class="mt-1">
-                <div class="ss-tags">
-                  <div class="tag">ข่าวประกาศ</div>
-                </div>
-                <div class="ss-tags">
-                  <div class="tag">อบรมหลักสูตร</div>
-                </div>
-                <div class="ss-tags">
-                  <div class="tag">การเลือกตั้ง</div>
-                </div>
-                <div class="ss-tags">
-                  <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
-                </div>
-                <div class="ss-tags">
-                  <div class="tag">ระดับชำนาญการพิเศษ</div>
-                </div>
+            <p class="h5 fw-600">แท็กยอดนิยม</p>
+            <div class="mt-1">
+              <div class="ss-tags">
+                <div class="tag">ข่าวประกาศ</div>
+              </div>
+              <div class="ss-tags">
+                <div class="tag">อบรมหลักสูตร</div>
+              </div>
+              <div class="ss-tags">
+                <div class="tag">การเลือกตั้ง</div>
+              </div>
+              <div class="ss-tags">
+                <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
+              </div>
+              <div class="ss-tags">
+                <div class="tag">ระดับชำนาญการพิเศษ</div>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>

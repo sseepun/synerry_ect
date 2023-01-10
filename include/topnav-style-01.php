@@ -69,7 +69,6 @@
 <!-- Topnav -->
 <nav class="topnav style-02">
   <div class="wrapper">
-
     <a class="logo" href="#">
       <div class="img-container">
         <img src="public/assets/app/images/logo.png" alt="Website Logo" />

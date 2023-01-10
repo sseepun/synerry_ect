@@ -91,7 +91,7 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-list', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
@@ -117,15 +117,15 @@
                       <div class="wrapper">
                         <div class="icon">
                           <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                          <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-eye"></em>
-                          <span class="p sm ml-2">255</span>
+                          <span class="p sm fw-400 ml-2">255</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm ml-2">208</span>
+                          <span class="p sm fw-400 ml-2">208</span>
                         </div>
                       </div>
                     </div>

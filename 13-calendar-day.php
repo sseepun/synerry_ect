@@ -33,14 +33,12 @@
           </div>
         </div>
       </div>
-
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
-          include('component/list-header.php');
+          $listHeader = ['search', 'category', 'order', 'view'];
+          include('component/list-header-calendar.php');
         ?>
       </div>
-
       <div class="scroll-x-wrapper" data-simplebar data-aos="fade-up" data-aos-delay="300">
         <div class="scroll-x-wrapper pb-2 mt-6">
           <div class="calendar-wrapper">
@@ -60,8 +58,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="mt-6 pt-4">
+      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="450">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');

@@ -21,46 +21,45 @@
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-60 sm-100">
-          <div class="ss-card ss-card-10">
-            <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
-              กรรมการเลือกตั้งมอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตรการอบรมหลักสูตรการ
-              ปฏิบัติงานระดับการชำนาญพิเศษ แนวทางแก้ไขปัญหาในการ
+          <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
+            <h4 class="title lh-sm fw-500">
+              กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน 
+              แนวทางการแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงาน
+              ในการอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ 
             </h4>
             <div class="card-top mt-3">
               <div class="wrapper">
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-regular fa-file-lines"></em>
                   <span class="p sm ml-2 fw-500">เรื่องเด่น กกต.</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-calendar-days"></em>
                   <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-eye"></em>
                   <span class="p sm ml-2 fw-500">255</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-share-nodes"></em>
                   <span class="p sm ml-2 fw-500">208</span>
                 </div>
               </div>
             </div>
-            <div class="ss-img horizontal mt-3">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
+            <div class="post-video width-full mt-3 bradius-round ovf-hidden">
+              <div class="wrapper">
+                <video class="fit" controls>
+                  <source src="public/assets/app/video/01.mp4" type="video/mp4" />
+                </video>
+              </div>
             </div>
             <p class="desc color-gray fw-400 mt-3">
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+              วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง 
+              พร้อมด้วย พล.ต.ต.ชัชชรินร์ สว่างวงศ์ ผู้เชี่ยวชาญด้านรัฐประศาสนศาสตร์ 
+              นางสาวโชติกา แก้วผล ผู้อำนวยการฝ่ายกิจการกรรมการการเลือกตั้ง 4 ได้มอบนโยบายในการปฏิบัติงาน 
+              แนวทางการแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ 
+              ระหว่างวันที่ 6-20 มิถุนายน 2565 ณ ห้องประชุมคอนเวนชั่น โรงแรมรามาการ์เด้นส์ 
             </p>
           </div>
           <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
@@ -105,21 +104,32 @@
               </div>
             </div>
           </div>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="300">
-            ไฟล์ที่เกี่ยวข้อง
-          </h4>  
+          <div class="file-header-container mt-5" data-aos="fade-up" data-aos-delay="800">
+            <h4 class="title fw-600">
+              ไฟล์ที่เกี่ยวข้อง
+            </h4>     
+            <div class="btns">
+              <div class="btn btn-action-style-03 btn-02 mr-3" href="#">
+                <em class="fa-solid fa-arrow-down"></em>
+                <em class="fa-solid fa-arrow-up"></em>
+              </div>
+              <div href="#" class="btn btn-action size-02 btn-02">
+                ดาวน์โหลดทั้งหมด (30)
+              </div>
+            </div>
+          </div>  
           <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="950">
               <tbody>
                 <?php
                   foreach([
-                    'pdf', 'pdf', 'pdf'
+                    'pdf', 'doc', 'mp4'
                   ] as $k){
                 ?>
                   <tr class="box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card">
-                        <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                        <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                       </div>
                     </td>
                     <td style="min-width:450px;">
@@ -139,11 +149,11 @@
                     </td>
                     <td style="min-width:100px;">
                       <div class="d-flex ai-center jc-center fw-wrap">
-                        <a class="btn btn-action-style-02" href="#">
+                        <a class="btn btn-action-style-02 btn-02" href="#">
                           <em class="fa-solid fa-arrow-down"></em>
                         </a>
                       </div>
-                      <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                      <p class="xs color-02 text-center fw-500 mt-1">ดาวน์โหลด</p>
                     </td>
                   </tr>
                 <?php }?>
@@ -153,17 +163,19 @@
           <div class="buttons-group" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="btns">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวก่อนหน้า
+                <div href="#" class="btn width-auto btn-action btn-09">
+                  <em class="fa-solid fa-arrow-left"></em>
+                  สื่อก่อนหน้า
                 </div>
               </div> 
-              <div class="icon">
-                <em class="fa-solid fa-list mr-2"></em>
-                <p class="fw-400">หน้ารวมข่าว</p>
+              <div class="icon-container">
+                <div class="icon"><em class="fa-solid fa-list"></em></div>
+                <p class="text fw-500">หน้ารวมภาพ</p>
               </div>
               <div class="btns jc-end">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวถัดไป
+                <div href="#" class="btn width-auto btn-action btn-02">
+                  สื่อถัดไป
+                  <em class="fa-solid fa-arrow-right"></em>
                 </div>
               </div>     
             </div>
@@ -201,7 +213,8 @@
               ข่าวล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+              <a class="ss-card ss-card-16 border-bottom bcolor-sgray pb-3 mt-3" 
+              href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                   <div class="hover-container show">
@@ -218,21 +231,41 @@
                     <div class="wrapper">
                       <div class="icon">
                         <em class="fa-solid fa-calendar-days"></em>
-                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-eye"></em>
-                        <span class="p sm ml-2">255</span>
+                        <span class="p sm fw-400 ml-2">255</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-share-nodes"></em>
-                        <span class="p sm ml-2">208</span>
+                        <span class="p sm fw-400 ml-2">208</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </a>
             <?php }?>
+            <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="450">
+              <p class="h5 fw-600">แท็กยอดนิยม</p>
+              <div class="mt-1">
+                <div class="ss-tags">
+                  <div class="tag">ข่าวประกาศ</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">อบรมหลักสูตร</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">การเลือกตั้ง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
+                </div>
+                <div class="ss-tags">
+                  <div class="tag">ระดับชำนาญการพิเศษ</div>
+                </div>
+              </div>
+            </div>
           </div>   
         </div>
       </div>

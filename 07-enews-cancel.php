@@ -30,16 +30,16 @@
         <form action="" class="mt-5">
           <div class="form-group">
             <label for="">
-              <span>หากท่านต้องการยกเลิกการรับช่าวสาร กรุณากรอกอีเมล์ที่ท่านต้องการยกเลิกด้านล่าง</span>
+              <span class="p sm fw-400">หากท่านต้องการยกเลิกการรับช่าวสาร กรุณากรอกอีเมล์ที่ท่านต้องการยกเลิกด้านล่าง</span>
             </label>
-            <input class="style-02" type="text" placeholder="อีเมล *">
+            <input class="style-02" type="text" placeholder="อีเมล *" required>
           </div>
           <div class="captcha-container mt-5">
             <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
             <div class="btns ml-4">
-              <div href="#" class="btn btn-action btn-03">
+              <button  type="submit" href="#" class="btn btn-action btn-03">
                 ยกเลิกรับข่าวสาร
-              </div>
+              </button>
             </div>
           </div>
         </form>

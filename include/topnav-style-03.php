@@ -61,7 +61,7 @@
           </div>
           <div class="option">
             <div class="option-select">
-              <div class="select">
+              <div class="select bg-04 color-white">
                 TH <div class="chev"><em class="fa-solid fa-chevron-down"></em></div>
               </div>
               <div class="dropdown color-white">

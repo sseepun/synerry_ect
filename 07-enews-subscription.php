@@ -32,7 +32,7 @@
             <label>
               <span class="p sm fw-400">กรุณากรอกอีเมลที่ต้องการรับข่าวสาร</span>
             </label>
-            <input class="style-02 mt-1" type="text" placeholder="อีเมล *">
+            <input class="style-02 mt-1" type="text" placeholder="อีเมล *" required>
             <p class="sm fw-400 mt-3">กรุณาเลือกประเภทของข่าวสารที่คุณมีความสนใจในการติดตาม</p>
             <fieldset class="mt-2">
               <label class="form-check ai-center form-check-container-02">
@@ -109,9 +109,12 @@
           <div class="captcha-container mt-5">
             <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
             <div class="btns ml-4">
-              <div href="#" class="btn btn-action btn-03">
-                ยกเลิกรับข่าวสาร
-              </div>
+              <button type="submit" href="#" class="btn btn-action btn-03 size-03">
+                ยืนยัน
+              </button>
+              <button type="cancel" href="#" class="btn btn-action btn-05 size-03">
+                ยกเลิก
+              </button>
             </div>
           </div>
         </form>

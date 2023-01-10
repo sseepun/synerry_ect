@@ -113,7 +113,7 @@
               <div class="grids">
                 <div class="grid sm-100 mt-3">
                   <div class="option cate">
-                    <select class="ui dropdown">
+                    <select class="ui dropdown" required>
                       <option value="">เลือกหน่วยงาน*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="option cate">
-                    <select class="ui dropdown">
+                    <select class="ui dropdown" required>
                       <option value="">เลือกหัวข้อ*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -140,28 +140,28 @@
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="ชื่อ*">
+                      <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="นามสกุล*">
+                      <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*">
+                      <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*" required>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="อีเมล*">
+                      <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
                     </div>
                   </div>
                 </div>
@@ -225,18 +225,18 @@
                   </div>
                 </div>
                 <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-4">
-                  <div class="grids  no-gap">
+                  <div class="grids no-gap">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
-                        <div href="#" class="btn btn-action mw-auto btn-03">
+                        <button type="submit" href="#" class="btn btn-action width-full mw-auto btn-03">
                           ส่งข้อความ
-                        </div>
+                        </button>
                       </div>
                     </div>
                     <div class="grid sm-50 xs-50 mt-0">
-                      <div href="#" class="btn btn-action mw-auto btn-05">
+                      <button type="cancel" href="#" class="btn btn-action width-full mw-auto btn-05">
                         ยกเลิก
-                      </div>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -249,7 +249,7 @@
   </section>
 
   <!-- Goolgle Map -->
-  <iframe 
+  <iframe data-aos="fade-up" data-aos-delay="400"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.285629391629!2d100.56366531478078!3d13.8818618902634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e28323d10290b5%3A0x946e22bc8754445a!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4LiE4LiT4Liw4LiB4Lij4Lij4Lih4LiB4Liy4Lij4LiB4Liy4Lij4LmA4Lil4Li34Lit4LiB4LiV4Lix4LmJ4LiH!5e0!3m2!1sth!2sth!4v1672824557112!5m2!1sth!2sth" 
     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>

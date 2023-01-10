@@ -110,7 +110,7 @@
                     </div>
                     <div class="grid lg-50 sm-60 xs-100">
                       <div class="chart-container">
-                        <div id="chart"></div>
+                        <div class="chart"></div>
                       </div>
                     </div>
                   </div>
@@ -154,8 +154,10 @@
           }
         }],
         };
-        var chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
+        $('.chart').each(function(){
+          var apexChart = new ApexCharts($(this)[0], options);
+          apexChart.render();
+         });
   </script>
 
 </body>

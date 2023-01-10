@@ -98,34 +98,34 @@
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="ชื่อ*">
+                      <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="นามสกุล*">
+                      <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*">
+                      <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*" required>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="อีเมล*">
+                      <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-4">
                   <div class="option cate">
-                    <select class="ui dropdown">
+                    <select class="ui dropdown" required>
                       <option value="">เลือกหัวข้อที่ต้องการแจ้ง*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -232,15 +232,15 @@
                   <div class="grids  no-gap">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
-                        <div href="#" class="btn btn-action mw-auto btn-03">
+                        <button type="submit" href="#" class="btn btn-action width-full mw-auto btn-03">
                           แจ้งเบาะแส
-                        </div>
+                        </button>
                       </div>
                     </div>
                     <div class="grid sm-50 xs-50 mt-0">
-                      <div href="#" class="btn btn-action mw-auto btn-05">
+                      <button type="cancel" href="#" class="btn btn-action width-full mw-auto btn-05">
                         ยกเลิก
-                      </div>
+                      </button>
                     </div>
                   </div>
                 </div>

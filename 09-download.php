@@ -18,12 +18,12 @@
 
   <div class="section-padding">
     <div class="container">
-      <h3 class="fw-600 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="fw-600" data-aos="fade-up" data-aos-delay="0">
         ข่าวประกวดราคาสอบราคา
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-03', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
               <div class="content">
-              <div class="scroll-x-wrapper" data-simplebar>
+                <div class="scroll-x-wrapper" data-simplebar>
                     <table class="table style-02 table-download">
                       <tbody>
                         <?php
@@ -80,25 +80,23 @@
                             </td>
                             <td style="min-width:100px;">
                               <div class="d-flex ai-center jc-center fw-wrap">
-                                <a class="btn btn-action-style-02" href="#">
+                                <a class="btn btn-action-style-02 btn-02" href="#">
                                   <em class="fa-solid fa-arrow-down"></em>
                                 </a>
                               </div>
-                              <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                              <p class="xs color-02 text-center fw-400 mt-1">ดาวน์โหลด</p>
                             </td>
                           </tr>
                         <?php }?>
                       </tbody>
                     </table>
                   </div>
-              </div>
+                </div>
               </div>
             </div>
           <?php }?>
       </div>
-  
-      
-      <div class="mt-6 pt-4">
+      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="350">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');

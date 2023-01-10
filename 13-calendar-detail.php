@@ -21,7 +21,7 @@
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-60 sm-100">
-          <div class="ss-card ss-card-21">
+          <div class="ss-card ss-card-21" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="date">
                 <div class="wrapper">
@@ -30,7 +30,7 @@
                 </div>
               </div>
               <div class="text-container">
-                <h4 class="title lh-sm fw-600" data-aos="fade-up" data-aos-delay="0">
+                <h4 class="title lh-sm fw-600">
                   อบรมตามโครงการสร้างจิตสำนึกพลเมืองดีวิถีประชาธิปไตยประจำปี 2565 จังหวัดพังงา
                 </h4>
                 <div class="title-footer mt-2">
@@ -85,7 +85,7 @@
               จำนวน 100 คน ณ ห้องประชุมพุงช้าง วิทยาลัยเทคนิคพังงา2 อำเภอเมืองพังงา
             </p>
           </div>
-          <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
+          <div class="tags-container" data-aos="fade-up" data-aos-delay="150">
             <div>
               <span class="fw-500">แท็ก:</span>
               <div class="ss-tags d-inline-block">
@@ -130,27 +130,28 @@
           <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="300">
             EMBED
           </h4>  
-          <div class="post-video width-full">
+          <div class="post-video width-full" data-aos="fade-up" data-aos-delay="450">
             <div class="wrapper">
               <video class="fit" controls>
                 <source src="public/assets/app/video/01.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
-          <div class="buttons-group mt-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="buttons-group mt-5" data-aos="fade-up" data-aos-delay="600">
             <div class="wrapper">
               <div class="btns">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวก่อนหน้า
+                <div href="#" class="btn width-auto btn-action btn-09">
+                  <em class="fa-solid fa-arrow-left"></em>
+                  สื่อก่อนหน้า
                 </div>
               </div> 
-              <div class="icon">
-                <em class="fa-solid fa-list mr-2"></em>
-                <p class="fw-400">หน้ารวมข่าว</p>
+              <div class="icon-container">
+                <div class="icon"><em class="fa-solid fa-list"></em></div>
               </div>
               <div class="btns jc-end">
-                <div href="#" class="btn btn-action btn-02">
-                  ข่าวถัดไป
+                <div href="#" class="btn width-auto btn-action btn-02">
+                  สื่อถัดไป
+                  <em class="fa-solid fa-arrow-right"></em>
                 </div>
               </div>     
             </div>
@@ -158,7 +159,7 @@
         </div>
         <!-- Right Content -->
         <div class="grid xl-30 lg-40 md-40 sm-100">
-          <div class="pl-5">
+          <div class="pl-5 pl-unset-sm">
             <div class="category-container" data-aos="fade-up" data-aos-delay="0">
               <div class="cate-header">
                 <h5 class="fw-600">ประเภท</h5>
@@ -199,7 +200,7 @@
               ภาพกิจกรรมล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <a class="ss-card ss-card-12 mt-3 aos-init aos-animate" href="#" data-aos="fade-up" data-aos-delay="300">
+              <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                 </div>

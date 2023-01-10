@@ -124,7 +124,7 @@ p.xs, .p.xs, li.xs, label.xs{font-size:.8125rem;}
  }
  .btn.btn-action-style-03{
   width:2.5rem; height:2.5rem; display:flex; flex-direction:column; justify-content:center; align-items:center;
-  border-radius:50%; font-size:.875rem; transition:background .25s, color .25s;
+  border-radius:50%; font-size:.875rem; transition:background .25s, color .25s; cursor:pointer;
 }
 .btn.btn-action-style-03 > em{margin:.0625rem;}
 .btn.btn-action-style-04{
@@ -532,10 +532,14 @@ fieldset{padding:0; margin:0; border:0;}
 }
 
 .list-header.style-02 .option.search{width:30%;}
-.list-header.style-02 .option.cate,
-.list-header.style-02 .option.order{width:28.5%; padding-left:1rem;}
+.list-header.style-02 .option.search.size-02{width:26.66%;}
+.list-header.style-02 .option.cate, .list-header.style-02 .option.order{width:28.5%; padding-left:1rem;}
+.list-header.style-02 .option.cate.size-02, .list-header.style-02 .option.order.size-02{width:26.66%; padding-left:1rem;}
 .list-header.style-02 .option.order > span{width:5rem;}
 .list-header.style-02 .option.view{width:13%; display:flex; justify-content:flex-end;}
+.list-header.style-02 .option.view.size-02{width:20%;}
+.list-header.style-02 .option.view.style-02{padding-left:1rem;}
+.list-header.style-02 .option.view.style-02 span{width:5rem;}
 .list-header.style-02{display:flex; justify-content:unset;}
 .list-header.style-02 .option{position:relative; min-height:2.875rem;}
 .list-header.style-02 .option > .ui.icon.input input{min-height:2.5rem!important; border:none;}
@@ -556,19 +560,36 @@ fieldset{padding:0; margin:0; border:0;}
   display:flex; align-items:center; justify-content:center; width:2.875rem; height:2.875rem;
   border:1px solid transparent; border-radius:50%; font-size:1.125rem; transition:all .25s;
 }
+.list-header.style-02 .option .icon-view.disable{pointer-events:none;}
 @media screen and (max-width:1199.98px){
   .list-header.style-02 .option.search{width:33.33%;}
   .list-header.style-02 .option.cate,
   .list-header.style-02 .option.order{width:33.33%;}
   .list-header.style-02 .option.view{width:100%; margin-top:1rem;}
+
+  .list-header.style-02 .option.search.size-02{width:33.33%;}
+  .list-header.style-02 .option.cate.size-02,
+  .list-header.style-02 .option.order.size-02{width:33.33%;}
+  .list-header.style-02 .option.view.size-02{width:100%; margin-top:1rem;}
 }
 @media screen and (max-width:991.98px){
   .list-header.style-02 .option.search{width:100%;}
   .list-header.style-02 .option.cate,
   .list-header.style-02 .option.order{width:50%; margin-top:1rem;}
+
+  .list-header.style-02 .option.search.size-02{width:33.33%;}
+  .list-header.style-02 .option.cate.size-02,
+  .list-header.style-02 .option.order.size-02{width:33.33%; margin-top:0;}
+  .list-header.style-02 .option.order.size-02 > span{width:5.5rem;}
+  .list-header.style-02 .option.view.size-02{width:100%;}
 }
 @media screen and (max-width:767.98px){
   .list-header.style-02 .option.order > span{width:5.5rem;}
+  .list-header.style-02 .option.cate.style-02 > span{width:5rem;}
+
+  .list-header.style-02 .option.search.size-02, .list-header.style-02 .option.cate.size-02,
+  .list-header.style-02 .option.order.size-02, .list-header.style-02 .option.view.size-02{width:50%;}
+  .list-header.style-02 .option.order.size-02, .list-header.style-02 .option.view.size-02{margin-top:1rem;}
 }
 @media screen and (max-width:575.98px){
   .list-header.style-02 .option{width:100%;}
@@ -576,6 +597,10 @@ fieldset{padding:0; margin:0; border:0;}
   .list-header.style-02 .option.order{width:100%; padding-left:0;}
   .list-header.style-02 .option.view{justify-content:center;}
   .list-header.style-02 .option > span{display:none;}
+
+  .list-header.style-02 .option.search.size-02,.list-header.style-02 .option.cate.size-02,
+  .list-header.style-02 .option.order.size-02, .list-header.style-02 .option.view.size-02{width:100%; padding-left:0;}
+  .list-header.style-02 .option.cate.size-02{margin-top:1rem;}
 }
 
 /* List Header */
@@ -1129,9 +1154,13 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-img.horizontal-02{padding:30% 0 0 0;}
 .ss-img.vertical{padding:140% 0 0 0;}
 .ss-img.square{padding:100% 0 0 0;}
+.ss-img.square-size-02{padding:70% 0 0 0;}
 .ss-img > .img-bg{
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
     background-position:center; transition:transform .25s, filter .25s; 
+}
+@media screen and (max-width:767px){
+  .ss-img.square-size-02{padding:60% 0 0 0;}
 }
 
 
@@ -1191,14 +1220,16 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .ss-list.style-04 > li::before{
   content:""; position:absolute; top:.8125rem; left:0; width:.375rem; height:.375rem;
-  border-radius:0;
+  border-radius:0; z-index:2;
 }
+.ss-list.style-04{position:relative;}
+.ss-list.style-04 .line{position:absolute; top:0rem; left:.1565rem; width:.0625rem; background:#69696a;}
 @media screen and (max-width:1199.98px){
   .ss-list.style-04.min-height{min-height:0;}
 }
-
-
-.ss-list.style-04 > li::before{background:#2e603c;}
+@media screen and (max-width:318.98px){
+  .ss-list.style-04 .line{display:none;}
+}
 
 
 /* Special Tags */
@@ -1791,6 +1822,10 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-12 .card-footer > .wrapper{display:flex; align-items:center;}
 .ss-card-12 .card-footer > .wrapper .icon{display:flex; align-items:center; margin-right:1rem;}
 .ss-card-12 .card-footer > .wrapper .icon > em{font-size:.8125rem;}
+@media screen and (max-width:991.98px){
+  .ss-card-12 .card-footer > .wrapper{display:unset!important;}
+  .ss-card-12 .card-footer > .wrapper .icon{display:inline-block;}
+}
 
 /* Special Card 13 */
 .ss-card-13{border-radius:.5rem; overflow:hidden;}
@@ -2152,8 +2187,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 } 
 .ss-card-34 .wrapper > .text-container{
   width:calc(100% - 4rem); height:100%; display:flex; align-items:center; 
-  padding:0 1rem; border-radius:0 .5rem .5rem 0; text-align:center;
+  padding:0 1rem; border-radius:0 .5rem .5rem 0;
 }
+.ss-card-34 .wrapper > .text-container span{width:3.125rem; display:inline-block;}
 .ss-card-34 .text-container > .social-list .icon{
   width:2rem; height:2rem; display:flex; justify-content:center; align-items:center;
   border-radius:50%; font-size:1.3125rem; transition:background .25s, color .25s;

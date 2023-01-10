@@ -20,12 +20,13 @@
     <div class="container">
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-02', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
 
-      <div class="faq-01 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
+      <div class="scroll-x-wrapper mt-3" data-simplebar>
+      <div class="faq-01 mt-3 pt-2 pb-1" style="min-width:800px;" data-aos="fade-up" data-aos-delay="300" >
         <?php for($i=0; $i<10; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">
             <div class="question box-shadow style-02">
@@ -107,11 +108,11 @@
                           </td>
                           <td style="min-width:100px;">
                             <div class="d-flex ai-center jc-center fw-wrap">
-                              <a class="btn btn-action-style-02" href="#">
+                              <a class="btn btn-action-style-02 btn-02" href="#">
                                 <em class="fa-solid fa-arrow-down"></em>
                               </a>
                             </div>
-                            <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                            <p class="xs text-center color-02 fw-400 mt-1">ดาวน์โหลด</p>
                           </td>
                         </tr>
                       <?php }?>
@@ -122,6 +123,7 @@
             </div>
           </div>
         <?php }?>
+                        </div>
       </div>
       <div class="mt-6 pt-4">
         <?php

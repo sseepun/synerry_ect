@@ -50,7 +50,7 @@
             <em class="fa-brands fa-youtube"></em>
           </a>
         </div>
-        <div class="option">
+        <div class="option select">
           <div class="option-select">
             <div class="select">
               TH <div class="chev"><em class="fa-solid fa-chevron-down"></em></div>

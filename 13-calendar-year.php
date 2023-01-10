@@ -20,14 +20,14 @@
     <div class="container">
       <div style="margin-top:6rem; position:relative; z-index:2;" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
-          include('component/list-header.php');
+          $listHeader = ['search', 'category', 'order', 'view'];
+          include('component/list-header-calendar.php');
         ?>
       </div>
-      <div class="calendar-style-02">
+      <div class="calendar-style-02" data-aos="fade-up" data-aos-delay="0">
         <div data-provide="calendar"></div>
       </div>
-      <div class="mt-6 pt-4">
+      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="300">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');

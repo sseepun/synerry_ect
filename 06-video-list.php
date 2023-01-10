@@ -16,13 +16,12 @@
     include('component/breadcrumb.php');
   ?>
 
-<?php 
+  <?php 
     $news01 = [
       ['image' => 'public/assets/app/images/content/41.jpg'], 
       ['image' => 'public/assets/app/images/content/42.jpg']
     ]
   ?>
-
   <?php 
     $news02 = [
       ['image' => 'public/assets/app/images/content/46.jpg'], 
@@ -61,15 +60,15 @@
                               <div class="wrapper">
                                 <div class="icon">
                                   <em class="fa-solid fa-calendar-days"></em>
-                                  <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                                  <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                                 </div>
                                 <div class="icon">
                                   <em class="fa-solid fa-eye"></em>
-                                  <span class="p sm ml-2">255</span>
+                                  <span class="p sm fw-400 ml-2">255</span>
                                 </div>
                                 <div class="icon">
                                   <em class="fa-solid fa-share-nodes"></em>
-                                  <span class="p sm ml-2">208</span>
+                                  <span class="p sm fw-400 ml-2">208</span>
                                 </div>
                               </div>
                             </div>
@@ -81,7 +80,7 @@
                 </div>
                 <div class="grid lg-50 md-100 sm-100">
                   <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-                    <div class="ss-img">
+                    <div class="ss-img square-size-02">
                       <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
                       <div class="hover-container show">
                         <div class="icon sm">
@@ -90,22 +89,22 @@
                       </div>
                     </div>
                     <div class="text-container">
-                      <p class="title fw-500">
-                        "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
+                      <p class="h4 title lh-sm fw-500">
+                        รายการ กกต. ขอบอก EP 65 : การพิจารณาประกาศผลการเลือกตั้ง สถ./ผถ.ของ กกต.
                       </p>
                       <div class="card-bottom mt-1">
                         <div class="wrapper">
                           <div class="icon">
                             <em class="fa-solid fa-calendar-days"></em>
-                            <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                            <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                           </div>
                           <div class="icon">
                             <em class="fa-solid fa-eye"></em>
-                            <span class="p sm ml-2">255</span>
+                            <span class="p sm fw-400 ml-2">255</span>
                           </div>
                           <div class="icon">
                             <em class="fa-solid fa-share-nodes"></em>
-                            <span class="p sm ml-2">208</span>
+                            <span class="p sm fw-400 ml-2">208</span>
                           </div>
                         </div>
                       </div>
@@ -133,15 +132,15 @@
                               <div class="wrapper">
                                 <div class="icon">
                                   <em class="fa-solid fa-calendar-days"></em>
-                                  <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                                  <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                                 </div>
                                 <div class="icon">
                                   <em class="fa-solid fa-eye"></em>
-                                  <span class="p sm ml-2">255</span>
+                                  <span class="p sm fw-400 ml-2">255</span>
                                 </div>
                                 <div class="icon">
                                   <em class="fa-solid fa-share-nodes"></em>
-                                  <span class="p sm ml-2">208</span>
+                                  <span class="p sm fw-400 ml-2">208</span>
                                 </div>
                               </div>
                             </div>
@@ -186,7 +185,7 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-list', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
@@ -217,15 +216,15 @@
                       <div class="wrapper">
                         <div class="icon">
                           <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                          <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-eye"></em>
-                          <span class="p sm ml-2">255</span>
+                          <span class="p sm fw-400 ml-2">255</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm ml-2">208</span>
+                          <span class="p sm fw-400 ml-2">208</span>
                         </div>
                       </div>
                     </div>

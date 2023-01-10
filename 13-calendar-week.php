@@ -36,8 +36,8 @@
 
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
-          include('component/list-header.php');
+          $listHeader = ['search', 'category', 'order', 'view'];
+          include('component/list-header-calendar.php');
         ?>
       </div>
 

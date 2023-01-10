@@ -54,6 +54,81 @@
             <?php }?>
           </div>
         <?php }?>
+        <?php if(in_array('view-02', $listHeader)){?>
+          <div class="option view">
+            <div class="btn btn-action-style-03 btn-10 mr-3" href="#">
+              <em class="fa-solid fa-arrow-down"></em>
+              <em class="fa-solid fa-arrow-up"></em>
+            </div>
+            <div class="btn btn-action-style-03 btn-10 mr-3" href="#">
+              <em class="fa-solid fa-arrow-up"></em>
+              <em class="fa-solid fa-arrow-down"></em>
+            </div>
+            <?php if(in_array('rss', $listHeader)){?>
+              <a class="icon-view ml-1" href="#">
+                <em class="fas fa-rss"></em>
+              </a>
+            <?php }?>
+          </div>
+        <?php }?>
+        <?php if(in_array('view-03', $listHeader)){?>
+          <div class="option view">
+            <a class="icon-view disable" href="#">
+              <em class="fas fa-th"></em>
+            </a>
+            <a class="icon-view disable ml-1" href="#">
+              <em class="fa-solid fa-list"></em>
+            </a>
+            <?php if(in_array('rss', $listHeader)){?>
+              <a class="icon-view active ml-1" href="#">
+                <em class="fas fa-rss"></em>
+              </a>
+            <?php }?>
+          </div>
+        <?php }?>
+        <?php if(in_array('view-grid', $listHeader)){?>
+          <div class="option view">
+            <a class="icon-view active" href="#">
+              <em class="fas fa-th"></em>
+            </a>
+            <a class="icon-view disable ml-1" href="#">
+              <em class="fa-solid fa-list"></em>
+            </a>
+            <?php if(in_array('rss', $listHeader)){?>
+              <a class="icon-view ml-1" href="#">
+                <em class="fas fa-rss"></em>
+              </a>
+            <?php }?>
+          </div>
+        <?php }?>
+        <?php if(in_array('view-list', $listHeader)){?>
+          <div class="option view">
+            <a class="icon-view disable" href="#">
+              <em class="fas fa-th"></em>
+            </a>
+            <a class="icon-view active ml-1" href="#">
+              <em class="fa-solid fa-list"></em>
+            </a>
+            <?php if(in_array('rss', $listHeader)){?>
+              <a class="icon-view ml-1" href="#">
+                <em class="fas fa-rss"></em>
+              </a>
+            <?php }?>
+          </div>
+        <?php }?>
+        <?php if(in_array('day', $listHeader)){?>
+          <div class="option view style-02">
+            <span class="p sm fw-500 mr-2">มุมมอง</span>
+            <select class="ui dropdown">
+              <option value="">รายวัน</option>
+              <option value="1">รายเดือน</option>
+              <option value="2">รายปี</option>
+            </select>
+            <div class="dropdown-icon">
+              <em class="fa-solid fa-chevron-down"></em>
+            </div>
+          </div>
+        <?php }?>
       </div>
     <?php }?>
   </div>

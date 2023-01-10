@@ -45,11 +45,11 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
-          include('component/list-header.php');
+          $listHeader = ['search', 'category', 'order', 'view'];
+          include('component/list-header-calendar.php');
         ?>
       </div>
-      <div class="grids" data-aos="fade-up" data-aos-delay="300">
+      <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
           <div class="grid lg-100 md-50">
             <a class="ss-card ss-card-20" href="#">
@@ -111,7 +111,7 @@
           </div>
         <?php }?>
       </div>
-      <div class="mt-6 pt-4">
+      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="0">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');

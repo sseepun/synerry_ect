@@ -18,17 +18,16 @@
 
   <div class="section-padding">
     <div class="container">
-      <h3 class="fw-600 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="fw-600" data-aos="fade-up" data-aos-delay="0">
         คำวินิจฉัยคณะกรรมการการเลือกตั้ง
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-03', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
-
-      <div class="btns jc-end xs-center mt-6">
+      <div class="btns jc-end xs-center mt-6" data-aos="fade-up" data-aos-delay="300">
         <div class="btn btn-action-style-03 btn-02 mr-3" href="#">
           <em class="fa-solid fa-arrow-down"></em>
           <em class="fa-solid fa-arrow-up"></em>
@@ -37,9 +36,8 @@
           ดาวน์โหลดทั้งหมด (30)
         </div>
       </div>
-
       <div class="scroll-x-wrapper" data-simplebar>
-        <div class="faq-05 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
+        <div class="faq-05 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="450">
           <?php for($i=0; $i<10; $i++){?>
             <div class="faq">
               <div class="question box-shadow style-02">
@@ -80,8 +78,7 @@
           <?php }?>
         </div>
       </div>
-      
-      <div class="mt-6 pt-4">
+      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="0">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');

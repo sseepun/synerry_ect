@@ -110,9 +110,10 @@
           <div class="search-container box-shadow style-02" data-aos="fade-up" data-aos-delay="0">
             <p class="color-02 fw-400">ค้นหา</p>
             <form class="form" action="">
-              <div class="search-wrapper">
-                <input type="text" placeholder="ค้นหาข้อมูล">
-              </div>
+            <div class="ui icon input">
+              <input id="search" type="search" placeholder="ค้นหา">
+              <em class="icon fa-solid fa-magnifying-glass"></em>
+            </div>
               <div class="form-group mt-3">
                 <h6 class="color-02 fw-400">ตัวกรองชั้นสูง</h6>
                 <label><span class="color-02 fw-400">ประเภทข้อมูล</span></label>     
@@ -161,7 +162,7 @@
                 </div>
                 <p class="fw-400">ถึง</p>
                 <div class="date-wrapper">
-                  <input type="text">
+                  <input type="text" class="date-picker form-control">
                 </div>
               </div>
               <div class="form-group mt-3">
