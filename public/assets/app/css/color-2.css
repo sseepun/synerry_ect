@@ -2,49 +2,66 @@
 /* Reset */
 html, body{background:#000000;}
 html, body, a, a:hover, table.table{color:#fecb00;}
-img, .img-bg, .icon, .hero, .section-bg, .img-fill, .footer-top, .section-03 .section-card::before {
+img, .img-bg, .icon, .hero, .section-bg, .img-fill, .footer-top, .mobile-screen, .section-03 .section-card::before {
   filter: grayscale(1)!important;
 }
 
-
 /* Colors */
-.color-p, .h-color-p:hover,
-.color-s, .h-color-s:hover,
-.color-t, .h-color-t:hover,
-.color-white, .h-color-white:hover,
-.color-black, .h-color-black:hover,
-.color-gray, .h-color-gray:hover, 
-.color-bgray, .h-color-bgray:hover, 
-.color-mgray, .h-color-mgray:hover, 
-.color-sgray, .h-color-sgray:hover,
-.color-hgray, .h-color-hgray:hover,
-.color-fgray, .h-color-fgray:hover,
-.color-01, .h-color-01:hover,
-.color-02, .h-color-02:hover,
-.color-03, .h-color-03:hover,
-.color-04, .h-color-04:hover,
-.color-05, .h-color-05:hover,
-.color-06, .h-color-06:hover,
-.color-07, .h-color-07:hover,
-.color-08, .h-color-08:hover,
-.color-09, .h-color-09:hover,
-.color-10, .h-color-10:hover,
-.color-11, .h-color-11:hover,
-.color-12, .h-color-12:hover,
-.color-13, .h-color-13:hover{color:#fecb00!important;}
+/* Colors */
+.color-p, 
+.color-s, 
+.color-t, 
+.color-white,
+.color-black, 
+.color-dark, 
+.color-gray, 
+.color-sgray
+.color-01, 
+.color-02, 
+.color-03, 
+.color-04, 
+.color-05, 
+.color-06, 
+.color-07{color:#ffff00!important;}
+.color-black-theme{color:#000000!important;}
 
-.bg-p, .bg-s, .bg-t,
-.bg-white, .bg-black, .bg-gray, .bg-bgray, .bg-mgray, .bg-sgray, .bg-hgray, .bg-fgray,
-.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08, .bg-09, .bg-10, .bg-11, 
-.bg-12, .bg-13{background:#000000!important;}
+.bg-p, 
+.bg-s, 
+.bg-t, 
+.bg-white, 
+.bg-black, 
+.bg-dark, 
+.bg-gray, 
+.bg-sgray, 
+.bg-01, 
+.bg-02, 
+.bg-03, 
+.bg-04, 
+.bg-05, 
+.bg-06, 
+.bg-07{background:#000000!important;}
+.bg-white-theme{background:#ffffff!important;}
 
-.bcolor-p, .bcolor-s, .bcolor-t,
-.bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-bgray, 
-.bcolor-mgray, .bcolor-sgray, .bcolor-hgray, .bcolor-fgray, 
-.bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, 
-.bcolor-07, .bcolor-08, .bcolor-09, .bcolor-10, .bcolor-11, .bcolor-12, 
-.bcolor-13{border-color:#fecb00!important;}
 
+.bcolor-p, 
+.bcolor-s, 
+.bcolor-t 
+.bcolor-white,
+.bcolor-black,
+.bcolor-dark, 
+.bcolor-gray, 
+.bcolor-sgray,
+.bcolor-01,
+.bcolor-02,
+.bcolor-03,
+.bcolor-04,
+.bcolor-05,
+.bcolor-06,
+.bcolor-07{border-color:#ffff00!important;}
+
+
+/* Accessibility & Quick Links */
+nav.side-panel > .wrapper > .icon{background:#000000;}
 
 /* Super Topnav */
 nav.stopnav .btn.btn-circle{border-color:#fecb00; background:#fecb00;}
@@ -128,6 +145,7 @@ nav.side-panel .panel-row:nth-child(even){background:#171717;}
 nav.side-panel .panel-row{background:#000000; color:#ffff00;}
 nav.side-panel .panel{border-color:rgba(255,255,0,.3);}
 nav.side-panel .option-row .icon + *::before{background:#ffff00;}
+nav.side-panel .hamburger > *{background:#ffffff;}
 
 /* Global Search Container */
 .global-search-container .search-panel{background:#000000; border:1px solid #fecb00;}
@@ -187,6 +205,9 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-ss::after{background:#000000;}
 .btn.btn-more{color:#fecb00;}
 .btn.btn-more::after{background:#fecb00;}
+
+.btn.btn-03, .btn.btn-03:focus{background:#fecb00; color:#000000;}
+.btn.btn-03.btn-black-theme, .btn.btn-03.btn-black-theme:focus{background:#000000; color:#fecb00;}
 
 
 /* Inputs */
@@ -355,29 +376,6 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 .ss-box-shadow::before{background:#000000;}
 
 
-/* Special Card 01 */
-.ss-card-01.minisite .btn.btn-more::after{background:#fecb00;}
-
-/* Special Card 02 */
-.ss-card-02:hover{border-color:#fecb00!important;}
-.ss-card-02 .date-container, .ss-card-02 .download-container{border:1px solid #fecb00;}
-.ss-card-02 .text-container{border-top:1px solid #fecb00; border-bottom:1px solid #fecb00;}
-
-/* Special Card 03 */
-.ss-card-03{border:1px solid #fecb00;}
-
-/* Special Card 05 */
-.ss-card-05{border:1px solid #fecb00;}
-.ss-card-05 > .info-container{border-right:1px solid #fecb00;}
-.ss-card-05 .card-header{border-bottom:1px solid #fecb00;}
-
-/* Special Card 06 */
-.ss-card-06.minisite .btn.btn-more::after{background:#fecb00;}
-
-/* Special Card 07 */
-.ss-card-07 .title-wrapper{background:#fecb00;}
-.ss-card-07 .title{color:#000000!important;}
-
 
 /* Specia Dash */
 .ss-dash > span::after{background:#fecb00;}
@@ -500,151 +498,51 @@ table.table-stat, table.table-stat td{border-color:#fecb00;}
 .breadcrumb-02 .ss-icon-title-01 .desc{color:#fecb00;}
 .breadcrumb-02 .ss-icon-title-01 > .text-icon::before{background:#fecb00;}
 
+/* Mobile Device Container */
+.mobile-device-container .wrapper > .text-container{background:#000000;}
 
-/* Client 01 */
-.client-01 .arrows button{color:#fecb00;}
+/* Pagination */
+.paginate.style-03 .page:hover, .paginate.style-03 .page{color:#000000;}
+.paginate.style-03 .page:hover, .paginate.style-03 .page.active{background:#000000; color:#ffff00;}
 
+/* Tab Container 01 */
+.tab-container .tabs.tabs-01 .tab::after{background:#fecb00;}
+.tab-container .tabs.tabs-01.style-02 .tab{color:#000000;}
+.tab-container .tabs.tabs-01.style-02 .tab.active{background:#000000; color:#ffff00;}
 
-/* Contact Card 01 */
-.contact-card-01{background:#000000; border:1px solid #fecb00;}
-.contact-card-01 .contact-tag{color:#fecb00; opacity:.25;}
+/* Special Card 03 */
+.ss-card-03{background:#ffff00!important;}
 
-/* Contact Card 02 */
-.contact-card-02{border:1px solid #fecb00;}
-.contact-card-02::before{background:#fecb00;}
+/* Special Card 23 */
+.ss-card-23 .text-container{background:#000000;}
+.ss-card-23 .text-container .title{color:#ffff00;}
+.ss-card-23 .text-container > .ss-tags .tag{background:#ffff00; color:#000000;}
 
+/* Special Card 24 */
+.ss-card-24{background:#ffff00;}
+.ss-card-24 .wrapper > .icon{background:#000000;}
+.ss-card-24 .wrapper > .text-container .title,
+.ss-card-24 .wrapper > .text-container .desc{color:#000000;}
+.ss-card-24 .wrapper > .text-container .arrow{color:#000000;}
 
-/* Faq 01 */
-.faq-01 .faq > .question{border:1px solid #fecb00;}
-.faq-01 .faq .ftag{background:#fecb00; color:#000000; border-color:#fecb00;}
+/* Special Card 25 */
+.ss-card-25{border-color:#ffff00;}
+.ss-card-25 .text-container > .arrow{color:#ffff00;}
 
-/* Faq 02 */
-.faq-02 .faq > .question{background:#000000; border-color:#fecb00;}
-.faq-02 .faq.active > .question{background:#fecb00; color:#000000;}
-.faq-02 .faq > .question h6{color:#fecb00;}
-.faq-02 .faq.active > .question h6{color:#000000;}
-.faq-02 .faq > .question .ftag{background:#fecb00; color:#000000;}
-.faq-02 .faq.active > .question .ftag{background:#000000; color:#fecb00;}
-.faq-02 .faq > .question .arrow{background:#fecb00;}
-.faq-02 .faq.active > .question .arrow{background:#000000;}
-.faq-02 .faq .arrow::before, .faq-02 .faq .arrow::after{background:#000000;}
-.faq-02 .faq.active .arrow::before, .faq-02 .faq.active .arrow::after{background:#fecb00;}
-.faq-02 .faq > .answer .ftag{background:#fecb00; color:#000000;}
-.faq-02 .faq > .answer > .wrapper{background:#000000; border-color:#fecb00;}
+/* Special Card 26 */
+.ss-card-26{border-color:#ffff00;}
+.ss-card-26 .wrapper > .icon{color:#ffff00;}
 
-
-/* History 01 */
-.history-01 .info::before{background:#fecb00;}
-.history-01 .info > .dot{background:#000000; border-color:#fecb00;}
-
-
-/* Intro 01 */
-.intro-01 .content .num{color:#ffffff;}
-.intro-01 .content .title{color:#ffffff;}
-.intro-01 .content .gross{
-    background-image:linear-gradient(to left, rgba(255,255,255,.4), rgba(255,255,255,.2),
-        rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0),
-        rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0),
-        rgba(255,255,255,.2), rgba(255,255,255,.4));
-}
-.intro-01 .content:nth-child(6n+1) .filter{background:#264075;}
-.intro-01 .content:nth-child(6n+2) .filter{background:#4f2e68;}
-.intro-01 .content:nth-child(6n+3) .filter{background:#e6a904;}
-.intro-01 .content:nth-child(6n+4) .filter{background:#422e21;}
-.intro-01 .content:nth-child(6n+5) .filter{background:#6a0f1e;}
-.intro-01 .content:nth-child(6n) .filter{background:#196649;}
-
-/* Intro 07 */
-.intro-07 .slide-container .arrow svg{fill:#fecb00;}
+/* Special Card 28 */
+.ss-card-28 .text-container{background:#000000; color:#ffff00;}
 
 
-/* Org 01 */
-.org-01 .node, .org-01 .node a{color:#000000;}
-.org-01 .node::before, .org-01 .node::after{background:#fecb00;}
-.org-01 .node > .node-container{background:#fecb00;}
-.org-01 .node .node-title{border-color:#000000;}
-.org-01 .node.node-01 .children{background:#fecb00;}
-.org-01 .node .child{background:#000000; color:#fecb00;}
-.org-01 .node .child:hover > *{background:#fecb00; color:#000000;}
-
-/* Org 02 */
-.org-02 .node{background:#fecb00; color:#000000;}
-.org-02 .node.node-slot{background:#fecb00; color:#000000;}
-.org-02 .node-row::before, .org-02 .node-col .node::before,
-.org-02 .node-col .node::after{background:#fecb00;}
-.org-02 .node-tag{background:#fecb00; color:#000000;}
-.org-02 .node-grid .title{background:#fecb00; color:#000000;}
-.org-02 .node-grid ol li{background:#fecb00; color:#000000; border-color:#000000;}
 
 
-/* Pagination 01 */
-.pagination-01 .page-btn{color:#fecb00;}
-.pagination-01 .page-btn.active{color:#000000; background:#fecb00;}
-
-/* Pagination 02 */
-.pagination-02 .page-btn{color:#fecb00;}
-.pagination-02 .page-btn:hover{background:#fecb00; color:#000000;}
-.pagination-02 .page-btn.active{background:#fecb00; color:#000000;}
-
-/* Pagination 03 */
-.pagination-03 .page-btn.active{background:#fecb00; color:#000000;}
-.pagination-03 .page-btn.page-prev, 
-.pagination-03 .page-btn.page-next{background:transparent; color:#fecb00;}
-.pagination-03 .page-btn.page-first, 
-.pagination-03 .page-btn.page-last{background:#fecb00; color:#000000;}
 
 
-/* Progress 01 */
-.progress-01 .track{background:#000000; border:1px solid #fecb00;}
-.progress-01 .track::after{background:#fecb00;}
-.progress-01 .dot{background:#000000; color:#fecb00; border-color:#fecb00;}
 
 
-/* Sitemap 01 */
-.sitemap-01 .grid, .sitemap-01 .sitemap > .header, .sitemap-01 .sitemap a,
-.sitemap-01 .sitemap li > ul{border-color:#fecb00!important;}
-.sitemap-01 .sitemap li > ul > li::before{background:#fecb00;}
-
-/* Sitemap 02 */
-.sitemap-02 .grid, .sitemap-02 .sitemap > .header, .sitemap-02 .sitemap a,
-.sitemap-02 .sitemap li > ul{border-color:#fecb00;}
-.sitemap-02 .sitemap li > ul > li::before{background:#fecb00;}
-.sitemap-02 .sitemap .icon{background:#fecb00; color:#000000;}
 
 
-/* Strip Line */
-.strip-line{background:#fecb00; color:#000000;}
 
-
-/* Survey 01 */
-.survey-01 .survey > .header .icon{background:#fecb00; color:#000000;}
-
-/* Survey 02 */
-.survey-02 .survey > .num{background:#fecb00; color:#000000;}
-
-
-/* Tab Container - Tabs 01 */
-.tab-container .tabs.tabs-01 .tab{background:#fecb00; color:#000000;}
-
-/* Tab Container - Tabs 02 */
-.tab-container .tabs.tabs-02 .tab{color:#fecb00;}
-.tab-container .tabs.tabs-02 .tab.active{background:#fecb00; color:#000000;}
-
-/* Tab Container - Tabs 03 */
-.tab-container .tabs.tabs-03 .tab{color:#fecb00;}
-.tab-container .tabs.tabs-03 .tab:hover,
-.tab-container .tabs.tabs-03 .tab.active{background:#fecb00; color:#000000;}
-.tab-container .tabs.tabs-03 .tab::before{display:none;}
-.tab-container .tabs.tabs-03 .btn-setting{background:#fecb00;}
-.tab-container .tabs.tabs-03 .btn-setting:hover{background:rgba(255,255,0,.9);}
-
-/* Tab Container - Tabs 04 */
-.tab-container .tabs.tabs-04 > .bg-filter{
-    background:#fecb00; top:-.0625rem; left:-.0625rem; right:-.0625rem;
-}
-.tab-container .tabs.tabs-04 .tab{color:#000000; border-color:#000000;}
-.tab-container .tabs.tabs-04 .tab:hover, 
-.tab-container .tabs.tabs-04 .tab.active{background:#000000; color:#fecb00;}
-.tab-container .tabs.tabs-04 .tab::before{background:#000000;}
-.tab-container .tabs.tabs-04 .tab:hover::before,
-.tab-container .tabs.tabs-04 .tab.active::before{background:#fecb00;}

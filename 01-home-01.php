@@ -19,9 +19,9 @@
             <div class="container">
               <div class="quote-container style-02 animate" style="--delay:.4s;">
                 <div class="wrapper">
-                  <h2 class="fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
-                  <h1 class="fw-700 mt-1">
-                    <span class="color-04">ประชาธิปไตย</span><br />
+                  <h2 class="color-black-theme fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
+                  <h1 class="color-black-theme fw-700 mt-1">
+                    <span class="color-04 color-black-theme">ประชาธิปไตย</span><br />
                     โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
                   </h1>
                   <img class="quote quote-left" src="public/assets/app/images/icon/15.png" alt="Quote" />
@@ -63,7 +63,7 @@
       ],
     ];
   ?>
-  <section class="section-padding section-12 tab-container">
+  <section class="section-padding section-12 bg-white-theme tab-container">
     <div class="pattern style-01">
       <div class="wrapper">
         <img src="public/assets/app/images/pattern/02.png" alt="Hero">
@@ -79,8 +79,8 @@
         <?php foreach($categories as $i=>$d){?>
           <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
             <div class="text-center">
-              <h3 class="fw-700 color-dark"><?= $d['title'] ?></h3>
-              <p class="h6 fw-400 color-gray mt-1">ติดตามข่าวสารต่างๆพร้อมทั้งข้อมูลและลิงค์ที่น่าสนใจของทาง กกต.ได้ที่นี่</p>
+              <h3 class="fw-700 color-dark color-black-theme"><?= $d['title'] ?></h3>
+              <p class="h6 fw-400 color-gray color-black-theme mt-1">ติดตามข่าวสารต่างๆพร้อมทั้งข้อมูลและลิงค์ที่น่าสนใจของทาง กกต.ได้ที่นี่</p>
             </div>
           </div>
         <?php }?>
@@ -167,7 +167,7 @@
                 <div class="page">6</div>
               </div>
               <div class="btns">
-                <a class="btn btn-action btn-03" href="#">
+                <a class="btn btn-action btn-03 btn-black-theme" href="#">
                   <?= $d['title'] ?>ทั้งหมด
                 </a>
               </div>
@@ -320,11 +320,11 @@
       <div class="grids">
         <div class="grid xl-50 lg-50 sm-100 mt-0"></div>
         <div class="grid xl-50 lg-50 sm-100">
-          <h2 class="color-04 fw-500 md-no-br" data-aos="fade-up" data-aos-delay="0">
+          <h2 class="color-04 color-black-theme fw-500 md-no-br" data-aos="fade-up" data-aos-delay="0">
             กกต. พร้อมให้บริการข้อมูลการเลือกตั้ง <br />
             แก่ภาคประชาชนทุกภาคส่วน
           </h2>
-          <p class="h3 color-05 mt-1 mb-1" data-aos="fade-up" data-aos-delay="150">
+          <p class="h3 color-05 color-black-theme mt-1 mb-1" data-aos="fade-up" data-aos-delay="150">
             ด้วยหลากหลายแอพพลิเคชั่น
           </p>
           <div class="grids jc-center">
@@ -460,9 +460,9 @@
     
   </section>
 
-  <section class="section-02 section-padding" style="background-image:url('public/assets/app/images/bg/21.jpg');">
+  <section class="section-02 section-bg section-padding" style="background-image:url('public/assets/app/images/bg/21.jpg');">
     <div class="container">
-      <h3 class="fw-700" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="fw-700 color-black-theme color-white-theme" data-aos="fade-up" data-aos-delay="0">
         องค์ความรู้การเลือกตั้ง
       </h3>
       <div class="grids">
@@ -573,7 +573,7 @@
     </div>
   </section>
 
-  <section class="section-03 section-padding" style="background-image:url('public/assets/app/images/bg/20.jpg');">
+  <section class="section-03 section-bg section-padding" style="background-image:url('public/assets/app/images/bg/20.jpg');">
     <div class="container">
       <div class="grids jc-center">
         <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">

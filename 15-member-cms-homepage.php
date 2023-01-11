@@ -6,83 +6,94 @@
 </head>
 <body class="loading">
   
-  <div id="Sidebar" class="sidebar">
-    <div class="logo-container">
-      <div class="wrapper">
-        <div class="logo">
-          <img src="public/assets/app/images/logo-02.png" alt="">
-        </div>
-        <div class="text-container">
-          <p class="color-white lh-3xs fw-400">สำนักงาน</p>
-          <p class="color-white fw-400">คณะกรรมการการเลือกตั้ง</p>
-        </div>
-        <div class="arrow" onclick="closeNav()">
-          <em class="fa-solid fa-arrow-left"></em>
+  <div class="sidebar open">
+    <div data-aos="fade-in" data-aos-delay="0">
+      <div class="logo-container">
+        <div class="wrapper">
+          <div class="logo">
+            <img src="public/assets/app/images/logo-02.png" alt="">
+          </div>
+          <div class="text-container">
+            <p class="color-white title-link lh-3xs fw-400">สำนักงาน</p>
+            <p class="color-white title-link fw-400">คณะกรรมการการเลือกตั้ง</p>
+          </div>
+          <div class="arrow-container">
+            <div class="arrow" id="btn" >
+              <em class="fa-solid fa-arrow-left"></em>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="profile-container">
-      <div class="wrapper">
-        <div class="img-container">
+      <div class="profile-container">
+        <div class="wrapper">
           <div class="img-container">
-            <img class="img" src="public/assets/app/images/avatars/02.jpg" alt="Avatar">
+            <div class="img-container">
+              <img class="img" src="public/assets/app/images/avatars/02.jpg" alt="Avatar">
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="color-white lh-xs fw-400 title-link">สวัสดี</p>
+            <p class="color-white fw-400 title-link">คุณนิพัทธ์พนธ์</p>
           </div>
         </div>
-        <div class="text-container">
-          <p class="color-white lh-xs fw-400">สวัสดี</p>
-          <p class="color-white fw-400">คุณนิพัทธ์พนธ์</p>
-        </div>
+        <span class="tooltip">คุณนิพัทธ์พนธ์</span> 
       </div>
-    </div>
-    <div class="menu-container">
-      <a class="menu-item" href="#" onclick="closeNav()">
-        <div class="wrapper">
-          <div class="icon">
-            <img src="public/assets/app/images/icon/31.png" alt="">
+      <div class="menu-container">
+        <a class="menu-item" href="#">
+          <div class="wrapper">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/31.png" alt="">
+            </div>
+            <span class="p sm color-white title-link">หน้าแรก</span>
+          </div> 
+          <span class="tooltip">หน้าแรก</span>  
+        </a>
+        <a class="menu-item" href="#">
+          <div class="wrapper">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/32.png" alt="">
+            </div>
+            <p class="sm color-white title-link">ข้อมูลส่วนตัว</ย>
           </div>
-          <p class="sm color-white">หน้าแรก</p>
-        </div>
-      </a>
-      <a class="menu-item" href="#" onclick="closeNav()">
-        <div class="wrapper">
-          <div class="icon">
-            <img src="public/assets/app/images/icon/32.png" alt="">
+          <span class="tooltip">ข้อมูลส่วนตัว</span> 
+        </a>
+        <a class="menu-item" href="#">
+          <div class="wrapper">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/33.png" alt="">
+            </div>
+            <p class="sm color-white title-link">เปลี่ยนรหัสผ่าน</p>
           </div>
-          <p class="sm color-white">ข้อมูลส่วนตัว</ย>
-        </div>
-      </a>
-      <a class="menu-item" href="#" onclick="closeNav()">
-        <div class="wrapper">
-          <div class="icon">
-            <img src="public/assets/app/images/icon/33.png" alt="">
+          <span class="tooltip">เปลี่ยนรหัสผ่าน</span> 
+        </a>
+        <a class="menu-item" href="#">
+          <div class="wrapper">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/34.png" alt="">
+            </div>
+            <p class="sm color-white title-link">จดหมายข่าวสาร</p>
           </div>
-          <p class="sm color-white">เปลี่ยนรหัสผ่าน</p>
-        </div>
-      </a>
-      <a class="menu-item" href="#" onclick="closeNav()">
-        <div class="wrapper">
-          <div class="icon">
-            <img src="public/assets/app/images/icon/34.png" alt="">
+          <span class="tooltip">จดหมายข่าวสาร</span> 
+        </a>
+        <a class="menu-item" href="#">
+          <div class="wrapper">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/35.png" alt="">
+            </div>
+            <p class="sm color-white title-link">กระทู้ของฉัน</p>
           </div>
-          <p class="sm color-white">จดหมายข่าวสาร</p>
-        </div>
-      </a>
-      <a class="menu-item" href="#" onclick="closeNav()">
-        <div class="wrapper">
-          <div class="icon">
-            <img src="public/assets/app/images/icon/35.png" alt="">
+          <span class="tooltip">กระทู้ของฉัน</span>
+        </a>
+        <a class="menu-item" href="#">
+          <div class="wrapper">
+            <div class="icon">
+              <img src="public/assets/app/images/icon/36.png" alt="">
+            </div>
+            <p class="sm color-white title-link">ออกจากระบบ</p>
           </div>
-          <p class="sm color-white">กระทู้ของฉัน</p>
-        </div>
-      </a>
-      <a class="menu-item" href="#" onclick="closeNav()">
-        <div class="wrapper">
-          <div class="icon">
-            <img src="public/assets/app/images/icon/36.png" alt="">
-          </div>
-          <p class="sm color-white">ออกจากระบบ</p>
-        </div>
-      </a>
+          <span class="tooltip">ออกจากระบบ</span>
+        </a>
+      </div>
     </div>
   </div>
  
@@ -500,36 +511,38 @@
   <?php include_once('include/script.php'); ?>
 
   <script>
+    let sidebar = document.querySelector(".sidebar");
+    let arrowContainer = document.querySelector(".arrow-container");
+    let btn = document.querySelector("#btn");
+    let x = window.matchMedia("(max-width:575.98px)")
 
-    var x = window.matchMedia("(max-width:767.98px)")
+    btn.addEventListener("click", ()=>{
+      menuBtnChange();
+    });
+
+    function menuBtnChange() {
+      if(sidebar.classList.contains("open")){
+        sidebar.classList.remove("open");
+        sidebar.style.width = "5rem"
+      }else {
+        sidebar.classList.toggle("open");
+        sidebar.style.width = "17.5rem"
+      }
+    }
 
     function myFunction(x) {
       if (x.matches) { 
-        document.getElementById("Sidebar").style.width = "0";
-        document.getElementById("mainContent").style.marginLeft= "0";
+        sidebar.style.width = "5rem"
+        sidebar.classList.remove("open");
+        arrowContainer.style.display = "none"
       }else{
-        document.getElementById("Sidebar").style.width = "18.75rem";
-        document.getElementById("mainContent").style.marginLeft= "18.75rem";
+        sidebar.classList.add("open");
+        sidebar.style.width = "17.5rem"
+        arrowContainer.style.display = "block"
       }
     }
     myFunction(x) 
     x.addListener(myFunction)
-   
-    function openNav() {
-      let y = window.matchMedia("(max-width:767.98px)")
-      if (y.matches) { 
-        document.getElementById("Sidebar").style.width = "18.75rem";
-        document.getElementById("mainContent").style.marginLeft= "unset";
-      }else{
-        document.getElementById("Sidebar").style.width = "18.75rem";
-        document.getElementById("mainContent").style.marginLeft= "18.75rem";
-      }
-    }
-  
-    function closeNav() {
-      document.getElementById("Sidebar").style.width = "0";
-      document.getElementById("mainContent").style.marginLeft= "unset";
-    }
 
   </script>
 </body>

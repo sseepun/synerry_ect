@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('include/topnav-02.php'); ?>
+  <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -34,7 +34,7 @@
                 <div class="form-group style-02">
                   <label class="p fw-500">อีเมล/ชื่อผู้ใช้</label>
                   <div class="form-input">
-                    <input class="style-02 size-01" type="text">
+                    <input class="style-02 size-01" type="text" required>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@
                 <div class="form-group style-02 mt-3">
                   <label class="p fw-500">รหัสผ่าน</label>
                   <div class="form-input">
-                    <input class="style-02 size-01" type="text">
+                    <input class="style-02 size-01" type="text" required>
                   </div>
                 </div>
               </div>

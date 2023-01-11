@@ -5,7 +5,7 @@
 </a>
 
 <!-- Footer -->
-<nav class="footer style-03 section-padding" style="background-image:url('public/assets/app/images/bg/22.jpg');">
+<nav class="footer style-03 section-bg section-padding" style="background-image:url('public/assets/app/images/bg/22.jpg');">
   <div class="client-01">
     <div class="slide-container" data-aos="fade-up" data-aos-delay="0">
       <div class="slides">
