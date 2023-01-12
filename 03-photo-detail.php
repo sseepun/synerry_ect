@@ -31,15 +31,15 @@
                   <em class="fa-regular fa-file-lines"></em>
                   <span class="p sm ml-2 fw-500">ภาพกิจกรรม</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-calendar-days"></em>
                   <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-eye"></em>
                   <span class="p sm ml-2 fw-500">255</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-share-nodes"></em>
                   <span class="p sm ml-2 fw-500">208</span>
                 </div>
@@ -221,8 +221,10 @@
                 </div>
               </div> 
               <div class="icon-container">
-                <div class="icon"><em class="fa-solid fa-list"></em></div>
-                <p class="text fw-500">หน้ารวมภาพ</p>
+                <div class="icon-wrapper">
+                  <div class="icon"><em class="fa-solid fa-list"></em></div>
+                  <p class="text fw-500">หน้ารวมภาพ</p>
+                </div>
               </div>
               <div class="btns jc-end">
                 <div href="#" class="btn width-auto btn-action btn-02">

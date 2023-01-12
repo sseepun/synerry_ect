@@ -169,8 +169,10 @@
                 </div>
               </div> 
               <div class="icon-container">
-                <div class="icon"><em class="fa-solid fa-list"></em></div>
-                <p class="text fw-500">หน้ารวมภาพ</p>
+                <div class="icon-wrapper">
+                  <div class="icon"><em class="fa-solid fa-list"></em></div>
+                  <p class="text fw-500">หน้ารวมภาพ</p>  
+                </div>
               </div>
               <div class="btns jc-end">
                 <div href="#" class="btn width-auto btn-action btn-02">

@@ -180,7 +180,8 @@ p.xs, .p.xs, li.xs, label.xs{font-size:.8125rem;}
 /* Buttons Group */
 .buttons-group{padding:.5rem 0; border-top:1px solid transparent; border-bottom:1px solid transparent;}
 .buttons-group .wrapper{display:flex; align-items:center; justify-content:space-between;}
-.buttons-group .wrapper > .icon-container{width:30%; display:flex; align-items:center; justify-content:center;} 
+.buttons-group .wrapper > .icon-container{width:30%;}
+.buttons-group .wrapper > .icon-container .icon-wrapper{display:flex; align-items:center; justify-content:center;} 
 .buttons-group .wrapper > .icon-container .text{width:calc(100% - 3rem); display:flex; align-items:center;}
 .buttons-group .wrapper > .icon-container .icon{
   width:3rem; height:3rem; display:flex; justify-content:center; align-items:center;
@@ -197,9 +198,18 @@ p.xs, .p.xs, li.xs, label.xs{font-size:.8125rem;}
 .buttons-group .wrapper > .btns:hover .btn > em.fa-arrow-right{margin:.0625rem 0 0 .75rem;}
 @media screen and (max-width:499.98px){
   .buttons-group .wrapper{flex-direction:column; justify-content:unset!important;}
-  .buttons-group .wrapper > .icon-container{margin:1rem 0;}
+  .buttons-group .wrapper > .icon-container{margin:1rem 0; width:100%; display:flex; justify-content:center;}
+  .buttons-group .wrapper > .icon-container .icon-wrapper{width:10rem;}
   .buttons-group .wrapper > .btns{justify-content:center!important;}
 }
+/* @media screen and (max-width:399.98px){
+  .buttons-group .wrapper > .btns,
+  .buttons-group .wrapper > .icon-container{width:100%;}
+}
+@media screen and (max-width:355.98px){
+  .buttons-group .wrapper > .btns,
+  .buttons-group .wrapper > .icon-container{width:60%;}
+} */
 
 /* Capcha Container */
 .capcha-container{width:100%; max-width:18.5rem;}
