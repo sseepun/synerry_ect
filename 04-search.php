@@ -91,14 +91,14 @@
                   </div>
                   <div class="info-content">
                     <p class="color-02 fw-500">ประเภท</p>
-                    <p class="fw-400"><?= $d['cate']?></p>
-                    <div class="icon">
+                    <p class="fw-500"><?= $d['cate']?></p>
+                    <div class="icon mt-2">
                       <em class="fa-solid fa-calendar-days"></em>
-                      <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                      <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                     </div>
                     <div class="icon">
                       <em class="fa-solid fa-share-nodes"></em>
-                      <span class="p sm ml-2">208</span>
+                      <span class="p sm fw-400 ml-2">208</span>
                     </div>
                   </div>
                 </div>
@@ -109,108 +109,116 @@
         <div class="grid xl-25 lg-30 md-100 sm-100">
           <div class="search-container box-shadow style-02" data-aos="fade-up" data-aos-delay="0">
             <p class="color-02 fw-400">ค้นหา</p>
-            <form class="form" action="">
-            <div class="ui icon input">
-              <input id="search" type="search" placeholder="ค้นหา">
-              <em class="icon fa-solid fa-magnifying-glass"></em>
-            </div>
-              <div class="form-group mt-3">
-                <h6 class="color-02 fw-400">ตัวกรองชั้นสูง</h6>
-                <label><span class="color-02 fw-400">ประเภทข้อมูล</span></label>     
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_0" value="0" title="General Radio Input">
-                  <label for="c_0_0" class="fw-300">ข่าวประชาสัมพันธ์</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_1" value="1" title="General Radio Input">
-                  <label for="c_0_1" class="fw-300">คลังภาพ</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_2" value="2" title="General Radio Input">
-                  <label for="c_0_2" class="fw-300">วิดีโอ</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_3" value="3" title="General Radio Input">
-                  <label for="c_0_3" class="fw-300">หนังสืออิเล็กทรอนิกส์</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_4" value="4" title="General Radio Input">
-                  <label for="c_0_4" class="fw-300">เอกสารดาวน์โหลด</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_5" value="5" title="General Radio Input">
-                  <label for="c_0_5" class="fw-300">ประกาศรับสมัครงาน</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_5" value="5" title="General Radio Input">
-                  <label for="c_0_5" class="fw-300">ถาม-ตอบ</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_5" value="5" title="General Radio Input">
-                  <label for="c_0_5" class="fw-300">เนื้อหาเว็บไซต์</label>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" name="c_0[]" id="c_0_5" value="5" title="General Radio Input">
-                  <label for="c_0_5" class="fw-300">ทั้งหมด</label>
-                </div>
-              </div>
-              <div class="form-group">
-                <h6 class="color-02 fw-400 mt-3">ช่วงระยะเวลา</h6>
-                <p class="fw-400">จาก</p>
-                <div class="date-wrapper">
-                  <input type="text" class="date-picker form-control">
-                </div>
-                <p class="fw-400">ถึง</p>
-                <div class="date-wrapper">
-                  <input type="text" class="date-picker form-control">
-                </div>
+            <form class="form" action="action.php" method="get">
+              <div class="ui icon input">
+                <input id="search" type="search" placeholder="ค้นหา">
+                <em class="icon fa-solid fa-magnifying-glass"></em>
               </div>
               <div class="form-group mt-3">
-                <h6 class="color-02 fw-400">การเรียงลำดับ</h6>
-                  <fieldset>
-                    <div class="gallery-grids">
+                <h6 class="color-02 fw-500">ตัวกรองชั้นสูง</h6>
+                <p class="color-02 fw-400 mt-3 mb-1">ประเภทข้อมูล</p>     
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_0" class="form-check-input" onclick="myFunction()"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">ข่าวประชาสัมพันธ์</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_1" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">คลังภาพ</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_2" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">วิดีโอ</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_3" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">หนังสืออิเล็กทรอนิกส์</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_4" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">เอกสารดาวน์โหลด</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_5" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">ประกาศรับสมัครงาน</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_6" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">ถาม-ตอบ</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_7" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">เนื้อหาเว็บไซต์</p>
+                </label>
+                <label class="form-check style-03 ai-center form-check-container-03">
+                  <input type="checkbox" id="c_8" class="form-check-input"/>
+                  <span class="checkmark"></span>
+                  <p class="ml-3 fw-400">ทั้งหมด</p>
+                </label>
+                <div class="form-group">
+                  <h6 class="color-02 fw-400 mt-3">ช่วงระยะเวลา</h6>
+                  <p class="fw-400">จาก</p>
+                  <div class="date-wrapper">
+                    <input type="text" class="date-picker form-control">
+                  </div>
+                  <p class="fw-400">ถึง</p>
+                  <div class="date-wrapper">
+                    <input type="text" class="date-picker form-control">
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <h6 class="color-02 fw-400">การเรียงลำดับ</h6>
+                    <fieldset>
+                      <div class="gallery-grids">
+                        <div class="grid sm-100">
+                          <div class="checkbox-set">
+                            <input type="radio" name="radio" id="radio_0" checked="">
+                            <label for="radio_0" class="p sm">
+                              <span>จากเก่าไปล่าสุด</span>
+                            </label>
+                          </div>
+                        </div>
                       <div class="grid sm-100">
                         <div class="checkbox-set">
-                          <input type="radio" name="radio" id="radio_0" checked="">
-                          <label for="radio_0" class="p sm">
-                            <span>จากเก่าไปล่าสุด</span>
+                          <input type="radio" name="radio" id="radio_1">
+                          <label for="radio_1" class="p sm">
+                            <span>จากล่าสุดไปเก่า</span>
                           </label>
                         </div>
                       </div>
-                    <div class="grid sm-100">
-                      <div class="checkbox-set">
-                        <input type="radio" name="radio" id="radio_1">
-                        <label for="radio_1" class="p sm">
-                          <span>จากล่าสุดไปเก่า</span>
-                        </label>
+                      <div class="grid sm-100">
+                        <div class="checkbox-set">
+                          <input type="radio" name="radio" id="radio_2">
+                          <label for="radio_2" class="p sm">
+                            <span>ยอดดูมากที่สุด</span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="grid sm-50">
+                        <div href="#" class="btn btn-action mw-auto btn-02">
+                          ค้นหาขั้นสูง
+                        </div>
+                      </div>
+                      <div class="grid sm-50">
+                        <div href="#" class="btn btn-action mw-auto btn-03">
+                          ล้างข้อมูลใหม่
+                        </div>
                       </div>
                     </div>
-                    <div class="grid sm-100">
-                      <div class="checkbox-set">
-                        <input type="radio" name="radio" id="radio_2">
-                        <label for="radio_2" class="p sm">
-                          <span>ยอดดูมากที่สุด</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="grid sm-50">
-                      <div href="#" class="btn btn-action mw-auto btn-02">
-                        ค้นหาขั้นสูง
-                      </div>
-                    </div>
-                    <div class="grid sm-50">
-                      <div href="#" class="btn btn-action mw-auto btn-03">
-                        ล้างข้อมูลใหม่
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-              </div>
+                  </fieldset>
+                </div>
             </form>
           </div>
 
           <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
-            <p class="h6 fw-600">คำค้นหายอดนิยม</p>
+            <p class="h6 fw-600 color-black-theme">คำค้นหายอดนิยม</p>
             <div class="mt-1">
               <div class="ss-tags">
                 <div class="tag">ข่าวประกาศ</div>
@@ -242,5 +250,16 @@
   
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    function myFunction() {
+      var checkBox = document.getElementById("c_0");
+      if(checkBox.checked == true){
+        console.log('ใช้งานได้ :)');
+      }else{
+        console.log('');
+      }
+    }
+  </script>
 </body>
 </html>

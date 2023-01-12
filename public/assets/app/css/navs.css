@@ -266,23 +266,9 @@ nav.sidenav .dropdown-toggle{
 nav.sidenav .dropdown-toggle > em{transition:transform .25s, color .25s;}
 nav.sidenav .dropdown-toggle.active > em{transform:rotate(90deg);}
 nav.sidenav .dropdown-toggle::after{display:none;}
-/* nav.sidenav ~ .sidenav-filter{
-  display:none; position:fixed; top:0; left:0; width:100%; height:100vh; z-index:97;
-  background:#000000; opacity:0; pointer-events:none; cursor:pointer; transition:opacity .5s;
-} */
 nav.sidenav ~ .sidenav-filter {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 97;
-  background: #000000;
-  opacity: 0;
-  pointer-events: none;
-  cursor: pointer;
-  transition: opacity .5s;
+  display:none; position:fixed; top:0; left:0; width:100%; height:100vh;
+  z-index:97; background:#000000; opacity:0; pointer-events:none; cursor:pointer; transition:opacity .5s;
 }
 
 nav.sidenav.minisite .options > .option{width:3.9375rem;}
@@ -492,6 +478,7 @@ nav.side-panel.active + .access-filter{opacity:1; pointer-events:auto;}
 
 /* Footer */
 nav.footer{position:relative; width:100%; padding:2.5rem 0; overflow:hidden;}
+nav.footer > .img-bg{position:absolute; top:0; left:0; bottom:0; right:0;}
 nav.footer > .container{position:relative;}
 nav.footer > .pattern{
   display:block; height:37rem; width:auto; position:absolute; bottom:-15.5rem; right:-9rem;

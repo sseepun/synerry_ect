@@ -15,7 +15,7 @@
           <div class="option cate">
             <span class="p sm fw-500 mr-2">ประเภท</span>
             <select class="ui dropdown">
-              <option value="">เลือกหมวดหมู่</option>
+              <option value="0">เลือกหมวดหมู่</option>
               <option value="1">ข่าวประชาสัมพันธ์ 1</option>
               <option value="2">ข่าวประชาสัมพันธ์ 2</option>
               <option value="3">ข่าวประชาสัมพันธ์ 3</option>

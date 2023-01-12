@@ -308,8 +308,8 @@
     </div>      
   </section>
 
-  <section class="section-01 section-padding" 
-    style="background-image:url('public/assets/app/images/bg/19.jpg'); overflow:hidden; min-height:600px;">
+  <section class="section-01 style-02 section-padding" >
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/19.jpg');"></div>
     <div class="hero" data-aos="fade-in" data-aos-delay="750">
       <img src="public/assets/app/images/hero/02-01.png" class="Hero Background" />
     </div>
@@ -460,25 +460,26 @@
     
   </section>
 
-  <section class="section-02 section-bg section-padding" style="background-image:url('public/assets/app/images/bg/21.jpg');">
+  <section class="section-02 section-padding">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/21.jpg');"></div>
     <div class="container">
-      <h3 class="fw-700 color-black-theme color-white-theme" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="fw-700 color-black-theme" data-aos="fade-up" data-aos-delay="0">
         องค์ความรู้การเลือกตั้ง
       </h3>
       <div class="grids">
         <div class="grid xl-50 lg-75 sm-100">
           <div class="grids">
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="150">
+              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="150">
                 <h5 class="title color-05 lh-sm fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
-                <p class="desc fw-400 mt-1">
+                <p class="desc fw-400 color-white-theme mt-1">
                   วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. 
                   เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
                 </p>
               </div>
             </div>
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="300">
+              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="300">
                 <h5 class="title color-05 lh-sm fw-500">การบริจาคภาษีแก่พรรคการเมือง</h5>
                 <p class="desc fw-400 mt-1">
                   ประชาชนผู้เสียภาษีที่เป็นบุคคลธรรมดาสามารถมีส่วนร่วมทางการเมืองได้ ด้วยผ่านการบริจาคภาษีเงิน
@@ -486,7 +487,7 @@
               </div>
             </div>
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="450">
+              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="450">
                 <h5 class="title color-05 fw-500">เลือกตั้ง อบต.</h5>
                 <p class="desc fw-400 mt-1">
                   วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. 
@@ -495,7 +496,7 @@
               </div>
             </div>
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03" data-aos="fade-up" data-aos-delay="600">
+              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="600">
                 <h5 class="title color-05 fw-500">การแจ้งเหตุไม่อาจไปใช้สิทธิเลือกตั้งทางสื่ออิเล็กทรอนิกส์</h5>
                 <p class="desc fw-400 mt-1">
                   เพื่อเป็นการเพิ่มช่องทางอำนวยความสะดวกแก่ประชาชนผู้มีสิทธิเลือกตั้งที่มีความจำเป็นไม่อาจไปใช้สิทธิเลือกตั้ง
@@ -508,7 +509,7 @@
     </div>
   </section>
 
-  <section class="section-padding section-11">
+  <section class="section-padding section-11 ovf-hidden">
     <div class="pattern">
       <div class="wrapper">
         <img src="public/assets/app/images/pattern/01.png" alt="Hero">
@@ -573,7 +574,8 @@
     </div>
   </section>
 
-  <section class="section-03 section-bg section-padding" style="background-image:url('public/assets/app/images/bg/20.jpg');">
+  <section class="section-03 section-padding">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/20.jpg');"></div>
     <div class="container">
       <div class="grids jc-center">
         <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">

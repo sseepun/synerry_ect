@@ -25,8 +25,7 @@
         ?>
       </div>
 
-      <div class="scroll-x-wrapper mt-3" data-simplebar>
-      <div class="faq-01 mt-3 pt-2 pb-1" style="min-width:800px;" data-aos="fade-up" data-aos-delay="300" >
+      <div class="faq-01 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300" >
         <?php for($i=0; $i<10; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">
             <div class="question box-shadow style-02">
@@ -34,7 +33,7 @@
               <h6 class="title p lg fw-400">
                 สำนักงานคณะกรรมการการเลือกตั้งตอบข้อสอบถามพรรคกล้าเกี่ยวกับ
                 การปฏิบัติของพรรคการเมืองในการให้ความช่วยเหลือประชาชนในสถานการณ์
-                การระบาดของเชื่อไวรัสโควิด-19 รายละเอียดตามเอกสารตอบข้อหารือ 
+                การระบาดของเชื่อไวรัสโควิด-19 รายละเอียดตามเอกสารตอบข้อหา
               </h6>
               <div class="date-view">
                 <div class="wrapper">
@@ -91,7 +90,7 @@
                               <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                             </div>
                           </td>
-                          <td style="min-width:450px;">
+                          <td class="title-container" style="min-width:450px;">
                             <a class="fw-600 h-color-t" href="#">
                               รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                             </a>
@@ -101,18 +100,18 @@
                                 <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                                 <div class="icon">
                                   <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                  <p class="sm color-black fw-400">แจ้งไฟล์เสีย</p>
+                                  <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
                                 </div>
                               </div>
                             </div>
                           </td>
-                          <td style="min-width:100px;">
+                          <td class="arrow-container" style="min-width:100px;">
                             <div class="d-flex ai-center jc-center fw-wrap">
                               <a class="btn btn-action-style-02 btn-02" href="#">
                                 <em class="fa-solid fa-arrow-down"></em>
                               </a>
                             </div>
-                            <p class="xs text-center color-02 fw-400 mt-1">ดาวน์โหลด</p>
+                            <p class="xs text-center color-02 color-black-theme fw-400 mt-1">ดาวน์โหลด</p>
                           </td>
                         </tr>
                       <?php }?>
@@ -124,7 +123,7 @@
           </div>
         <?php }?>
                         </div>
-      </div>
+    
       <div class="mt-6 pt-4">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];

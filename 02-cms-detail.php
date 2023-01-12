@@ -20,7 +20,7 @@
     <div class="container">
       <div class="grids">
         <!-- Left Content -->
-        <div class="grid xl-70 lg-60 md-60 sm-100">
+        <div class="grid xl-70 lg-60 md-2-3 sm-100">
           <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
             <h4 class="title lh-sm fw-500">
               กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานใน
@@ -30,7 +30,7 @@
               <div class="wrapper">
                 <div class="icon d-inline-block">
                   <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-2 fw-500">เรื่องเด่น กกต.</span>
+                  <span class="p sm ml-2 color-white-theme fw-500">เรื่องเด่น กกต.</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-calendar-days"></em>
@@ -189,7 +189,7 @@
                         <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                       </div>
                     </td>
-                    <td style="min-width:450px;">
+                    <td class="title-container" style="min-width:450px;">
                       <a class="fw-600 h-color-t" href="#">
                         รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                       </a>
@@ -199,25 +199,25 @@
                           <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                           <div class="icon">
                             <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="sm color-black fw-400">แจ้งไฟล์เสีย</p>
+                            <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
                           </div>
                         </div>
                       </div>
                     </td>
-                    <td style="min-width:100px;">
+                    <td class="arrow-container" style="min-width:100px;">
                       <div class="d-flex ai-center jc-center fw-wrap">
                         <a class="btn btn-action-style-02 btn-02" href="#">
                           <em class="fa-solid fa-arrow-down"></em>
                         </a>
                       </div>
-                      <p class="xs color-02 text-center fw-500 mt-1">ดาวน์โหลด</p>
+                      <p class="xs color-02 color-black-theme text-center fw-500 mt-1">ดาวน์โหลด</p>
                     </td>
                   </tr>
                 <?php }?>
               </tbody>
             </table>
           </div> 
-          <div class="buttons-group" data-aos="fade-up" data-aos-delay="0">
+          <div class="buttons-group mt-5" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="btns">
                 <div href="#" class="btn width-auto btn-action btn-09">
@@ -239,8 +239,8 @@
           </div>
         </div>
         <!-- Right Content -->
-        <div class="grid xl-30 lg-40 md-40 sm-100">
-          <div class="pl-5 pl-unset-xs">
+        <div class="grid xl-30 lg-40 md-1-3 sm-100">
+          <div class="pl-5 pl-unset-sm">
             <div class="category-container" data-aos="fade-up" data-aos-delay="0">
               <div class="cate-header">
                 <h5 class="fw-600">ประเภท</h5>
@@ -304,7 +304,7 @@
             <?php }?>
           </div>   
           <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
-            <p class="h5 fw-600">แท็กยอดนิยม</p>
+            <p class="h5 fw-600 color-black-theme">แท็กยอดนิยม</p>
             <div class="mt-1">
               <div class="ss-tags">
                 <div class="tag">ข่าวประกาศ</div>

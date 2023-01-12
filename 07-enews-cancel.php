@@ -16,7 +16,7 @@
     include('component/breadcrumb.php');
   ?>
 
-  <section class="section-padding section-08">
+  <section class="section-padding section-08 ovf-hidden">
     <div class="pattern">
       <div class="wrapper">
         <img src="public/assets/app/images/pattern/01.png" alt="Hero">

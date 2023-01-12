@@ -18,6 +18,7 @@ html, body, table.table{color:#000000;}
 .color-05, .h-color-05:hover{color:#303031!important;}
 .color-06, .h-color-06:hover{color:#1c4d38!important;}
 .color-07, .h-color-07:hover{color:#fff102!important;}
+.color-08, .h-color-08:hover{color:#69696a;}
 
 .bg-p{background:#0ab3de!important;}
 .bg-s{background:#194e84!important;}
@@ -34,6 +35,7 @@ html, body, table.table{color:#000000;}
 .bg-05{background:#303032!important;}
 .bg-06{background:#1c4d38!important;}
 .bg-07{background:#fff102!important;}
+.bg-08{background:#69696a!important;}
 
 .bcolor-p{border-color:#0ab3de!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -50,6 +52,7 @@ html, body, table.table{color:#000000;}
 .bcolor-05{border-color:#303032!important;}
 .bcolor-06{border-color:#1c4d38!important;}
 .bcolor-07{border-color:#fff102!important;}
+.bcolor-08{border-color:#69696a!important;}
 
 
 /* Buttons */
@@ -198,7 +201,13 @@ html, body, table.table{color:#000000;}
 .form-check-container  input:checked ~ .checkmark,
 .form-check-container-02  input:checked ~ .checkmark{background-color:#2e603c!important;}
 .form-check-container .checkmark:after,
-.form-check-container-02 .checkmark:after{border-color:white;}
+.form-check-container-02 .checkmark:after{border-color:#ffffff;}
+
+.form-check-container-03 .checkmark{background:#eeeeee;}
+.form-check-container  input:checked ~ .checkmark,
+.form-check-container-03  input:checked ~ .checkmark{background:#b2e0ce!important;}
+.form-check-container .checkmark:after,
+.form-check-container-03 .checkmark:after{border-color:#000000;}
 
 /* Faq 01 */
 .faq-01 .faq.active > .question{background:#3aa57b; border-color:#3aa57b;}
@@ -305,6 +314,7 @@ input[type=text].sgray, input[type=email].sgray, input[type=password].sgray, inp
 input[type=tel].sgray, input[type=number].sgray, input[type=phone].sgray, input[type=submit].sgray, 
 input[type=file].sgray, select.sgray, textarea.sgray,
 .form-group .upload-wrapper.sgray::before{background:#e1e1e1!important;}
+input[type="search"]::placeholder{color:#000000;}
 
 /* Input Style 02 */
 input.style-02[type=text]:focus, input.style-02[type=password]:focus,
@@ -561,7 +571,7 @@ nav.footer.style-06 .footer-socials > .social:hover{color:#fff102; background:#2
 /* Tags Container */
 .tags-container{border-color:#eeeeee;}
 .tags-container .social-list .icon > em{font-size:1.125rem;}
-.tags-container .social-list .icon{color:#2e603b; transition:background .5s;}
+.tags-container .social-list .icon{color:#2e603b;}
 .tags-container .social-list .icon.active{background:#2e603b; color:#ffffff;}
 .tags-container .social-list .icon:hover{background:#2e603b; color:#ffffff;}
 

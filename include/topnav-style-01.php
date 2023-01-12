@@ -71,7 +71,7 @@
   <div class="wrapper">
     <a class="logo" href="#">
       <div class="img-container">
-        <img src="public/assets/app/images/logo.png" alt="Website Logo" />
+        <img src="public/assets/app/images/logo-04.png" alt="Website Logo" />
       </div>
       <div class="text-wrapper">
         <p>สำนักงานคณะกรรมการการเลือกตั้ง</p>
