@@ -28,7 +28,7 @@
               <div class="img-bg" style="background-image:url('public/assets/app/images/content/90.jpg')"></div>
             </div>
           </div>
-          <div class="text-container">
+          <div class="text-container color-black-theme">
             <p class="fw-400">
               สำนักงานคณะกรรมการการเลือกตั้ง จัดทำศูนย์ร้องเรียนขึ้นเพื่อมีไว้สำหรับผู้ที่มีความเดือดร้อน 
               หรือผู้ที่ต้องการสอบถามปัญหาต่างๆ ของสำนักงานคณะกรรมการการเลือกตั้ง ได้เสนอเรื่องหรือข้อร้องเรียน 
@@ -46,11 +46,11 @@
         </div>
       </div>
       <!-- FORM -->
-      <div class="form-container-01 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
+      <div class="form-container-01 bg-white-theme-02 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
         <div class="grids">
           <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
-            <h4 class="fw-500">แบบฟอร์มรับเรื่อง</h4>
-            <p>กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย<span class="text-danger fw-400 ml-1">*</span></p>
+            <h4 class="color-black-theme fw-500">แบบฟอร์มรับเรื่อง</h4>
+            <p class="color-black-theme">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย<span class="text-danger fw-400 ml-1">*</span></p>
             <div class="img-container">
               <img src="public/assets/app/images/content/02.png" alt="Message">
             </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="grid sm-100 mt-4">
                   <div class="option cate">
-                    <select class="ui dropdown" required>
+                    <select class="ui dropdown bg-style-02" required>
                       <option value="">เลือกหัวข้อที่ต้องการแจ้ง*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -113,16 +113,16 @@
                           <div class="icon">
                             <em class="fa-solid fa-arrow-up-from-bracket"></em>
                           </div>
-                          <p class="fw-500 ml-2">ลากไฟล์และวางลงที่นี้</p>
+                          <p class="color-black-theme fw-500 ml-2">ลากไฟล์และวางลงที่นี้</p>
                         </div>
                         <div class="item">
                           <div class="ss-sep-01 style-02">
-                            <p class="fw-500">หรือ</p>
+                            <p class="color-black-theme fw-500">หรือ</p>
                           </div>
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn btn-action btn-02 pos-relative">
+                            <div class="btn btn-action btn-02 btn-white-theme pos-relative">
                               ค้นหาไฟล์
                               <input type="file" class="file-upload" />
                             </div>
@@ -131,7 +131,7 @@
                       </div>
                     </div>
                     <div class="footer mt-2">
-                      <p class="sm fw-400">ประเภทไฟล์ที่รองรับ PDF, JPG, JPEG, PNG, GIF ขนาดไม่เกิน 5 MB</p>
+                      <p class="sm color-black-theme fw-400">ประเภทไฟล์ที่รองรับ PDF, JPG, JPEG, PNG, GIF ขนาดไม่เกิน 5 MB</p>
                     </div>
                   </div>
                 </div>
@@ -178,13 +178,13 @@
                   <div class="grids no-gap">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
-                        <button type="submit" href="#" class="btn btn-action width-full mw-auto btn-03">
+                        <button type="submit" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-03">
                           ส่งข้อความ
                         </button>
                       </div>
                     </div>
                     <div class="grid sm-50 xs-50 mt-0">
-                      <button type="cancel" href="#" class="btn btn-action width-full mw-auto btn-05">
+                      <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-05">
                         ยกเลิก
                       </button>
                     </div>

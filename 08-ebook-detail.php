@@ -18,8 +18,8 @@
 
   <section class="section-padding section-07">
     <div class="container">
-      <div class="ss-card ss-card-10">
-        <h4 class="title lh-sm fw-500" data-aos="fade-up" data-aos-delay="0">
+      <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
+        <h4 class="title lh-sm fw-500">
           คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
         </h4>
         <div class="card-top mt-3">
@@ -43,7 +43,7 @@
           </div>
         </div>
       </div>
-      <div class="book-container mt-3">
+      <div class="book-container mt-3" data-aos="fade-up" data-aos-delay="150">
         <div class="wow-book" id="wow-book">
           <?php for($i=0; $i<6; $i++){?>
             <div><img class="img" src="public/assets/app/images/content/6<?= ($i%2+4) ?>.jpg" alt="Page <?= $i ?>" /></div>
@@ -52,20 +52,14 @@
       </div>
       <div class="grids">
         <!-- Left Content -->
-        <div class="grid xl-70 lg-60 md-2-3 sm-100">
-          <p class="color-gray fw-400 mt-3">
-            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-            กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-            ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+        <div class="grid xl-70 lg-2-3 md-2-3 sm-100">
+          <p class="color-gray fw-400 mt-2" data-aos="fade-up" data-aos-delay="300">
+            วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง พร้อมด้วย พล.ต.ต.ชัชชรินร์ สว่างวงศ์ 
+            ผู้เชี่ยวชาญด้านรัฐประศาสนศาสตร์ นางสาวโชติกา แก้วผล ผู้อำนวยการฝ่ายกิจการกรรมการการเลือกตั้ง 4 ได้มอบนโยบายในการปฏิบัติงาน 
+            แนวทางการแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ ระหว่างวันที่ 6-20 มิถุนายน 2565 
+            ณ ห้องประชุมคอนเวนชั่น โรงแรมรามาการ์เด้นส์ กรุงเทพมหานคร
           </p>
-          <div class="tags-container mt-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="tags-container mt-3" data-aos="fade-up" data-aos-delay="450">
             <div>
               <span class="fw-500">แท็ก:</span>
               <div class="ss-tags d-inline-block">
@@ -115,8 +109,8 @@
               ['image' => 'public/assets/app/images/content/12.jpg'],
             ]
           ?>
-          <div class="file-header-container mt-5">
-            <h4 class="title fw-600" data-aos="fade-up" data-aos-delay="300">
+          <div class="file-header-container mt-5" data-aos="fade-up" data-aos-delay="600">
+            <h4 class="title fw-600">
               ไฟล์ที่เกี่ยวข้อง
             </h4>     
             <div class="btns">
@@ -130,7 +124,7 @@
             </div>
           </div> 
           <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
               <tbody>
                 <?php
                   foreach([
@@ -143,7 +137,7 @@
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                       </div>
                     </td>
-                    <td style="min-width:450px;">
+                    <td class="title-container" style="min-width:450px;">
                       <a class="fw-600 h-color-t" href="#">
                         รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                       </a>
@@ -153,25 +147,25 @@
                           <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                           <div class="icon">
                             <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="sm color-black fw-400">แจ้งไฟล์เสีย</p>
+                            <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
                           </div>
                         </div>
                       </div>
                     </td>
-                    <td style="min-width:100px;">
+                    <td class="arrow-container" style="min-width:100px;">
                       <div class="d-flex ai-center jc-center fw-wrap">
                         <a class="btn btn-action-style-02 btn-02" href="#">
                           <em class="fa-solid fa-arrow-down"></em>
                         </a>
                       </div>
-                      <p class="xs color-02 fw-500 text-center mt-1">ดาวน์โหลด</p>
+                      <p class="xs color-02 color-black-theme fw-500 text-center mt-1">ดาวน์โหลด</p>
                     </td>
                   </tr>
                 <?php }?>
               </tbody>
             </table>
           </div> 
-          <div class="buttons-group" data-aos="fade-up" data-aos-delay="0">
+          <div class="buttons-group mt-5" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="btns">
                 <div href="#" class="btn width-auto btn-action btn-09">
@@ -180,8 +174,10 @@
                 </div>
               </div> 
               <div class="icon-container">
-                <div class="icon"><em class="fa-solid fa-list"></em></div>
-                <p class="text fw-500">หน้ารวมสื่อประชาสัมพันธ์</p>
+                <div class="icon-wrapper">
+                  <div class="icon"><em class="fa-solid fa-list"></em></div>
+                  <p class="text fw-500">หน้ารวมสื่อประชาสัมพันธ์</p>  
+                </div>   
               </div>
               <div class="btns jc-end">
                 <div href="#" class="btn width-auto btn-action btn-02">
@@ -193,7 +189,7 @@
           </div>
         </div>
         <!-- Right Content -->
-        <div class="grid xl-30 lg-40 md-1-3 sm-100">
+        <div class="grid xl-30 lg-1-3 md-1-3 sm-100">
           <div class="pl-5 pl-unset-sm">
             <div class="category-container" data-aos="fade-up" data-aos-delay="0">
               <div class="cate-header">
@@ -252,7 +248,7 @@
               </a>
             <?php }?>
             <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
-              <p class="h5 fw-600">แท็กยอดนิยม</p>
+              <p class="h5 color-black-theme fw-600">แท็กยอดนิยม</p>
               <div class="mt-1">
                 <div class="ss-tags">
                   <div class="tag">ข่าวประกาศ</div>

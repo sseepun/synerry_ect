@@ -147,6 +147,7 @@ html, body, table.table{color:#000000;}
 }
 .calendar-week .custom-date{color:#000000;} 
 .calendar-week .custom-date.active{background:#063112; color:#ffffff;} 
+.calendar-week .fc-day-grid .fc-day.fc-widget-content{border-color:#bfe7d7!important;}
 
 /* Calendar - Month */
 .calendar-month{border-color:#232323;}
@@ -184,6 +185,11 @@ html, body, table.table{color:#000000;}
   background:#2e603c; color:#ffffff;
 }
 
+/* Special List */
+.list-style-01 li:before{background:#2e603c;}
+.list-style-02 li:before{background:#2e603c;}
+.list-style-02.line-black li:before{background:#000000;}
+
 /* Special Separation 01 */
 .ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#e1e1e1;}
 .ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#2e603c;}
@@ -204,9 +210,7 @@ html, body, table.table{color:#000000;}
 .form-check-container-02 .checkmark:after{border-color:#ffffff;}
 
 .form-check-container-03 .checkmark{background:#eeeeee;}
-.form-check-container  input:checked ~ .checkmark,
 .form-check-container-03  input:checked ~ .checkmark{background:#b2e0ce!important;}
-.form-check-container .checkmark:after,
 .form-check-container-03 .checkmark:after{border-color:#000000;}
 
 /* Faq 01 */

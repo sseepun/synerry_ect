@@ -33,7 +33,7 @@
       </h3>
       <div class="swiper-background bg-03 mt-5" data-aos="fade-up" data-aos-delay="150">
         <div class="text-wrapper text-center">
-          <p class="h6 fw-500">
+          <p class="h6 color-black-theme fw-500">
             คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง<br/>
             ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ
             <br/>การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น

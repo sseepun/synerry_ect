@@ -667,10 +667,10 @@
   max-width:27rem; background:#ffffff; margin:0 auto; padding:.5rem; border-radius:.5rem;
 }
 .section-09 .swiper-background::before{
-  content:""; position: absolute; top:0; left:-10rem; width:50vw; height:100%; z-index:-1;
+  content:""; position: absolute; top:0; left:-10rem; width:100vw; height:100%; z-index:-1;
 }
 .section-09 .swiper-background::after{
-  content:""; position: absolute; top:0; right:-10rem; width:50vw; height:100%; z-index:-1;
+  content:""; position: absolute; top:0; right:-10rem; width:100vw; height:100%; z-index:-1;
 }
 .section-09 .swiper-background::before,
 .section-09 .swiper-background::after{background:#c6dccc;}

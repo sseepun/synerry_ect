@@ -18,10 +18,10 @@
 
   <section class="section-padding section-13" style="background-image:url('public/assets/app/images/bg/25.jpg')">
     <div class="container">
-      <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="color-black-theme fw-500" data-aos="fade-up" data-aos-delay="0">
         ระบบแจ้งเบาะแสทุจริตการเลือกตั้ง
       </h3>
-      <p class="fw-400" data-aos="fade-up" data-aos-delay="150">
+      <p class="color-black-theme fw-400" data-aos="fade-up" data-aos-delay="150">
         หากท่านพบปัญหาหรือพบเบาะแสทุจริตในการเลือกตั้ง ท่านสามารถแจ้งเราได้ผ่านทางแบบฟอร์มบนเว็บไซต์ในหน้านี้ 
         โดยข้อมูลต่างๆ ของท่านจะถูกเก็บเป็นความลับท่านสามารถแจ้งได้ที่
       </p>
@@ -34,19 +34,19 @@
         <div class="grid lg-25">
           <div class="ss-card ss-card-33">
             <p class="fw-600">ฝ่ายปฏิบัติการข่าว</p>
-            <p class="sm color-02 fw-400">โทร. 02-141-8050 หรือ</p>
-            <p class="sm color-02 fw-400">02-141-8201 หรือ 02-141-2611</p>
+            <p class="sm color-black-theme color-02 fw-400">โทร. 02-141-8050 หรือ</p>
+            <p class="sm color-black-theme color-02 fw-400">02-141-8201 หรือ 02-141-2611</p>
           </div>
         </div>
         <div class="grid lg-25">
           <div class="ss-card ss-card-33">
             <p class="fw-600">สายด่วน กกต.</p>
-            <p class="sm color-02 fw-400">โทร. 1444 กด 2</p>
+            <p class="sm color-black-theme color-02 fw-400">โทร. 1444 กด 2</p>
           </div>
         </div>
         <div class="grid lg-25">
           <div class="ss-card ss-card-33">
-            <p class="fw-400">
+            <p class="color-black-theme fw-400">
               แจ้งทางเว็บไซต์โดยกรอกข้อมูลลง<br>
               ในแบบฟอร์ม
             </p>
@@ -54,17 +54,17 @@
         </div>
       </div>
       <!-- FORM -->
-      <div class="form-container-02 box-shadow style-02" data-aos="fade-up" data-aos-delay="350">
+      <div class="form-container-02 bg-white-theme-02 box-shadow style-02" data-aos="fade-up" data-aos-delay="350">
         <div class="grids">
           <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
             <div class="header">
               <div class="img-container">
                 <img src="public/assets/app/images/icon/38.png" alt="Message">
               </div>
-              <div class="text-container">
-                <h4 class="fw-500 lh-2xs color-02">ข้อตกลง</h4>
+              <div class="text-container color-black-theme">
+                <h4 class="fw-500 lh-2xs color-black-theme color-02">ข้อตกลง</h4>
                 <p class="fw-400">การแจ้งเหตุหรือเบาะแสผ่านเว็บไซต์</p>
-                <ul class="list-style-02">
+                <ul class="list-style-02 mt-3">
                   <li class="fw-500">
                     ไม่ถือว่าเป็นการยื่นคำร้องคัดค้านการเลือกตั้งตามระเบียบคณะกรรมการการเลือกตั้งว่าด้วยการสืบสวนสอบสวนและการวินิจฉัยชี้ขาด
                   </li>
@@ -91,8 +91,8 @@
             </div>
           </div>
           <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
-            <h5 class="color-02 fw-500">แบบฟอร์มแจ้งเบาะแสทุจริตการเลือกตั้ง</h5>
-            <p class="color-gray fw-300">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย <span class="text-danger fw-600">*</span></p>
+            <h5 class="color-02 color-black-theme fw-500">แบบฟอร์มแจ้งเบาะแสทุจริตการเลือกตั้ง</h5>
+            <p class="color-gray color-black-theme fw-300">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย <span class="text-danger fw-600">*</span></p>
             <form action="action.php" method="post">
               <div class="grids mt-2">
                 <div class="grid sm-50 mt-0">
@@ -125,7 +125,7 @@
                 </div>
                 <div class="grid sm-100 mt-4">
                   <div class="option cate">
-                    <select class="ui dropdown" required>
+                    <select class="ui dropdown bg-style-02" required>
                       <option value="">เลือกหัวข้อที่ต้องการแจ้ง*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -143,7 +143,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-31">
+                  <div class="ss-card ss-card-31 color-black-theme">
                     <div class="top">
                       <div class="wrapper">
                         <div class="item">
@@ -159,7 +159,7 @@
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn btn-action btn-02 pos-relative">
+                            <div class="btn btn-action btn-02 btn-white-theme pos-relative">
                               ค้นหาไฟล์
                               <input type="file" class="file-upload" />
                             </div>

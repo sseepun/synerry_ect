@@ -57,13 +57,13 @@
                             'pdf', 'doc', 'pdf'
                           ] as $k){
                         ?>
-                          <tr class="box-shadow style-02 mb-2">
+                          <tr class="box-shadow style-02 mb-2 mt-4">
                             <td>
                               <div class="download-card">
                                 <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                               </div>
                             </td>
-                            <td style="min-width:450px;">
+                            <td class="title-container pl-3" style="min-width:450px;">
                               <a class="fw-600 h-color-t" href="#">
                                 รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                               </a>
@@ -73,18 +73,18 @@
                                   <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                                   <div class="icon">
                                     <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                    <p class="sm color-black fw-400">แจ้งไฟล์เสีย</p>
+                                    <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
                                   </div>
                                 </div>
                               </div>
                             </td>
-                            <td style="min-width:100px;">
+                            <td class="arrow-container" style="min-width:100px;">
                               <div class="d-flex ai-center jc-center fw-wrap">
                                 <a class="btn btn-action-style-02 btn-02" href="#">
                                   <em class="fa-solid fa-arrow-down"></em>
                                 </a>
                               </div>
-                              <p class="xs color-02 text-center fw-400 mt-1">ดาวน์โหลด</p>
+                              <p class="xs color-02 color-black-theme text-center fw-400 mt-1">ดาวน์โหลด</p>
                             </td>
                           </tr>
                         <?php }?>

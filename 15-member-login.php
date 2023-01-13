@@ -16,7 +16,7 @@
     include('component/breadcrumb.php');
   ?>
 
-  <section class="section-padding section-08">
+  <section class="section-padding section-08 ovf-hidden">
     <div class="pattern">
       <div class="wrapper">
         <img src="public/assets/app/images/pattern/01.png" alt="Hero">
@@ -139,8 +139,8 @@
               </div>
               <div class="text-container">
                 <div class="text">
-                  <p class="color-white fw-500">ยังไม่เป็นสมาชิก ?</p>
-                  <p class="sm color-white">สามารถลงทะเบียนได้ที่นี้</p>
+                  <p class="color-white color-black-theme fw-500">ยังไม่เป็นสมาชิก ?</p>
+                  <p class="sm color-white color-black-theme">สามารถลงทะเบียนได้ที่นี้</p>
                 </div>
                 <div class="arrow">
                   <div class="arrow arrow-next">

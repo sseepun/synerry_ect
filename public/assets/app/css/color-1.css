@@ -1,7 +1,8 @@
 
 /* Reset */
 html, body, table.table{background:#000000; color:#ffffff;}
-img, .img-bg, .hero, .section-bg, .img-fill, .footer-top, .pattern, .mobile-screen, .section-03 .section-card::before{filter:grayscale(1)!important;}
+img, .img-bg, .hero, .section-bg, .img-fill, .footer-top, .pattern, .mobile-screen, .swiper-background::before, 
+.swiper-background::after, .section-03 .section-card::before, .icon-view.disable, .post-video{filter:grayscale(1)!important;}
 
 /* Colors */
 .color-p, 
@@ -20,6 +21,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .footer-top, .pattern, .mobile-scre
 .color-06, 
 .color-07,
 .color-08{color:#ffffff!important;}
+.color-white-theme{color:#ffffff!important;}
 .color-black-theme{color:#000000!important;}
 
 .bg-p, 
@@ -38,7 +40,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .footer-top, .pattern, .mobile-scre
 .bg-06, 
 .bg-07,
 .bg-08{background:#000000!important;}
-.bg-white-theme{background:#ffffff!important;}
+.bg-white-theme-02{background:#ffffff!important;}
 
 .bcolor-p, 
 .bcolor-s, 
@@ -71,12 +73,56 @@ img, .img-bg, .hero, .section-bg, .img-fill, .footer-top, .pattern, .mobile-scre
 .btn.btn-inactive:active{color:#ffffff; background:#e1e1e1; border-color:#e1e1e1;}
 
 .btn.btn-02, .btn.btn-02:focus,
-.btn.btn-03, .btn.btn-03:focus
+.btn.btn-03, .btn.btn-03:focus,
+.btn.btn-05, .btn.btn-05:focus,
 .btn.btn-09, .btn.btn-09:focus,
 .btn.btn-10, .btn.btn-10:focus{background:#ffffff; color:#000000;}
+.btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
+
+.btn-white-theme{background:#000000!important; color:#ffffff!important;}
+
+.btn.btn-02:hover{background:#ffffff!important; color:#000000!important;}
 
 .btn.btn-03.btn-black-theme, .btn.btn-03.btn-black-theme:focus,
-.btn.btn-04, .btn.btn-04:focus{background:#000000; color:#ffffff;}
+.btn.btn-04, .btn.btn-04:focus{background:#000000; color:#ffffff; border-color:#000000;}
+
+.btn.btn-action-style-02:hover{border-color:#000000;}
+.btn.btn-action-style-04 .wrapper > .icon{background:#000000; color:#ffffff!important;}
+
+.btn.btn-fb, .btn.btn-fb:focus, .btn.btn-fb:hover,
+.btn.btn-gg, .btn.btn-gg:focus, .btn.btn-gg:hover,
+.btn.btn-tw, .btn.btn-tw:focus, .btn.btn-tw:hover,
+.btn.btn-line, .btn.btn-line:focus, .btn.btn-line:hover{background:#ffffff; color:#000000; border-color:#ffffff;}
+
+/* Calendar */
+.calendar-style-02 .calendar-header table th.prev, 
+.calendar-style-02 .calendar-header table th.next{border-color:#ffffff;}
+.calendar-style-02 .months-container .month-container .month-title{background:#ffffff; color:#000000;}
+.calendar-style-02 .months-container table.month .day-header{border-color:#ffffff;}
+.calendar-style-02 .calendar-footer > .wrapper-container p::after,
+.calendar-style-02 .calendar-footer > .wrapper-container p::before{color:#ffffff!important;}
+
+/* Calendar Header */
+.calendar-header .wrapper > .text{background:#ffffff; color:#000000;}
+.calendar-header .wrapper > .btn-calendar{border-color:#ffffff!important;}
+
+/* Calendar - Day */
+.calendar-wrapper .calendar-header-title > .wrapper .time{border-color:#ffffff!important;}
+.calendar-day td.fc-axis.fc-widget-content:first-child{background:#ffffff; color:#000000;}
+.calendar-day .fc-unthemed td{border-color:#ffffff;}
+
+/* Calendar - Month */
+.calendar-month .fc-day-header{background:#ffffff; color:#000000;}
+.calendar-month .fc-day-number{background:#ffffff; color:#000000;}
+.calendar-month .fc-unthemed td.fc-today{background:#dddddd;}
+.calendar-month .fc-unthemed td{border-color:#ffffff;}
+.calendar-month .fc-day.fc-other-month{background:#fbf2f2!important;}
+
+/* Calendar - Week */
+.calendar-week .fc-time-grid td.fc-axis.fc-widget-content:first-child{background:#ffffff; color:#000000;}
+.calendar-week .fc-day-grid .fc-bg td:first-child{background:#ffffff; color:#000000;}
+.calendar-week .custom-date.active{background:#ffffff; color:#000000;}
+.calendar-week .fc-day-grid .fc-day.fc-widget-content{border-color:#ffffff!important;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -123,18 +169,61 @@ nav.topnav .hamburger > *{background:#ffffff;}
 nav.sidenav{background:#ffffff;}
 
 /* Footer */
+nav.footer{border-color:#ffffff;}
 nav.footer.style-02 .footer-socials > .social{border-color:#ffffff;}
 nav.footer.style-02 .footer-socials > .social:hover{background:#ffffff; color:#000000;}
 nav.footer.style-03 .footer-container{background:#000000}
 nav.footer.style-03 .footer-socials > .social{background:#ffffff; color:#000000;}
 
+/* Sidebar (Member page) */
+.sidebar{border-color:#ffffff;}
+.sidebar .wrapper > .arrow-container .arrow{background:#ffffff; color:#000000;}
+.sidebar .logo-container{border-color:#ffffff;}
+.sidebar .menu-container > .menu-item:not(.menu-item:last-child){border-color:#ffffff;}
+.sidebar .menu-item:hover .tooltip, .sidebar .profile-container:hover .tootltip{background:#ffffff; color:#000000;}
+
+/* Password Level */
+.password-level > .levels > *{border-color:#ffffff;}
+.password-level.level-1 > .levels > *:nth-child(1),
+.password-level.level-2 > .levels > *:nth-child(1), 
+.password-level.level-2 > .levels > *:nth-child(2){background:#ffffff;}
+
 /* Breadcrumb-01 */
 .breadcrumb-01 .wrapper a:last-child::before{background:#ffffff;}
+
+/* Form check container */
+.form-check-container{border-color:#ffffff;}
+.form-check-container.active{background:#000000;}
+.form-check-container .checkmark,
+.form-check-container-02 .checkmark{background:#ffffff; border-color:#ffffff;}
+.form-check-container  input:checked ~ .checkmark,
+.form-check-container-02  input:checked ~ .checkmark{background:#000000!important;}
+.form-check-container .checkmark:after,
+.form-check-container-02 .checkmark:after{border-color:#ffffff;}
 
 /* Faq 01 */
 .faq-01 .faq > .question{border-color:#ffffff;}
 .faq-01 .faq .arrow{border-color:#ffffff!important;}
 .faq-01 .faq .answer-wrapper{border-color:#ffffff;}
+
+/* Faq 02 */
+.faq-02 .faq > .question{border-color:#ffffff;}
+.faq-02 .faq > .question .ftag{border-color:#ffffff;}
+.faq-02 .faq > .answer{border-color:#ffffff;}
+
+/* Faq 03 */
+.faq-03 .faq > .question{border-color:#ffffff;}
+.faq-03 .faq > .question .ftag{border-color:#ffffff;}
+
+/* Faq 04 */
+.faq-04 .faq > .question{border-color:#ffffff;}
+.faq-04 .faq > .question .ftag{border-color:#ffffff;}
+
+/* Faq 05 */
+.faq-05 .faq > .question{border-color:#ffffff;}
+.faq-05 .faq > .question .ftag{border-color:#ffffff;}
+.faq-05 .faq > .question .button-download > .btn{background:#ffffff; color:#000000;}
+.faq-05 .faq:hover > .question .button-download > .btn{background:#000000; color:#ffffff; border-color:#ffffff;}
 
 /* rc-container */
 .rc-container.style-02 > label::before{border-color:#ffffff;}
@@ -158,6 +247,9 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 
 /* Category Container */
 .category-container .cate-list{border-color:#ffffff;}
+
+/* Dropdown */
+.dropdown-icon{background:#000000; color:#ffffff;}
 
 /* List Header 02 */
 .list-header.style-02 .option > select{background:#ffffff!important;}
@@ -198,12 +290,31 @@ table.table.table-download .btn.btn-02, .btn.btn-02:focus{background:#000000; co
 .paginate.style-03 .page:hover, .paginate.style-03 .page.active{background:#000000; color:#ffffff;}
 
 /* Select */
+select.bg-style-02{background:#dddddd!important;}
 select.style-02{background:#ffffff!important; color:#000000!important; border-color:#ffffff!important;}
+
+/* sep 01 */
+.ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#ffffff;}
+.ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#000000;}
+
+/* Special List */
+.list-style-01 li:before{background:#000000;}
+.list-style-02 li:before{background:#000000;}
 
 /* Search Container */
 .search-container{border-color:#ffffff;}
 .search-container .ui.icon.input input{background:#ffffff!important;}
 .search-container .ui.icon.input > em.icon{background:#ffffff; color:#000000; border-color:#000000;}
+
+/* Special Box Header */
+.ss-box-header{border-color:#ffffff;}
+.ss-box-header .ellipsis{background:#ffffff; color:#000000;}
+
+/* Main Container */
+.main-container .main-content > .wrapper .ss-box.style-02{border-color:#ffffff;}
+
+/* Banner 02 */
+.banner-02 .arrow{border-color:#000000; color:#000000;}
 
 /* Section 05 */
 .section-05 .swiper-pagination-bullets{background:#ffffff;}
@@ -217,15 +328,36 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 .section-07 .swiper-container > .btns-swiper .wrapper > .btn .arrow{background:#000000; color:#ffffff;}
 .section-07 .swiper-container > .btns-swiper .wrapper > .dots{background:#000000; color:#ffffff;}
 
+/* Section 09 */
+.section-09 .swiper-background > .text-wrapper{background:#ffffff;}
+.section-09 .swiper-arrows-container > .arrows-container .arrow{border-color:#ffffff; color:#ffffff;}
+
 /* Special Tag */
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}
 
 /* Special List */
 .ss-list.style-02 > li::before{background:#ffffff;}
 .ss-list.style-03 > li::before{background:#ffffff;}
+.ss-list.style-04 > li::before{background:#000000;}
+.ss-list.style-04 .line{background:#000000;}
 
 /* Special Card 03 */
 .ss-card-03{background:#000000;}
+
+/* Special Card 12 */
+.ss-card-12 .text-container{border-color:#ffffff;}
+
+/* Special Card 18 */
+.ss-card-18 .wrapper > .img-container .ebook-container::after{background:#ffffff;}
+
+/* Special Card 20 */
+.ss-card-20 .wrapper > .date .wrapper{border-color:#ffffff;}
+.ss-card-20 .wrapper > .date .wrapper > .day{background:#ffffff; color:#000000;}
+
+/* Special Card 21 */
+.ss-card-21 .wrapper > .date .wrapper{border-color:#ffffff;}
+.ss-card-21 .wrapper > .date .wrapper > .day{background:#ffffff; color:#000000;}
+.ss-card-21 .wrapper > .date .wrapper > .month{color:#ffffff;}
 
 /* Special Card 23 */
 .ss-card-23 .text-container{background:#000000;}
@@ -248,3 +380,26 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 
 /* Special Card 28 */
 .ss-card-28 .text-container{background:#000000; color:#ffffff;}
+
+/* Special Card 29 */
+.ss-card-29{background:#ffffff; color:#000000!important;}
+
+/* Special Card 31 */
+.ss-card-31{border-color:#dddddd;}
+.ss-card-31 .top > .wrapper .item:nth-child(1) > .icon{background:#000000; color:#ffffff;}
+
+/* Special Card 32 */
+.ss-card-32 .wrapper > .icon{background:#000000;}
+.ss-card-32 .wrapper > .text-container .title{color:#000000;}
+.ss-card-32 .wrapper > .text-container .x-mark{background:#000000; color:#ffffff;}
+
+/* Special Card 33 */
+.ss-card-33{border-color:#000000; color:#000000;}
+
+/* Special Card 34 */
+.ss-card-34{border-color:#ffffff;}
+.ss-card-34 .wrapper > .icon{border-color:#ffffff;}
+
+/* Special Card 35 */
+.ss-card-35 .wrapper > .date .wrapper > .day{background:#ffffff; color:#000000;}
+.ss-card-35 .wrapper > .date{border-color:#ffffff;}

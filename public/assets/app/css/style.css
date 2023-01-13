@@ -126,7 +126,7 @@ p.xs, .p.xs, li.xs, label.xs{font-size:.8125rem;}
 
 .btn.btn-action-style-02{
   width:1.5rem; height:1.5rem; display:flex; justify-content:center; align-items:center;
-  border-radius:50%; font-size:.375rem; transition:background .25s, color .25s;
+  border-radius:50%; font-size:.375rem; transition:background .25s, color .25s; border:1px solid transparent;
  }
  .btn.btn-action-style-03{
   width:2.5rem; height:2.5rem; display:flex; flex-direction:column; justify-content:center; align-items:center;
@@ -753,9 +753,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .list-style-02.size-02 li:before{top:.6875rem; width:.5625rem; height:.125rem;}
 
-.list-style-01 li:before{background:#2e603c;}
-.list-style-02 li:before{background:#2e603c;}
-.list-style-02.line-black li:before{background:#000000;}
+
 
 /* Semantic UI */
 .ui.input, .ui.form{position:relative; width:100%;}
@@ -1133,6 +1131,7 @@ fieldset{padding:0; margin:0; border:0;}
 
 /* Special Box Header */
 .ss-box-header{border-bottom:1px solid transparent; padding:1rem 1rem;}
+.ss-box-header.style-02{border:1px solid transparent;}
 .ss-box-header .ellipsis{
   font-size:2rem; width:auto; height:1rem; display:flex; align-items:center;
   padding:.5625rem .5rem; border-radius:3rem; cursor:pointer;
@@ -1993,7 +1992,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-20 .wrapper{display:flex; flex-wrap:wrap;}
 .ss-card-20 .wrapper > .date .wrapper{
   width:3rem; text-align:center; border-radius:.4375rem; overflow:hidden; margin-right:.375rem;
-  margin-top:4px;
+  margin-top:4px; border:1px solid transparent;
 }
 .ss-card-20 .wrapper > .date .wrapper > .day, .ss-card-20 .wrapper > .date .wrapper > .month{width:100%;}
 .ss-card-20 .wrapper > .date .wrapper > .day, .ss-card-20 .wrapper > .date .wrapper > .month{padding:.125rem 0;}
@@ -2026,6 +2025,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-21 > .wrapper{display:flex;}
 .ss-card-21 .wrapper > .date .wrapper{
   width:3.5rem; text-align:center; border-radius:.4375rem; overflow:hidden; margin-right:.875rem;  
+  border:1px solid transparent;
 }
 .ss-card-21 .wrapper > .date .wrapper > .day, .ss-card-21 .wrapper > .date .wrapper > .month{width:100%;}
 .ss-card-21 .wrapper > .date .wrapper > .day{padding:.125rem 0;}
@@ -2227,10 +2227,11 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 
 /* Special Card 34 */
+.ss-card-34{border:1px solid transparent; border-radius:.5rem 0 0 .5rem;}
 .ss-card-34 .wrapper{display:flex; height:5.5rem;}
 .ss-card-34 .wrapper > .icon{
   width:4rem; height:100%; display:flex; justify-content:center; align-items:center;
-  border-radius:.5rem 0 0 .5rem; font-size:1.1875rem;
+  border-radius:.5rem 0 0 .5rem; font-size:1.1875rem; border-right:1px solid transparent;
 } 
 .ss-card-34 .wrapper > .text-container{
   width:calc(100% - 4rem); height:100%; display:flex; align-items:center; 
@@ -2253,6 +2254,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 35 */
 .ss-card-35 > .wrapper{display:flex; align-items:center; cursor:pointer;}
+.ss-card-35 .wrapper > .date{border:1px solid transparent; border-radius:.4375rem;}
 .ss-card-35 .wrapper > .date .wrapper{
   width:3.5rem; text-align:center; border-radius:.4375rem; overflow:hidden;
 }

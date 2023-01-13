@@ -118,10 +118,10 @@
                   <div class="container">
                     <div class="text-wrapper">
                       <div>
-                        <h4 class="fw-500">
-                          จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก<span class="h2 fw-600 color-04">ประชาธิปไตย</span>
+                        <h4 class="color-black-theme fw-500">
+                          จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก<span class="color-black-theme h2 fw-600 color-04">ประชาธิปไตย</span>
                         </h4>
-                        <h2 class="fw-700">
+                        <h2 class="color-black-theme fw-700">
                           โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
                         </h2>
                       </div>
@@ -149,7 +149,7 @@
       </div>
       <div class="wrapper">
         <div class="ss-box m-unset xxl" data-aos="fade-in" data-aos-delay="150">
-          <div class="ss-box-header">
+          <div class="ss-box-header style-02">
             <h5 class="color-black color-02 fw-500">เปลี่ยนรหัสผ่าน</h5>  
           </div> 
           <div class="ss-box lg" style="padding:1.5rem 1rem;">
@@ -207,6 +207,7 @@
     </div>
   </div>
 
+  <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <script>

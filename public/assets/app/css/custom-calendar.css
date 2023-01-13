@@ -34,6 +34,7 @@
 .calendar-day .fc-slats{
     border-top:2px solid transparent; border-bottom:4px solid transparent;
 }
+.calendar-wrapper .calendar-header-title > .wrapper .time{border:1px solid transparent;}
 .calendar-day .fc-head, .calendar-day .fc-row.fc-week.fc-widget-content{display:none;}
 .calendar-day .fc-day-grid td.fc-widget-content{border:0; border-bottom:3px solid transparent;}
 .calendar-day .fc-body > tr > td.fc-widget-content{border-top:0; border-left:0; border-right:0;}
@@ -193,6 +194,7 @@
     position:relative; border:0; vertical-align:middle;
     font-size:1.375rem; font-weight:200; padding:0 0;
 }
+.calendar-week .fc-day-grid .fc-day.fc-widget-content{border:1px solid transparent;}
 .calendar-week .fc-day-grid .fc-bg td:first-child{
     width:4rem!important; font-size:0; text-align:center; border-radius:.3125rem 0 0 0;
 }

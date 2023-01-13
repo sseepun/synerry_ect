@@ -20,7 +20,7 @@
     <div class="container">
       <div class="grids">
         <!-- Left Content -->
-        <div class="grid xl-70 lg-60 md-60 sm-100">
+        <div class="grid xl-70 lg-60 md-2-3 sm-100">
           <div class="ss-card ss-card-21" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="date">
@@ -146,7 +146,10 @@
                 </div>
               </div> 
               <div class="icon-container">
-                <div class="icon"><em class="fa-solid fa-list"></em></div>
+                <div class="icon-wrapper">
+                  <div class="icon"><em class="fa-solid fa-list"></em></div>
+                  <p class="text fw-500">หน้ารวมข่าว</p>  
+                </div>
               </div>
               <div class="btns jc-end">
                 <div href="#" class="btn width-auto btn-action btn-02">
@@ -158,7 +161,7 @@
           </div>
         </div>
         <!-- Right Content -->
-        <div class="grid xl-30 lg-40 md-40 sm-100">
+        <div class="grid xl-30 lg-40 md-1-3 sm-100">
           <div class="pl-5 pl-unset-sm">
             <div class="category-container" data-aos="fade-up" data-aos-delay="0">
               <div class="cate-header">
@@ -224,7 +227,7 @@
               </a>
             <?php }?>
             <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
-              <p class="h5 fw-600">แท็กยอดนิยม</p>
+              <p class="h5 color-black-theme fw-600">แท็กยอดนิยม</p>
               <div class="mt-1">
                 <div class="ss-tags">
                   <div class="tag">ข่าวประกาศ</div>

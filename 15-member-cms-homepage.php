@@ -97,7 +97,7 @@
     </div>
   </div>
  
-  <div id="main" class="main-container">
+  <div id="main" class="main-container" data-aos="fade-in" data-aos-delay="0">
     <div class="main-header">
       <div href="#" id="openBtn" class="btn btn-action size-04 btn-02 " onclick="openNav()">
         ☰ เมนู
@@ -117,10 +117,10 @@
                   <div class="container">
                     <div class="text-wrapper">
                       <div>
-                        <h4 class="fw-500">
-                          จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก<span class="h2 fw-600 color-04">ประชาธิปไตย</span>
+                        <h4 class="color-black-theme fw-500">
+                          จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก<span class="h2 color-black-theme fw-600 color-04">ประชาธิปไตย</span>
                         </h4>
-                        <h2 class="fw-700">
+                        <h2 class="color-black-theme fw-700">
                           โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
                         </h2>
                       </div>
@@ -149,7 +149,7 @@
       <div class="wrapper">
         <div class="grids">
           <div class="grid xl-50 lg-100 md-100 sm-100">
-            <div class="ss-box pb-4 m-unset w-full">
+            <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">ข่าวสารประชาสัมพันธ์</h5> 
                 <div class="ellipsis">
@@ -194,7 +194,7 @@
                   ?>
                   <?php foreach($content01 as $d) {?>
                     <div class="grid lg-1-3 mt-2">
-                      <div class="ss-card ss-card-12 mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                      <div class="ss-card ss-card-12 mt-3">
                         <div class="ss-img square">
                           <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                         </div>
@@ -225,7 +225,7 @@
             </div>
           </div>
           <div class="grid xl-50 lg-100 md-100 sm-100">
-            <div class="ss-box pb-4 m-unset w-full">
+            <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">เอกสารดาวน์โหลด</h5> 
                 <div class="ellipsis">
@@ -233,7 +233,7 @@
                 </div> 
               </div> 
               <div class="ss-box-content p-4">
-                <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
+                <table class="table table-download">
                   <tbody>
                     <?php
                       foreach([
@@ -246,17 +246,17 @@
                             <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                           </div>
                         </td>
-                        <td class="text-left">
+                        <td class="text-left title-container">
                           <a class="fw-600 h-color-t" href="#">
                             รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                           </a>
-                          <div class="text-footer">
+                          <div class="text-footer arrow-container">
                             <div class="wrapper">
                               <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                               <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                               <div class="icon">
                                 <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                <p class="sm color-black fw-400">แจ้งไฟล์เสีย</p>
+                                <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
                               </div>
                             </div>
                           </div>
@@ -298,7 +298,7 @@
             ]
           ?>
           <div class="grid xl-50 lg-100 md-100 sm-100">
-            <div class="ss-box pb-4 m-unset w-full">
+            <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">ปฏิทินกิจกรรม</h5> 
                 <div class="ellipsis">
@@ -332,7 +332,7 @@
             </div>
           </div>    
           <div class="grid xl-50 lg-100 md-100 sm-100">
-            <div class="ss-box pb-4 m-unset w-full">
+            <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">คลังวิดีโอ</h5> 
                 <div class="ellipsis">
@@ -397,7 +397,7 @@
             </div>
           </div>      
           <div class="grid xl-100 lg-100 md-100 sm-100">
-            <div class="ss-box pb-4 m-unset w-full">
+            <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">คลังภาพ</h5> 
                 <div class="ellipsis">
@@ -508,6 +508,7 @@
     </div>     
   </div>
 
+  <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <script>

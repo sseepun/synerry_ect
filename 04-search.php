@@ -59,7 +59,7 @@
     <div class="container">
       <div class="grids">
         <!-- Left Content -->
-        <div class="grid xl-75 lg-70 md-100 sm-100">
+        <div class="grid xl-70 lg-70 md-100 sm-100">
           <h3 class="fw-600" data-aos="fade-up" data-aos-delay="0">
             ผลการค้นหา
           </h3>
@@ -106,7 +106,8 @@
             </div>
           <?php }?>
         </div>
-        <div class="grid xl-25 lg-30 md-100 sm-100">
+        <!-- Right Content -->
+        <div class="grid xl-30 lg-30 md-100 sm-100">
           <div class="search-container box-shadow style-02" data-aos="fade-up" data-aos-delay="0">
             <p class="color-02 fw-400">ค้นหา</p>
             <form class="form" action="action.php" method="get">
@@ -216,27 +217,27 @@
                 </div>
             </form>
           </div>
-
           <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
             <p class="h6 fw-600 color-black-theme">คำค้นหายอดนิยม</p>
             <div class="mt-1">
-              <div class="ss-tags">
+              <a class="ss-tags" href="#">
                 <div class="tag">ข่าวประกาศ</div>
-              </div>
-              <div class="ss-tags">
+              </a>
+              <a class="ss-tags" href="#">
                 <div class="tag">อบรมหลักสูตร</div>
-              </div>
-              <div class="ss-tags">
+              </a>
+              <a class="ss-tags" href="#">
                 <div class="tag">การเลือกตั้ง</div>
-              </div>
-              <div class="ss-tags">
+              </a>
+              <a class="ss-tags" href="#">
                 <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
-              </div>
-              <div class="ss-tags">
+              </a>
+              <a class="ss-tags" href="#">
                 <div class="tag">ระดับชำนาญการพิเศษ</div>
-              </div>
+              </a>
             </div>
           </div>
+         
         </div>
       </div>
       <div class="mt-6 pt-4">

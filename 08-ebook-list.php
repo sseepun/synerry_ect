@@ -33,7 +33,7 @@
       </h3>
       <div class="swiper-background bg-03 mt-5" data-aos="fade-up" data-aos-delay="150">
         <div class="text-wrapper text-center">
-          <p class="h6 fw-500">
+          <p class="h6 color-black-theme fw-500">
             คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง<br/>
             ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ
             <br/>การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น
@@ -123,15 +123,15 @@
                     <div class="wrapper">
                       <div class="icon">
                         <em class="fa-solid fa-calendar-days"></em>
-                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-eye"></em>
-                        <span class="p sm ml-2">255</span>
+                        <span class="p sm fw-400 ml-2">255</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-share-nodes"></em>
-                        <span class="p sm ml-2">208</span>
+                        <span class="p sm fw-400 ml-2">208</span>
                       </div>
                     </div>
                   </div>

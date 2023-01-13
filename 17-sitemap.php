@@ -24,10 +24,10 @@
       <div class="sitemap-01">
         <div class="sitemap-grids">
           <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="150">
-            <div class="btn btn-action btn-06 mt-3">
+            <div class="btn btn-action btn-06 btn-white-theme mt-3">
               <p class="h5 fw-500">กกต.</p>
             </div>
-            <ul class="ss-list style-04 pt-3 pb-3">
+            <ul class="ss-list style-04 pt-3 pb-3 color-black-theme">
               <li><a class="p fw-400" href="#">คณะกรรมการการเลือกตั้ง</a></li>
               <li><a class="p fw-400" href="#">อำนาจหน้าที่ของกกต.</a></li>
               <li><a class="p fw-400" href="#">เลขาธิการ กกต.</a></li>
@@ -57,10 +57,10 @@
             </ul>
           </div>
           <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="300">
-            <div class="btn btn-action btn-06 mt-3">
+            <div class="btn btn-action btn-06 btn-white-theme mt-3">
               <p class="h5 fw-500">รวมกฎหมาย</p>
             </div>
-            <ul class="ss-list style-04 min-height pt-3 pb-3">
+            <ul class="ss-list style-04 min-height pt-3 pb-3 color-black-theme">
               <li><a class="p fw-400" href="#">รัฐธรรมนูญ</a></li>
               <li><a class="p fw-400" href="#">พระราชบัญญัติประกอบ</a></li>
               <li><a class="p fw-400" href="#">พระราชบัญญัติ</a></li>
@@ -75,10 +75,10 @@
               <li><a class="p fw-400" href="#">ประกาศ สนง. กกต.ร่างกฎหมายและการรับฟังความคิดเห็น</a></li>
               <div class="line" style="height:23.5rem;"></div>
             </ul>
-            <div class="btn btn-action btn-06 mt-3">
+            <div class="btn btn-action btn-06 btn-white-theme mt-3">
               <p class="h5 fw-500">หน่วยงาน</p>
             </div>
-            <ul class="ss-list style-04 pt-3 pb-3">
+            <ul class="ss-list style-04 pt-3 pb-3 color-black-theme">
               <li><a class="p fw-400" href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a></li>
               <li><a class="p fw-400" href="#">ศูนย์บริการเบิกจ่ายตรงสวัสดิการฯ</a></li>
               <li><a class="p fw-400" href="#">ศูนย์การเรียนรู้ฯที่ 1</a></li>
@@ -95,10 +95,10 @@
             </ul>
           </div>
           <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="450">
-            <div class="btn btn-action btn-06 mt-3">
+            <div class="btn btn-action btn-06 btn-white-theme mt-3">
               <p class="h5 fw-500">ข่าวสาร</p>
             </div>
-            <ul class="ss-list style-04 min-height pt-3 pb-3">
+            <ul class="ss-list style-04 min-height pt-3 pb-3 color-black-theme">
               <li><a class="p fw-400" href="#">ข่าวประชาสัมพันธ์</a></li>
               <li><a class="p fw-400" href="#">เรื่องเด่น กกต.</a></li>
               <li><a class="p fw-400" href="#">ข่าว สนง.กกต.จว.</a></li>
@@ -110,10 +110,10 @@
               <li><a class="p fw-400" href="#">วิดีโอ</a></li>
               <div class="line" style="height:17.5rem;"></div>
             </ul>
-            <div class="btn btn-action btn-06 mt-3">
+            <div class="btn btn-action btn-06 btn-white-theme mt-3">
               <p class="h5 fw-500">ตอบข้อซักถาม/แจ้งเบาะแส</p>
             </div>
-            <ul class="ss-list style-04 pt-3 pb-3">
+            <ul class="ss-list style-04 pt-3 pb-3 color-black-theme">
               <li><a class="p fw-400" href="#">ติดต่อสอบถาม</a></li>
               <li><a class="p fw-400" href="#">กระดานถามตอบ</a></li>
               <li><a class="p fw-400" href="#">ตอบข้อซักถามพรรคการเมือง</a></li>
@@ -123,10 +123,10 @@
             </ul>
           </div>
           <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="450">
-            <div class="btn btn-action btn-06 mt-3">
+            <div class="btn btn-action btn-06 btn-white-theme mt-3">
               <p class="h5 fw-500">บริการข้อมูล</p>
             </div>
-            <ul class="ss-list style-04 min-height pt-3 pb-3">
+            <ul class="ss-list style-04 min-height pt-3 pb-3 color-black-theme">
               <li><a class="p fw-400" href="#">สถิติการเลือกตั้ง</a></li>
               <li><a class="p fw-400" href="#">ประกาศผลการเลือกตั้ง</a></li>
               <li><a class="p fw-400" href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a></li>
@@ -140,10 +140,10 @@
               <li><a class="p fw-400" href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a></li>
               <div class="line" style="height:21.5rem;"></div>
             </ul>
-            <div class="btn btn-action btn-06 mt-3">
+            <div class="btn btn-action btn-06 btn-white-theme mt-3">
               <p class="h5 fw-500">จัดซื้อ/จัดจ้าง</p>
             </div>
-            <ul class="ss-list style-04 pt-3 pb-3">
+            <ul class="ss-list style-04 pt-3 pb-3 color-black-theme">
               <li><a class="p fw-400" href="#">แผน/ผลการจัดซื้อจัดจ้างรายเดือนรายปี</a></li>
               <li><a class="p fw-400" href="#">การเปิดเผยราคากลาง</a></li>
               <li><a class="p fw-400" href="#">ข่าวประกวดราคา/สอบราคา</a></li>
