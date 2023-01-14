@@ -434,9 +434,9 @@ nav.sidenav .menu > *:first-child{border-color:#e1e1e1;}
 nav.sidenav .submenu > *:first-child{border-color:rgba(255,255,255,.3);}
 nav.sidenav .option > .dropdown{background:#ffffff;}
 nav.sidenav .menu > *:first-child{color:#000000;}
-nav.sidenav .menu:hover > *:first-child{color:#0ab3de;}
+nav.sidenav .menu:hover > *:first-child{color:#30906a;}
 nav.sidenav .submenu > *:first-child{color:#ffffff; background:#30906a;}
-nav.sidenav .submenu .submenu > *:first-child{background:#0ab3de; color:#232323;}
+nav.sidenav .submenu .submenu > *:first-child{background:#30906a; color:#232323;}
 nav.sidenav .submenu:hover > *:first-child{color:#fff102; background:#1f4e3a;}
 nav.sidenav .dropdown-toggle{color:#232323;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}

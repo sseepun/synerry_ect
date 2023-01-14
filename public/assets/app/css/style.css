@@ -1272,7 +1272,7 @@ fieldset{padding:0; margin:0; border:0;}
   .ss-list.style-04 .line{display:none;}
 }
 
-.simplebar-offset{top:unset!important;}
+/* .simplebar-offset{top:unset!important;} */
 
 /* Special Tags */
 .ss-tags{display:block;}
@@ -1521,6 +1521,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 .no-border{border:0!important;}
 .no-border-bottom{border-bottom:0!important;}
+.no-border-right{border-right:0!important;}
 .border{border:1px solid transparent!important;}
 .border-2{border:2px solid transparent!important;}
 .border-3{border:3px solid transparent!important;}
