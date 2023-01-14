@@ -330,7 +330,7 @@
           <div class="grids jc-center">
             <div class="grid md-1-3 sm-50 xs-50">
               <div class="showcase">
-                <div class="mobile-device-container">
+                <div class="mobile-device-container" data-aos="fade-up" data-aos-delay="300">
                   <div class="wrapper">
                     <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
                     <div class="mobile-screen-container">
@@ -343,13 +343,12 @@
                       <p class="h6 lh-3xs fw-500">ฉลาดเลือก</p>
                     </div>       
                   </div>
-                 
                 </div>
               </div>
             </div>
             <div class="grid md-1-3 sm-50 xs-50">
               <div class="showcase">
-                <div class="mobile-device-container">
+                <div class="mobile-device-container" data-aos="fade-up" data-aos-delay="300">
                   <div class="wrapper">
                     <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
                     <div class="mobile-screen-container">
@@ -367,7 +366,7 @@
             </div>
             <div class="grid md-1-3 sm-50 xs-50">
               <div class="showcase">
-                <div class="mobile-device-container">
+                <div class="mobile-device-container" data-aos="fade-up" data-aos-delay="300">
                   <div class="wrapper">
                     <img class="img" src="public/assets/app/images/content/mobile-device.png" alt="">
                     <div class="mobile-screen-container">
