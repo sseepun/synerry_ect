@@ -505,9 +505,21 @@ nav.footer.style-06 .footer-socials > .social:hover{color:#fff102; background:#2
 .breadcrumb-01 .wrapper a::after{background:#ffffff;}
 .breadcrumb-01 .title{color:#30906a;}
 
+/* Breadcrumb 02 */
+.breadcrumb-02 .bottom > .container .wrapper{background:#30906a;}
+.breadcrumb-02 .bottom > .container .wrapper::before,
+.breadcrumb-02 .bottom > .container .wrapper:after{background:#30906a;}
+.breadcrumb-02 .bottom > .wrapper a{color:#000000;}
+.breadcrumb-02 .wrapper a:last-child::before{background:#30906a;}
+.breadcrumb-02 .wrapper a::after{background:#ffffff;}
+.breadcrumb-02 .title{color:#eeeeee;}
+
 /* Form Container */
 .form-container-01{background:#ffffff;}
 .form-container-02{background:#ffffff;}
+
+/* Form Container 03 */
+.form-container-03 .option > .dropdown-icon{background:#000000;}
 
 /* Form Group Style 02 */
 .password-level > .levels > *{border-color:#d5d5d5;}
@@ -540,6 +552,8 @@ nav.footer.style-06 .footer-socials > .social:hover{color:#fff102; background:#2
 /* Special Box Header */
 .ss-box-header{border-color:#eeeeee;}
 .ss-box-header .ellipsis{color:#2d613d; background:#f2f2f2;}
+
+.ss-box{background:#ffffff!important;}
 
 /* Special List */
 .ss-list > li::before{background:#0ab2de;}
@@ -629,6 +643,12 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 
 /* Banner 01 */
 .banner-01{background:#ffffff; box-shadow:0px 4px 10px 8px rgba(0,0,0,.08);}
+
+/* Section option */
+.section-options .options > .option{background:#2e8e68;color:#ffffff;}
+.section-options .options > .option.search{background:#0c4c32;}
+.section-options .option > .icon.active,
+.section-options .option > .icon:hover{background:#ffffff; color:#2e9069;}
 
 /* Section 04 */
 .section-04 .text-wrapper{
@@ -827,3 +847,6 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 .ss-card-35 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
 .ss-card-35 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
 .ss-card-35 .wrapper > .text-container .title-footer > .wrapper .icon > em{color:#2e603c;}
+
+/* */
+.ss-card-36 .filter-01{background:rgba(0,0,0,.4);}
