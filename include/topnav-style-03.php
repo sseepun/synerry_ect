@@ -90,7 +90,7 @@
           <a href="#" data-dropdown="<?= $i ?>">
             <?= $d ?> <em class="fas fa-chevron-down"></em>
           </a>
-          <div class="submenu-dropdown <?php if($i>3)echo 'anchor-right'; ?>">
+          <div class="submenu-dropdown <?php if($i>4)echo 'anchor-right'; ?>">
             <div class="submenu-container">
               <div class="submenu-wrapper">
                 <div class="submenu has-children">

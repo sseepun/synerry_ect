@@ -113,26 +113,26 @@
               <div class="grids">
                 <div class="grid sm-100 mt-3">
                   <div class="option cate">
-                    <select class="ui dropdown" required>
+                    <select class="ui border dropdown" required>
                       <option value="">เลือกหน่วยงาน*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                       <option value="3">ข่าวประชาสัมพันธ์ 3</option>
                     </select>
-                    <div class="dropdown-icon">
+                    <div class="dropdown-icon border">
                       <em class="fa-solid fa-chevron-down"></em>
                     </div>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="option cate">
-                    <select class="ui dropdown" required>
+                    <select class="ui border dropdown" required>
                       <option value="">เลือกหัวข้อ*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                       <option value="3">ข่าวประชาสัมพันธ์ 3</option>
                     </select>
-                    <div class="dropdown-icon">
+                    <div class="dropdown-icon border">
                       <em class="fa-solid fa-chevron-down"></em>
                     </div>
                   </div>
@@ -172,7 +172,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-31">
+                  <div class="ss-card ss-card-31 style-02">
                     <div class="top">
                       <div class="wrapper">
                         <div class="item">
@@ -202,8 +202,8 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-32">
-                    <div class="wrapper">
+                  <div class="ss-card ss-card-32 style-02">
+                    <div class="wrapper border">
                       <div class="icon">
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                       </div>

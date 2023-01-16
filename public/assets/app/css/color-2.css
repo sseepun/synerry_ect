@@ -2,7 +2,7 @@
 /* Reset */
 html, body{background:#000000;}
 html, body, a, a:hover, table.table{color:#fecb00;}
-img, .img-bg, .hero, .section-bg, .img-fill, .footer-top, .pattern, .mobile-screen, 
+img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, iframe, .chart-container,
 .swiper-background::before, .swiper-background::after, .section-03 .section-card::before,.icon-view.disable{filter: grayscale(1)!important;}
 
 /* Colors */
@@ -67,9 +67,28 @@ img, .img-bg, .hero, .section-bg, .img-fill, .footer-top, .pattern, .mobile-scre
 /* Accessibility & Quick Links */
 nav.side-panel > .wrapper > .icon{background:#000000;}
 
+/* Global Search Container */
+.global-search-container .hamburger > *{background:#fecb00;}
+
 /* Super Topnav */
 nav.stopnav .btn.btn-circle{border-color:#fecb00; background:#fecb00;}
 nav.stopnav .flag-wrapper{background:#fecb00; color:#000000;}
+nav.stopnav .btn-social:hover{background:#fecb00; color:#000000;}
+nav.stopnav .option-select > .dropdown{background:#fecb00;}
+nav.stopnav .option-select > .dropdown .item{border-color:#000000; color:#000000;}
+nav.stopnav .option-select > .dropdown .item:hover{background:#000000; color:#fecb00;}
+
+nav.stopnav.style-02{border-color:#fecb00;}
+nav.stopnav.style-02 .option{border-color:#fecb00;}
+nav.stopnav.style-02 .option-select > .select{background:#fecb00; color:#000000;}
+nav.stopnav.style-02 .option-select > .dropdown{background:#fecb00;}
+nav.stopnav.style-02 .option-select > .dropdown .item{border-color:#000000; color:#000000;}
+nav.stopnav.style-02 .option-select > .dropdown .item:hover{background:#000000; color:#fecb00;}
+nav.stopnav.style-02 .blocks > .option .hotline > em{border-color:#fecb00;}
+nav.stopnav.style-02 .option-select > .select.language{color:#000000!important;}
+
+nav.stopnav.style-04 .btn-social{border-color:#fecb00;}
+nav.topnav.style-04 .menu:hover > *:first-child{background:#fecb00; color:#000000;}
 
 /* Super Topnav Minisite */
 nav.stopnav-minisite{background:#000000; border-color:#fecb00;}
@@ -89,11 +108,13 @@ nav.stopnav-minisite .btn-menu:hover .hamburger > *{background:#000000;}
 nav.topnav{background:#000000; color:#fecb00; border-bottom:1px solid #fecb00;}
 nav.topnav .menu::before, nav.topnav .option::before{background:#fecb00!important;}
 nav.topnav .menu::after{background:#fecb00;}
+nav.topnav .menu:hover > *:first-child{color:#fecb00;}
 nav.topnav .menu > a, nav.topnav .option{color:#fecb00;}
 nav.topnav .menu:hover > a, nav.topnav .menu.active > a,
 nav.topnav .option:hover, nav.topnav .option.active{color:#000000;}
 nav.topnav .option.sidenav-toggle{background:#fecb00;}
 nav.topnav .hamburger > *{background:#000000;}
+nav.topnav .submenu{border-color:#fecb00;}
 nav.topnav .submenu-dropdown,
 nav.topnav .option > .dropdown{background:#000000; border:1px solid #fecb00;}
 nav.topnav .submenu-title{color:#fecb00;}
@@ -128,6 +149,9 @@ nav.topnav-minisite .submenu > a::after{background:#fecb00; opacity:.2;}
 /* Sidenav */
 nav.sidenav{background:#000000; border-left:1px solid #fecb00;}
 nav.sidenav .hamburger > *{background:#fecb00;}
+nav.sidenav .submenu > *:first-child{border-color:#000000;}
+nav.sidenav .submenu:hover > *:first-child{background:#000000; color:#fecb00;}
+nav.sidenav .submenu:hover > .dropdown-toggle{color:#fecb00;}
 nav.sidenav .sidenav-toggle, nav.sidenav .options, 
 nav.sidenav .options > .option, nav.sidenav .options > .option-btn,
 nav.sidenav .option > .dropdown, nav.sidenav .option > .dropdown > *, 
@@ -167,10 +191,19 @@ nav.footer{background:#000000; border-color:#fecb00;}
 nav.footer .btn-footer{background:#000000; color:#fecb00; border:1px solid #fecb00;}
 nav.footer ul > li::before{background:#fecb00;}
 nav.footer ul > li > a{color:#fecb00;}
+nav.footer .footer-socials > .social{background:#fecb00; color:#000000;}
+nav.footer .footer-socials > .social:hover{background:#000000; color:#fecb00; border-color:#fecb00;}
+nav.footer .count-web > *{background:#fecb00; color:#000000; border-color:#000000!important;}
+
 nav.footer.style-02 .footer-socials > .social{border-color:#fecb00;}
 nav.footer.style-02 .footer-socials > .social:hover{background:#fecb00; color:#000000;}
+
 nav.footer.style-03 .footer-container{background:#000000;}
 nav.footer.style-03 .footer-socials > .social{background:#fecb00; color:#000000;}
+
+nav.footer.style-04 .footer-top, nav.footer.style-04 .footer-bottom,
+nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-color:#fecb00;}
+
 
 /* Super Footer */
 nav.sfooter .visitor-count{border:1px solid #fecb00;}
@@ -374,6 +407,7 @@ input[type="search"]::placeholder{color:#fecb00;}
 /* Category Container */
 .category-container .cate-list{border-color:#fecb00;}
 
+/* Ui */
 
 /* Dropdown */
 .dropdown-icon{background:#fecb00; color:#000000;}
@@ -419,6 +453,10 @@ input[type="search"]::placeholder{color:#fecb00;}
 .faq-05 .faq > .question .ftag{border-color:#fecb00;}
 .faq-05 .faq > .question .button-download > .btn{background:#fecb00; color:#000000;}
 .faq-05 .faq:hover > .question .button-download > .btn{background:#000000; color:#fecb00; border-color:#fecb00;}
+
+/* Faq 06 */
+.faq-06 .faq > .question{border-color:#fecb00;}
+.faq-06 .faq .answer-wrapper{background:#fecb00; color:#000000;}
 
 /* rc-container */
 .rc-container.style-02 > label::before{border-color:#fecb00;}
@@ -538,11 +576,18 @@ select.style-02{background:#fecb00!important; color:#000000!important; border-co
 /* Special Card 31 */
 .ss-card-31{border-color:#000000;}
 .ss-card-31 .top > .wrapper .item:nth-child(1) > .icon{background:#000000; color:#ffff00;}
+.ss-card-31.style-02{border-color:#ffff00;}
+.ss-card-31.style-02 .top > .wrapper .item:nth-child(1) > .icon{background:#ffff00; color:#000000;}
 
 /* Special Card 32 */
 .ss-card-32 .wrapper > .icon{background:#000000;}
 .ss-card-32 .wrapper > .text-container .title{color:#000000;}
 .ss-card-32 .wrapper > .text-container .x-mark{background:#000000; color:#ffff00;}
+
+.ss-card-32.style-02 .wrapper > .icon{background:#ffff00;}
+.ss-card-32.style-02 .wrapper > .text-container .title{color:#ffff00;}
+.ss-card-32.style-02 .wrapper{border-color:#ffff00!important;}
+.ss-card-32.style-02 .wrapper > .text-container .x-mark{background:#ffff00; color:#000000;}
 
 /* Special Card 33 */
 .ss-card-33{border-color:#000000; color:#000000;}
@@ -550,6 +595,7 @@ select.style-02{background:#fecb00!important; color:#000000!important; border-co
 /* Special Card 34 */
 .ss-card-34{border-color:#ffff00;}
 .ss-card-34 .wrapper > .icon{border-color:#ffff00;}
+.ss-card-34 .text-container > .social-list .icon:hover{background:#ffff00; color:#000000;}
 
 /* Special Card 35 */
 .ss-card-35 .wrapper > .date .wrapper > .day{background:#ffff00; color:#000000;}

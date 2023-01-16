@@ -52,7 +52,7 @@
         </div>
         <div class="option select">
           <div class="option-select">
-            <div class="select">
+            <div class="select language">
               TH <div class="chev"><em class="fa-solid fa-chevron-down"></em></div>
             </div>
             <div class="dropdown color-white">
