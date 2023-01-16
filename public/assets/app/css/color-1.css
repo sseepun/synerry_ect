@@ -221,11 +221,7 @@ nav.footer .footer-socials > .social{background:#ffffff; color:#000000;}
 nav.footer .footer-socials > .social:hover{background:#000000; color:#ffffff; border-color:#ffffff;}
 nav.footer .count-web > *{background:#ffffff; color:#000000; border-color:#000000!important;}
 
-nav.footer.style-02 .footer-socials > .social{border-color:#ffffff;}
-nav.footer.style-02 .footer-socials > .social:hover{background:#ffffff; color:#000000;}
-
 nav.footer.style-03 .footer-container{background:#000000}
-nav.footer.style-03 .footer-socials > .social{background:#ffffff; color:#000000;}
 
 nav.footer.style-04 .footer-top, nav.footer.style-04 .footer-bottom,
 nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-color:#ffffff;}

@@ -117,6 +117,7 @@ nav.topnav .hamburger > *{background:#000000;}
 nav.topnav .submenu{border-color:#fecb00;}
 nav.topnav .submenu-dropdown,
 nav.topnav .option > .dropdown{background:#000000; border:1px solid #fecb00;}
+nav.topnav .submenu:hover > *:first-child{background:#fecb00!important; color:#000000!important;}
 nav.topnav .submenu-title{color:#fecb00;}
 nav.topnav .submenu-block:first-child > .submenu-title{color:#fecb00; border-color:#fecb00;}
 nav.topnav .submenu > a{color:#fecb00;}
@@ -195,11 +196,7 @@ nav.footer .footer-socials > .social{background:#fecb00; color:#000000;}
 nav.footer .footer-socials > .social:hover{background:#000000; color:#fecb00; border-color:#fecb00;}
 nav.footer .count-web > *{background:#fecb00; color:#000000; border-color:#000000!important;}
 
-nav.footer.style-02 .footer-socials > .social{border-color:#fecb00;}
-nav.footer.style-02 .footer-socials > .social:hover{background:#fecb00; color:#000000;}
-
 nav.footer.style-03 .footer-container{background:#000000;}
-nav.footer.style-03 .footer-socials > .social{background:#fecb00; color:#000000;}
 
 nav.footer.style-04 .footer-top, nav.footer.style-04 .footer-bottom,
 nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-color:#fecb00;}
