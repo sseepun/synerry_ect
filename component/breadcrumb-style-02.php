@@ -6,16 +6,15 @@
           <div class="img-bg" style="background-image:url('<?= $breadcrumbBg ?>');"></div>
       <?php }?>
       <div class="container">
-        <h6 class="title h2 color-black-theme fw-600 mt-4" data-aos="fade-in" data-aos-delay="150">
+        <h6 class="title h2 color-white-theme fw-600 mt-4" data-aos="fade-in" data-aos-delay="150">
           <?= $breadcrumbTitle ?>
         </h6>
       </div>
-    
     </div>
     <div class="bottom">
       <div class="container">
-        <div class="wrapper" data-aos="fade-in" data-aos-delay="0">
-          <div class="grids ai-center">
+        <div class="wrapper">
+          <div class="grids ai-center" data-aos="fade-up" data-aos-delay="0">
             <div class="grid lg-50 md-100 sm-100 mt-0">
               <?php foreach($breadcrumb as $b){?>
                 <a class="p title-link color-white sm fw-400" href="<?= $b['url'] ?>">
@@ -59,7 +58,7 @@
             </div>
           </div>
           <?php 
-            $sectionOptions = [ 'socials', 'rss' ];
+            $sectionOptions = [ 'views', 'rss' ];
             include_once('component/section-options.php');
           ?>
         </div>

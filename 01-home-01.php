@@ -396,7 +396,7 @@
         'nameTH' => 'นายฉัตรไชย จันทร์พรายศรี',
         'nameEng' => 'Mr. Ittiporn Boonpracong'
       ],[
-        'image' => 'public/assets/app/images/content/84.jpg',
+        'image' => 'public/assets/app/images/content/93.jpg',
         'rank' => 'กรรมการการเลือกตั้ง',
         'nameTH' => 'ศ.สันทัด ศิริอนันต์ไพบูลย์',
         'nameEng' => 'Prof. Suntud Sirianuntapiboon'

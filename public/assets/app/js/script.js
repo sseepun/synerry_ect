@@ -602,6 +602,24 @@ function ssPageProcess(){
          });
      }
 
+     // FAQ 07
+     var faq07 = $('.faq-07');
+     if(faq07.length){
+         faq07.each(function(){
+             $(this).find('.faq > .question').click(function(e){
+                 e.preventDefault();
+                 var parent = $(this).parent();
+                 if(parent.hasClass('active')){
+                     parent.removeClass('active');
+                     parent.find('> .answer').slideUp();
+                 }else{
+                     parent.addClass('active');
+                     parent.find('> .answer').slideDown();
+                 }
+             });
+         });
+     }
+
     // Section 05
     var section05 = $('.section-05');
     if(section05.length){
@@ -772,3 +790,33 @@ function ssPageProcess(){
               });
           });
       }
+
+        // Section 14
+        var section14 = $('.section-14');
+        if(section14.length){
+            section14.each(function(){
+                var self = $(this);
+                new Swiper(self.find('.swiper-container'), {
+                    loop: true,
+                    spaceBetween: 5,
+                    slidesPerView: 1,
+                    speed: 800,
+                    grabCursor: true,
+                    navigation: {
+                        nextEl: self.find('.btn-icon-next'),
+                        prevEl: self.find('.btn-icon-prev'),
+                    },
+                //     breakpoints: {
+                //        1299.98: { slidesPerView:5},
+                //        1199.98: { slidesPerView:4,},
+                //        991.98: { slidesPerView:4,},
+                //        767.98: { slidesPerView:3,},
+                //        575.98: { slidesPerView:2, spaceBetween:20},
+                //    },
+                    pagination: {
+                        el: self.find('.dots'),
+                        clickable: true,
+                    },
+                });
+            });
+        }

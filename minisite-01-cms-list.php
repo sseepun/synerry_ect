@@ -168,34 +168,43 @@
     <div class="container">
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
-          <div class="grid xl-25 lg-1-3 md-50">
-          <a class="ss-card ss-card-37 mb-3" href="#">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-            </div>
-            <div class="text-container">
-              <p class="title fw-500 mt-1">
-                รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
-                สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
-              </p>
-              <div class="card-footer mt-1">
-                <div class="wrapper color-gray">
-                  <div class="icon">
-                    <em class="fa-solid fa-calendar-days"></em>
-                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
-                  </div>
-                  <div class="icon">
-                    <em class="fa-solid fa-eye"></em>
-                    <span class="p sm fw-400 ml-2">280</span>
-                  </div>
-                  <div class="icon">
-                    <em class="fa-solid fa-share-nodes"></em>
-                    <span class="p sm fw-400 ml-2">60</span>
+          <div class="grid xl-100 lg-100 md-50">
+          <a class="ss-card ss-card-38 mb-3" href="#">
+            <div class="wrapper">
+              <div class="image-container">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                </div>
+              </div>
+              <div class="text-container box-shadow style-02">
+                <div class="top">
+                  <p class="h6 lh-sm title fw-500 mt-1">
+                    ประธานกรรมการการเลือกตั้ง เป็นประธานในพิธีเปิดการประชุมพัฒนางานและ
+                    ยกระดับมาตรฐานการทำงานของสำนักงานคณะกรรมการการเลือกตั้ง
+                  </p>
+                  <div class="card-footer mt-1">
+                    <div class="wrapper color-gray">
+                      <div class="icon">
+                        <em class="fa-solid fa-calendar-days"></em>
+                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-eye"></em>
+                        <span class="p sm fw-400 ml-2">280</span>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-share-nodes"></em>
+                        <span class="p sm fw-400 ml-2">60</span>
+                      </div>
+                    </div>
+                   
                   </div>
                 </div>
+                <div class="bottom">
                 <div class="link-footer">
-                  <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
-                  <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
+                      <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
+                      <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
+                    </div>
                 </div>
               </div>
             </div>

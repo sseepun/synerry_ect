@@ -106,6 +106,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-10:hover{background:rgba(238,238,238,.7); border-color:rgba(238,238,238,.7);}
 .btn.btn-10:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-11, .btn.btn-11:focus{color:#ffffff; background:#30906a; border-color:#30906a;}
+.btn.btn-11:hover{background:#fef200; border-color:#fef200;}
+.btn.btn-11:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 .btn.btn-action-style-02{background:#2e603c; color:#ffffff;}
 /* .btn.btn-action-style-03{background:#2e603c; color:#ffffff;} */
 
@@ -278,6 +282,21 @@ html, body, table.table{color:#000000;}
 .faq-06 .faq .arrow > .wrapper em{color:#fef200;}
 .faq-06 .faq .date-view > .wrapper .icon > em{color:#2e603c;}
 .faq-06 .faq.active .date-view > .wrapper .icon > em{color:#ffffff;}
+
+/* Faq 07 */
+.faq-07 .faq.active > .question{background:#10563a; border-color:#10563a;}
+.faq-07 .faq.active > .question h6{color:#ffffff;}
+.faq-07 .faq > .question h6{color:#222325;}
+.faq-07 .faq > .question .ftag{color:#2e603c;}
+.faq-07 .faq.active > .question .ftag{color:#ffffff;}
+.faq-07 .faq .arrow::before, .faq-07 .faq .arrow::after{background:#fef200;}
+.faq-07 .fag.active > .answer{border:3px solid yellow; display:block!important;}
+.faq-07 .fag.active > .answer{border-color:#3aa57b!important;}
+.faq-07 .faq .answer-wrapper{background:#044c21; color:#ffffff;}
+.faq-07 .faq.active .date-view{color:#ffffff;}
+.faq-07 .faq .arrow > .wrapper em{color:#fef200;}
+.faq-07 .faq .date-view > .wrapper .icon > em{color:#2e603c;}
+.faq-07 .faq.active .date-view > .wrapper .icon > em{color:#ffffff;}
 
 /* Accessibility & Quick Links */
 nav.side-panel .icon{background:#30906a; color:#ffffff;}
@@ -630,6 +649,7 @@ select{background:#eeeeee!important;}
 
 /* Table */
 table.table.table-download .download-card{background:#30906a;}
+table.table.table-download .download-card.style-02{background:#2e603b;}
 table.table.table-download .text-footer > .wrapper .icon{color:#30906a;}
 table.table.style-02.table-download .download-card{background:#ffffff;}
 
@@ -673,6 +693,9 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 /* Section 09 */
 .section-09 .swiper-arrows-container > .arrows-container .arrow{border-color:#303031;}
 .section-09 .swiper-arrows-container > .arrows-container .arrow > em{color:#303031;}
+
+/* Section 14 */
+.section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#30906a;}
 
 /* Intro 15 */ 
 .intro-01 .intro-footer > .wrapper.left::after{background:#fef200;}
@@ -848,5 +871,29 @@ table.table.style-02.table-download .download-card{background:#ffffff;}
 .ss-card-35 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
 .ss-card-35 .wrapper > .text-container .title-footer > .wrapper .icon > em{color:#2e603c;}
 
-/* */
+/* Special Card 36 */
 .ss-card-36 .filter-01{background:rgba(0,0,0,.4);}
+.ss-card-36:hover .text-wrapper > .title{color:#fef200!important;}
+.ss-card-36:hover .text-wrapper > .card-footer .wrapper{color:#fef200!important}
+
+/* Special Card 37 */
+.ss-card-37 .text-container{border-color:#e1e1e1;}
+.ss-card-37:hover .text-container{background:#30906a; border-color:#30906a;}
+.ss-card-37:hover .text-container > .title{color:#ffffff;}
+.ss-card-37:hover .card-footer .wrapper{color:#ffffff!important;}
+.ss-card-37:hover .card-footer .link-footer > .text{color:#ffffff!important; border-color:#ffffff!important;}
+.ss-card-37 .card-footer .link-footer > .arrow{color:#30906a;}
+.ss-card-37:hover .card-footer .link-footer > .arrow{color:#ffffff;}
+
+/* Special Card 38 */
+.ss-card-38 .wrapper > .text-container{background:#ffffff;}
+.ss-card-38:hover .wrapper > .text-container{background:#30906a;}
+.ss-card-38:hover .wrapper > .text-container .title{color:#ffffff;}
+.ss-card-38:hover .card-footer .wrapper{color:#ffffff!important;}
+.ss-card-38:hover .link-footer > .text{color:#ffffff!important; border-color:#ffffff!important;}
+.ss-card-38 .link-footer > .arrow{color:#30906a;}
+.ss-card-38:hover .link-footer > .arrow{color:#ffffff;}
+@media screen and (max-width:991.98px){
+  .ss-card-38 .wrapper > .text-container{border-color:#e1e1e1;}
+  .ss-card-38:hover .wrapper > .text-container{border-color:#30906a;}
+}

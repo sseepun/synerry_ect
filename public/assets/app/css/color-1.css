@@ -77,7 +77,8 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-03, .btn.btn-03:focus,
 .btn.btn-05, .btn.btn-05:focus,
 .btn.btn-09, .btn.btn-09:focus,
-.btn.btn-10, .btn.btn-10:focus{background:#ffffff; color:#000000;}
+.btn.btn-10, .btn.btn-10:focus,
+.btn.btn-11, .btn.btn-11:focus{background:#ffffff; color:#000000;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
 
 .btn-white-theme{background:#000000!important; color:#ffffff!important;}
@@ -243,6 +244,10 @@ nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-co
 /* Breadcrumb-01 */
 .breadcrumb-01 .wrapper a:last-child::before{background:#ffffff;}
 
+/* Breadcrumb-02 */
+.breadcrumb-02 .title{color:#ffffff!important;}
+.breadcrumb-02 .bottom .title-link{color:#ffffff!important;}
+
 /* Form check container */
 .form-check-container{border-color:#ffffff;}
 .form-check-container.active{background:#000000;}
@@ -354,6 +359,13 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 .ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#ffffff!important;}
 .ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#000000;}
 
+/* Section Options */
+.section-options .options{border:1px solid #ffffff;}
+.section-options .option{background:#000000; color:#ffffff; border-color:#ffffff;}
+.section-options .socials > .social{background:#ffffff; color:#000000;}
+.section-options .option > .icon.active, 
+.section-options .option > .icon:hover{background:#ffffff; color:#000000;}
+
 /* Special List */
 .list-style-01 li:before{background:#000000;}
 .list-style-02 li:before{background:#000000;}
@@ -388,6 +400,11 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 /* Section 09 */
 .section-09 .swiper-background > .text-wrapper{background:#ffffff;}
 .section-09 .swiper-arrows-container > .arrows-container .arrow{border-color:#ffffff; color:#ffffff;}
+
+/* Section 14 */
+.section-14 .ss-title{color:#000000; border-color:#000000;}
+.section-14 .ss-box > .body{background:#ffffff;}
+.section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#000000!important;}
 
 /* Special Tag */
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}
@@ -468,3 +485,20 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 /* Special Card 35 */
 .ss-card-35 .wrapper > .date .wrapper > .day{background:#ffffff; color:#000000;}
 .ss-card-35 .wrapper > .date{border-color:#ffffff;}
+
+/* Special Card 37 */
+.ss-card-37 .text-container{border-color:#ffffff;}
+.ss-card-37:hover .text-container{background:#ffffff;}
+.ss-card-37:hover .text-container > .title{color:#000000;}
+.ss-card-37:hover .card-footer .wrapper{color:#000000!important;}
+.ss-card-37:hover .card-footer .link-footer > .text{color:#000000!important; border-color:#000000!important;}
+.ss-card-37 .card-footer .link-footer > .arrow{color:#ffffff;}
+.ss-card-37:hover .card-footer .link-footer > .arrow{color:#000000;}
+
+/* Special Card 38 */
+.ss-card-38 .wrapper > .text-container{background:#ffffff; border-color:#ffffff;}
+.ss-card-38 .wrapper > .text-container .title, .ss-card-38 .card-footer .wrapper,
+.ss-card-38 .link-footer > .arrow, .ss-card-38 .link-footer > .text{color:#000000!important;}
+.ss-card-38:hover .wrapper > .text-container{background:#000000;}
+.ss-card-38:hover .wrapper > .text-container .title, .ss-card-38:hover .card-footer .wrapper,
+.ss-card-38:hover .link-footer > .arrow, .ss-card-38:hover .link-footer > .text{color:#ffffff!important;}
