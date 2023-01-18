@@ -42,6 +42,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .bg-08{background:#000000!important;}
 .bg-white-theme{background:#ffffff!important; color:#000000!important;}
 .bg-white-theme-02{background:#ffffff!important;}
+.bg-black-theme{background:#000000!important; color:#ffffff!important;}
 
 .bcolor-p, 
 .bcolor-s, 
@@ -286,6 +287,14 @@ nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-co
 .faq-06 .faq > .question{border-color:#ffffff;}
 .faq-06 .faq .answer-wrapper{background:#dddddd; color:#000000;}
 
+/* Faq 07 */
+.faq-07 .faq .arrow-container{background:#000000;}
+.faq-07 .faq > .question{border-color:#000000;}
+.faq-07 .faq .arrow::before, .faq-07 .faq .arrow::after{background:#ffffff;}
+.faq-07 .faq tbody{background:#ffffff;}
+.faq-07 .faq > .answer .content > .wrapper .text-container a{color:#000000!important;}
+.faq-07 .faq .text-container > .analysis-results .wrapper{color:#000000!important;}
+.faq-07 .faq > .answer .content > .wrapper .content-left{background:#000000; color:#ffffff;}
 
 /* rc-container */
 .rc-container.style-02 > label::before{border-color:#ffffff;}
@@ -331,6 +340,11 @@ table.table.table-download .text-footer > .wrapper .icon{color:#000000;}
 table.table.table-download .title-container{background:#ffffff; color:#000000;}
 table.table.table-download .arrow-container{background:#ffffff; color:#000000;}
 table.table.table-download .btn.btn-02, .btn.btn-02:focus{background:#000000; color:#ffffff;}
+
+table.table.table-download.style-03 .download-card{background:#000000; border-color:#000000;}
+table.table.table-download.style-03 .data-analysis > .wrapper .icon{color:#000000;}
+table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{color:#000000!important;}
+table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#000000!important;}
 
 /* Tab Container 01 */
 .tab-container .tabs.tabs-01 .tab::after{background:#000000;}
@@ -457,6 +471,9 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 
 /* Special Card 29 */
 .ss-card-29{background:#ffffff; color:#000000!important;}
+
+/* Special Card 30 */
+.ss-card-30 .wrapper > .text-container a{color:#000000!important; border-color:#000000!important;}
 
 /* Special Card 31 */
 .ss-card-31{border-color:#dddddd;}

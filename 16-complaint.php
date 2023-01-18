@@ -35,7 +35,7 @@
               ให้ทางสำนักงานฯ รับทราบและนำไปดำเนินการแก้ไข ซึ่งข้อร้องเรียนบางเรื่องอาจไม่อยู่ในความรับผิดชอบของสำนักงานฯ 
               ดังนั้น เพื่อให้เรื่องของท่านถึงผู้รับผิดชอบโดยตรงและรวดเร็ว ท่านควรตรวจสอบก่อน และร้องเรียนโดยตรงได้ที่
             </p>
-            <ul class="list-style-01">
+            <ul class="list-style-01" style="padding-left:35px;">
               <li class="fw-400">
                 ส่งเรื่องร้องเรียนผ่านทาง E-mail มาที่<a class="color-02 border-bottom bcolor-02 ml-1" href="#">help@ect.go.th</a>
                 <em class="fa-solid fa-arrow-up-right-from-square ml-2"></em>

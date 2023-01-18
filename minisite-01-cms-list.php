@@ -19,7 +19,7 @@
   <section class="section-14">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
-      <div class="ss-box style-02 w-full">
+      <div class="ss-box bg-white-theme style-02 w-full">
         <div class="ss-box-shadow xl"></div>
         <div class="body">
           <div class="ss-title">

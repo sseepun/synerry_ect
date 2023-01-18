@@ -180,6 +180,26 @@ p.xs, .p.xs, li.xs, label.xs{font-size:.8125rem;}
     .btn.btn-action-style-03{width:2rem; height:2rem; font-size:.375rem;}
 }
 
+/* Button Browse */
+.btn-browse-container{display:flex;}
+.btn-browse-container .fileUpload{position: relative; overflow: hidden;}
+.btn-browse-container .fileUpload input.upload {
+  position:absolute; top:0; left:0; font-size:1.25rem; cursor:pointer; opacity:0;
+}
+.btn-browse-container .btn-browse{
+  border:1px solid transparent; border-left:0; border-radius:.25rem; 
+  height:2.625rem; padding:.625rem .875rem; text-align:center; width:8rem; cursor:pointer;
+}
+.btn-browse-container .form-input{
+  height:2.625rem; border:none; width:calc(100% - 8rem); padding:0 .875rem; pointer-events:none;
+}
+@media screen and (max-width:499.98px){
+  .btn-browse-container .btn-browse{width:6rem;}
+  .btn-browse-container .form-input{width:calc(100% - 6rem);}
+}
+
+.btn-browse-container .btn-browse{background: #2e603b; border-color:#2e603b; color:#ffffff;}
+.btn-browse-container .form-input{background:#eeeeee;}
 
 /* Buttons Group */
 .buttons-group{padding:.5rem 0; border-top:1px solid transparent; border-bottom:1px solid transparent;}
@@ -747,7 +767,7 @@ fieldset{padding:0; margin:0; border:0;}
     .list-footer-02 .option{width:100%; justify-content:center;}
 }
 
-.list-style-01 li{list-style:none; position:relative; display:flex; align-items:center; height:100%;}
+.list-style-01 li{list-style:none; position:relative; display:flex; align-items:center; height:100%; flex-wrap:wrap;}
 .list-style-01 li:before{
   position:absolute; left:-1.5rem; content:""; width:.6875rem; height:.25rem; 
 }
@@ -1364,7 +1384,24 @@ table.table.table-download .download-card img{
 }
 table.table.table-download .text-footer > .wrapper{display:flex;}
 table.table.table-download .text-footer > .wrapper .icon{display:flex; align-items:center;}
+
 table.table.style-02.table-download td:nth-child(2){padding-left:0;}
+
+table.table.table-download.style-03 td:nth-child(2) > .title{transition:color .25s, border .25s;}
+table.table.table-download.style-03 .download-card{
+  width:5rem!important; height:6rem; border-radius:1.5rem 0 0 1.5rem!important;}
+table.table.table-download.style-03 .data-analysis > .wrapper{
+  border-left:1px solid transparent!important; padding:.875rem 1.5rem;
+}
+table.table.table-download.style-03 td:nth-child(2){padding:0 1rem;}
+table.table.table-download.style-03 .data-analysis > .wrapper .icon{
+  display:flex; align-items:center; justify-content:center;
+}
+table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{
+  width:1.3125rem; height:1.3125rem; display:flex; justify-content:center; align-items:center;
+}
+
+
 
 
 /* Table Download 02 */
@@ -1379,6 +1416,8 @@ table.table.table-download-02 td.column-icon{width:2.5rem;}
 table.table.table-download-02 td.column-icon .icon p{margin:-.3125rem 0 0 0;}
 table.table.table-download-02 td.column-text{min-width:24rem;}
 table.table.table-download-02 td.column-btn{text-align:right;}
+
+
 
 
 /* Table Contact */
@@ -2195,6 +2234,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 @media screen and (max-width:1199.98px){
   .ss-card-30 .wrapper > .img-container{width:50%;}
   .ss-card-30 .wrapper > .text-container{width:50%;}
+  .ss-card-30.style-02 .wrapper > .text-container{padding-left:1rem!important}
 }
 @media screen and (max-width:991.98px){
   .ss-card-30 .wrapper > .img-container{width:100%;}

@@ -19,9 +19,9 @@
   <section class="section-14">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
-      <div class="ss-box style-02 w-full">
+      <div class="ss-box bg-white-theme style-02 w-full">
         <div class="ss-box-shadow md"></div>
-        <div class="body">
+        <div class="body bg-white-theme">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
               คำถามที่พบบ่อย
@@ -35,14 +35,8 @@
                   <h6 class="title p lg fw-400">
                     การเลือกตั้งผู้ว่ากรุงเทพมหานครในวันที่ 22 พค.นี้ จะมีการจัดการเลือกตั้งล่วงหน้าหรือไม่ เนื่องจากจะเดินทางไปต่างจังหวัดและคง
                   </h6>
-                  <div class="arrow">
-                    <div class="wrapper">
-                      <em class="fa-solid fa-minus"></em>
-                    </div>
-                  </div>
-                  <div class="answer-wrapper">
-                    <img src="public/assets/app/images/icon/13.png" alt="">
-                    <p class="sm">คำตอบ</p>
+                  <div class="arrow-container">
+                    <div class="arrow"></div>
                   </div>
                 </div>
                 <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
@@ -63,52 +57,81 @@
                             ซึ่งไม่มีการจัดให้ลงคะแนนเลือกตั้งล่วงหน้า หากท่านมีกิจธุระไม่สามารถไปใช้สิทธิในวันเลือกตั้งได้ 
                             ให้แจ้งเหตุอันอาจไม่ไปใช้สิทธิเลือกตั้งต่อนายทะเบียนท้องถิ่นด้วยตนเอง หรือส่งทางไปรษณีย์ 
                             หรือแจ้งทางสื่ออิเล็กทรอนิกส์ ทั้งนี้ สามารถศึกษารายละเอียดเพิ่มเติมได้ที่ 
-                            <a class="p sm color-02 fw-400" href="#">https://www.ect.go.th/ect_th/news_page.php?nid=15071</a>
                           </p>
+                          <div class="scroll-x-wrapper" data-simplebar>
+                            <a class="p sm color-02 fw-400" style="width:auto; max-width:380px!important;" 
+                              href="https://www.ect.go.th/ect_th/news_page.php?nid=15071">https://www.ect.go.th/ect_th/news_page.php?nid=15071
+                            </a>
+                          </div>
+                          <div class="analysis-results">
+                            <div class="wrapper color-gray">
+                              <div class="icon">
+                                <em class="fa-solid fa-calendar-days"></em>
+                                <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-eye"></em>
+                                <span class="p sm fw-400 ml-2">280</span>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                         <div class="scroll-x-wrapper mt-3" data-simplebar>
-                      <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
-                        <tbody>
-                          <?php
-                            foreach([
-                              'pdf', 'pdf'
-                            ] as $k){
-                          ?>
-                            <tr class="box-shadow style-02 mb-2">
-                              <td>
-                                <div class="download-card style-02">
-                                  <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
-                                </div>
-                              </td>
-                              <td class="title-container" style="min-width:450px;">
-                                <a class="fw-600 h-color-t" href="#">
-                                  รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
-                                </a>
-                                <div class="text-footer">
-                                  <div class="wrapper">
-                                    <div class="icon">
-                                      <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                      <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                          <table class="table table-download style-03" data-aos="fade-up" data-aos-delay="450">
+                            <tbody>
+                              <?php
+                                foreach([
+                                  'pdf-02', 'ppt'
+                                ] as $k){
+                              ?>
+                                <tr class="box-shadow style-02 mb-2">
+                                  <td>
+                                    <div class="download-card flex-column style-02">
+                                      <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                                      <p class="xs color-white">0.2 MB</p>
+                                    </div>
+                                  </td>
+                                  <td class="title-container" style="min-width:450px;">
+                                    <a class="p lh-sm title border-bottom fw-600" href="#">
+                                      ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครอง
+                                      ในระบอบประชาธิปไตย จำนวน 4 รายการ ด้วยวิธีประกวดราคา
+                                    </a>
+                                    <div class="text-footer mt-1">
+                                      <div class="wrapper">
+                                        <div class="icon">
+                                          <em class="fa-solid fa-triangle-exclamation mr-1"></em>
+                                          <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td class="button-container" style="min-width:90px;">
+                                  <div class="btns jc-end">
+                                    <div href="#" class="btn btn-white-theme width-auto btn-action btn-12">
+                                      ดาวน์โหลดไฟล์
+                                      <em class="fa-solid fa-arrow-down ml-1"></em>
                                     </div>
                                   </div>
-                                </div>
-                              </td>
-                              <td class="arrow-container" style="min-width:100px;">
-                                <div class="d-flex ai-center jc-center fw-wrap">
-                                  <a class="btn btn-action-style-02 btn-02" href="#">
-                                    <em class="fa-solid fa-arrow-down"></em>
-                                  </a>
-                                </div>
-                                <p class="xs text-center color-02 color-black-theme fw-400 mt-1">ดาวน์โหลด</p>
-                              </td>
-                            </tr>
-                          <?php }?>
-                        </tbody>
-                      </table>
-                    </div>  
+                                  </td>
+                                  <td class="data-analysis" style="min-width:220px;">
+                                    <div class="wrapper">
+                                      <div class="icon">
+                                        <em class="fa-regular fa-calendar color-04 mr-1"></em>
+                                        <p class="sm fw-400">15 กุมภาพันธ์ 2565</p>
+                                      </div>
+                                      <div class="icon">
+                                        <em class="fa-solid fa-floppy-disk color-04 mr-1"></em>
+                                        <p class="sm fw-400">ดาวน์โหลด 120 ครั้ง</p>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              <?php }?>
+                            </tbody>
+                          </table>
+                        </div>  
                       </div>
                     </div>
-                   
                   </div>
                 </div>
               </div>
