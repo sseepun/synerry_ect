@@ -1845,9 +1845,11 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 .ss-card-09:hover .wrapper > .img-container .ss-img > .filter-01{opacity:1;}
 .ss-card-09 .ss-img{border-radius:.5rem; overflow:hidden; border:4px solid transparent; transition:border .5s;}
-.ss-card-09 .wrapper > .text-container{width:80%; padding-left:1rem; display:flex;}
-.ss-card-09 .wrapper > .text-container .text > .title{-webkit-line-clamp:2;}
-.ss-card-09 .wrapper > .text-container .text > .desc{-webkit-line-clamp:3;}
+.ss-card-09 .wrapper > .text-container{width:80%; display:flex;}
+.ss-card-09 .wrapper > .text-container .text{width:calc(100% - 10rem); padding:0 1rem;}
+.ss-card-09 .wrapper > .text-container .btns{width:10rem;}
+.ss-card-09 .wrapper > .text-container .text > .title{-webkit-line-clamp:2; min-height:3.375rem;}
+.ss-card-09 .wrapper > .text-container .text > .desc{-webkit-line-clamp:3; min-height:4.5rem;}
 .ss-card-09 .wrapper > .text-container .text > .card-top .wrapper{display:flex; align-items:center;}
 .ss-card-09 .wrapper > .text-container .text > .card-top .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
 .ss-card-09 .wrapper > .text-container .text > .card-top .wrapper > .icon em{font-size:.8125rem;}
@@ -1856,8 +1858,14 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-09:hover .btns .icon{display:inline-block; margin-right:.375rem;}
 @media screen and (max-width:991.98px){
   .ss-card-09 .wrapper > .img-container{width:100%;}
-  .ss-card-09 .wrapper > .text-container{width:100%; flex-direction:column; padding-left:0;}
+  .ss-card-09 .wrapper > .text-container{width:100%; flex-direction:column;}
+  .ss-card-09 .wrapper > .text-container .text{width:100%; padding:.5rem;}
+  .ss-card-09 .wrapper > .text-container .btns{width:auto;}
   .ss-card-09 .wrapper > .text-container .btns{margin-top:1rem;}
+}
+@media screen and (max-width:575.98px){
+  .ss-card-09 .wrapper > .text-container .text > .title,
+  .ss-card-09 .wrapper > .text-container .text > .desc{min-height:0;}
 }
 
 /* Special Card 10 */
