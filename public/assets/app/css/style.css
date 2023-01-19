@@ -777,6 +777,12 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .list-style-02.size-02 li:before{top:.6875rem; width:.5625rem; height:.125rem;}
 
+.list-style-03{padding:0; margin:0;}
+.list-style-03 li{position:relative; list-style:none; padding:.1875rem 0 .1875rem 1rem;}
+.list-style-03 li:before{
+  content:''; position:absolute; top:.625rem; left:0;
+  width:.375rem; height:.375rem; border-radius:50%;
+}
 
 
 /* Semantic UI */
@@ -1563,7 +1569,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .fw-unset{flex-wrap:unset!important;}
 
 .flex-column{flex-direction:column!important;}
-@media screen and (max-width:575.98px){
+@media screen and (max-width:767.98px){
   .flex-column-reverse.sm{flex-direction:column-reverse;}
 }
 
@@ -2207,7 +2213,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-29 .text-container > .arrow{
   width:1.5rem; height:1.5rem; 
   display:flex; justify-content:center; align-items:center;
- }
+}
  .ss-card-29 .text-container > .arrow em{
   margin:.0625rem .125rem 0 0; transition:margin .25s; width:1.5rem;
 }
@@ -2231,6 +2237,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-30 .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
 .ss-card-30 .wrapper > .img-container{width:40%; border-radius:.875rem; overflow:hidden;}
 .ss-card-30 .wrapper > .text-container{width:60%; padding-left:3rem;}
+.ss-card-30 .wrapper > .img-container.size-02,
+.ss-card-30 .wrapper > .text-container.size-02{width:50%;}
 @media screen and (max-width:1199.98px){
   .ss-card-30 .wrapper > .img-container{width:50%;}
   .ss-card-30 .wrapper > .text-container{width:50%;}
@@ -2239,6 +2247,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 @media screen and (max-width:991.98px){
   .ss-card-30 .wrapper > .img-container{width:100%;}
   .ss-card-30 .wrapper > .text-container{width:100%; padding:1rem 0;}
+  .ss-card-30 .wrapper > .img-container.size-02,
+  .ss-card-30 .wrapper > .text-container.size-02{width:100%;}
 }
 
 /* Special Card 31 */

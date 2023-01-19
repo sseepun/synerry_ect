@@ -296,9 +296,15 @@ nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-co
 .faq-07 .faq .text-container > .analysis-results .wrapper{color:#000000!important;}
 .faq-07 .faq > .answer .content > .wrapper .content-left{background:#000000; color:#ffffff;}
 
+/* Faq 08 */
+.faq-08 .faq > .question{background:#000000; color:#ffffff;}
+
 /* rc-container */
 .rc-container.style-02 > label::before{border-color:#ffffff;}
 .rc-container.style-02 > label::after{background:#000000;}
+
+.rc-container.style-03 > label::after{background:#000000!important;}
+.rc-container.style-03 > label::before{border-color:#000000;}
 
 /* Mobile Device Container */
 .mobile-device-container .wrapper > .text-container{background:#000000;}

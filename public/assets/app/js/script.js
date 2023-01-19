@@ -620,6 +620,26 @@ function ssPageProcess(){
          });
      }
 
+     var faq08 = $('.faq-08');
+     if(faq08.length){
+         faq08.each(function(){
+             $(this).find('.faq > .question .btn.btn-action').click(function(e){
+                e.preventDefault();
+                var self = $(this),
+                    parent = $(this).closest('.faq');
+                if(parent.hasClass('active')){
+                    self.html('ทำแบบสอบถาม');
+                    parent.removeClass('active');
+                    parent.find('> .answer').slideUp();
+                }else{
+                    self.html('ปิดแบบสอบถาม');
+                    parent.addClass('active');
+                    parent.find('> .answer').slideDown();
+                }
+             });
+         });
+     }
+
     // Section 05
     var section05 = $('.section-05');
     if(section05.length){

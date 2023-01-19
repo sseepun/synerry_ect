@@ -11,8 +11,8 @@
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
       [ 'url' => '#', 'display' => 'ข่าวสาร/ประชาสัมพันธ์' ],
     ];
-    $breadcrumbTitle = 'ศูนย์รับเรื่องร้องเรียน';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/20.jpg';
+    $breadcrumbTitle = 'แจ้งเบาะแสทุจริตการเลือกตั้ง';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/21.jpg';
     include('component/breadcrumb-style-02.php');
   ?>
 
@@ -24,29 +24,36 @@
           <div class="body">
             <div class="ss-title">
               <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-                ศูนย์รับเรื่องร้องเรียน
+                แจ้งเบาะแสทุจริตการเลือกตั้ง
               </h3>
             </div>
             <div class="ss-card ss-card-30 style-02 mt-4" data-aos="fade-up" data-aos-delay="150">
               <div class="wrapper">
-                <div class="img-container">
+                <div class="img-container size-02">
                   <div class="ss-img no-hover">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/90.jpg')"></div>
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/94.jpg')"></div>
                   </div>
                 </div>
-                <div class="text-container color-black-theme">
+                <div class="text-container size-02 color-black-theme">
                   <p class="fw-400">
-                    สำนักงานคณะกรรมการการเลือกตั้ง จัดทำศูนย์ร้องเรียนขึ้นเพื่อมีไว้สำหรับผู้ที่มีความเดือดร้อน 
-                    หรือผู้ที่ต้องการสอบถามปัญหาต่างๆ ของสำนักงานคณะกรรมการการเลือกตั้ง ได้เสนอเรื่องหรือข้อร้องเรียน 
-                    ให้ทางสำนักงานฯ รับทราบและนำไปดำเนินการแก้ไข ซึ่งข้อร้องเรียนบางเรื่องอาจไม่อยู่ในความรับผิดชอบของสำนักงานฯ 
-                    ดังนั้น เพื่อให้เรื่องของท่านถึงผู้รับผิดชอบโดยตรงและรวดเร็ว ท่านควรตรวจสอบก่อน และร้องเรียนโดยตรงได้ที่
+                    หากท่านพบปัญหาหรือพบเบาะแสทุจริตในการเลือกตั้ง 
+                    ท่านสามารถแจ้งเราได้ผ่านทางแบบฟอร์มบนเว็บไซต์ในหน้านี้ 
+                    โดยข้อมูลต่างๆ ของท่านจะถูกเก็บเป็นความลับ
                   </p>
-                  <ul class="list-style-01">
+                  <p class="h6 color-04 fw-500 mt-1">ท่านสามารถแจ้งได้ที่</p>
+                  <ul class="ss-list style-08 mt-1">
                     <li class="fw-400">
-                      ส่งเรื่องร้องเรียนผ่านทาง E-mail มาที่<a class="color-02 border-bottom bcolor-02 ml-1" href="#">help@ect.go.th</a>
-                      <em class="fa-solid fa-arrow-up-right-from-square ml-2"></em>
+                      สำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดทุกจังหวัด
                     </li>
-                    <li class="fw-400 mt-2">หรือสามารถแจ้งผ่านแบบฟอร์มด้านล่าง (ควรเป็นเรื่องที่เปิดเผยต่อสาธารณชนได้)</li>
+                    <li class="fw-400 mt-2">
+                      ฝ่ายปฏิบัติการข่าว โทร. 02-141-8050 หรือ 02-141-8201 หรือ 02-141-2611
+                    </li>
+                    <li class="fw-400 mt-2">
+                      สายด่วน กกต. โทร. 1444 กด 2
+                    </li>
+                    <li class="fw-400 mt-2">
+                      แจ้งทางเว็บไซต์โดยกรอกข้อมูลลงในแบบฟอร์ม
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -55,8 +62,38 @@
             <div class="form-container-01 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
             <div class="grids">
               <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
-                <h3 class="color-black-theme fw-600">แบบฟอร์มรับเรื่องร้องเรียน</h3>
-                <p class="color-black-theme color-gray fw-400">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย<span class="text-danger fw-400 ml-1">*</span></p>
+                <h3 class="color-black-theme fw-600">แจ้งเบาะแสทุจริตการเลือกตั้ง</h3>
+                <p class="color-black-theme color-gray fw-400">
+                  กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย <span class="text-danger fw-400 ml-1">*</span>
+                </p>
+                <p class="color-09 fw-500 mt-2">
+                  การแจ้งเหตุหรือเบาะแสผ่านทางเว็บไซต์
+                </p>
+                <ul class="list-style-03 mt-1">
+                  <li class="fw-400">
+                    ไม่ถือว่าเป็นการยื่นคำร้องคัดค้านการเลือกตั้ง
+                    ตามระเบียบคณะกรรมการการเลือกตั้งว่าด้วย
+                    การสืบสวนสอบสวนและการวินิจฉัยชี้ขาด
+                  </li>
+                  <li class="fw-400 mt-2">
+                    ต้องไม่มีเจตนาหรือจงใจกลั่นแกล้ง เพื่อทำให้บุคคลอื่นได้รับความเสื่อมเสียหรือเสียหาย
+                  </li>
+                  <li class="fw-400 mt-2">
+                    ต้องไม่แจ้งด้วยข้อความอันเป็นเท็จ
+                  </li>
+                  <li class="fw-400 mt-2">
+                    กรุณาใช้ถ้อยคำสุภาพ
+                  </li>
+                  <li class="fw-400 mt-2">
+                    เลือกข้อที่ต้องการจะแจ้งข้อมูล
+                    <ul class="list-style-02 p-0 size-02 line-black">
+                      <li class="fw-400">การเลือก ส.ว.</li>
+                      <li class="fw-400">การเลือกตั้ง ส.ส.</li>
+                      <li class="fw-400">การเลือกตั้งท้องถิ่น</li>
+                      <li class="fw-400">เบาะแสการหาเสียงทางสื่ออิเล็กทรอนิกส์</li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
               <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
                 <form action="action.php" method="post">

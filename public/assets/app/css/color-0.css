@@ -19,6 +19,7 @@ html, body, table.table{color:#000000;}
 .color-06, .h-color-06:hover{color:#1c4d38!important;}
 .color-07, .h-color-07:hover{color:#fff102!important;}
 .color-08, .h-color-08:hover{color:#69696a;}
+.color-09, .h-color-09:hover{color:#10563a;}
 
 .bg-p{background:#0ab3de!important;}
 .bg-s{background:#194e84!important;}
@@ -36,6 +37,7 @@ html, body, table.table{color:#000000;}
 .bg-06{background:#1c4d38!important;}
 .bg-07{background:#fff102!important;}
 .bg-08{background:#69696a!important;}
+.bg-09{background:#10563a!important;}
 
 .bcolor-p{border-color:#0ab3de!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -53,6 +55,7 @@ html, body, table.table{color:#000000;}
 .bcolor-06{border-color:#1c4d38!important;}
 .bcolor-07{border-color:#fff102!important;}
 .bcolor-08{border-color:#69696a!important;}
+.bcolor-09{border-color:#10563a!important;}
 
 
 /* Buttons */
@@ -196,6 +199,7 @@ html, body, table.table{color:#000000;}
 .list-style-01 li:before{background:#2e603c;}
 .list-style-02 li:before{background:#2e603c;}
 .list-style-02.line-black li:before{background:#000000;}
+.list-style-03 li::before{background:#30906a;}
 
 /* Special Separation 01 */
 .ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#e1e1e1;}
@@ -301,6 +305,24 @@ html, body, table.table{color:#000000;}
 .faq-07 .faq.active .arrow-container{background:#000000;}
 .faq-07 .faq > .answer .content > .wrapper .content-left{background:#303031; color:#ffffff;}
 
+/* Faq 08 */
+.faq-08 .faq > .question{background:#f2f2f2;}
+.faq-08 .faq:hover > .question,
+.faq-08 .faq.active > .question{background:#10563a; border-color:#10563a;}
+.faq-08 .faq:hover > .question .title, .faq-08 .faq:hover > .question .ftag,
+.faq-08 .faq.active > .question .title{color:#ffffff;}
+.faq-08 .faq > .question h6{color:#222325;}
+.faq-08 .faq > .question .ftag{color:#2e603c;}
+.faq-08 .faq.active > .question .ftag{color:#ffffff;}
+.faq-08 .faq .arrow::before, .faq-08 .faq .arrow::after{background:#fef200;}
+.faq-08 .fag.active > .answer{border:3px solid yellow; display:block!important;}
+.faq-08 .fag.active > .answer{border-color:#3aa57b!important;}
+.faq-08 .faq .answer-wrapper{background:#044c21; color:#ffffff;}
+.faq-08 .faq.active .date-view{color:#ffffff;}
+.faq-08 .faq .arrow > .wrapper em{color:#fef200;}
+.faq-08 .faq .date-view > .wrapper .icon > em{color:#2e603c;}
+.faq-08 .faq.active .date-view > .wrapper .icon > em{color:#ffffff;}
+
 /* Accessibility & Quick Links */
 nav.side-panel .icon{background:#30906a; color:#ffffff;}
 nav.side-panel .panel{box-shadow:0px 4px 8px 5px rgba(0,0,0,.08);}
@@ -356,6 +378,9 @@ textarea.style-02{background:#eeeeee!important; border-color:#eeeeee!important;}
 
 .rc-container.style-02 > label::before{border-color:#ffffff;}
 .rc-container.style-02 > label::after{background:#01d99a;}
+
+.rc-container.style-03 > label::before{border-color:#343434;}
+.rc-container.style-03 > label::after{background:#10563a;}
 
 /* Select */
 select.style-02{background:#2e603b!important; color:#ffffff!important; border-color:#2e603b!important;}
@@ -588,6 +613,7 @@ nav.footer.style-06 .footer-socials > .social:hover{color:#fff102; background:#2
 .ss-list.style-05 > li a:hover{color:#2e603c;}
 .ss-list.style-06 > li::before{background:#ffffff;}
 .ss-list.style-07 > li::before{background:#309168;}
+.ss-list.style-08 > li::before{background:#30906a;}
 
 /* Special Tags */
 .ss-tags > .tag{background:#04adf0; color:#ffffff;}

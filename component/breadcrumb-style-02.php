@@ -17,7 +17,7 @@
           <div class="grids ai-center" data-aos="fade-up" data-aos-delay="0">
             <div class="grid lg-50 md-100 sm-100 mt-0">
               <?php foreach($breadcrumb as $b){?>
-                <a class="p title-link color-white sm fw-400" href="<?= $b['url'] ?>">
+                <a class="p title-link color-white sm border fw-400" href="<?= $b['url'] ?>">
                     <?= $b['display'] ?>
                 </a>
               <?php }?>

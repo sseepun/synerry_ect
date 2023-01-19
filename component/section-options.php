@@ -14,7 +14,7 @@
           <em class="fa-solid fa-list"></em>
         </div>
       </a>
-      <a class="option option-search bg-09" href="#">
+      <a class="option" href="#">
         <div class="icon active">
           <em class="fas fa-rss"></em>
         </div>
