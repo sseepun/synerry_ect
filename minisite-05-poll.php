@@ -13,7 +13,8 @@
     ];
     $breadcrumbTitle = 'แบบสำรวจความคิดเห็น';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/22.jpg';
-    $sectionOptions = [ 'views', 'rss' ];
+    $sectionOptions = [ 'views-02'];
+    $formContainer = true;
     include('component/breadcrumb-style-02.php');
   ?>
 
