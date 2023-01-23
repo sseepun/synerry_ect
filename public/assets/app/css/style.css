@@ -2263,6 +2263,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ss-card-30 .wrapper > .text-container{width:100%; padding:1rem 0;}
   .ss-card-30 .wrapper > .img-container.size-02,
   .ss-card-30 .wrapper > .text-container.size-02{width:100%;}
+  .ss-card-30.style-02 .wrapper > .text-container{padding-left:0!important;}
 }
 
 /* Special Card 31 */
