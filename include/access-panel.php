@@ -1,5 +1,5 @@
 <!-- Member page -->
-<nav class="side-panel access-panel">
+<nav class="side-panel style-02 access-panel">
     <div class="wrapper">
       <div class="panel">
         <div class="panel-row">

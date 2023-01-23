@@ -23,44 +23,45 @@
               <?php }?>
             </div>
             <div class="grid lg-50 md-100 sm-100 mt-0">
+            <?php if($formContainer === true){?>
               <form class="form-container-03">
                 <div class="grids">
                   <div class="grid sm-50 mt-0">
                     <div class="option">
-                      <span class="p title sm fw-500 mr-2">ประเภท</span>
-                      <select class="ui dropdown">
+                      <span class="p sub-title sm fw-500 mr-2">ประเภท</span>
+                      <select class="ui dropdown border">
                         <option value="0">ข่าวประชาสัมพันธ์</option>
                         <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                         <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                         <option value="3">ข่าวประชาสัมพันธ์ 3</option>
                       </select>
-                      <div class="dropdown-icon">
+                      <div class="dropdown-icon border">
                         <em class="fa-solid fa-chevron-down"></em>
                       </div>
                     </div>
                   </div>
                   <div class="grid sm-50 mt-0">
                   <div class="option">
-                      <span class="p title size-02 sm fw-500 mr-2">เรียงลำดับ</span>
-                      <select class="ui dropdown size-02">
+                      <span class="p sub-title size-02 sm fw-500 mr-2">เรียงลำดับ</span>
+                      <select class="ui dropdown border size-02">
                         <option value="0">เลือกหมวดหมู่</option>
                         <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                         <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                         <option value="3">ข่าวประชาสัมพันธ์ 3</option>
                       </select>
-                      <div class="dropdown-icon">
+                      <div class="dropdown-icon border">
                         <em class="fa-solid fa-chevron-down"></em>
                       </div>
                     </div>
                   </div>
                 </div>
               </form>
+            <?php }?>
             </div>
           </div>
-          <?php 
-            $sectionOptions = [ 'views', 'rss' ];
-            include_once('component/section-options.php');
-          ?>
+          <?php if(!empty($sectionOptions)){?>
+            <?php include_once('component/section-options.php'); ?>
+          <?php }?>
         </div>
       </div>
     </div>

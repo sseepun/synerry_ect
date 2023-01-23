@@ -13,13 +13,15 @@
     ];
     $breadcrumbTitle = 'ศูนย์รับเรื่องร้องเรียน';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/20.jpg';
+    $sectionOptions;
+    $formContainer = false;
     include('component/breadcrumb-style-02.php');
   ?>
 
   <section class="section-14">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
-      <div class="ss-box style-02 w-full">
+      <div class="ss-box bg-white-theme style-02 w-full">
         <div class="ss-box-shadow md"></div>
           <div class="body">
             <div class="ss-title">
@@ -90,14 +92,14 @@
                       </div>
                     </div>
                     <div class="grid sm-100 mt-4">
-                      <div class="option cate">
-                        <select class="ui color-gray dropdown bg-style-02" required>
+                      <div class="option cate style-02">
+                        <select class="ui color-gray dropdown bg-style-02 border-2" required>
                           <option value="">หมวดหมู่*</option>
                           <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                           <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                           <option value="3">ข่าวประชาสัมพันธ์ 3</option>
                         </select>
-                        <div class="dropdown-icon bg-black">
+                        <div class="dropdown-icon border-left bg-black">
                           <em class="fa-solid fa-chevron-down"></em>
                         </div>
                       </div>
@@ -128,13 +130,13 @@
                       <div class="grids no-gap">
                         <div class="grid sm-50 xs-50 mt-0">
                           <div class="pr-1">
-                            <button type="submit" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-12">
+                            <button type="submit" href="#" class="btn btn-black-theme btn-action width-full mw-auto btn-12">
                               ส่งข้อความ
                             </button>
                           </div>
                         </div>
                         <div class="grid sm-50 xs-50 mt-0">
-                          <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-03">
+                          <button type="cancel" href="#" class="btn btn-black-theme btn-action width-full mw-auto btn-03">
                             ยกเลิก
                           </button>
                         </div>
@@ -150,7 +152,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-style-04.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <script>

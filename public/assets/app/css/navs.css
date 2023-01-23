@@ -385,6 +385,7 @@ nav.side-panel + .access-filter{
   cursor:pointer; pointer-events:none; opacity:0; background:rgba(0,0,0,.4);
   transition:opacity .25s;
 }
+nav.side-panel.style-02 + .access-filter{height:100%;}
 nav.side-panel.active + .access-filter{opacity:1; pointer-events:auto;}
 
 /* Sidebar (Member Page) */
@@ -461,7 +462,7 @@ nav.side-panel.active + .access-filter{opacity:1; pointer-events:auto;}
 .main-container .main-content > .wrapper .ss-box.style-02{border:1px solid transparent;}
 .main-container .ss-box > .ss-box-content{border:1px solid transparent;}
 .main-container  .ss-box > .ss-box-content{min-height:32rem;}
-.main-container  .ss-box > .ss-box-content.size-02{min-height:28rem;}
+.main-container  .ss-box > .ss-box-content.size-02{min-height:30rem;}
 .main-container  .ss-box > .ss-box-content.size-unset{min-height:0;}
 
 
@@ -578,3 +579,12 @@ nav.footer.style-06 .count-web > *:last-child{border-right:0;}
 @media screen and (max-width:991.98px){
   nav.footer.style-06 .footer-bottom .counts{flex-direction:column; margin-bottom:.5rem;}
 }
+
+/* Footer Style 07 */
+nav.footer.style-07{padding-bottom:0; background-size:cover; background-position:center; height:100%;}
+nav.footer.style-07 .footer-container{border-radius:.875rem .875rem 0 0; margin-top:3rem;}
+nav.footer.style-07 .footer-container > .wrapper{padding:2rem;}
+nav.footer.style-07 .footer-bottom{
+  padding:1.215rem; text-align:center;
+}
+nav.footer.style-07 .google-map{border-radius:.875rem!important;}

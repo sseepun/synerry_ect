@@ -230,7 +230,7 @@
             </div>
           </div>
         </div>
-
+        
         <?php 
           $titles02 = [
             [ 

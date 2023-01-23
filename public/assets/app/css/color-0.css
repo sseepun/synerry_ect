@@ -545,6 +545,15 @@ nav.footer.style-06 .count-web > *{
 nav.footer.style-06 .footer-socials > .social{background:#30906a; color:#ffffff; border-color:#30906a;}
 nav.footer.style-06 .footer-socials > .social:hover{color:#fff102; background:#2e603c; border-color:#2e603c;}
 
+/* Footer Style 07 */
+nav.footer.style-07{background:#ffffff; color:#ffffff;}
+nav.footer.style-07 .footer-socials > .social{
+  background:#f2f2f2; color:#2e603c; border-color:#f2f2f2;
+}
+nav.footer.style-07 .footer-socials > .social:hover{color:#ffffff; background:#2e603c; border-color:#2e603c;}
+nav.footer.style-07 .footer-container{background:#30906a; box-shadow: 0px 0px 10px 0px rgb(0 0 0/7%);}
+nav.footer.style-07 .footer-bottom{background:#ffffff;}
+
 /* Breadcrumb 01 */
 .breadcrumb-01 .bottom > .wrapper{background:#ffffff;}
 .breadcrumb-01 .bottom > .wrapper a{color:#000000;}
@@ -560,6 +569,7 @@ nav.footer.style-06 .footer-socials > .social:hover{color:#fff102; background:#2
 .breadcrumb-02 .wrapper a:last-child::before{background:#30906a;}
 .breadcrumb-02 .wrapper a::after{background:#ffffff;}
 .breadcrumb-02 .title{color:#eeeeee;}
+.breadcrumb-02 .sub-title{color:#ffffff;}
 
 /* Form Container */
 .form-container-01{background:#ffffff;}
@@ -614,6 +624,7 @@ nav.footer.style-06 .footer-socials > .social:hover{color:#fff102; background:#2
 .ss-list.style-06 > li::before{background:#ffffff;}
 .ss-list.style-07 > li::before{background:#309168;}
 .ss-list.style-08 > li::before{background:#30906a;}
+.ss-list.style-09 > li::before{background:#ffffff;}
 
 /* Special Tags */
 .ss-tags > .tag{background:#04adf0; color:#ffffff;}
@@ -677,8 +688,9 @@ select{background:#eeeeee!important;}
 .sitemap-01 .sitemap-grid{border-color:#e2e2e2!important;}
 
 /* Table */
+table.table.table-download.style-03 td:nth-child(1){background:#2e603b;}
+table.table.table-download.style-03 .download-card{background:#2e603b;}
 table.table.table-download .download-card{background:#30906a;}
-table.table.table-download .download-card.style-02{background:#2e603b;}
 table.table.table-download .text-footer > .wrapper .icon{color:#30906a;}
 table.table.style-02.table-download .download-card{background:#ffffff;}
 

@@ -13,6 +13,8 @@
     ];
     $breadcrumbTitle = 'คำถามที่พบบ่อย';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/19.jpg';
+    $sectionOptions = [ 'views-02'];
+    $formContainer = true;
     include('component/breadcrumb-style-02.php');
   ?>
 
@@ -107,7 +109,7 @@
                                   </td>
                                   <td class="button-container" style="min-width:90px;">
                                   <div class="btns jc-end">
-                                    <div href="#" class="btn btn-white-theme width-auto btn-action btn-12">
+                                    <div href="#" class="btn btn-white-theme width-auto btn-action btn-12 btn-black-theme">
                                       ดาวน์โหลดไฟล์
                                       <em class="fa-solid fa-arrow-down ml-1"></em>
                                     </div>
@@ -153,11 +155,7 @@
     </div>
   </div>
 
-
-
-  
-
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-style-04.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   </script>

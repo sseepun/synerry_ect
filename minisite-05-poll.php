@@ -13,6 +13,7 @@
     ];
     $breadcrumbTitle = 'แบบสำรวจความคิดเห็น';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/22.jpg';
+    $sectionOptions = [ 'views', 'rss' ];
     include('component/breadcrumb-style-02.php');
   ?>
 
@@ -85,10 +86,10 @@
                               </div>
                             </fieldset>
                             <div class="btns mt-4">
-                              <button type="submit" class="btn btn-action btn-12">
+                              <button type="submit" class="btn btn-action btn-12 btn-black-theme">
                                 โหวต
                               </button>
-                              <button type="submit" class="btn btn-action btn-03">
+                              <button type="submit" class="btn btn-action btn-03 btn-black-theme">
                                 แสดงผลโหวต
                               </button>
                             </div>
@@ -148,7 +149,7 @@
     </div>
   </div>
 
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-style-04.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   </script>

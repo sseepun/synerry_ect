@@ -157,8 +157,8 @@
                 </div> 
               </div> 
               <div class="ss-box-content p-4">
-                <div class="grids">
-                  <div class="grid lg-100">
+                <div class="grids jc-center">
+                  <div class="grid lg-100 md-100 sm-100">
                     <a class="ss-card ss-card-07" href="#">
                       <div class="wrapper">
                         <div class="img-container">
@@ -193,7 +193,7 @@
                     ]
                   ?>
                   <?php foreach($content01 as $d) {?>
-                    <div class="grid lg-1-3 mt-2">
+                    <div class="grid lg-1-3 sm-100 mt-2">
                       <div class="ss-card ss-card-12 mt-3">
                         <div class="ss-img square">
                           <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
@@ -233,6 +233,7 @@
                 </div> 
               </div> 
               <div class="ss-box-content p-4">
+                <div class="scroll-x-wrapper" data-simplebar>
                 <table class="table table-download">
                   <tbody>
                     <?php
@@ -246,11 +247,11 @@
                             <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                           </div>
                         </td>
-                        <td class="text-left title-container">
+                        <td class="text-left title-container" style="min-width:450px;">
                           <a class="fw-600 h-color-t" href="#">
                             รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                           </a>
-                          <div class="text-footer arrow-container">
+                          <div class="text-footer arrow-container" style="min-width:220px;">
                             <div class="wrapper">
                               <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                               <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
@@ -265,6 +266,7 @@
                     <?php }?>
                   </tbody>
                 </table>
+                      </div>
               </div>
               <div class="btns jc-center">
                 <div href="#" class="btn btn-action btn-08">
@@ -344,7 +346,7 @@
                   <div class="grid lg-70 md-100 sm-100">
                     <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                       <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/66.jpg');"></div>
                         <div class="hover-container show">
                           <div class="icon sm">
                             <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
@@ -406,107 +408,160 @@
               </div> 
               <div class="ss-box-content size-unset p-4">
                 <div class="grids">
-                  <div class="grid xl-60 lg-100 md-100 sm-100 mt-0">
-                    <div class="grids">
-                      <div class="grid xl-50 lg-50 md-100 sm-100 mt-0">
-                        <a class="ss-card ss-card-06" href="#">
-                          <div class="ss-img">
-                            <div class="img-bg" style="background-image:url('public/assets/app/images/content/01.jpg');"></div>
-                          </div>
-                          <div class="text-wrapper">
-                            <div class="desc h6 fw-500 h-color-t" href="#">
-                              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                              ปฏิบัติงานระดับการชำนาญพิเศษ
-                              กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                              ปฏิบัติงานระดับการชำนาญพิเศษ
-                            </div>
-                            <div class="card-top">
-                              <div class="wrapper">
-                                <div class="icon">
-                                  <em class="fa-solid fa-calendar-days"></em>
-                                  <span class="p sm ml-2">08 มิถุนายน 2565</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="filter-01"></div>
-                        </a>
+                  <div class="grid xl-1-3 lg-100 md-100 sm-100 mt-0">
+                    <a class="ss-card ss-card-06" href="#">
+                      <div class="ss-img">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
                       </div>
-                      <div class="grid xl-50 lg-50 md-100 sm-100 mt-0">
-                        <div class="grids">
-                          <div class="grid lg-100 md-100 sm-100 mt-1">
-                            <a class="ss-card ss-card-07 style-02" href="#">
-                              <div class="wrapper">
-                                <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
-                                  </div>
-                                </div>
-                                <div class="text-container">
-                                  <div class="title style-02 p fw-400" href="#">
-                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                                  </div>
-                                  <div class="card-footer mt-2">
-                                    <div class="wrapper">
-                                      <div class="icon">
-                                        <em class="fa-solid fa-calendar-days"></em>
-                                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="grid lg-100 md-100 sm-100 mt-1">
-                            <a class="ss-card ss-card-07 style-02" href="#">
-                              <div class="wrapper">
-                                <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
-                                  </div>
-                                </div>
-                                <div class="text-container">
-                                  <div class="title style-02 p fw-400" href="#">
-                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                                  </div>
-                                  <div class="card-footer mt-2">
-                                    <div class="wrapper">
-                                      <div class="icon">
-                                        <em class="fa-solid fa-calendar-days"></em>
-                                        <span class="p sm ml-2">08 มิถุนายน 2565</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
+                      <div class="text-wrapper">
+                        <div class="title h6 fw-500 h-color-t" href="#">
+                          กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                          ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                          ปฏิบัติงานระดับการชำนาญพิเศษ
+                          กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                          ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                          ปฏิบัติงานระดับการชำนาญพิเศษ
+                        </div>
+                        <div class="card-top">
+                          <div class="wrapper">
+                            <div class="icon">
+                              <em class="fa-solid fa-calendar-days"></em>
+                              <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                            </div>
                           </div>
                         </div>
                       </div>
+                      <div class="filter-01"></div>
+                    </a>
+                  </div>
+                  <div class="grid xl-2-3 lg-100 md-100 sm-100 mt-0 mt-unset-lg">
+                    <div class="grids">
+                      <div class="grid lg-50 md-100 sm-100 mt-0">
+                        <div class="grids">
+                          <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
+                            <a class="ss-card ss-card-07 style-02" href="#">
+                              <div class="wrapper">
+                                <div class="img-container">
+                                  <div class="ss-img">
+                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <div class="title style-02 p fw-400" href="#">
+                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                                    ปฏิบัติงานระดับการชำนาญพิเศษ
+                                  </div>
+                                  <div class="card-footer mt-2">
+                                    <div class="wrapper">
+                                      <div class="icon">
+                                        <em class="fa-solid fa-calendar-days"></em>
+                                        <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
+                            <a class="ss-card ss-card-07 style-02" href="#">
+                              <div class="wrapper">
+                                <div class="img-container">
+                                  <div class="ss-img">
+                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <div class="title style-02 p fw-400" href="#">
+                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                                    ปฏิบัติงานระดับการชำนาญพิเศษ
+                                  </div>
+                                  <div class="card-footer mt-2">
+                                    <div class="wrapper">
+                                      <div class="icon">
+                                        <em class="fa-solid fa-calendar-days"></em>
+                                        <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </div> 
+                      </div>
+                      <div class="grid lg-50 md-100 sm-100 mt-0">
+                        <div class="grids">
+                          <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
+                            <a class="ss-card ss-card-07 style-02" href="#">
+                              <div class="wrapper">
+                                <div class="img-container">
+                                  <div class="ss-img">
+                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/69.jpg');"></div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <div class="title style-02 p fw-400" href="#">
+                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                                    ปฏิบัติงานระดับการชำนาญพิเศษ
+                                  </div>
+                                  <div class="card-footer mt-2">
+                                    <div class="wrapper">
+                                      <div class="icon">
+                                        <em class="fa-solid fa-calendar-days"></em>
+                                        <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
+                            <a class="ss-card ss-card-07 style-02" href="#">
+                              <div class="wrapper">
+                                <div class="img-container">
+                                  <div class="ss-img">
+                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <div class="title style-02 p fw-400" href="#">
+                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
+                                    ปฏิบัติงานระดับการชำนาญพิเศษ
+                                  </div>
+                                  <div class="card-footer mt-2">
+                                    <div class="wrapper">
+                                      <div class="icon">
+                                        <em class="fa-solid fa-calendar-days"></em>
+                                        <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </div> 
+                      </div>
                     </div>
                   </div>
-                  <div class="grid xl-40 lg-100 md-100 sm-100">
-                  
+                </div>
+                <div class="btns jc-center mt-4">
+                  <div href="#" class="btn btn-action btn-08">
+                    <p>ดูทั้งหมด</p>
+                  </div>
                 </div>
               </div>
-              <div class="btns jc-center">
-                <div href="#" class="btn btn-action btn-08">
-                  <p>ดูทั้งหมด</p>
-                </div>
-              </div>
-            </div>
-          </div>      
-        </div>
-      </div>       
-    </div>     
-  </div>
+            </div>      
+          </div>
+        </div>       
+      </div>     
+   </div>
 
   <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>

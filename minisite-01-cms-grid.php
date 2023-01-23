@@ -13,6 +13,8 @@
     ];
     $breadcrumbTitle = 'ข่าวประชาสัมพันธ์';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/18.jpg';
+    $sectionOptions = [ 'views', 'rss' ];
+    $formContainer = true;
     include('component/breadcrumb-style-02.php');
   ?>
 
@@ -212,7 +214,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-style-04.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   </script>

@@ -87,7 +87,9 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-02:hover{background:#ffffff!important; color:#000000!important;}
 
 .btn.btn-03.btn-black-theme, .btn.btn-03.btn-black-theme:focus,
-.btn.btn-04, .btn.btn-04:focus{background:#000000; color:#ffffff; border-color:#000000;}
+.btn.btn-04, .btn.btn-04:focus,
+.btn.btn-12.btn-black-theme, .btn.btn-12.btn-black-theme:focus
+{background:#000000; color:#ffffff; border-color:#000000;}
 
 .btn.btn-action-style-02:hover{border-color:#000000;}
 .btn.btn-action-style-04 .wrapper > .icon{background:#000000; color:#ffffff!important;}
@@ -96,6 +98,8 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-gg, .btn.btn-gg:focus, .btn.btn-gg:hover,
 .btn.btn-tw, .btn.btn-tw:focus, .btn.btn-tw:hover,
 .btn.btn-line, .btn.btn-line:focus, .btn.btn-line:hover{background:#ffffff; color:#000000; border-color:#ffffff;}
+
+.btn-browse-container .btn-browse{background:#000000; border-color:#000000; color:#ffffff;}
 
 /* Calendar */
 .calendar-style-02 .calendar-header table th.prev, 
@@ -228,6 +232,9 @@ nav.footer.style-03 .footer-container{background:#000000}
 nav.footer.style-04 .footer-top, nav.footer.style-04 .footer-bottom,
 nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-color:#ffffff;}
 
+nav.footer.style-07{background:#ffffff!important;}
+nav.footer.style-07 .footer-container{background:#000000;}
+nav.footer.style-07 .footer-bottom{border-color:#ffffff!important;}
 
 /* Sidebar (Member page) */
 .sidebar{border-color:#ffffff;}
@@ -246,8 +253,13 @@ nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-co
 .breadcrumb-01 .wrapper a:last-child::before{background:#ffffff;}
 
 /* Breadcrumb-02 */
-.breadcrumb-02 .title{color:#ffffff!important;}
-.breadcrumb-02 .bottom .title-link{color:#ffffff!important;}
+.breadcrumb-02 .bottom > .container .wrapper{background:#ffffff;}
+.breadcrumb-02 .bottom > .container .wrapper:before,
+.breadcrumb-02 .bottom > .container .wrapper:after{background:#ffffff;}
+.breadcrumb-02 .sub-title{color:#000000!important;}
+.breadcrumb-02 .bottom .title-link{color:#000000!important;}
+.breadcrumb-02 select{border-color:#000000!important;}
+.breadcrumb-02 .dropdown-icon{border-color:#000000!important;}
 
 /* Form check container */
 .form-check-container{border-color:#ffffff;}
@@ -342,11 +354,13 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 
 /* Table */
 table.table.table-download .download-card{background:#ffffff; border-color:#000000;}
+table.table.table-download.style-03 td:nth-child(1){background:#000000;}
 table.table.table-download .text-footer > .wrapper .icon{color:#000000;}
 table.table.table-download .title-container{background:#ffffff; color:#000000;}
 table.table.table-download .arrow-container{background:#ffffff; color:#000000;}
 table.table.table-download .btn.btn-02, .btn.btn-02:focus{background:#000000; color:#ffffff;}
 
+table.table.table-download.style-03 tr{border-color:#000000;}
 table.table.table-download.style-03 .download-card{background:#000000; border-color:#000000;}
 table.table.table-download.style-03 .data-analysis > .wrapper .icon{color:#000000;}
 table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{color:#000000!important;}
@@ -372,16 +386,16 @@ table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#0000
 .paginate.style-03 .page:hover, .paginate.style-03 .page.active{background:#000000; color:#ffffff;}
 
 /* Select */
-select.bg-style-02{background:#dddddd!important;}
-select.style-02{background:#ffffff!important; color:#000000!important; border-color:#ffffff!important;}
+select.bg-style-02{background:#ffffff!important; border-color:#dddddd!important; color:#696969!important;}
+select.style-02{background:#ffffff!important;}
 
 /* sep 01 */
 .ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#ffffff!important;}
 .ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#000000;}
 
 /* Section Options */
-.section-options .options{border:1px solid #ffffff;}
 .section-options .option{background:#000000; color:#ffffff; border-color:#ffffff;}
+.section-options .option:first-child{background:#ffffff!important; color:#000000!important;}
 .section-options .socials > .social{background:#ffffff; color:#000000;}
 .section-options .option > .icon.active, 
 .section-options .option > .icon:hover{background:#ffffff; color:#000000;}
@@ -394,6 +408,9 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 .search-container{border-color:#ffffff;}
 .search-container .ui.icon.input input{background:#ffffff!important;}
 .search-container .ui.icon.input > em.icon{background:#ffffff; color:#000000; border-color:#000000;}
+
+/* Special Box */
+.ss-box.style-02{border-color:#000000;}
 
 /* Special Box Header */
 .ss-box-header{border-color:#ffffff;}
@@ -432,8 +449,10 @@ select.style-02{background:#ffffff!important; color:#000000!important; border-co
 /* Special List */
 .ss-list.style-02 > li::before{background:#ffffff;}
 .ss-list.style-03 > li::before{background:#ffffff;}
+.list-style-03 li::before{background:#000000;}
 .ss-list.style-04 > li::before{background:#000000;}
 .ss-list.style-04 .line{background:#000000;}
+.ss-list.style-08 > li::before{background:#000000;}
 
 /* Special Card 03 */
 .ss-card-03{background:#000000;}

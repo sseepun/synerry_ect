@@ -281,7 +281,7 @@ input.style-02[type=email]{border:none; border-bottom:4px solid transparent;}
 input.style-02.size-01[type=text], input.style-02.size-01[type=password],
 input.style-02.size-01[type=email]{border-bottom:3px solid transparent;}
 select{padding:.59375rem .875rem;}
-select.style-02{padding:.25rem .25rem!important; border-radius:.5rem;}
+select.style-02{padding:.25rem .25rem!important; border-radius:.5rem; border:1px solid transparent;}
 input[type=file]{padding:.25rem .875rem .25rem .25rem;}
 
 input[type=text].md, input[type=email].md, input[type=password].md, input[type=date].md, 
@@ -1134,6 +1134,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-box{display:block; width:100%; max-width:30rem; margin:0 auto;}
 .ss-box.style-02{
   position:relative; width:calc(100% - 2rem); max-width:83rem; padding-top:1rem; border-radius:.5rem .5rem 0 0;
+  z-index:3; border:1px solid transparent;
 }
 .ss-box.m-unset{margin:unset!important;}
 .ss-box.md{max-width:34rem;}
@@ -1394,8 +1395,6 @@ table.table.table-download .text-footer > .wrapper .icon{display:flex; align-ite
 table.table.style-02.table-download td:nth-child(2){padding-left:0;}
 
 table.table.table-download.style-03 td:nth-child(2) > .title{transition:color .25s, border .25s;}
-table.table.table-download.style-03 .download-card{
-  width:5rem!important; height:6rem; border-radius:1.5rem 0 0 1.5rem!important;}
 table.table.table-download.style-03 .data-analysis > .wrapper{
   border-left:1px solid transparent!important; padding:.875rem 1.5rem;
 }
@@ -1407,7 +1406,11 @@ table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{
   width:1.3125rem; height:1.3125rem; display:flex; justify-content:center; align-items:center;
 }
 
-
+table.table.table-download.style-03 tr{border-radius:1.5rem; border:1px solid transparent;}
+table.table.table-download.style-03 td:nth-child(1){
+  border-radius: 1.215rem 0 0 1.215rem!important; overflow:hidden;
+}
+table.table.table-download.style-03 .download-card{width:5rem;}
 
 
 /* Table Download 02 */
@@ -1507,6 +1510,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .text-center{text-align:center!important;}
 .text-left{text-align:left!important;}
 .text-right{text-align:right!important;}
+@media screen and (max-width:991.98px){
+  .text-md-center{text-align:center!important;}
+}
 @media screen and (max-width:767.98px){
   .text-center.text-sm-unset{text-align:left!important;}
 }
@@ -1692,6 +1698,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ml-1{margin-left:.25rem!important;} .ml-2{margin-left:.5rem!important;}
 .ml-3{margin-left:.75rem!important;} .ml-4{margin-left:1rem!important;}
 .ml-5{margin-left:1.25rem!important;} .ml-6{margin-left:1.5rem!important;}
+@media screen and (max-width:1299.98px){
+  .mt-unset-lg{margin-top:1rem!important;}
+}
 
 .pos-static{position:static!important;}
 .pos-relative{position:relative!important;}
@@ -1843,6 +1852,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-06 .text-wrapper > .card-top .wrapper{display:flex; align-items:center;}
 .ss-card-06 .text-wrapper > .card-top .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
 .ss-card-06 .text-wrapper > .card-top .wrapper > .icon em{font-size:.8125rem;}
+.ss-card-06 .text-wrapper > .title{-webkit-line-clamp:2;}
 .ss-card-06 .text-wrapper > .desc{-webkit-line-clamp:3;}
 .ss-card-06 .filter-01{content:''; position:absolute; top:0; bottom:0; left:0; right:0;}
 
@@ -1868,6 +1878,10 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ss-card-07 .wrapper > .text-container{width:100%; padding-left:0; margin-top:.5rem;}
   .ss-card-07.style-02{margin-top:.5rem!important;}
   .ss-card-07.style-02 .wrapper > .text-container{padding-left:1rem;}
+}
+@media screen and (max-width:767.98px){
+  .ss-card-07.style-02 .wrapper > .img-container{width:100%;}
+  .ss-card-07.style-02 .wrapper > .text-container{width:100%; padding-left:0;}
 }
 
 /* Special Card 08 */
