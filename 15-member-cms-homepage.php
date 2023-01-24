@@ -5,6 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
+  <?php include_once('component/page-loader.php'); ?>
   
   <div class="sidebar open">
     <div data-aos="fade-in" data-aos-delay="0">

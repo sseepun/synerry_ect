@@ -388,6 +388,97 @@ nav.side-panel + .access-filter{
 nav.side-panel.style-02 + .access-filter{height:100%;}
 nav.side-panel.active + .access-filter{opacity:1; pointer-events:auto;}
 
+/* Page Loader */
+.page-loader{position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:101;}
+.page-loader > .bg{position:relative; width:100%; height:100%;}
+.page-loader > .bg > *{position:absolute; top:0; bottom:0; width:25%; transition:width .75s;}
+.page-loader.fade-out > .bg > *{width:0;}
+.page-loader > .bg > *:nth-child(1){left:0;}
+.page-loader > .bg > *:nth-child(2){left:25%;}
+.page-loader > .bg > *:nth-child(3){left:50%;}
+.page-loader > .bg > *:nth-child(4){left:75%;}
+.page-loader > .wrapper{
+  display:flex; align-items:center; justify-content:center;
+  position:absolute; top:0; bottom:0; left:0; right:0; transition:opacity .3s;
+}
+.page-loader.fade-out > .wrapper{opacity:0;}
+.page-loader .spinner-wrapper{display:flex; justify-content:center;}
+.page-loader .spinner{
+  border-radius:50%; border:3px solid transparent;
+  height:150px; margin:0 auto 3.5rem auto; width:150px;
+  -webkit-animation:spinner 1s infinite linear;
+  animation:spinner 1s infinite linear;
+}
+.page-loader .text-wrapper{
+  display:flex; align-items:center; justify-content:center; margin:0;
+}
+.page-loader .text{
+  position:relative; font-size:4.5rem; font-weight:700; line-height:.8; padding:0 .625rem;
+}
+.page-loader .text .sub{
+  position:absolute; top:-4px; transform:rotateY(-90deg);
+  -webkit-animation:spinnerLetter 4s infinite;
+  animation:spinnerLetter 4s infinite;
+}
+.page-loader .text:nth-child(1) .sub{animation-delay:0s;}
+.page-loader .text:nth-child(2) .sub{animation-delay:.15s;}
+.page-loader .text:nth-child(3) .sub{animation-delay:.3s;}
+.page-loader .text:nth-child(4) .sub{animation-delay:.45s;}
+.page-loader .text:nth-child(5) .sub{animation-delay:.6s;}
+.page-loader .text:nth-child(6) .sub{animation-delay:.75s;}
+.page-loader .text:nth-child(7) .sub{animation-delay:.9s;}
+.page-loader .text:nth-child(8) .sub{animation-delay:1.05s;}
+@keyframes spinner{
+  0% {transform:rotate(0deg);}
+  50% {transform:rotate(180deg);}
+  100% {transform:rotate(360deg);}
+}
+@keyframes spinnerLetter{
+  0%, 75%, 100% {
+		opacity: 0;
+		-webkit-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+	}
+	25%, 50% {
+		opacity: 1;
+		-webkit-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+	}
+}
+
+.page-loader.style-02  > .bg > *{
+  top:unset; bottom:unset; left:0; right:0; width:100%; height:50vh;
+  opacity:1; transition:transform .7s cubic-bezier(1,0,.55,1);
+}
+.page-loader.style-02 > .bg > *:nth-child(1){top:0;}
+.page-loader.style-02.fade-out > .bg > *:nth-child(1){transform:translateY(-50vh);}
+.page-loader.style-02 > .bg > *:nth-child(2){bottom:0;}
+.page-loader.style-02.fade-out > .bg > *:nth-child(2){transform:translateY(50vh);}
+.page-loader.style-02.fade-out > .bg > *{transition-delay:1s;}
+.page-loader.style-02 > .wrapper{opacity:1!important;}
+.page-loader.style-02 .loader-text{
+  display:block; width:100%; text-align:center; font-size:.8125rem; font-weight:500;
+  margin:0 0 3.5rem 0; transition:all .8s cubic-bezier(.19,1,.22,1); text-transform:uppercase;
+}
+.page-loader.style-02.fade-out .loader-text{
+  opacity:0; transform:translateY(2rem); transition-delay:.5s;
+}
+.page-loader.style-02 .loader-progress{
+  position:absolute; top:calc(50vh - .875px); left:calc(50% - 220px); right:calc(50% - 220px);
+  height:1.75px; transition:all .9s;
+}
+.page-loader.style-02 .loader-progress > .bar{
+  display:block; height:100%; width:0; transition:width 1s linear;
+}
+.page-loader.style-02.started .loader-progress > .bar{width:100%;}
+@media screen and (max-width:767.98px){
+  .page-loader.style-02 .loader-progress{left:calc(50% - 180px); right:calc(50% - 180px);}
+}
+@media screen and (max-width:575.98px){
+  .page-loader.style-02 .loader-progress{left:20%; right:20%;}
+}
+.page-loader.style-02.fade-out .loader-progress{left:0; right:0; opacity:0;}
+
 /* Sidebar (Member Page) */
 .sidebar{
   position:fixed; left:0; top:0; height: 100%; width:17.5rem;

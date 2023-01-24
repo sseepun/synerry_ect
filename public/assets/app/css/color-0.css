@@ -554,6 +554,11 @@ nav.footer.style-07 .footer-socials > .social:hover{color:#ffffff; background:#2
 nav.footer.style-07 .footer-container{background:#30906a; box-shadow: 0px 0px 10px 0px rgb(0 0 0/7%);}
 nav.footer.style-07 .footer-bottom{background:#ffffff;}
 
+.page-loader.style-02  > .bg > *{background:#30906a;}
+.page-loader.style-02 .loader-text{color:#ffffff;}
+.page-loader.style-02 .loader-progress{background:#ffffff;}
+.page-loader.style-02 .loader-progress > .bar{background:#2e603c;}
+
 /* Breadcrumb 01 */
 .breadcrumb-01 .bottom > .wrapper{background:#ffffff;}
 .breadcrumb-01 .bottom > .wrapper a{color:#000000;}

@@ -5,6 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
 
   <section class="section-03 section-padding" style="background-image:url('public/assets/app/images/bg/20.jpg');">

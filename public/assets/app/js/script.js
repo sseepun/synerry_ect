@@ -488,25 +488,61 @@ $(function(){ 'use strict';
         });
     }
 
-
-    // Page Loader
-    if($('.page-loader').length){
-        window.onload = function(){
-            $('.page-loader').addClass('fade-out');
-            setTimeout(function(){
-                $('.page-loader').remove();
-                $('body').removeClass('loading');
-            }, 1350);
+        // Page Loader
+        let pageLoader = $('.page-loader');
+        if(pageLoader.length){
+            if(pageLoader.hasClass('style-02')){
+                window.onload = function(){
+                    setTimeout(function(){
+                        pageLoader.addClass('started');
+                    }, 100);
+                    setTimeout(function(){
+                        pageLoader.addClass('fade-out');
+                        setTimeout(function(){
+                            pageLoader.remove();
+                            $('body').removeClass('loading');
+                            AOS.init({ easing: 'ease-in-out-cubic', duration: 750, once: true, offset: 10 });
+                        }, 1700);
+                    }, 1100);
+                }
+            }else{
+                window.onload = function(){
+                    setTimeout(function(){
+                        pageLoader.addClass('fade-out');
+                        setTimeout(function(){
+                            pageLoader.remove();
+                            $('body').removeClass('loading');
+                            AOS.init({ easing: 'ease-in-out-cubic', duration: 750, once: true, offset: 10 });
+                        }, 1000);
+                    }, 2400);
+                }
+            }
+        }else{
+            $('body').removeClass('loading');
+            // AOS Animation
+            AOS.init({ easing: 'ease-in-out-cubic', duration: 750, once: true, offset: 10 });
         }
-    }else{
-        $('body').removeClass('loading');
-    }
+    
+    });
+
+//     // Page Loader
+//     if($('.page-loader').length){
+//         window.onload = function(){
+//             $('.page-loader').addClass('fade-out');
+//             setTimeout(function(){
+//                 $('.page-loader').remove();
+//                 $('body').removeClass('loading');
+//             }, 1350);
+//         }
+//     }else{
+//         $('body').removeClass('loading');
+//     }
 
     
-    // AOS Animation
-    AOS.init({ easing: 'ease-in-out-cubic', duration: 750, once: true, offset: 10 });
+//     // AOS Animation
+//     AOS.init({ easing: 'ease-in-out-cubic', duration: 750, once: true, offset: 10 });
 
-});
+// });
 
 function ssPageProcess(){
     var ssPages = $('.ss-page');

@@ -5,6 +5,8 @@
     <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
+  <?php include_once('component/page-loader.php'); ?>
+
   <section class="intro-01">
     <div class="intro-container" style="background-image:url('public/assets/app/images/bg/27.jpg');">
       <div class="grids">
