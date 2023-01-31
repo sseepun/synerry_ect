@@ -56,7 +56,7 @@
     ]
   ?>
 
-  <div class="section-padding">
+  <section class="section-padding">
     <div class="container">
       <div class="grids">
         <!-- Left Content -->
@@ -238,17 +238,16 @@
               </a>
             </div>
           </div>
-         
         </div>
       </div>
-      <div class="mt-6 pt-4">
+      <div class="mt-6 pt-4 w-full">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');
         ?>
       </div>
     </div>
-  </div>
+  </section>
   
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

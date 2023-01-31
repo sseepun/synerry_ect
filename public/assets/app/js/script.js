@@ -876,3 +876,25 @@ function ssPageProcess(){
                 });
             });
         }
+
+        // Section 15
+        var section15 = $('.section-15');
+        if(section15.length){
+            section15.each(function(){
+                var self = $(this);
+                new Swiper(self.find('.swiper-container'), {
+                    loop: true,
+                    slidesPerView: 1,
+                    speed: 800,
+                    grabCursor: true,
+                    navigation: {
+                        nextEl: self.find('.btn-icon-next'),
+                        prevEl: self.find('.btn-icon-prev'),
+                    },
+                    pagination: {
+                        el: self.find('.dots'),
+                        clickable: true,
+                    },
+                });
+            });
+        }
