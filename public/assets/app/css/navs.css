@@ -679,3 +679,55 @@ nav.footer.style-07 .footer-bottom{
   padding:1.215rem; text-align:center;
 }
 nav.footer.style-07 .google-map{border-radius:.875rem!important;}
+
+/* Footer Style 08 */
+nav.footer.style-08 .text-intro{
+  max-width:50rem; margin:0 auto; border-top:4px solid transparent; padding-top:.5rem;
+  margin-bottom:1rem;
+}
+nav.footer.style-08 .contact{
+  border-top:1px solid transparent; border-bottom:1px solid transparent; margin-top:1rem;
+  padding:.5rem 0;
+}
+nav.footer.style-08 .contact-list{display:flex; align-items:center;}
+nav.footer.style-08 .contact-list.center{justify-content:center;}
+nav.footer.style-08 .contact-list.right{justify-content:flex-end;}
+nav.footer.style-08 .contact-list > .icon{
+  display:flex; justify-content:center; align-items:center; width:1.625rem; height:1.625rem; font-size:.875rem; 
+}
+nav.footer.style-08 .policy-container{
+  max-width:60rem; display:flex; flex-wrap:wrap; align-items:center; margin:2rem auto 0 auto; 
+  justify-content:center;
+}
+nav.footer.style-08 .policy-container > .text-wrapper a{font-weight:500; font-size:.9375rem;}
+nav.footer.style-08 .policy-container > .image-container{margin-left:1rem; width:10rem;}
+nav.footer.style-08 .policy-container > .image-container img{display:block; max-width:100%; height:auto;}
+nav.footer.style-08 .footer-bottom{
+  margin-top:1.5rem; padding:1.375rem 0; text-align:center; border-top:1px solid transparent;
+}
+nav.footer.style-08 .count-container{display:flex; align-items:center;}
+nav.footer.style-08 .count-container > .counts:last-child{margin-left:1rem;}
+nav.footer.style-08 .counts{display:flex; align-items:center;}
+nav.footer.style-08 .count-web{display:flex;}
+nav.footer.style-08 .count-web > *{
+  width:1.375rem; height:2rem; display:flex; justify-content:center; align-items:center; 
+  border-right:1px solid transparent; font-size:.875rem; font-weight:500;
+}
+nav.footer.style-08 .count-web > *:last-child{border-right:0;}
+@media screen and (max-width:1199.98px){
+  nav.footer.style-08 .footer-bottom .counts{
+    flex-direction:column; align-items:flex-start; margin-bottom:.5rem;
+  }
+  nav.footer.style-08 .count-web{margin-left:0!important;}
+}
+@media screen and (max-width:991.98px){
+  nav.footer.style-08 .counts{display:flex; align-items:center;}
+}
+@media screen and (max-width:767.98px){
+  nav.footer.style-08 .contact-list.center{justify-content:flex-end;}
+  nav.footer.style-08 .contact-list.right{justify-content:flex-start; margin-top:.5rem;}
+}
+@media screen and (max-width:575.98px){
+  nav.footer.style-08 .contact-list.center{justify-content:flex-start; margin-top:.5rem;}
+  
+}

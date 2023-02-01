@@ -488,6 +488,37 @@ $(function(){ 'use strict';
         });
     }
 
+    
+    // Client 02
+    var client02 = $('.client-02');
+    if(client02.length){
+        client02.each(function(){
+            var self = $(this);
+            new Swiper(self.find('.swiper-container'), {
+                loop: true,
+                slidesPerView: 6,
+                spaceBetween: 20,
+                speed: 800,
+                grabCursor: true,
+                navigation: {
+                    nextEl: self.find('.btn-icon-next'),
+                    prevEl: self.find('.btn-icon-prev'),
+                },
+                pagination: {
+                    el: self.find('.dots'),
+                    clickable: true,
+                },
+                breakpoints: {
+                    1299.98: { slidesPerView: 5 },
+                    991.98: { slidesPerView: 4 },
+                    767.98: { slidesPerView: 3 },
+                    575.98:{ slidesPerView: 2 },
+                    390.98:{ slidesPerView: 1 }
+                },
+            });
+        });
+    }
+
         // Page Loader
         let pageLoader = $('.page-loader');
         if(pageLoader.length){

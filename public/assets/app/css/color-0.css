@@ -563,6 +563,15 @@ nav.footer.style-07 .footer-socials > .social:hover{color:#ffffff; background:#2
 nav.footer.style-07 .footer-container{background:#30906a; box-shadow: 0px 0px 10px 0px rgb(0 0 0/7%);}
 nav.footer.style-07 .footer-bottom{background:#ffffff;}
 
+/* Footer Style 08 */
+nav.footer.style-08{background:#ffffff; color:#303031;}
+nav.footer.style-08 .footer-bottom{background:#8c6961; color:#ffffff;}
+nav.footer.style-08 .count-web > *{
+  background:#ffffff; color:#000000!important; border-color:#c6c6c6;
+}
+nav.footer.style-08 .footer-socials > .social{background:#30906a; color:#ffffff; border-color:#30906a;}
+nav.footer.style-08 .footer-socials > .social:hover{color:#fff102; background:#2e603c; border-color:#2e603c;}
+
 .page-loader.style-02  > .bg > *{background:#30906a;}
 .page-loader.style-02 .loader-text{color:#ffffff;}
 .page-loader.style-02 .loader-progress{background:#ffffff;}
@@ -584,6 +593,10 @@ nav.footer.style-07 .footer-bottom{background:#ffffff;}
 .breadcrumb-02 .wrapper a::after{background:#ffffff;}
 .breadcrumb-02 .title{color:#eeeeee;}
 .breadcrumb-02 .sub-title{color:#ffffff;}
+
+/* Client 02 */
+.client-02 .swiper-pagination-bullet{background:#cbcbcb;}
+.client-02 .swiper-pagination-bullet-active{background:#a07cc5;}
 
 /* Form Container */
 .form-container-01{background:#ffffff;}
@@ -991,3 +1004,7 @@ table.table.table-download.style-03 .text-footer > .wrapper .icon{color:#ffab28;
 /* .ss-card-40:hover .text-container > .text .title{color:#8c6961!important;}
 .ss-card-40:hover .text-container > .date-container .date-wrapper{color:#fff102!important;}
 .ss-card-40:hover .date-container .date-wrapper > .ss-sep-02{background:#fff102!important;} */
+
+/* Special Card 41 */
+.ss-card-41 .image-container{background:#7cc5b5;}
+.ss-card-41 .image-container > .date-container .date-wrapper{background:#8c6961;}
