@@ -468,6 +468,32 @@ $(function(){ 'use strict';
             });
         });
      }
+
+      // Banner 03
+      var banner03 = $('.banner-03');
+      if(banner03.length){
+          banner03.each(function(){
+             var self = $(this);
+             new Swiper(self.find('.swiper-container'), {
+                 loop: true,
+                 spaceBetween:0,
+                 slidesPerView: 1,
+                 speed: 800,
+                 grabCursor: true,
+                 navigation: {
+                 nextEl: self.find('.btn-icon-next'),
+                 prevEl: self.find('.btn-icon-prev'),
+                 },
+                 pagination: {
+                    el: self.find('.snp-pagination'),
+                    clickable: true,
+                    renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
+                    },
+                },
+             });
+         });
+      }
     
     // Client 01
     var client01 = $('.client-01');
@@ -916,6 +942,7 @@ function ssPageProcess(){
                 new Swiper(self.find('.swiper-container'), {
                     loop: true,
                     slidesPerView: 1,
+                    spaceBetween: 85,
                     speed: 800,
                     grabCursor: true,
                     navigation: {

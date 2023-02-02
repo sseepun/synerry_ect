@@ -422,6 +422,10 @@ select.style-02{background:#ffffff!important;}
 /* Banner 02 */
 .banner-02 .arrow{border-color:#000000; color:#000000;}
 
+/* Banner 03 */
+.banner-03 span.swiper-pagination-bullet:hover,
+.banner-03 span.swiper-pagination-bullet-active{background:#ffffff!important; color:#000000!important;}
+
 /* Section 05 */
 .section-05 .swiper-pagination-bullets{background:#ffffff;}
 .section-05 .swiper-pagination-bullet-active{background:#000000;}
