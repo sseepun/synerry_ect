@@ -126,9 +126,10 @@ p.xs, .p.xs, li.xs, label.xs{font-size:.8125rem;}
 
 .btn.btn-action-style-02{
   width:1.5rem; height:1.5rem; display:flex; justify-content:center; align-items:center;
-  border-radius:50%; font-size:.375rem; transition:background .25s, color .25s; border:1px solid transparent, box-shadow .25s;;
+  border-radius:50%; font-size:.375rem; transition:background .25s, color .25s; border:1px solid transparent; transition:all .25s;
  }
  .btn.btn-action-style-02.size-02{width:1.875rem; height:1.875rem; font-size:1rem!important;}
+ .btn.btn-action-style-02.size-03{width:2.5rem; height:2.5rem; font-size:1.5rem!important;}
  .btn.btn-action-style-03{
   width:2.5rem; height:2.5rem; display:flex; flex-direction:column; justify-content:center; align-items:center;
   border-radius:50%; font-size:.875rem; transition:background .25s, color .25s; cursor:pointer;
@@ -2517,7 +2518,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-41 .image-container > .date-container{position:absolute; top:.5rem; left:.5rem; width:3.5rem;}
 .ss-card-41 .image-container > .date-container .date-wrapper{
    display:flex; flex-direction:column; justify-content:center; 
- align-items:center; padding:.875rem .375rem; border-radius:.9375rem; transition:all .25s;
+   align-items:center; padding:.875rem .375rem; border-radius:.9375rem; transition:all .25s;
 }
 .ss-card-41 .text-container{padding:.75rem .4375rem;}
 .ss-card-41 .text-container > .date-time{display:flex; align-items:center; flex-wrap:wrap;}
@@ -2584,3 +2585,41 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 @media screen and (max-width:575.98px){
   .ss-card-43 .wrapper > .text-container .title{min-height:0;}
 }
+
+/* Special Card 44 */
+.ss-card-44{position:relative; border-radius:.875rem; overflow:hidden;}
+.ss-card-44 .text-container{
+  border:1px solid transparent; padding:1rem; border-radius:0 0 .875rem .875rem;
+  transition:background .25s, border .25s; border-top:0!important;
+}
+.ss-card-44 .text-container > .title{-webkit-line-clamp:3; transition:color .25s; min-height:5rem;}
+.ss-card-44 .text-container > .card-footer .link-footer{display:flex; align-items:center; margin-top:.875rem;}
+.ss-card-44 .card-footer .link-footer > .text{transition:color .25s, border .25s;}
+.ss-card-44 .card-footer .link-footer > .arrow{transition:color .25s, margin .25s; margin:.0625rem .125rem 0 0;}
+.ss-card-44:hover .card-footer .link-footer > .arrow{margin:.0625rem 0 0 .125rem;}
+.ss-card-44 .text-container > .card-footer .wrapper{display:flex; flex-wrap:wrap; align-items:center; transition:color .25s;}
+.ss-card-44 .card-footer .wrapper > .icon{display:flex; align-items:center; margin-right:.5rem;}
+.ss-card-44 .wrapper > .icon:not(:last-child)::after{content:"/"; padding-left:.375rem;}
+.ss-card-44 .card-footer .wrapper > .icon em{font-size:.5rem;}
+@media screen and (max-width:575.98px){
+  .ss-card-44 .text-container > .title{min-height:0;}
+}
+
+/* Special Card 45 */
+.ss-card-45{
+  position:relative; border:1px solid transparent; padding:1rem; 
+  height:13rem; transition:border .25s;
+}
+.ss-card-45 > .img-bg{
+  position:absolute; top:0; bottom:0; right:0; width:0; background-size:cover; 
+  transition:width .25s; z-index:1; 
+}
+.ss-card-45:hover > .img-bg{width:100%; left:0; right:unset;}
+.ss-card-45 .text-wrapper{
+  position:relative; display:flex; flex-direction:column; justify-content:space-between;
+  height:100%; z-index:2; 
+}
+.ss-card-45 .text-wrapper .title{-webkit-line-clamp:3;}
+.ss-card-45 .ss-tags > .tag{border-radius:.125rem;}
+.ss-card-45 .card-footer{display:flex; align-items:center; justify-content:space-between;}
+

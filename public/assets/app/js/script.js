@@ -294,7 +294,7 @@ $(function(){ 'use strict';
     if(tabContainers.length){
         tabContainers.each(function(){
             var self = $(this),
-                tabs = self.find('.tabs > .tab'),
+                tabs = self.find('.tabs .tab'),
                 tabContents = self.find('.tab-contents > .tab-content');
             tabs.click(function(e){
                 var target = tabContents.filter('[data-tab="'+$(this).data('tab')+'"]'),
@@ -318,6 +318,8 @@ $(function(){ 'use strict';
             });
         });
     }
+
+     
 
 
     // Shortcode Container
@@ -956,3 +958,32 @@ function ssPageProcess(){
                 });
             });
         }
+
+         // Section 18
+         var section18 = $('.section-18');
+         if(section18.length){
+             section18.each(function(){
+                 var self = $(this);
+                 new Swiper(self.find('.swiper-container'), {
+                     loop: true,
+                     slidesPerView: 4,
+                     spaceBetween: 20,
+                     speed: 800,
+                     grabCursor: true,
+                     navigation: {
+                         nextEl: self.find('.btn-icon-next'),
+                         prevEl: self.find('.btn-icon-prev'),
+                     },
+                     pagination: {
+                         el: self.find('.dots'),
+                         clickable: true,
+                     },
+                     breakpoints: {
+                        1199.98: { slidesPerView:3,},
+                        991.98: { slidesPerView:3,},
+                        767.98: { slidesPerView:2,},
+                        575.98: { slidesPerView:1,},
+                    },
+                 });
+             });
+         }
