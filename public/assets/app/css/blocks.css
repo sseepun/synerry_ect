@@ -983,9 +983,10 @@
   justify-content:space-between; align-items:center; z-index:2; pointer-events:auto;
 }
 .section-15 .arrow-container > .arrow{
-  position:relative; width:3rem; height:3rem; border-radius:50%; z-index:3;
+  position:relative; width:3rem; height:3rem; border-radius:50%; z-index:3; transition:all .25s;
   display:flex; justify-content:center; align-items:center; cursor:pointer;
 }
+.section-15 .arrow-container > .arrow:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 @media screen and (max-width:1110.98px){
   .section-15 .arrow-container > .arrow{opacity:0;}
 }
