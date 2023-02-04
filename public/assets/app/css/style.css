@@ -1305,7 +1305,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-title-tab .link-more > .text{min-width:4rem;}
 .ss-title-tab .link-more > .arrow{margin:0 .3125rem 0 0; transition:color .25s, margin .25s;}
 .ss-title-tab .link-more:hover > .arrow{margin:0 0 0 .3125rem;}
-@media screen and (max-width:991.98px){
+@media screen and (max-width:1199.98px){
   .ss-title-tab .title{width:100%;}
   .ss-title-tab .tab-menu{width:calc(100% - 6rem)!important;}
 }
