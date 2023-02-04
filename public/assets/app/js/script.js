@@ -944,7 +944,6 @@ function ssPageProcess(){
                 new Swiper(self.find('.swiper-container'), {
                     loop: true,
                     slidesPerView: 1,
-                    spaceBetween: 85,
                     speed: 800,
                     grabCursor: true,
                     navigation: {

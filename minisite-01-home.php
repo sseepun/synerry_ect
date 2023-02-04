@@ -102,81 +102,84 @@
           ];
          ?>
          <!-- Swiper -->
-         <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <?php for($k=0; $k<4; $k++) {?>
-              <div class="swiper-slide">
-                <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="150">
-                  <?php foreach($categories as $i=>$d){?>
-                    <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                      <div class="grids" data-aos="fade-up" data-aos-delay="300">
-                        <?php for($y=0; $y<2; $y++) {?>
-                          <div class="grid lg-50 md-50">
-                            <?php foreach($content02 as $j) { ?>
-                              <div class="grid sm-100">
-                                <a class="ss-card ss-card-43 mb-4" href="#">
-                                  <div class="wrapper">
-                                    <div class="img-container">
-                                      <div class="ss-img">
-                                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+0)%3+3 ?>.jpg');"></div>
-                                      </div>
-                                    </div>
-                                    <div class="text-container">
-                                      <div class="title p fw-400" href="#">
-                                        <?= $j['title'] ?>
-                                      </div>
-                                      <div class="card-footer">
-                                        <div class="wrapper">
-                                          <div class="icon">
-                                            <em class="fa-solid fa-calendar-days"></em>
-                                            <span class="p sm fw-400 ml-2">08 มิถุนายน 2565 <span class="ml-1">/</span></span>
-                                          </div>
-                                          <div class="icon">
-                                            <em class="fa-solid fa-eye"></em>
-                                            <span class="p sm fw-400 ml-2">255 <span class="ml-1">/</span></span>
-                                          </div>
-                                          <div class="icon">
-                                            <em class="fa-solid fa-share-nodes"></em>
-                                            <span class="p sm fw-400 ml-2">208</span>
-                                          </div>
+         <div class="swiper-main-container">
+          <div class="swiper-container" style="z-index:4;">
+            <div class="swiper-wrapper">
+              <?php for($k=0; $k<4; $k++) {?>
+                <div class="swiper-slide">
+                  <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="150">
+                    <?php foreach($categories as $i=>$d){?>
+                      <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                        <div class="grids" data-aos="fade-up" data-aos-delay="300">
+                          <?php for($y=0; $y<2; $y++) {?>
+                            <div class="grid lg-50 md-50">
+                              <?php foreach($content02 as $j) { ?>
+                                <div class="grid sm-100">
+                                  <a class="ss-card ss-card-43 mb-4" href="#">
+                                    <div class="wrapper">
+                                      <div class="img-container">
+                                        <div class="ss-img">
+                                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+0)%3+3 ?>.jpg');"></div>
                                         </div>
                                       </div>
-                                      <div class="link-more mt-2" href="#">
-                                        <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                                        <div class="arrow">
-                                          <em class="fa-solid fa-arrow-right"></em>
-                                        </div>   
+                                      <div class="text-container">
+                                        <div class="title p fw-400" href="#">
+                                          <?= $j['title'] ?>
+                                        </div>
+                                        <div class="card-footer">
+                                          <div class="wrapper">
+                                            <div class="icon">
+                                              <em class="fa-solid fa-calendar-days"></em>
+                                              <span class="p sm fw-400 ml-2">08 มิถุนายน 2565 <span class="ml-1">/</span></span>
+                                            </div>
+                                            <div class="icon">
+                                              <em class="fa-solid fa-eye"></em>
+                                              <span class="p sm fw-400 ml-2">255 <span class="ml-1">/</span></span>
+                                            </div>
+                                            <div class="icon">
+                                              <em class="fa-solid fa-share-nodes"></em>
+                                              <span class="p sm fw-400 ml-2">208</span>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="link-more mt-2" href="#">
+                                          <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
+                                          <div class="arrow">
+                                            <em class="fa-solid fa-arrow-right"></em>
+                                          </div>   
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                </a>
-                              </div>
-                            <?php } ?>
-                          </div>
-                        <?php }?>
+                                  </a>
+                                </div>
+                              <?php } ?>
+                            </div>
+                          <?php }?>
+                        </div>
                       </div>
-                    </div>
-                  <?php }?>
+                    <?php }?>
+                  </div>
                 </div>
-              </div>
-            <?php }?>
-          </div>
-          <div class="bullet mt-3" data-aos="fade-up" data-aos-delay="150">
-            <div class="container">
-              <div class="bullet-wrapper">
-                <div class="dots"></div>
-              </div>
-            </div>  
+              <?php }?>
+            </div>
+            <div class="bullet mt-3" data-aos="fade-up" data-aos-delay="150">
+              <div class="container">
+                <div class="bullet-wrapper">
+                  <div class="dots"></div>
+                </div>
+              </div>  
+            </div>
           </div>
           <div class="arrow-container" data-aos="fade-up" data-aos-delay="150">
-            <div class="arrow btn-icon-next">
-              <em class="fa-solid fa-arrow-left"></em>
+              <div class="arrow btn-icon-next">
+                <em class="fa-solid fa-arrow-left"></em>
+              </div>
+              <div class="arrow btn-icon-next">
+                <em class="fa-solid fa-arrow-right"></em>
+              </div>
             </div>
-            <div class="arrow btn-icon-next">
-              <em class="fa-solid fa-arrow-right"></em>
-            </div>
-          </div>
-        </div>
+         </div>
+        
       </div>    
     </div>      
   </section>

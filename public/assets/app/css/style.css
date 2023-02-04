@@ -2551,7 +2551,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 
 /* Special Card 43 */
-.ss-card-43{position:relative; z-index:3;}
+.ss-card-43{position:relative;}
 .ss-card-43 .wrapper{display:flex; flex-wrap:wrap;}
 .ss-card-43 .wrapper > .img-container{width:40%; border-radius:.5rem; overflow:hidden;}
 .ss-card-43 .wrapper > .text-container{width:50%; padding-left:1rem;}
