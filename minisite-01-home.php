@@ -90,6 +90,17 @@
             </div>   
           </a>
         </div>
+        <?php
+          $content02 = [
+            [
+              'title' => 'กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ'
+            ],[
+              'title' => 'กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
+              ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ ปฏิบัติงานระดับการชำนาญพิเศษ'
+            ], 
+          ];
+         ?>
          <!-- Swiper -->
          <div class="swiper-container">
           <div class="swiper-wrapper">
@@ -98,171 +109,51 @@
                 <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="150">
                   <?php foreach($categories as $i=>$d){?>
                     <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                      <div class="grids aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                        <div class="grid lg-50 md-50">
-                          <div class="grid sm-100">
-                            <a class="ss-card ss-card-43 mb-4" href="#">
-                              <div class="wrapper">
-                                <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+0)%3+3 ?>.jpg');"></div>
-                                  </div>
-                                </div>
-                                <div class="text-container">
-                                  <div class="title p fw-400" href="#">
-                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="wrapper">
-                                      <div class="icon">
-                                        <em class="fa-solid fa-calendar-days"></em>
-                                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565 <span class="ml-1">/</span></span>
+                      <div class="grids" data-aos="fade-up" data-aos-delay="300">
+                        <?php for($y=0; $y<2; $y++) {?>
+                          <div class="grid lg-50 md-50">
+                            <?php foreach($content02 as $j) { ?>
+                              <div class="grid sm-100">
+                                <a class="ss-card ss-card-43 mb-4" href="#">
+                                  <div class="wrapper">
+                                    <div class="img-container">
+                                      <div class="ss-img">
+                                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+0)%3+3 ?>.jpg');"></div>
                                       </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-eye"></em>
-                                        <span class="p sm fw-400 ml-2">255 <span class="ml-1">/</span></span>
+                                    </div>
+                                    <div class="text-container">
+                                      <div class="title p fw-400" href="#">
+                                        <?= $j['title'] ?>
                                       </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-share-nodes"></em>
-                                        <span class="p sm fw-400 ml-2">208</span>
+                                      <div class="card-footer">
+                                        <div class="wrapper">
+                                          <div class="icon">
+                                            <em class="fa-solid fa-calendar-days"></em>
+                                            <span class="p sm fw-400 ml-2">08 มิถุนายน 2565 <span class="ml-1">/</span></span>
+                                          </div>
+                                          <div class="icon">
+                                            <em class="fa-solid fa-eye"></em>
+                                            <span class="p sm fw-400 ml-2">255 <span class="ml-1">/</span></span>
+                                          </div>
+                                          <div class="icon">
+                                            <em class="fa-solid fa-share-nodes"></em>
+                                            <span class="p sm fw-400 ml-2">208</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="link-more mt-2" href="#">
+                                        <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
+                                        <div class="arrow">
+                                          <em class="fa-solid fa-arrow-right"></em>
+                                        </div>   
                                       </div>
                                     </div>
                                   </div>
-                                  <div class="link-more mt-2" href="#">
-                                    <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                                    <div class="arrow">
-                                      <em class="fa-solid fa-arrow-right"></em>
-                                    </div>   
-                                  </div>
-                                </div>
+                                </a>
                               </div>
-                            </a>
+                            <?php } ?>
                           </div>
-                          <div class="grid sm-100">
-                            <a class="ss-card ss-card-43 mb-4" href="#">
-                              <div class="wrapper">
-                                <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+1)%3+3 ?>.jpg');"></div>
-                                  </div>
-                                </div>
-                                <div class="text-container">
-                                  <div class="title p fw-400" href="#">
-                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="wrapper">
-                                      <div class="icon">
-                                        <em class="fa-solid fa-calendar-days"></em>
-                                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565 <span class="ml-1">/</span></span>
-                                      </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-eye"></em>
-                                        <span class="p sm fw-400 ml-2">255 <span class="ml-1">/</span></span>
-                                      </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-share-nodes"></em>
-                                        <span class="p sm fw-400 ml-2">208</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="link-more mt-2" href="#">
-                                    <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                                    <div class="arrow">
-                                      <em class="fa-solid fa-arrow-right"></em>
-                                    </div>   
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="grid lg-50 md-50">
-                          <div class="grid sm-100">
-                            <a class="ss-card ss-card-43 mb-4" href="#">
-                              <div class="wrapper">
-                                <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+2)%3+3 ?>.jpg');"></div>
-                                  </div>
-                                </div>
-                                <div class="text-container">
-                                  <div class="title p fw-400" href="#">
-                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="wrapper">
-                                      <div class="icon">
-                                        <em class="fa-solid fa-calendar-days"></em>
-                                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565 <span class="ml-1">/</span></span>
-                                      </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-eye"></em>
-                                        <span class="p sm fw-400 ml-2">255 <span class="ml-1">/</span></span>
-                                      </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-share-nodes"></em>
-                                        <span class="p sm fw-400 ml-2">208</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="link-more mt-2" href="#">
-                                    <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                                    <div class="arrow">
-                                      <em class="fa-solid fa-arrow-right"></em>
-                                    </div>   
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="grid sm-100">
-                            <a class="ss-card ss-card-43 mb-4" href="#">
-                              <div class="wrapper">
-                                <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+3)%3+3 ?>.jpg');"></div>
-                                  </div>
-                                </div>
-                                <div class="text-container">
-                                  <div class="title p fw-400" href="#">
-                                    กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                                    ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                                    ปฏิบัติงานระดับการชำนาญพิเศษ
-                                  </div>
-                                  <div class="card-footer">
-                                    <div class="wrapper">
-                                      <div class="icon">
-                                        <em class="fa-solid fa-calendar-days"></em>
-                                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565 <span class="ml-1">/</span></span>
-                                      </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-eye"></em>
-                                        <span class="p sm fw-400 ml-2">255 </span>
-                                      </div>
-                                      <div class="icon">
-                                        <em class="fa-solid fa-share-nodes"></em>
-                                        <span class="p sm fw-400 ml-2">208</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="link-more mt-2" href="#">
-                                    <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                                    <div class="arrow">
-                                      <em class="fa-solid fa-arrow-right"></em>
-                                    </div>   
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
+                        <?php }?>
                       </div>
                     </div>
                   <?php }?>
@@ -368,6 +259,20 @@
     </div>                
   </section>
 
+  <?php
+    $content03 = [
+      [
+        'title' => 'เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8',
+        'image' => 'public/assets/app/images/content/96.jpg'
+      ],[
+        'title' => 'เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8',
+        'image' => 'public/assets/app/images/content/97.jpg'
+      ],[
+        'title' => 'เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8',
+        'image' => 'public/assets/app/images/content/98.jpg'
+      ],
+    ];
+  ?>
   <section class="section-16 section-padding bg-11">
     <div class="pattern style-01">
       <div class="wrapper">
@@ -408,91 +313,39 @@
               </a>        
             </div>  
             <div class="grids jc-center">
-              <div class="grid lg-1-3 mt-2">
-                <a class="ss-card ss-card-41" href="#">
-                  <div class="image-container">
-                    <div class="ss-img">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/96.jpg');"></div>
+              <?php foreach($content03 as $d) {?>
+                <div class="grid lg-1-3 mt-2">
+                  <a class="ss-card ss-card-41" href="#">
+                    <div class="image-container">
+                      <div class="ss-img">
+                        <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
+                      </div>
+                      <div class="date-container">
+                        <div class="date-wrapper color-white">
+                          <p class="xs fw-400">22 พ.ย.</p>  
+                          <div class="ss-sep-02 style-02 bg-white"></div>
+                          <p class="xs fw-400">15 ธ.ค.</p>
+                        </div>     
+                      </div>
                     </div>
-                    <div class="date-container">
-                      <div class="date-wrapper color-white">
-                        <p class="xs fw-400">22 พ.ย.</p>  
-                        <div class="ss-sep-02 style-02 bg-white"></div>
-                        <p class="xs fw-400">15 ธ.ค.</p>
-                      </div>     
+                    <div class="text-container">
+                      <p class="title lh-sm fw-400">
+                        <?= $d['title'] ?>
+                      </p>
+                      <div class="date-time">
+                        <p class="sm fw-400">08 มิถุนายน</p>
+                        <p class="sm fw-400">เวลา 08:00 - 12:00</p>
+                      </div>
+                      <div class="link-more mt-2" href="#">
+                        <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
+                        <div class="arrow">
+                          <em class="fa-solid fa-arrow-right"></em>
+                        </div>   
+                      </div>
                     </div>
-                  </div>
-                  <div class="text-container">
-                    <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
-                    <div class="date-time">
-                      <p class="sm fw-400">08 มิถุนายน</p>
-                      <p class="sm fw-400">เวลา 08:00 - 12:00</p>
-                    </div>
-                    <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-right"></em>
-                      </div>   
-                    </div>
-                  </div>
-                </a>      
-              </div>   
-              <div class="grid lg-1-3 mt-2">
-                <a class="ss-card ss-card-41" href="#">
-                  <div class="image-container">
-                    <div class="ss-img">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/97.jpg');"></div>
-                    </div>
-                    <div class="date-container">
-                      <div class="date-wrapper color-white">
-                        <p class="fw-400">22</p>
-                        <p class="fw-400">พ.ย.</p>  
-                      </div>     
-                    </div>
-                  </div>
-                  <div class="text-container">
-                    <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
-                    <div class="date-time">
-                      <p class="sm fw-400">08 มิถุนายน</p>
-                      <p class="sm fw-400">เวลา 08:00 - 12:00</p>
-                    </div>
-                    <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-right"></em>
-                      </div>   
-                    </div>
-                  </div>
-                </a>
-              </div> 
-              <div class="grid lg-1-3 mt-2">
-                <a class="ss-card ss-card-41" href="#">
-                  <div class="image-container">
-                    <div class="ss-img">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/98.jpg');"></div>
-                    </div>
-                    <div class="date-container">
-                      <div class="date-wrapper color-white">
-                        <p class="xs fw-400">22</p>  
-                        <p class="xs fw-400">พ.ย.</p>
-                      </div>     
-                    </div>
-                  </div>
-                  <div class="text-container">
-                    <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
-                    <div class="date-time">
-                      <p class="sm fw-400">08 มิถุนายน</p>
-                      <p class="sm fw-400">เวลา 08:00 - 12:00</p>
-                    </div>
-                    <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-right"></em>
-                      </div>   
-                    </div>
-                  </div>
-                </a>
-              </div>      
+                  </a>      
+                </div>  
+              <?php } ?>      
             </div>  
           </div>           
         </div>
