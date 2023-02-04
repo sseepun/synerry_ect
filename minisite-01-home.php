@@ -46,8 +46,8 @@
             </div>        
           </div>
           <div class="arrow">
-            <button class="btn-prev" id="prev" onclick="plusSlides(-1)">❮</button>
-            <button class="btn-next" id="next" onclick="plusSlides(1)">❯</button>        
+            <button class="btn-prev btn-icon-prev" id="prev" onclick="plusSlides(-1)">❮</button>
+            <button class="btn-next btn-icon-next" id="next" onclick="plusSlides(1)">❯</button>        
           </div>
         </div> 
       </div>
@@ -515,6 +515,7 @@ function showSlides(n) {
       slides[i].style.display = "none";  
   }
   slides[slideIndex-1].style.display = "block";  
+  
 }
 </script>
 
