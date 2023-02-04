@@ -200,12 +200,10 @@
 .client-02 .swiper-slide > .client:hover{opacity:.8;}
 .client-02 .swiper-container > .navigator{display:flex; justify-content:center; align-items:center; margin-top:1rem;}
 .client-02 .swiper-pagination-bullets{
-  margin:0 .75rem; display:flex; justify-content:center; align-items:center; min-width:5rem;
-  height:3rem;
+  margin:0 .75rem; display:flex; justify-content:center; align-items:center; 
 }
 .client-02 .swiper-pagination-bullet{
-  margin:.25rem .25rem; width:.4375rem; height:.4375rem; border-radius:50%; 
-  transition:width .25s, height .25s; opacity:1;
+  margin:.25rem .25rem; width:.4375rem; height:.4375rem; border-radius:50%; opacity:1;
 }
 .client-02 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:.6125rem; height:.6125rem;}
 
