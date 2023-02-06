@@ -580,6 +580,16 @@ nav.footer.style-08 .count-web > *{
 }
 nav.footer.style-08 .policy-container > .text-wrapper a:hover{color:#8c6961;}
 
+/* Footer Style 09 */
+nav.footer.style-09{background:#f7b331; color:#303031;}
+nav.footer.style-09 .footer-bottom{background:#00ce8f; color:#ffffff;}
+nav.footer.style-09 .social-links > .btns-social .btn-social{color:#8c6961;}
+nav.footer.style-09 .social-links > .btns-social .btn-social:hover{color:#ffffff; background:#8c6961;}
+nav.footer.style-09 .count-web > *{
+  background:#ffffff; color:#000000!important; border-color:#c6c6c6;
+}
+nav.footer.style-09 .policy-container > .text-wrapper a:hover{color:#8c6961;}
+
 .page-loader.style-02  > .bg > *{background:#30906a;}
 .page-loader.style-02 .loader-text{color:#ffffff;}
 .page-loader.style-02 .loader-progress{background:#ffffff;}
@@ -654,6 +664,8 @@ nav.footer.style-08 .policy-container > .text-wrapper a:hover{color:#8c6961;}
 /* Special Title */
 .ss-title{border-color:#30906a;}
 .ss-title-style-02 .link-more > .text, .ss-title-style-02 .link-more > .arrow{color:#30906a;}
+.ss-title-style-02.style-02{background:#00ce8f; color:#ffffff;}
+.ss-title-style-02.style-02 .link-more > .text, .ss-title-style-02 .link-more > .arrow{color:#ffffff;}
 
 /* Special List */
 .ss-list > li::before{background:#0ab2de;}
@@ -669,6 +681,8 @@ nav.footer.style-08 .policy-container > .text-wrapper a:hover{color:#8c6961;}
 .ss-list.style-08 > li::before{background:#30906a;}
 .ss-list.style-09 > li::before{background:#ffffff;}
 .ss-list.style-10 > li a:hover{color:#8c6961;}
+.ss-list.style-11 > li a{color:#ffffff;}
+.ss-list.style-11 > li::before{background:#ffffff;}
 
 /* Special Tags */
 .ss-tags > .tag{background:#04adf0; color:#ffffff;}
@@ -1040,6 +1054,7 @@ table.table.table-download.style-03 .text-footer > .wrapper .icon{color:#ffab28;
 .ss-card-41 .image-container{background:#7cc5b5;}
 .ss-card-41 .image-container > .date-container .date-wrapper{background:#8c6961;}
 .ss-card-41.style-02 .image-container > .date-container .date-wrapper{background:#00ce8f;}
+.ss-card-41 .text-container .link-more > .arrow{color:#0079e3;}
 
 /* Special Card 44 */
 .ss-card-44 .text-container{border-color:#e1e1e1; background:#ffffff;}

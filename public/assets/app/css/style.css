@@ -1139,6 +1139,7 @@ fieldset{padding:0; margin:0; border:0;}
   z-index:3; border:1px solid transparent;
 }
 .ss-box.style-03{padding:1rem; border-radius:.9375rem;}
+.ss-box.style-04{padding:1rem; border-radius:0 0 .9375rem .9375rem;}
 .ss-box.m-unset{margin:unset!important;}
 .ss-box.md{max-width:34rem;}
 .ss-box.lg{max-width:38rem;}
@@ -1245,6 +1246,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-img.vertical{padding:140% 0 0 0;}
 .ss-img.square{padding:100% 0 0 0;}
 .ss-img.square-02{padding:76% 0 0 0;}
+.ss-img.square-03{padding:85% 0 0 0;}
 .ss-img.square-size-02{padding:70% 0 0 0;}
 .ss-img > .img-bg{
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
@@ -1252,6 +1254,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 @media screen and (max-width:1299.98px){
   .ss-img.square-02{padding:79% 0 0 0!important;}
+  .ss-img.square-03{padding:88% 0 0 0;}
 }
 @media screen and (max-width:1199.98px){
   .ss-img.square-02{padding:84% 0 0 0!important;}
@@ -1259,8 +1262,6 @@ fieldset{padding:0; margin:0; border:0;}
 @media screen and (max-width:767.98px){
   .ss-img.square-size-02{padding:60% 0 0 0;}
 }
-
-
 
 .ss-card:hover .ss-img > .img-bg, .ss-img:hover > .img-bg{transform:scale(1.1);}
 .ss-img.no-hover > .img-bg, .ss-card .ss-img.no-hover > .img-bg{transform:none!important;}
@@ -1326,6 +1327,11 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-title-style-02 .link-more > .text{min-width:4rem;}
 .ss-title-style-02 .link-more > .arrow{margin:0 .3125rem 0 0; transition:color .25s, margin .25s;}
 .ss-title-style-02 .link-more:hover > .arrow{margin:0 0 0 .3125rem;}
+.ss-title-style-02.style-02{position:relative; padding:1rem; border-radius:.9375rem 0 0 0}
+.ss-title-style-02.style-02:after{
+  content:""; position:absolute; top:0; right:-10rem; bottom:0; left:auto; width:10rem;
+}
+.ss-title-style-02.style-02:after{background:#00ce8f;}
 
 /* Special List */
 .ss-list, .ss-list ul{width:100%; padding:0; margin:0; list-style:none;}
@@ -2623,3 +2629,17 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-45 .ss-tags > .tag{border-radius:.125rem;}
 .ss-card-45 .card-footer{display:flex; align-items:center; justify-content:space-between;}
 
+/* Special Card 46 */
+.ss-card-46 .topic > .title{position:relative;}
+.ss-card-46 .topic > .title a{padding-left:1.5rem; font-weight:400; cursor:pointer;} 
+.ss-card-46 .topic > .title.active::before{
+  content:""; position:absolute; top:calc(100% - 62%); right:auto; bottom:0; left:auto; 
+  width:.5rem; height:.5rem;
+}
+.ss-card-46 .topic > .title.active::after{
+  content:""; position:absolute; top:calc(100% - 62%); right:auto; bottom:0; left:auto; 
+  width:.5rem; height:.5rem; margin-left:1rem;
+}
+
+.ss-card-46 .topic > .title::before,
+.ss-card-46 .topic > .title::after{background:#0079e3;}
