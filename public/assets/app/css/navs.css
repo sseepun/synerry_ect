@@ -749,6 +749,7 @@ nav.footer.style-08 .count-web > *:last-child{border-right:0;}
   nav.footer.style-08 .count-web{margin-left:0!important;}
 }
 
+
 /* Footer Style 09 */
 nav.footer.style-09 .google-map{border-radius:.875rem!important;}
 nav.footer.style-09 .text-intro{
@@ -818,4 +819,73 @@ nav.footer.style-09 .count-web > *:last-child{border-right:0;}
   }
   nav.footer.style-09 .contact-list.center{justify-content:flex-start; margin-top:.5rem;}
   nav.footer.style-09 .count-web{margin-left:0!important;}
+}
+
+/* Footer Style 10 */
+nav.footer.style-10 .text-intro{
+  max-width:50rem; margin:0 auto; border-top:4px solid transparent; padding-top:.5rem;
+  margin-bottom:1rem;
+}
+nav.footer.style-10 .contact{
+  border-top:1px solid transparent; border-bottom:1px solid transparent; margin-top:1rem;
+  padding:.5rem 0;
+}
+nav.footer.style-10 .contact-list{display:flex; align-items:center;}
+nav.footer.style-10 .contact-list.center{justify-content:center;}
+nav.footer.style-10 .contact-list.right{justify-content:flex-end;}
+nav.footer.style-10 .contact-list > .icon{
+  display:flex; justify-content:center; align-items:center; width:1.625rem; height:1.625rem; font-size:.875rem; 
+}
+nav.footer.style-10 .social-links{display:flex; justify-content:center; align-items:center; margin-top:.9375rem;}
+nav.footer.style-10 .social-links > .btns-social{display:flex;}
+nav.footer.style-10 .social-links > .btns-social .btn-social{
+  width:1.625rem; height:1.625rem; margin:0 0 0 .1875rem; display:flex; align-items:center; 
+  justify-content:center; border-radius:50%; transition:color .25s, background .25s;
+}
+nav.footer.style-10 .policy-container{
+  max-width:60rem; display:flex; flex-wrap:wrap; align-items:center; margin:2rem auto 0 auto; 
+  justify-content:center;
+}
+nav.footer.style-10 .policy-container > .text-wrapper a{font-weight:500; font-size:.9375rem; transition:color .25s;}
+nav.footer.style-10 .policy-container > .image-container{margin-left:1rem; width:10rem;}
+nav.footer.style-10 .policy-container > .image-container img{display:block; max-width:100%; height:auto;}
+nav.footer.style-10 .footer-bottom{
+  margin-top:1.5rem; padding:1.375rem 0; text-align:center; border-top:1px solid transparent;
+}
+nav.footer.style-10 .count-container{display:flex; flex-wrap:wrap; align-items:center;}
+nav.footer.style-10 .count-container > .counts:last-child{margin-left:1rem;}
+nav.footer.style-10 .counts{display:flex; align-items:center;}
+nav.footer.style-10 .count-web{display:flex; border-radius:.1875rem; overflow:hidden;}
+nav.footer.style-10 .count-web > *{
+  width:1.375rem; height:2rem; display:flex; justify-content:center; align-items:center; 
+  border-right:1px solid transparent; font-size:.875rem; font-weight:500; 
+}
+nav.footer.style-10 .count-web > *:last-child{border-right:0;}
+@media screen and (max-width:1199.98px){
+  nav.footer.style-10 .footer-bottom .counts{
+    flex-direction:column; align-items:flex-start; margin-bottom:.5rem;
+  }
+  nav.footer.style-10 .count-web{margin-left:0!important;}
+}
+@media screen and (max-width:991.98px){
+  nav.footer.style-10 .policy-container > .image-container{margin:.875rem 0 0 0; width:9.5rem;}
+  nav.footer.style-10 .footer-bottom .copyright{justify-content:center;}
+  nav.footer.style-10 .footer-bottom .counts{
+    flex-direction:row; align-items:center; margin:.75rem 0 0 0;
+  }
+  nav.footer.style-10 .count-web{margin-left:.375rem!important;}
+  nav.footer.style-10 .count-container{justify-content:center;}
+}
+@media screen and (max-width:767.98px){
+  nav.footer.style-10 .contact-list.center{justify-content:flex-end;}
+  nav.footer.style-10 .contact-list.right{justify-content:flex-start; margin-top:.5rem;}
+}
+@media screen and (max-width:575.98px){
+  nav.footer.style-10 .social-links{justify-content:flex-start;}
+  nav.footer.style-10 .policy-container > .image-container{width:9rem;}
+  nav.footer.style-10 .footer-bottom .counts{
+    flex-direction:column; align-items:center;
+  }
+  nav.footer.style-10 .contact-list.center{justify-content:flex-start; margin-top:.5rem;}
+  nav.footer.style-10 .count-web{margin-left:0!important;}
 }

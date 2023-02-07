@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -87,6 +87,13 @@
                             <div class="img-container">
                               <div class="ss-img">
                                 <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                                <div class="hover-container">
+                                  <div class="icon sm">
+                                    <img src="public/assets/app/images/icon-svg/01.svg" alt="Icon">
+                                  </div>
+                                </div>
+                                <div class="filter style-01"></div>
+                                <div class="card-line style-01"></div>
                               </div>
                             </div>
                             <div class="text-container">
@@ -165,8 +172,15 @@
         <?php foreach($news03 as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
           <a class="ss-card ss-card-08 mb-3" href="#">
-            <div class="ss-img">
+            <div class="ss-img ovf-hidden">
               <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+              <div class="hover-container">
+                <div class="icon sm">
+                  <img src="public/assets/app/images/icon-svg/01.svg" alt="Icon">
+                </div>
+              </div>
+              <div class="filter style-01"></div>
+              <div class="card-line style-01"></div>
             </div>
             <div class="text-container">
               <p class="title fw-500 mt-1">
@@ -195,10 +209,9 @@
                 รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงานในการศึกษา
               </p>
             </div>
-            <div class="btns jc-center pt-5" data-aos="fade-up" data-aos-delay="400">
-              <div href="#" class="btn btn-action btn-02">
-                <em class="icon fa-solid fa-arrow-right"></em>
-                อ่านเพิ่มเติม
+            <div class="btns jc-center mt-5">
+              <div class="btn btn-action-style-06">
+                <span>อ่านเพิ่มเติม</span><div class="sep"></div>
               </div>
             </div>
           </a>

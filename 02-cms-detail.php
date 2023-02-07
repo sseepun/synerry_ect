@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -87,11 +87,6 @@
               </div>
             <?php }?>
           </div>
-          <div class="btns jc-center mt-3" data-aos="fade-up" data-aos-delay="150">
-            <div href="#" class="btn btn-action btn-02">
-              ดาวน์โหลดทั้งหมด (30)
-            </div>
-          </div>
           <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
             <div>
               <span class="fw-500">แท็ก:</span>
@@ -134,47 +129,10 @@
               </div>
             </div>
           </div>
-          <?php 
-            $videos = [
-              ['image' => 'public/assets/app/images/content/14.jpg'],
-              ['image' => 'public/assets/app/images/content/15.jpg'],
-              ['image' => 'public/assets/app/images/content/13.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg'],
-            ]
-          ?>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="450">
-            วิดีโอที่เกี่ยวข้อง
-          </h4>
-          <div class="grids" data-aos="fade-up" data-aos-delay="650">
-            <?php foreach($videos as $d) {?>
-              <div class="grid lg-25 sm-50 mt-2">
-                <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="hover-container show">
-                      <div class="icon sm">
-                        <img src="public/assets/app/images/icon/play-thin.png" alt="Play Icon">
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            <?php }?>
-          </div>
-          <div class="file-header-container mt-5" data-aos="fade-up" data-aos-delay="800">
-            <h4 class="title fw-600">
-              ไฟล์ที่เกี่ยวข้อง
-            </h4>     
-            <div class="btns">
-              <div class="btn btn-action-style-03 btn-02 mr-3" href="#">
-                <em class="fa-solid fa-arrow-down"></em>
-                <em class="fa-solid fa-arrow-up"></em>
-              </div>
-              <div href="#" class="btn btn-action size-02 btn-02">
-                ดาวน์โหลดทั้งหมด (30)
-              </div>
-            </div>
-          </div>  
+
+          <h4 class="title fw-600 mt-6">
+            ไฟล์ที่เกี่ยวข้อง
+          </h4>     
           <div class="scroll-x-wrapper mt-3" data-simplebar>
             <table class="table table-download" data-aos="fade-up" data-aos-delay="950">
               <tbody>
@@ -217,29 +175,35 @@
                 <?php }?>
               </tbody>
             </table>
-          </div> 
-          <div class="buttons-group mt-5" data-aos="fade-up" data-aos-delay="0">
-            <div class="wrapper">
-              <div class="btns">
-                <div href="#" class="btn width-auto btn-action btn-09">
-                  <em class="fa-solid fa-arrow-left"></em>
-                  สื่อก่อนหน้า
-                </div>
-              </div> 
-              <div class="icon-container">
-                <div class="icon-wrapper">
-                  <div class="icon"><em class="fa-solid fa-list"></em></div>
-                  <p class="text fw-500">หน้ารวมข่าว</p>  
-                </div>
-              </div>
-              <div class="btns jc-end">
-                <div href="#" class="btn width-auto btn-action btn-02">
-                  สื่อถัดไป
-                  <em class="fa-solid fa-arrow-right"></em>
-                </div>
-              </div>     
-            </div>
           </div>
+
+          <?php 
+            $videos = [
+              ['image' => 'public/assets/app/images/content/14.jpg'],
+              ['image' => 'public/assets/app/images/content/15.jpg'],
+              ['image' => 'public/assets/app/images/content/13.jpg'],
+              ['image' => 'public/assets/app/images/content/12.jpg'],
+            ]
+          ?>
+          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="450">
+            วิดีโอที่เกี่ยวข้อง
+          </h4>
+          <div class="grids" data-aos="fade-up" data-aos-delay="650">
+            <?php foreach($videos as $d) {?>
+              <div class="grid lg-25 sm-50 mt-2">
+                <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
+                  <div class="ss-img">
+                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                    <div class="hover-container show">
+                      <div class="icon sm">
+                        <img src="public/assets/app/images/icon/play-thin.png" alt="Play Icon">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <?php }?>
+          </div> 
         </div>
         <!-- Right Content -->
         <div class="grid xl-30 lg-40 md-1-3 sm-100">

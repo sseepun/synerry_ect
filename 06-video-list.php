@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -47,11 +47,13 @@
                         <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                            <div class="hover-container show">
+                            <div class="hover-container">
                               <div class="icon sm">
-                                <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                                <img src="public/assets/app/images/icon/play.png" alt="Icon">
                               </div>
                             </div>
+                            <div class="filter style-01"></div>
+                            <div class="card-line style-01"></div>
                           </div>
                           <div class="text-container">
                             <p class="title fw-500">
@@ -83,11 +85,13 @@
                   <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                     <div class="ss-img square-size-02">
                       <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
-                      <div class="hover-container show">
+                      <div class="hover-container">
                         <div class="icon sm">
-                          <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                          <img src="public/assets/app/images/icon/play.png" alt="Icon">
                         </div>
                       </div>
+                      <div class="filter style-01"></div>
+                      <div class="card-line style-01"></div>
                     </div>
                     <div class="text-container">
                       <p class="h4 title lh-sm fw-500">
@@ -119,11 +123,13 @@
                         <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                            <div class="hover-container show">
+                            <div class="hover-container">
                               <div class="icon sm">
-                                <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                                <img src="public/assets/app/images/icon/play.png" alt="Icon">
                               </div>
                             </div>
+                            <div class="filter style-01"></div>
+                            <div class="card-line style-01"></div>
                           </div>
                           <div class="text-container">
                             <p class="title fw-500">
@@ -198,17 +204,18 @@
                 <div class="img-container">
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="filter-01"></div>
-                    <div class="hover-container show">
-                <div class="icon sm">
-                  <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
-                </div>
-              </div>
+                    <div class="hover-container">
+                      <div class="icon sm">
+                        <img src="public/assets/app/images/icon/play.png" alt="Icon">
+                      </div>
+                    </div>
+                    <div class="filter style-01"></div>
+                    <div class="card-line style-01"></div>
                   </div>
                 </div>
                 <div class="text-container">
                   <div class="text">
-                    <p class="title fw-500">
+                    <p class="title fw-600">
                       รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
                       สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี รองเลขาธิการคณะกรรมการการเลือกตั้ง 
                       ประชุมหารือเตรียมการจัดงานวันสถาปนา สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
@@ -217,23 +224,31 @@
                       <div class="wrapper">
                         <div class="icon">
                           <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                          <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-eye"></em>
-                          <span class="p sm fw-400 ml-2">255</span>
+                          <span class="p sm ml-2 fw-500">255</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm fw-400 ml-2">208</span>
+                          <span class="p sm ml-2 fw-500">208</span>
                         </div>
                       </div>
                     </div>
+                    <p class="desc sm color-gray mt-1 fw-400">
+                      วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายเกรียงไกร พานดอกไม้ 
+                      รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงาน
+                      ในการศึกษาวิธีการปฏิบัติที่ผ่านมาสำหรับการประเมินผลการปฏิบัติงาน
+                      ของเลขาธิการคณะกรรมการการเลือกตั้ง เพื่อให้เป็นไปตามความเห็นและ
+                      ข้อสังเกตของคณะกรรมการการเลือกตั้ง ณ ห้องประชุมรองเลขาธิการ
+                      เพื่อให้เป็นไปตามความเห็นและ ข้อสังเกตของคณะกรรมการการเลือกตั้ง 
+                      ณ ห้องประชุมรองเลขาธิการ
+                    </p>
                   </div>
-                  <div class="btns jc-center" data-aos="fade-up" data-aos-delay="300">
-                    <div href="#" class="btn btn-action btn-02">
-                      <em class="icon fa-solid fa-arrow-right"></em>
-                      อ่านเพิ่มเติม
+                  <div class="btns mt-5">
+                    <div class="btn btn-action-style-06">
+                      <span>อ่านเพิ่มเติม</span><div class="sep"></div>
                     </div>
                   </div>
                 </div>

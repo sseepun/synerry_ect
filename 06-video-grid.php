@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <? //php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -48,11 +48,13 @@
                         <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                            <div class="hover-container show">
+                            <div class="hover-container">
                               <div class="icon sm">
-                                <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                                <img src="public/assets/app/images/icon/play.png" alt="Icon">
                               </div>
                             </div>
+                            <div class="filter style-01"></div>
+                            <div class="card-line style-01"></div>
                           </div>
                           <div class="text-container">
                             <p class="title fw-500">
@@ -84,11 +86,13 @@
                   <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                     <div class="ss-img square-size-02">
                       <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
-                      <div class="hover-container show">
+                      <div class="hover-container">
                         <div class="icon sm">
-                          <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                          <img src="public/assets/app/images/icon/play.png" alt="Icon">
                         </div>
                       </div>
+                      <div class="filter style-01"></div>
+                      <div class="card-line style-01"></div>
                     </div>
                     <div class="text-container">
                       <p class="h4 title lh-sm fw-500">
@@ -120,11 +124,13 @@
                         <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                            <div class="hover-container show">
+                            <div class="hover-container">
                               <div class="icon sm">
-                                <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                                <img src="public/assets/app/images/icon/play.png" alt="Icon">
                               </div>
                             </div>
+                            <div class="filter style-01"></div>
+                            <div class="card-line style-01"></div>
                           </div>
                           <div class="text-container">
                             <p class="title fw-500">
@@ -198,16 +204,18 @@
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
-          <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+          <a class="ss-card ss-card-47" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-              <div class="hover-container show">
+              <div class="hover-container">
                 <div class="icon sm">
                   <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
                 </div>
               </div>
+              <div class="filter style-01"></div>
+              <div class="card-line style-01"></div>
             </div>
-            <div class="text-container">
+            <div class="text-container pt-3">
               <p class="title fw-500">
                 "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
               </p>
@@ -228,10 +236,9 @@
                 </div>
               </div>
             </div>
-            <div class="btns jc-center pt-5" data-aos="fade-up" data-aos-delay="400">
-              <div href="#" class="btn btn-action btn-02">
-                <em class="icon fa-solid fa-arrow-right"></em>
-                อ่านเพิ่มเติม
+            <div class="btns jc-center mt-5">
+              <div class="btn btn-action-style-06">
+                <span>อ่านเพิ่มเติม</span><div class="sep"></div>
               </div>
             </div>
           </a>
