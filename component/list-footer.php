@@ -9,9 +9,12 @@
     <?php }?>
     <?php if(in_array('paginate', $listFooter)){?>
       <div class="option">
+        <a class="btn btn-action-style-07 mr-2" href="#">
+          หน้าแรก
+        </a>
         <div class="paginate style-02">
           <div class="arrow arrow-prev">
-            <em class="fa-solid fa-arrow-left"></em>
+            <em class="fa-solid fa-chevron-left"></em>
           </div>
           <div class="pages">
             <a class="page active" href="#">01</a>
@@ -21,9 +24,12 @@
             <a class="page" href="#">05</a>
           </div>
           <div class="arrow arrow-next">
-            <em class="fa-solid fa-arrow-right"></em>
+            <em class="fa-solid fa-chevron-right"></em>
           </div>
         </div>
+        <a class="btn btn-action-style-07 ml-2" href="#">
+          หน้าสุดท้าย
+        </a>
       </div>
     <?php }?>
     <?php if(in_array('pp', $listFooter)){?>

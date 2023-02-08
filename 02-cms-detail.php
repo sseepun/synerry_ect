@@ -88,16 +88,22 @@
             <?php }?>
           </div>
           <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
-            <div>
+            <div class="d-flex ai-center">
               <span class="fw-500">แท็ก:</span>
-              <div class="ss-tags d-inline-block">
-                <div class="tag style-02">ข่าวประกาศ</div>
+              <div class="ss-tags style-02 d-inline-block ml-2">
+                <div class="tag"> 
+                  <span class="title">ข่าวประกาศ</span>
+                </div>
              </div>
-             <div class="ss-tags d-inline-block">
-                <div class="tag style-02">อบรมหลักสูตร</div>
+             <div class="ss-tags style-02 d-inline-block">
+                <div class="tag">
+                  <span class="title">อบรมหลักสูตร</span>
+                </div>
              </div>
-             <div class="ss-tags d-inline-block">
-                <div class="tag style-02">การเลือกตั้ง</div>
+             <div class="ss-tags style-02 d-inline-block">
+                <div class="tag">
+                  <span class="title">การเลือกตั้ง</span>
+                </div>
              </div>
             </div> 
             <div class="social-list">
@@ -130,11 +136,11 @@
             </div>
           </div>
 
-          <h4 class="title fw-600 mt-6">
+          <h4 class="title fw-600 mt-6 pt-6" data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
-          <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="950">
+          <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="600">
               <tbody>
                 <?php
                   foreach([
@@ -164,12 +170,11 @@
                       </div>
                     </td>
                     <td class="arrow-container" style="min-width:100px;">
-                      <div class="d-flex ai-center jc-center fw-wrap">
-                        <a class="btn btn-action-style-02 btn-02" href="#">
-                          <em class="fa-solid fa-arrow-down"></em>
-                        </a>
+                      <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                        <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                        <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
                       </div>
-                      <p class="xs color-02 color-black-theme text-center fw-500 mt-1">ดาวน์โหลด</p>
+                      <a class="xs title color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
                     </td>
                   </tr>
                 <?php }?>
@@ -204,6 +209,16 @@
               </div>
             <?php }?>
           </div> 
+          
+          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="800">
+            สื่อที่เกี่ยวข้อง
+          </h4>
+          <div class="scroll-x-wrapper mt-2" data-simplebar>
+            <iframe class="embed-container" data-aos="fade-up" data-aos-delay="950"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FEctThailand%2Fposts%2Fpfbid0ttvmys5Dca6mdHnoqu22DtpJBJzF6FsCe2XJLUmFpGBAz3miPAtRYA3Hzawx6EWal&show_text=true&width=500" 
+              width="" height="802" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
+          </div>
         </div>
         <!-- Right Content -->
         <div class="grid xl-30 lg-40 md-1-3 sm-100">
@@ -273,20 +288,30 @@
           <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
             <p class="h5 fw-600 color-black-theme">แท็กยอดนิยม</p>
             <div class="mt-1">
-              <div class="ss-tags">
-                <div class="tag">ข่าวประกาศ</div>
+              <div class="ss-tags style-02">
+                <div class="tag">
+                  <span class="title">ข่าวประกาศ</span>
+                </div>
               </div>
-              <div class="ss-tags">
-                <div class="tag">อบรมหลักสูตร</div>
+              <div class="ss-tags style-02">
+                <div class="tag">
+                  <span class="title">อบรมหลักสูตร</span>
+                </div>
               </div>
-              <div class="ss-tags">
-                <div class="tag">การเลือกตั้ง</div>
+              <div class="ss-tags style-02">
+                <div class="tag">
+                  <span class="title">การเลือกตั้ง</span>
+                </div>
               </div>
-              <div class="ss-tags">
-                <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
+              <div class="ss-tags style-02">
+                <div class="tag">
+                  <span class="title">รายงานการจัดซื้อจัดจ้าง</span>
+                </div>
               </div>
-              <div class="ss-tags">
-                <div class="tag">ระดับชำนาญการพิเศษ</div>
+              <div class="ss-tags style-02">
+                <div class="tag">
+                  <span class="title">ระดับชำนาญการพิเศษ</span>
+                </div>
               </div>
             </div>
           </div>

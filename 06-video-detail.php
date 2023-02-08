@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -64,18 +64,24 @@
             </p>
           </div>
           <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
-            <div>
+            <div class="d-flex ai-center">
               <span class="fw-500">แท็ก:</span>
-              <div class="ss-tags d-inline-block">
-                <div class="tag style-02">ข่าวประกาศ</div>
+              <div class="ss-tags style-02 d-inline-block ml-2">
+                <div class="tag"> 
+                  <span class="title">ข่าวประกาศ</span>
+                </div>
              </div>
-             <div class="ss-tags d-inline-block">
-                <div class="tag style-02">อบรมหลักสูตร</div>
+             <div class="ss-tags style-02 d-inline-block">
+                <div class="tag">
+                  <span class="title">อบรมหลักสูตร</span>
+                </div>
              </div>
-             <div class="ss-tags d-inline-block">
-                <div class="tag style-02">การเลือกตั้ง</div>
+             <div class="ss-tags style-02 d-inline-block">
+                <div class="tag">
+                  <span class="title">การเลือกตั้ง</span>
+                </div>
              </div>
-            </div> 
+            </div>  
             <div class="social-list">
               <span class="fw-500 mr-1">แบ่งปัน:</span>
               <div class="d-inline-block">
@@ -105,26 +111,15 @@
               </div>
             </div>
           </div>
-          <div class="file-header-container mt-5" data-aos="fade-up" data-aos-delay="800">
-            <h4 class="title fw-600">
-              ไฟล์ที่เกี่ยวข้อง
-            </h4>     
-            <div class="btns">
-              <div class="btn btn-action-style-03 btn-02 mr-3" href="#">
-                <em class="fa-solid fa-arrow-down"></em>
-                <em class="fa-solid fa-arrow-up"></em>
-              </div>
-              <div href="#" class="btn btn-action size-02 btn-02">
-                ดาวน์โหลดทั้งหมด (30)
-              </div>
-            </div>
-          </div>  
-          <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="950">
+          <h4 class="title fw-600 mt-6 pt-6" data-aos="fade-up" data-aos-delay="600">
+            ไฟล์ที่เกี่ยวข้อง
+          </h4>     
+          <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
               <tbody>
                 <?php
                   foreach([
-                    'pdf', 'doc', 'mp4'
+                    'mp4'
                   ] as $k){
                 ?>
                   <tr class="box-shadow style-02 mb-2">
@@ -149,39 +144,16 @@
                       </div>
                     </td>
                     <td class="arrow-container" style="min-width:100px;">
-                      <div class="d-flex ai-center jc-center fw-wrap">
-                        <a class="btn btn-action-style-02 btn-02" href="#">
-                          <em class="fa-solid fa-arrow-down"></em>
-                        </a>
+                      <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                        <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                        <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
                       </div>
-                      <p class="xs color-02 text-center color-black-theme fw-500 mt-1">ดาวน์โหลด</p>
+                      <a class="xs title color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
                     </td>
                   </tr>
                 <?php }?>
               </tbody>
             </table>
-          </div> 
-          <div class="buttons-group mt-5" data-aos="fade-up" data-aos-delay="0">
-            <div class="wrapper">
-              <div class="btns">
-                <div href="#" class="btn width-auto btn-action btn-09">
-                  <em class="fa-solid fa-arrow-left"></em>
-                  สื่อก่อนหน้า
-                </div>
-              </div> 
-              <div class="icon-container">
-                <div class="icon-wrapper">
-                  <div class="icon"><em class="fa-solid fa-list"></em></div>
-                  <p class="text fw-500">หน้ารวมภาพ</p>  
-                </div>
-              </div>
-              <div class="btns jc-end">
-                <div href="#" class="btn width-auto btn-action btn-02">
-                  สื่อถัดไป
-                  <em class="fa-solid fa-arrow-right"></em>
-                </div>
-              </div>     
-            </div>
           </div>
         </div>
         <!-- Right Content -->
@@ -252,20 +224,30 @@
             <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="450">
               <p class="h5 color-black-theme fw-600">แท็กยอดนิยม</p>
               <div class="mt-1">
-                <div class="ss-tags">
-                  <div class="tag">ข่าวประกาศ</div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">ข่าวประกาศ</span>
+                  </div>
                 </div>
-                <div class="ss-tags">
-                  <div class="tag">อบรมหลักสูตร</div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">อบรมหลักสูตร</span>
+                  </div>
                 </div>
-                <div class="ss-tags">
-                  <div class="tag">การเลือกตั้ง</div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">การเลือกตั้ง</span>
+                  </div>
                 </div>
-                <div class="ss-tags">
-                  <div class="tag">รายงานการจัดซื้อจัดจ้าง</div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">รายงานการจัดซื้อจัดจ้าง</span>
+                  </div>
                 </div>
-                <div class="ss-tags">
-                  <div class="tag">ระดับชำนาญการพิเศษ</div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">ระดับชำนาญการพิเศษ</span>
+                  </div>
                 </div>
               </div>
             </div>
