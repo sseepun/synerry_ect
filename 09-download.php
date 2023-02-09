@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -35,7 +35,7 @@
             <div class="question box-shadow style-02">
               <h3 class="ftag">
                 <div class="icon">
-                  <img src="public/assets/app/images/icon/14.png" alt="">
+                  <img src="public/assets/app/images/icon-svg/file-link-white.svg" alt="">
                 </div>
               </h3>
               <p class="title sm lh-sm fw-400">
@@ -55,13 +55,13 @@
                       <tbody>
                         <?php
                           foreach([
-                            'pdf', 'doc', 'pdf'
+                            'file-link', 'file-link', 'file-link'
                           ] as $k){
                         ?>
                           <tr class="box-shadow style-02 mb-2 mt-4">
                             <td>
                               <div class="download-card">
-                                <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                                <img class="size-02" src="public/assets/app/images/icon-svg/<?= $k ?>.svg" alt="Image File" />
                               </div>
                             </td>
                             <td class="title-container pl-3" style="min-width:450px;">
@@ -70,27 +70,32 @@
                               </a>
                               <div class="text-footer">
                                 <div class="wrapper">
-                                  <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                                   <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                                   <div class="icon">
                                     <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                    <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                                    <p class="btn-popup-toggle cursor-pointer sm  color-black-theme fw-400" data-popup="99">
+                                      แจ้งไฟล์เสีย
+                                    </p>
                                   </div>
                                 </div>
                               </div>
                             </td>
                             <td class="arrow-container" style="min-width:100px;">
                               <div class="d-flex ai-center jc-center fw-wrap">
-                                <a class="btn btn-action-style-02 btn-02" href="#">
-                                  <em class="fa-solid fa-arrow-down"></em>
-                                </a>
+                                <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
+                                <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">
                               </div>
-                              <p class="xs color-02 color-black-theme text-center fw-400 mt-1">ดาวน์โหลด</p>
+                              <p class="xs color-02 color-black-theme text-center fw-400 mt-1">คลิกลิงก์</p>
                             </td>
                           </tr>
                         <?php }?>
                       </tbody>
                     </table>
+                  </div>
+                  <div class="btns jc-center mt-5 mb-5">
+                    <a class="btn btn-action-style-06 size-02" href="#">
+                      <span>ดาวน์โหลดทั้งหมด (2)</span><div class="sep"></div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -105,6 +110,8 @@
       </div>
     </div>
   </div>
+
+  <?php include_once('component/popup-file-error.php'); ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

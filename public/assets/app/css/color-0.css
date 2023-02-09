@@ -149,6 +149,11 @@ html, body, table.table{color:#000000;}
 .btn.btn-16:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 .btn.btn-16:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-17, .btn.btn-17:focus{color:#ffffff; background:#1e5763; border-color:#1e5763;}
+.btn.btn-17:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+.btn.btn-17:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
 .btn.btn-action-style-04 .wrapper > .icon.gg{color:#ec4034;}
@@ -811,6 +816,7 @@ nav.footer.style-10 .policy-container > .text-wrapper a:hover{color:#8c6961;}
 .list-header.style-02 .option > select{background:#eeeeee!important;}
 .list-header.style-02 .option > .dropdown-icon{background:#30906a; color:#ffffff;}
 .ui.icon.input input{background:#eeeeee!important;}
+input[type="text"][disabled]{background:#eeeeee!important;}
 
 /* List Header */
 .list-header.style-03 .option{color:#fe4d01; background:#ffffff; border-color:#dddddd;}
@@ -860,8 +866,25 @@ table.table.table-download.style-03 .text-footer > .wrapper .icon{color:#ffab28;
 .banner-03 span.swiper-pagination-bullet-active{background:#7cc5b5!important; color:#ffffff!important;}
 .banner-03.style-03 span.swiper-pagination-bullet-active{background:#1e5763!important; color:#ffffff!important;}
 
+/* Popup Container */
+.popup-container .popup-header{border-color:#eeeeee;}
+.popup-container .popup-box{background:#ffffff;}
+.popup-container .close-icon{color:#2e603c;}
+
 /* Global Filter */
 .filter.style-01{background:rgb(48,144,106,.6);}
+
+/* Shortcode */
+.shortcode-container .shortcode-content,
+.shortcode-container .shortcode-content::after{background:#f4f4f4; border-color:#2e603c;}
+.shortcode-container .shortcode-content > .arrow{border-color:#2e603c; background:#f4f4f4;}
+.shortcode-container .shortcode-footer{border-color:#2e603c;}
+.shortcode-container .shortcode-content{box-shadow:0 0 10px 2px rgb(0 0 0 / 15%);}
+.shortcode-container textarea{
+    border-color:transparent!important; background:transparent!important;
+    color:#000000!important;
+}
+
 
 /* Section option */
 .section-options .options > .option{background:#2e8e68;color:#ffffff;}

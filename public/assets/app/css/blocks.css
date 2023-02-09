@@ -367,7 +367,7 @@
 }
 .faq-02 .faq > .question .ftag > .icon{display:flex; justify-content:center; align-items:center;}
 .faq-02 .faq > .question .ftag > .icon img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:2rem;  
+  display:block; max-width:100%; max-height:100%; width:auto; height:2.5rem;  
 }
 .faq-02 .faq > .question .title{
   display:flex; align-items:center; height:auto; width:calc(100% - 9rem);
@@ -381,10 +381,15 @@
   display:none; width:100%; border:1px solid #3aa57b; padding:0 2.875rem;
   border-top:0; border-radius:0 0 .4375rem .4375rem;
 }
-
 .faq-02 .faq > .answer .content > .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
 .faq-02 .faq > .answer .content > .wrapper .img-container{width:25%; border-radius:.5rem; overflow:hidden;}
 .faq-02 .faq > .answer .content > .wrapper .text-container{width:75%; padding:0 1.5rem;}
+.faq-02 .faq > .answer .arrow-container{position:relative;}
+.faq-02 .faq > .answer .arrow-container img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.5rem; transition:opacity .25s;
+}
+.faq-02 .faq > .answer .arrow-container img.active{position:absolute; opacity:0;}
+.faq-02 .faq > .answer .arrow-container:hover img.active{opacity:1;}
 @media screen and (max-width:575.98px){
   .faq-02 .faq > .question{height:auto;}
 }
@@ -1201,7 +1206,7 @@
 
 
 
-/* Tabs 01 */F
+/* Tabs 01 */
 .tab-container .tabs.tabs-01{
     display:flex; align-items:center; justify-content:center; flex-wrap:wrap;
 }

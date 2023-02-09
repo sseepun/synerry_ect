@@ -255,10 +255,14 @@ $(function(){ 'use strict';
         $('.toggle-target[data-toggle="'+$(this).data('toggle')+'"]').toggleClass('active');
     });
 
-    // Button Popup
-    $('.btn-popup-toggle').click(function(e){
+     // Button Popup
+     $('.btn-popup-toggle').click(function(e){
         e.preventDefault();
         $('.popup-container[data-popup="'+$(this).data('popup')+'"]').toggleClass('active');
+    });
+    $('.btn-popup-close-all').click(function(e){
+        e.preventDefault();
+        $('.popup-container').removeClass('active');
     });
 
     // Button Copy
@@ -284,7 +288,7 @@ $(function(){ 'use strict';
                 copyReady = true;
                 self.closest('.toggle-target').removeClass('active');
                 self.html('คัดลอก');
-            }, 2000);
+            }, 3000);
         }
     });
     

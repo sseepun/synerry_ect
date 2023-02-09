@@ -106,12 +106,10 @@
                 </div>
              </div>
             </div> 
-            <div class="social-list">
+            <div class="social-list pos-relative">
               <span class="fw-500 mr-1">แบ่งปัน:</span>
               <div class="d-inline-block">
-                <a class="icon active" href="#">
-                  <em class="fa-solid fa-code"></em>
-                </a>
+                <?php include('component/shortcode.php'); ?>
               </div>
               <div class="d-inline-block">
                 <a class="icon" href="#">
@@ -136,7 +134,7 @@
             </div>
           </div>
 
-          <h4 class="title fw-600 mt-6 pt-6" data-aos="fade-up" data-aos-delay="450">
+          <h4 class="title fw-600 mt-6 pt-6" style="position:relative; z-index:-1;" data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
@@ -164,7 +162,7 @@
                           <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                           <div class="icon">
                             <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                            <a class=" sm color-black color-black-theme fw-400" href="#">แจ้งไฟล์เสีย</a>
                           </div>
                         </div>
                       </div>
@@ -319,6 +317,8 @@
       </div>
     </div>
   </section>
+
+  <?php include_once('component/popup-file-error.php'); ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
