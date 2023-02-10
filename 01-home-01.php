@@ -291,7 +291,7 @@
                     <em class="fa-regular fa-file-lines"></em>
                   </div>
                   <div class="text-container">
-                    <p class="title h-color-04 fw-500">
+                    <p class="title fw-500">
                       <?= $d['title'] ?>
                     </p>
                   </div>
@@ -444,7 +444,7 @@
           <?php foreach($syndicates as $d) {?>
             <div class="swiper-slide ">
               <div class="ss-card ss-card-28">
-                <div class="ss-img vertical">
+                <div class="ss-img vertical-02 no-hover">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>')"></div>
                 </div>
                 <div class="text-container">
@@ -647,7 +647,7 @@
                   </div>
                 </fieldset>
                 <div class="btns pt-4">
-                  <button type="submit" class="btn btn-action btn-04 w-full">
+                  <button type="submit" class="btn btn-popup-toggle btn-action btn-04 w-full" data-popup="99">
                     <div class="d-flex ai-center jc-center pt-2 pb-2">
                       <img 
                         class="img mr-3" src="public/assets/app/images/icon/12.png" 
@@ -664,6 +664,11 @@
       </div>
     </div>
   </section>
+
+  <?php
+    $listResult= ['re-password'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-03.php'); ?>
   <?php include_once('include/script.php'); ?>

@@ -229,7 +229,7 @@
                   <div class="grids no-gap">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
-                        <button type="submit" href="#" class="btn btn-action width-full mw-auto btn-03">
+                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
                           ส่งข้อความ
                         </button>
                       </div>
@@ -255,7 +255,10 @@
     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>
 
-
+  <?php
+    $listResult= ['contact'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

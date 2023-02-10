@@ -101,16 +101,17 @@
                                 <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                                 <div class="icon">
                                   <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                  <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                                  <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                                    แจ้งไฟล์เสีย
+                                  </p>
                                 </div>
                               </div>
                             </div>
                           </td>
                           <td class="arrow-container" style="min-width:100px;">
-                            <div class="d-flex ai-center jc-center fw-wrap">
-                              <a class="btn btn-action-style-02 btn-02" href="#">
-                                <em class="fa-solid fa-arrow-down"></em>
-                              </a>
+                            <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                              <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                              <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
                             </div>
                             <p class="xs text-center color-02 color-black-theme fw-400 mt-1">ดาวน์โหลด</p>
                           </td>
@@ -132,6 +133,8 @@
       </div>
     </div>
   </div>
+
+  <?php include_once('component/popup-file-error.php'); ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

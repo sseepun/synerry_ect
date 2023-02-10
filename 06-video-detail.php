@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -138,7 +138,9 @@
                           <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                           <div class="icon">
                             <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                            <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                              แจ้งไฟล์เสีย
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -148,7 +150,7 @@
                         <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
                         <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
                       </div>
-                      <a class="xs title color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                      <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
                     </td>
                   </tr>
                 <?php }?>
@@ -256,6 +258,8 @@
       </div>
     </div>
   </section>
+
+  <?php include_once('component/popup-file-error.php'); ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

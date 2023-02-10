@@ -446,10 +446,10 @@
 }
 
 /* Faq 05 */
-.faq-05{min-width:800px;}
+.faq-05{min-width:900px;}
 .faq-05 .faq{width:100%; margin:.4375rem 0 0 0;}
 .faq-05 .faq > .question{
-  width:100%; display:flex; border:1px solid transparent; height:4.5rem;
+  width:100%; display:flex; border:1px solid transparent; height:5.5rem;
   cursor:pointer; transition:border-color .25s; border-radius:.4375rem; overflow:hidden;
 }
 .faq-05 .faq .ftag{
@@ -462,12 +462,14 @@
 }
 .faq-05 .faq > .question .text{
   width:10rem; display:flex; flex-direction:column; justify-content:center; align-items:center;
-  transition:background .5s, color .5s;
+  transition:background .5s, color .5s; padding:1rem 0 1rem 1rem;
 }
 .faq-05 .faq > .question .title{
-  display:flex; align-items:center; height:auto; width:calc(100% - 30rem);
-  transition:color .25s; padding:1rem 0 1rem 1rem; transition:background .5s, color .5s;
+  height:auto; width:calc(100% - 30rem); display:flex; flex-direction:column; justify-content:center;
+  transition:color .25s; transition:background .5s, color .5s; padding-left:1rem;
 }
+.faq-05 .faq > .question .title > .icon .fa-circle-exclamation,
+.faq-05 .faq > .question .title > .icon p{transition:color .25s;}
 .faq-05 .faq > .question .date-view{
   width:11rem; display:flex; justify-content:center; align-items:center;
   transition:background .5s, color .5s;
@@ -484,9 +486,12 @@
   border-radius:0 .4375rem .4375rem 0; transition:background .5s, color .5s;
 }
 .faq-05 .faq > .question .button-download > .btn{transition:background .5s, color .5s;}
-@media screen and (max-width:575.98px){
-  .faq-05 .faq > .question{height:auto;}
+.faq-05 .faq > .question .button-download > .img-wrapper img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.5rem; transition:opacity .25s;
 }
+.faq-05 .faq > .question .button-download  > .img-wrapper img.active{position:absolute; opacity:0;}
+.faq-05 .faq:hover > .question .button-download  > .img-wrapper img.active{opacity:1;}
+
 
 /* Faq 06 */
 .faq-06{width:100%;}
@@ -1118,10 +1123,11 @@
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
     background-position:center;
 }
-.breadcrumb-01 .bottom .wrapper a:last-child{position:relative; padding-left:2.375rem;}
-.breadcrumb-01 .bottom .wrapper a:last-child::before{
+.breadcrumb-01 .bottom .wrapper a:not(:first-child){position:relative; padding-left:2.375rem;}
+.breadcrumb-01 .bottom .wrapper a:not(:first-child):before{
   position:absolute; content:""; width:1rem; height:4px; top:40%; left:.5rem;
 }
+
 
 /* Breadcrumb 02 */
 .breadcrumb-02{position:relative; z-index:2;}

@@ -948,6 +948,19 @@ fieldset{padding:0; margin:0; border:0;}
   overflow-x:hidden; overflow-y:auto;
 }
 .popup-container .box-icon > img{display:block; height:5.5rem; width:auto; margin:0 auto;}
+
+/* Popup Container Style 02 */
+.popup-container.style-02 .popup-box > .mark-container{
+  position:absolute; top:0; left:50%; transform:translate(-50%, -50%); width:5.5rem; font-size:2rem;
+  height:5.5rem; display:flex; justify-content:center; align-items:center; border-radius:50%;
+}
+.popup-container.style-02 .box-body{
+  width:100%; padding:3.375rem 1rem 1rem 1rem;
+}
+.popup-container.style-02 .popup-box > .mark-container{background:#30906a; color:#ffffff;}
+.popup-container.style-02 > .wrapper{top:-50rem; transition:all .75s;}
+.popup-container.active.style-02 > .wrapper{top:0;}
+
 @media screen and (max-width:991.98px){
   .popup-container > .wrapper{padding:1.25rem;}
   .popup-container .box-body{padding:1.75rem;}
@@ -1174,7 +1187,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-box-header.style-02{border:1px solid transparent;}
 .ss-box-header .ellipsis{
   font-size:2rem; width:auto; height:1rem; display:flex; align-items:center;
-  padding:.5625rem .5rem; border-radius:3rem; cursor:pointer;
+  padding:.5625rem .5rem; border-radius:3rem; cursor:pointer; transition:background .25s;
 }
 
 
@@ -1241,6 +1254,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-img.horizontal{padding:58% 0 0 0;}
 .ss-img.horizontal-02{padding:30% 0 0 0;}
 .ss-img.vertical{padding:140% 0 0 0;}
+.ss-img.vertical-02{padding:155% 0 0 0;}
 .ss-img.square{padding:100% 0 0 0;}
 .ss-img.square-02{padding:76% 0 0 0;}
 .ss-img.square-03{padding:85% 0 0 0;}
@@ -2032,6 +2046,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 
 /* Special Card 12 */
+.ss-card-12{width:auto;}
 .ss-card-12 .ss-img{border-radius:.5rem; overflow:hidden;}
 .ss-card-12 .text-container{border-bottom:1px solid transparent; padding-bottom:1rem;}
 .ss-card-12 .text-container > .title{-webkit-line-clamp:2;}
@@ -2272,10 +2287,10 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-26 .wrapper{display:flex; align-items:center;}
 .ss-card-26 .wrapper > .icon{
   width:2rem; height:2rem; display:flex; justify-content:center; align-items:center;
-  border-radius:.375rem;
+  border-radius:.375rem; transition:background .3s, color .3s;
 }
 .ss-card-26 .wrapper > .text-container{padding:0 .9375rem;}
-.ss-card-26 .wrapper > .text-container .title{cursor:pointer;}
+.ss-card-26 .wrapper > .text-container .title{cursor:pointer; transition:color .25s}
 
 /* Special Card 28 */
 .ss-card-28{position:relative;}

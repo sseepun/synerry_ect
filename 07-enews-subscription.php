@@ -110,7 +110,7 @@
           <div class="captcha-container mt-5">
             <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
             <div class="btns ml-4">
-              <button type="submit" href="#" class="btn btn-action btn-03 size-03">
+              <button type="submit" class="btn btn-popup-toggle btn-action btn-03 size-03" data-popup="99">
                 ยืนยัน
               </button>
               <button type="cancel" href="#" class="btn btn-action btn-05 size-03">
@@ -122,6 +122,11 @@
       </div>
     </div>
   </section>
+
+  <?php
+    $listResult= ['enews-subscription'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

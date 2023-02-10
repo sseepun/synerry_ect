@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -162,7 +162,9 @@
                           <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                           <div class="icon">
                             <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <a class=" sm color-black color-black-theme fw-400" href="#">แจ้งไฟล์เสีย</a>
+                            <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                              แจ้งไฟล์เสีย
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -172,7 +174,7 @@
                         <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
                         <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
                       </div>
-                      <a class="xs title color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                      <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
                     </td>
                   </tr>
                 <?php }?>
@@ -250,11 +252,11 @@
                 ['image' => 'public/assets/app/images/content/03.jpg']
               ]
             ?>
-            <h5 class="fw-600" data-aos="fade-up" data-aos-delay="150">
+            <h5 class="fw-600 mb-3" data-aos="fade-up" data-aos-delay="150">
               ข่าวล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
+              <a class="ss-card ss-card-12" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                 </div>

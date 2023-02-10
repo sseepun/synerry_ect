@@ -10,9 +10,9 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'รีเซ็ทรหัสผ่าน' ],
+      [ 'url' => '#', 'display' => 'ตั้งรหัสผ่านใหม่' ],
     ];
-    $breadcrumbTitle = 'สมัครรับข่าวสาร';
+    $breadcrumbTitle = 'ตั้งรหัสผ่านใหม่';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/06.jpg';
     include('component/breadcrumb.php');
   ?>
@@ -25,11 +25,11 @@
     </div>
     <div class="container">
       <h3 class="fw-600" data-aos="fade-up" data-aos-delay="0">
-        รีเซ็ทรหัสผ่าน
+        ตั้งรหัสผ่านใหม่
       </h3>
       <div class="ss-box xl" data-aos="fade-up" data-aos-delay="0">
         <p class="text-center text-sm-unset fw-400">
-          กรุณากรอกอีเมล์ในช่วงด้านล่างเพื่อทำการตั้งค่ารหัสผ่านใหม่
+          สร้างรหัสผ่านใหม่ที่ไม่ซ้ำกับรหัสผ่านเดิม
         </p>
         <div class="form-group style-02 mt-3">
           <label class="p pw-title size-02 fw-500">รหัสผ่าน <span class="text-danger">*</span></label>
@@ -53,15 +53,20 @@
           <div class="captcha-container d-flex ai-center padding-style-03 mt-5">
             <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
             <div class="btns ml-3">
-              <div href="#" class="btn btn-action btn-02">
-                รีเซ็ทรหัสผ่านใหม่
-              </div>
+              <a href="./01-home-01.php" class="btn btn-action btn-popup-toggle btn-02" data-popup="99">
+                ยืนยัน
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <?php
+    $listResult= ['re-password'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

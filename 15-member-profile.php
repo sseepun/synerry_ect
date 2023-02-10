@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   
   <div class="sidebar open">
     <div data-aos="fade-in" data-aos-delay="0">
@@ -20,7 +20,7 @@
           </div>
           <div class="arrow-container">
             <div class="arrow" id="btn" >
-              <em class="fa-solid fa-arrow-left"></em>
+              <img src="public/assets/app/images/icon-svg/menu-collapsed-green-02.svg" alt="Icon Expand">
             </div>
           </div>
         </div>
@@ -100,9 +100,15 @@
  
   <div id="main" class="main-container">
     <div class="main-header" data-aos="fade-in" data-aos-delay="0">
-      <div href="#" class="btn btn-action btn-02" value="submit" type="submit">
-        ไปที่เว็บไซต์
-      </div>
+      <a class="main-header-menu" href="./01-home-01.php">
+        <div class="icon">
+          <img class="inactive" src="public/assets/app/images/icon-svg/homepage.svg" alt="Icon Inactive">
+        </div>
+        <p class="sm title fw-400 ml-1 mr-1 color-02">ไปที่หน้าหลักของเว็บไซต์</p>
+        <div class="icon">
+          <img class="active" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon Active">
+        </div>
+      </a>
     </div>
     <div id="mainContent" class="main-content">
       <div id="banner02" class="banner-02" data-aos="fade-in" data-aos-delay="0">

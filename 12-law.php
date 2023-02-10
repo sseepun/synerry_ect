@@ -53,9 +53,15 @@
                     <p class="sm fw-500">ม.120 พรบ.เลือกตั้ง</p>
                   </div>
                 </div>
-                <p class="title sm lh-sm fw-500">
+                <div class="title sm lh-sm fw-500">
                   คำวินิจฉัยที่ 1212/2565 เรื่อง การวินิจฉัยสิทธิสมัครรับเลือกตั้งสมาชิกสภาเทศบาลตำบลดอนมนต์ เขตเลือกตั้งที่ 2 
-                </p>
+                  <div class="icon d-flex ai-center">
+                    <em class="fa-solid fa-circle-exclamation color-04 mr-1"></em>
+                    <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                      แจ้งไฟล์เสีย
+                    </p>
+                  </div>
+                </div>
                 <div class="date-view">
                   <div class="wrapper">
                     <div class="icon">
@@ -69,10 +75,11 @@
                   </div>
                 </div>
                 <div class="button-download">
-                  <a class="btn btn-action-style-02" href="#">
-                    <em class="fa-solid fa-arrow-down"></em>
-                  </a>
-                  <p class="xs text-center mt-1">ดาวน์โหลด</p>
+                  <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                    <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                    <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
+                  </div>
+                  <p class="xs fw-400 text-center mt-1">ดาวน์โหลด</p>
                 </div>
               </div>
             </div>
@@ -87,6 +94,8 @@
       </div>
     </div>
   </div>
+
+  <?php include_once('component/popup-file-error.php'); ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

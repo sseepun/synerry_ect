@@ -20,7 +20,7 @@
           </div>
           <div class="arrow-container">
             <div class="arrow" id="btn" >
-              <em class="fa-solid fa-arrow-left"></em>
+              <img src="public/assets/app/images/icon-svg/menu-collapsed-green-02.svg" alt="Icon Expand">
             </div>
           </div>
         </div>
@@ -98,14 +98,17 @@
     </div>
   </div>
  
-  <div id="main" class="main-container" data-aos="fade-in" data-aos-delay="0">
-    <div class="main-header">
-      <div href="#" id="openBtn" class="btn btn-action size-04 btn-02 " onclick="openNav()">
-        ☰ เมนู
-      </div>
-      <div href="#" class="btn btn-action btn-02" value="submit" type="submit">
-        ไปที่เว็บไซต์
-      </div>
+  <div id="main" class="main-container">
+    <div class="main-header" data-aos="fade-in" data-aos-delay="0">
+      <a class="main-header-menu" href="./01-home-01.php">
+        <div class="icon">
+          <img class="inactive" src="public/assets/app/images/icon-svg/homepage.svg" alt="Icon Inactive">
+        </div>
+        <p class="sm title fw-400 ml-1 mr-1 color-02">ไปที่หน้าหลักของเว็บไซต์</p>
+        <div class="icon">
+          <img class="active" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon Active">
+        </div>
+      </a>
     </div>
     <div id="mainContent" class="main-content">
       <div id="banner02" class="banner-02">
@@ -157,7 +160,7 @@
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
-              <div class="ss-box-content p-4">
+              <div class="ss-box-content size-02 p-4">
                 <div class="grids jc-center">
                   <div class="grid lg-100 md-100 sm-100">
                     <a class="ss-card ss-card-07" href="#">
@@ -233,7 +236,7 @@
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
-              <div class="ss-box-content p-4">
+              <div class="ss-box-content size-02 p-4">
                 <div class="scroll-x-wrapper" data-simplebar>
                 <table class="table table-download">
                   <tbody>
@@ -258,7 +261,9 @@
                               <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                               <div class="icon">
                                 <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                                <p class="sm btn-popup-toggle color-black color-black-theme fw-400" data-popup="99">
+                                  แจ้งไฟล์เสีย
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -267,7 +272,7 @@
                     <?php }?>
                   </tbody>
                 </table>
-                      </div>
+                </div>
               </div>
               <div class="btns jc-center">
                 <div href="#" class="btn btn-action btn-08">
@@ -563,6 +568,8 @@
         </div>       
       </div>     
    </div>
+
+   <?php include_once('component/popup-file-error.php'); ?>
 
   <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>
