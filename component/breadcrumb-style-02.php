@@ -1,6 +1,6 @@
 
 <?php if(!empty($breadcrumb)){?>
-  <section class="breadcrumb-02">
+  <section class="breadcrumb-02 style-02">
     <div class="top <?php if(!empty($breadcrumbClass))echo $breadcrumbClass; ?>">
       <?php if(!empty($breadcrumbBg)){?>
           <div class="img-bg" style="background-image:url('<?= $breadcrumbBg ?>');"></div>
@@ -11,14 +11,14 @@
         </h6>
       </div>
     </div>
-    <div class="bottom">
+    <div class="bottom <?= $backgroundColor ?>">
       <div class="container">
         <div class="wrapper">
-          <div class="grids ai-center" data-aos="fade-up" data-aos-delay="0">
+          <div class="grids ai-center" style="position:relative; z-index:2;" data-aos="fade-up" data-aos-delay="0">
             <div class="grid lg-50 md-100 sm-100 mt-0">
               <?php foreach($breadcrumb as $b){?>
                 <a class="p title-link color-white sm border fw-400" href="<?= $b['url'] ?>">
-                    <?= $b['display'] ?>
+                  <span><?= $b['display'] ?></span>
                 </a>
               <?php }?>
             </div>

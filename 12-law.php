@@ -57,7 +57,7 @@
                   คำวินิจฉัยที่ 1212/2565 เรื่อง การวินิจฉัยสิทธิสมัครรับเลือกตั้งสมาชิกสภาเทศบาลตำบลดอนมนต์ เขตเลือกตั้งที่ 2 
                   <div class="icon d-flex ai-center">
                     <em class="fa-solid fa-circle-exclamation color-04 mr-1"></em>
-                    <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                    <p class="btn-popup-toggle cursor-pointer sm ดcolor-black-theme fw-400" data-popup="99">
                       แจ้งไฟล์เสีย
                     </p>
                   </div>

@@ -236,6 +236,12 @@ nav.footer.style-07{background:#ffffff!important;}
 nav.footer.style-07 .footer-container{background:#000000;}
 nav.footer.style-07 .footer-bottom{border-color:#ffffff!important;}
 
+nav.footer.style-11{background:#ffffff!important;}
+nav.footer.style-11 .footer-container{background:#000000;}
+nav.footer.style-11 .footer-bottom{border-color:#ffffff!important;}
+nav.footer.style-11 .footer-socials > .social{background:#000000; color:#ffffff;}
+nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#000000;}
+
 /* Sidebar (Member page) */
 .sidebar{border-color:#ffffff;}
 .sidebar .wrapper > .arrow-container .arrow{background:#ffffff; color:#000000;}
@@ -260,6 +266,7 @@ nav.footer.style-07 .footer-bottom{border-color:#ffffff!important;}
 .breadcrumb-02 .bottom .title-link{color:#000000!important;}
 .breadcrumb-02 select{border-color:#000000!important;}
 .breadcrumb-02 .dropdown-icon{border-color:#000000!important;}
+.breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{border-color:#000000!important;}
 
 /* Form check container */
 .form-check-container{border-color:#ffffff;}
@@ -548,3 +555,6 @@ select.style-02{background:#ffffff!important;}
 .ss-card-38:hover .wrapper > .text-container{background:#000000;}
 .ss-card-38:hover .wrapper > .text-container .title, .ss-card-38:hover .card-footer .wrapper,
 .ss-card-38:hover .link-footer > .arrow, .ss-card-38:hover .link-footer > .text{color:#ffffff!important;}
+
+/* Special Card 49 */
+.ss-card-49 .header{background:#000000; color:#ffffff;}
