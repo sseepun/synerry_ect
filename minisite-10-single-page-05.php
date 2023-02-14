@@ -12,33 +12,17 @@
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
       [ 'url' => '#', 'display' => 'ข้อมูลสำนักงาน' ],
-      [ 'url' => '#', 'display' => 'ทำเนียบ กกต. จว.' ],
+      [ 'url' => '#', 'display' => 'ข้อมูลการปกครอง' ],
     ];
     $breadcrumbTitle = 'ข้อมูลการปกครอง';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/26.jpg';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/27.jpg';
     $backgroundColor = 'style-02';
     $sectionOptions = ['']; // ['views', 'rss']
     $formContainer = false; // select form
     include('component/breadcrumb-style-02.php');
   ?>
 
-  <?php 
-   $content = [
-    ['number' => '1.', 'area' => 'เขตพระนคร'],['number' => '2.', 'area' => 'เขตดุสิต'],['number' => '3.','area' => 'เขตหนองจอก'],['area' => 'เขตบางรัก'],
-    ['number' => '4.', 'area' => 'เขตบางเขน'],['number' => '5.', 'area' => 'เขตบางกะปิ'],['number' => '6.', 'area' => 'เขตปทุมวัน'],['area' => 'เขตป้อมปราบศัตรูพ่าย'],
-    ['number' => '7.', 'area' => 'เขตพระโขนง'],['number' => '8.', 'area' => 'เขตมีนบุรี'],['number' => '9.', 'area' => 'เขตลาดกระบัง'],['area' => 'เขตยานนาวา'],
-    ['number' => '10.', 'area' => 'เขตสัมพันธวงศ์'],['number' => '11.', 'area' => 'เขตพญาไท'],['number' => '12.', 'area' => 'เขตธนบุรี'],['area' => 'เขตบางกอกใหญ่'],
-    ['number' => '13.', 'area' => 'เขตห้วยขวาง'],['number' => '14.', 'area' => 'เขตคลองสาน'],['area' => 'เขตตลิ่งชัน'],['area' => 'เขตบางกอกน้อย'],
-    ['area' => 'เขตบางขุนเทียน'],['area' => 'เขตภาษีเจริญ'],['area' => 'เขตหนองแขม'],['area' => 'เขตราษฎร์บูรณะ'],
-    ['area' => 'เขตบางพลัด'],['area' => 'เขตดินแดง'],['area' => 'เขตบึงกุ่ม'],['area' => 'เขตสาทร'],
-    ['area' => 'เขตบางซื่อ'],['area' => 'เขตจตุจักร'],['area' => 'เขตบางคอแหลม'],['area' => 'เขตประเวศ'],
-    ['area' => 'เขตคลองเตย'],['area' => 'เขตสวนหลวง'],['area' => 'เขตจอมทอง'],['area' => 'เขตดอนเมือง'],
-    ['area' => 'เขตราชเทวี'],['area' => 'เขตลาดพร้าว'],['area' => 'เขตวัฒนา'],['area' => 'เขตบางแค'],
-    ['area' => 'เขตหลักสี่'],['area' => 'เขตสายไหม'],['area' => 'เขตคันนายาว'],['area' => 'เขตสะพานสูง'],
-    ['area' => 'เขตวังทองหลาง'],['area' => 'เขตคลองสามวา'],['area' => 'เขตบางนา'],['area' => 'เขตทวีวัฒนา'],
-    ['area' => 'เขตทุ่งครุ'],['area' => 'เขตบางบอน']
-   ]
-  ?>
+  <?php include('data/area.php') ?>
 
   <section class="section-14">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
@@ -57,7 +41,7 @@
             <?php foreach($content as $d) {?>
               <div class="grid lg-25">
                 <div class="btn btn-action style-02 btn-19">
-                  <span>1.</span>
+                  <span class="h6 number fw-500"><?= $d['number'] ?></span>
                   <span class="fw-400"><?= $d['area'] ?></span>
                 </div>
               </div>

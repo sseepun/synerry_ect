@@ -160,8 +160,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-18:hover{background:#303031; border-color:#303031; color:#ffffff;}
 .btn.btn-18:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn-19 > .number{color:#35758e;}
+.btn-19:hover > .number{color:#ffffff;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; background:transparent; border-color:#35758e;}
-.btn.btn-19:hover{background:#35758e; border-color:#35758e; color:#ffffff;}
+.btn.btn-19:hover{background:#35758e; border-color:#35758e; color:#ffffff!important;}
 .btn.btn-19:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
