@@ -6,6 +6,7 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
+  <?php $sidePanelStyle = 'style-02'; ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
@@ -16,9 +17,8 @@
     $breadcrumbTitle = 'โครงสร้างองค์กร';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/25.jpg';
     $backgroundColor = 'style-02';
-    $sectionOptions;
-    $sectionOptions;
-    $formContainer = false;
+    $sectionOptions = ['']; // ['views', 'rss']
+    $formContainer = false; // select form
     include('component/breadcrumb-style-02.php');
   ?>
 
@@ -33,10 +33,10 @@
               โครงสร้างองค์กร
             </h3>
           </div>
-          <div class="ss-card ss-card-48 mt-6" data-aos="fade-up" data-aos-delay="150">
+          <div class="ss-card ss-card-50 mt-6" data-aos="fade-up" data-aos-delay="150">
             <div class="wrapper">
               <div class="image-container">
-                <div class="ss-img square bradius-round no-hover">
+                <div class="ss-img square-03 bradius-round no-hover">
                   <div class="img-bg" style="background-image:url('public/assets/app/images/content/106.jpg');"></div>
                 </div>
               </div>
@@ -47,7 +47,7 @@
                 <h6 class="color-15 fw-400 mt-2">
                   ผู้อำนวยการการเลือกตั้งประจำจังหวัด (ผอ.กต.จว.)
                 </h6>
-                <p class="mt-3">
+                <p class="fw-300 mt-3">
                   เป็นพนักงานสังกัดสำนักงานคณะกรรมการการเลือกตั้งตามระเบียบกกต.ว่าด้วยการบริหารงานบุคคล 
                   และเป็นผู้บังคับบัญชาของพนักงานและลูกจ้างของ สนง.กกต.จว. รับผิดชอบการปฏิบัติโดยขึ้นตรงต่อเลขาธิการ 
                   กกต.ปฏิบัติหน้าที่ตามประกาศระเบียบข้อกำหนดและมติของคณะกรรมการการเลือกตั้ง 
@@ -58,7 +58,112 @@
               </div>
             </div>
           </div>
-         
+         <div class="grids" data-aos="fade-up" data-aos-delay="450">
+          <div class="grid lg-50 sm-100">
+            <ol class="ss-list-style-01 pl-6 mt-0">
+              <li class="mt-0">
+                จัดทำและเสนอแผนปฏิบัติงานประจำปีของสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัด 
+                และแผนหรือโครงการเกี่่ยวกับการดำเนินการเลือกตั้งให้คณะกรรมการการเลือกตั้งประจำจังหวัดพิจารณาให้ความเห็นชอบ
+              </li>
+              <li>
+                ประสานขอความร่วมมือกับส่วนราชการหรือภาคเอกชนหรือองค์การเอกชนหรือองค์กรประชาชน 
+                ในการให้การสนับสนุนการเลือกตั้ัง
+              </li>
+              <li>ให้การศึกษาแก่เยาวชนและประชาชนเกี่ยวกับการปกครองระบอบ
+                ประชาธิปไตยอันมีพระมหากษัตริย์ทรงเป็นประมุข
+              </li>
+              <li>
+                รณรงค์ประชาสัมพันธ์ตลอดจนประสานขอความร่วมมือประชาชน ภาคเอกชน 
+                องค์การเอกชน ให้เข้ามามีส่วนร่วมในกระบวนการเลือกตั้ง
+              </li>
+              <li>
+                เผยแพร่ความรู้ความเข้าใจและข้อมูลข่าวสารเกี่ยวกับการเลือกตั้งและการเมืองการปกครอง
+                ตามระบอบประชาธิปไตยอันมีพระมหากษัตริย์ทรงเป็นประมุข
+              </li>
+              <li>
+                ติดตามตรวจสอบการดำเนินงานของพรรคการเมืองและสาขาพรรคการเมืองในจังหวัดและให้คำปรึกษาแนะนำ 
+                เพื่อให้การดำเนินงานเป็นไปตามกฎหมายประกอบรัฐธรรมนูญว่าด้วยพรรคการเมือง
+              </li>
+              <li>
+                ดำเนินการเกี่ยวกับค่าใช้จ่ายในการเลือกตั้งของผู้สมัครรับเลือกตั้งสมาชิกสภาผู้แทนราษฎร 
+                สมาชิกวุฒิสภา และสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+              </li>
+              <li>ดำเนินการเกี่ยวกับการจัดการเลือกตั้ง และการออกเสียงประชามติ</li>
+              <li>ดำเนินการเกี่ยวกับการสืบสวนสอบสวน และคัดค้านการเลือกตั้งรวมทั้งการออกเสียงประชามติ</li>
+              <li>ปฏิบัติงานอื่นตามระเบียบ ข้อกำหนด ประกาศ คำสั่ง และมติของ</li>
+            </ol>
+          </div>
+          <div class="grid lg-50 sm-100">
+            <div class="grids jc-center">
+              <div class="grid lg-2-3 md-50 sm-100 mt-0">
+                <div class="ss-img square bradius-round">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/107.jpg');"></div>
+                </div>
+              </div>
+              <div class="grid lg-2-3 md-50 sm-100 mt-0-md mt-6-sm">
+                <div class="ss-img horizontal-03 bradius-round">
+                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/108.jpg');"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <h4 class="title fw-600 mt-6 color-white-theme pt-6" style="position:relative; z-index:-1;" data-aos="fade-up" data-aos-delay="450">
+            ไฟล์ที่เกี่ยวข้อง
+          </h4>  
+          <div class="scroll-x-wrapper mt-3" data-simplebar>
+            <table class="table table-download style-04" data-aos="fade-up" data-aos-delay="450">
+              <tbody>
+                <?php
+                  foreach([
+                    'pdf-02', 'pdf-02'
+                  ] as $k){
+                ?>
+                  <tr class="box-shadow style-02 mb-2">
+                    <td>
+                      <div class="download-card flex-column style-02">
+                        <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                        <p class="xs color-white">0.2 MB</p>
+                      </div>
+                    </td>
+                    <td class="title-container" style="min-width:450px;">
+                      <a class="p lh-sm title fw-600" href="#">
+                        โครงสร้างองค์กร
+                      </a>
+                      <div class="text-footer mt-1">
+                        <div class="wrapper">
+                          <div class="icon">
+                            <em class="fa-solid fa-circle-exclamation mr-1"></em>
+                            <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="button-container pr-6" style="min-width:90px;">
+                    <div class="btns jc-end">
+                      <div href="#" class="btn btn-white-theme width-auto btn-action btn-18 btn-black-theme">
+                        ดาวน์โหลดไฟล์
+                        <em class="fa-solid fa-arrow-down ml-1"></em>
+                      </div>
+                    </div>
+                    </td>
+                    <td class="data-analysis" style="min-width:220px;">
+                      <div class="wrapper">
+                        <div class="icon">
+                          <em class="fa-regular fa-calendar mr-1"></em>
+                          <p class="sm fw-400">15 กุมภาพันธ์ 2565</p>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-floppy-disk mr-1"></em>
+                          <p class="sm fw-400">ดาวน์โหลด 120 ครั้ง</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                <?php }?>
+              </tbody>
+            </table>
+          </div> 
         </div> 
       </div>
     </div>

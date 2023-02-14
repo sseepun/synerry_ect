@@ -6,6 +6,7 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
+  <?php $sidePanelStyle = 'style-02'; ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
@@ -16,9 +17,8 @@
     $breadcrumbTitle = 'ความเป็นมา';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/23.jpg';
     $backgroundColor = 'style-02';
-    $sectionOptions;
-    $sectionOptions;
-    $formContainer = false;
+    $sectionOptions = ['']; // ['views', 'rss']
+    $formContainer = false; // select form
     include('component/breadcrumb-style-02.php');
   ?>
 

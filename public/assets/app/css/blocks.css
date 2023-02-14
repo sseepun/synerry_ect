@@ -1157,6 +1157,26 @@
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{border-color:#ffffff;}
 
 
+/* Election Commission */
+.election-commission-container{
+  position:relative; margin-top:1.5rem; background-size:cover; background-position:center;
+  border-radius:0 0 .875rem .875rem; overflow:hidden;
+}
+.election-commission-container > .img-bg{
+  position:absolute; top:0; right:0; bottom:0; left:0; z-index:1;
+
+}
+.election-commission-container .header{
+  position:relative; text-align:center; min-height:4.5rem; display:flex; justify-content:center; align-items:center;
+  border-radius:.875rem; z-index:2;
+}
+.election-commission-container .body{
+  position:relative; z-index:2; padding:0 1.5rem 1.5rem 1.5rem;
+}
+.election-commission-container .header{background:#35758e; color:#ffffff;}
+
+
+
 /* Section Options */
 .section-options{
   position:absolute; bottom:100%; right:0; display:flex; align-items:center; 
