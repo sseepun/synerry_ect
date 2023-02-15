@@ -6,7 +6,7 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-01.php'); ?>
+  <?php include_once('include/topnav-style-02.php'); ?>
 
   <section class="banner-03">
     <div class="swiper-container">
@@ -116,7 +116,7 @@
                             สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
                           </p>
                           <div class="card-footer mt-1">
-                            <div class="wrapper color-gray">
+                            <div class="wrapper color-gray color-black-theme">
                               <div class="icon">
                                 <em class="fa-solid fa-calendar-days"></em>
                                 <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
@@ -131,7 +131,9 @@
                               </div>
                             </div>
                             <div class="link-footer">
-                              <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
+                              <p class="text color-05 fw-500 border-bottom bcolor-05 color-black-theme lh-sm mr-2">
+                                อ่านต่อ
+                              </p>
                               <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
                             </div>
                           </div>
@@ -177,7 +179,7 @@
       <div class="grids no-gap">
         <div class="grid lg-25 mt-0">
           <div class="ss-card ss-card-46">
-            <h3 class="color-12 lh-xs fw-600">ข่าวสาร<br>ประชาสัมพันธ์</h3>
+            <h3 class="color-12 lh-xs xs-no-br fw-600">ข่าวสาร<br>ประชาสัมพันธ์</h3>
             <div class="topic">
               <div class="title active">
                 <a>ประชาสัมพันธ์</a>
@@ -237,13 +239,13 @@
               <div class="date-container">
                 <div class="date-wrapper color-white">
                   <p class="xs fw-400">22 พ.ย.</p>  
-                  <div class="ss-sep-02 style-02 bg-white"></div>
+                  <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
                   <p class="xs fw-400">15 ธ.ค.</p>
                 </div>     
               </div>
               <div class="text">
-                <h6 class="title color-white fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</h6>
-                <p class="xs color-white">08 มิถุนายน 2565  เวลา 08:00 - 12:00</p> 
+                <h6 class="title color-white color-black-theme fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</h6>
+                <p class="xs color-white color-black-theme">08 มิถุนายน 2565  เวลา 08:00 - 12:00</p> 
               </div>
             </div>
           </a>            
@@ -258,7 +260,7 @@
               </div>   
             </a>        
           </div> 
-          <div class="ss-box style-04 w-full" style="position:relative; z-index:2;">
+          <div class="ss-box bg-white-theme style-04 w-full" style="position:relative; z-index:2;">
             <div class="grids jc-center">
               <div class="grid lg-1-3 mt-2">
                 <a class="ss-card ss-card-41 style-02" href="#">
@@ -269,19 +271,19 @@
                     <div class="date-container">
                       <div class="date-wrapper color-white">
                         <p class="xs fw-400">22 พ.ย.</p>  
-                        <div class="ss-sep-02 style-02 bg-white"></div>
+                        <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
                         <p class="xs fw-400">15 ธ.ค.</p>
                       </div>     
                     </div>
                   </div>
-                  <div class="text-container">
+                  <div class="text-container color-black-theme">
                     <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
                     <div class="date-time">
                       <p class="sm fw-400">08 มิถุนายน</p>
                       <p class="sm fw-400">เวลา 08:00 - 12:00</p>
                     </div>
                     <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
+                      <p class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านต่อ</p>   
                       <div class="arrow">
                         <em class="fa-solid fa-arrow-right"></em>
                       </div>   
@@ -297,19 +299,20 @@
                     </div>
                     <div class="date-container">
                       <div class="date-wrapper color-white">
-                        <p class="fw-400">22</p>
-                        <p class="fw-400">พ.ย.</p>  
+                        <p class="xs fw-400">22 พ.ย.</p>  
+                        <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
+                        <p class="xs fw-400">15 ธ.ค.</p>
                       </div>     
                     </div>
                   </div>
-                  <div class="text-container">
+                  <div class="text-container color-black-theme">
                     <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
                     <div class="date-time">
                       <p class="sm fw-400">08 มิถุนายน</p>
                       <p class="sm fw-400">เวลา 08:00 - 12:00</p>
                     </div>
                     <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
+                      <p class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านต่อ</p>   
                       <div class="arrow">
                         <em class="fa-solid fa-arrow-right"></em>
                       </div>   
@@ -325,19 +328,20 @@
                     </div>
                     <div class="date-container">
                       <div class="date-wrapper color-white">
-                        <p class="xs fw-400">22</p>  
-                        <p class="xs fw-400">พ.ย.</p>
+                        <p class="xs fw-400">22 พ.ย.</p>  
+                        <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
+                        <p class="xs fw-400">15 ธ.ค.</p>
                       </div>     
                     </div>
                   </div>
-                  <div class="text-container">
+                  <div class="text-container color-black-theme">
                     <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
                     <div class="date-time">
                       <p class="sm fw-400">08 มิถุนายน</p>
                       <p class="sm fw-400">เวลา 08:00 - 12:00</p>
                     </div>
                     <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
+                      <p class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านต่อ</p>   
                       <div class="arrow">
                         <em class="fa-solid fa-arrow-right"></em>
                       </div>   
@@ -373,7 +377,7 @@
         <div class="grids no-gap">
           <div class="grid lg-25 mt-0">
             <div class="ss-card ss-card-46">
-              <h3 class="color-12 lh-xs fw-600">ประกาศจาก<br>หน่วยงาน</h3>
+              <h3 class="color-12 lh-xs xs-no-br fw-600">ประกาศจาก<br>หน่วยงาน</h3>
               <div class="topic">
                 <div class="title active">
                   <a href="#">ประกาศเกี่ยวกับการเลือกตั้ง</a>

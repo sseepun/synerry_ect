@@ -35,9 +35,11 @@
               ข้อมูลการปกครอง
             </h3>
           </div>
-          <p class="h5 color-15 fw-500 mt-6">กรุงเทพมหานคร</p>
-          <p class="fw-500">เป็นการปกครองท้องถิ่นแบบพิเศษ ประกอบด้วย 50 เขตปกครอง ดังนี้</p>
-          <div class="grids">
+          <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
+            <p class="h5 color-15 fw-500 mt-6">กรุงเทพมหานคร</p>
+            <p class="fw-500">เป็นการปกครองท้องถิ่นแบบพิเศษ ประกอบด้วย 50 เขตปกครอง ดังนี้</p>
+          </div>
+          <div class="grids" data-aos="fade-up" data-aos-delay="300">
             <?php foreach($content as $d) {?>
               <div class="grid lg-25">
                 <div class="btn btn-action style-02 btn-19">

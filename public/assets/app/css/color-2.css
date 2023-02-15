@@ -62,6 +62,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, iframe, .
 .bcolor-06,
 .bcolor-07,
 .bcolor-08{border-color:#fecb00!important;}
+.bcolor-black-theme{border-color:#000000!important;}
 
 
 /* Accessibility & Quick Links */
@@ -205,6 +206,15 @@ nav.footer.style-07{background:#fecb00!important;}
 nav.footer.style-07 .footer-container{background:#000000;}
 nav.footer.style-07 .footer-bottom{border-color:#fecb00!important;}
 
+nav.footer.style-08 .footer-bottom{border-color:#fecb00;}
+nav.footer.style-08 .social-links > .btns-social .btn-social:hover{background:#fecb00; color:#000000;}
+
+nav.footer.style-09 .footer-bottom{border-color:#fecb00;}
+
+nav.footer.style-10 .footer-bottom{border-color:#fecb00;}
+nav.footer.style-10 .social-links > .btns-social .btn-social:hover{background:#fecb00; color:#000000;}
+nav.footer.style-10 .text-intro{border-color:#fecb00;}
+
 nav.footer.style-11{background:#fecb00!important;}
 nav.footer.style-11 .footer-container{background:#000000;}
 nav.footer.style-11 .footer-bottom{border-color:#fecb00!important;}
@@ -251,8 +261,14 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-06, .btn.btn-06:focus,
 .btn.btn-09, .btn.btn-09:focus,
 .btn.btn-10, .btn.btn-10:focus,
-.btn.btn-11, .btn.btn-11:focus{background:#fecb00; color:#000000;}
+.btn.btn-11, .btn.btn-11:focus,
+.btn.btn-13, .btn.btn-13:focus,
+.btn.btn-14, .btn.btn-14:focus,
+.btn.btn-15, .btn.btn-15:focus,
+.btn.btn-16, .btn.btn-16:focus{background:#fecb00; color:#000000;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#fecb00; color:#fecb00;}
+.btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
+.btn.btn-19:hover{background:#000000; border-color:#000000; color:#fecb00!important;}
 
 .btn.btn-02:hover{background:#fecb00!important; color:#000000!important;}
 
@@ -361,6 +377,13 @@ input[type="search"]::placeholder{color:#fecb00;}
 .ck.ck-dropdown .ck-button.ck-dropdown__button,
 .ck-rounded-corners .ck.ck-button{border-color:#ffffff;}
 .ck.ck-button.ck-on{background:#ffffff!important;}
+
+
+/* Client 02 */
+.client-02 .swiper-pagination-bullet{background:#fecb00;}
+
+/* Election Commission */
+.election-commission-container .header{background:#000000; color:#fecb00;}
 
 /* List Footer */
 .list-footer.minisite .slot select{background:#fecb00!important; color:#000000!important;}
@@ -535,6 +558,11 @@ table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#0000
 .tab-container .tabs.tabs-01.style-02 .tab{color:#000000;}
 .tab-container .tabs.tabs-01.style-02 .tab.active{background:#000000; color:#fecb00;}
 
+.tab-container .tabs.tabs-02 .tab.active{background:#000000; color:#fecb00;}
+.tab-container .tabs.tabs-02.white-theme .tab.active{background:#fecb00!important; color:#000000!important;}
+
+.tab-container .tabs.tabs-03 .tab.active > .wrapper{border-color:#fecb00;}
+
 /* Tags Container */
 .tags-container{border-color:#fecb00;}
 .tags-container .social-list .icon.active{background:#fecb00!important; color:#000000;}
@@ -551,6 +579,11 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Banner 02 */
 .banner-02 .arrow{border-color:#fecb00; color:#fecb00;}
+
+/* Banner 03 */
+.banner-03 span.swiper-pagination-bullet:hover,
+.banner-03 span.swiper-pagination-bullet-active{background:#fecb00!important; color:#000000!important;}
+.banner-03 .text-slide-container{background:#fecb00; color:#000000;}
 
 /* Section 05 */
 .section-05 .swiper-pagination-bullets{background:#fecb00;}
@@ -573,8 +606,22 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .section-14 .ss-box > .body{background:#fecb00;}
 .section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#000000!important;}
 
+/* Section 15 */
+.section-15 .arrow-container > .arrow{background:#fecb00; color:#000000;}
+.section-15 .swiper-pagination-bullet-active{background:#000000;}
+
+/* Section 18 */ 
+.section-18 .arrow-container > .arrow{background:#fecb00; color:#000000;}
+
 /* Special Tag */
 .ss-tags > .tag.style-02{background:#fecb00; color:#000000;}
+.ss-tags > .tag.style-03{background:#fecb00; color:#000000;}
+.ss-tags > .tag.style-04{background:#fecb00; color:#000000;}
+
+/* Special Title */
+.ss-title-style-02.style-02{background:#fecb00; color:#000000; border-color:#000000;}
+.ss-title-style-02.style-02:after{background:#fecb00;}
+.ss-title-style-02.style-02 .link-more > .text, .ss-title-style-02 .link-more > .arrow{color:#000000;}
 
 /* sep 01 */
 .ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#fecb00;}
@@ -626,6 +673,10 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Special Card 30 */
 .ss-card-30 .wrapper > .text-container a{color:#000000!important; border-color:#000000!important;}
 
+/* Special Card 39 */
+.ss-card-39{border-color:#fecb00;}
+.ss-card-39 .date-container{background:#fecb00; color:#000000;}
+
 /* Special Card 31 */
 .ss-card-31{border-color:#000000;}
 .ss-card-31 .top > .wrapper .item:nth-child(1) > .icon{background:#000000; color:#fecb00;}
@@ -670,6 +721,24 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-38:hover .wrapper > .text-container{background:#000000;}
 .ss-card-38:hover .wrapper > .text-container .title, .ss-card-38:hover .card-footer .wrapper,
 .ss-card-38:hover .link-footer > .arrow, .ss-card-38:hover .link-footer > .text{color:#fecb00!important;}
+
+/* Special Card 40 */
+.ss-card-40 .text-container{background:#fecb00;}
+.ss-card-40 .text-container .text{color:#000000!important;}
+.ss-card-40 .text-container > .date-container .date-wrapper{background:#000000;}
+
+/* Special Card 41 */
+.ss-card-41 .image-container > .date-container .date-wrapper{background:#000000;}
+
+/* Special Card 44 */
+.ss-card-44 .text-container{background:#fecb00; color:#000000;}
+
+/* Special Card 45 */
+.ss-card-45{border-color:#fecb00;}
+.ss-card-45 .ss-tags > .tag{background:#fecb00; color:#000000;}
+
+/* Special Card 46 */
+.ss-card-46 .topic > .title::before, .ss-card-46 .topic > .title::after{background:#fecb00;}
 
 /* Special Card 49 */
 .ss-card-49 .header{background:#000000; color:#fecb00;}

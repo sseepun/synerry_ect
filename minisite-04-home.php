@@ -6,7 +6,7 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-01.php'); ?>
+  <?php include_once('include/topnav-style-02.php'); ?>
 
   <section class="banner-03 style-03">
     <div class="swiper-container">

@@ -1173,7 +1173,7 @@
 .election-commission-container .body{
   position:relative; z-index:2; padding:0 1.5rem 1.5rem 1.5rem;
 }
-.election-commission-container .header{background:#35758e; color:#ffffff;}
+
 
 
 
@@ -1279,6 +1279,7 @@
 .tab-container .tabs.tabs-03 .tab > .wrapper{
   position:relative; height:100%; display:flex; flex-direction:column; justify-content:center;
 }
+.tab-container .tabs.tabs-03 .tab.active > .wrapper{border:1px solid transparent;}
 .tab-container .tabs.tabs-03 .tab > .wrapper .title{
   position:relative; z-index:2; font-weight:400; transition:color .25s;
 }

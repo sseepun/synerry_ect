@@ -60,6 +60,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .bcolor-06,
 .bcolor-07,
 .bcolor-08{border-color:#ffffff!important;}
+.bcolor-black-theme{border-color:#000000!important;}
 
 
 /* Buttons */
@@ -79,8 +80,14 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-05, .btn.btn-05:focus,
 .btn.btn-09, .btn.btn-09:focus,
 .btn.btn-10, .btn.btn-10:focus,
-.btn.btn-11, .btn.btn-11:focus{background:#ffffff; color:#000000;}
+.btn.btn-11, .btn.btn-11:focus,
+.btn.btn-13, .btn.btn-13:focus,
+.btn.btn-14, .btn.btn-14:focus,
+.btn.btn-15, .btn.btn-15:focus,
+.btn.btn-16, .btn.btn-16:focus{background:#ffffff; color:#000000;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
+.btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
+.btn.btn-19:hover{background:#000000; border-color:#000000; color:#ffffff!important;}
 
 .btn-white-theme{background:#000000!important; color:#ffffff!important;}
 
@@ -131,7 +138,13 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .calendar-week .custom-date.active{background:#ffffff; color:#000000;}
 .calendar-week .fc-day-grid .fc-day.fc-widget-content{border-color:#ffffff!important;}
 
+/* Client 02 */
+.client-02 .swiper-pagination-bullet{background:#ffffff;}
+
 .dropdown-icon{border-color:#ffffff!important;}
+
+/* Election Commission */
+.election-commission-container .header{background:#000000; color:#ffffff;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -236,6 +249,15 @@ nav.footer.style-07{background:#ffffff!important;}
 nav.footer.style-07 .footer-container{background:#000000;}
 nav.footer.style-07 .footer-bottom{border-color:#ffffff!important;}
 
+nav.footer.style-08 .footer-bottom{border-color:#ffffff;}
+nav.footer.style-08 .social-links > .btns-social .btn-social:hover{background:#ffffff; color:#000000;}
+
+nav.footer.style-09 .footer-bottom{border-color:#ffffff;}
+
+nav.footer.style-10 .footer-bottom{border-color:#ffffff;}
+nav.footer.style-10 .social-links > .btns-social .btn-social:hover{background:#ffffff; color:#000000;}
+nav.footer.style-10 .text-intro{border-color:#ffffff;}
+
 nav.footer.style-11{background:#ffffff!important;}
 nav.footer.style-11 .footer-container{background:#000000;}
 nav.footer.style-11 .footer-bottom{border-color:#ffffff!important;}
@@ -248,6 +270,11 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .sidebar .logo-container{border-color:#ffffff;}
 .sidebar .menu-container > .menu-item:not(.menu-item:last-child){border-color:#ffffff;}
 .sidebar .menu-item:hover .tooltip, .sidebar .profile-container:hover .tootltip{background:#ffffff; color:#000000;}
+
+/* Special Title */
+.ss-title-style-02.style-02{background:#ffffff; color:#000000; border-color:#000000;}
+.ss-title-style-02.style-02:after{background:#ffffff;}
+.ss-title-style-02.style-02 .link-more > .text, .ss-title-style-02 .link-more > .arrow{color:#000000;}
 
 /* Password Level */
 .password-level > .levels > *{border-color:#ffffff;}
@@ -385,6 +412,11 @@ table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#0000
 .tab-container .tabs.tabs-01.style-02 .tab{color:#000000;}
 .tab-container .tabs.tabs-01.style-02 .tab.active{background:#000000; color:#ffffff;}
 
+.tab-container .tabs.tabs-02 .tab.active{background:#000000; color:#ffffff;}
+.tab-container .tabs.tabs-02.white-theme .tab.active{background:#ffffff!important; color:#000000!important;}
+
+.tab-container .tabs.tabs-03 .tab.active > .wrapper{border-color:#ffffff;}
+
 /* Tags Container */
 .tags-container{border-color:#ffffff;}
 .tags-container .social-list .icon.active{background:#ffffff; color:#000000;}
@@ -439,6 +471,7 @@ select.style-02{background:#ffffff!important;}
 /* Banner 03 */
 .banner-03 span.swiper-pagination-bullet:hover,
 .banner-03 span.swiper-pagination-bullet-active{background:#ffffff!important; color:#000000!important;}
+.banner-03 .text-slide-container{background:#ffffff; color:#000000;}
 
 /* Section 05 */
 .section-05 .swiper-pagination-bullets{background:#ffffff;}
@@ -461,8 +494,17 @@ select.style-02{background:#ffffff!important;}
 .section-14 .ss-box > .body{background:#ffffff;}
 .section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#000000!important;}
 
+/* Section 15 */
+.section-15 .arrow-container > .arrow{background:#ffffff; color:#000000;}
+.section-15 .swiper-pagination-bullet-active{background:#000000;}
+
+/* Section 18 */ 
+.section-18 .arrow-container > .arrow{background:#ffffff; color:#000000;}
+
 /* Special Tag */
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}
+.ss-tags > .tag.style-03{background:#ffffff; color:#000000;}
+.ss-tags > .tag.style-04{background:#ffffff; color:#000000;}
 
 /* Special List */
 .ss-list.style-02 > li::before{background:#ffffff;}
@@ -518,6 +560,10 @@ select.style-02{background:#ffffff!important;}
 /* Special Card 30 */
 .ss-card-30 .wrapper > .text-container a{color:#000000!important; border-color:#000000!important;}
 
+/* Special Card 39 */
+.ss-card-39{border-color:#ffffff;}
+.ss-card-39 .date-container{background:#ffffff; color:#000000;}
+
 /* Special Card 31 */
 .ss-card-31{border-color:#dddddd;}
 .ss-card-31 .top > .wrapper .item:nth-child(1) > .icon{background:#000000; color:#ffffff;}
@@ -562,6 +608,24 @@ select.style-02{background:#ffffff!important;}
 .ss-card-38:hover .wrapper > .text-container{background:#000000;}
 .ss-card-38:hover .wrapper > .text-container .title, .ss-card-38:hover .card-footer .wrapper,
 .ss-card-38:hover .link-footer > .arrow, .ss-card-38:hover .link-footer > .text{color:#ffffff!important;}
+
+/* Special Card 40 */
+.ss-card-40 .text-container{background:#ffffff;}
+.ss-card-40 .text-container .text{color:#000000!important;}
+.ss-card-40 .text-container > .date-container .date-wrapper{background:#000000;}
+
+/* Special Card 41 */
+.ss-card-41 .image-container > .date-container .date-wrapper{background:#000000;}
+
+/* Special Card 44 */
+.ss-card-44 .text-container{background:#ffffff; color:#000000;}
+
+/* Special Card 45 */
+.ss-card-45{border-color:#ffffff;}
+.ss-card-45 .ss-tags > .tag{background:#ffffff; color:#000000;}
+
+/* Special Card 46 */
+.ss-card-46 .topic > .title::before, .ss-card-46 .topic > .title::after{background:#ffffff;}
 
 /* Special Card 49 */
 .ss-card-49 .header{background:#000000; color:#ffffff;}

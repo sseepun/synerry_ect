@@ -6,7 +6,8 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-01.php'); ?>
+  <?php $sidePanelStyle = 'style-03'; ?>
+  <?php include_once('include/topnav-style-02.php'); ?>
 
   <section class="banner-03">
     <div class="swiper-container">
@@ -63,13 +64,13 @@
   ?>
   <section class="section-padding section-15 tab-container bg-10">
     <div class="container">
-      <div class="ss-box style-03 w-full">
+      <div class="ss-box bg-white-theme style-03 w-full">
         <div class="ss-title-tab">
           <div class="title">
             <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
               <?php foreach($categories as $i=>$d){?>
                 <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                  <h3 class="fw-600 color-dark"><?= $d['title'] ?></h3>
+                  <h3 class="fw-600 color-black-theme color-dark"><?= $d['title'] ?></h3>
                 </div>
               <?php }?>
             </div>
@@ -115,7 +116,7 @@
                             <div class="grid lg-50 md-50">
                               <?php foreach($content02 as $j) { ?>
                                 <div class="grid sm-100">
-                                  <a class="ss-card ss-card-43 mb-4" href="#">
+                                  <a class="ss-card ss-card-43 color-black-theme mb-4" href="#">
                                     <div class="wrapper">
                                       <div class="img-container">
                                         <div class="ss-img">
@@ -143,7 +144,7 @@
                                           </div>
                                         </div>
                                         <div class="link-more mt-2" href="#">
-                                          <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
+                                          <p class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านต่อ</p>   
                                           <div class="arrow">
                                             <em class="fa-solid fa-arrow-right"></em>
                                           </div>   
@@ -202,7 +203,7 @@
           </div>
         </div>
         <div class="tab-menu size-02">
-          <div class="tabs tabs-02" data-aos="fade-up" data-aos-delay="0">
+          <div class="tabs tabs-02 white-theme" data-aos="fade-up" data-aos-delay="0">
             <?php foreach($categories02 as $i=>$d){?>
               <div class="tab style-02 <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
                 <?= $d['title'] ?>
@@ -242,7 +243,7 @@
                           <div class="ss-tags">
                             <div class="tag style-03">ระเบียบการเลือกตั้ง</div>
                           </div>
-                          <p class="title fw-400 lh-sm mt-1"><?= $j['title'] ?></p>
+                          <p class="title fw-400 lh-sm"><?= $j['title'] ?></p>
                         </div>
                         <div class="arrow-container">
                           <a class="btn btn-action-style-02 size-02 btn-13" href="#">
@@ -292,24 +293,24 @@
               <div class="date-container">
                 <div class="date-wrapper color-white">
                   <p class="xs fw-400">22 พ.ย.</p>  
-                  <div class="ss-sep-02 style-02 bg-white"></div>
+                  <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
                   <p class="xs fw-400">15 ธ.ค.</p>
                 </div>     
               </div>
               <div class="text">
-                <h6 class="title color-white fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</h6>
-                <p class="xs color-white">08 มิถุนายน 2565  เวลา 08:00 - 12:00</p> 
+                <h6 class="title color-white color-black-theme fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</h6>
+                <p class="xs color-white color-black-theme">08 มิถุนายน 2565  เวลา 08:00 - 12:00</p> 
               </div>
             </div>
           </a>            
         </div>
         <div class="grid xl-70 lg-70 md-60 sm-100" data-aos="fade-up" data-aos-delay="0">
-          <div class="ss-box style-03 w-full" style="position:relative; z-index:2;">
+          <div class="ss-box bg-white-theme style-03 w-full" style="position:relative; z-index:2;">
             <div class="ss-title-style-02">
               <h3 class="fw-600">ปฏิทินกิจกรรม</h3>        
               <a class="link-more" href="#">
-                <p class="text fw-400">ดูทั้งหมด</p>   
-                <div class="arrow">
+                <p class="text color-black-theme fw-400">ดูทั้งหมด</p>   
+                <div class="arrow color-04 color-black-theme">
                   <em class="fa-solid fa-arrow-right"></em>
                 </div>   
               </a>        
@@ -325,12 +326,12 @@
                       <div class="date-container">
                         <div class="date-wrapper color-white">
                           <p class="xs fw-400">22 พ.ย.</p>  
-                          <div class="ss-sep-02 style-02 bg-white"></div>
+                          <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
                           <p class="xs fw-400">15 ธ.ค.</p>
                         </div>     
                       </div>
                     </div>
-                    <div class="text-container">
+                    <div class="text-container color-black-theme">
                       <p class="title lh-sm fw-400">
                         <?= $d['title'] ?>
                       </p>
@@ -340,7 +341,7 @@
                       </div>
                       <div class="link-more mt-2" href="#">
                         <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                        <div class="arrow">
+                        <div class="arrow color-black">
                           <em class="fa-solid fa-arrow-right"></em>
                         </div>   
                       </div>
@@ -362,18 +363,22 @@
       </div>
     </div>
     <div class="container pos-relative" style="z-index:3;">
-      <div class="ss-card ss-card-42" style="background-image:url('public/assets/app/images/bg/28.jpg');" 
-       data-aos="fade-up" data-aos-delay="0">
-        <div class="text-container">
-          <h3 class="color-white fw-400 lh-xs xs-no-br">
-            กกต.พร้อมให้บริการข้อมูลการเลือก<br>
-            ตั้งแก่ภาคประชาชนทุกภาคส่วน
-          </h3>         
-          <p class="color-white fw-400">ด้วยหลากหลายแอพพลิเคชั่น</p>          
-        </div>           
-        <div class="image-container">
-          <img src="public/assets/app/images/content/03.png" alt="Image">      
-        </div>        
+      <div class="ss-card ss-card-42" data-aos="fade-up" data-aos-delay="0">
+        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/28.jpg');"></div>
+        <div class="wrapper h-full">
+          <div class="text-container">
+            <h3 class="color-white fw-500 lh-xs md-no-br">
+              กกต.พร้อมให้บริการข้อมูลการเลือก<br>
+              ตั้งแก่ภาคประชาชนทุกภาคส่วน
+            </h3>         
+            <p class="color-white fw-400">ด้วยหลากหลายแอพพลิเคชั่น</p>          
+          </div>           
+          <div class="image-container">
+            <div class="image-wrapper">
+              <img src="public/assets/app/images/content/07.png" alt="Image"> 
+            </div> 
+          </div>   
+        </div>
       </div>
 
       <?php
@@ -394,7 +399,7 @@
           </div>
         </div>
         <div class="tab-menu size-02">
-          <div class="tabs tabs-02" data-aos="fade-up" data-aos-delay="0">
+          <div class="tabs tabs-02 white-theme" data-aos="fade-up" data-aos-delay="0">
             <?php foreach($categories02 as $i=>$d){?>
               <div class="tab style-02 <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
                 <?= $d['title'] ?>

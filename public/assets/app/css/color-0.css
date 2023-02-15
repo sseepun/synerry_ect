@@ -263,6 +263,9 @@ html, body, table.table{color:#000000;}
   border-color:#303031; color:#063112;
 }
 
+/* Election Commission */
+.election-commission-container .header{background:#35758e; color:#ffffff;}
+
 /* Search Container */
 .search-container .form > .search-wrapper input,
 .search-container .form > .form-group .date-wrapper > input[type=text]{background:#eeeeee!important;}
@@ -421,6 +424,8 @@ nav.side-panel.style-02 .icon, nav.side-panel.style-02 .panel-row:first-child,
 nav.side-panel.style-02.active > .wrapper > .icon, nav.side-panel.style-02 .option:not(.btn-cursor):hover, 
 nav.side-panel.style-02 .option:not(.btn-cursor).active{background:#3d3f4d;}
 nav.side-panel.style-02 > .wrapper > .icon:hover{background:#56abcc;}
+
+nav.side-panel.style-03 .icon{background:#8c6961;}
 
 /* Global Search Container */
 .global-search-container{color:#68459b!important;}
@@ -907,6 +912,9 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .banner-03 span.swiper-pagination-bullet:hover,
 .banner-03 span.swiper-pagination-bullet-active{background:#7cc5b5!important; color:#ffffff!important;}
 .banner-03.style-03 span.swiper-pagination-bullet-active{background:#1e5763!important; color:#ffffff!important;}
+
+.banner-03.style-02 span.swiper-pagination-bullet:hover,
+.banner-03.style-02 span.swiper-pagination-bullet-active{background:#ea6b49!important; color:#ffffff!important;}
 
 /* Popup Container */
 .popup-container .popup-header{border-color:#eeeeee;}
