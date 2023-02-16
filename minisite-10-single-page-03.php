@@ -6,8 +6,13 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
-  <?php $sidePanelStyle = 'style-02'; ?>
-  <?php include_once('include/topnav-style-02.php'); ?>
+  <?php 
+    $superTopNavStyle = 'theme-02';
+    $topNavStyle = 'theme-02';
+    $sideNavStyle = 'theme-02';
+    $sidePanelStyle = 'style-02';
+    include_once('include/topnav-style-02.php'); 
+  ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -108,11 +113,11 @@
             </div>
           </div>
          </div>
-         <h4 class="title fw-600 mt-6 color-white-theme pt-6" style="position:relative; z-index:-1;" data-aos="fade-up" data-aos-delay="450">
+         <h4 class="title fw-600 mt-6 color-black-theme pt-6"  data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>  
           <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download style-04" data-aos="fade-up" data-aos-delay="450">
+            <table class="table table-download style-04 bg-white-theme" data-aos="fade-up" data-aos-delay="450">
               <tbody>
                 <?php
                   foreach([
@@ -123,7 +128,7 @@
                     <td>
                       <div class="download-card flex-column style-02">
                         <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
-                        <p class="xs color-white">0.2 MB</p>
+                        <p class="xs color-white color-black-theme">0.2 MB</p>
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">
@@ -141,7 +146,7 @@
                     </td>
                     <td class="button-container pr-6" style="min-width:90px;">
                     <div class="btns jc-end">
-                      <div href="#" class="btn btn-white-theme width-auto btn-action btn-18 btn-black-theme">
+                      <div href="#" class="btn btn-white-theme width-auto btn-action btn-18">
                         ดาวน์โหลดไฟล์
                         <em class="fa-solid fa-arrow-down ml-1"></em>
                       </div>

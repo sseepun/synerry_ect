@@ -6,6 +6,13 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
+  <?php 
+    $superTopNavStyle = 'theme-04';
+    $topNavStyle = 'theme-04';
+    $sideNavStyle = 'theme-04';
+    $sidePanelStyle = 'style-04';
+    include_once('include/topnav-style-02.php'); 
+  ?>
   <?php include_once('include/topnav-style-02.php'); ?>
 
   <section class="banner-03 style-02">

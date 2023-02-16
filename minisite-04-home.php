@@ -6,9 +6,15 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-02.php'); ?>
+  <?php 
+    $superTopNavStyle = 'theme-06';
+    $topNavStyle = 'theme-06';
+    $sideNavStyle = 'theme-06';
+    $sidePanelStyle = 'style-06';
+    include_once('include/topnav-style-02.php'); 
+  ?>
 
-  <section class="banner-03 style-03">
+  <section class="banner-03 style-04">
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <?php for($i=0; $i<3; $i++){?>
@@ -116,7 +122,7 @@
                             สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
                           </p>
                           <div class="card-footer mt-1">
-                            <div class="wrapper color-gray">
+                            <div class="wrapper color-gray color-black-theme">
                               <div class="icon">
                                 <em class="fa-solid fa-calendar-days"></em>
                                 <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
@@ -131,7 +137,10 @@
                               </div>
                             </div>
                             <div class="link-footer">
-                              <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
+                              <p class="text color-05 color-black-theme fw-500 
+                                 border-bottom bcolor-05 bcolor-black-theme lh-sm mr-2">
+                                อ่านต่อ
+                              </p>
                               <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
                             </div>
                           </div>
@@ -165,7 +174,7 @@
     </div>
     <div class="container">
       <?php
-        $content03 = [
+        $content02 = [
           ['title' => 'ประกาศค่าใช้จ่ายในการเลือกตั้งท้องถิ่น'], 
           ['title' => 'สรุปผลการใช้สิทธิเลือกตั้ง นายกองค์การบริหารส่วนตำบล (อย่างไม่เป็นทางการ)'], 
           ['title' => 'ผลการเลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบล (อย่างไม่เป็นทางการ)'], 
@@ -174,7 +183,7 @@
           ['title' => 'ระเบียบ กกต. ว่าด้วยการเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น (ฉบับที่ 2) พ.ศ. 2563'],
         ];
       ?>
-      <div class="grids no-gap">
+      <div class="grids no-gap" data-aos="fade-up" data-aos-delay="300">
         <div class="grid lg-25 mt-0">
           <div class="ss-card ss-card-46">
             <h3 class="color-14 lh-xs fw-600">ข่าวสาร<br>ประชาสัมพันธ์</h3>
@@ -188,7 +197,7 @@
             </div>
           </div>
         </div>    
-        <?php foreach($content03 as $d) {?>
+        <?php foreach($content02 as $d) {?>
           <div class="grid lg-25 mt-0">
             <div class="ss-card ss-card-45">
               <div class="img-bg"style="background-image:url('public/assets/app/images/bg/31.jpg"></div>
@@ -225,10 +234,24 @@
     </div>
   </section>
 
+  <?php 
+    $content03 = [
+      [
+        'title' => 'เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8',
+        'image' => 'public/assets/app/images/content/96.jpg'
+      ],[
+        'title' => 'เลือกตั้งแทนตำแหน่งที่ว่าง ทต.สันกลาง เขตเลือกตั้งที่ 1',
+        'image' => 'public/assets/app/images/content/97.jpg'
+      ],[
+        'title' => 'เลือกตั้งแทนตำแหน่งที่ว่าง ส.อบจ.อ.ฝาง เขตเลือกตั้งที่ 1',
+        'image' => 'public/assets/app/images/content/98.jpg'
+      ]
+    ]
+  ?>
   <section class="bg-10 pt-6 pb-6">
     <div class="container" style="z-index:2;">
       <div class="grids">
-        <div class="grid xl-30 lg-30 md-40 sm-100" data-aos="fade-up" data-aos-delay="0">
+        <div class="grid xl-30 lg-30 md-40 sm-100" data-aos="fade-up" data-aos-delay="450">
           <a class="ss-card ss-card-40 style-03" href="#">
             <div class="ss-img square-03">
               <div class="img-bg" style="background-image:url('public/assets/app/images/content/95.jpg');"></div>
@@ -237,18 +260,20 @@
               <div class="date-container">
                 <div class="date-wrapper color-white">
                   <p class="xs fw-400">22 พ.ย.</p>  
-                  <div class="ss-sep-02 style-02 bg-white"></div>
+                  <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
                   <p class="xs fw-400">15 ธ.ค.</p>
                 </div>     
               </div>
               <div class="text">
-                <h6 class="title color-white fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</h6>
-                <p class="xs color-white">08 มิถุนายน 2565  เวลา 08:00 - 12:00</p> 
+                <h6 class="title color-white color-black-theme fw-400">
+                  เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8 เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8
+                </h6>
+                <p class="xs color-white color-black-theme">08 มิถุนายน 2565  เวลา 08:00 - 12:00</p> 
               </div>
             </div>
           </a>            
         </div>
-        <div class="grid xl-70 lg-70 md-60 sm-100" data-aos="fade-up" data-aos-delay="0">
+        <div class="grid xl-70 lg-70 md-60 sm-100" data-aos="fade-up" data-aos-delay="450">
           <div class="ss-title-style-02 style-02">
             <h3 class="fw-600">ปฏิทินกิจกรรม</h3>        
             <a class="link-more" href="#">
@@ -258,93 +283,39 @@
               </div>   
             </a>        
           </div> 
-          <div class="ss-box style-04 w-full" style="position:relative; z-index:2;">
+          <div class="ss-box bg-white-theme style-04 w-full" style="position:relative; z-index:2;">
             <div class="grids jc-center">
-              <div class="grid lg-1-3 mt-2">
-                <a class="ss-card ss-card-41 style-03" href="#">
-                  <div class="image-container">
-                    <div class="ss-img">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/96.jpg');"></div>
+              <?php foreach($content03 as $d){?>
+                <div class="grid lg-1-3 mt-2">
+                  <a class="ss-card ss-card-41 style-03" href="#">
+                    <div class="image-container">
+                      <div class="ss-img">
+                        <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      </div>
+                      <div class="date-container">
+                        <div class="date-wrapper color-white">
+                          <p class="xs fw-400">22 พ.ย.</p>  
+                          <div class="ss-sep-02 style-02 bg-white bg-white-theme"></div>
+                          <p class="xs fw-400">15 ธ.ค.</p>
+                        </div>     
+                      </div>
                     </div>
-                    <div class="date-container">
-                      <div class="date-wrapper color-white">
-                        <p class="xs fw-400">22 พ.ย.</p>  
-                        <div class="ss-sep-02 style-02 bg-white"></div>
-                        <p class="xs fw-400">15 ธ.ค.</p>
-                      </div>     
+                    <div class="text-container color-black-theme">
+                      <p class="title lh-sm fw-400"><?= $d['title']?></p>
+                      <div class="date-time">
+                        <p class="sm fw-400">08 มิถุนายน</p>
+                        <p class="sm fw-400">เวลา 08:00 - 12:00</p>
+                      </div>
+                      <div class="link-more mt-2" href="#">
+                        <p class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านต่อ</p>   
+                        <div class="arrow">
+                          <em class="fa-solid fa-arrow-right"></em>
+                        </div>   
+                      </div>
                     </div>
-                  </div>
-                  <div class="text-container">
-                    <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
-                    <div class="date-time">
-                      <p class="sm fw-400">08 มิถุนายน</p>
-                      <p class="sm fw-400">เวลา 08:00 - 12:00</p>
-                    </div>
-                    <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-right"></em>
-                      </div>   
-                    </div>
-                  </div>
-                </a>      
-              </div>   
-              <div class="grid lg-1-3 mt-2">
-                <a class="ss-card ss-card-41 style-03" href="#">
-                  <div class="image-container">
-                    <div class="ss-img">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/97.jpg');"></div>
-                    </div>
-                    <div class="date-container">
-                      <div class="date-wrapper color-white">
-                        <p class="fw-400">22</p>
-                        <p class="fw-400">พ.ย.</p>  
-                      </div>     
-                    </div>
-                  </div>
-                  <div class="text-container">
-                    <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
-                    <div class="date-time">
-                      <p class="sm fw-400">08 มิถุนายน</p>
-                      <p class="sm fw-400">เวลา 08:00 - 12:00</p>
-                    </div>
-                    <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-right"></em>
-                      </div>   
-                    </div>
-                  </div>
-                </a>
-              </div> 
-              <div class="grid lg-1-3 mt-2">
-                <a class="ss-card ss-card-41 style-03" href="#">
-                  <div class="image-container">
-                    <div class="ss-img">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/98.jpg');"></div>
-                    </div>
-                    <div class="date-container">
-                      <div class="date-wrapper color-white">
-                        <p class="xs fw-400">22</p>  
-                        <p class="xs fw-400">พ.ย.</p>
-                      </div>     
-                    </div>
-                  </div>
-                  <div class="text-container">
-                    <p class="title lh-sm fw-400">เลือกตั้งแทนตำแหน่งที่ว่าง อบต.โหล่งขอด เขตเลือกตั้งที่ 8</p>
-                    <div class="date-time">
-                      <p class="sm fw-400">08 มิถุนายน</p>
-                      <p class="sm fw-400">เวลา 08:00 - 12:00</p>
-                    </div>
-                    <div class="link-more mt-2" href="#">
-                      <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-right"></em>
-                      </div>   
-                    </div>
-                  </div>
-                </a>
-              </div>      
+                  </a>      
+                </div> 
+              <?php }?>
             </div>  
           </div>           
         </div>
@@ -360,7 +331,7 @@
     </div>
     <div class="container">
       <?php
-          $content03 = [
+          $content01 = [
             ['title' => 'ประกาศค่าใช้จ่ายในการเลือกตั้งท้องถิ่น'], 
             ['title' => 'สรุปผลการใช้สิทธิเลือกตั้ง นายกองค์การบริหารส่วนตำบล (อย่างไม่เป็นทางการ)'], 
             ['title' => 'ผลการเลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบล (อย่างไม่เป็นทางการ)'], 
@@ -370,7 +341,7 @@
           ];
         ?>
         
-        <div class="grids no-gap">
+        <div class="grids no-gap" data-aos="fade-up" data-aos-delay="600">
           <div class="grid lg-25 mt-0">
             <div class="ss-card ss-card-46">
               <h3 class="color-14 lh-xs fw-600">ประกาศจาก<br>หน่วยงาน</h3>
@@ -387,7 +358,7 @@
               </div>
             </div>
           </div>    
-          <?php foreach($content03 as $d) {?>
+          <?php foreach($content01 as $d) {?>
             <div class="grid lg-25 mt-0">
               <div class="ss-card ss-card-45">
                 <div class="img-bg"style="background-image:url('public/assets/app/images/bg/31.jpg"></div>
@@ -428,19 +399,21 @@
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/36.jpg');"></div>   
     <div class="container h-full">
       <div class="wrapper h-full">
-        <div class="text-container">
+        <div class="text-container" data-aos="fade-up" data-aos-delay="750">
           <h3 class="color-white fw-400 lh-xs md-no-br">
             กกต.พร้อมให้บริการข้อมูลการเลือก<br>
             ตั้งแก่ภาคประชาชนทุกภาคส่วน
           </h3>         
           <p class="color-white fw-400">ด้วยหลากหลายแอพพลิเคชั่น</p>          
         </div>           
-        <div class="image-container">
+        <div class="image-container"  data-aos="fade-up" data-aos-delay="750">
           <div class="image-wrapper">
             <img src="public/assets/app/images/content/07.png" alt="Image"> 
           </div> 
-          <!-- <img class="light" src="public/assets/app/images/content/08.png" alt="Image">      -->
-        </div>   
+          <div class="pattern-light" data-aos="fade-up" data-aos-delay="900">
+            <img src="public/assets/app/images/pattern/10.png" alt="Image"> 
+          </div> 
+        </div> 
       </div>       
     </div>     
   </section>
@@ -448,7 +421,7 @@
   <section class="section-padding bg-10">
     <div class="container pos-relative" style="z-index:3;">
       <div class="client-02 style-02 mt-5">
-        <div class="swiper-container" data-aos="fade-up" data-aos-delay="300">
+        <div class="swiper-container" data-aos="fade-up" data-aos-delay="900">
           <div class="swiper-wrapper">
             <?php for($i=0; $i<6; $i++){?>
               <div class="swiper-slide">

@@ -43,18 +43,20 @@
   .banner-03 .swiper-container > .swiper-wrapper .swiper-slide{align-items:flex-start; justify-content:center;}
   .banner-03 .quote-container{display:flex; justify-content:center;}
   .banner-03 .swiper-container > .swiper-wrapper .swiper-slide > .hero{width:100vw; right:unset;}
-  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide > .hero.size-02{height:27rem;}
+  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide > .hero.size-02{height:30rem;}
   .banner-03 .swiper-pagination-bullets{left:2rem;}
 }
 @media screen and (max-width:767.98px){
-  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide {min-height:calc(100vh - 9.75rem);}
+  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide {min-height:calc(100vh - 16rem);}
+  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide > .hero.size-02{height:25rem;}
 }
 @media screen and (max-width:575.98px){
-  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide {min-height:calc(100vh - 12.75rem);}
+  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide {min-height:calc(100vh - 20rem);}
+  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide > .hero.size-02{height:23rem;}
   .banner-03 .swiper-pagination-bullet{width:2rem; height:2.5rem;}
 }
 @media screen and (max-width:499.98px){
-  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide {min-height:calc(100vh - 16.75rem);}
+  .banner-03 .swiper-container > .swiper-wrapper .swiper-slide {min-height:calc(100vh - 22rem);}
 }
 @media screen and (max-width:420.98px){
   .banner-03 .swiper-container > .swiper-wrapper .swiper-slide > .hero{bottom:-3rem;}
@@ -1076,11 +1078,13 @@
 .section-19 .wrapper{display:flex; flex-wrap:wrap; align-items:center; height:100%;}
 .section-19 .text-container{width:50%;}
 .section-19 .image-container{position:relative; width:50%; height:100%;}
-.section-19 .image-container > img.light{
- position: absolute; top:0;
-}
-.section-19 .image-wrapper{position:absolute; bottom:0; right:0; left:auto; z-index:2;}
+.section-19 .image-wrapper{position:absolute; bottom:0; right:0; left:auto; z-index:3;}
 .section-19 .image-wrapper img{display:block; max-width:100%; width:auto; height:15rem; }
+.section-19 .pattern-light{
+  position:absolute; top:0rem; right:-1.875rem; left:auto; z-index:1; overflow:hidden;
+  height:100%;
+}
+.section-19 .pattern-light img{display:block; max-width:100%; width:auto; height:auto; }
 @media screen and (max-width:991.98px){
   .section-19{height:11rem;}
   .section-19 .image-wrapper > img{height:12rem;}
@@ -1168,13 +1172,11 @@
 }
 .election-commission-container .header{
   position:relative; text-align:center; min-height:4.5rem; display:flex; justify-content:center; align-items:center;
-  border-radius:.875rem; z-index:2;
+  border-radius:.875rem; z-index:2; transition:all .25s;
 }
 .election-commission-container .body{
   position:relative; z-index:2; padding:0 1.5rem 1.5rem 1.5rem;
 }
-
-
 
 
 /* Section Options */

@@ -553,6 +553,14 @@ table.table.table-download.style-03 .data-analysis > .wrapper .icon{color:#00000
 table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{color:#000000!important;}
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#000000!important;}
 
+table.table.table-download.style-04 tr{border-color:#000000;}
+table.table.table-download.style-04 .download-card{background:#fecb00; border-color:#000000;}
+table.table.table-download.style-04 .button-container{background:#fecb00;}
+table.table.table-download.style-04 .button-container .btn{background:#000000; color:#fecb00;}
+table.table.table-download.style-04 .data-analysis > .wrapper .icon{color:#000000;}
+table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#000000!important;}
+table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#000000!important;}
+
 /* Tab Container 01 */
 .tab-container .tabs.tabs-01 .tab::after{background:#fecb00;}
 .tab-container .tabs.tabs-01.style-02 .tab{color:#000000;}

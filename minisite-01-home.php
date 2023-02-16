@@ -6,8 +6,13 @@
 </head>
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
-  <?php $sidePanelStyle = 'style-03'; ?>
-  <?php include_once('include/topnav-style-02.php'); ?>
+  <?php 
+    $superTopNavStyle = 'theme-03';
+    $topNavStyle = 'theme-03';
+    $sideNavStyle = 'theme-03';
+    $sidePanelStyle = 'style-03';
+    include_once('include/topnav-style-02.php'); 
+  ?>
 
   <section class="banner-03">
     <div class="swiper-container">

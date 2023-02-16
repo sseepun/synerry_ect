@@ -8,6 +8,7 @@ $(function(){ 'use strict';
         sidenavMenus = sidenav.find('.menu-container'),
         sidenavToggle = $('nav .sidenav-toggle');
     var accessPanel = $('.side-panel.access-panel');
+    var simple = '<?php echo $sideNavStyle; ?>';
 
     if(topnav.length){
         // Generate Sidenav

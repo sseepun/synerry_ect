@@ -1523,7 +1523,7 @@ table.table.table-download.style-04 tr{border-radius:1.5rem; border:1px solid tr
 table.table.table-download.style-04 td:nth-child(1){
   border-radius: 1.215rem 0 0 1.215rem!important; overflow:hidden;
 }
-table.table.table-download.style-04 .download-card{width:5rem;}
+table.table.table-download.style-04 .download-card{width:5rem; height:100%;}
 
 
 /* Table Download 02 */

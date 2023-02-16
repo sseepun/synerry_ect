@@ -23,15 +23,22 @@
 ?>
 
 <!-- Super Topnav -->
-<nav class="stopnav style-03 bg-white bcolor-sgray">
+<nav class="stopnav style-03 <?= $superTopNavStyle ?>  bg-white bcolor-sgray">
   <div class="wrapper">
     <div class="blocks blocks-main">
       <div class="blocks">
         <div class="option color-04 bcolor-sgray">
-          <div class="icon hotline">
-            <em class="fa-solid fa-phone"></em>
-            <p class="sm color-gray fw-400">สายด่วน</p><span class="h6 ml-2 fw-500">1444</span>
-          </div>
+          <?php if(empty($superTopNavStyle)){?>
+            <div class="icon hotline">
+              <em class="fa-solid fa-phone"></em>
+              <p class="sm color-gray fw-400">สายด่วน</p><span class="h6 ml-2 fw-500">1444</span>
+            </div>
+          <?php } else if(!empty($superTopNavStyle)){?>
+            <div class="icon hotline">
+              <em class="fa-solid fa-phone"></em>
+              <p class="sm color-gray fw-400">+66 0-2141-8888</p>
+            </div>
+          <?php }?>
         </div>
         <a class="option color-04 bcolor-sgray" href="#">
           <div class="icon"><em class="fa-solid fa-envelope"></em></div>
@@ -67,9 +74,8 @@
 </nav>
 
 <!-- Topnav -->
-<nav class="topnav style-03">
+<nav class="topnav style-03 <?= $topNavStyle ?>">
   <div class="wrapper">
-
     <a class="logo" href="#">
       <div class="img-container">
         <img src="public/assets/app/images/logo-04.png" alt="Website Logo" />
@@ -78,7 +84,6 @@
         <p>สำนักงานคณะกรรมการการเลือกตั้ง</p>
       </div>
     </a>
-
     <div class="menu-container hide-tablet" id="topnav-menu">
       <?php
         foreach([
@@ -143,24 +148,26 @@
         </div>
       <?php }?>
     </div>
-
     <div class="blocks">
       <a class="option global-search-toggle pb-1" href="#">
-        <img src="public/assets/app/images/icon/search-02.png" alt="Icon" />
+        <?php if(empty($topNavStyle)){?>
+          <img src="public/assets/app/images/icon/search-02.png" alt="Icon" />
+        <?php }else if(!empty($topNavStyle)) {?>
+          <img src="public/assets/app/images/icon/search-04.png" alt="Icon" />
+        <?php }?>
       </a>
       <a class="option sidenav-toggle show-tablet" href="#">
         <div class="hamburger">
           <div></div><div></div><div></div>
         </div>
       </a>
-    </div>
-        
+    </div> 
   </div>
 </nav>
 <div class="topnav-spacer"></div>
 
 <!-- Sidenav -->
-<nav class="sidenav style-02">
+<nav class="sidenav style-02 <?= $sideNavStyle ?>">
   <div class="wrapper">
     <div class="sidenav-toggle">
       <div class="hamburger">

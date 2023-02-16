@@ -400,9 +400,9 @@ table.table.table-download.style-03 .data-analysis > .wrapper .icon{color:#00000
 table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{color:#000000!important;}
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#000000!important;}
 
-table.table.table-download.style-04 td:nth-child(1){background:#000000;}
 table.table.table-download.style-04 tr{border-color:#000000;}
-table.table.table-download.style-04 .download-card{background:#000000; border-color:#000000;}
+table.table.table-download.style-04 .download-card{background:#ffffff; border-color:#000000;}
+table.table.table-download.style-04 .button-container{background:#ffffff;}
 table.table.table-download.style-04 .data-analysis > .wrapper .icon{color:#000000;}
 table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#000000!important;}
 table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#000000!important;}
