@@ -324,8 +324,6 @@ $(function(){ 'use strict';
         });
     }
 
-     
-
 
     // Shortcode Container
     $('.shortcode-container').each(function(){
@@ -977,6 +975,35 @@ function ssPageProcess(){
                      navigation: {
                          nextEl: self.find('.btn-icon-next'),
                          prevEl: self.find('.btn-icon-prev'),
+                     },
+                     pagination: {
+                         el: self.find('.dots'),
+                         clickable: true,
+                     },
+                     breakpoints: {
+                        1199.98: { slidesPerView:3,},
+                        991.98: { slidesPerView:3,},
+                        767.98: { slidesPerView:2,},
+                        575.98: { slidesPerView:1,},
+                    },
+                 });
+             });
+         }
+
+        // Section 21
+        var section21 = $('.section-21');
+         if(section21.length){
+             section21.each(function(){
+                 var self = $(this);
+                 new Swiper(self.find('.swiper-container'), {
+                     loop: true,
+                     slidesPerView: 5,
+                     spaceBetween: 5,
+                     speed: 800,
+                     grabCursor: true,
+                     navigation: {
+                        prevEl: self.find('.btn-icon-prev'),
+                        nextEl: self.find('.btn-icon-next'), 
                      },
                      pagination: {
                          el: self.find('.dots'),

@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
 
   <section class="banner-01">
@@ -41,6 +41,56 @@
           <img src="public/assets/app/images/icon/18.png" alt="Arrow" />
         </div>
       </div>
+    </div>
+  </section>
+
+  <?php 
+    $content01 = [
+      [
+        'title' => 'สถิติการเลือกตั้ง',
+      ],[
+        'title' => 'ประกาศผลการเลือกตั้ง',
+      ],[
+        'title' => 'ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง',
+      ],[
+        'title' => 'ข้อมูลพรรคการเมือง',
+      ],[
+        'title' => 'ตรวจสอบข้อมูลสมาชิกพรรคการเมือง',
+      ],
+    ]
+  ?>
+
+  <section class="section-21">
+    <div class="container">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <?php for($i=0; $i<5; $i++){?>
+            <?php foreach($content01 as $d){?>
+              <div class="swiper-slide">
+                <div class="ss-card ss-card-51" onmouseover="cardOver()" onmouseout="cardNoOver()">
+                  <div class="wrapper">
+                    <div class="icon">
+                      <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
+                    </div>
+                    <p class="mt-1 lh-sm fw-400">
+                      <?= $d['title'] ?>
+                    </p>
+                  </div>
+                  <div class="card-line bradius style-02"></div>
+                </div>
+              </div>
+            <?php } ?>
+          <?php }?>
+        </div>
+      </div>  
+      <div class="arrow-container">
+        <div id="arrow01" class="arrow btn-icon-prev">
+          <em class="fa-solid fa-arrow-left"></em>
+        </div>
+        <div id="arrow02" class="arrow btn-icon-next">
+          <em class="fa-solid fa-arrow-right"></em>
+        </div>
+      </div>   
     </div>
   </section>
 
@@ -205,7 +255,7 @@
           <div class="cate-container bc-none-01">
             <h3 class="fw-600">ถาม-ตอบข้อซักถามพรรคการเมือง</h3>
             <?php foreach($titles as $d) {?>
-              <div class="ss-card ss-card-24 mt-3">
+              <div class="ss-card ss-card-24 mb-2">
                 <div class="wrapper">
                   <div class="icon">
                     <em class="fa-solid fa-question"></em>
@@ -250,7 +300,7 @@
           <div class="cate-container bc-none-02">
             <h3 class="fw-600">คำวินิจฉัย กกต.</h3>
             <?php foreach($titles02 as $d) {?>
-              <div class="ss-card ss-card-25 mt-3">
+              <div class="ss-card ss-card-25 mb-2">
                 <div class="text-container">
                   <p class="title fw-500">
                     <?= $d['title'] ?>
@@ -278,14 +328,14 @@
             ['title' => 'วันที่ 27 สิงหาคม 2565',],
             ['title' => 'วันที่ 26 สิงหาคม 2565',],
             ['title' => 'วันที่ 25 สิงหาคม 2565',],
-            ['title' => 'วันที่ 24 สิงหาคม 2565',],
+            ['title' => 'วันที่ 25 สิงหาคม 2565',],
           ]; 
         ?>
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="300">
           <div class="cate-container bc-none-03">
             <h3 class="fw-600">รวมข่าว กกต.</h3>
             <?php foreach($titles03 as $d) {?>
-              <div class="ss-card ss-card-26 mt-3">
+              <div class="ss-card ss-card-26">
                 <div class="wrapper">
                   <div class="icon">
                     <em class="fa-regular fa-file-lines"></em>
@@ -298,7 +348,7 @@
                 </div> 
               </div>
             <?php }?>
-            <div class="btns mt-3">
+            <div class="btns mt-5">
               <a class="btn btn-action btn-03" href="#">
                 ข่าวทั้งหมด
               </a>
@@ -476,6 +526,7 @@
                   วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. 
                   เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
                 </p>
+                <div class="card-line style-01"></div>
               </div>
             </div>
             <div class="grid sm-50">
@@ -484,6 +535,7 @@
                 <p class="desc fw-400 mt-1">
                   ประชาชนผู้เสียภาษีที่เป็นบุคคลธรรมดาสามารถมีส่วนร่วมทางการเมืองได้ ด้วยผ่านการบริจาคภาษีเงิน
                 </p>
+                <div class="card-line style-01"></div>
               </div>
             </div>
             <div class="grid sm-50">
@@ -493,6 +545,7 @@
                   วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. 
                   เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบลและ
                 </p>
+                <div class="card-line style-01"></div>
               </div>
             </div>
             <div class="grid sm-50">
@@ -501,6 +554,7 @@
                 <p class="desc fw-400 mt-1">
                   เพื่อเป็นการเพิ่มช่องทางอำนวยความสะดวกแก่ประชาชนผู้มีสิทธิเลือกตั้งที่มีความจำเป็นไม่อาจไปใช้สิทธิเลือกตั้ง
                 </p>
+                <div class="card-line style-01"></div>
               </div>
             </div>
           </div>
@@ -672,5 +726,20 @@
 
   <?php include_once('include/footer-03.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    const arrow01 = document.querySelector('#arrow01')
+    const arrow02 = document.querySelector('#arrow02')
+
+    function cardOver(){
+      arrow01.style.opacity = '1';
+      arrow02.style.opacity = '1';
+    }
+    function cardNoOver(){
+      arrow01.style.opacity = '0';
+      arrow02.style.opacity = '0';
+    }
+
+  </script>
 </body>
 </html>

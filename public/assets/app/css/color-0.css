@@ -876,8 +876,8 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 
 /* Special Box Header */
 .ss-box-header{border-color:#eeeeee;}
-.ss-box-header .ellipsis{color:#2d613d;}
-.ss-box-header .ellipsis:hover{background:#f2f2f2;}
+.ss-box-header .ellipsis{color:#2d613d; background:#f2f2f2;}
+.ss-box-header .ellipsis:hover{background:#2d613d; color:#ffffff;}
 
 .ss-box{background:#ffffff;}
 
@@ -1041,6 +1041,10 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .banner-03.style-04 span.swiper-pagination-bullet:hover,
 .banner-03.style-04 span.swiper-pagination-bullet-active{background:#1e5763!important; color:#ffffff!important;}
 
+/* Card Line */
+.card-line.style-01{background:#2e603b;}
+.card-line.style-02{background:#30906a;}
+
 /* Popup Container */
 .popup-container .popup-header{border-color:#eeeeee;}
 .popup-container .popup-box{background:#ffffff;}
@@ -1070,21 +1074,17 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .section-options .option > .icon:hover{background:#ffffff; color:#2e9069;}
 
 /* Section 04 */
-.section-04 .text-wrapper{
-  background:#ffffff; 
-}
+.section-04 .text-wrapper{background:#ffffff;}
 
 /* Section 05 */ 
 .section-05 .swiper-pagination-bullets{background:#f2f2f2;}
 .section-05 .swiper-pagination-bullet{background:#2e603d;}
 .section-05 .swiper-pagination-bullet-active{background:#2e603d;}
 
-
 /* Section 06 */ 
 .section-06 .swiper-pagination-bullets{background:#f2f2f2;}
 .section-06 .swiper-pagination-bullet{background:#2e603d;}
 .section-06 .swiper-pagination-bullet-active{background:#2e603d;}
-
 
 /* Section 07 */
 .section-07 .swiper-container > .btns-swiper .wrapper > .btn .arrow{
@@ -1092,15 +1092,12 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 }
 .section-07 .swiper-container > .btns-swiper .wrapper > .dots{background:#2c8260; color:#ffffff;}
 
-
 /* Section 09 */
 .section-09 .swiper-arrows-container > .arrows-container .arrow{border-color:#303031;}
 .section-09 .swiper-arrows-container > .arrows-container .arrow > em{color:#303031;}
 
-
 /* Section 14 */
 .section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#30906a;}
-
 
 /* Section 15 */ 
 .section-15 .swiper-pagination-bullet{background:#cbcbcb;}
@@ -1108,13 +1105,19 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .section-15 .arrow-container > .arrow{background:#7cc5b5; color:#ffffff;}
 .section-15 .arrow-container > .arrow.style-02{background:#56abcc; color:#ffffff;}
 
-
 /* Section 18 */ 
 .section-18 .arrow-container > .arrow{background:#00ce8f; color:#ffffff;}
 .section-18 .arrow-container.style-02 > .arrow{background:#f7b331;}
 
-/* Intro 15 */ 
+/* Section 21 */
+.section-21{background:#bfddd1;}
+.section-21 .arrow-container > .arrow{background:#2e603b; color:#ffffff; transition:all .25s}
+.section-21 .arrow-container > .arrow:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+
+/* Intro 01 */ 
 .intro-01 .intro-footer > .wrapper.left::after{background:#fef200;}
+
 
 /* Special Card 01 */
 .ss-card-01 .ss-img::after{
@@ -1223,12 +1226,6 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .ss-card-21 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon > em{color:#2e603c;}
 
-/* Special Card 22 */
-.ss-card-22:hover .ss-img{border-color:#fff311;}
-.ss-card-22:hover .btn{
-  background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);
-}
-
 /* Special Card 23 */
 .ss-card-23 .text-container{background:#ffffff;}
 .ss-card-23 .text-container > .ss-tags .tag{background:#30906a;}
@@ -1244,9 +1241,10 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 
 /* Special Card 26 */
 .ss-card-26{border-color:#e1e1e1;}
-.ss-card-26 .wrapper > .icon{color:#30906a;}
+.ss-card-26 .wrapper > .icon{color:#ffffff; background:#30906a;}
 .ss-card-26:hover .wrapper > .icon{background:#30906a; color:#ffffff;}
-.ss-card-26:hover .wrapper > .text-container .title{color:#30906a;}
+.ss-card-26:hover .wrapper > .text-container .title{color:#ffffff;}
+.ss-card-26:hover .wrapper > .text-container{background:#2e603c;}
 
 
 /* Special Card 27 */
@@ -1362,5 +1360,9 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .ss-card-49 .header{background:#35758e; color:#ffffff}
 .ss-card-49 .header:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 .ss-card-49 .body > .text-container{background:#f2f2f2;}
+
+/* Special Card 51 */
+.ss-card-51{background:#ffffff;}
+
 
 

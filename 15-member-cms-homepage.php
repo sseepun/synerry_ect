@@ -168,6 +168,13 @@
                         <div class="img-container">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
+                            <div class="hover-container">
+                              <div class="icon sm">
+                                <img src="public/assets/app/images/icon-svg/01.svg" alt="Icon">
+                              </div>
+                            </div>
+                            <div class="filter style-01"></div>
+                            <div class="card-line style-01"></div>
                           </div>
                         </div>
                         <div class="text-container">
@@ -193,14 +200,21 @@
                     $content01 = [
                       ['image' => 'public/assets/app/images/content/03.jpg'], 
                       ['image' => 'public/assets/app/images/content/04.jpg'], 
-                      ['image' => 'public/assets/app/images/content/05.jpg'], 
+                     
                     ]
                   ?>
                   <?php foreach($content01 as $d) {?>
-                    <div class="grid lg-1-3 sm-100 mt-2">
+                    <div class="grid lg-50 sm-100 mt-2">
                       <div class="ss-card ss-card-12 mt-3">
-                        <div class="ss-img square">
+                        <div class="ss-img">
                           <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                          <div class="hover-container">
+                            <div class="icon sm">
+                              <img src="public/assets/app/images/icon-svg/01.svg" alt="Icon">
+                            </div>
+                          </div>
+                          <div class="filter style-01"></div>
+                          <div class="card-line style-01"></div>
                         </div>
                         <div class="text-container no-border">
                           <p class="title style-02 fw-400 lh-sm mt-2">
@@ -212,6 +226,10 @@
                               <div class="icon">
                                 <em class="fa-solid fa-calendar-days"></em>
                                 <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-eye"></em>
+                                <span class="p sm fw-400 ml-2">255</span>
                               </div>
                             </div>
                           </div>
@@ -242,13 +260,13 @@
                   <tbody>
                     <?php
                       foreach([
-                        'doc', 'pdf', 'doc', 'jpg', 'doc'
+                        'news-white', 'news-white', 'news-white', 'news-white', 'news-white'
                       ] as $k){
                     ?>
                       <tr class="box-shadow style-02 mb-2">
                         <td>
                           <div class="download-card">
-                            <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                            <img src="public/assets/app/images/icon-svg/<?= $k ?>.svg" alt="Image File">
                           </div>
                         </td>
                         <td class="text-left title-container" style="min-width:450px;">
@@ -355,9 +373,11 @@
                         <div class="img-bg" style="background-image:url('public/assets/app/images/content/66.jpg');"></div>
                         <div class="hover-container show">
                           <div class="icon sm">
-                            <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                            <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
                           </div>
                         </div>
+                        <div class="filter style-01"></div>
+                        <div class="card-line style-01"></div>
                       </div>
                       <div class="text-container">
                         <p class="title fw-500">
@@ -387,10 +407,12 @@
                         <div class="ss-img">
                           <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                           <div class="hover-container show">
-                            <div class="icon sm">
-                              <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                            <div class="icon xs">
+                              <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
                             </div>
                           </div>
+                          <div class="filter style-01"></div>
+                          <div class="card-line style-01"></div>
                         </div>
                       </a>
                     <?php } ?>
@@ -418,6 +440,13 @@
                     <a class="ss-card ss-card-06" href="#">
                       <div class="ss-img">
                         <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
+                        <div class="hover-container">
+                          <div class="icon sm">
+                            <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                          </div>
+                        </div>
+                        <div class="filter style-01"></div>
+                        <div class="card-line style-01"></div>
                       </div>
                       <div class="text-wrapper">
                         <div class="title h6 fw-500 h-color-t" href="#">
@@ -450,6 +479,13 @@
                                 <div class="img-container">
                                   <div class="ss-img">
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
+                                    <div class="hover-container">
+                                      <div class="icon xs">
+                                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                      </div>
+                                    </div>
+                                    <div class="filter style-01"></div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -476,6 +512,13 @@
                                 <div class="img-container">
                                   <div class="ss-img">
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
+                                    <div class="hover-container">
+                                      <div class="icon xs">
+                                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                      </div>
+                                    </div>
+                                    <div class="filter style-01"></div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -506,6 +549,13 @@
                                 <div class="img-container">
                                   <div class="ss-img">
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/69.jpg');"></div>
+                                    <div class="hover-container">
+                                      <div class="icon xs">
+                                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                      </div>
+                                    </div>
+                                    <div class="filter style-01"></div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -532,6 +582,13 @@
                                 <div class="img-container">
                                   <div class="ss-img">
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
+                                    <div class="hover-container">
+                                      <div class="icon xs">
+                                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                      </div>
+                                    </div>
+                                    <div class="filter style-01"></div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">

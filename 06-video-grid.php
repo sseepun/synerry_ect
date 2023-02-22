@@ -48,7 +48,7 @@
                         <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                            <div class="hover-container">
+                            <div class="hover-container show">
                               <div class="icon sm">
                                 <img src="public/assets/app/images/icon/play.png" alt="Icon">
                               </div>
@@ -86,7 +86,7 @@
                   <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                     <div class="ss-img square-size-02">
                       <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
-                      <div class="hover-container">
+                      <div class="hover-container show">
                         <div class="icon sm">
                           <img src="public/assets/app/images/icon/play.png" alt="Icon">
                         </div>
@@ -124,7 +124,7 @@
                         <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                            <div class="hover-container">
+                            <div class="hover-container show">
                               <div class="icon sm">
                                 <img src="public/assets/app/images/icon/play.png" alt="Icon">
                               </div>
@@ -207,7 +207,7 @@
           <a class="ss-card ss-card-47" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-              <div class="hover-container">
+              <div class="hover-container show">
                 <div class="icon sm">
                   <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
                 </div>

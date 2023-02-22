@@ -1101,8 +1101,6 @@
   .section-19 .image-wrapper{position:relative;}
 }
 
-
-
 /* Section 20 */
 .section-20{position:relative;}
 .section-20 .pattern{position:absolute; top:0; left:0; bottom:0; right:0;}
@@ -1116,6 +1114,24 @@
   height:16rem;
 }
 .section-20 .container{z-index:2;}
+
+/* Section 21 */
+.section-21{padding:.5rem 0;}
+.section-21 .swiper-container{margin:0 4rem;}
+.section-21 .arrow-container{
+  position:absolute; top:0; right:0; bottom:0; left:0;
+  display:flex; justify-content:space-between; align-items:center; pointer-events:auto;
+}
+.section-21 .arrow-container > .arrow{
+  position:relative; width:3rem; height:3rem; border-radius:.375rem; cursor:pointer;
+  transition:all .25s; display:flex; justify-content:center; align-items:center; opacity:0;
+}
+@media screen and (max-width:767.98px){
+  .section-21 .arrow-container > .arrow{width:2.75rem; height:2.75rem;}
+}
+@media screen and (max-width:575.98px){
+  .section-21 .arrow-container > .arrow{width:2.625rem; height:2.625rem;}
+}
 
 
 /* Breadcrumb 01 */
