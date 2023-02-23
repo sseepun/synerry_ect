@@ -46,17 +46,26 @@
               <p class="sm color-05 fw-500">Email : webmaster@ect.go.th</p>
             </div>
             <h6 class="fw-400 mb-2 mt-3">ติดตาม คปภ.</h6>
-              <div class="footer-socials">
+            <div class="footer-socials">
+              <div class="social-wrapper">
                 <a class="social" href="#">
-                  <em class="fa-brands fa-facebook-f"></em>
+                  <em class="fa-brands fa-facebook-f icon-01"></em>
                 </a>
+                <div class="tooltip">facebook</div>
+              </div>
+              <div class="social-wrapper">
                 <a class="social" href="#">
                   <em class="fa-brands fa-twitter"></em>
                 </a>
+                <div class="tooltip size-02">twitter</div>
+              </div>
+              <div class="social-wrapper">
                 <a class="social" href="#">
                   <em class="fa-brands fa-youtube"></em>
                 </a>
+                <div class="tooltip size-03">youtube</div>
               </div>
+            </div>
           </div>
           <div class="grid xl-70 lg-60 sm-100 mt-0">
             <div class="grids">

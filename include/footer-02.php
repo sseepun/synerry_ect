@@ -71,15 +71,24 @@
           <div class="grid xl-25 lg-50">
             <h6 class="fw-400 mb-2">ติดตาม คปภ.</h6>
             <div class="footer-socials">
-              <a class="social" href="#">
-                <em class="fa-brands fa-facebook-f"></em>
-              </a>
-              <a class="social" href="#">
-                <em class="fa-brands fa-twitter"></em>
-              </a>
-              <a class="social" href="#">
-                <em class="fa-brands fa-youtube"></em>
-              </a>
+              <div class="social-wrapper">
+                <a class="social" href="#">
+                  <em class="fa-brands fa-facebook-f icon-01"></em>
+                </a>
+                <div class="tooltip">facebook</div>
+              </div>
+              <div class="social-wrapper">
+                <a class="social" href="#">
+                  <em class="fa-brands fa-twitter"></em>
+                </a>
+                <div class="tooltip size-02">twitter</div>
+              </div>
+              <div class="social-wrapper">
+                <a class="social" href="#">
+                  <em class="fa-brands fa-youtube"></em>
+                </a>
+                <div class="tooltip size-03">youtube</div>
+              </div>
             </div>
           </div>
         </div>

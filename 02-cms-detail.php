@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -87,53 +87,9 @@
               </div>
             <?php }?>
           </div>
-          <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="d-flex ai-center">
-              <span class="fw-500">แท็ก:</span>
-              <div class="ss-tags style-02 d-inline-block ml-2">
-                <div class="tag"> 
-                  <span class="title">ข่าวประกาศ</span>
-                </div>
-             </div>
-             <div class="ss-tags style-02 d-inline-block">
-                <div class="tag">
-                  <span class="title">อบรมหลักสูตร</span>
-                </div>
-             </div>
-             <div class="ss-tags style-02 d-inline-block">
-                <div class="tag">
-                  <span class="title">การเลือกตั้ง</span>
-                </div>
-             </div>
-            </div> 
-            <div class="social-list pos-relative">
-              <span class="fw-500 mr-1">แบ่งปัน:</span>
-              <div class="d-inline-block">
-                <?php include('component/shortcode.php'); ?>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-facebook-f"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-twitter"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-line"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-solid fa-link"></em>
-                </a>
-              </div>
-            </div>
-          </div>
 
+          <?php include('component/tags-container.php'); ?>
+        
           <h4 class="title fw-600 mt-6 pt-6" style="position:relative; z-index:-1;" data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
@@ -324,5 +280,16 @@
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    
+    let btn = document.querySelector("#btnLink")
+    let toolTip = document.querySelector('#toolTip')
+
+    btn.addEventListener("click", () => {
+      toolTip.style.opacity = '1'
+    });
+
+  </script>
 </body>
 </html>

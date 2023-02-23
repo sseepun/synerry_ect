@@ -63,59 +63,14 @@
               ระหว่างวันที่ 6-20 มิถุนายน 2565 ณ ห้องประชุมคอนเวนชั่น โรงแรมรามาการ์เด้นส์ 
             </p>
           </div>
-          <div class="tags-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="d-flex ai-center">
-              <span class="fw-500">แท็ก:</span>
-              <div class="ss-tags style-02 d-inline-block ml-2">
-                <div class="tag"> 
-                  <span class="title">ข่าวประกาศ</span>
-                </div>
-             </div>
-             <div class="ss-tags style-02 d-inline-block">
-                <div class="tag">
-                  <span class="title">อบรมหลักสูตร</span>
-                </div>
-             </div>
-             <div class="ss-tags style-02 d-inline-block">
-                <div class="tag">
-                  <span class="title">การเลือกตั้ง</span>
-                </div>
-             </div>
-            </div>  
-            <div class="social-list">
-              <span class="fw-500 mr-1">แบ่งปัน:</span>
-              <div class="d-inline-block">
-                <a class="icon active" href="#">
-                  <em class="fa-solid fa-code"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-facebook-f"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-twitter"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-line"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-solid fa-link"></em>
-                </a>
-              </div>
-            </div>
-          </div>
+
+          <?php include('component/tags-container.php'); ?>
+          
           <h4 class="title fw-600 mt-6 pt-6" data-aos="fade-up" data-aos-delay="600">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
+            <table class="table style-05 table-download cursor-pointer" data-aos="fade-up" data-aos-delay="750">
               <tbody>
                 <?php
                   foreach([
@@ -129,7 +84,7 @@
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">
-                      <a class="fw-600 h-color-t" href="#">
+                      <a class="fw-600 title" href="#">
                         รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                       </a>
                       <div class="text-footer">
@@ -196,9 +151,11 @@
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                   <div class="hover-container show">
                     <div class="icon sm">
-                      <img src="public/assets/app/images/icon/play.png" alt="Play Icon">
+                      <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
                     </div>
                   </div>
+                  <div class="filter style-01"></div>
+                  <div class="card-line style-01"></div>
                 </div>
                 <div class="text-container">
                   <p class="title fw-500">
@@ -263,5 +220,16 @@
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    
+    let btn = document.querySelector("#btnLink")
+    let toolTip = document.querySelector('#toolTip')
+
+    btn.addEventListener("click", () => {
+      toolTip.style.opacity = '1'
+    });
+
+  </script>
 </body>
 </html>

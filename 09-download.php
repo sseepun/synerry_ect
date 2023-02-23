@@ -24,11 +24,10 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view-03', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-grid', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
-
       <div class="faq-02 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
         <?php for($i=0; $i<10; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">

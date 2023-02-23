@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset */sele
 html, body{
     padding:0; margin:0; overflow-x:hidden; overflow-y:auto;
     font-size:16px; font-weight:300; line-height:1.6;
@@ -617,9 +617,6 @@ fieldset{padding:0; margin:0; border:0;}
 .list-header.style-02 .option.order > span{width:5rem;}
 .list-header.style-02 .option.view{width:13%; display:flex; justify-content:flex-end;}
 .list-header.style-02 .option.view > .wrapper{position:relative; display:flex;}
-.list-header.style-02 .option.view > .wrapper::before{
-  content:""; position:absolute; right:0; bottom:-.75rem; left:0; width:100%; height:.25rem;
-}
 .list-header.style-02 .option.view.size-02{width:20%;}
 .list-header.style-02 .option.view.style-02{padding-left:1rem;}
 .list-header.style-02 .option.view.style-02 span{width:5rem;}
@@ -1363,12 +1360,11 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-list ul > li::before{display:none;}
 .ss-list.style-03 > li a{font-weight:500;}
 .ss-list.style-04.min-height{min-height:31.5rem;}
-.ss-list.style-04 > li {
-  position:relative; font-weight:200; padding:.1875rem 0 .1875rem 1rem;
-}
+.ss-list.style-04 > li {position:relative; font-weight:200; padding:.1875rem 0 .1875rem 1rem;}
+.ss-list.style-04 > li a {transition:color .25s;}
 .ss-list.style-04 > li::before{
   content:""; position:absolute; top:.8125rem; left:0; width:.375rem; height:.375rem;
-  border-radius:0; z-index:2;
+  border-radius:0; z-index:2; transition:background .25s;
 }
 .ss-list.style-04{position:relative;}
 .ss-list.style-04 .line{position:absolute; top:0rem; left:.1565rem; width:.0625rem; background:#69696a;}
@@ -1423,6 +1419,11 @@ fieldset{padding:0; margin:0; border:0;}
   width:3rem; height:3rem; display:flex; justify-content:center; align-items:center;
   border-radius:50%; transition:background .5s, color .5s;
 }
+.tags-container .social-list .tooltip{
+  position:absolute; transform:translate(-50%, -50%); left:50%; top:4.25rem; border-radius:1000em;
+  padding:.25rem 1rem; opacity:0; transition:opacity .25s;
+}
+.tags-container .social-list .tooltip > p{white-space:nowrap; font-size:.75rem;}
 @media screen and (max-width:767.98px){
   .tags-container{margin-top:1.5rem;}
 }

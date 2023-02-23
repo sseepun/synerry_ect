@@ -78,7 +78,7 @@
                   </div>
                 </div>
                 <div class="scroll-x-wrapper mt-3" data-simplebar>
-                  <table class="table table-download" data-aos="fade-up" data-aos-delay="450">
+                  <table class="table style-05 table-download cursor-pointer" data-aos="fade-up" data-aos-delay="450">
                     <tbody>
                       <?php
                         foreach([
@@ -92,7 +92,7 @@
                             </div>
                           </td>
                           <td class="title-container" style="min-width:450px;">
-                            <a class="fw-600 h-color-t" href="#">
+                            <a class="fw-600 title" href="#">
                               รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                             </a>
                             <div class="text-footer">

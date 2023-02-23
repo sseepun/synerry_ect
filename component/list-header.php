@@ -69,7 +69,8 @@
             </div>
             <?php if(in_array('rss', $listHeader)){?>
               <a class="icon-view ml-1" href="#">
-                <em class="fas fa-rss"></em>
+                <img class="icon-inactive" src="public/assets/app/images/icon-svg/rss-inactive.svg" alt="Icon">
+                <img class="icon-active" src="public/assets/app/images/icon-svg/rss-active.svg" alt="Icon">
               </a>
             <?php }?>
           </div>

@@ -35,7 +35,7 @@
     <?php if(in_array('pp', $listFooter)){?>
       <div class="option">
         <p class="color-gray fw-600">แสดงผลต่อหน้า</p>
-        <select class="ui selection dropdown style-02 ml-1">
+        <select class="ui decorated selection dropdown style-02 ml-1">
           <option value="12" selected>12</option>
           <option value="24">24</option>
           <option value="36">36</option>

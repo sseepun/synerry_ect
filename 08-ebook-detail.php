@@ -120,11 +120,11 @@
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
+            <table class="table style-05 table-download cursor-pointer" data-aos="fade-up" data-aos-delay="750">
               <tbody>
                 <?php
                   foreach([
-                    'pdf'
+                    'mp4'
                   ] as $k){
                 ?>
                   <tr class="box-shadow style-02 mb-2">
@@ -134,7 +134,7 @@
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">
-                      <a class="fw-600 h-color-t" href="#">
+                      <a class="fw-600 title" href="#">
                         รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                       </a>
                       <div class="text-footer">
