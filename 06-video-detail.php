@@ -70,14 +70,14 @@
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
-            <table class="table style-05 table-download cursor-pointer" data-aos="fade-up" data-aos-delay="750">
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
               <tbody>
                 <?php
                   foreach([
                     'mp4'
                   ] as $k){
                 ?>
-                  <tr class="box-shadow style-02 mb-2">
+                  <tr class="table-card-01 box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card">
                         <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
@@ -149,11 +149,6 @@
               href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                  <div class="hover-container show">
-                    <div class="icon sm">
-                      <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
-                    </div>
-                  </div>
                   <div class="filter style-01"></div>
                   <div class="card-line style-01"></div>
                 </div>
@@ -228,6 +223,9 @@
 
     btn.addEventListener("click", () => {
       toolTip.style.opacity = '1'
+      setTimeout(function(){
+        toolTip.style.opacity = '0'
+      }, 1200);
     });
 
   </script>

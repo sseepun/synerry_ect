@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -47,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="ss-img horizontal mt-3">
+            <div class="ss-img horizontal no-hover mt-3">
               <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
             </div>
             <p class="desc color-gray fw-400 mt-3">
@@ -76,6 +76,8 @@
                 <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                    <div class="filter style-01"></div>
+                    <div class="card-line style-01"></div>
                   </div>
                   <div class="filter-01">
                     <div class="text">
@@ -90,7 +92,7 @@
 
           <?php include('component/tags-container.php'); ?>
         
-          <h4 class="title fw-600 mt-6 pt-6" style="position:relative; z-index:-1;" data-aos="fade-up" data-aos-delay="450">
+          <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
@@ -102,14 +104,14 @@
                     'pdf', 'doc'
                   ] as $k){
                 ?>
-                  <tr class="box-shadow style-02 mb-2">
+                  <tr class="table-card-01 box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card">
                         <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">
-                      <a class="fw-600 h-color-t" href="#">
+                      <a class="fw-600 title" href="#">
                         รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                       </a>
                       <div class="text-footer">
@@ -156,10 +158,12 @@
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                     <div class="hover-container show">
-                      <div class="icon sm">
-                        <img src="public/assets/app/images/icon/play-thin.png" alt="Play Icon">
+                      <div class="icon xs">
+                        <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
                       </div>
                     </div>
+                    <div class="filter style-01"></div>
+                    <div class="card-line style-01"></div>
                   </div>
                 </a>
               </div>
@@ -215,6 +219,8 @@
               <a class="ss-card ss-card-12" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="filter style-01"></div>
+                  <div class="card-line style-01"></div>
                 </div>
                 <div class="text-container">
                   <p class="fw-400 lh-sm mt-2">
@@ -288,6 +294,9 @@
 
     btn.addEventListener("click", () => {
       toolTip.style.opacity = '1'
+      setTimeout(function(){
+        toolTip.style.opacity = '0'
+      }, 1200);
     });
 
   </script>

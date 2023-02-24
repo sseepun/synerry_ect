@@ -128,7 +128,7 @@
     <div class="container">
       <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
         <?php foreach($categories as $i=>$d){?>
-          <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+          <div class="tab-content no-fade <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
             <div class="text-center">
               <h3 class="fw-700 color-dark color-black-theme"><?= $d['title'] ?></h3>
               <p class="h6 fw-400 color-gray color-black-theme mt-1">ติดตามข่าวสารต่างๆพร้อมทั้งข้อมูลและลิงค์ที่น่าสนใจของทาง กกต.ได้ที่นี่</p>
@@ -136,12 +136,12 @@
           </div>
         <?php }?>
       </div>
-      <div class="tabs tabs-01 style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
+      <div class="tabs tabs-04  mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php foreach($categories as $i=>$d){?>
           <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
             <div class="icon-inactive"><img src="<?= $d['icon'] ?>" alt="Icon" /></div>
             <div class="icon-active"><img src="<?= $d['icon_active'] ?>" alt="Icon" /></div>
-            <?= $d['title'] ?>
+            <span class="title"><?= $d['title'] ?></span>
           </div>
         <?php }?>
       </div>

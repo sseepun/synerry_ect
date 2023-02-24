@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -17,7 +17,7 @@
     include('component/breadcrumb.php');
   ?>
 
-  <section class="section-padding section-07">
+  <section class="section-padding">
     <div class="container">
       <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
         <h4 class="title lh-sm fw-500">
@@ -60,74 +60,21 @@
             แนวทางการแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ ระหว่างวันที่ 6-20 มิถุนายน 2565 
             ณ ห้องประชุมคอนเวนชั่น โรงแรมรามาการ์เด้นส์ กรุงเทพมหานคร
           </p>
-          <div class="tags-container mt-3" data-aos="fade-up" data-aos-delay="450">
-            <div class="d-flex ai-center">
-              <span class="fw-500">แท็ก:</span>
-              <div class="ss-tags style-02 ml-2">
-                <div class="tag"> 
-                  <span class="title">ข่าวประกาศ</span>
-                </div>
-             </div>
-             <div class="ss-tags style-02">
-                <div class="tag">
-                  <span class="title">อบรมหลักสูตร</span>
-                </div>
-             </div>
-             <div class="ss-tags style-02">
-                <div class="tag">
-                  <span class="title">การเลือกตั้ง</span>
-                </div>
-             </div>
-            </div> 
-            <div class="social-list">
-              <span class="fw-500 mr-1">แบ่งปัน:</span>
-              <div class="d-inline-block">
-                <a class="icon active" href="#">
-                  <em class="fa-solid fa-code"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-facebook-f"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-twitter"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-brands fa-line"></em>
-                </a>
-              </div>
-              <div class="d-inline-block">
-                <a class="icon" href="#">
-                  <em class="fa-solid fa-link"></em>
-                </a>
-              </div>
-            </div>
-          </div>
-          <?php 
-            $videos = [
-              ['image' => 'public/assets/app/images/content/14.jpg'],
-              ['image' => 'public/assets/app/images/content/15.jpg'],
-              ['image' => 'public/assets/app/images/content/13.jpg'],
-              ['image' => 'public/assets/app/images/content/12.jpg'],
-            ]
-          ?>
+
+          <?php include('component/tags-container.php'); ?>
+
           <h4 class="title fw-600 mt-6 pt-6" data-aos="fade-up" data-aos-delay="600">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
-            <table class="table style-05 table-download cursor-pointer" data-aos="fade-up" data-aos-delay="750">
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
               <tbody>
                 <?php
                   foreach([
-                    'mp4'
+                    'pdf-02'
                   ] as $k){
                 ?>
-                  <tr class="box-shadow style-02 mb-2">
+                  <tr class="table-card-01 box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card">
                         <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
@@ -264,6 +211,7 @@
   <?php include_once('include/script.php'); ?>
 
   <script>
+    // Book Slider
     $('#wow-book').wowBook({
       height: 500,
       width: 800,
@@ -276,6 +224,18 @@
       thumbnails: true,
       toolbar: 'first, back, next, last, zoomin, zoomout, slideshow, flipsound, fullscreen',
     });
+
+    // Copy Link 
+    let btn = document.querySelector("#btnLink")
+    let toolTip = document.querySelector('#toolTip')
+
+    btn.addEventListener("click", () => {
+      toolTip.style.opacity = '1'
+      setTimeout(function(){
+        toolTip.style.opacity = '0'
+      }, 1200);
+    });
+
   </script>
 </body>
 </html>

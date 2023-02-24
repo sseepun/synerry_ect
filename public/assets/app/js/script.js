@@ -279,7 +279,7 @@ $(function(){ 'use strict';
             target[0].setSelectionRange(0, target[0].value.length);
             document.execCommand('copy');
             target.blur();
-            self.html('คัดลอกสำเร็จ');
+            self.html('<div class="d-flex ai-center"><img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon"> <span>คัดลอกสำเร็จ</span></div>');
             if(popup.length){
                 setTimeout(function(){
                     popup.removeClass('active');
@@ -294,35 +294,42 @@ $(function(){ 'use strict';
     });
     
 
-    // Tab Container
-    var tabContainers = $('.tab-container');
-    if(tabContainers.length){
-        tabContainers.each(function(){
-            var self = $(this),
-                tabs = self.find('.tabs .tab'),
-                tabContents = self.find('.tab-contents > .tab-content');
-            tabs.click(function(e){
-                var target = tabContents.filter('[data-tab="'+$(this).data('tab')+'"]'),
-                    slideContainers = target.find('.slide-container');
-                if(target.length){
-                    e.preventDefault();
-                    tabs.removeClass('active');
-                    $(this).addClass('active');
-
-                    tabContents.removeClass('active');
-                    target.addClass('active');
-                    
-                    if(slideContainers.length){
-                        slideContainers.each(function(){
-                            $(this).find('.slides').slick('setPosition');
-                        });
-                    }
-    
-                    AOS.refresh();
-                }
-            });
-        });
-    }
+      // Tab Container
+      var tabContainers = $('.tab-container');
+      if(tabContainers.length){
+          tabContainers.each(function(){
+              var self = $(this),
+                  tabs = self.find('.tabs .tab'),
+                  tabContents = self.find('.tab-contents > .tab-content');
+              tabs.click(function(e){
+                  var target = tabContents.filter('[data-tab="'+$(this).data('tab')+'"]'),
+                      oldTargets = tabContents.filter('.active'),
+                      slideContainers = target.find('.slide-container');
+                  if($(this).hasClass('active')) e.preventDefault();
+                  if(target.length && !$(this).hasClass('active')){
+                      e.preventDefault();
+                      tabs.removeClass('active');
+                      $(this).addClass('active');
+  
+                      tabContents.removeClass('fade-in');
+                      oldTargets.addClass('fade-out');
+                      target.addClass('fade-in');
+                      setTimeout(function(){
+                          tabContents.removeClass('fade-in fade-out active');
+                          target.addClass('active');
+                      }, 600);
+                      
+                      if(slideContainers.length){
+                          slideContainers.each(function(){
+                              $(this).find('.slides').slick('setPosition');
+                          });
+                      }
+      
+                      AOS.refresh();
+                  }
+              });
+          });
+      }
 
 
     // Shortcode Container

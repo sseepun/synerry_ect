@@ -111,7 +111,7 @@
                 <div class="swiper-slide">
                   <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="150">
                     <?php foreach($categories as $i=>$d){?>
-                      <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                      <div class="tab-content no-fade <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
                       <a class="ss-card ss-card-44 mb-3" href="#">
                         <div class="ss-img">
                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+0)%3+3 ?>.jpg');"></div>
@@ -146,7 +146,7 @@
                           </div>
                         </div>
                       </a>
-                      </div>
+                    </div>
                     <?php }?>
                   </div>
                 </div>

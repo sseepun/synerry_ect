@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   
   <div class="sidebar open">
     <div data-aos="fade-in" data-aos-delay="0">
@@ -206,8 +206,10 @@
                 <div class="grid lg-50 md-100 sm-100 mt-2">
                   <div class="form-group style-02">
                     <label class="p fw-500">วันเกิด</label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="password"/>
+                      <div class="form-input">
+                        <div class="date-wrapper">
+                        <input type="text" class="date-picker form-control style-02 size-01">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -219,18 +221,18 @@
                         <div class="gallery-grids">
                           <div class="grid sm-50 xs-50">
                             <div class="checkbox-set">
-                              <input type="radio" name="radio" id="radio_0" checked="">
-                              <label for="radio_0" class="p sm">
-                                <span>ชาย</span>
-                              </label>
-                            </div>
+                                <input type="radio" name="radio" id="radio_0" checked="">
+                                <label for="radio_0" class="checkmark"></label>
+                                <span for="radio_0" class="p sm">ชาย</span>
+                                <div class="bg-color"></div>
+                              </div>
                           </div>
                           <div class="grid sm-50 xs-50">
                             <div class="checkbox-set">
-                              <input type="radio" name="radio" id="radio_2">
-                              <label for="radio_2" class="p sm">
-                                <span>หญิง</span>
-                              </label>
+                              <input type="radio" name="radio" id="radio_1">
+                              <label for="radio_1" class="checkmark"></label>
+                              <span class="p sm lh-3xs">หญิง</span>
+                              <div class="bg-color"></div>
                             </div>
                           </div>
                         </div>
@@ -246,7 +248,7 @@
                 <div class="grid xl-1-3 lg-30 md-100 sm-100">
                   <div class="btns pl-3 pl-unset-xs h-full">
                     <div href="#" class="btn btn-action btn-02 w-full">
-                      เข้าสู่ระบบ
+                      ยืนยัน
                     </div>
                   </div>
                 </div>

@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -17,7 +17,7 @@
     include('component/breadcrumb.php');
   ?>
 
-  <section class="section-padding section-07">
+  <section class="section-padding">
     <div class="container">
       <div class="grids">
         <!-- Left Content -->
@@ -46,53 +46,45 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <?php for($i=0; $i<20; $i++){?>
-                  <div class="swiper-slide">
-                    <div class="ss-img horizontal mt-3">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= ($i%3+4) ?>.jpg');"></div>
+            <div class="section-07">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <?php for($i=0; $i<20; $i++){?>
+                    <div class="swiper-slide">
+                      <div class="ss-img horizontal mt-3">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= ($i%3+4) ?>.jpg');"></div>
+                      </div>
                     </div>
+                  <?php }?>
+                </div>
+                <div class="btns-swiper">
+                  <div class="wrapper jc-center">
+                    <div class="dots"></div>
                   </div>
-                <?php }?>
-              </div>
-              <div class="btns-swiper">
-                <div class="wrapper jc-center">
-                  <!-- <div class="btn btn-icon-prev">
+                </div>
+                <div class="arrow-container">
+                  <div class="btn btn-icon-prev">
                     <div class="arrow">
                       <em class="fa-solid fa-arrow-left"></em>
                     </div>
-                  </div> -->
-                  <div class="dots"></div>
-                  <!-- <div class="btn btn-icon-next">
+                  </div>
+                  <div class="btn btn-icon-next">
                     <div class="arrow">
                       <em class="fa-solid fa-arrow-right"></em>
                     </div>
-                  </div> -->
-                </div>
-              </div>
-              <div class="arrow-container">
-                <div class="btn btn-icon-prev">
-                  <div class="arrow">
-                    <em class="fa-solid fa-arrow-left"></em>
-                  </div>
-                </div>
-                <div class="btn btn-icon-next">
-                  <div class="arrow">
-                    <em class="fa-solid fa-arrow-right"></em>
                   </div>
                 </div>
               </div>
             </div>
-
             <p class="color-gray fw-400 mt-5" data-aos="fade-up" data-aos-delay="300">
-            วันที่ 10 ตุลาคม 2561 ร้อยตำรวจเอกสุชีพ จาดย่านขาด ผอ.สนง.กกต.จว.พท พร้อมด้วยนายประภาส 
-            เศียรอุ่น พนักงานสืบสวนและไต่สวน ชำนาญการ ปฏิบัติหน้าที่หัวหน้างานสืบสวนสอบสวนและพรรคการเมือง 
-            นายสมทบ ไชยรัตน์ พนักงานการเลือกตั้ง ชำนาญการ และนายประเสริฐ ธรรมเพชร พนักงานสืบสวนและไต่สวน 
-            ชำนาญการ ลงพื้นที่พบปะพูดคุยกับนายอำเภอบางแก้ว ปลัดอาวุโสอำเภอบางแก้ว นายอำเภอตะโหมด 
-            นายอำเภอกงหราและปลัดอาวุโสอำเภอศรีนครินทร์ เพื่อประสานงานการเตรียมความพร้อมตามแผนงานการเลือกสมาชิกวุฒิสภา 
-            ให้เป็นไปด้วยความเรียบร้อยและให้การสนับสนุนภารกิจดังกล่าว
-          </p>
+              วันที่ 10 ตุลาคม 2561 ร้อยตำรวจเอกสุชีพ จาดย่านขาด ผอ.สนง.กกต.จว.พท พร้อมด้วยนายประภาส 
+              เศียรอุ่น พนักงานสืบสวนและไต่สวน ชำนาญการ ปฏิบัติหน้าที่หัวหน้างานสืบสวนสอบสวนและพรรคการเมือง 
+              นายสมทบ ไชยรัตน์ พนักงานการเลือกตั้ง ชำนาญการ และนายประเสริฐ ธรรมเพชร พนักงานสืบสวนและไต่สวน 
+              ชำนาญการ ลงพื้นที่พบปะพูดคุยกับนายอำเภอบางแก้ว ปลัดอาวุโสอำเภอบางแก้ว นายอำเภอตะโหมด 
+              นายอำเภอกงหราและปลัดอาวุโสอำเภอศรีนครินทร์ เพื่อประสานงานการเตรียมความพร้อมตามแผนงานการเลือกสมาชิกวุฒิสภา 
+              ให้เป็นไปด้วยความเรียบร้อยและให้การสนับสนุนภารกิจดังกล่าว
+            </p>
+          </div>
           <?php 
             $news01 = [
               ['image' => 'public/assets/app/images/content/02.jpg'],
@@ -111,6 +103,8 @@
                 <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                    <div class="filter style-01"></div>
+                    <div class="card-line style-01"></div>
                   </div>
                   <div class="filter-01">
                     <div class="text">
@@ -122,15 +116,14 @@
               </div>
             <?php }?>
           </div>
-          </div>
-          
+        
           <?php include('component/tags-container.php'); ?>
 
-          <h4 class="title fw-600 mt-6 pt-6" data-aos="fade-up" data-aos-delay="600">
+          <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="600">
               <tbody>
                 <?php
                   foreach([
@@ -138,14 +131,14 @@
                     'pdf', 'doc'
                   ] as $k){
                 ?>
-                  <tr class="box-shadow style-02 mb-2">
+                  <tr class="table-card-01 box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card">
                         <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">
-                      <a class="fw-600 h-color-t" href="#">
+                      <a class="fw-600 title" href="#">
                         รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                       </a>
                       <div class="text-footer">
@@ -172,8 +165,8 @@
                 <?php }?>
               </tbody>
             </table>
-          </div>
-
+          </div>   
+        
           <?php 
             $videos = [
               ['image' => 'public/assets/app/images/content/14.jpg'],
@@ -192,10 +185,12 @@
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                     <div class="hover-container show">
-                      <div class="icon sm">
-                        <img src="public/assets/app/images/icon/play-thin.png" alt="Play Icon">
+                      <div class="icon xs">
+                        <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
                       </div>
                     </div>
+                    <div class="filter style-01"></div>
+                    <div class="card-line style-01"></div>
                   </div>
                 </a>
               </div>
@@ -243,6 +238,8 @@
               <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="filter style-01"></div>
+                  <div class="card-line style-01"></div>
                 </div>
                 <div class="text-container">
                   <p class="title fw-400 lh-sm mt-2">
@@ -317,6 +314,9 @@
 
     btn.addEventListener("click", () => {
       toolTip.style.opacity = '1'
+      setTimeout(function(){
+        toolTip.style.opacity = '0'
+      }, 1200);
     });
 
   </script>

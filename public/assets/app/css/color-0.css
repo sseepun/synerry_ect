@@ -975,6 +975,12 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .tab-container .tabs.tabs-03 .tab > .wrapper::before{background:#f7b331;}
 .tab-container .tabs.tabs-03 .tab.active > .wrapper .title{color:#ffffff;}
 
+/* Tabs 04 */
+.tab-container .tabs.tabs-04 .tab.active:hover{color:#ffffff;}
+.tab-container .tabs.tabs-04 .tab::after{background:#e1e1e1;}
+.tab-container .tabs.tabs-04 .tab.active::before{background:#30906a!important;}
+.tab-container .tabs.tabs-04 .tab.active > .title{color:#ffffff;}
+
 /* List Header */
 .list-header.style-02 .option .icon-view{background:#eeeeee;}
 .list-header.style-02 .option .icon-view:hover,
@@ -1007,9 +1013,10 @@ table.table.table-download .download-card{background:#30906a;}
 table.table.table-download .text-footer > .wrapper .icon{color:#30906a;}
 table.table.table-download .arrow-container:hover > .title{color:#fef200!important;}
 table.table.style-02.table-download .download-card{background:#ffffff;}
-table.table.style-05.table-download:hover .title{color:#30906a;}
-table.table.style-05.table-download:hover img.inactive{opacity:0!important;}
-table.table.style-05.table-download:hover img.active{opacity:1!important;}
+
+table.table .table-card-01:hover .title{color:#30906a;}
+table.table .table-card-01:hover img.inactive{opacity:0!important;}
+table.table .table-card-01:hover img.active{opacity:1!important;}
 
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#eeeeee!important;}
 table.table.table-download.style-03 td:nth-child(2) > .title:hover{color:#10563a; border-color:#10563a!important;}
@@ -1192,7 +1199,6 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .ss-card-10 .card-top > .wrapper .icon > em{color:#2e603b;}
 
 /* Special Card 11 */
-.ss-card-11:hover{border-color:#fff311;}
 .ss-card-11 .filter-01{background:rgb(48,144,106,.6);}
 .ss-card-11 .filter-01 > .text{color:#ffffff;}
 
@@ -1213,7 +1219,7 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .ss-card-17 .text-container > .card-bottom .wrapper > .icon em{color:#2e603b;}
 
 /* Special Card 18 */
-.ss-card-18:hover .wrapper > .img-container .ebook-container > .wrapper{border-color:#fff311;}
+/* .ss-card-18:hover .wrapper > .img-container .ebook-container > .wrapper{border-color:#fff311;} */
 .ss-card-18 .wrapper > .img-container .ebook-container > .wrapper .filter-01{background:rgb(48,144,106,.6);}
 .ss-card-18:hover .wrapper > .text-container .btns > .btn{
   background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);

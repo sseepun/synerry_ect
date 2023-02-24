@@ -111,7 +111,13 @@
                         <div class="filter-01"></div>
                       </div>
                     </div>
-                  
+                    <div class="hover-container">
+                      <div class="icon sm">
+                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                      </div>
+                    </div>
+                    <div class="filter style-01"></div>
+                    <div class="card-line style-01"></div>
                   </div>
                 </div>
                 <div class="text-container">
@@ -136,12 +142,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="btns mt-6" data-aos="fade-up" data-aos-delay="300">
-                    <div href="#" class="btn btn-action btn-02">
-                      <em class="icon fa-solid fa-arrow-right"></em>
-                      อ่านเพิ่มเติม
+                  <div class="btn btn-action-style-06 mt-6">
+                      <span>อ่านเพิ่มเติม</span><div class="sep"></div>
                     </div>
-                  </div>
                 </div>
               </div>
             </a>
