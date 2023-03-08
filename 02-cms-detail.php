@@ -100,8 +100,8 @@
               <tbody>
                 <?php
                   foreach([
-                    'pdf', 'doc', 'mp4', 'jpg', 'doc',
-                    'pdf', 'doc'
+                    'pdf', 'doc', 'xls', 'ppt', 'zip',
+                    'rar', 'link'
                   ] as $k){
                 ?>
                   <tr class="table-card-01 box-shadow style-02 mb-2">

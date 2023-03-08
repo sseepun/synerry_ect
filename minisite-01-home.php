@@ -177,7 +177,7 @@
             </div>
           </div>
           <div class="arrow-container" data-aos="fade-up" data-aos-delay="150">
-              <div class="arrow btn-icon-next">
+              <div class="arrow btn-icon-prev">
                 <em class="fa-solid fa-arrow-left"></em>
               </div>
               <div class="arrow btn-icon-next">

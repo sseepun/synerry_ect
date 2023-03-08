@@ -78,7 +78,7 @@
     position:absolute; bottom:0; right:-5vw; width:70vw; height:100%;
     display:flex; align-items:flex-end; justify-content:center;
 }
-.banner-01 .slide > .hero.size-02{height:45rem;}
+.banner-01 .slide > .hero.size-02{height:35rem;}
 .banner-01 .slide > .hero img{
     display:block; width:auto; max-width:100%; height:auto; max-height:calc(100% - 1rem);
 }
@@ -100,32 +100,32 @@
 .banner-01 .arrows > .arrow img{display:block; height:5rem; width:auto;}
 .banner-01 .arrows > .arrow.size-01 img{height:2.5rem;}
 @media screen and (max-width:1299.98px){
-  .banner-01 .slide > .hero.size-02{height:38rem;}
+  .banner-01 .slide > .hero.size-02{height:33rem;}
 }
 @media screen and (max-width:1199.98px){
     .banner-01 .slide > .hero{right:0; width:50vw;}
+    .banner-01 .slide > .hero.size-02{height:31rem;}
     .banner-01 .quote-container .quote{height:2.875rem;}
     .banner-01 .arrows > .arrow img{height:4.5rem;}
 }
 @media screen and (max-width:991.98px){
-    .banner-01 .slide{align-items:flex-start; padding:3rem 0;}
+    .banner-01 .slide.size-02{align-items:flex-start; padding:3rem 0; min-height:calc(100vh - -15rem);}
     .banner-01 .slide > .hero{right:-3rem; width:28rem;}
-    .banner-01 .quote-container.style-02{display:flex; justify-content:center;}
-    .banner-01 .slide > .hero.size-02{width:100%; height:34rem; right:unset;}
+    .banner-01 .slide > .hero.size-02{width:100%; height:29rem; right:unset;}
     .banner-01 .quote-container .quote{height:2.625rem;}
+    .banner-01 .quote-container.style-02{display:flex; justify-content:center;}
     .banner-01 .arrows > .arrow img{height:4rem;}
 }
 @media screen and (max-width:767.98px){
     .banner-01 .slide{padding:2.5rem 0;}
     .banner-01 .slide > .hero{left:0; right:0; width:auto; height:22rem;}
-    .banner-01 .slide > .hero.size-02{height:32rem;}
+    .banner-01 .slide > .hero.size-02{height:28rem;}
     .banner-01 .quote-container{justify-content:center;}
     .banner-01 .quote-container .quote{height:2.5rem;}
 }
 @media screen and (max-width:575.98px){
-    .banner-01 .slide.size-02{min-height:calc(100vh - 15rem);}
-    .banner-01 .slide{padding:2rem 0;}
-    .banner-01 .slide > .hero.size-02{height:28rem;}
+    .banner-01 .slide{padding:2rem 0; min-height:calc(100vh - -9rem);}
+    .banner-01 .slide > .hero.size-02{height:26rem;}
     .banner-01 .quote-container .quote{height:2.25rem;}
     .banner-01 .arrows{display:none;}
 }
@@ -860,6 +860,7 @@
 
 
 /* Section 06 */
+.section-06 .swiper-main-container{position:relative; width:calc(100% + 10rem); margin:0 -5rem; padding:0 5rem;}
 .section-06 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
 .section-06 .swiper-pagination-bullets{padding:0 .5rem; border-radius:1000em;}
 .section-06 .swiper-pagination-bullet{
@@ -867,7 +868,15 @@
     transition:width .25s; opacity:1;
 }
 .section-06 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:2.125rem;}
-
+.section-06 .arrow-container{
+  position:absolute; top:0; right:0; bottom:0; left:0; display:flex; justify-content:space-between; 
+  align-items:center; 
+}
+.section-06 .arrow-container > .arrow{
+  width:3rem; height:3rem; border-radius:.375rem; transition:all .25s; display:flex;
+  justify-content:center; align-items:center;
+}
+.section-06 .arrow-container > .arrow{background:#2e603c; color:#ffffff;}
 
 /* Section-07 */
 .section-07 .swiper-container > .btns-swiper{
@@ -1144,6 +1153,14 @@
   .section-21 .arrow-container > .arrow{width:2.625rem; height:2.625rem;}
 }
 
+.section-22 .swiper-main-container{position:relative; width:calc(100% + 10rem); margin:0 -5rem; padding:0 5rem;}
+.section-22 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
+.section-22 .swiper-pagination-bullets{padding:0 .5rem; border-radius:1000em;}
+.section-22 .swiper-pagination-bullet{
+    margin:0 .25rem;  width:0.4375rem; height:0.4375rem; border-radius:.3125rem; 
+    transition:width .25s; opacity:1;
+}
+.section-22 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:2.125rem;}
 
 /* Breadcrumb 01 */
 .breadcrumb-01 .top{

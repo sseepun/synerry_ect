@@ -668,6 +668,23 @@ nav.footer.style-03 .footer-socials .social em::after{content:''; position:absol
 nav.footer.style-03 .footer-socials .social-wrapper:nth-child(1) > .social em::after{content:'\f39e';}
 nav.footer.style-03 .footer-socials .social-wrapper:nth-child(2) > .social em::after{content:'\f099';}
 nav.footer.style-03 .footer-socials .social-wrapper:nth-child(3) > .social em::after{content:'\f167';}
+nav.footer.style-03 .count-container{display:flex; align-items:center;}
+nav.footer.style-03 .count-container > .counts:last-child{margin-left:1rem;}
+nav.footer.style-03 .counts{display:flex; align-items:center;}
+nav.footer.style-03 .count-web{display:flex; border-radius:.1875rem; border:2px solid transparent; overflow:hidden;}
+nav.footer.style-03 .count-web > *{
+  width:1.375rem; height:2rem; display:flex; justify-content:center; align-items:center; 
+  border-right:1px solid transparent; font-size:.875rem; font-weight:500; 
+}
+nav.footer.style-03 .count-web > *:last-child{border-right:0;}
+nav.footer.style-03 .count-container > .image-container{max-width:10rem; margin-left:.5rem;}
+nav.footer.style-03 .count-container > .image-container img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:auto;
+}
+@media screen and (max-width:491.98px){
+  nav.footer.style-03 .count-container{flex-wrap:wrap;}
+  nav.footer.style-03 .count-container > .image-container{margin:1rem 0 0 0;}
+}
 
 
 /* Footer Style 04 */

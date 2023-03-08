@@ -166,6 +166,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-19:hover{background:#35758e; border-color:#35758e; color:#ffffff!important;}
 .btn.btn-19:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-20, .btn.btn-20:focus{color:#ffffff; background:#2e603c; border-color:#2e603c;}
+.btn.btn-20:hover{background:#303031; border-color:#303031; color:#ffffff;}
+.btn.btn-20:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
 .btn.btn-action-style-04 .wrapper > .icon.gg{color:#ec4034;}
@@ -727,6 +731,10 @@ nav.footer.style-03 .footer-socials .social:hover{color:#ffffff; background:#2e6
 nav.footer.style-03 .footer-container{background:#ffffff; box-shadow: 0px 0px 10px 0px rgb(0 0 0/7%);}
 nav.footer.style-03 .footer-socials > .social-wrapper .tooltip{background:#2e603c; color:#ffffff;}
 nav.footer.style-03 .footer-socials .social em::after{color:#ffffff;}
+nav.footer.style-03 .count-web{border-color:#2e603c;}
+nav.footer.style-03 .count-web > *{
+  background:#f2f2f2; color:#000000!important; border-color:#2e603c;
+}
 
 /* Footer Style 04 */
 nav.footer.style-04{background:#ffffff; color:#303031;}
@@ -1131,6 +1139,11 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .section-21 .arrow-container > .arrow{background:#2e603b; color:#ffffff; transition:all .25s}
 .section-21 .arrow-container > .arrow:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+/* Section 22 */
+.section-22 .swiper-pagination-bullets{background:#f2f2f2;}
+.section-22 .swiper-pagination-bullet{background:#2e603d;}
+.section-22 .swiper-pagination-bullet-active{background:#2e603d;}
+
 
 /* Intro 01 */ 
 .intro-01 .intro-footer > .wrapper.left::after{background:#fef200;}
@@ -1380,5 +1393,12 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 /* Special Card 51 */
 .ss-card-51{background:#ffffff;}
 
+/* Special Card 52 */
+.ss-card-52{background:#ffffff;}
+.ss-card-52 .text-container > .title{color:#2e603c;}
+.ss-card-52 .text-container .text-link{color:#2e603c; border-color:#2e603c;}
+
+/* Special Card 55 */
+.ss-card-55 .wrapper > .text-container .info-content > .icon em{color:#2e603c;}
 
 

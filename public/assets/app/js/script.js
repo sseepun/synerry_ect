@@ -775,7 +775,7 @@ function ssPageProcess(){
              new Swiper(self.find('.swiper-container'), {
                  loop: true,
                  spaceBetween: 20,
-                 slidesPerView: 3,
+                 slidesPerView: 1.1,
                  speed: 800,
                  grabCursor: true,
                  navigation: {
@@ -783,8 +783,8 @@ function ssPageProcess(){
                      prevEl: self.find('.btn-icon-prev'),
                  },
                  breakpoints: {
-                    1299.98: { slidesPerView: 3 },
-                    991.98: { slidesPerView: 2 },
+                    1299.98: { slidesPerView: 1 },
+                    991.98: { slidesPerView: 1 },
                     767.98: { slidesPerView: 2 },
                     575.98:{ slidesPerView: 1 }
                 },
@@ -1025,3 +1025,34 @@ function ssPageProcess(){
                  });
              });
          }
+
+
+         
+     // Section 22
+     var section22 = $('.section-22');
+     if(section22.length){
+         section22.each(function(){
+             var self = $(this);
+             new Swiper(self.find('.swiper-container'), {
+                 loop: true,
+                 spaceBetween: 20,
+                 slidesPerView: 3,
+                 speed: 800,
+                 grabCursor: true,
+                 navigation: {
+                     nextEl: self.find('.btn-icon-next'),
+                     prevEl: self.find('.btn-icon-prev'),
+                 },
+                 breakpoints: {
+                    1299.98: { slidesPerView: 3 },
+                    991.98: { slidesPerView: 3 },
+                    767.98: { slidesPerView: 2 },
+                    575.98:{ slidesPerView: 1 }
+                },
+                 pagination: {
+                     el: self.find('.dots'),
+                     clickable: true,
+                 },
+             });
+         });
+     }

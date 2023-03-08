@@ -45,7 +45,7 @@
               <div class="icon color-02"><em class="fa-solid fa-envelope"></em></div>
               <p class="sm color-05 fw-500">Email : webmaster@ect.go.th</p>
             </div>
-            <h6 class="fw-400 mb-2 mt-3">ติดตาม คปภ.</h6>
+            <h6 class="fw-400 mb-2 mt-3">ติดตาม</h6>
             <div class="footer-socials">
               <div class="social-wrapper">
                 <a class="social" href="#">
@@ -66,39 +66,111 @@
                 <div class="tooltip size-03">youtube</div>
               </div>
             </div>
+            <div class="d-flex ai-center mt-5">
+              <h6 class="color-02 fw-400">สมัครรับจดหมายข่าว</h6>
+              <a class="btn btn-action-style-08 btn-20 ml-2">
+                <em class="fa-solid fa-arrow-right"></em>
+              </a>
+            </div>
           </div>
           <div class="grid xl-70 lg-60 sm-100 mt-0">
             <div class="grids">
               <div class="grid xl-30 lg-50">
                 <h6 class="color-02 fw-500 mb-1">แผนผังเว็บไซต์</h6>
-                <ul class="ss-list style-03">
-                  <li class="sm"><a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a></li>
-                  <li class="sm"><a href="#">โครงการลูกเสืออาสา กกต.</a></li>
-                  <li class="sm"><a href="#">แจ้งเบาะแสทุจริตการเลือกตั้ง</a></li>
-                  <li class="sm"><a href="#">ศูนย์รับเรื่องราวร้องทุกข์</a></li>
-                  <li class="sm"><a href="#">ห้องสมุดอิเล็กทรอนิกส์</a></li>
-                  <li class="sm"><a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a></li>
-                  <li class="sm"><a href="#">ศูนย์ศึกษาประชาธิปไตย</a></li>
-                  <li class="sm"><a href="#">เครื่องลงคะแนนเลือกตั้ง</a></li>
-                  <li class="sm"><a href="#">ทำเนียบผู้บริหาร</a></li>
-                  <li class="sm"><a href="#">บริการ E-mail ภาครัฐ</a></li>
-                  <li class="sm"><a href="#">หนังสือเวียนอิเล็กทรอนิกส์ (ส่วนกลาง)</a></li>
+                <ul class="ss-list-style-02">
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">โครงการลูกเสืออาสา กกต.</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">แจ้งเบาะแสทุจริตการเลือกตั้ง</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">ศูนย์รับเรื่องราวร้องทุกข์</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">ห้องสมุดอิเล็กทรอนิกส์</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">ศูนย์ศึกษาประชาธิปไตย</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">เครื่องลงคะแนนเลือกตั้ง</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">ทำเนียบผู้บริหาร</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">บริการ E-mail ภาครัฐ</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">หนังสือเวียนอิเล็กทรอนิกส์ (ส่วนกลาง)</a>
+                  </li>
                 </ul>
               </div>
               <div class="grid xl-30 lg-50 mute-xs">
                 <h6 class="fw-400 title-empty mb-1">แผนผังเว็บไซต์</h6>
-                <ul class="ss-list style-03">
-                  <li class="sm"><a href="#">โครงการพัฒนาศูนย์กลางความรู้แห่งชาติ</a></li>
-                  <li class="sm"><a href="#">ฐานข้อมูลหน่วยงานของรัฐ</a></li>
-                  <li class="sm"><a href="#">เว็บไซด์รับฟังความคิดเห็นด้านกฎหมายไทย</a></li>
-                  <li class="sm"><a href="#">คณะกรรมการการเลือกตั้ง</a></li>
-                  <li class="sm"><a href="#">อำนาจหน้าที่ของ กกต.</a></li>
-                  <li class="sm"><a href="#">เลขาธิการ กกต.</a></li>
-                  <li class="sm"><a href="#">วิสัยทัศน์ / พันธกิจ / ยุทธศาสตร์</a></li>
-                  <li class="sm"><a href="#">รายงานผลการปฏิบัติงานประจำปี</a></li>
-                  <li class="sm"><a href="#">Clipping News</a></li>
-                  <li class="sm"><a href="#">สื่อประชาสัมพันธ์</a></li>
-                  <li class="sm"><a href="#">แบบฟอร์ม</a></li>
+                <ul class="ss-list-style-02">
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">โครงการพัฒนาศูนย์กลางความรู้แห่งชาติ</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">ฐานข้อมูลหน่วยงานของรัฐ</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">เว็บไซด์รับฟังความคิดเห็นด้านกฎหมายไทย</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">คณะกรรมการการเลือกตั้ง</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">อำนาจหน้าที่ของ กกต.</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">เลขาธิการ กกต.</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">วิสัยทัศน์ / พันธกิจ / ยุทธศาสตร์</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">รายงานผลการปฏิบัติงานประจำปี</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">Clipping News</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">สื่อประชาสัมพันธ์</a>
+                  </li>
+                  <li class="sm">
+                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <a href="#">แบบฟอร์ม</a>
+                  </li>
                 </ul>
               </div>
               <div class="grid xl-40 lg-100 md-100 sm-100">
@@ -112,13 +184,37 @@
             </div>
           </div>
           <div class="grid sm-100">
-            <p class="xs mt-3">
-              <a class="h-color-04 color-02 fw-500 border-bottom bcolor-02 mr-3" href="#">
-                ข้อกำหนด เงื่อนไข และนโยบายความเป็นส่วนตัว
-              </a>
-              <span class="mr-3">/</span>
-              <span class="color-05 fw-500">สงวนลิขสิทธิ์ 2559 - สำนักงานคณะกรรมการการเลือกตั้ง</span>
-            </p>
+            <div class="grids">
+              <div class="grid xl-60 lg-50 md-100 sm-100">
+                <p class="xs mt-3">
+                  <a class="h-color-04 color-02 fw-500 border-bottom bcolor-02 mr-3" href="#">
+                    ข้อกำหนด เงื่อนไข และนโยบายความเป็นส่วนตัว
+                  </a>
+                  <span class="mr-3">/</span>
+                  <span class="color-05 fw-500">สงวนลิขสิทธิ์ 2559 - สำนักงานคณะกรรมการการเลือกตั้ง</span>
+                </p>
+              </div>
+              <div class="grid xl-40 lg-50 md-100 sm-100">
+                <div class="d-flex jc-end jc-start-md">
+                  <div class="count-container">
+                    <div class="counts">
+                      <p class="sm fw-400">จำนวนผู้เข้าชม</p>
+                      <div class="count-web ml-2">
+                        <div>1</div>
+                        <div>8</div>
+                        <div>3</div>
+                        <div>0</div>
+                        <div>0</div>
+                        <div>6</div>
+                      </div>
+                    </div>
+                    <div class="image-container">
+                      <img src="public/assets/app/images/content/04.png" alt="Image">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

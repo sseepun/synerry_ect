@@ -15,7 +15,7 @@
           <div class="slide size-02">
             <div class="img-bg" style="background-image:url('public/assets/app/images/bg/02.jpg');"></div>
             <div class="hero size-02 animate" style="--delay:.55s;">
-              <img src="public/assets/app/images/hero/05.png" class="Hero" />
+              <img src="public/assets/app/images/hero/07.png" class="Hero" />
             </div>
             <div class="container">
               <div class="quote-container style-02 animate" style="--delay:.4s;">
@@ -48,14 +48,19 @@
     $content01 = [
       [
         'title' => 'สถิติการเลือกตั้ง',
+        'icon'  => 'public/assets/app/images/icon/46.png'
       ],[
         'title' => 'ประกาศผลการเลือกตั้ง',
+        'icon'  => 'public/assets/app/images/icon/47.png'
       ],[
         'title' => 'ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง',
+        'icon'  => 'public/assets/app/images/icon/48.png'
       ],[
         'title' => 'ข้อมูลพรรคการเมือง',
+        'icon'  => 'public/assets/app/images/icon/49.png'
       ],[
         'title' => 'ตรวจสอบข้อมูลสมาชิกพรรคการเมือง',
+        'icon'  => 'public/assets/app/images/icon/50.png'
       ],
     ]
   ?>
@@ -70,11 +75,11 @@
                 <div class="ss-card ss-card-51" onmouseover="cardOver()" onmouseout="cardNoOver()">
                   <div class="wrapper">
                     <div class="icon">
-                      <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
+                      <img class="inactive" src="<?= $d['icon'] ?>" alt="Icon">
                     </div>
-                    <p class="mt-1 lh-sm fw-400">
-                      <?= $d['title'] ?>
-                    </p>
+                    <div class="text-wrapper mt-1 lh-sm fw-400">
+                      <p class="fw-400"><?= $d['title'] ?></p>
+                    </div>
                   </div>
                   <div class="card-line bradius style-02"></div>
                 </div>
@@ -494,7 +499,7 @@
           <?php foreach($syndicates as $d) {?>
             <div class="swiper-slide ">
               <div class="ss-card ss-card-28">
-                <div class="ss-img vertical-02 no-hover">
+                <div class="ss-img vertical no-hover">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>')"></div>
                 </div>
                 <div class="text-container">
@@ -521,40 +526,76 @@
           <div class="grids">
             <div class="grid sm-50">
               <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="150">
-                <h5 class="title color-05 lh-sm fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
-                <p class="desc fw-400 color-white-theme mt-1">
-                  วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. 
-                  เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
-                </p>
+                <div class="wrapper">
+                  <h5 class="title color-05 lh-sm fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
+                  <p class="desc fw-400 color-white-theme mt-1">
+                    วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. 
+                    เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
+                  </p>
+                </div>
                 <div class="card-line style-01"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm op-0">
+                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="grid sm-50">
               <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="300">
-                <h5 class="title color-05 lh-sm fw-500">การบริจาคภาษีแก่พรรคการเมือง</h5>
-                <p class="desc fw-400 mt-1">
-                  ประชาชนผู้เสียภาษีที่เป็นบุคคลธรรมดาสามารถมีส่วนร่วมทางการเมืองได้ ด้วยผ่านการบริจาคภาษีเงิน
-                </p>
+                <div class="wrapper">
+                  <h5 class="title color-05 lh-sm fw-500">การบริจาคภาษีแก่พรรคการเมือง</h5>
+                  <p class="desc fw-400 mt-1">
+                    ประชาชนผู้เสียภาษีที่เป็นบุคคลธรรมดาสามารถมีส่วนร่วมทางการเมืองได้ ด้วยผ่านการบริจาคภาษีเงิน
+                  </p>
+                </div>
                 <div class="card-line style-01"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm op-0">
+                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="grid sm-50">
               <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="450">
-                <h5 class="title color-05 fw-500">เลือกตั้ง อบต.</h5>
-                <p class="desc fw-400 mt-1">
-                  วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. 
-                  เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบลและ
-                </p>
+                <div class="wrapper">
+                  <h5 class="title color-05 fw-500">เลือกตั้ง อบต.</h5>
+                  <p class="desc fw-400 mt-1">
+                    วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. 
+                    เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบลและ
+                  </p>
+                </div>
                 <div class="card-line style-01"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm op-0">
+                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="grid sm-50">
               <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="600">
-                <h5 class="title color-05 fw-500">การแจ้งเหตุไม่อาจไปใช้สิทธิเลือกตั้งทางสื่ออิเล็กทรอนิกส์</h5>
-                <p class="desc fw-400 mt-1">
-                  เพื่อเป็นการเพิ่มช่องทางอำนวยความสะดวกแก่ประชาชนผู้มีสิทธิเลือกตั้งที่มีความจำเป็นไม่อาจไปใช้สิทธิเลือกตั้ง
-                </p>
+                <div class="wrapper">
+                  <h5 class="title color-05 fw-500">การแจ้งเหตุไม่อาจไปใช้สิทธิเลือกตั้งทางสื่ออิเล็กทรอนิกส์</h5>
+                  <p class="desc fw-400 mt-1">
+                    เพื่อเป็นการเพิ่มช่องทางอำนวยความสะดวกแก่ประชาชนผู้มีสิทธิเลือกตั้งที่มีความจำเป็นไม่อาจไปใช้สิทธิเลือกตั้ง
+                  </p>
+                </div>
                 <div class="card-line style-01"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm op-0">
+                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -578,6 +619,14 @@
           <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="150">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
+              <div class="card-line style-01"></div>
+              <div class="filter style-02">
+                <div class="wrapper">
+                  <div class="icon sm">
+                    <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="text-container color-black">
               <a class="title h6 fw-500 h-color-04" href="#">
@@ -593,6 +642,14 @@
           <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="300">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
+              <div class="card-line style-01"></div>
+              <div class="filter style-02">
+                <div class="wrapper">
+                  <div class="icon sm">
+                    <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="text-container color-black">
               <a class="title h6 fw-500 h-color-04" href="#">
@@ -608,6 +665,14 @@
           <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="450">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/13.jpg');"></div>
+              <div class="card-line style-01 bradius"></div>
+              <div class="filter style-02">
+                <div class="wrapper">
+                  <div class="icon sm">
+                    <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="text-container color-black">
               <a class="title h6 fw-500 h-color-04" href="#">
@@ -632,9 +697,9 @@
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/20.jpg');"></div>
     <div class="container">
       <div class="grids jc-center">
-        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
+        <div class="grid lg-1-3 md-50 sm-50 xs-100">
           <div class="ss-card ss-card-05 filter-02" data-aos="fade-up" data-aos-delay="0">
-            <div class="ss-img">
+            <div class="ss-img square">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/15.jpg');"></div>
             </div>
             <div class="text-container">
@@ -646,9 +711,9 @@
             </div>
           </div>
         </div>
-        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
+        <div class="grid lg-1-3 md-50 sm-50 xs-100">
           <div class="ss-card ss-card-05 filter-02" data-aos="fade-up" data-aos-delay="150">
-            <div class="ss-img">
+            <div class="ss-img square">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/16.jpg');"></div>
             </div>
             <div class="text-container">
@@ -660,9 +725,9 @@
             </div>
           </div>
         </div>
-        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
+        <div class="grid lg-1-3 md-50 sm-50 xs-100">
           <div class="ss-card ss-card-05 filter-02" data-aos="fade-up" data-aos-delay="300">
-            <div class="ss-img">
+            <div class="ss-img square">
               <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.jpg');"></div>
             </div>
             <div class="text-container">
@@ -675,46 +740,22 @@
             </div>
           </div>
         </div>
-        <div class="grid xl-25 lg-30 md-50 sm-50 xs-100">
-          <div class="ss-card ss-card-05" data-aos="fade-up" data-aos-delay="450">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/content/01.png');"></div>
-            </div>
-            <div class="text-container">
-              <form action="">
-                <h2 class="fw-300 lh-2xs color-07">Poll Vote</h2>
-                <p class="mt-1">
-                  ท่านมีความพึงพอใจในการใช้บริการ
-                  เว็บไซต์ของสำนักงานคณะกรรมการ
-                  การเลือกตั้งในระดับใด ?
+        <div class="grid lg-100 sm-50">
+          <div class="ss-card ss-card-52">
+            <div class="wrapper">
+              <div class="text-container">
+                <h3 class="title fw-500">ทุกความคิดเห็นของท่านมีความสำคัญ</h3>
+                <p class="fw-400">ร่วมแสดงความคิดเห็นของท่านต่อเว็บไซต์สำนักงานคณะกรรมการการเลือกตั้งได้ 
+                  <a class="text-link fw-500" href="#">ที่นี่</a>
                 </p>
-                <fieldset class="mt-1">
-                  <div class="gallery-grids">
-                    <?php foreach(['พอใจมากที่สุด', 'พอใจมาก', 'ปานกลาง', 'เฉยๆ', 'ไม่น่าพอใจ'] as $i=>$d){?>
-                      <div class="grid sm-50 xs-50">
-                        <div class="rc-container style-02">
-                          <input type="radio" id="poll_<?= $i ?>" name="poll" value="<?= $i ?>" />
-                          <label for="poll_<?= $i ?>"><?= $d ?></label>
-                        </div>
-                      </div>
-                    <?php }?>
-                  </div>
-                </fieldset>
-                <div class="btns pt-4">
-                  <button type="submit" class="btn btn-popup-toggle btn-action btn-04 w-full" data-popup="99">
-                    <div class="d-flex ai-center jc-center pt-2 pb-2">
-                      <img 
-                        class="img mr-3" src="public/assets/app/images/icon/12.png" 
-                        style="width:1.75rem;" alt="Icon" 
-                      />
-                      <h6 class="fw-600">Vote</h6>
-                    </div>
-                  </button>
-                </div>
-              </form>
+              </div>
+              <div class="img-container">
+                <img src="public/assets/app/images/content/133.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>
+       
       </div>
     </div>
   </section>
