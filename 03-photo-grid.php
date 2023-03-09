@@ -25,7 +25,7 @@
       <div class="swiper-main-container">
         <div class="swiper-container"  data-aos="fade-up" data-aos-delay="300">
           <div class="swiper-wrapper">
-            <?php for($i=0; $i<4; $i++){?>
+            <?php for($i=0; $i<10; $i++){?>
               <div class="swiper-slide">
               <a class="ss-card ss-card-53" href="#">
                 <div class="wrapper">

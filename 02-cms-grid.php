@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -87,13 +87,14 @@
                             <div class="img-container">
                               <div class="ss-img">
                                 <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                                <div class="hover-container">
-                                  <div class="icon sm">
-                                    <img src="public/assets/app/images/icon-svg/01.svg" alt="Icon">
+                                <div class="card-line style-01"></div>
+                                <div class="filter style-02">
+                                  <div class="wrapper">
+                                    <div class="icon sm">
+                                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                                    </div>
                                   </div>
                                 </div>
-                                <div class="filter style-01"></div>
-                                <div class="card-line style-01"></div>
                               </div>
                             </div>
                             <div class="text-container">

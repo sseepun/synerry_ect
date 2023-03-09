@@ -29,28 +29,54 @@
       <div class="grids" data-aos="fade-up" data-aos-delay="300">
         <div class="grid lg-25">
           <div class="ss-card ss-card-33">
-            <p class="fw-600">สำนักงานคณะกรรมการการ<br>เลือกตั้งประจำจังหวัดทุก</p>
+            <div class="wrapper">
+              <div class="icon">
+                <img src="public/assets/app/images/icon/location.png" alt="">
+              </div>
+              <p class="fw-600">สำนักงานคณะกรรมการการ<br>เลือกตั้งประจำจังหวัดทุก</p>
+            </div>
           </div>
         </div>
         <div class="grid lg-25">
           <div class="ss-card ss-card-33">
-            <p class="fw-600">ฝ่ายปฏิบัติการข่าว</p>
-            <p class="sm color-black-theme color-02 fw-400">โทร. 02-141-8050 หรือ</p>
-            <p class="sm color-black-theme color-02 fw-400">02-141-8201 หรือ 02-141-2611</p>
+            <div class="wrapper">
+              <div class="icon sm">
+                <img src="public/assets/app/images/icon/telephone.png" alt="">
+              </div>
+              <div>
+                <p class="fw-600">ฝ่ายปฏิบัติการข่าว</p>
+                <p class="sm color-black-theme color-02 fw-500">02-141-8050</p>
+                <p class="sm color-black-theme color-02 fw-500">02-141-8201</p>
+                <p class="sm color-black-theme color-02 fw-500">02-141-2611</p>
+              </div>
+            </div>
+            
           </div>
         </div>
         <div class="grid lg-25">
           <div class="ss-card ss-card-33">
-            <p class="fw-600">สายด่วน กกต.</p>
-            <p class="sm color-black-theme color-02 fw-400">โทร. 1444 กด 2</p>
+            <div class="wrapper">
+              <div class="icon">
+                <img src="public/assets/app/images/icon/call-center.png" alt="">
+              </div>
+              <div>
+                <p class="fw-600">สายด่วน กกต.</p>
+                <p class="sm color-black-theme color-02 fw-500">โทร. 1444 กด 2</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="grid lg-25">
           <div class="ss-card ss-card-33">
-            <p class="color-black-theme fw-400">
-              แจ้งทางเว็บไซต์โดยกรอกข้อมูลลง<br>
-              ในแบบฟอร์ม
-            </p>
+            <div class="wrapper">
+              <div class="icon">
+                <img src="public/assets/app/images/icon/website.png" alt="">
+              </div>
+              <div>
+                <p class="color-black-theme fw-500">แจ้งทางเว็บไซต์</p>
+                <p class="sm color-black-theme color-02 fw-500">โดยกรอกข้อมูลลงในแบบฟอร์ม</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -93,7 +119,10 @@
           </div>
           <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
             <h5 class="color-02 color-black-theme fw-500">แบบฟอร์มแจ้งเบาะแสทุจริตการเลือกตั้ง</h5>
-            <p class="color-gray color-black-theme fw-300">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย <span class="text-danger fw-600">*</span></p>
+            <p class="color-16 color-black-theme fw-300">
+              กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย 
+              <span class="text-danger fw-600">*</span>
+            </p>
             <form action="action.php" method="post">
               <div class="grids mt-2">
                 <div class="grid sm-50 mt-0">
@@ -126,7 +155,7 @@
                 </div>
                 <div class="grid sm-100 mt-4">
                   <div class="option cate">
-                    <select class="ui dropdown bg-style-02" required>
+                    <select class="ui color-gray dropdown bg-style-02" required>
                       <option value="">เลือกหัวข้อที่ต้องการแจ้ง*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -160,8 +189,8 @@
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn btn-action btn-02 btn-white-theme pos-relative">
-                              ค้นหาไฟล์
+                            <div class="btn style-03 btn-action btn-21 size-03 btn-white-theme pos-relative">
+                              เลือกไฟล์
                               <input type="file" class="file-upload" />
                             </div>
                           </div>
@@ -175,11 +204,11 @@
                 </div>
                 <div class="grid sm-100">
                   <div class="ss-card ss-card-32">
-                    <div class="wrapper">
+                    <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/mp4.png" alt="Image File" />
                       </div>
-                      <div class="text-container box-shadow style-02">
+                      <div class="text-container">
                         <p class="title lh-sm fw-500">
                           บันทึกเบาะแสการทุจริตในวันเลือกตั้ง
                         </p>
@@ -192,11 +221,11 @@
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="ss-card ss-card-32">
-                    <div class="wrapper">
+                    <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/jpg.png" alt="Image File" />
                       </div>
-                      <div class="text-container box-shadow style-02">
+                      <div class="text-container">
                         <p class="title lh-sm fw-500">
                           บันทึกภาพเจ้าหน้าที่ขณะปฏิบัติหน้าที่
                         </p>
@@ -209,11 +238,11 @@
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="ss-card ss-card-32">
-                    <div class="wrapper">
+                    <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                       </div>
-                      <div class="text-container box-shadow style-02">
+                      <div class="text-container">
                         <p class="title lh-sm fw-500">
                           สำเนาเอกสาร
                         </p>
@@ -233,13 +262,13 @@
                   <div class="grids  no-gap">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
-                        <button type="submit" class="btn btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
+                        <button type="submit" class="btn btn-white-theme btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
                           แจ้งเบาะแส
                         </button>
                       </div>
                     </div>
                     <div class="grid sm-50 xs-50 mt-0">
-                      <button type="cancel" href="#" class="btn btn-action width-full mw-auto btn-05">
+                      <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-05">
                         ยกเลิก
                       </button>
                     </div>

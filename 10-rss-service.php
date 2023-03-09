@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -41,9 +41,6 @@
                 <p class="title color-02 sm lh-sm fw-500">
                   ตรวจสอบข้อมูลสมาชิกพรรการเมือง
                 </p>
-                <a class="p sm link fw-500" href="#">
-                  https://www.ect.go.th/news/rss/11
-                </a>
               </div>
             </div>
           <?php }?>

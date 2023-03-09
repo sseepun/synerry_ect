@@ -26,6 +26,7 @@ html, body, table.table{color:#000000;}
 .color-13, .h-color-13:hover{color:#ceced1;}
 .color-14, .h-color-14:hover{color:#1e5763;}
 .color-15, .h-color-15:hover{color:#35758e;}
+.color-16, .h-color-16:hover{color:#616161;}
 
 
 .bg-p{background:#0ab3de!important;}
@@ -51,6 +52,7 @@ html, body, table.table{color:#000000;}
 .bg-13{background:#ceced1!important;}
 .bg-14{background:#1e5763!important;}
 .bg-15{background:#35758e!important;}
+.bg-16{background:#616161!important;}
 
 
 .bcolor-p{border-color:#0ab3de!important;}
@@ -76,6 +78,7 @@ html, body, table.table{color:#000000;}
 .bcolor-13{border-color:#ceced1!important;}
 .bcolor-14{border-color:#1e5763!important;}
 .bcolor-15{border-color:#35758e!important;}
+.bcolor-16{border-color:#616161!important;}
 
 /* Buttons */
 .btn.btn-p, .btn.btn-p:focus{color:#ffffff; background:#194e84; border-color:#194e84;}
@@ -169,6 +172,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-20, .btn.btn-20:focus{color:#ffffff; background:#2e603c; border-color:#2e603c;}
 .btn.btn-20:hover{background:#303031; border-color:#303031; color:#ffffff;}
 .btn.btn-20:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+.btn.btn-21, .btn.btn-21:focus{color:#ffffff; background:#30906a; border-color:#30906a;}
+.btn.btn-21:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+.btn.btn-21:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
@@ -330,6 +337,7 @@ html, body, table.table{color:#000000;}
 .faq-02 .faq.active > .question .title{color:#ffffff;}
 .faq-02 .faq > .question .chevron-wrapper{color:#3aa57b;}
 .faq-02 .faq.active > .question .chevron-wrapper{background:#3aa57b; color:#ffffff;}
+.faq-02 .faq > .answer .content{border-color:#3aa57b;}
 
 /* Faq 03 */
 .faq-03 .faq.active > .question{background:#3aa57b; border-color:#3aa57b;}
@@ -932,6 +940,9 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .ss-tags > .tag{background:#04adf0; color:#ffffff;}
 .ss-tags.style-02{border-color:#2e603b;}
 .ss-tags.style-02 > .tag{background:#ffffff; color:#2e603b;}
+.ss-tags.style-02 > .tag:before{background:#2e603b;}
+.ss-tags.style-02 > .tag:after{background:#30906a;}
+.ss-tags.style-02 > .tag:hover .title{color:#ffffff;}
 .ss-tags > .tag.style-03{background:#7cc5b5; color:#ffffff;}
 .ss-tags > .tag.style-04{background:#c2c8cd; color:#3d3f4d;}
 
@@ -1017,7 +1028,6 @@ select{background:#eeeeee!important;}
 /* Table */
 table.table.table-download.style-03 td:nth-child(1){background:#2e603b;}
 table.table.table-download.style-03 .download-card{background:#2e603b;}
-table.table.table-download .download-card{background:#30906a;}
 table.table.table-download .text-footer > .wrapper .icon{color:#30906a;}
 table.table.table-download .arrow-container:hover > .title{color:#fef200!important;}
 table.table.style-02.table-download .download-card{background:#ffffff;}
@@ -1111,6 +1121,7 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .section-06 .swiper-pagination-bullets{background:#f2f2f2;}
 .section-06 .swiper-pagination-bullet{background:#2e603d;}
 .section-06 .swiper-pagination-bullet-active{background:#2e603d;}
+.section-06 .arrow-container > .arrow{background:#2e603c; color:#ffffff;}
 
 /* Section 07 */
 .section-07 .arrow-container > .btn .arrow{background:#2e603b; color:#ffffff;}
@@ -1143,6 +1154,12 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 .section-22 .swiper-pagination-bullets{background:#f2f2f2;}
 .section-22 .swiper-pagination-bullet{background:#2e603d;}
 .section-22 .swiper-pagination-bullet-active{background:#2e603d;}
+
+/* Section 23 */ 
+.section-23 .swiper-pagination-bullets{background:#f2f2f2;}
+.section-23 .swiper-pagination-bullet{background:#2e603d;}
+.section-23 .swiper-pagination-bullet-active{background:#2e603d;}
+.section-23 .arrow-container > .arrow{background:#2e603c; color:#ffffff;}
 
 
 /* Intro 01 */ 
@@ -1294,7 +1311,6 @@ table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#
 /* Special Card 32 */
 .ss-card-32 .wrapper > .text-container .x-mark{background:#000000; color:#ffffff;}
 .ss-card-32 .wrapper > .text-container .x-mark:hover{background:#fff102; color:#000000;}
-.ss-card-32 .wrapper > .icon{background:#30906a;}
 
 /* Special Card 33 */
 .ss-card-33{border-color:#30906a;}

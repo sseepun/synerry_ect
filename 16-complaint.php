@@ -50,8 +50,11 @@
       <div class="form-container-01 bg-white-theme-02 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
         <div class="grids">
           <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
-            <h4 class="color-black-theme fw-500">แบบฟอร์มรับเรื่อง</h4>
-            <p class="color-black-theme">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย<span class="text-danger fw-400 ml-1">*</span></p>
+            <h3 class="color-black-theme fw-600">แบบฟอร์มรับเรื่อง</h3>
+            <p class="color-black-theme color-16 fw-400">
+              กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย
+              <span class="text-danger fw-400 ml-1">*</span>
+            </p>
             <div class="img-container">
               <img src="public/assets/app/images/content/02.png" alt="Message">
             </div>
@@ -89,8 +92,8 @@
                 </div>
                 <div class="grid sm-100 mt-4">
                   <div class="option cate">
-                    <select class="ui dropdown bg-style-02" required>
-                      <option value="">เลือกหัวข้อที่ต้องการแจ้ง*</option>
+                    <select class="color-gray ui dropdown bg-style-02" required>
+                      <option value="">เลือกหัวข้อ*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                       <option value="3">ข่าวประชาสัมพันธ์ 3</option>
@@ -123,8 +126,8 @@
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn btn-action btn-02 btn-white-theme pos-relative">
-                              ค้นหาไฟล์
+                            <div class="btn style-03 btn-action btn-21 size-03 btn-white-theme pos-relative">
+                              เลือกไฟล์
                               <input type="file" class="file-upload" />
                             </div>
                           </div>
@@ -138,11 +141,11 @@
                 </div>
                 <div class="grid sm-100">
                   <div class="ss-card ss-card-32">
-                    <div class="wrapper">
+                    <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                       </div>
-                      <div class="text-container box-shadow style-02">
+                      <div class="text-container">
                         <p class="title lh-sm fw-500">
                           ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
                         </p>
@@ -155,11 +158,11 @@
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="ss-card ss-card-32">
-                    <div class="wrapper">
+                    <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/jpg.png" alt="Image File" />
                       </div>
-                      <div class="text-container box-shadow style-02">
+                      <div class="text-container">
                         <p class="title lh-sm fw-500">
                           บันทึกเบาะแสการทุจริตในวันเลือกตั้ง
                         </p>

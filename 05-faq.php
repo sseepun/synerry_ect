@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -30,7 +30,10 @@
         <?php for($i=0; $i<10; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">
             <div class="question box-shadow style-02">
-              <h3 class="ftag"><?php echo $i+1 ?></h3>
+              <div class="ftag style-02">
+                <img class="active" src="public/assets/app/images/icon-svg/question-white.svg" alt="Icon">
+                <img class="inactive" src="public/assets/app/images/icon-svg/question.svg" alt="Icon">
+              </div>
               <h6 class="title p lg fw-400">
                 สำนักงานคณะกรรมการการเลือกตั้งตอบข้อสอบถามพรรคกล้าเกี่ยวกับ
                 การปฏิบัติของพรรคการเมืองในการให้ความช่วยเหลือประชาชนในสถานการณ์
@@ -85,7 +88,7 @@
                           'pdf'
                         ] as $k){
                       ?>
-                        <tr class="box-shadow style-02 mb-2">
+                        <tr class="table-card-01 box-shadow style-02 mb-2">
                           <td>
                             <div class="download-card">
                               <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
@@ -113,7 +116,7 @@
                               <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
                               <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
                             </div>
-                            <p class="xs text-center color-02 color-black-theme fw-400 mt-1">ดาวน์โหลด</p>
+                            <p class="xs text-center color-02 color-black-theme fw-500 mt-1">ดาวน์โหลด</p>
                           </td>
                         </tr>
                       <?php }?>

@@ -783,8 +783,8 @@ function ssPageProcess(){
                      prevEl: self.find('.btn-icon-prev'),
                  },
                  breakpoints: {
-                    1299.98: { slidesPerView: 1 },
-                    991.98: { slidesPerView: 1 },
+                    1299.98: { slidesPerView: 1.1 },
+                    991.98: { slidesPerView: 1.1 },
                     767.98: { slidesPerView: 2 },
                     575.98:{ slidesPerView: 1 }
                 },
@@ -1056,3 +1056,32 @@ function ssPageProcess(){
              });
          });
      }
+
+      // Section 23
+      var section23 = $('.section-23');
+      if(section23.length){
+          section23.each(function(){
+              var self = $(this);
+              new Swiper(self.find('.swiper-container'), {
+                  loop: true,
+                  spaceBetween: 20,
+                  slidesPerView: 1.2,
+                  speed: 800,
+                  grabCursor: true,
+                  navigation: {
+                      nextEl: self.find('.btn-icon-next'),
+                      prevEl: self.find('.btn-icon-prev'),
+                  },
+                  breakpoints: {
+                     1299.98: { slidesPerView: 1.1 },
+                     991.98: { slidesPerView: 1.1 },
+                     767.98: { slidesPerView: 2 },
+                     575.98:{ slidesPerView: 1 }
+                 },
+                  pagination: {
+                      el: self.find('.dots'),
+                      clickable: true,
+                  },
+              });
+          });
+      }

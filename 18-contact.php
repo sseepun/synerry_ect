@@ -73,29 +73,40 @@
                 <div class="text-container flex-column jc-center ai-start">
                   <p class="fw-500">ติดตาม</p>
                   <div class="social-list">
-                    <div class="d-inline-block">
-                      <a class="icon active" href="#">
-                        <em class="fa-brands fa-facebook-f"></em>
+                    <div class="d-inline-block item">
+                      <a class="icon" href="#">
+                        <img class="inactive" src="public/assets/app/images/icon/facebook.png" alt="Facebook">
+                        <img class="active" src="public/assets/app/images/icon/facebook-active.png" alt="Facebook">
                       </a>
                     </div>
-                    <div class="d-inline-block">
+                    <div class="d-inline-block item">
                       <a class="icon" href="#">
-                        <em class="fa-brands fa-line"></em>
+                        <img class="inactive" src="public/assets/app/images/icon/line.png" alt="Line">
+                        <img class="active" src="public/assets/app/images/icon/line-active.png" alt="Line">
                       </a>
                     </div>
-                    <div class="d-inline-block">
-                      <a class="icon" href="#">
-                        <em class="fa-brands fa-youtube"></em>
+                    <div class="d-inline-block item">
+                      <a class="icon sm" href="#">
+                        <img class="inactive" src="public/assets/app/images/icon/youtube.png" alt="Youtube">
+                        <img class="active" src="public/assets/app/images/icon/youtube-active.png" alt="Youtube">
                       </a>
                     </div>
-                    <div class="d-inline-block">
+                    <div class="d-inline-block item">
                       <a class="icon" href="#">
-                        <em class="fa-brands fa-instagram"></em>
+                        <img class="inactive" src="public/assets/app/images/icon/twitter.png" alt="Twitter">
+                        <img class="active" src="public/assets/app/images/icon/twitter-active.png" alt="Twitter">
                       </a>
                     </div>
-                    <div class="d-inline-block">
+                    <div class="d-inline-block item">
                       <a class="icon" href="#">
-                        <em class="fa-brands fa-tiktok"></em>
+                        <img class="inactive" src="public/assets/app/images/icon/ig.png" alt="Instagram">
+                        <img class="active" src="public/assets/app/images/icon/ig-active.png" alt="Instagram">
+                      </a>
+                    </div>
+                    <div class="d-inline-block item">
+                      <a class="icon" href="#">
+                        <img class="inactive" src="public/assets/app/images/icon/tiktok.png" alt="Tiktok">
+                        <img class="active" src="public/assets/app/images/icon/tiktok-active.png" alt="Tiktok">
                       </a>
                     </div>
                   </div>
@@ -109,12 +120,15 @@
               หากมีคำถาม คำติชม คำแนะนำ หรือพบปัญหากรุณากรอกแบบฟอร์มด้านล่างนี้ 
               ทางเจ้าหน้าที่จะดำเนินการตามคำขอโดยเร็วที่สุด
             </p>
-            <p class="color-gray fw-300">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย <span class="text-danger fw-600">*</span></p>
+            <p class="color-16 fw-300">
+              กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย 
+              <span class="text-danger fw-600">*</span>
+            </p>
             <form action="action.php" method="post">
               <div class="grids">
                 <div class="grid sm-100 mt-3">
                   <div class="option cate">
-                    <select class="ui border dropdown" required>
+                    <select class="ui color-gray border dropdown" required>
                       <option value="">เลือกหน่วยงาน*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -127,7 +141,7 @@
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="option cate">
-                    <select class="ui border dropdown" required>
+                    <select class="ui color-gray border dropdown" required>
                       <option value="">เลือกหัวข้อ*</option>
                       <option value="1">ข่าวประชาสัมพันธ์ 1</option>
                       <option value="2">ข่าวประชาสัมพันธ์ 2</option>
@@ -189,9 +203,9 @@
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn btn-action btn-02 pos-relative">
-                              ค้นหาไฟล์
-                              <input type="file" class="file-upload" />
+                            <div class="btn style-03 btn-action btn-21 size-03 btn-black-theme pos-relative">
+                              เลือกไฟล์
+                              <input type="file" class="file-upload">
                             </div>
                           </div>
                         </div>
@@ -204,11 +218,11 @@
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="ss-card ss-card-32 style-02">
-                    <div class="wrapper border">
+                    <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                       </div>
-                      <div class="text-container box-shadow style-02">
+                      <div class="text-container">
                         <p class="title lh-sm fw-500">
                           ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ 
                           ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)

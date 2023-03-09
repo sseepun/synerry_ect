@@ -79,10 +79,11 @@
                     <div class="filter style-01"></div>
                     <div class="card-line style-01"></div>
                   </div>
-                  <div class="filter-01">
-                    <div class="text">
-                      <h3 class="number lh-3xs fw-600">+30</h3>
-                      <p class="h6 fw-500">รูปภาพ</p>
+                  <div class="filter style-02">
+                    <div class="wrapper">
+                      <div class="icon op-0">
+                        <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                      </div>
                     </div>
                   </div>
                 </a>
@@ -157,12 +158,18 @@
                 <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="hover-container show">
+                    <div class="hover-container show h-hidden">
                       <div class="icon xs">
-                        <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                        <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
                       </div>
                     </div>
-                    <div class="filter style-01"></div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon xs">
+                          <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
                     <div class="card-line style-01"></div>
                   </div>
                 </a>
@@ -173,11 +180,9 @@
           <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="800">
             สื่อที่เกี่ยวข้อง
           </h4>
-          <div class="scroll-x-wrapper mt-2" data-simplebar>
-            <iframe class="embed-container" data-aos="fade-up" data-aos-delay="950"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FEctThailand%2Fposts%2Fpfbid0ttvmys5Dca6mdHnoqu22DtpJBJzF6FsCe2XJLUmFpGBAz3miPAtRYA3Hzawx6EWal&show_text=true&width=500" 
-              width="" height="802" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-            </iframe>
+          <div data-aos="fade-up" data-aos-delay="950">
+            <a class="twitter-timeline" href="https://twitter.com/EctThailand?ref_src=twsrc%5Etfw">Tweets by EctThailand</a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
         <!-- Right Content -->
@@ -219,7 +224,13 @@
               <a class="ss-card ss-card-12" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                  <div class="filter style-01"></div>
+                  <div class="filter style-02">
+                    <div class="wrapper">
+                      <div class="icon op-0">
+                        <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                      </div>
+                    </div>
+                  </div>
                   <div class="card-line style-01"></div>
                 </div>
                 <div class="text-container">

@@ -275,6 +275,8 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-03.btn-black-theme, .btn.btn-03.btn-black-theme:focus{background:#000000; color:#fecb00;}
 .btn.btn-04, .btn.btn-04:focus{background:#000000; color:#fecb00;}
 .btn.btn-12.btn-black-theme, .btn.btn-12.btn-black-theme:focus{background:#000000; color:#fecb00;}
+.btn.btn-21.btn-white-theme, .btn.btn-21.btn-white-theme:focus{background:#000000; color:#fecb00;}
+.btn.btn-21.btn-black-theme, .btn.btn-21.btn-black-theme:focus{background:#fecb00; color:#000000;}
 
 .btn-browse-container .btn-browse{background:#000000; border-color:#000000; color:#fecb00;}
 .btn-browse-container .form-input{background:#000000; color:#fecb00;}
@@ -692,11 +694,10 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-31.style-02 .top > .wrapper .item:nth-child(1) > .icon{background:#fecb00; color:#000000;}
 
 /* Special Card 32 */
-.ss-card-32 .wrapper > .icon{background:#000000;}
+.ss-card-32{border-color:#fecb00;}
 .ss-card-32 .wrapper > .text-container .title{color:#000000;}
 .ss-card-32 .wrapper > .text-container .x-mark{background:#000000; color:#fecb00;}
 
-.ss-card-32.style-02 .wrapper > .icon{background:#fecb00;}
 .ss-card-32.style-02 .wrapper > .text-container .title{color:#fecb00;}
 .ss-card-32.style-02 .wrapper{border-color:#fecb00!important;}
 .ss-card-32.style-02 .wrapper > .text-container .x-mark{background:#fecb00; color:#000000;}

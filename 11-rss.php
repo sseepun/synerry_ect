@@ -24,7 +24,7 @@
       </h3>
       <div data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order'];
+          $listHeader = ['search', 'category'];
           include('component/list-header.php');
         ?>
       </div>
