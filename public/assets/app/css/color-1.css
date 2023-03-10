@@ -419,6 +419,10 @@ table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#0000
 
 .tab-container .tabs.tabs-03 .tab.active > .wrapper{border-color:#ffffff;}
 
+/* Tab 04 */
+.tab-container .tabs.tabs-04 .tab.active > .title{color:#ffffff;}
+.tab-container .tabs.tabs-04 .tab.active::before{background:#000000!important;}
+
 /* Tags Container */
 .tags-container{border-color:#ffffff;}
 .tags-container .social-list .icon.active{background:#ffffff; color:#000000;}
@@ -432,6 +436,11 @@ table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#0000
 
 .paginate.style-03 .page:hover, .paginate.style-03 .page{color:#000000;}
 .paginate.style-03 .page:hover, .paginate.style-03 .page.active{background:#000000; color:#ffffff;}
+
+/* Ribbob */
+.ribbon-wrapper{border-color:#000000;}
+.ribbon-wrapper:before{border-color:transparent #000000 transparent transparent}
+.ribbon-wrapper:after{border-color:#000000 transparent transparent transparent}
 
 /* Select */
 select.bg-style-02{background:#ffffff!important; border-color:#dddddd!important; color:#696969!important;}
@@ -505,6 +514,9 @@ select.style-02{background:#ffffff!important;}
 
 /* Section 18 */ 
 .section-18 .arrow-container > .arrow{background:#ffffff; color:#000000;}
+
+/* Section 21 */
+.section-21 .arrow-container > .arrow{background:#ffffff; color:#000000;}
 
 /* Special Tag */
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}
@@ -633,3 +645,7 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Card 49 */
 .ss-card-49 .header{background:#000000; color:#ffffff;}
+
+/* Special Card 51 */
+.ss-card-51{border-color:#ffffff;}
+.ss-card-51 .card-line{background:#ffffff;}

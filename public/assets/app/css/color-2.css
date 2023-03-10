@@ -573,6 +573,10 @@ table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#0000
 
 .tab-container .tabs.tabs-03 .tab.active > .wrapper{border-color:#fecb00;}
 
+/* Tab 04 */
+.tab-container .tabs.tabs-04 .tab.active > .title{color:#fecb00;}
+.tab-container .tabs.tabs-04 .tab.active::before{background:#000000!important;}
+
 /* Tags Container */
 .tags-container{border-color:#fecb00;}
 .tags-container .social-list .icon.active{background:#fecb00!important; color:#000000;}
@@ -594,6 +598,11 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .banner-03 span.swiper-pagination-bullet:hover,
 .banner-03 span.swiper-pagination-bullet-active{background:#fecb00!important; color:#000000!important;}
 .banner-03 .text-slide-container{background:#fecb00; color:#000000;}
+
+/* Ribbob */
+.ribbon-wrapper{border-color:#000000;}
+.ribbon-wrapper:before{border-color:transparent #000000 transparent transparent}
+.ribbon-wrapper:after{border-color:#000000 transparent transparent transparent}
 
 /* Section 05 */
 .section-05 .swiper-pagination-bullets{background:#fecb00;}
@@ -622,6 +631,9 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Section 18 */ 
 .section-18 .arrow-container > .arrow{background:#fecb00; color:#000000;}
+
+/* Section 21 */
+.section-21 .arrow-container > .arrow{background:#fecb00; color:#000000;}
 
 /* Special Tag */
 .ss-tags > .tag.style-02{background:#fecb00; color:#000000;}
@@ -751,6 +763,10 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Special Card 49 */
 .ss-card-49 .header{background:#000000; color:#fecb00;}
+
+/* Special Card 51 */
+.ss-card-51{border-color:#fecb00;}
+.ss-card-51 .card-line{background:#fecb00;}
 
 
 
