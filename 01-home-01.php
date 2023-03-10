@@ -105,13 +105,13 @@
         'title' => 'เรื่องเด่น กกต.', 'icon' => 'public/assets/app/images/icon/19.png',
         'icon_active' => 'public/assets/app/images/icon/20.png'
       ], [
-        'title' => 'ข่าวประชาสัมพันธ์', 'icon' => 'public/assets/app/images/icon/21.png',
+        'title' => 'ข่าวสารประชาสัมพันธ์', 'icon' => 'public/assets/app/images/icon/21.png',
         'icon_active' => 'public/assets/app/images/icon/22.png'
       ], [
         'title' => 'ข่าว สนง. กกต.', 'icon' => 'public/assets/app/images/icon/23.png',
         'icon_active' => 'public/assets/app/images/icon/24.png'
       ], [
-        'title' => 'ข่าว ประกวดราคา', 'icon' => 'public/assets/app/images/icon/25.png',
+        'title' => 'ข่าวประกวดราคา', 'icon' => 'public/assets/app/images/icon/25.png',
         'icon_active' => 'public/assets/app/images/icon/26.png'
       ], [
         'title' => 'วิดีโอ', 'icon' => 'public/assets/app/images/icon/27.png',
@@ -131,29 +131,132 @@
       </div>
     </div>
     <div class="container">
-      <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
+      <div class="tab-contents style-02" style="z-index:1;" data-aos="fade-up" data-aos-delay="0">
         <?php foreach($categories as $i=>$d){?>
-          <div class="tab-content no-fade <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-            <div class="text-center">
-              <h3 class="fw-700 color-dark color-black-theme"><?= $d['title'] ?></h3>
+          <div class="tab-content pt-6 box-shadow no-fade <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+            <div class="text-center mt-2">
+              <h2 class="fw-700 color-dark color-black-theme"><?= $d['title'] ?></h2>
               <p class="h6 fw-400 color-gray color-black-theme mt-1">ติดตามข่าวสารต่างๆพร้อมทั้งข้อมูลและลิงค์ที่น่าสนใจของทาง กกต.ได้ที่นี่</p>
             </div>
           </div>
         <?php }?>
       </div>
-      <div class="tabs tabs-04  mt-6" data-aos="fade-up" data-aos-delay="150">
-        <?php foreach($categories as $i=>$d){?>
-          <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-            <div class="icon-inactive"><img src="<?= $d['icon'] ?>" alt="Icon" /></div>
-            <div class="icon-active"><img src="<?= $d['icon_active'] ?>" alt="Icon" /></div>
-            <span class="title"><?= $d['title'] ?></span>
+
+      <div class="ribbon">
+        <div class="ribbon-wrapper box-shadow">
+          <div class="tabs tabs-04" data-aos="fade-up" data-aos-delay="150">
+            <?php foreach($categories as $i=>$d){?>
+              <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+                <div class="icon-inactive"><img src="<?= $d['icon'] ?>" alt="Icon" /></div>
+                <div class="icon-active"><img src="<?= $d['icon_active'] ?>" alt="Icon" /></div>
+                <span class="title"><?= $d['title'] ?></span>
+              </div>
+            <?php }?>
           </div>
-        <?php }?>
+        </div>
       </div>
-      <div class="tab-contents mt-2" data-aos="fade-up" data-aos-delay="300">
+
+      <div class="tab-contents style-02" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($categories as $i=>$d){?>
-          <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
+          <div class="tab-content box-shadow style-03 <?= $i==0? 'active': '' ?> " data-tab="content_<?= $i ?>">
             <div class="grids">
+              <div class="grid lg-70 sm-100">
+                <div class="ss-card ss-card-01 main-card">
+                  <a class="ss-img" href="#">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+0)%3+3 ?>.jpg');"></div>
+                  </a>
+                  <div class="text-container color-white">
+                    <div class="ss-tags">
+                      <a class="tag fw-400" href="#"><?= $d['title'] ?></a>
+                    </div>
+                    <a class="title style-02 h5 fw-600 h-color-07 mt-3" href="#">
+                      การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ
+                    </a>
+                    <p class="desc">
+                      ผู้อำนวยการสถาบันพัฒนาการเมืองและการเลือกตั้ง เป็นวิทยากรบรรยายเรื่อง “วัฒนธรรมองค์กร 
+                      พลังขับเคลื่อนสู่ความสำเร็จ” ในการปฐมนิเทศพนักงานใหม่ พ.ศ. 2565
+                    </p>
+                    <div class="card-footer mt-2">
+                      <div class="wrapper">
+                        <div class="icon">
+                          <em class="fa-solid fa-calendar-days"></em>
+                          <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-eye"></em>
+                          <span class="p sm fw-300 ml-2">255</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-share-nodes"></em>
+                          <span class="p sm fw-300 ml-2">208</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid lg-30 sm-100">
+                <div class="ss-card ss-card-01 sub-card">
+                  <a class="ss-img" href="#">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+1)%3+3 ?>.jpg');"></div>
+                  </a>
+                  <div class="text-container color-white">
+                    <div class="ss-tags">
+                      <a class="tag fw-400" href="#"><?= $d['title'] ?></a>
+                    </div>
+                    <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
+                      การประชุมพัฒนางานและยกระดับมาตรฐาน
+                    </a>
+                    <div class="card-footer mt-2">
+                      <div class="wrapper">
+                        <div class="icon">
+                          <em class="fa-solid fa-calendar-days"></em>
+                          <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-eye"></em>
+                          <span class="p sm fw-300 ml-2">255</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-share-nodes"></em>
+                          <span class="p sm fw-300 ml-2">208</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ss-card ss-card-01 sub-card mt-4">
+                  <a class="ss-img" href="#">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+2)%3+3 ?>.jpg');"></div>
+                  </a>
+                  <div class="text-container color-white">
+                    <div class="ss-tags">
+                      <a class="tag fw-400" href="#"><?= $d['title'] ?></a>
+                    </div>
+                    <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
+                      คณะกรรมการการเลือกตั้งครบรอบ 24 ปี
+                    </a>
+                    <div class="card-footer mt-2">
+                      <div class="wrapper">
+                        <div class="icon">
+                          <em class="fa-solid fa-calendar-days"></em>
+                          <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-eye"></em>
+                          <span class="p sm fw-300 ml-2">255</span>
+                        </div>
+                        <div class="icon">
+                          <em class="fa-solid fa-share-nodes"></em>
+                          <span class="p sm fw-300 ml-2">208</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="grids">
               <div class="grid lg-70 sm-100">
                 <div class="ss-card ss-card-23 main-card">
                   <a class="ss-img" href="#">
@@ -212,7 +315,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class="table-footer mt-6 pt-3">
               <div class="paginate style-03">
                 <div class="page active">1</div>

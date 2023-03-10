@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   
   <div class="sidebar open">
     <div data-aos="fade-in" data-aos-delay="0">
@@ -20,7 +20,7 @@
           </div>
           <div class="arrow-container">
             <div class="arrow" id="btn" >
-              <img src="public/assets/app/images/icon-svg/menu-collapsed-green-02.svg" alt="Icon Expand">
+              <img src="public/assets/app/images/icon/button-sidebar.png" alt="Icon Expand">
             </div>
           </div>
         </div>
@@ -85,10 +85,10 @@
           </div>
           <span class="tooltip">กระทู้ของฉัน</span>
         </a>
-        <a class="menu-item" href="#">
+        <a class="menu-item mt-5" href="#">
           <div class="wrapper">
             <div class="icon">
-              <img src="public/assets/app/images/icon/36.png" alt="">
+              <img src="public/assets/app/images/icon/logout.png" alt="">
             </div>
             <p class="sm color-white title-link">ออกจากระบบ</p>
           </div>
@@ -102,11 +102,11 @@
     <div class="main-header" data-aos="fade-in" data-aos-delay="0">
       <a class="main-header-menu" href="./01-home-01.php">
         <div class="icon">
-          <img class="inactive" src="public/assets/app/images/icon-svg/homepage.svg" alt="Icon Inactive">
+          <img src="public/assets/app/images/icon/office.png" alt="Icon">
         </div>
-        <p class="sm title fw-400 ml-1 mr-1 color-02">ไปที่หน้าหลักของเว็บไซต์</p>
+        <p class="sm title fw-400 ml-1 mr-1">ไปที่หน้าหลักของเว็บไซต์</p>
         <div class="icon">
-          <img class="active" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon Active">
+          <em class="fa-solid fa-arrow-right"></em>
         </div>
       </a>
     </div>

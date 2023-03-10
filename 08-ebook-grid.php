@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -67,9 +67,9 @@
             </div>
           </div>
         </div>
-      <div class="shelf-container">
-        <img class="img" src="public/assets/app/images/content/shelf.png">  
-      </div>
+        <div class="shelf-container">
+          <img class="img" src="public/assets/app/images/content/shelf.png">  
+        </div>
       </div>
     </div>
   </section>
@@ -140,40 +140,53 @@
         <?php foreach($news03 as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
             <a class="ss-card ss-card-17" href="#">
-              <div class="ss-img vertical">
-                <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                <div class="hover-container">
-                  <div class="icon sm">
-                    <img src="public/assets/app/images/icon/play.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="filter style-01"></div>
-                <div class="card-line style-01"></div>
-              </div>
-              <div class="text-container">
-                <p class="title fw-500 mt-2">
-                  <?= $d['title']?>
-                </p>
-                <div class="card-bottom mt-1">
-                  <div class="wrapper">
-                    <div class="icon">
-                      <em class="fa-solid fa-calendar-days"></em>
-                      <span class="p sm ml-2">08 มิถุนายน 2565</span>
-                    </div>
-                    <div class="icon">
-                      <em class="fa-solid fa-eye"></em>
-                      <span class="p sm ml-2">255</span>
-                    </div>
-                    <div class="icon">
-                      <em class="fa-solid fa-share-nodes"></em>
-                      <span class="p sm ml-2">208</span>
+              <div class="wrapper">
+                <div class="img-container">
+                  <div class="ebook-container">
+                    <div class="wrapper">
+                      <img src="<?= $d['image']?>" alt="Ebook">
+                      <div class="filter-01"></div>
                     </div>
                   </div>
+                  <div class="shadow-container">
+                    <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
+                  </div>
+                  <div class="card-line style-01"></div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon">
+                          <img src="public/assets/app/images/icon/e-book.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
                 </div>
-              </div>
-              <div class="btns jc-center mt-5">
-                <div class="btn btn-action-style-06">
-                  <span>อ่านเพิ่มเติม</span><div class="sep"></div>
+                <div class="text-container mt-2">
+                  <div class="content">
+                    <div class="text-content">
+                      <p class="title lh-sm fw-500">
+                        สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
+                      </p>
+                    </div>
+                    <div class="info-content">
+                      <div class="icon">
+                        <em class="fa-solid fa-calendar-days"></em>
+                        <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-eye"></em>
+                        <span class="p sm fw-400 ml-2">ชม 255 ครั้ง</span>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-share-nodes"></em>
+                        <span class="p sm fw-400 ml-2">208</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btns">
+                    <div class="btn btn-action-style-06">
+                      <span>อ่านเพิ่มเติม</span><div class="sep"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </a>

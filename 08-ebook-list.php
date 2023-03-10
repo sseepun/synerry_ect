@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -68,7 +68,7 @@
           </div>
         </div>
       <div class="shelf-container">
-        <img class="img" src="public/assets/app/images/content/shelf.png">  
+        <img class="img" src="public/assets/app/images/content/shelf.png" alt="Shelf">  
       </div>
       </div>
     </div>
@@ -104,37 +104,45 @@
             <a class="ss-card ss-card-18" href="#">
               <div class="wrapper">
                 <div class="img-container">
-                  <div class="ss-img horizontal-02">
-                    <div class="ebook-container">
-                      <div class="wrapper">
-                        <img src="<?= $d['image']?>" alt="Ebook">
-                        <div class="filter-01"></div>
-                      </div>
+                  <div class="ebook-container">
+                    <div class="wrapper">
+                      <img src="<?= $d['image']?>" alt="Ebook">
+                      <div class="filter-01"></div>
                     </div>
-                    <div class="hover-container">
-                      <div class="icon sm">
-                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
-                      </div>
-                    </div>
-                    <div class="filter style-01"></div>
-                    <div class="card-line style-01"></div>
                   </div>
+                  <div class="shadow-container">
+                    <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
+                  </div>
+                  <div class="card-line style-01"></div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon">
+                          <img src="public/assets/app/images/icon/e-book.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
                 </div>
                 <div class="text-container">
-                  <p class="title fw-500">
-                    คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
-                    คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
-                    คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
-                  </p>
-                  <div class="card-bottom mt-1">
-                    <div class="wrapper">
+                  <div class="content">
+                    <div class="text-content">
+                      <p class="title lh-sm fw-500">
+                        สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
+                      </p>
+                      <p class="desc">
+                        วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายวีระ ยี่แพร รองเลขาธิการคณะกรรมการการเลือกตั้ง 
+                        ประชุมคณะกรรมการพัฒนาหลักสูตรและเนคนิคกระบวนการเรียนรู้ เพื่อเสริมสร้างพลเมือง 
+                        เด็กและเยาวชนวิถีใหม่ (Civic Education) ครั้งที่ 1/2565 โดยมี 
+                        ผู้บริหารและพนักงานของสำนักงานคณะกรรมการการเลือกตั้ง เข้าร่วมด้วย ณ ห้องประชุม 502
+                      </p>
+                    </div>
+                    <div class="info-content">
                       <div class="icon">
                         <em class="fa-solid fa-calendar-days"></em>
                         <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-eye"></em>
-                        <span class="p sm fw-400 ml-2">255</span>
+                        <span class="p sm fw-400 ml-2">ชม 255 ครั้ง</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-share-nodes"></em>
@@ -142,9 +150,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="btn btn-action-style-06 mt-6">
+                  <div class="btns">
+                    <div class="btn btn-action-style-06">
                       <span>อ่านเพิ่มเติม</span><div class="sep"></div>
                     </div>
+                  </div>
                 </div>
               </div>
             </a>

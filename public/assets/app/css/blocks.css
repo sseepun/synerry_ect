@@ -231,7 +231,7 @@
 .paginate.style-02 .arrow{
   display:flex; align-items:center; position:relative; pointer-events:auto; border:1px solid transparent; 
   background:none; box-shadow:none; cursor:pointer; font-size:.5rem; width:2rem; height:2rem;
-  transition:color .25s, opacity .25s; border-radius:.375rem; justify-content:center; opacity:.4;
+  transition:color .25s, opacity .25s; border-radius:.375rem; justify-content:center;
 }
 .paginate.style-02 .arrow:hover{opacity:1;}
 
@@ -240,7 +240,7 @@
   display:block; border:0; width:2rem; height:2rem; line-height:2rem;
   font-size:.875rem; font-weight:400; border-radius:.375rem; box-shadow:none;
   cursor:pointer; margin:0 .0625rem; padding:0; text-align:center;
-  transition:background .25s, color .25s, opacity .25s; border:1px solid transparent; opacity:.4;
+  transition:background .25s, color .25s, opacity .25s; border:1px solid transparent;
 }
 .paginate.style-02 .page:hover,
 .paginate.style-02 .page.active{opacity:1;}
@@ -1330,6 +1330,9 @@
     pointer-events:none;
 }
 
+.tab-container .tab-contents.style-02{padding:0 1.5rem; z-index:3;}
+.tab-container .tab-contents.style-02 > .tab-content{ padding:0 1rem 1.5rem 1rem;}
+.tab-container .tab-contents.style-02 > .tab-content{background:#ffffff;}
 
 
 /* Tabs 01 */
@@ -1427,11 +1430,11 @@
 
 /* Tabs 04 */
 .tab-container .tabs.tabs-04{
-  display:flex; align-items:center; justify-content:center; flex-wrap:wrap;
+  display:flex; align-items:center; justify-content:center; flex-wrap:wrap; height:100%;
 }
 .tab-container .tabs.tabs-04 .tab{
-  position:relative; display:flex; align-items:center; font-size:1rem; font-weight:400;
-  padding:.5625rem 1rem; border-radius:.5rem; transition:background .25s, color .25s; overflow:hidden;
+  position:relative; display:flex; align-items:center; font-size:1rem; font-weight:400; height:100%;
+  padding:.5625rem 1rem; transition:background .25s, color .25s; overflow:hidden;
 }
 .tab-container .tabs.tabs-04 .tab > .title{position:relative;}
 .tab-container .tabs.tabs-04 .tab::after{
