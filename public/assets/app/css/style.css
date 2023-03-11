@@ -189,6 +189,12 @@ p.xs, .p.xs, li.xs, label.xs{font-size:.8125rem;}
 .btn.btn-action-style-06.size-02{width:14rem; padding:.5rem 1.25rem .5rem 1.25rem;}
 .btn.btn-action-style-06.size-02 .sep{transform:scaleX(.1875);}
 .btn.btn-action-style-06.size-02:hover .sep{transform: scaleX(.25);}
+@media screen and (max-width:991.98px){
+  .btn.btn-action-style-06{width:10rem;}
+}
+@media screen and (max-width:575.98px){
+  .btn.btn-action-style-06{padding:.375rem 1.25rem .375rem 1.25rem}
+}
 
 .btn.btn-action-style-07{
   display:block; height:2rem; min-width:5rem; border-radius:.375rem; display:flex; font-weight:400;

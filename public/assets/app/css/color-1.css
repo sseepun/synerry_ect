@@ -104,6 +104,10 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 
 .btn.btn-action-style-02:hover{border-color:#000000;}
 .btn.btn-action-style-04 .wrapper > .icon{background:#000000; color:#ffffff!important;}
+.btn.btn-action-style-06{background:#ffffff;}
+.btn.btn-action-style-06 span{color:#000000;}
+.btn.btn-action-style-06 .sep{background:#000000;}
+.btn.btn-action-style-06:before, .btn.btn-action-style-06:after{background:#ffffff;}
 
 .btn.btn-fb, .btn.btn-fb:focus, .btn.btn-fb:hover,
 .btn.btn-gg, .btn.btn-gg:focus, .btn.btn-gg:hover,
@@ -111,6 +115,9 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-line, .btn.btn-line:focus, .btn.btn-line:hover{background:#ffffff; color:#000000; border-color:#ffffff;}
 
 .btn-browse-container .btn-browse{background:#000000; border-color:#000000; color:#ffffff;}
+
+/* Card Line */
+.card-line.style-01{background:#ffffff;}
 
 /* Calendar */
 .calendar-style-02 .calendar-header table th.prev, 
@@ -388,7 +395,7 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 .list-header.style-02 .option > .ui.icon.input input{background:#ffffff!important;}
 .list-header.style-02 .option > .ui.icon.input > em.icon{background:#ffffff; color:#000000; border-color:#000000;}
 .list-header.style-02 .option .icon-view:hover, 
-.list-header.style-02 .option .icon-view.active{background:#ffffff; color:#000000;}
+.list-header.style-02 .option .icon-view.active{border-color:#ffffff;}
 
 /* Popular Search Container  */
 .popular-search-container{background:#ffffff;} 
@@ -525,9 +532,11 @@ select.style-02{background:#ffffff!important;}
 .section-21 .arrow-container > .arrow{background:#ffffff; color:#000000;}
 
 /* Special Tag */
+.ss-tags.style-02{border-color:#ffffff;}
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}
 .ss-tags > .tag.style-03{background:#ffffff; color:#000000;}
 .ss-tags > .tag.style-04{background:#ffffff; color:#000000;}
+
 
 /* Special List */
 .ss-list.style-02 > li::before{background:#ffffff;}

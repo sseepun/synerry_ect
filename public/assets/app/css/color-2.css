@@ -288,11 +288,18 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 
 .btn.btn-action-style-02:hover{border-color:#000000;}
 .btn.btn-action-style-04 .wrapper > .icon{background:#000000; color:#fecb00!important;}
+.btn.btn-action-style-06{background:#fecb00;}
+.btn.btn-action-style-06 span{color:#000000;}
+.btn.btn-action-style-06 .sep{background:#000000;}
+.btn.btn-action-style-06:before, .btn.btn-action-style-06:after{background:#fecb00;}
 
 .btn.btn-fb, .btn.btn-fb:focus, .btn.btn-fb:hover,
 .btn.btn-gg, .btn.btn-gg:focus, .btn.btn-gg:hover,
 .btn.btn-tw, .btn.btn-tw:focus, .btn.btn-tw:hover,
 .btn.btn-line, .btn.btn-line:focus, .btn.btn-line:hover{background:#fecb00; color:#000000; border-color:#fecb00;}
+
+/* Card Line */
+.card-line.style-01{background:#fecb00;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -469,7 +476,7 @@ input[type="search"]::placeholder{color:#fecb00;}
 .list-header.style-02 .option > .ui.icon.input input{background:#000000!important; border-color:#fecb00;}
 .list-header.style-02 .option > .ui.icon.input > em.icon{background:#fecb00; color:#000000; border-color:#000000;}
 .list-header.style-02 .option .icon-view:hover, 
-.list-header.style-02 .option .icon-view.active{background:#fecb00; color:#000000;}
+.list-header.style-02 .option .icon-view.active{background:#fecb00;}
 
 /* Form check container */
 .form-check-container{border-color:#fecb00;}
@@ -641,6 +648,7 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .section-21 .arrow-container > .arrow{background:#fecb00; color:#000000;}
 
 /* Special Tag */
+.ss-tags.style-02{border-color:#fecb00;}
 .ss-tags > .tag.style-02{background:#fecb00; color:#000000;}
 .ss-tags > .tag.style-03{background:#fecb00; color:#000000;}
 .ss-tags > .tag.style-04{background:#fecb00; color:#000000;}
