@@ -198,6 +198,10 @@ nav.footer .footer-socials > .social:hover{background:#000000; color:#fecb00; bo
 nav.footer .count-web > *{background:#fecb00; color:#000000; border-color:#000000!important;}
 
 nav.footer.style-03 .footer-container{background:#000000;}
+nav.footer.style-03 .footer-socials .social{
+  background:#000000; color:#fecb00; border-color:#fecb00;
+}
+nav.footer.style-03 .footer-socials > .social-wrapper .tooltip{background:#fecb00; color:#000000;}
 
 nav.footer.style-04 .footer-top, nav.footer.style-04 .footer-bottom,
 nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-color:#fecb00;}
@@ -265,7 +269,8 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-13, .btn.btn-13:focus,
 .btn.btn-14, .btn.btn-14:focus,
 .btn.btn-15, .btn.btn-15:focus,
-.btn.btn-16, .btn.btn-16:focus{background:#fecb00; color:#000000;}
+.btn.btn-16, .btn.btn-16:focus,
+.btn.btn-20, .btn.btn-20:focus{background:#fecb00; color:#000000;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#fecb00; color:#fecb00;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#fecb00!important;}
@@ -767,6 +772,9 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Special Card 51 */
 .ss-card-51{border-color:#fecb00;}
 .ss-card-51 .card-line{background:#fecb00;}
+
+/* Special Card 52 */
+.ss-card-52{background:#000000; color:#fecb00;}
 
 
 

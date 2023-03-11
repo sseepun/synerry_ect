@@ -853,7 +853,7 @@
                 </p>
               </div>
               <div class="img-container">
-                <img src="public/assets/app/images/content/133.jpg" alt="">
+                <img src="public/assets/app/images/content/09.png" alt="">
               </div>
             </div>
           </div>

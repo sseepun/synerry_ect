@@ -84,10 +84,12 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-13, .btn.btn-13:focus,
 .btn.btn-14, .btn.btn-14:focus,
 .btn.btn-15, .btn.btn-15:focus,
-.btn.btn-16, .btn.btn-16:focus{background:#ffffff; color:#000000;}
+.btn.btn-16, .btn.btn-16:focus,
+.btn.btn-20, .btn.btn-20:focus{background:#ffffff; color:#000000;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#ffffff!important;}
+
 
 .btn-white-theme{background:#000000!important; color:#ffffff!important;}
 
@@ -243,6 +245,10 @@ nav.footer .footer-socials > .social:hover{background:#000000; color:#ffffff; bo
 nav.footer .count-web > *{background:#ffffff; color:#000000; border-color:#000000!important;}
 
 nav.footer.style-03 .footer-container{background:#000000}
+nav.footer.style-03 .footer-socials .social{
+  background:#000000; color:#ffffff; border-color:#ffffff;
+}
+nav.footer.style-03 .footer-socials > .social-wrapper .tooltip{background:#ffffff; color:#000000;}
 
 nav.footer.style-04 .footer-top, nav.footer.style-04 .footer-bottom,
 nav.footer.style-05 .footer-bottom, nav.footer.style-06 .footer-bottom{border-color:#ffffff;}
@@ -649,3 +655,6 @@ select.style-02{background:#ffffff!important;}
 /* Special Card 51 */
 .ss-card-51{border-color:#ffffff;}
 .ss-card-51 .card-line{background:#ffffff;}
+
+/* Special Card 52 */
+.ss-card-52{background:#ffffff; color:#000000;}
