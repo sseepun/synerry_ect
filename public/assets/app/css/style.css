@@ -2249,16 +2249,16 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   overflow:hidden;
 } 
 .ss-card-17 .wrapper > .img-container .shadow-container{
-  position:absolute; top:60%; right:7%; z-index:1;
+  position:absolute; top:calc(60% + 1px); z-index:1;
 }
 .ss-card-17 .wrapper > .img-container .shadow-container > img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:5.5rem;
+  position:relative;  display:block; width:100%; height:5.875rem; transform:translateX(23%); z-index:1;
 }
 .ss-card-17 .wrapper > .img-container .ebook-container > .wrapper{
-  position:relative; border-radius:.5rem;overflow:hidden; z-index:2;
+  position:relative; border-radius:.5rem; z-index:2;
 }
-.ss-card-17 .wrapper > .img-container .ebook-container > .wrapper img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:15rem;
+.ss-card-17 .wrapper > .img-container .ebook-container > .wrapper > img{
+ position:relative; display:block; max-width:100%; max-height:100%; width:auto; height:15rem; z-index:2;
 }
 .ss-card-17 .wrapper > .img-container .ebook-container:before{
   content:""; position:absolute; left:0; top:0; right:0; height:60%;
@@ -2266,22 +2266,6 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-17 .wrapper > .img-container .ebook-container:after{
   content:""; position:absolute; left:0; bottom:0; right:0; height:40%;
 }
-@media screen and (max-width:1299.98px){
-  .ss-card-17 .wrapper > .img-container .shadow-container{right:15%;}
-}
-@media screen and (max-width:1199.98px){
-  .ss-card-17 .wrapper > .img-container .shadow-container{right:7%;}
-}
-@media screen and (max-width:991.98px){
-  .ss-card-17 .wrapper > .img-container .shadow-container{right:14%;}
-}
-@media screen and (max-width:767.98px){
-  .ss-card-17 .wrapper > .img-container .shadow-container{right:0;}
-}
-@media screen and (max-width:575.98px){
-  .ss-card-17 .wrapper > .img-container .shadow-container{right:23%;}
-}
-
 
 /* Special Card 18 */
 .ss-card-18{position:relative; overflow:hidden;}
@@ -2292,16 +2276,16 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   overflow:hidden;
 } 
 .ss-card-18 .wrapper > .img-container .shadow-container{
-  position:absolute; top:60%; right:0; z-index:1;
+  position:absolute; top:calc(60% + 1px); z-index:1;
 }
 .ss-card-18 .wrapper > .img-container .shadow-container > img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:5rem;
+  position:relative;  display:block; width:100%; height:5.875rem; transform:translateX(23%); z-index:1;
 }
 .ss-card-18 .wrapper > .img-container .ebook-container > .wrapper{
-  position:relative; border-radius:.5rem;overflow:hidden; z-index:2;
+  position:relative; border-radius:.5rem; z-index:2;
 }
-.ss-card-18 .wrapper > .img-container .ebook-container > .wrapper img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:15rem;
+.ss-card-18 .wrapper > .img-container .ebook-container > .wrapper > img{
+ position:relative; display:block; max-width:100%; max-height:100%; width:auto; height:15rem; z-index:2;
 }
 .ss-card-18 .wrapper > .img-container .ebook-container:before{
   content:""; position:absolute; left:0; top:0; right:0; height:60%;
@@ -2323,20 +2307,16 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 @media screen and (max-width:991.98px){
   .ss-card-18 .wrapper > .img-container{width:100%;}
   .ss-card-18 .wrapper > .text-container{width:100%; padding:.5rem 0;}
-  .ss-card-18 .wrapper > .img-container .shadow-container{right:2.875rem;}
-  .ss-card-18 .wrapper > .img-container .shadow-container > img{
-    display:block; max-width:100%; max-height:100%; width:auto; height:5.5rem;
-  }
   .ss-card-18 .wrapper > .text-container > .content{flex-direction:column;}
   .ss-card-18 .wrapper > .text-container .text-content > .title{-webkit-line-clamp:2;}
   .ss-card-18 .wrapper > .text-container > .btns{justify-content:center; margin-top:1rem;}
   .ss-card-18 .wrapper > .text-container .info-content{margin-top:.375rem; padding:0; display:flex; flex-wrap:wrap;}
   .ss-card-18 .wrapper > .text-container .info-content > .icon{margin-right:.5rem;}
+  .ss-card-18 .wrapper > .img-container .shadow-container{top:calc(60% + 2px);}
 }
 @media screen and (max-width:767.98px){
   .ss-card-18 .wrapper > .img-container{width:100%;}
   .ss-card-18 .wrapper > .text-container{width:100%; padding-top:.5rem;}
-  .ss-card-18 .wrapper > .img-container .shadow-container{right:0;}
 }
 
 

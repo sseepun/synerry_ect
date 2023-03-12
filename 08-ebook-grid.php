@@ -145,11 +145,10 @@
                   <div class="ebook-container">
                     <div class="wrapper">
                       <img src="<?= $d['image']?>" alt="Ebook">
-                      <div class="filter-01"></div>
+                      <div class="shadow-container">
+                        <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
+                      </div>
                     </div>
-                  </div>
-                  <div class="shadow-container">
-                    <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
                   </div>
                   <div class="card-line style-01"></div>
                     <div class="filter style-02">
