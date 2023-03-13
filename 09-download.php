@@ -24,7 +24,7 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view-grid', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-04', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
@@ -34,7 +34,7 @@
             <div class="question box-shadow style-02">
               <h3 class="ftag">
                 <div class="icon">
-                  <img src="public/assets/app/images/icon-svg/file-link-white.svg" alt="">
+                  <img src="public/assets/app/images/icon/14.png" alt="">
                 </div>
               </h3>
               <p class="title sm lh-sm fw-400">
@@ -50,29 +50,30 @@
             <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
               <div class="content">
                 <div class="scroll-x-wrapper" data-simplebar>
-                    <table class="table style-02 table-download">
+                    <table class="table table-download p-5" data-aos="fade-up" data-aos-delay="600">
                       <tbody>
                         <?php
                           foreach([
-                            'file-link', 'file-link', 'file-link'
+                            'pdf', 'doc', 'link'
                           ] as $k){
                         ?>
-                          <tr class="box-shadow style-02 mb-2 mt-4">
+                          <tr class="table-card-01 box-shadow style-02 mb-2">
                             <td>
                               <div class="download-card">
-                                <img class="size-02" src="public/assets/app/images/icon-svg/<?= $k ?>.svg" alt="Image File" />
+                                <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                               </div>
                             </td>
-                            <td class="title-container pl-3" style="min-width:450px;">
-                              <a class="fw-600 h-color-t" href="#">
+                            <td class="title-container" style="min-width:450px;">
+                              <a class="fw-600 title" href="#">
                                 รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                               </a>
                               <div class="text-footer">
                                 <div class="wrapper">
+                                  <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                                   <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                                   <div class="icon">
                                     <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                    <p class="btn-popup-toggle cursor-pointer sm  color-black-theme fw-400" data-popup="99">
+                                    <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
                                       แจ้งไฟล์เสีย
                                     </p>
                                   </div>
@@ -80,20 +81,20 @@
                               </div>
                             </td>
                             <td class="arrow-container" style="min-width:100px;">
-                              <div class="d-flex ai-center jc-center fw-wrap">
-                                <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
-                                <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">
+                              <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                                <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                                <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
                               </div>
-                              <p class="xs color-02 color-black-theme text-center fw-400 mt-1">คลิกลิงก์</p>
+                              <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
                             </td>
                           </tr>
                         <?php }?>
                       </tbody>
                     </table>
                   </div>
-                  <div class="btns jc-center mt-5 mb-5">
+                  <div class="btns jc-center mb-5">
                     <a class="btn btn-action-style-06 size-02" href="#">
-                      <span>ดาวน์โหลดทั้งหมด (2)</span><div class="sep"></div>
+                      <span>ดาวน์โหลดทั้งหมด</span><div class="sep"></div>
                     </a>
                   </div>
                 </div>

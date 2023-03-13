@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -40,35 +40,35 @@
             <br/>การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น
           </p>
         </div>
-        <div class="swiper-container pos-relative">
-          <div class="swiper-wrapper">
-            <?php foreach($ebooks as $d) {?>
-              <div class="swiper-slide">
-                <div class="ss-img vertical">
-                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <?php foreach($ebooks as $d) {?>
+                <div class="swiper-slide">
+                  <div class="ss-img vertical">
+                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  </div>
                 </div>
-              </div>
-            <?php }?>
-          </div>
-        </div> 
-        <div class="swiper-arrows-container">
-          <div class="arrows-container">
-            <div class="wrapper">
-              <div class="btn btn-icon-prev">
-                <div class="arrow">
-                  <em class="fa-solid fa-arrow-left"></em>
-                </div>
-              </div>
-              <div class="btn btn-icon-next">
-                <div class="arrow">
-                  <em class="fa-solid fa-arrow-right"></em>
-                </div>
-              </div>
+              <?php }?>
             </div>
           </div>
-        </div>
         <div class="shelf-container">
-          <img class="img" src="public/assets/app/images/content/shelf.png">  
+          <img class="img" src="public/assets/app/images/content/shelf-02.png" alt="Shelf">  
+        </div>
+      </div>
+    </div>
+    <div class="swiper-arrows-container">
+      <div class="arrows-container">
+        <div class="wrapper">
+          <div class="btn btn-icon-prev">
+            <div class="arrow">
+              <em class="fa-solid fa-arrow-left"></em>
+            </div>
+          </div>
+          <div class="btn btn-icon-next">
+            <div class="arrow">
+              <em class="fa-solid fa-arrow-right"></em>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card-line style-01"></div>
+                  <div class="card-line style-01 card-line-black-theme"></div>
                     <div class="filter style-02">
                       <div class="wrapper">
                         <div class="icon">
@@ -163,17 +163,20 @@
                   <div class="content">
                     <div class="text-content">
                       <p class="title lh-sm fw-500">
-                        สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
+                        สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.
+                        ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
+                        สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.
+                        ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
                       </p>
                     </div>
-                    <div class="info-content">
+                    <div class="card-footer mt-1">
                       <div class="icon">
                         <em class="fa-solid fa-calendar-days"></em>
                         <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-eye"></em>
-                        <span class="p sm fw-400 ml-2">ชม 255 ครั้ง</span>
+                        <span class="p sm fw-400 ml-2">255</span>
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-share-nodes"></em>
@@ -181,7 +184,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="btns">
+                  <div class="btns jc-center mt-3">
                     <div class="btn btn-action-style-06">
                       <span>อ่านเพิ่มเติม</span><div class="sep"></div>
                     </div>

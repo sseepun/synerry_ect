@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -27,6 +27,7 @@
       </div>
       <div class="calendar-style-02" data-aos="fade-up" data-aos-delay="0">
         <div data-provide="calendar"></div>
+        
       </div>
       <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="300">
         <?php
@@ -34,44 +35,22 @@
           include('component/list-footer.php');
         ?>
       </div>
+      <button class="next">click</button>
     </div>
   </div>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
-
-  <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
-
+<!-- 
+  <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script> -->
+  <script src="https://unpkg.com/js-year-calendar/locales/js-year-calendar.th"></script>
+  
   <script>
-    new Calendar('.calendar-style-02', {
+
+new Calendar('.calendar-style-02', {
     minDate: new Date(),
-  })
-
-    const calendarFooter = document.createElement('div');
-    const wrapper = document.createElement('div');
-    const arrowIcon = document.createElement('div');
-    const em =  document.createElement('em');
-    const p = document.createElement('p');
-    const p2 = document.createElement('p');
-    const today = document.createElement('div');
-  
-    calendarFooter.className = 'calendar-footer';
-    document.getElementsByClassName('month-container')[0].append(calendarFooter);
-  
-    today.className = 'today';
-    wrapper.className = 'wrapper-container';
-    arrowIcon.className = 'arrow-icon';
-    em.className= 'fa-solid fa-arrow-right';
-    p.className = 'color-04 fw-400';
-
-    p.textContent = `6`;
-    p2.textContent = 'วันนี้';
-
-    calendarFooter.append(wrapper);
-    wrapper.append(p, arrowIcon);
-    today.append(p2)
-  
-    arrowIcon.append(em);
+    language: "th",
+  });
   </script>
 
 </body>

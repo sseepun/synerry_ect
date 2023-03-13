@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -44,27 +44,24 @@
       <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
         ปฏิทินกิจกรรม
       </h3>
-      <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
-        <?php
-          $listHeader = ['search', 'category', 'order', 'view'];
-          include('component/list-header-calendar.php');
-        ?>
+      <div class="mt-6" data-aos="fade-up" data-aos-delay="0">
+        <?php include('component/list-header-calendar-style-02.php'); ?>
       </div>
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
           <div class="grid lg-100 md-50">
             <a class="ss-card ss-card-20" href="#">
               <div class="wrapper">
-                <div class="date">
-                  <div class="wrapper">
-                    <p class="day fw-400">20</p>
-                    <p class="xs month">ก.ย.65</p>
-                  </div>
-                </div>
                 <div class="img-container">
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                     <div class="filter-01"></div>
+                  </div>
+                </div>
+                <div class="date">
+                  <div class="wrapper">
+                    <p class="day fw-400">20</p>
+                    <p class="xs month">ก.ย.65</p>
                   </div>
                 </div>
                 <div class="text-container">
@@ -74,31 +71,22 @@
                       สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี รองเลขาธิการคณะกรรมการการเลือกตั้ง 
                       ประชุมหารือเตรียมการจัดงานวันสถาปนา สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
                     </p>
-                    <div class="card-top mt-1">
+                    <div class="card-bottom mt-1">
                       <div class="wrapper">
                         <div class="icon">
                           <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
+                          <span class="p sm ml-2 fw-500">วันที่ 18 กุมภาพันธ์ 2566</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-eye"></em>
-                          <span class="p sm ml-2 fw-500">255</span>
+                          <span class="p sm ml-2 fw-500">เวลา 12:50 - 13:50</span>
                         </div>
                         <div class="icon">
                           <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm ml-2 fw-500">208</span>
+                          <span class="p sm ml-2 fw-500">สำนักงานกลางคณะกรรมการการเลือกตั้ง</span>
                         </div>
                       </div>
                     </div>
-                    <p class="desc sm color-gray mt-1 fw-400">
-                      วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายเกรียงไกร พานดอกไม้ 
-                      รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงาน
-                      ในการศึกษาวิธีการปฏิบัติที่ผ่านมาสำหรับการประเมินผลการปฏิบัติงาน
-                      ของเลขาธิการคณะกรรมการการเลือกตั้ง เพื่อให้เป็นไปตามความเห็นและ
-                      ข้อสังเกตของคณะกรรมการการเลือกตั้ง ณ ห้องประชุมรองเลขาธิการ
-                      เพื่อให้เป็นไปตามความเห็นและ ข้อสังเกตของคณะกรรมการการเลือกตั้ง 
-                      ณ ห้องประชุมรองเลขาธิการ
-                    </p>
                   </div>
                   <div class="btns jc-center" data-aos="fade-up" data-aos-delay="300">
                     <div href="#" class="btn btn-action btn-02">

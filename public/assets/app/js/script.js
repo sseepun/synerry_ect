@@ -827,7 +827,7 @@ function ssPageProcess(){
              var self = $(this);
              new Swiper(self.find('.swiper-container'), {
                  loop: true,
-                 spaceBetween: 30,
+                 spaceBetween: 37,
                  slidesPerView: 5,
                  effect: 'coverflow', 
                  coverflowEffect: {

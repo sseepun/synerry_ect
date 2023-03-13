@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -40,36 +40,36 @@
             <br/>การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น
           </p>
         </div>
-        <div class="swiper-container pos-relative">
-          <div class="swiper-wrapper">
-            <?php foreach($ebooks as $d) {?>
-              <div class="swiper-slide">
-                <div class="ss-img vertical">
-                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <?php foreach($ebooks as $d) {?>
+                <div class="swiper-slide">
+                  <div class="ss-img vertical">
+                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  </div>
                 </div>
-              </div>
-            <?php }?>
+              <?php }?>
+            </div>
           </div>
-        </div> 
-        <div class="swiper-arrows-container">
-          <div class="arrows-container">
-            <div class="wrapper">
-              <div class="btn btn-icon-prev">
-                <div class="arrow">
-                  <em class="fa-solid fa-arrow-left"></em>
-                </div>
-              </div>
-              <div class="btn btn-icon-next">
-                <div class="arrow">
-                  <em class="fa-solid fa-arrow-right"></em>
-                </div>
-              </div>
+        <div class="shelf-container">
+          <img class="img" src="public/assets/app/images/content/shelf-02.png" alt="Shelf">  
+        </div>
+      </div>
+    </div>
+    <div class="swiper-arrows-container">
+      <div class="arrows-container">
+        <div class="wrapper">
+          <div class="btn btn-icon-prev">
+            <div class="arrow">
+              <em class="fa-solid fa-arrow-left"></em>
+            </div>
+          </div>
+          <div class="btn btn-icon-next">
+            <div class="arrow">
+              <em class="fa-solid fa-arrow-right"></em>
             </div>
           </div>
         </div>
-      <div class="shelf-container">
-        <img class="img" src="public/assets/app/images/content/shelf.png" alt="Shelf">  
-      </div>
       </div>
     </div>
   </section>
@@ -112,7 +112,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card-line style-01"></div>
+                  <div class="card-line style-01 card-line-black-theme"></div>
                     <div class="filter style-02">
                       <div class="wrapper">
                         <div class="icon">
@@ -125,13 +125,8 @@
                   <div class="content">
                     <div class="text-content">
                       <p class="title lh-sm fw-500">
-                        สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
-                      </p>
-                      <p class="desc">
-                        วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายวีระ ยี่แพร รองเลขาธิการคณะกรรมการการเลือกตั้ง 
-                        ประชุมคณะกรรมการพัฒนาหลักสูตรและเนคนิคกระบวนการเรียนรู้ เพื่อเสริมสร้างพลเมือง 
-                        เด็กและเยาวชนวิถีใหม่ (Civic Education) ครั้งที่ 1/2565 โดยมี 
-                        ผู้บริหารและพนักงานของสำนักงานคณะกรรมการการเลือกตั้ง เข้าร่วมด้วย ณ ห้องประชุม 502
+                        คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+                        คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
                       </p>
                     </div>
                     <div class="info-content">
@@ -145,7 +140,7 @@
                       </div>
                       <div class="icon">
                         <em class="fa-solid fa-share-nodes"></em>
-                        <span class="p sm fw-400 ml-2">208</span>
+                        <span class="p sm fw-400 ml-2">แชร์ 208 ครั้ง</span>
                       </div>
                     </div>
                   </div>

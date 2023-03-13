@@ -256,7 +256,7 @@
               </div> 
               <div class="ss-box-content size-02 p-4">
                 <div class="scroll-x-wrapper" data-simplebar>
-                <table class="table table-download">
+                <table class="table table-download style-05">
                   <tbody>
                     <?php
                       foreach([

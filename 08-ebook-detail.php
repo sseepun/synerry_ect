@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -44,12 +44,14 @@
           </div>
         </div>
       </div>
+      
       <div class="book-container mt-3" data-aos="fade-up" data-aos-delay="150">
         <div class="wow-book" id="wow-book">
           <?php for($i=0; $i<6; $i++){?>
             <div><img class="img" src="public/assets/app/images/content/6<?= ($i%2+4) ?>.jpg" alt="Page <?= $i ?>" /></div>
           <?php }?>
         </div>
+       
       </div>
       <div class="grids">
         <!-- Left Content -->

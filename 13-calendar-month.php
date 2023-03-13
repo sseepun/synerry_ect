@@ -19,27 +19,43 @@
 
   <div class="section-padding">
     <div class="container">
-      <div class="calendar-header" data-aos="fade-up" data-aos-delay="0">
-        <p id="calendar-title" class="h3 fw-600">
-          <span class="month">&nbsp;</span>
-          <span class="year">&nbsp;</span>
-        </p>
-        <div class="wrapper">
-          <div id="prev-month-btn" class="btn-calendar">
-            <em class="fa-solid fa-arrow-left"></em>
-          </div>
-          <a class="text fw-400" href="#">วันนี้</a>
-          <div id="next-month-btn" class="btn-calendar">
-            <em class="fa-solid fa-arrow-right"></em>
+      <div class="mt-6" data-aos="fade-up" data-aos-delay="0">
+        <?php include('component/list-header-calendar-style-02.php'); ?>
+      </div>
+      <div class="calendar-header mt-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="text-wrapper">
+          <p id="calendar-title" class="h3 fw-600">
+            <span class="month">&nbsp;</span>
+            <span class="year">&nbsp;</span>
+          </p>
+          <div class="wrapper">
+            <div id="prev-month-btn" class="btn-calendar">
+              <em class="fa-solid fa-arrow-left"></em>
+            </div>
+            <a class="text fw-400" href="#">เดือนนี้</a>
+            <div id="next-month-btn" class="btn-calendar">
+              <em class="fa-solid fa-arrow-right"></em>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
-        <?php
-          $listHeader = ['search', 'category', 'order', 'view'];
-          include('component/list-header-calendar.php');
-        ?>
+        <div class="button-container">
+          <div class="button-wrapper">
+          <div class="btns">
+            <div class="btn btn-action btn-22 size-05 btn-white-theme">
+              วัน
+            </div>
+            <div class="btn btn-action btn-22 size-05 btn-white-theme">
+              สัปดาห์
+            </div>
+            <div class="btn btn-action btn-22 active size-05 btn-white-theme">
+              เดือน
+            </div>
+            <div class="btn btn-action btn-22 size-05 btn-white-theme">
+              ปี
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
 
       <div class="scroll-x-wrapper mt-4" data-simplebar data-aos="fade-up" data-aos-delay="300">

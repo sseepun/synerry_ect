@@ -118,6 +118,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 
 /* Card Line */
 .card-line.style-01{background:#ffffff;}
+.card-line.style-01.card-line-black-theme{background:#000000;}
 
 /* Calendar */
 .calendar-style-02 .calendar-header table th.prev, 
@@ -128,8 +129,8 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .calendar-style-02 .calendar-footer > .wrapper-container p::before{color:#ffffff!important;}
 
 /* Calendar Header */
-.calendar-header .wrapper > .text{background:#ffffff; color:#000000;}
-.calendar-header .wrapper > .btn-calendar{border-color:#ffffff!important;}
+.calendar-header .wrapper > .text{background:#2e603c; color:#ffffff;}
+.calendar-header .wrapper > .btn-calendar{border-color:#2e603c!important;}
 
 /* Calendar - Day */
 .calendar-wrapper .calendar-header-title > .wrapper .time{border-color:#ffffff!important;}
@@ -329,6 +330,7 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .faq-02 .faq > .question{border-color:#ffffff;}
 .faq-02 .faq > .question .ftag{border-color:#ffffff;}
 .faq-02 .faq > .answer{border-color:#ffffff;}
+.faq-02 .faq > .answer .content{border-color:#ffffff;}
 
 /* Faq 03 */
 .faq-03 .faq > .question{border-color:#ffffff;}
@@ -347,6 +349,10 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 /* Faq 06 */
 .faq-06 .faq > .question{border-color:#ffffff;}
 .faq-06 .faq .answer-wrapper{background:#dddddd; color:#000000;}
+.faq-06 .faq > .answer .content{border-color:#ffffff;}
+.faq-06 .faq .checkbox-set input:checked ~ .checkmark{background:#ffffff;}
+.faq-06 .faq  .checkbox-set > .checkmark{border-color:#ffffff;}
+.faq-06 .faq .checkbox-set > .checkmark::before, .faq-06 .faq .checkbox-set > .checkmark::after{border-color:#000000;}
 
 /* Faq 07 */
 .faq-07 .faq .arrow-container{background:#000000;}
@@ -394,6 +400,7 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 .list-header.style-02 .option > .dropdown-icon{background:#ffffff; color:#000000; border-color:#000000;}
 .list-header.style-02 .option > .ui.icon.input input{background:#ffffff!important;}
 .list-header.style-02 .option > .ui.icon.input > em.icon{background:#ffffff; color:#000000; border-color:#000000;}
+.list-header.style-02 .option .icon-view{border-color:#ffffff;}
 .list-header.style-02 .option .icon-view:hover, 
 .list-header.style-02 .option .icon-view.active{border-color:#ffffff;}
 
@@ -421,6 +428,8 @@ table.table.table-download.style-04 .button-container{background:#ffffff;}
 table.table.table-download.style-04 .data-analysis > .wrapper .icon{color:#000000;}
 table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#000000!important;}
 table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#000000!important;}
+
+
 
 /* Tab Container 01 */
 .tab-container .tabs.tabs-01 .tab::after{background:#000000;}
@@ -474,6 +483,9 @@ select.style-02{background:#ffffff!important;}
 .list-style-01 li:before{background:#000000;}
 .list-style-02 li:before{background:#000000;}
 
+/* Shortcode */
+.shortcode-container .shortcode-content > .arrow{border-color:#ffffff; background:#ffffff;}
+
 /* Search Container */
 .search-container{border-color:#ffffff;}
 .search-container .ui.icon.input input{background:#ffffff!important;}
@@ -514,7 +526,9 @@ select.style-02{background:#ffffff!important;}
 
 /* Section 09 */
 .section-09 .swiper-background > .text-wrapper{background:#ffffff;}
-.section-09 .swiper-arrows-container > .arrows-container .arrow{border-color:#ffffff; color:#ffffff;}
+.section-09 .swiper-arrows-container > .arrows-container .arrow{
+  background:#ffffff; border-color:#ffffff; color:#000000;
+}
 
 /* Section 14 */
 .section-14 .ss-title{color:#000000; border-color:#000000;}
@@ -552,8 +566,13 @@ select.style-02{background:#ffffff!important;}
 /* Special Card 12 */
 .ss-card-12 .text-container{border-color:#ffffff;}
 
+/* Special Card 17 */
+.ss-card-17 .wrapper > .img-container .ebook-container::after{background:#ffffff;}
+.ss-card-17 .wrapper > .img-container .ebook-container > .wrapper > img{border-color:#ffffff;}
+
 /* Special Card 18 */
 .ss-card-18 .wrapper > .img-container .ebook-container::after{background:#ffffff;}
+.ss-card-18 .wrapper > .img-container .ebook-container > .wrapper > img{border-color:#ffffff;}
 
 /* Special Card 20 */
 .ss-card-20 .wrapper > .date .wrapper{border-color:#ffffff;}

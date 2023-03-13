@@ -77,10 +77,10 @@
         <?php }?>
         <?php if(in_array('view-03', $listHeader)){?>
           <div class="option view">
-            <a class="icon-view disable" href="#">
+            <a class="icon-view op-10" href="#">
               <em class="fas fa-th"></em>
             </a>
-            <a class="icon-view disable ml-1" href="#">
+            <a class="icon-view disable op-10" href="#">
               <em class="fa-solid fa-list"></em>
             </a>
             <?php if(in_array('rss', $listHeader)){?>
@@ -88,6 +88,26 @@
                 <em class="fas fa-rss"></em>
               </a>
             <?php }?>
+          </div>
+        <?php }?>
+        <?php if(in_array('view-04', $listHeader)){?>
+          <div class="option view">
+            <div class="wrapper">
+              <a class="icon-view disable op-10" href="#">
+                <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
+                <img class="icon-active" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
+              </a>
+              <a class="icon-view disable op-10 ml-1" href="#">
+                <img class="icon-inactive" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
+                <img class="icon-active" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
+              </a>
+              <?php if(in_array('rss', $listHeader)){?>
+                <a class="icon-view ml-1" href="#">
+                  <img class="icon-inactive" src="public/assets/app/images/icon-svg/rss-inactive.svg" alt="Icon">
+                  <img class="icon-active" src="public/assets/app/images/icon-svg/rss-active.svg" alt="Icon">
+                </a>
+              <?php }?>
+            </div>
           </div>
         <?php }?>
         <?php if(in_array('view-grid', $listHeader)){?>

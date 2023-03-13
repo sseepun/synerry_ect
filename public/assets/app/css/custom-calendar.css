@@ -3,10 +3,12 @@
 .calendar-header{
   width:100%; display:flex; align-items:center; flex-wrap:wrap;
 }
+.calendar-header .text-wrapper{display:flex; flex-wrap:wrap; align-items:center; width:60%;}
+.calendar-header .button-container{width:40%; display:flex; justify-content:flex-end;}
 .calendar-header .wrapper{display:flex; align-items:center; margin-left:1.5rem;}
 .calendar-header .wrapper > .btn-calendar{
   display:flex; justify-content:center; align-items:center; width:2.5rem; height:2.5rem; border:2px solid transparent;
-  border-radius:50%; cursor:pointer; font-size:1rem; transition:background .25s, color .25s;
+  border-radius:.375rem; cursor:pointer; font-size:1rem; transition:background .25s, color .25s;
 }
 .calendar-header .wrapper > .text{margin:0 1rem; padding:.375rem; border-radius:.3125rem;}
 .calendar-wrapper{
@@ -19,12 +21,15 @@
 .calendar-wrapper .calendar-header-title > .wrapper .list{
   width:calc(100% - 4rem); height:100%; display:flex; align-items:center; justify-content:center;
 }
+@media screen and (max-width:1199.98px){
+    .calendar-header .text-wrapper, .calendar-header .button-container{width:50%;}
+}
+@media screen and (max-width:991.98px){
+    .calendar-header .text-wrapper, .calendar-header .button-container{width:100%;}
+    .calendar-header .button-container{justify-content:flex-start; margin-top:1rem;}
+}
 @media screen and (max-width:575.98px){
   .calendar-header .wrapper > .btn-calendar{width:2rem; height:2rem; font-size:.875rem;}
-}
-@media screen and (max-width:369.61px){
-  .calendar-header{justify-content:center;}
-  .calendar-header .wrapper{width:100%; margin-left:0; justify-content:center;}
 }
 
 
