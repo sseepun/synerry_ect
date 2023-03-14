@@ -79,47 +79,47 @@
                 <h6 class="color-02 fw-500 mb-1">แผนผังเว็บไซต์</h6>
                 <ul class="ss-list-style-02">
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">โครงการลูกเสืออาสา กกต.</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">แจ้งเบาะแสทุจริตการเลือกตั้ง</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">ศูนย์รับเรื่องราวร้องทุกข์</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">ห้องสมุดอิเล็กทรอนิกส์</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">ศูนย์ศึกษาประชาธิปไตย</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">เครื่องลงคะแนนเลือกตั้ง</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">ทำเนียบผู้บริหาร</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">บริการ E-mail ภาครัฐ</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">หนังสือเวียนอิเล็กทรอนิกส์ (ส่วนกลาง)</a>
                   </li>
                 </ul>
@@ -128,47 +128,47 @@
                 <h6 class="fw-400 title-empty mb-1">แผนผังเว็บไซต์</h6>
                 <ul class="ss-list-style-02">
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">โครงการพัฒนาศูนย์กลางความรู้แห่งชาติ</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">ฐานข้อมูลหน่วยงานของรัฐ</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">เว็บไซด์รับฟังความคิดเห็นด้านกฎหมายไทย</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">คณะกรรมการการเลือกตั้ง</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">อำนาจหน้าที่ของ กกต.</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">เลขาธิการ กกต.</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">วิสัยทัศน์ / พันธกิจ / ยุทธศาสตร์</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">รายงานผลการปฏิบัติงานประจำปี</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">Clipping News</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">สื่อประชาสัมพันธ์</a>
                   </li>
                   <li class="sm">
-                    <img src="public/assets/app/images/icon-svg/vote-dark-green.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon-svg/vote.svg" alt="Icon">
                     <a href="#">แบบฟอร์ม</a>
                   </li>
                 </ul>

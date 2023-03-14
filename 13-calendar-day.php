@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -111,6 +111,7 @@
       var calendarTitle = $('#calendar-title'),
           prevDayBtn = $('#prev-day-btn'),
           nextDayBtn = $('#next-day-btn');
+
             
       function htmlToElement(html){
         var template = document.createElement('template');
@@ -139,15 +140,9 @@
         slotDuration: '01:00:00',
         events: [
           {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-            start: '2021-10-10T10:00:00',
-            end: '2021-10-10T18:00:00',
-            url: '#',
-          },
-          {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564 2',
-            start: '2021-10-10T12:00:00',
-            end: '2021-10-10T21:00:00',
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4 เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4 เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-03-14T08:00:00',
+            end: '2023-03-14T16:00:00',
             url: '#',
           },
         ],
@@ -156,7 +151,6 @@
         },
       });
       calendarDay.render();
-
 
       // Events
       prevDayBtn.click(function(e){
@@ -168,7 +162,71 @@
         calendarDay.next();
       });
 
+      const title = document.querySelector('.fc-title')
+      const containerEvent = document.querySelector('.fc-content')
+      const wrapperContainer = document.createElement('div')
+      const btnAction = document.createElement('div')
+      const sep = document.createElement('div')
+      const textContainer = document.createElement('div')
+      const imageContainer = document.createElement('div')
+      const specialImage = document.createElement('div')
+      const imgBg = document.createElement('div')
+      const option01 = document.createElement('div')
+      const option02 = document.createElement('div')
+      const icon01 = document.createElement('div')
+      const icon02 = document.createElement('div')
+      const calendarIcon = document.createElement('em')
+      const locationIcon = document.createElement('em')
+      const span01 = document.createElement('span')
+      const span02 = document.createElement('span')
+      const span03 = document.createElement('span')
+
+      console.log(containerEvent)
+      console.log(title)
+      
+      containerEvent.appendChild(wrapperContainer)
+      containerEvent.appendChild(btnAction)
+      btnAction.className = 'btn btn-action-style-06 size-03'
+      btnAction.appendChild(span03)
+      btnAction.appendChild(sep)
+      span03.textContent = 'อ่านเพิ่มเติม'
+      sep.className = 'sep'
+    
+      wrapperContainer.className = 'wrapper'
+      wrapperContainer.appendChild(textContainer)
+      textContainer.className = 'text-container'
+      wrapperContainer.appendChild(imageContainer)
+      imageContainer.className = 'img-container'
+      imageContainer.appendChild(specialImage)
+      specialImage.className = 'ss-img square'
+      specialImage.appendChild(imgBg)
+      imgBg.className = 'img-bg'
+      imgBg.style.backgroundImage = "url('public/assets/app/images/content/134.jpg')"
+    
+      textContainer.appendChild(title)
+      title.classList.add("title")
+      textContainer.appendChild(option01)
+      option01.className = 'option'
+      option01.appendChild(icon01)
+      option01.appendChild(span01)
+      icon01.className = 'icon'
+      icon01.appendChild(calendarIcon)
+      calendarIcon.className = 'fa-solid fa-calendar-days color-02'
+      span01.className = 'color-black fw-500'
+      span01.textContent = '04 ตุลาคม 2565  เวลา 08:00 - 12:00'
+
+      textContainer.appendChild(option02)
+      option02.className = 'option'
+      option02.appendChild(icon02)
+      option02.appendChild(span02)
+      icon02.className = 'icon'
+      icon02.appendChild(locationIcon)
+      locationIcon.className = 'fa-solid fa-location-dot color-02'
+      span02.className = 'color-black fw-500'
+      span02.textContent = 'องค์การบริหารส่วนตำบลเทอดไทย, จังหวัดเชียงราย'
     });
+
+   
   </script>
 </body>
 </html>

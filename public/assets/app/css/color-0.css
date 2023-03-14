@@ -185,6 +185,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-22:hover, .btn.btn-22.active{color:#ffffff; background:#30906a; border-color:#30906a;}
 .btn.btn-22:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-23, .btn.btn-23:focus{color:#ffffff; background:#30906a; border-color:#30906a;}
+.btn.btn-23:hover{background:#fff102; border-color:#fff102; color:#30906a;}
+.btn.btn-23:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
@@ -740,6 +744,10 @@ nav.footer.style-02{background:#054c22; color:#ffffff;}
 nav.footer.style-02 .footer-socials .social:hover{background:#fff102; border-color:#fff102;}
 nav.footer.style-02 .footer-socials > .social-wrapper .tooltip{background:#fff102; color:#2e603c;}
 nav.footer.style-02 .footer-socials .social em::after{color:#2e603c;}
+nav.footer.style-02 .count-web{border-color:#2e603c;}
+nav.footer.style-02 .count-web > *{
+  background:#f2f2f2; color:#000000!important; border-color:#2e603c;
+}
 
 /* Footer Style 03 */
 nav.footer.style-03{background:#ffffff; color:#303031;}
@@ -1094,6 +1102,10 @@ table.table.table-download.style-05 td:nth-child(1){border-color:yellow;}
 .card-line.style-01{background:#2e603b;}
 .card-line.style-02{background:#30906a;}
 
+/* Calendar */
+.calendar-day .fc-time-grid-event{background:#ffffff!important; border-color:#2e603c!important;}
+.calendar-day .fc-time-grid .fc-event .fc-title{color:#000000;}
+
 /* Popup Container */
 .popup-container .popup-header{border-color:#eeeeee;}
 .popup-container .popup-box{background:#ffffff;}
@@ -1279,9 +1291,6 @@ table.table.table-download.style-05 td:nth-child(1){border-color:yellow;}
 
 /* Special Card 20 */
 .ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper > .icon em{color:#2e603b;}
-.ss-card-20:hover .ss-img{border-color:#fff311;}
-.ss-card-20:hover .btn{background:#fff311; color:#2e603b; border-color:#ffffff; box-shadow:-8px 10px 6px rgb(184,207,191,.4);}
-.ss-card-20 .wrapper > .img-container .ss-img > .filter-01{background:rgb(48,144,106,.6);}
 .ss-card-20 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
 .ss-card-20 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
 

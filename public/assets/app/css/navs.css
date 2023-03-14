@@ -606,6 +606,10 @@ nav.footer .footer-socials .social{
 nav.footer.style-02 .footer-socials .social em{
   transition:transform .25s; transform:translateY(0); display:inline-block; line-height:40px;
 }
+nav.footer.style-02 li > img{position:relative; transition:opacity .25s}
+nav.footer.style-02 li > img.active{position:absolute; opacity:0;}
+nav.footer.style-02 li:hover > img.active{opacity:1;}
+nav.footer.style-02 li{margin-bottom:.5rem;}
 nav.footer.style-02 .footer-socials > .social-wrapper{position:relative;}
 nav.footer.style-02 .footer-socials > .social-wrapper .tooltip{
   position:absolute; top:0; font-size:.5rem; font-weight:500; padding:.125rem .25rem; border-radius:.375rem;
@@ -621,6 +625,17 @@ nav.footer.style-02 .footer-socials .social em::after{content:''; position:absol
 nav.footer.style-02 .footer-socials .social-wrapper:nth-child(1) > .social em::after{content:'\f39e';}
 nav.footer.style-02 .footer-socials .social-wrapper:nth-child(2) > .social em::after{content:'\f099';}
 nav.footer.style-02 .footer-socials .social-wrapper:nth-child(3) > .social em::after{content:'\f167';}
+nav.footer.style-02 .count-container{display:flex; align-items:center;}
+nav.footer.style-02 .count-web{display:flex; border-radius:.1875rem; border:2px solid transparent; overflow:hidden;}
+nav.footer.style-02 .count-web > *{
+  width:1.375rem; height:2rem; display:flex; justify-content:center; align-items:center; 
+  border-right:1px solid transparent; font-size:.875rem; font-weight:500; 
+}
+nav.footer.style-02 .count-web > *:last-child{border-right:0;}
+nav.footer.style-02 .image-container{max-width:7.5rem;}
+nav.footer.style-02 .image-container > img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:auto;
+}
 
 
 @media screen and (max-width:1299.98px){

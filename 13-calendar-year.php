@@ -19,12 +19,6 @@
 
   <div class="section-padding">
     <div class="container">
-      <div style="margin-top:6rem; position:relative; z-index:2;" data-aos="fade-up" data-aos-delay="150">
-        <?php
-          $listHeader = ['search', 'category', 'order', 'view'];
-          include('component/list-header-calendar.php');
-        ?>
-      </div>
       <div class="calendar-style-02" data-aos="fade-up" data-aos-delay="0">
         <div data-provide="calendar"></div>
         
@@ -35,22 +29,23 @@
           include('component/list-footer.php');
         ?>
       </div>
-      <button class="next">click</button>
+     
     </div>
   </div>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
-<!-- 
-  <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script> -->
+
   <script src="https://unpkg.com/js-year-calendar/locales/js-year-calendar.th"></script>
   
   <script>
-
-new Calendar('.calendar-style-02', {
+    
+  const fullYear = new Calendar('.calendar-style-02', {
     minDate: new Date(),
     language: "th",
   });
+
+
   </script>
 
 </body>

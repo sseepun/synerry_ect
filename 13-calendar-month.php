@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -133,7 +133,7 @@
         events: [
           {
             title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2021-10-22',
+            start: '2023-03-13',
             customStartTime: '12:45 น.',
             end: '2021-10-22',
             customEndTime: '15:00 น.',
@@ -141,7 +141,7 @@
           },
           {
             title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2021-10-20',
+            start: '2023-03-13',
             customStartTime: '12:45 น.',
             end: '2021-10-20',
             customEndTime: '15:00 น.',
@@ -149,7 +149,7 @@
           },
           {
             title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2021-10-20',
+            start: '2023-03-13',
             customStartTime: '12:45 น.',
             end: '2021-10-20',
             customEndTime: '15:00 น.',
