@@ -28,6 +28,7 @@ html, body, table.table{color:#000000;}
 .color-15, .h-color-15:hover{color:#35758e;}
 .color-16, .h-color-16:hover{color:#616161;}
 .color-17, .h-color-17:hover{color:#044c21;}
+.color-18, .h-color-18:hover{color:#3cd096;}
 
 
 .bg-p{background:#0ab3de!important;}
@@ -55,7 +56,7 @@ html, body, table.table{color:#000000;}
 .bg-15{background:#35758e!important;}
 .bg-16{background:#616161!important;}
 .bg-17{background:#044c21!important;}
-
+.bg-18{background:#3cd096!important;}
 
 
 .bcolor-p{border-color:#0ab3de!important;}
@@ -83,6 +84,7 @@ html, body, table.table{color:#000000;}
 .bcolor-15{border-color:#35758e!important;}
 .bcolor-16{border-color:#616161!important;}
 .bcolor-17{border-color:#044c21!important;}
+.bcolor-18{border-color:#3cd096!important;}
 
 /* Buttons */
 .btn.btn-p, .btn.btn-p:focus{color:#ffffff; background:#194e84; border-color:#194e84;}
@@ -189,6 +191,9 @@ html, body, table.table{color:#000000;}
 .btn.btn-23:hover{background:#fff102; border-color:#fff102; color:#30906a;}
 .btn.btn-23:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-24, .btn.btn-24:focus{color:#ffffff; background:#7dc6b5; border-color:#7dc6b5;}
+.btn.btn-24:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+.btn.btn-24:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
@@ -865,7 +870,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .breadcrumb-02 .bottom > .container .wrapper{background:#30906a;}
 .breadcrumb-02 .bottom.style-02 > .container .wrapper{background:#35758e;}
 .breadcrumb-02 .bottom > .container .wrapper::before,
-.breadcrumb-02 .bottom > .container .wrapper:after{background:#30906a;}
+.breadcrumb-02 .bottom > .container .wrapper:after{background:#7cc5b4;}
 .breadcrumb-02 .bottom.style-02 > .container .wrapper::before,
 .breadcrumb-02 .bottom.style-02 > .container .wrapper:after{background:#35758e;}
 .breadcrumb-02 .bottom > .wrapper a{color:#000000;}
@@ -883,7 +888,9 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .form-container-02{background:#ffffff;}
 
 /* Form Container 03 */
-.form-container-03 .option > .dropdown-icon{background:#000000;}
+.form-container-03 .option > .dropdown-icon{background:#8c6961;}
+.form-container-03 .option .icon-view:hover,
+.form-container-03 .option .icon-view.active{background:#ffffff;}
 
 /* Form Group Style 02 */
 .password-level > .levels > *{border-color:#d5d5d5;}
@@ -978,6 +985,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 
 .ui.icon.input > em.icon{background:#30906a; color:#ffffff;}
 .ui.icon.input > em.icon.style-02{background:#2e603c; color:#ffffff;}
+.ui.icon.input > em.icon.style-03{background:#8c6961; color:#ffffff;}
 
 /* Tags Container */
 .tags-container{border-color:#eeeeee;}
@@ -1116,6 +1124,7 @@ table.table.table-download.style-05 td:nth-child(1){border-color:yellow;}
 /* Global Filter */
 .filter.style-01{background:rgb(48,144,106,.6);}
 .filter.style-02{background:rgb(48,144,106,.6);}
+.filter.style-02.bgcolor-02{background:rgba(0,0,0,.4)!important;}
 
 /* Shortcode */
 .shortcode-container .shortcode-content,
@@ -1354,17 +1363,11 @@ table.table.table-download.style-05 td:nth-child(1){border-color:yellow;}
 
 /* Special Card 36 */
 .ss-card-36 .filter-01{background:rgba(0,0,0,.4);}
-.ss-card-36:hover .text-wrapper > .title{color:#fef200!important;}
-.ss-card-36:hover .text-wrapper > .card-footer .wrapper{color:#fef200!important}
+.ss-card-36:hover .text-wrapper > .title{color:#3cd096!important;}
 
 /* Special Card 37 */
 .ss-card-37 .text-container{border-color:#e1e1e1;}
-.ss-card-37:hover .text-container{background:#30906a; border-color:#30906a;}
-.ss-card-37:hover .text-container > .title{color:#ffffff;}
-.ss-card-37:hover .card-footer .wrapper{color:#ffffff!important;}
-.ss-card-37:hover .card-footer .link-footer > .text{color:#ffffff!important; border-color:#ffffff!important;}
-.ss-card-37 .card-footer .link-footer > .arrow{color:#30906a;}
-.ss-card-37:hover .card-footer .link-footer > .arrow{color:#ffffff;}
+.ss-card-37 .card-footer .link-footer > .arrow{color:#494c5a;}
 
 /* Special Card 38 */
 .ss-card-38 .wrapper > .text-container{background:#ffffff;}
@@ -1443,5 +1446,11 @@ table.table.table-download.style-05 td:nth-child(1){border-color:yellow;}
 
 /* Special Card 55 */
 .ss-card-55 .wrapper > .text-container .info-content > .icon em{color:#2e603c;}
+
+/* Special Card 57 */
+.ss-card-57 .card-footer > .wrapper .icon{color:#666666;}
+
+/* Special Card 58 */
+.ss-card-58 .card-footer > .wrapper .icon{color:#666666;}
 
 

@@ -10,13 +10,27 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ข่าวสาร/ประชาสัมพันธ์' ],
+      [ 'url' => '#', 'display' => 'ข่าวสารประชาสัมพันธ์' ],
     ];
-    $breadcrumbTitle = 'ข่าวประชาสัมพันธ์';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/18.jpg';
+    $breadcrumbTitle = 'ข่าวสาร/ประชาสัมพันธ์';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/28.jpg';
     $sectionOptions = [ 'views', 'rss' ];
     $formContainer = true;
     include('component/breadcrumb-style-02.php');
+  ?>
+
+  <?php 
+    $content = [
+      [
+        'title' => 'เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
+        การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13',
+        'image' => 'public/assets/app/images/content/84.jpg'
+      ],[
+        'title' => 'เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
+        การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13',
+        'image' => 'public/assets/app/images/content/135.jpg'
+      ]
+    ]
   ?>
 
   <section class="section-14">
@@ -35,101 +49,139 @@
               <?php for($i=0; $i<4; $i++){?>
                 <div class="swiper-slide">
                   <div class="grids">
-                    <div class="grid xl-2-3 lg-2-3 sm-100" data-aos="fade-up" data-aos-delay="150">
-                      <a class="ss-card ss-card-36" href="#">
-                        <div class="ss-img">
-                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/84.jpg');"></div>
-                        </div>
-                        <div class="text-wrapper">
-                          <div class="h6 title color-white fw-500" href="#">
-                            เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
-                            การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13
+                    <?php foreach($content as $d) {?>
+                      <div class="grid xl-1-3 lg-1-3 md-50 sm-50" data-aos="fade-up" data-aos-delay="150">
+                        <a class="ss-card ss-card-36" href="#">
+                          <div class="ss-img vertical-03">
+                            <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
                           </div>
-                          <div class="card-footer">
-                            <div class="wrapper color-white">
-                              <div class="icon">
-                                <em class="fa-solid fa-calendar-days"></em>
-                                <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                          <div class="text-wrapper">
+                            <div class="h6 title color-white fw-500" href="#">
+                              เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
+                              การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13
+                            </div>
+                            <div class="card-footer mt-2">
+                              <div class="wrapper color-white color-white-theme">
+                                <div class="icon">
+                                  <p class="p sm">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
+                                </div>
+                                <div class="icon">
+                                  <em class="fa-solid fa-eye"></em>
+                                  <p class="p sm ml-2">280 <span class="ml-1">/</span></p>
+                                </div>
+                                <div class="icon">
+                                  <em class="fa-solid fa-share-nodes"></em>
+                                  <span class="p sm ml-2">60</span>
+                                </div>
                               </div>
-                              <div class="icon">
-                                <em class="fa-solid fa-eye"></em>
-                                <span class="p sm ml-2">255</span>
-                              </div>
-                              <div class="icon">
-                                <em class="fa-solid fa-share-nodes"></em>
-                                <span class="p sm ml-2">208</span>
+                              <div class="btn btn-action style-05 btn-24">
+                                <em class="fa-solid fa-arrow-right"></em>
                               </div>
                             </div>
-                            <div class="btn btn-action-style-05 hidden btn-11">
-                              <em class="fa-solid fa-arrow-right"></em>
-                            </div>
                           </div>
-                        
-                        </div>
-                        <div class="filter-01"></div>
-                      </a>
-                    </div>
+                          <div class="filter-01"></div>
+                        </a>
+                      </div>
+                    <?php }?>
                     <div class="grid xl-1-3 lg-1-3 sm-100 md-100" data-aos="fade-up" data-aos-delay="150">
                       <div class="grids">
-                        <div class="grid lg-100 md-50 sm-100 mt-0">
-                          <a class="ss-card ss-card-36 sub-card-01" href="#">
-                            <div class="ss-img">
+                        <div class="grid lg-100 md-100 sm-100 mt-0">
+                          <a class="ss-card ss-card-57" href="#">
+                            <div class="ss-img horizontal-04">
                               <div class="img-bg" style="background-image:url('public/assets/app/images/content/91.jpg');"></div>
                             </div>
-                            <div class="text-wrapper">
-                              <div class="h6 title style-02 color-white fw-500" href="#">
-                                เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
-                                การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13
-                              </div>
-                              <div class="card-footer">
-                                <div class="wrapper color-white">
+                            <div class="text-container">
+                              <p class="title fw-500 color-black-theme h-color-18 mt-2">
+                                เลขาธิการคณะกรรมการการเลือกตั้ง รับมอบเงินร่วมทำบุญงาน ถวายผ้าพระกฐินพระราชทาน
+                                สำนักงานคณะกรรมการเลือกตั้ง
+                              </p>
+                              <div class="card-footer mt-1">
+                                <div class="wrapper">
                                   <div class="icon">
-                                    <em class="fa-solid fa-calendar-days"></em>
-                                    <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                                    <p class="p sm fw-400">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
                                   </div>
                                   <div class="icon">
                                     <em class="fa-solid fa-eye"></em>
-                                    <span class="p sm ml-2">255</span>
+                                    <p class="p sm ml-2 fw-400">280 <span class="ml-1">/</span></p>
                                   </div>
                                   <div class="icon">
                                     <em class="fa-solid fa-share-nodes"></em>
-                                    <span class="p sm ml-2">208</span>
+                                    <span class="p sm ml-2 fw-400">60</span>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                            <div class="filter-01"></div>
                           </a>
                         </div>
-                        <div class="grid lg-100 md-50 sm-100 mt-0">
-                          <a class="ss-card ss-card-36 sub-card-02" href="#">
-                            <div class="ss-img">
-                              <div class="img-bg" style="background-image:url('public/assets/app/images/content/92.jpg');"></div>
-                            </div>
-                            <div class="text-wrapper">
-                              <div class="h6 title style-02 color-white fw-500" href="#">
-                                เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
-                                การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13
-                              </div>
-                              <div class="card-footer">
-                                <div class="wrapper color-white">
-                                  <div class="icon">
-                                    <em class="fa-solid fa-calendar-days"></em>
-                                    <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                        <div class="grid lg-100 md-100 sm-100 mt-0">
+                          <div class="grids">
+                            <div class="grid lg-100 md-100 sm-100">
+                              <div class="ss-card ss-card-58">
+                                <div class="wrapper">
+                                  <div class="img-container">
+                                    <div class="ss-img square">
+                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/136.jpg');"></div>
+                                    </div>
                                   </div>
-                                  <div class="icon">
-                                    <em class="fa-solid fa-eye"></em>
-                                    <span class="p sm ml-2">255</span>
-                                  </div>
-                                  <div class="icon">
-                                    <em class="fa-solid fa-share-nodes"></em>
-                                    <span class="p sm ml-2">208</span>
+                                  <div class="text-container">
+                                    <p class="title fw-500 h-color-18">
+                                      เลขาธิการคณะกรรมการการเลือกตั้ง รับมอบเงินร่วมทำบุญงาน ถวายผ้าพระกฐินพระราชทาน
+                                      สำนักงานคณะกรรมการเลือกตั้ง  เลขาธิการคณะกรรมการการเลือกตั้ง รับมอบเงินร่วมทำบุญงาน 
+                                      ถวายผ้าพระกฐินพระราชทานสำนักงานคณะกรรมการเลือกตั้ง
+                                    </p>
+                                    <div class="card-footer mt-1">
+                                      <div class="wrapper">
+                                        <div class="icon">
+                                          <p class="p sm fw-400">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
+                                        </div>
+                                        <div class="icon">
+                                          <em class="fa-solid fa-eye"></em>
+                                          <p class="p sm ml-2 fw-400">280 <span class="ml-1">/</span></p>
+                                        </div>
+                                        <div class="icon">
+                                          <em class="fa-solid fa-share-nodes"></em>
+                                          <span class="p sm ml-2 fw-400">60</span>
+                                        </div>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                            <div class="filter-01"></div>
-                          </a>
+                            <div class="grid lg-100 md-100 sm-100 mt-3">
+                              <div class="ss-card ss-card-58">
+                                <div class="wrapper">
+                                  <div class="img-container">
+                                    <div class="ss-img square">
+                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/137.jpg');"></div>
+                                    </div>
+                                  </div>
+                                  <div class="text-container">
+                                    <p class="title fw-500 h-color-18">
+                                      เลขาธิการคณะกรรมการการเลือกตั้ง รับมอบเงินร่วมทำบุญงาน ถวายผ้าพระกฐินพระราชทาน
+                                      สำนักงานคณะกรรมการเลือกตั้ง  เลขาธิการคณะกรรมการการเลือกตั้ง รับมอบเงินร่วมทำบุญงาน 
+                                      ถวายผ้าพระกฐินพระราชทานสำนักงานคณะกรรมการเลือกตั้ง
+                                    </p>
+                                    <div class="card-footer mt-1">
+                                      <div class="wrapper">
+                                        <div class="icon">
+                                          <p class="p sm fw-400">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
+                                        </div>
+                                        <div class="icon">
+                                          <em class="fa-solid fa-eye"></em>
+                                          <p class="p sm ml-2 fw-400">280 <span class="ml-1">/</span></p>
+                                        </div>
+                                        <div class="icon">
+                                          <em class="fa-solid fa-share-nodes"></em>
+                                          <span class="p sm ml-2 fw-400">60</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -175,11 +227,22 @@
           <a class="ss-card ss-card-37 mb-3" href="#">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+              <div class="filter style-02 bgcolor-02">
+                <div class="wrapper">
+                  <div class="btn btn-action style-05 btn-24">
+                    <em class="fa-solid fa-arrow-right"></em>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="text-container">
-              <p class="title fw-500 mt-1">
+              <p class="title fw-500">
                 รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
                 สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
+              </p>
+              <p class="sm desc color-08 fw-400 mt-1">
+                วันที่ 6 มีนาคม 2565 เวลา 13.30 น. นายอิทธิพร บุญประคอง ประธานกรรมการการเลือกตั้ง 
+                เป็นประธานในพิธีเปิดการอบรมหลักสูตรการปฏิบัติหลักสูตรและเทคนิค
               </p>
               <div class="card-footer mt-1">
                 <div class="wrapper color-gray">
@@ -201,6 +264,7 @@
                   <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
                 </div>
               </div>
+              <div class="card-line style-02"></div>
             </div>
           </a>
         </div>
@@ -215,7 +279,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-style-04.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   </script>

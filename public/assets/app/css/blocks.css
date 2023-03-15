@@ -264,12 +264,21 @@
 
 /* Form Container 03 */
 .form-container-03 .option{display:flex; align-items:center;}
-.form-container-03 .option > .sub-title.size-02{width:4rem;}
-.form-container-03 .option > .dropdown.size-02{width:calc(100% - 4rem);}
+.form-container-03  .option .icon-view{
+  display:flex; align-items:center; justify-content:center; width:2.875rem; height:2.875rem;
+  border:1px solid transparent; border-radius:.375rem; font-size:1.125rem; transition:all .25s;
+}
+.form-container-03 .option.view{justify-content:flex-end;}
+.form-container-03 .option > .wrapper-view{position:relative; display:flex;}
+.form-container-03 .option .icon-view img{width:1rem; height:1rem;}
+.form-container-03 .option .icon-view img.icon-active{position:absolute; opacity:0; transition:opacity .25s;}
+.form-container-03 .option .icon-view.active img.icon-active,
+.form-container-03 .option .icon-view:hover img.icon-active{opacity:1;}
+.form-container-03 .option .icon-view.disable{pointer-events:none;}
 @media screen and (max-width:991.98px){
   .form-container-03{padding-bottom:4rem;}
   .form-container-03 .option{margin-top:1rem;}
-  
+  .form-container-03 .option.view{justify-content:center;}
 }
 @media screen and (max-width:575.98px){
   .form-container-03 .option > .sub-title{display:none;}
@@ -1247,9 +1256,16 @@
 /* Breadcrumb 02 */
 .breadcrumb-02{position:relative; z-index:2;}
 .breadcrumb-02 .top{
-  position:relative; width:100%; height:100%; min-height:12.5rem; padding:1.5rem 0 4rem 0;
-  display:flex; align-items:center;
+  position:relative; width:100%; height:100%; min-height:12.5rem; padding:1.5rem 0 1rem 0;
+  display:flex; align-items:flex-end;
 }
+.breadcrumb-02 .top .title{line-height:4.5;}
+.breadcrumb-02 .top  .title-link{position:relative;}
+.breadcrumb-02 .top  .title-link:first-child > span{border-bottom:0!important;}
+.breadcrumb-02 .top .title-link:not(:first-child)::before{
+  content:":"; margin:0 1rem 0 1rem;
+}
+
 .breadcrumb-02 .top > .img-bg{
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
     background-position:center;
@@ -1270,6 +1286,7 @@
 .breadcrumb-02 .bottom .wrapper .title-link:not(:first-child)::before{content:":"; margin-right:1rem;}
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{position: relative; border-bottom:1px solid transparent; z-index: 5;}
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{border-color:#ffffff;}
+.breadcrumb-02 .ui.icon.input input{border:1px solid transparent;}
 
 
 /* Election Commission */

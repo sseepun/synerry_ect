@@ -126,9 +126,17 @@
                                       <div class="img-container">
                                         <div class="ss-img">
                                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+0)%3+3 ?>.jpg');"></div>
+                                          <div class="filter style-02 bgcolor-02">
+                                            <div class="wrapper">
+                                              <div class="btn btn-action style-05 btn-24">
+                                                <em class="fa-solid fa-arrow-right"></em>
+                                              </div>
+                                            </div>
+                                          </div>
                                         </div>
                                       </div>
                                       <div class="text-container">
+                                        <div class="pos-relative pb-3">
                                         <div class="title p fw-400" href="#">
                                           <?= $j['title'] ?>
                                         </div>
@@ -154,6 +162,9 @@
                                             <em class="fa-solid fa-arrow-right"></em>
                                           </div>   
                                         </div>
+                                          <div class="card-line style-02"></div>
+                                        </div>
+                                        
                                       </div>
                                     </div>
                                   </a>

@@ -270,7 +270,8 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-14, .btn.btn-14:focus,
 .btn.btn-15, .btn.btn-15:focus,
 .btn.btn-16, .btn.btn-16:focus,
-.btn.btn-20, .btn.btn-20:focus{background:#fecb00; color:#000000;}
+.btn.btn-20, .btn.btn-20:focus,
+.btn.btn-24, .btn.btn-24:focus{background:#fecb00; color:#000000;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#fecb00; color:#fecb00;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#fecb00!important;}
@@ -301,6 +302,7 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 /* Card Line */
 .card-line.style-01{background:#fecb00;}
 .card-line.style-01.card-line-black-theme{background:#000000;}
+.card-line.style-02{background:#fecb00;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -456,6 +458,9 @@ input[type="search"]::placeholder{color:#fecb00;}
 .breadcrumb-02 select{border-color:#000000!important;}
 .breadcrumb-02 .dropdown-icon{border-color:#000000!important;}
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{border-color:#000000!important;}
+.breadcrumb-02 .ui.icon.input > em.icon.style-03{background:#fecb00; color:#000000;}
+.breadcrumb-02 .ui.icon.input input{border-color:#000000;}
+.breadcrumb-02 input[type='search']{background:#000000;}
 
 /* Special Box */
 .ss-box.style-02{border-color:#000000;}
@@ -534,6 +539,11 @@ input[type="search"]::placeholder{color:#fecb00;}
 
 /* Faq 08 */
 .faq-08 .faq > .question{background:#000000; color:#fecb00;}
+
+/* Form Container 03 */
+.form-container-03 .option .icon-view{border-color:#000000;}
+.form-container-03 .option .icon-view:hover, 
+.form-container-03 .option .icon-view.active{background:#000000;}
 
 /* rc-container */
 .rc-container.style-02 > label::before{border-color:#fecb00;}
@@ -758,12 +768,7 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Special Card 37 */
 .ss-card-37 .text-container{border-color:#fecb00;}
-.ss-card-37:hover .text-container{background:#fecb00;}
-.ss-card-37:hover .text-container > .title{color:#000000;}
-.ss-card-37:hover .card-footer .wrapper{color:#000000!important;}
-.ss-card-37:hover .card-footer .link-footer > .text{color:#000000!important; border-color:#000000!important;}
 .ss-card-37 .card-footer .link-footer > .arrow{color:#fecb00;}
-.ss-card-37:hover .card-footer .link-footer > .arrow{color:#000000;}
 
 /* Special Card 38 */
 .ss-card-38 .wrapper > .text-container{background:#fecb00; border-color:#fecb00;}
