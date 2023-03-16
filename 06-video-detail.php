@@ -15,6 +15,7 @@
     $breadcrumbTitle = 'วิดีโอ';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/05.jpg';
     include('component/breadcrumb.php');
+    $tagContainerStyle = ''
   ?>
 
   <section class="section-padding">

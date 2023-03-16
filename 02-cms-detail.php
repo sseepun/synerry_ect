@@ -15,6 +15,7 @@
     $breadcrumbTitle = 'ข่าวประชาสัมพันธ์';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/01.jpg';
     include('component/breadcrumb.php');
+    $tagContainerStyle = ''
   ?>
 
   <section class="section-padding">
@@ -255,7 +256,7 @@
                     </div>
                   </div>
                 </div>
-              </ฟ>
+            </a>
             <?php }?>
           </div>   
           <div class="popular-search-container box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">

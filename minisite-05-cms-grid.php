@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
@@ -96,7 +96,7 @@
                                 สำนักงานคณะกรรมการเลือกตั้ง
                               </p>
                               <div class="card-footer mt-1">
-                                <div class="wrapper">
+                                <div class="wrapper color-black-theme">
                                   <div class="icon">
                                     <p class="p sm fw-400">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
                                   </div>

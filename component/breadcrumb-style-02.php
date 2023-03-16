@@ -27,7 +27,7 @@
             <?php if($formContainer === true){?>
               <form class="form-container-03">
                 <div class="grids">
-                  <div class="grid lg-40 md-40 sm-100 mt-0">
+                  <div class="grid lg-35 md-40 sm-100 mt-0">
                     <div class="option search">
                       <div class="ui icon input">
                         <input class="size-03" id="search" type="search" placeholder="ค้นหา">
@@ -35,7 +35,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="grid lg-40 md-60 sm-100 mt-0">
+                  <div class="grid lg-45 md-60 sm-100 mt-0">
                     <div class="grids">
                       <div class="grid lg-50 md-50 mt-0">
                         <div class="option">

@@ -15,6 +15,7 @@
     $breadcrumbTitle = 'ภาพกิจกรรม';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/02.jpg';
     include('component/breadcrumb.php');
+    $tagContainerStyle = ''
   ?>
 
   <section class="section-padding">

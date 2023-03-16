@@ -1261,7 +1261,8 @@
 }
 .breadcrumb-02 .top .title{line-height:4.5;}
 .breadcrumb-02 .top  .title-link{position:relative;}
-.breadcrumb-02 .top  .title-link:first-child > span{border-bottom:0!important;}
+.breadcrumb-02 .top .title-link > span{-webkit-line-clamp:1;}
+.breadcrumb-02 .top  .title-link:not(.title-link:last-child) > span{border-bottom:0!important;}
 .breadcrumb-02 .top .title-link:not(:first-child)::before{
   content:":"; margin:0 1rem 0 1rem;
 }

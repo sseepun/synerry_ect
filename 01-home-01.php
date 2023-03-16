@@ -143,8 +143,8 @@
       </div>
 
       <div class="ribbon">
-        <div class="ribbon-wrapper box-shadow">
-          <div class="tabs tabs-04" data-aos="fade-up" data-aos-delay="150">
+        <div class="ribbon-wrapper box-shadow"  data-aos="fade-up" data-aos-delay="150">
+          <div class="tabs tabs-04">
             <?php foreach($categories as $i=>$d){?>
               <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
                 <div class="icon-inactive"><img src="<?= $d['icon'] ?>" alt="Icon" /></div>
@@ -155,7 +155,7 @@
           </div>
         </div>
       </div>
-
+  
       <div class="tab-contents style-02" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($categories as $i=>$d){?>
           <div class="tab-content box-shadow style-03 <?= $i==0? 'active': '' ?> " data-tab="content_<?= $i ?>">
@@ -256,66 +256,7 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="grids">
-              <div class="grid lg-70 sm-100">
-                <div class="ss-card ss-card-23 main-card">
-                  <a class="ss-img" href="#">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/8<?= ($i+0)%3+0 ?>.jpg');"></div>
-                  </a>
-                  <div class="text-container box-shadow style-02 mt-3">
-                    <div class="ss-tags">
-                      <a class="tag" href="#">เรื่องเด่น กกต.</a>
-                    </div>
-                    <a class="title h5 h-color-04 fw-600 lh-sm mt-3" href="#">
-                      รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมผู้บริหารกลุ่มภารกิจบริหารกลาง ครั้งที่ 2/2565
-                      ผู้อำนวยการสถาบันพัฒนาการเมืองและการเลือกตั้ง เป็นวิทยากรบรรยายเรื่อง “วัฒนธรรมองค์การ 
-                      พลังขับเคลื่อนสู่ความสำเร็จ” ในการปฐมนิเทศพนักงานใหม่ พ.ศ. 2565
-                    </a>
-                    <p class="xs fw-500">
-                      08 มิถุนายน 2565 / By <a class="h-color-04" href="#">PR ECT</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="grid lg-30 sm-100">
-                <div class="ss-card ss-card-23 sub-card">
-                  <a class="ss-img" href="#">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/8<?= ($i+1)%3+0 ?>.jpg');"></div>
-                  </a>
-                  <div class="text-container box-shadow style-02">
-                    <div class="ss-tags">
-                      <a class="tag" href="#">เรื่องเด่น กกต.</a>
-                    </div>
-                    <a class="title h5 h-color-04 fw-600 lh-sm mt-3" href="#">
-                      รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมผู้บริหารกลุ่มภารกิจบริหารกลาง ครั้งที่ 2/2565
-                      ผู้อำนวยการสถาบันพัฒนาการเมืองและการเลือกตั้ง เป็นวิทยากรบรรยายเรื่อง “วัฒนธรรมองค์การ 
-                      พลังขับเคลื่อนสู่ความสำเร็จ” ในการปฐมนิเทศพนักงานใหม่ พ.ศ. 2565
-                    </a>
-                    <p class="xs fw-500">
-                      08 มิถุนายน 2565 / By <a class="h-color-04" href="#">PR ECT</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="ss-card ss-card-23 sub-card mt-5">
-                  <a class="ss-img" href="#">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/8<?= ($i+3)%3+0 ?>.jpg');"></div>
-                  </a>
-                  <div class="text-container box-shadow style-02">
-                    <div class="ss-tags">
-                      <a class="tag" href="#">เรื่องเด่น กกต.</a>
-                    </div>
-                    <a class="title h5 fw-600 h-color-04 lh-sm mt-3" href="#">
-                      รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมผู้บริหารกลุ่มภารกิจบริหารกลาง ครั้งที่ 2/2565
-                      ผู้อำนวยการสถาบันพัฒนาการเมืองและการเลือกตั้ง เป็นวิทยากรบรรยายเรื่อง “วัฒนธรรมองค์การ 
-                      พลังขับเคลื่อนสู่ความสำเร็จ” ในการปฐมนิเทศพนักงานใหม่ พ.ศ. 2565
-                    </a>
-                    <p class="xs fw-500">
-                      08 มิถุนายน 2565 / By <a class="h-color-04" href="#">PR ECT</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+        
             <div class="table-footer mt-6 pt-3">
               <div class="paginate style-03">
                 <div class="page active">1</div>
@@ -858,7 +799,6 @@
             </div>
           </div>
         </div>
-       
       </div>
     </div>
   </section>
