@@ -10,11 +10,11 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ข่าวสารประชาสัมพันธ์' ],
-      [ 'url' => '#', 'display' => 'กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติ' ]
+      [ 'url' => '#', 'display' => 'วิดีโอ' ],
+      [ 'url' => '#', 'display' => 'ดร.ฐิติเชฏฐ์ นุชนาฏ กรรมการการเลือกตั้ง' ]
     ];
-    $breadcrumbTitle = 'ข่าวสาร/ประชาสัมพันธ์';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/28.jpg';
+    $breadcrumbTitle = 'วิดีโอ';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/30.jpg';
     $sectionOptions = [ 'views', 'rss' ];
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
@@ -46,8 +46,7 @@
             <div class="grid xl-70 lg-60 md-2-3 sm-100">
               <div class="ss-card ss-card-59" data-aos="fade-up" data-aos-delay="0">
                 <h4 class="title lh-sm fw-500">
-                  กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานใน
-                  การอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ 
+                  ดร.ฐิติเชฏฐ์ นุชนาฏ กรรมการการเลือกตั้ง ตรวจเยี่ยมและสังเกตการณ์การเลือกตั้งกรุงเทพมหานคร 
                 </h4>
                 <div class="card-top mt-3">
                   <div class="wrapper">
@@ -68,9 +67,19 @@
                     </div>
                   </div>
                 </div>
-                <div class="ss-img horizontal no-hover mt-3">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
-                </div>
+                <a class="ss-card" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                  <div class="ss-img horizontal no-hover mt-3">
+                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/146.jpg');"></div>
+                      <div class="btn-play style-02">
+                        <div class="img-container lg">
+                          <img class="inactive" src="public/assets/app/images/icon/btn-play-inactive.png" alt="Icon Inactive">
+                          <img class="active" src="public/assets/app/images/icon/btn-play-active.png" alt="Icon active">
+                        </div>
+                    </div>
+                    <div class="filter style-03"></div>
+                  </div>
+                 
+                </a>
                 <p class="desc color-gray color-black-theme fw-400 mt-3">
                   วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง 
                   พร้อมด้วย พล.ต.ต.ชัชชรินร์ สว่างวงศ์ ผู้เชี่ยวชาญด้านรัฐประศาสนศาสตร์ นางสาวโชติกา 
@@ -79,56 +88,24 @@
                   ระหว่างวันที่ 6-20 มิถุนายน 2565 ณ ห้องประชุมคอนเวนชั่น โรงแรมรามาการ์เด้นส์ กรุงเทพมหานคร 
                 </p>
               </div>
-              <?php 
-                $news01 = [
-                  ['image' => 'public/assets/app/images/content/02.jpg'],
-                  ['image' => 'public/assets/app/images/content/10.jpg'],
-                  ['image' => 'public/assets/app/images/content/11.jpg'],
-                  ['image' => 'public/assets/app/images/content/12.jpg'],
-                  ['image' => 'public/assets/app/images/content/13.jpg'],
-                  ['image' => 'public/assets/app/images/content/14.jpg'],
-                  ['image' => 'public/assets/app/images/content/15.jpg'],
-                  ['image' => 'public/assets/app/images/content/12.jpg', 'classer' => 'active'],
-                ]
-              ?>
-              <div class="grids jc-center mt-4" data-aos="fade-up" data-aos-delay="150">
-                <?php foreach($news01 as $d) {?>
-                  <div class="grid xl-25 lg-1-3">
-                    <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                        <div class="filter style-02">
-                          <div class="wrapper">
-                            <div class="icon op-0">
-                              <img src="public/assets/app/images/icon/51.png" alt="Icon">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card-line style-01"></div>
-                      </div>
-                      <div class="filter-01">
-                        <div class="text">
-                          <h3 class="number lh-3xs color-white-theme fw-600">+30</h3>
-                          <p class="h6 color-white-theme fw-500">รูปภาพ</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                <?php }?>
-              </div>
 
               <?php include('component/tags-container.php'); ?>
             
-              <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
-                ไฟล์ที่เกี่ยวข้อง
-              </h4>     
+              <div class="d-flex jc-space-between ai-center fw-wrap">
+                <h4 class="title fw-600 mt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
+                  ไฟล์ที่เกี่ยวข้อง
+                </h4>
+                <a href="#" class="btn width-auto btn-action btn-25 mt-6" data-aos="fade-up" data-aos-delay="450">
+                  ดาวน์โหลดทั้งหมด
+                </a>
+              </div>
+                  
               <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
                 <table class="table style-05 table-download" data-aos="fade-up" data-aos-delay="600">
                   <tbody>
                     <?php
                       foreach([
-                        'pdf', 'doc', 'xls', 'ppt', 'zip',
-                        'rar', 'link'
+                        'mp4',
                       ] as $k){
                     ?>
                       <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
@@ -161,7 +138,7 @@
                         </td>
                         <td class="button-container" style="min-width:90px;">
                           <div class="btns jc-end">
-                            <div href="#" class="btn btn-white-theme width-auto btn-action btn-12 btn-black-theme">
+                            <div href="#" class="btn btn-white-theme width-auto btn-action btn-13">
                               ดาวน์โหลดไฟล์
                               <em class="fa-solid fa-arrow-down ml-1"></em>
                             </div>
@@ -175,50 +152,6 @@
                     <?php }?>
                   </tbody>
                 </table>
-              </div>
-
-              <?php 
-                $videos = [
-                  ['image' => 'public/assets/app/images/content/14.jpg'],
-                  ['image' => 'public/assets/app/images/content/15.jpg'],
-                  ['image' => 'public/assets/app/images/content/13.jpg'],
-                  ['image' => 'public/assets/app/images/content/12.jpg'],
-                ]
-              ?>
-              <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="450">
-                วิดีโอที่เกี่ยวข้อง
-              </h4>
-              <div class="grids" data-aos="fade-up" data-aos-delay="650">
-                <?php foreach($videos as $d) {?>
-                  <div class="grid lg-25 sm-50 mt-2">
-                    <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                        <div class="hover-container show h-hidden">
-                          <div class="icon xs">
-                            <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                          </div>
-                        </div>
-                        <div class="filter style-02">
-                          <div class="wrapper">
-                            <div class="icon xs">
-                              <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card-line style-01"></div>
-                      </div>
-                    </a>
-                  </div>
-                <?php }?>
-              </div> 
-              
-              <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="800">
-                สื่อที่เกี่ยวข้อง
-              </h4>
-              <div data-aos="fade-up" data-aos-delay="950">
-                <a class="twitter-timeline" href="https://twitter.com/EctThailand?ref_src=twsrc%5Etfw">Tweets by EctThailand</a> 
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               </div>
             </div>
             <!-- Right Content -->
@@ -234,32 +167,34 @@
                     <p class="color-02 color-black-theme fw-600">108</p>
                   </div> 
                   <div class="cate-list bcolor-white-theme">
-                    <p class="fw-400">เรื่องเด่น กกต.</p>
+                    <p class="fw-400">งานสัมนา</p>
                     <p class="fw-400">11</p>
                   </div> 
                   <div class="cate-list bcolor-white-theme">
-                    <p class="fw-400">ข่าว สนง. กกต.</p>
+                    <p class="fw-400">แหล่งความรู้</p>
                     <p class="fw-400">50</p>
-                  </div> 
-                  <div class="cate-list bcolor-white-theme">
-                    <p class="fw-400">ข่าวประกวดราคา</p>
-                    <p class="fw-400">3</p>
-                  </div> 
+                  </div>  
                 </div>   
                 <?php 
                   $lastestnews = [
-                    ['image' => 'public/assets/app/images/content/03.jpg'],
-                    ['image' => 'public/assets/app/images/content/08.jpg'],
-                    ['image' => 'public/assets/app/images/content/03.jpg']
+                    ['image' => 'public/assets/app/images/content/43.jpg'],
+                    ['image' => 'public/assets/app/images/content/42.jpg'],
+                    ['image' => 'public/assets/app/images/content/43.jpg']
                   ]
                 ?>
                 <h5 class="fw-600 mb-3" data-aos="fade-up" data-aos-delay="150">
-                  ข่าวล่าสุด
+                  วิดีโอล่าสุด
                 </h5> 
                 <?php foreach($lastestnews as $d) {?>
                   <a class="ss-card ss-card-60" href="#" data-aos="fade-up" data-aos-delay="300">
                     <div class="ss-img">
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="btn-play">
+                        <div class="img-container">
+                          <img class="inactive" src="public/assets/app/images/icon/btn-play-inactive.png" alt="Icon Inactive">
+                          <img class="active" src="public/assets/app/images/icon/btn-play-active.png" alt="Icon active">
+                        </div>
+                      </div>
                       <div class="filter style-02">
                         <div class="wrapper">
                           <div class="icon op-0">
@@ -271,8 +206,7 @@
                     </div>
                     <div class="text-container">
                       <p class="title fw-400 lh-sm mt-2 color-black-theme">
-                        รองเลขาธิการคณะกรรมการเลือกตั้ง เป็นประธานในการประชุม
-                        ผู้บริหารกลุ่มภารกิจ รองเลขาธิการคณะกรรมการเลือกตั้ง เป็นประธานในการประชุม
+                        รายการ กกต. ขอบอก EP 81 : "สนง. กกต. มอบประกาศเกียรติคุณชื่นชมยกย่องคุณความดีแก่ผู้มีสิทธิเลือกตั้ง"
                       </p>
                       <div class="card-footer mt-1">
                         <div class="wrapper color-black-theme">

@@ -807,7 +807,6 @@ function ssPageProcess(){
                  slidesPerView: 1,
                  speed: 800,
                  grabCursor: true,
-                 type: "fraction",
                  navigation: {
                      nextEl: self.find('.btn-icon-next'),
                      prevEl: self.find('.btn-icon-prev'),
@@ -930,13 +929,6 @@ function ssPageProcess(){
                         nextEl: self.find('.btn-icon-next'),
                         prevEl: self.find('.btn-icon-prev'),
                     },
-                //     breakpoints: {
-                //        1299.98: { slidesPerView:5},
-                //        1199.98: { slidesPerView:4,},
-                //        991.98: { slidesPerView:4,},
-                //        767.98: { slidesPerView:3,},
-                //        575.98: { slidesPerView:2, spaceBetween:20},
-                //    },
                     pagination: {
                         el: self.find('.dots'),
                         clickable: true,
@@ -1084,3 +1076,26 @@ function ssPageProcess(){
               });
           });
       }
+
+      // Section 24
+     var section24 = $('.section-24');
+     if(section24.length){
+         section24.each(function(){
+             var self = $(this);
+             new Swiper(self.find('.swiper-container'), {
+                 loop: true,
+                 spaceBetween: 0,
+                 slidesPerView: 1,
+                 speed: 800,
+                 grabCursor: true,
+                 navigation: {
+                     nextEl: self.find('.btn-icon-next'),
+                     prevEl: self.find('.btn-icon-prev'),
+                 },
+                 pagination: {
+                     el: self.find('.dots'),
+                     type: "fraction",
+                 },
+             });
+         });
+     }

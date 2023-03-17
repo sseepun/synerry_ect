@@ -260,48 +260,55 @@
     <div class="container">
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
-          <div class="grid xl-25 lg-1-3 md-50">
-          <a class="ss-card ss-card-61 mb-3" href="#">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-              <div class="number-of-picture">
-                <em class="fa-solid fa-images"></em>
-                <span class="number">15</span>
-              </div>
-              <div class="filter style-02 bgcolor-02">
-                <div class="wrapper">
-                  <div class="btn btn-action style-05 btn-24">
-                    <em class="fa-solid fa-arrow-right"></em>
+          <div class="grid xl-100 lg-100 md-50">
+          <a class="ss-card ss-card-38 mb-3" href="#">
+            <div class="wrapper">
+              <div class="image-container">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="number-of-picture">
+                    <em class="fa-solid fa-images"></em>
+                    <span class="number">15</span>
+                  </div>
+                  <div class="filter style-02 bgcolor-02">
+                    <div class="wrapper">
+                      <div class="btn btn-action style-05 btn-24">
+                        <em class="fa-solid fa-arrow-right"></em>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="text-container">
-              <p class="title fw-500">
-                รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
-                สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
-              </p>
-              <div class="card-footer mt-1">
-                <div class="wrapper color-gray">
-                  <div class="icon">
-                    <em class="fa-solid fa-calendar-days"></em>
-                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
-                  </div>
-                  <div class="icon">
-                    <em class="fa-solid fa-eye"></em>
-                    <span class="p sm fw-400 ml-2">280</span>
-                  </div>
-                  <div class="icon">
-                    <em class="fa-solid fa-share-nodes"></em>
-                    <span class="p sm fw-400 ml-2">60</span>
+              <div class="text-container box-shadow style-02">
+                <div class="top">
+                  <p class="h6 lh-sm title fw-500 mt-1">
+                    ประธานกรรมการการเลือกตั้ง เป็นประธานในพิธีเปิดการประชุมพัฒนางานและ
+                    ยกระดับมาตรฐานการทำงานของสำนักงานคณะกรรมการการเลือกตั้ง
+                  </p>
+                  <div class="card-footer mt-1">
+                    <div class="wrapper">
+                      <div class="icon">
+                        <p class="p sm fw-400">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-eye"></em>
+                        <p class="p sm ml-2 fw-400">280 <span class="ml-1">/</span></p>
+                      </div>
+                      <div class="icon">
+                        <em class="fa-solid fa-share-nodes"></em>
+                        <span class="p sm ml-2 fw-400">60</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="link-footer">
-                  <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
-                  <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
+                <div class="bottom">
+                  <div class="link-footer">
+                    <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
+                    <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
+                  </div>
                 </div>
+                <div class="card-line style-02"></div>
               </div>
-              <div class="card-line style-02"></div>
             </div>
           </a>
         </div>

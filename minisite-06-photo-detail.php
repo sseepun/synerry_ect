@@ -68,8 +68,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="ss-img horizontal no-hover mt-3">
-                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
+                <!-- Swiper -->
+                <div class="section-24">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <?php for($i=0; $i<20; $i++){?>
+                        <div class="swiper-slide">
+                          <div class="ss-img horizontal mt-3">
+                            <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i%3+2) ?>.jpg');"></div>
+                          </div>
+                        </div>
+                      <?php }?>
+                    </div>
+                  <div class="fraction-container">
+                    <div class="wrapper">
+                      <div class="dots"></div>
+                    </div>
+                  </div>
+                  <div class="arrow-container">
+                    <div class="btn btn-icon-prev">
+                      <div class="arrow">
+                        <em class="fa-solid fa-arrow-left"></em>
+                      </div>
+                    </div>
+                    <div class="btn btn-icon-next">
+                      <div class="arrow">
+                        <em class="fa-solid fa-arrow-right"></em>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
                 <p class="desc color-gray color-black-theme fw-400 mt-3">
                   วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง 
@@ -116,110 +144,12 @@
                   </div>
                 <?php }?>
               </div>
-
+              <div class="btns jc-center mt-4" data-aos="fade-up" data-aos-delay="150">
+                <a href="#" class="btn width-auto btn-action btn-25">
+                  ดาวน์โหลดทั้งหมด (30)
+                </a>
+              </div>
               <?php include('component/tags-container.php'); ?>
-            
-              <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
-                ไฟล์ที่เกี่ยวข้อง
-              </h4>     
-              <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
-                <table class="table style-05 table-download" data-aos="fade-up" data-aos-delay="600">
-                  <tbody>
-                    <?php
-                      foreach([
-                        'pdf', 'doc', 'xls', 'ppt', 'zip',
-                        'rar', 'link'
-                      ] as $k){
-                    ?>
-                      <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
-                        <td>
-                          <div class="download-card">
-                            <div>
-                            <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
-                            <p class="xxs color-white color-black-theme fw-400">0.2 MB</p>
-                            </div>
-                          </div>
-                        </td>
-                        <td class="title-container" style="min-width:450px;">
-                          <a class="p title fw-600" href="#">
-                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
-                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
-                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
-                          </a>
-                          <div class="text-footer">
-                            <div class="wrapper">
-                              <div class="icon">
-                                <em class="fa-regular fa-calendar"></em>
-                                <p class="xs fw-400 ml-1">29 พฤศจิกายน</p>
-                              </div>
-                              <div class="icon">
-                                <em class="fa-regular fa-floppy-disk"></em>
-                                <p class="xs fw-400 ml-1">ดาวน์โหลด 122 ครั้ง</p>
-                              </div>
-                            </div>
-                          </div>
-                        </td>
-                        <td class="button-container" style="min-width:90px;">
-                          <div class="btns jc-end">
-                            <div href="#" class="btn btn-white-theme width-auto btn-action btn-12 btn-black-theme">
-                              ดาวน์โหลดไฟล์
-                              <em class="fa-solid fa-arrow-down ml-1"></em>
-                            </div>
-                          </div>
-                        </td>
-                        <td class="arrow-container" style="min-width:150px;">
-                          <em class="fa-solid fa-triangle-exclamation"></em>
-                          <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">แจ้งไฟล์เสีย</a>
-                        </td>
-                      </tr>
-                    <?php }?>
-                  </tbody>
-                </table>
-              </div>
-
-              <?php 
-                $videos = [
-                  ['image' => 'public/assets/app/images/content/14.jpg'],
-                  ['image' => 'public/assets/app/images/content/15.jpg'],
-                  ['image' => 'public/assets/app/images/content/13.jpg'],
-                  ['image' => 'public/assets/app/images/content/12.jpg'],
-                ]
-              ?>
-              <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="450">
-                วิดีโอที่เกี่ยวข้อง
-              </h4>
-              <div class="grids" data-aos="fade-up" data-aos-delay="650">
-                <?php foreach($videos as $d) {?>
-                  <div class="grid lg-25 sm-50 mt-2">
-                    <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                        <div class="hover-container show h-hidden">
-                          <div class="icon xs">
-                            <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                          </div>
-                        </div>
-                        <div class="filter style-02">
-                          <div class="wrapper">
-                            <div class="icon xs">
-                              <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card-line style-01"></div>
-                      </div>
-                    </a>
-                  </div>
-                <?php }?>
-              </div> 
-              
-              <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="800">
-                สื่อที่เกี่ยวข้อง
-              </h4>
-              <div data-aos="fade-up" data-aos-delay="950">
-                <a class="twitter-timeline" href="https://twitter.com/EctThailand?ref_src=twsrc%5Etfw">Tweets by EctThailand</a> 
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </div>
             </div>
             <!-- Right Content -->
             <div class="grid xl-30 lg-40 md-1-3 sm-100">
@@ -230,21 +160,13 @@
                     <p class="fw-400">รายการ</p>
                   </div> 
                   <div class="cate-list mt-2 bcolor-white-theme">
-                    <p class="color-02 color-black-theme fw-600">ข่าวประชาสัมพันธ์</p>
+                    <p class="color-02 color-black-theme fw-600">ภาพกิจกรรม</p>
                     <p class="color-02 color-black-theme fw-600">108</p>
                   </div> 
                   <div class="cate-list bcolor-white-theme">
-                    <p class="fw-400">เรื่องเด่น กกต.</p>
+                    <p class="fw-400">ภาพการดูงาน</p>
                     <p class="fw-400">11</p>
-                  </div> 
-                  <div class="cate-list bcolor-white-theme">
-                    <p class="fw-400">ข่าว สนง. กกต.</p>
-                    <p class="fw-400">50</p>
-                  </div> 
-                  <div class="cate-list bcolor-white-theme">
-                    <p class="fw-400">ข่าวประกวดราคา</p>
-                    <p class="fw-400">3</p>
-                  </div> 
+                  </div>  
                 </div>   
                 <?php 
                   $lastestnews = [
@@ -254,12 +176,16 @@
                   ]
                 ?>
                 <h5 class="fw-600 mb-3" data-aos="fade-up" data-aos-delay="150">
-                  ข่าวล่าสุด
+                  ภาพกิจกรมมล่าสุด
                 </h5> 
                 <?php foreach($lastestnews as $d) {?>
                   <a class="ss-card ss-card-60" href="#" data-aos="fade-up" data-aos-delay="300">
                     <div class="ss-img">
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="number-of-picture">
+                        <em class="fa-solid fa-images"></em>
+                        <span class="number">15</span>
+                      </div>
                       <div class="filter style-02">
                         <div class="wrapper">
                           <div class="icon op-0">
