@@ -725,6 +725,7 @@ function ssPageProcess(){
          });
      }
 
+    // FAQ 08
      var faq08 = $('.faq-08');
      if(faq08.length){
          faq08.each(function(){
@@ -744,6 +745,25 @@ function ssPageProcess(){
              });
          });
      }
+
+    // FAQ 09
+    var faq09 = $('.faq-09');
+    if(faq09.length){
+        faq09.each(function(){
+            $(this).find('.faq > .question').click(function(e){
+                e.preventDefault();
+                var parent = $(this).parent();
+                if(parent.hasClass('active')){
+                    parent.removeClass('active');
+                    parent.find('> .answer').slideUp();
+                }else{
+                    parent.addClass('active');
+                    parent.find('> .answer').slideDown();
+                }
+            });
+        });
+    }
+
 
     // Section 05
     var section05 = $('.section-05');

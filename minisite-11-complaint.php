@@ -55,99 +55,158 @@
               </div>
             </div>
             <!-- FORM -->
-            <div class="form-container-01 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
-            <div class="grids">
-              <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
-                <h3 class="color-black-theme fw-600">แบบฟอร์มรับเรื่องร้องเรียน</h3>
-                <p class="color-black-theme color-gray fw-400">กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย<span class="text-danger fw-400 ml-1">*</span></p>
-              </div>
-              <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
-                <form action="action.php" method="post">
-                  <div class="grids">
-                    <div class="grid sm-50 mt-0">
-                      <div class="form-group">
-                        <div class="form-input">
-                          <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
+            <div class="form-container-01  box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
+              <div class="grids">
+                <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
+                  <h3 class="color-black-theme fw-600">แบบฟอร์มรับเรื่อง</h3>
+                  <p class="color-black-theme color-16 fw-400">
+                    กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย
+                    <span class="text-danger fw-400 ml-1">*</span>
+                  </p>
+                  <div class="img-container">
+                    <img src="public/assets/app/images/content/02.png" alt="Message">
+                  </div>
+                </div>
+                <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
+                  <form action="action.php" method="post">
+                    <div class="grids">
+                      <div class="grid sm-50 mt-0">
+                        <div class="form-group">
+                          <div class="form-input">
+                            <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="grid sm-50 mt-0">
-                      <div class="form-group">
-                        <div class="form-input">
-                          <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
+                      <div class="grid sm-50 mt-0">
+                        <div class="form-group">
+                          <div class="form-input">
+                            <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="grid sm-100 mt-2">
-                      <div class="form-group">
-                        <div class="form-input">
-                          <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*" required>
+                      <div class="grid sm-100 mt-2">
+                        <div class="form-group">
+                          <div class="form-input">
+                            <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*" required>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="grid sm-100 mt-2">
-                      <div class="form-group">
-                        <div class="form-input">
-                          <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
+                      <div class="grid sm-100 mt-2">
+                        <div class="form-group">
+                          <div class="form-input">
+                            <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="grid sm-100 mt-4">
-                      <div class="option cate style-02">
-                        <select class="ui color-gray dropdown bg-style-02 border-2" required>
-                          <option value="">หมวดหมู่*</option>
-                          <option value="1">ข่าวประชาสัมพันธ์ 1</option>
-                          <option value="2">ข่าวประชาสัมพันธ์ 2</option>
-                          <option value="3">ข่าวประชาสัมพันธ์ 3</option>
-                        </select>
-                        <div class="dropdown-icon border-left bg-black">
-                          <em class="fa-solid fa-chevron-down"></em>
+                      <div class="grid sm-100 mt-4">
+                        <div class="option cate">
+                          <select class="color-gray ui dropdown bg-style-02" required>
+                            <option value="">เลือกหัวข้อ*</option>
+                            <option value="1">ข่าวประชาสัมพันธ์ 1</option>
+                            <option value="2">ข่าวประชาสัมพันธ์ 2</option>
+                            <option value="3">ข่าวประชาสัมพันธ์ 3</option>
+                          </select>
+                          <div class="dropdown-icon">
+                            <em class="fa-solid fa-chevron-down"></em>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="grid sm-100 mt-2">
-                      <div class="form-group">
-                        <textarea class="style-02" name="message" rows="10" class="form-control" 
-                        required="" title="General Textarea" placeholder="รายละเอียด*"></textarea>
-                      </div>
-                    </div>
-                    <div class="grid sm-100 mt-2">
-                      <p class="sm fw-400">แนบรูปภาพ (หากท่านมี) *รูปภาพมีขนาดไฟล์ไม่เกิน 5MB และนามสกุล jpg, jpeg หรือ png</p>
-                      <div class="btn-browse-container mt-2">
-                        <div class="fileUpload btn btn-browse">
-                          <em class="fa-regular fa-folder-open"></em>
-                          <span class="p">Browse...</span>
-                          <input id="uploadBtn" type="file" class="upload" />
+                      <div class="grid sm-100 mt-2">
+                        <div class="form-group">
+                          <textarea class="style-02" name="message" rows="10" class="form-control" 
+                          required="" title="General Textarea" placeholder="พิมพ์ข้อความ*"></textarea>
                         </div>
-                        <input id="uploadFile" class="form-input" />
                       </div>
-                    </div>
-                    <div class="grid lg-50 md-100 sm-100 mt-4">
-                      <div class="captcha">
-                        <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                      <div class="grid sm-100 mt-2">
+                        <div class="ss-card ss-card-31">
+                          <div class="top">
+                            <div class="wrapper">
+                              <div class="item">
+                                <div class="icon">
+                                  <em class="fa-solid fa-arrow-up-from-bracket"></em>
+                                </div>
+                                <p class="color-black-theme fw-500 ml-2">ลากไฟล์และวางลงที่นี้</p>
+                              </div>
+                              <div class="item">
+                                <div class="ss-sep-01 style-02">
+                                  <p class="color-black-theme fw-500">หรือ</p>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="btns jc-end">
+                                  <div class="btn style-03 btn-action btn-13 size-03 btn-white-theme pos-relative">
+                                    เลือกไฟล์
+                                    <input type="file" class="file-upload" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="footer mt-2">
+                            <p class="sm color-black-theme fw-400">ประเภทไฟล์ที่รองรับ PDF, JPG, JPEG, PNG, GIF ขนาดไม่เกิน 5 MB</p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-4">
-                      <div class="grids no-gap">
-                        <div class="grid sm-50 xs-50 mt-0">
-                          <div class="pr-1">
-                            <button type="submit" href="#" class="btn btn-black-theme btn-action width-full mw-auto btn-12">
-                              ส่งข้อความ
+                      <div class="grid sm-100">
+                        <div class="ss-card ss-card-32">
+                          <div class="wrapper box-shadow style-02">
+                            <div class="icon">
+                              <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                            </div>
+                            <div class="text-container">
+                              <p class="title lh-sm fw-500">
+                                ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
+                              </p>
+                              <div class="x-mark">
+                                <em class="fa-solid fa-xmark"></em>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid sm-100 mt-2">
+                        <div class="ss-card ss-card-32">
+                          <div class="wrapper box-shadow style-02">
+                            <div class="icon">
+                              <img src="public/assets/app/images/file/jpg.png" alt="Image File" />
+                            </div>
+                            <div class="text-container">
+                              <p class="title lh-sm fw-500">
+                                บันทึกเบาะแสการทุจริตในวันเลือกตั้ง
+                              </p>
+                              <div class="x-mark">
+                                <em class="fa-solid fa-xmark"></em>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid lg-50 md-100 sm-100 mt-4">
+                        <div class="captcha">
+                          <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-4">
+                        <div class="grids no-gap">
+                          <div class="grid sm-50 xs-50 mt-0">
+                            <div class="pr-1">
+                              <button type="submit" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-13">
+                                ส่งข้อความ
+                              </button>
+                            </div>
+                          </div>
+                          <div class="grid sm-50 xs-50 mt-0">
+                            <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-05">
+                              ยกเลิก
                             </button>
                           </div>
                         </div>
-                        <div class="grid sm-50 xs-50 mt-0">
-                          <button type="cancel" href="#" class="btn btn-black-theme btn-action width-full mw-auto btn-03">
-                            ยกเลิก
-                          </button>
-                        </div>
                       </div>
                     </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
             </div>
-          </div>
         </div> 
       </div>
     </div>

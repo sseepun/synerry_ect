@@ -707,8 +707,94 @@
   .faq-08 .faq .title{width:calc(100% - 2rem); }
   .faq-08 .faq .options{width:100%; padding-left:2rem; justify-content:flex-start; margin-top:1rem;}
 }
-@media screen and (max-width:459.98px){
 
+/* Faq 09 */
+.faq-09{width:100%;}
+.faq-09 .faq{width:100%; margin:.4375rem 0 0 0;}
+.faq-09 .faq > .question{
+  width:100%; display:flex; border:1px solid transparent; height:4.5rem;
+  cursor:pointer; transition:border-color .25s; border-radius:.375rem; overflow:hidden;
+}
+.faq-09 .faq .ftag{
+  width:4rem; height:auto; display:flex; justify-content:center; transition:background .25s;
+  align-items:center; font-weight:600; border-right:1px solid transparent;
+}
+.faq-09 .faq > .question .ftag > .icon{display:flex; justify-content:center; align-items:center;}
+.faq-09 .faq > .question .ftag > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:2.5rem;  
+}
+.faq-09 .faq > .question .title{
+  display:flex; align-items:center; height:auto; width:calc(100% - 9rem);
+  transition:color .25s, background .25s; -webkit-line-clamp:2; padding:1rem 1rem 1rem 1rem; 
+}
+.faq-09 .faq > .question:hover .title{text-decoration:underline;}
+.faq-09 .faq.active > .question:hover .title{text-decoration:none;}
+.faq-09 .faq > .question .chevron-wrapper{
+  width:5rem; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  border-radius:0 .4375rem .4375rem 0; transition:background .25s;
+}
+.faq-09 .faq > .answer{
+  display:none; width:100%; padding:0 2rem; border-top:0; border-radius:0 0 .4375rem .4375rem;
+}
+.faq-09 .faq > .answer .content{border:1px solid transparent; border-top:0; border-radius:0 0 .375rem .375rem;}
+.faq-09 .faq > .answer .content > .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
+.faq-09 .faq > .answer .content > .wrapper .img-container{width:25%; border-radius:.5rem; overflow:hidden;}
+.faq-09 .faq > .answer .content > .wrapper .text-container{width:75%; padding:0 1.5rem;}
+.faq-09 .faq > .answer .arrow-container{position:relative;}
+.faq-09 .faq > .answer .arrow-container img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.5rem; transition:opacity .25s;
+}
+.faq-09 .faq > .answer .arrow-container img.active{position:absolute; opacity:0;}
+.faq-09 .faq > .answer .arrow-container:hover img.active{opacity:1;}
+
+.faq-09 .faq.style-02.active > .question:hover .title{text-decoration:underline;}
+.faq-09 .faq.style-02 > .question .chevron-wrapper > .icon{max-width:1.5rem;  position:relative;}
+.faq-09 .faq.style-02 > .question .chevron-wrapper > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; 
+  height:auto; transition:opacity .25s;
+}
+.faq-09 .faq.style-02 > .question{pointer-events:auto;}
+.faq-09 .faq.style-02 > .question .chevron-wrapper > .icon img.active{position:absolute; top:0; opacity:0;}
+.faq-09 .faq.style-02 > .question:hover .chevron-wrapper > .icon img.active{opacity:1;}
+.faq-09 .faq.style-02 > .question:hover .chevron-wrapper > .icon img.inactive{opacity:0;}
+@media screen and (max-width:767.98px){
+  .faq-09 .faq > .question{height:auto;}
+}
+
+/* Faq 10 */
+.faq-10{min-width:600px;}
+.faq-10 .faq{width:100%; margin:.4375rem 0 0 0;}
+.faq-10 .faq > .question{
+  width:100%; display:flex; border:1px solid transparent; height:4.75rem;
+  cursor:pointer; transition:border-color .25s; border-radius:.375rem; overflow:hidden;
+}
+.faq-10 .faq .ftag{
+  width:5rem; height:auto; display:flex; justify-content:center; transition:background .25s;
+  align-items:center; font-weight:600; border-right:2px solid transparent;
+}
+.faq-10 .faq > .question .ftag > .icon{display:flex; justify-content:center; align-items:center;}
+.faq-10 .faq > .question .ftag > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.375rem;  
+}
+.faq-10 .faq > .question .text-container{
+  height:auto; width:calc(100% - 5rem);
+  transition:background .5s, color .5s; -webkit-line-clamp:2; padding:1rem 0 1rem 1rem; 
+}
+.faq-10 .faq > .question .text-container > .title{-webkit-line-clamp:2;}
+.faq-10 .faq:hover > .question .text-container > .title{text-decoration:underline; transition:color .25s;}
+.faq-10 .faq > .question .text-container > .date-view .wrapper{display:flex; align-items:center;}
+.faq-10 .faq > .question .text-container > .date-view .wrapper > .icon{
+  display:flex; align-items:center; font-size:.375rem; margin-right:.5rem;
+}
+.faq-10 .faq > .question .button-container{display:flex; align-items:center; padding:0 1rem;}
+.faq-10 .faq > .question .button-container > .btn em{
+  margin:.0625rem .125rem 0 .125rem; transition:margin .25s;
+}
+.faq-10 .faq:hover > .question .button-container > .btn em{
+  margin:.0625rem 0 0 .25rem;
+}
+@media screen and (max-width:991.98px){
+  .faq-10 .faq > .question{height:auto;}
 }
 
 /* Post Video */
@@ -729,9 +815,6 @@
 .sitemap-01 .header-title > .icon img{
   display:block; max-width:100%; max-height:100%; width:auto; height:1.875rem;
 }
-
-
-
 .sitemap-01 > .pattern{position:absolute; top:0; left:0; display:block; width:100%; height:auto;}
 .sitemap-01 .btn.btn-action{font-size:1.625rem;}
 .sitemap-01 .sitemap-grids{position:relative; width:100%; display:flex; flex-wrap:wrap;}
@@ -742,6 +825,30 @@
 @media screen and (max-width:767.98px){
     .sitemap-01{padding:1rem 0;}
     .sitemap-01 .sitemap-grid{width:100%;}
+}
+
+/* Sitemap 02 */
+.sitemap-02{position:relative; width:100%; padding:2rem 0;}
+.sitemap-02 .header-title{
+  height:100%; display:flex; align-items:center;
+}
+.sitemap-02 .header-title > .icon{
+  width:2rem; height:2rem; display:flex; justify-content:center; 
+  align-items:center; margin-right:.5rem;
+}
+.sitemap-02 .header-title > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.875rem;
+}
+.sitemap-02 > .pattern{position:absolute; top:0; left:0; display:block; width:100%; height:auto;}
+.sitemap-02 .btn.btn-action{font-size:1.625rem;}
+.sitemap-02 .sitemap-grids{position:relative; width:100%; display:flex; flex-wrap:wrap;}
+.sitemap-02 .sitemap-grid{width:calc(100% / 3); padding:0 1rem;}
+@media screen and (max-width:1199.98px){
+  .sitemap-02 .sitemap-grid{width:50%;}
+}
+@media screen and (max-width:767.98px){
+    .sitemap-02{padding:1rem 0;}
+    .sitemap-02 .sitemap-grid{width:100%;}
 }
 
 /* Intro 15 */

@@ -66,22 +66,41 @@
                     </div>
                   </div>
                   <div class="grid lg-20 md-100 sm-100 mt-0">
-                    <div class="option view">
-                      <div class="wrapper-view">
-                        <a class="icon-view active" href="#">
-                          <img class="icon-active" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
-                          <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
-                        </a>
-                        <a class="icon-view ml-1" href="#">
-                          <img class="icon-active" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
-                          <img class="icon-inactive" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
-                        </a>
+                    <?php if(in_array('views', $sectionOptions)){?>
+                      <div class="option view">
+                        <div class="wrapper-view">
+                          <a class="icon-view active" href="#">
+                            <img class="icon-active" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
+                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
+                          </a>
                           <a class="icon-view ml-1" href="#">
-                          <img class="icon-active" src="public/assets/app/images/icon-svg/rss-inactive.svg" alt="Icon">
-                          <img class="icon-inactive" src="public/assets/app/images/icon-svg/rss-active.svg" alt="Icon">
-                        </a>
+                            <img class="icon-active" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
+                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
+                          </a>
+                            <a class="icon-view ml-1" href="#">
+                            <img class="icon-active" src="public/assets/app/images/icon-svg/rss-inactive.svg" alt="Icon">
+                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/rss-active.svg" alt="Icon">
+                          </a>
+                        </div>
                       </div>
-                    </div>
+                    <?php } else if(in_array('views-02', $sectionOptions)){?>
+                      <div class="option view">
+                        <div class="wrapper-view">
+                          <a class="icon-view disable op-10" href="#">
+                            <img class="icon-active" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
+                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
+                          </a>
+                          <a class="icon-view disable ml-1 op-10" href="#">
+                            <img class="icon-active" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
+                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
+                          </a>
+                            <a class="icon-view ml-1" href="#">
+                            <img class="icon-active" src="public/assets/app/images/icon-svg/rss-inactive.svg" alt="Icon">
+                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/rss-active.svg" alt="Icon">
+                          </a>
+                        </div>
+                      </div>
+                    <?php }?>
                   </div>
                 </div>
               </form>

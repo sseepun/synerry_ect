@@ -44,14 +44,12 @@
           </div>
         </div>
       </div>
-      
       <div class="book-container mt-3" data-aos="fade-up" data-aos-delay="150">
         <div class="wow-book" id="wow-book">
           <?php for($i=0; $i<6; $i++){?>
             <div><img class="img" src="public/assets/app/images/content/6<?= ($i%2+4) ?>.jpg" alt="Page <?= $i ?>" /></div>
           <?php }?>
         </div>
-       
       </div>
       <div class="grids">
         <!-- Left Content -->

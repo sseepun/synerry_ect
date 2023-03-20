@@ -35,7 +35,7 @@
               <div class="question box-shadow style-02">
                 <h3 class="ftag">
                   <div class="icon">
-                    <img src="public/assets/app/images/icon/rss.png" alt="">
+                    <img src="public/assets/app/images/icon/rss.png" alt="RSS">
                   </div>
                 </h3>
                 <div class="text-container">

@@ -85,7 +85,7 @@
                         <div class="grid lg-100 md-100 sm-100 mt-0">
                           <div class="grids">
                             <div class="grid xl-50 lg-100 md-50 sm-100">
-                              <div class="ss-card ss-card-63">
+                              <a class="ss-card ss-card-63" href="#">
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
@@ -115,10 +115,10 @@
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </a>
                             </div>
                             <div class="grid xl-50 lg-100 md-50 sm-100">
-                              <div class="ss-card ss-card-63">
+                              <a class="ss-card ss-card-63" href="#">
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
@@ -146,14 +146,14 @@
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </a>
                             </div>
                           </div>
                         </div>
                         <div class="grid lg-100 md-100 sm-100 mt-0">
                           <div class="grids">
                             <div class="grid xl-50 lg-100 md-50 sm-100">
-                              <div class="ss-card ss-card-63">
+                              <a class="ss-card ss-card-63" href="#">
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
@@ -181,10 +181,10 @@
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </a>
                             </div>
                             <div class="grid xl-50 lg-100 md-50 sm-100">
-                              <div class="ss-card ss-card-63">
+                              <a class="ss-card ss-card-63" href="#">
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
@@ -206,13 +206,13 @@
                                         </div>
                                       </div>
                                       <div class="link-footer mt-1">
-                                        <p class="text sm color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
+                                        <p class="text sm color-05 fw-500 color-white-theme border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
                                         <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </a>
                             </div>
                           </div>
                         </div>

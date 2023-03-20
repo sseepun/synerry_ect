@@ -282,7 +282,8 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-16, .btn.btn-16:focus,
 .btn.btn-20, .btn.btn-20:focus,
 .btn.btn-24, .btn.btn-24:focus{background:#fecb00; color:#000000;}
-.btn.btn-25, .btn.btn-25:focus{background:#000000; color:#fecb00;}
+.btn.btn-25, .btn.btn-25:focus,
+.btn.btn-26, .btn.btn-26:focus{background:#000000; color:#fecb00;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#fecb00; color:#fecb00;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#fecb00!important;}
@@ -553,6 +554,15 @@ input[type="search"]::placeholder{color:#fecb00;}
 /* Faq 08 */
 .faq-08 .faq > .question{background:#000000; color:#fecb00;}
 
+/* Faq 09 */
+.faq-09 .faq > .question{border-color:#000000;}
+.faq-09 .faq > .question .ftag{border-color:#000000; background:#000000;}
+.faq-09 .faq > .answer .content{border-color:#000000;}
+
+/* Faq 10 */
+.faq-10 .faq > .question .ftag{background:#000000;}
+.faq-10 .faq > .question{border-color:#000000;}
+
 /* Form Container 03 */
 .form-container-03 .option .icon-view{border-color:#000000;}
 .form-container-03 .option .icon-view:hover, 
@@ -608,6 +618,14 @@ table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#0000
 table.table.table-download.style-05{background:#fecb00;}
 table.table.table-download.style-05 .table-card{border-color:#000000!important;}
 table.table.table-download.style-05 .button-container{background:#fecb00;}
+
+table.table.table-download.style-06{color:#000000;}
+table.table.table-download.style-06 tr{border-color:#000000!important;}
+table.table.table-download.style-06{background:#fecb00!important;}
+table.table.table-download.style-06 tr > td.download-card{background:#000000;}
+table.table.table-download.style-06 .color-04{color:#000000!important;}
+table.table.table-download.style-06 tr:hover > td.warning-container em,
+table.table.table-download.style-06 tr:hover > td.warning-container a{color:#000000!important;}
 
 /* Tab Container 01 */
 .tab-container .tabs.tabs-01 .tab::after{background:#fecb00;}
@@ -883,7 +901,10 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-62 .card-footer .link-footer > .arrow{color:#fecb00;}
 
 /* Special Card 63 */
-.ss-card-63 .card-footer > .link-footer .text{color:#000000!important; border-color:#000000!important;}
+.ss-card-63 .title{color:#000000!important;}
+.ss-card-63 .card-footer{color:#000000!important;}
+.ss-card-63 .card-footer .color-05{color:#000000!important;}
+.ss-card-63 .card-footer .bcolor-05{border-color:#000000!important;}
 
 /* Special Card 64 */
 .ss-card-64 .wrapper > .img-container .ebook-container::before{background:#e4b703;}
@@ -891,6 +912,6 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-64 .wrapper > .img-container .ebook-container > .wrapper > img{border-color:#fecb00;}
 .ss-card-64 .wrapper > .text-container{border-color:#fecb00;}
 
-
-
+/* Special Card 65 */
+.ss-card-65 .text-container{border-color:#000000; color:#000000;}
 

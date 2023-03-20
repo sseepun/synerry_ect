@@ -5,24 +5,45 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-01.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
       [ 'url' => '#', 'display' => 'โครงสร้างเว็บไซต์' ],
     ];
     $breadcrumbTitle = 'โครงสร้างเว็บไซต์';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/15.jpg';
-    include('component/breadcrumb.php');
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/33.jpg';
+    $formContainer = false;
+    include('component/breadcrumb-style-02.php');
   ?>
 
-  <section class="section-padding section-13" style="background-image:url('public/assets/app/images/bg/25.jpg')">
+  <?php 
+    $content = [
+      [
+        'title' => 'เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
+        การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13',
+        'image' => 'public/assets/app/images/content/84.jpg'
+      ],[
+        'title' => 'เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
+        การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13',
+        'image' => 'public/assets/app/images/content/135.jpg'
+      ]
+    ]
+  ?>
+
+  <section class="section-14">
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
-      <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-        โครงสร้างเว็บไซต์
-      </h3>
-      <div class="sitemap-02">
+      <div class="ss-box bg-white-theme style-02 w-full">
+        <div class="ss-box-shadow xl"></div>
+        <div class="body">
+          <div class="ss-title">
+            <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+              โครงสร้างเว็บไซต์
+            </h3>
+          </div>
+          <div class="sitemap-01">
         <div class="sitemap-grids">
           <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="150">
             <div class="btn btn-action style-03 btn-06 btn-white-theme mt-3">
@@ -184,10 +205,14 @@
           </div>
         </div>
       </div>
+        </div> 
+      </div>
     </div>
   </section>
 
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  </script>
 </body>
 </html>

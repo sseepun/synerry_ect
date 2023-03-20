@@ -87,7 +87,8 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-16, .btn.btn-16:focus,
 .btn.btn-20, .btn.btn-20:focus,
 .btn.btn-24, .btn.btn-24:focus{background:#ffffff; color:#000000;}
-.btn.btn-25, .btn.btn-25:focus{background:#000000; color:#ffffff;}
+.btn.btn-25, .btn.btn-25:focus,
+.btn.btn-26, .btn.btn-26:focus{background:#000000; color:#ffffff;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#ffffff!important;}
@@ -381,6 +382,15 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 /* Faq 08 */
 .faq-08 .faq > .question{background:#000000; color:#ffffff;}
 
+/* Faq 09 */
+.faq-09 .faq > .question{border-color:#000000;}
+.faq-09 .faq > .question .ftag{border-color:#000000; background:rgba(0,0,0,.3);}
+.faq-09 .faq > .answer .content{border-color:#000000;}
+
+/* Faq 10 */
+.faq-10 .faq > .question .ftag{background:#000000;}
+.faq-10 .faq > .question{border-color:#000000;}
+
 /* Form Container 03 */
 .form-container-03 .option .icon-view{background:rgba(0,0,0,.3);}
 .form-container-03 .option .icon-view:hover, 
@@ -454,7 +464,11 @@ table.table.table-download.style-05{background:#ffffff;}
 table.table.table-download.style-05 .table-card{border-color:#000000!important;}
 table.table.table-download.style-05 .button-container{background:#ffffff;}
 
-
+table.table.table-download.style-06{color:#000000;}
+table.table.table-download.style-06 tr{border-color:#000000!important;}
+table.table.table-download.style-06{background:#ffffff!important;}
+table.table.table-download.style-06 tr > td.download-card{background:#000000;}
+table.table.table-download.style-06 .color-04{color:#000000!important;}
 
 
 /* Tab Container 01 */
@@ -769,10 +783,16 @@ select.style-02{background:#ffffff!important;}
 .ss-card-62 .card-footer .link-footer > .arrow{color:#ffffff;}
 
 /* Special Card 63 */
-.ss-card-63 .card-footer > .link-footer .text{color:#000000!important; border-color:#000000!important;}
+.ss-card-63 .title{color:#000000!important;}
+.ss-card-63 .card-footer{color:#000000!important;}
+.ss-card-63 .card-footer .color-05{color:#000000!important;}
+.ss-card-63 .card-footer .bcolor-05{border-color:#000000!important;}
 
 /* Special Card 64 */
 .ss-card-64 .wrapper > .img-container .ebook-container::before{background:#e9e9e9;}
 .ss-card-64 .wrapper > .img-container .ebook-container::after{background:#ffffff;}
 .ss-card-64 .wrapper > .img-container .ebook-container > .wrapper > img{border-color:#ffffff;}
 .ss-card-64 .wrapper > .text-container{border-color:#ffffff;}
+
+/* Special Card 65 */
+.ss-card-65 .text-container{border-color:#000000; color:#000000;}
