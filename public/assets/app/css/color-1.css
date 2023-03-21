@@ -93,7 +93,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#ffffff!important;}
 
-
+.btn.btn-05.btn-white-theme, .btn.btn-05:focus.btn-white-theme,
 .btn.btn-13, .btn.btn-13:focus.btn-white-theme{background:#000000!important; color:#ffffff!important;}
 
 
@@ -157,7 +157,9 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 /* Client 02 */
 .client-02 .swiper-pagination-bullet{background:#ffffff;}
 
+/* Dropdown */
 .dropdown-icon{border-color:#ffffff!important;}
+.dropdown-icon.style-02{background:#000000; color:#ffffff;}
 
 /* Election Commission */
 .election-commission-container .header{background:#000000; color:#ffffff;}
@@ -326,6 +328,15 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
   rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,0));
 }
 
+/* Form */
+.form.style-01 .form-footer{border-color:#000000;}
+.form.style-01 input[type='email']{border-color:#000000!important;}
+.form.style-02 select{background:#dddddd!important; color:#000000!important;}
+.form.style-02 input[type=text], .form.style-02 textarea{
+  background:#dddddd!important; border-color:#000000!important;
+}
+.form.style-02 ::placeholder{color:#000000!important;}
+.form.style-02 .ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#000000;}
 
 /* Form check container */
 .form-check-container{border-color:#ffffff;}
@@ -336,6 +347,10 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .form-check-container-02  input:checked ~ .checkmark{background:#000000!important;}
 .form-check-container .checkmark:after,
 .form-check-container-02 .checkmark:after{border-color:#ffffff;}
+
+.form-check-container-03 .checkmark{background:#000000;}
+.form-check-container-03  input:checked ~ .checkmark{background:#000000!important;}
+.form-check-container-03 .checkmark:after{border-color:#ffffff;}
 
 /* Faq 01 */
 .faq-01 .faq > .question{border-color:#ffffff;}
@@ -371,13 +386,14 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .faq-06 .faq .checkbox-set > .checkmark::before, .faq-06 .faq .checkbox-set > .checkmark::after{border-color:#000000;}
 
 /* Faq 07 */
-.faq-07 .faq .arrow-container{background:#000000;}
+.faq-07 .faq .arrows-container{background:#000000;}
 .faq-07 .faq > .question{border-color:#000000;}
 .faq-07 .faq .arrow::before, .faq-07 .faq .arrow::after{background:#ffffff;}
 .faq-07 .faq tbody{background:#ffffff;}
 .faq-07 .faq > .answer .content > .wrapper .text-container a{color:#000000!important;}
 .faq-07 .faq .text-container > .analysis-results .wrapper{color:#000000!important;}
 .faq-07 .faq > .answer .content > .wrapper .content-left{background:#000000; color:#ffffff;}
+.faq-07 .faq > .answer .content{border-color:#000000;}
 
 /* Faq 08 */
 .faq-08 .faq > .question{background:#000000; color:#ffffff;}
@@ -709,6 +725,9 @@ select.style-02{background:#ffffff!important;}
 .ss-card-32{border-color:#ffffff;}
 .ss-card-32 .wrapper > .text-container .title{color:#000000;}
 .ss-card-32 .wrapper > .text-container .x-mark{background:#000000; color:#ffffff;}
+.ss-card-32.mini-site .wrapper > .icon{background:#000000;}
+.ss-card-32.mini-site .wrapper > .text-container .title{color:#000000!important;}
+.ss-card-32.mini-site{border-color:#000000!important; background:#dddddd;}
 
 .ss-card-32.style-02 .wrapper > .text-container .title{color:#ffffff;}
 .ss-card-32.style-02 .wrapper{border-color:#ffffff!important;}
@@ -796,3 +815,13 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Card 65 */
 .ss-card-65 .text-container{border-color:#000000; color:#000000;}
+
+/* Special Card 67 */
+.ss-card-67{border-color:#000000; background:#dddddd;}
+.ss-card-67 .wrapper > .icon{background:#000000;}
+.ss-card-67 .wrapper > .icon em{background:#ffffff;}
+.ss-card-67 .text-container > .social-list .icon:hover{background:#000000;}
+
+/* Special Card 68 */
+.ss-card-68{border-color:#000000; background:#dddddd;}
+.ss-card-68 .top > .wrapper .item:nth-child(1) > .icon{background:#000000; color:#ffffff;}

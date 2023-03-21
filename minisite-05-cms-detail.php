@@ -18,7 +18,6 @@
     $sectionOptions = [ 'views', 'rss' ];
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
-    $tagContainerStyle = 'style-02'
   ?>
 
   <?php 
@@ -117,7 +116,10 @@
                 <?php }?>
               </div>
 
-              <?php include('component/tags-container.php'); ?>
+              <?php 
+                $tagContainerStyle = 'style-02';
+                include('component/tags-container.php'); 
+              ?>
             
               <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
                 ไฟล์ที่เกี่ยวข้อง

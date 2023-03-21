@@ -288,7 +288,9 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#fecb00!important;}
 
+
 .btn.btn-02:hover{background:#fecb00!important; color:#000000!important;}
+.btn.btn-05.btn-white-theme, .btn.btn-05:focus.btn-white-theme,
 .btn.btn-13, .btn.btn-13:focus.btn-white-theme{background:#000000!important; color:#fecb00!important;}
 
 .btn.btn-03.btn-black-theme, .btn.btn-03.btn-black-theme:focus{background:#000000; color:#fecb00;}
@@ -489,6 +491,7 @@ input[type="search"]::placeholder{color:#fecb00;}
 
 /* Dropdown */
 .dropdown-icon{background:#fecb00; color:#000000;}
+.dropdown-icon.style-02{background:#d3a901; color:#ffffff;}
 
 /* List Header 02 */
 .list-header.style-02 .option > select{background:#000000!important; border-color:#fecb00;}
@@ -508,6 +511,11 @@ input[type="search"]::placeholder{color:#fecb00;}
 .form-check-container-02  input:checked ~ .checkmark{background:#000000!important;}
 .form-check-container .checkmark:after,
 .form-check-container-02 .checkmark:after{border-color:#fecb00;}
+
+
+.form-check-container-03 .checkmark{background:#000000;}
+.form-check-container-03  input:checked ~ .checkmark{background:#000000!important;}
+.form-check-container-03 .checkmark:after{border-color:#fecb00;}
 
 /* Faq 01 */
 .faq-01 .faq > .question{border-color:#fecb00;}
@@ -543,13 +551,14 @@ input[type="search"]::placeholder{color:#fecb00;}
 .faq-06 .faq .checkbox-set > .checkmark::before, .faq-06 .faq .checkbox-set > .checkmark::after{border-color:#000000;}
 
 /* Faq 07 */
-.faq-07 .faq .arrow-container{background:#000000;}
+.faq-07 .faq .arrows-container{background:#000000;}
 .faq-07 .faq > .question{border-color:#000000;}
 .faq-07 .faq .arrow::before, .faq-07 .faq .arrow::after{background:#fecb00;}
 .faq-07 .faq tbody{background:#fecb00;}
 .faq-07 .faq > .answer .content > .wrapper .text-container a{color:#000000!important;}
 .faq-07 .faq .text-container > .analysis-results .wrapper{color:#000000!important;}
 .faq-07 .faq > .answer .content > .wrapper .content-left{background:#000000; color:#fecb00;}
+.faq-07 .faq > .answer .content{border-color:#000000;}
 
 /* Faq 08 */
 .faq-08 .faq > .question{background:#000000; color:#fecb00;}
@@ -562,6 +571,16 @@ input[type="search"]::placeholder{color:#fecb00;}
 /* Faq 10 */
 .faq-10 .faq > .question .ftag{background:#000000;}
 .faq-10 .faq > .question{border-color:#000000;}
+
+/* Form */
+.form.style-01 .form-footer{border-color:#000000;}
+.form.style-01 input[type='email']{border-color:#000000!important;}
+.form.style-02 select{background:#000000!important; color:#fecb00!important;}
+.form.style-02 input[type=text], .form.style-02 textarea{
+  background:#000000!important; border-color:#d3a901!important;
+}
+.form.style-02 ::placeholder{color:#fecb00!important;}
+.form.style-02 .ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#000000;}
 
 /* Form Container 03 */
 .form-container-03 .option .icon-view{border-color:#000000;}
@@ -832,6 +851,11 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-32.style-02 .wrapper{border-color:#fecb00!important;}
 .ss-card-32.style-02 .wrapper > .text-container .x-mark{background:#fecb00; color:#000000;}
 
+.ss-card-32.mini-site .wrapper > .icon{background:#000000;}
+.ss-card-32.mini-site .wrapper > .text-container .title{color:#000000!important;}
+.ss-card-32.mini-site{border-color:#000000!important;}
+.ss-card-32.mini-site .wrapper > .text-container .x-mark{background:#000000; color:#fecb00;}
+
 /* Special Card 33 */
 .ss-card-33{border-color:#000000; color:#000000;}
 
@@ -851,7 +875,6 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-37 .text-container{border-color:#fecb00;}
 .ss-card-37 .card-footer .link-footer > .arrow{color:#fecb00;}
 
-/* Special Card 38 */
 /* Special Card 38 */
 .ss-card-38 .wrapper > .text-container{border-color:#fecb00;}
 .ss-card-38 .wrapper > .text-container .title, .ss-card-38 .card-footer .wrapper,
@@ -914,4 +937,14 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Special Card 65 */
 .ss-card-65 .text-container{border-color:#000000; color:#000000;}
+
+/* Special Card 67 */
+.ss-card-67{border-color:#000000;}
+.ss-card-67 .wrapper > .icon{background:#000000;}
+.ss-card-67 .wrapper > .icon em{background:#fecb00;}
+.ss-card-67 .text-container > .social-list .icon:hover{background:#000000;}
+
+/* Special Card 68 */
+.ss-card-68{border-color:#000000;}
+.ss-card-68 .top > .wrapper .item:nth-child(1) > .icon{background:#000000; color:#fecb00;}
 

@@ -18,7 +18,6 @@
     $sectionOptions = [ 'views', 'rss' ];
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
-    $tagContainerStyle = 'style-02'
   ?>
 
   <?php 
@@ -149,7 +148,10 @@
                   ดาวน์โหลดทั้งหมด (30)
                 </a>
               </div>
-              <?php include('component/tags-container.php'); ?>
+              <?php 
+                $tagContainerStyle = 'style-02';
+                include('component/tags-container.php'); 
+              ?>
             </div>
             <!-- Right Content -->
             <div class="grid xl-30 lg-40 md-1-3 sm-100">

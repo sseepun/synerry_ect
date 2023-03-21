@@ -14,8 +14,8 @@
     ];
     $breadcrumbTitle = 'ภาพกิจกรรม';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/29.jpg';
-    $sectionOptions = [ 'views', 'rss' ];
     $formContainer = true;
+    $sectionOptions = [ 'option-01', 'views' ];
     include('component/breadcrumb-style-02.php');
   ?>
 

@@ -27,6 +27,7 @@
             <?php if($formContainer === true){?>
               <form class="form-container-03">
                 <div class="grids">
+                <?php if(in_array('option-01', $sectionOptions)){?>
                   <div class="grid lg-35 md-40 sm-100 mt-0">
                     <div class="option search">
                       <div class="ui icon input">
@@ -65,6 +66,32 @@
                       </div>
                     </div>
                   </div>
+                  <?php } else if(in_array('option-02', $sectionOptions)){?>
+                    <div class="grid lg-35 md-50 sm-100 mt-0">
+                      <div class="option search">
+                        <div class="ui icon input">
+                          <input class="size-03" id="search" type="search" placeholder="ค้นหา">
+                          <em class="icon size-02 style-03 fa-solid fa-magnifying-glass"></em>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid lg-45 md-50 sm-100 mt-0">
+                      <div class="grids">
+                        <div class="grid lg-60 sm-100 mt-0">
+                          <div class="option">
+                            <select class="ui dropdown border">
+                              <option value="0">เลือกหมวดหมู่</option>
+                              <option value="1">ข่าวประชาสัมพันธ์ 1</option>
+                              <option value="2">ข่าวประชาสัมพันธ์ 2</option>
+                              <option value="3">ข่าวประชาสัมพันธ์ 3</option>
+                            </select>
+                            <div class="dropdown-icon border size-02">
+                              <em class="fa-solid fa-chevron-down"></em>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  <?php } ?>
                   <div class="grid lg-20 md-100 sm-100 mt-0">
                     <?php if(in_array('views', $sectionOptions)){?>
                       <div class="option view">

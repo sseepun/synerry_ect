@@ -15,10 +15,8 @@
     ];
     $breadcrumbTitle = 'วิดีโอ';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/30.jpg';
-    $sectionOptions = [ 'views', 'rss' ];
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
-    $tagContainerStyle = 'style-02'
   ?>
 
   <?php 
@@ -89,7 +87,10 @@
                 </p>
               </div>
 
-              <?php include('component/tags-container.php'); ?>
+              <?php 
+                $tagContainerStyle = 'style-02';
+                include('component/tags-container.php'); 
+              ?>
             
               <div class="d-flex jc-space-between ai-center fw-wrap">
                 <h4 class="title fw-600 mt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">

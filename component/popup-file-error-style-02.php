@@ -42,6 +42,15 @@
             </div>
           </div>
         <?php }?>
+        <?php if(in_array('enews-cancel', $listResult)) {?>
+          <h6 class="h4 fw-400">ยกเลิกสำเร็จ</h6>
+          <p>ระบบได้ดำเนินการยกเลิกรับข่าวสารของคุณเรียบร้อยแล้ว</p>
+          <div class="btns mt-2">
+            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+              <span>ตกลง</span><div class="sep"></div>
+            </div>
+          </div>
+        <?php }?>
       </div>
     </div>
   </div>

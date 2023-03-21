@@ -14,7 +14,7 @@
     ];
     $breadcrumbTitle = 'คำวินิจฉัยคณะกรรมการการเลือกตั้ง';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/35.jpg';
-    $sectionOptions = [ ''];
+    $sectionOptions = ['option-02'];
     $formContainer = true;
     include('component/breadcrumb-style-02.php');
   ?>
