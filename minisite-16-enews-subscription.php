@@ -106,6 +106,7 @@
                         สมัครรับข่าวสาร
                       </button>
                       <button type="cancel" href="#" class="btn btn-white-theme btn-action btn-05 size-03">
+                        ยกเลิก
                       </button>
                     </div>
                   </div>

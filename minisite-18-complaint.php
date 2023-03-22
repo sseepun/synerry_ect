@@ -10,11 +10,10 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ข่าวสาร/ประชาสัมพันธ์' ],
+      [ 'url' => '#', 'display' => 'ศูนย์รับเรื่องร้องเรียน' ],
     ];
     $breadcrumbTitle = 'ศูนย์รับเรื่องร้องเรียน';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/20.jpg';
-    $sectionOptions;
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/40.jpg';
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
   ?>
@@ -55,7 +54,7 @@
               </div>
             </div>
             <!-- FORM -->
-            <div class="form-container-01  box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
+            <div class="form-container-01 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
               <div class="grids">
                 <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
                   <h3 class="color-black-theme fw-600">แบบฟอร์มรับเรื่อง</h3>
@@ -63,12 +62,9 @@
                     กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย
                     <span class="text-danger fw-400 ml-1">*</span>
                   </p>
-                  <div class="img-container">
-                    <img src="public/assets/app/images/content/02.png" alt="Message">
-                  </div>
                 </div>
                 <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
-                  <form action="action.php" method="post">
+                  <form class="form style-02" action="action.php" method="post">
                     <div class="grids">
                       <div class="grid sm-50 mt-0">
                         <div class="form-group">
@@ -106,7 +102,7 @@
                             <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                             <option value="3">ข่าวประชาสัมพันธ์ 3</option>
                           </select>
-                          <div class="dropdown-icon">
+                          <div class="dropdown-icon style-02">
                             <em class="fa-solid fa-chevron-down"></em>
                           </div>
                         </div>
@@ -118,7 +114,7 @@
                         </div>
                       </div>
                       <div class="grid sm-100 mt-2">
-                        <div class="ss-card ss-card-31">
+                        <div class="ss-card ss-card-68">
                           <div class="top">
                             <div class="wrapper">
                               <div class="item">
@@ -148,7 +144,7 @@
                         </div>
                       </div>
                       <div class="grid sm-100">
-                        <div class="ss-card ss-card-32">
+                        <div class="ss-card ss-card-32 mini-site">
                           <div class="wrapper box-shadow style-02">
                             <div class="icon">
                               <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
@@ -156,23 +152,6 @@
                             <div class="text-container">
                               <p class="title lh-sm fw-500">
                                 ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
-                              </p>
-                              <div class="x-mark">
-                                <em class="fa-solid fa-xmark"></em>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="grid sm-100 mt-2">
-                        <div class="ss-card ss-card-32">
-                          <div class="wrapper box-shadow style-02">
-                            <div class="icon">
-                              <img src="public/assets/app/images/file/jpg.png" alt="Image File" />
-                            </div>
-                            <div class="text-container">
-                              <p class="title lh-sm fw-500">
-                                บันทึกเบาะแสการทุจริตในวันเลือกตั้ง
                               </p>
                               <div class="x-mark">
                                 <em class="fa-solid fa-xmark"></em>
@@ -212,7 +191,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-style-04.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <script>

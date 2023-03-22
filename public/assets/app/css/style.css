@@ -112,6 +112,10 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
   width:100%; height:100%; opacity:0; cursor:pointer;
 }
 
+.btns .btn-26{transition:background .25s, border .25s;}
+.btns .btn-26 > em{margin:.0625rem .125rem 0 .125rem; transition:margin .25s;}
+.btns:hover .btn-26 > em{margin:.0625rem 0 0 .25rem;}
+
 .btn.btn-action{
   display:block; font-size:1rem; font-weight:400; outline:none; box-shadow:none;
   white-space:nowrap; border:.125rem solid transparent; padding:.375rem 1.25rem .25rem 1.25rem;
@@ -351,9 +355,20 @@ textarea.style-02{border-radius:.4375rem;}
 
 .form.style-02 select:focus{outline:none!important;}
 .form.style-02 textarea{border:1px solid transparent;}
-@media screen and (max-width:1299.98px){
-  .form.style-02 .btns{justify-content:center;}
+
+@media screen and (max-width:767.98px){
+  .form.style-03 .form-group,
+  .form.style-03 .form-group > .pw-title{margin-top:0!important;}
+  .form.style-03 .captcha-container, .form.style-03 .btns{justify-content:center;}
 }
+@media screen and (max-width:767.98px){
+  .form.style-04 .form-group,
+  .form.style-04 .form-group > .pw-title{margin-top:0!important;}
+  .form.style-04 .captcha-container{flex-wrap:wrap;}
+  .form.style-04 .captcha-container img{margin:0 auto;}
+  .form.style-04 .captcha-container > .btns{justify-content:center;}
+}
+
 
 
 /* Input Form Group */
@@ -581,6 +596,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 
 
+
 /* CK Editor */
 .ckeditor{display:block; position:relative; width:100%;}
 .ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar{border:0;}
@@ -715,7 +731,7 @@ fieldset{padding:0; margin:0; border:0;}
   .list-header.style-02 .option.search{width:33.33%;}
   .list-header.style-02 .option.cate,
   .list-header.style-02 .option.order{width:33.33%;}
-  .list-header.style-02 .option.view{width:100%; margin-top:1rem;}
+  .list-header.style-02 .option.view{width:100%; margin-top:1rem; justify-content:center;}
 
   .list-header.style-02 .option.search.size-02{width:33.33%;}
   .list-header.style-02 .option.cate.size-02,
@@ -889,7 +905,7 @@ fieldset{padding:0; margin:0; border:0;}
 .list-style-02 li:before{
   position:absolute; top:.5rem; left:-1.5rem; content:""; width:.6875rem; height:.25rem; 
 }
-.list-style-02.size-02 li:before{top:.6875rem; width:.5625rem; height:.125rem;}
+.list-style-02.size-02 li:before{top:.875rem; width:.5625rem; height:.125rem;}
 
 .list-style-03{padding:0; margin:0;}
 .list-style-03 li{position:relative; list-style:none; padding:.1875rem 0 .1875rem 1rem;}
@@ -1251,6 +1267,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-box.xl{max-width:44rem;}
 .ss-box.xxl{max-width:50rem;}
 .ss-box.xxl.size-02{max-width:46rem;}
+.ss-box.xxl.size-03{max-width:60rem;}
 .ss-box > .header, .ss-box > .body{
     display:block; position:relative; width:100%; padding:1.25rem 1.75rem;
 }
@@ -1662,7 +1679,7 @@ table.table.table-download.style-04 td:nth-child(1){
 }
 table.table.table-download.style-04 .download-card{width:5rem; height:100%;}
 
-table.table .table-card-01{border-radius:.375rem;}
+table.table .table-card-01{border-radius:.375rem; overflow:hidden;}
 table.table .table-card-01{cursor:pointer;}
 
 
@@ -1829,6 +1846,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .flex-column{flex-direction:column!important;}
 @media screen and (max-width:991.98px){
   .jc-start-md{justify-content:flex-start!important;}
+  .flex-column-reverse.md{flex-direction:column-reverse;}
 }
 @media screen and (max-width:767.98px){
   .flex-column-reverse.sm{flex-direction:column-reverse;}
@@ -2117,8 +2135,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 .ss-card .btn-play > .img-container img.active{position:absolute; top:0; opacity:0;}
 .ss-card:hover .btn-play > .img-container img.active{opacity:1;}
-.ss-card .btn-26 > em{margin:.0625rem .125rem 0 .25rem; transition:margin .25s;}
-.ss-card:hover .btn-26 > em{margin:.0625rem 0 0 .5rem;}
+.ss-card .btn-26{transition:background .25s, border .25s;}
+.ss-card .btn-26 > em{margin:.0625rem .125rem 0 .125rem; transition:margin .25s;}
+.ss-card:hover .btn-26 > em{margin:.0625rem 0 0 .25rem;}
 
 /* Special Card 01 */
 .ss-card-01{position:relative; overflow:hidden; border-radius:.375rem;}
@@ -2649,7 +2668,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 /* Special Card 30 */
 .ss-card-30{position:relative;}
 .ss-card-30 .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
-.ss-card-30 .wrapper > .img-container{width:40%; border-radius:.875rem; overflow:hidden;}
+.ss-card-30 .wrapper > .img-container{width:40%; border-radius:.25rem; overflow:hidden;}
 .ss-card-30 .wrapper > .text-container{width:60%; padding-left:3rem;}
 .ss-card-30 .wrapper > .img-container.size-02,
 .ss-card-30 .wrapper > .text-container.size-02{width:50%;}
@@ -3543,3 +3562,37 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ss-card-68 .top > .wrapper .item:nth-child(3) > .btns{justify-content:center!important;}
   .ss-card-68 .ss-sep-01{width:8rem; margin:0.875rem auto;}
 }
+
+/* Special Card 69 */
+.ss-card-69{padding:1rem; border-radius:.25rem;}
+.ss-card-69 .wrapper{display:flex; align-items:center;}
+.ss-card-69 .wrapper > .icon{width:2rem;}
+.ss-card-69 .wrapper > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.5rem;
+}
+.ss-card-69 .text-container{
+  display:flex; align-items:center; justify-content:space-between; 
+  padding-left:1rem; width:calc(100% - 2rem);
+}
+.ss-card-69 .text-container > .arrow{
+  width:1.5rem; height:1.5rem; 
+  display:flex; justify-content:center; align-items:center;
+}
+ .ss-card-69 .text-container > .arrow em{
+  margin:.0625rem .125rem 0 .25rem; transition:margin .25s; width:1.5rem;
+}
+.ss-card-69:hover .text-container > .arrow em{margin:.0625rem 0 0 .5rem;}
+/* @media screen and (max-width:767.98px){
+  .ss-card-69 .wrapper{flex-direction:column;}
+} */
+/* @media screen and (max-width:1299.99px){
+  .ss-card-69{width:80%;}
+}
+@media screen and (max-width:1199.99px){
+  .ss-card-69{width:90%;}
+}
+@media screen and (max-width:991.98px){
+  .ss-card-69{width:100%;}
+  .ss-card-69 .text-container{padding-left:.5rem;}
+}
+ */

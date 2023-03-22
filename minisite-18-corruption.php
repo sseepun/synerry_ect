@@ -10,12 +10,10 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ข่าวสาร/ประชาสัมพันธ์' ],
+      [ 'url' => '#', 'display' => 'ข่าวสาร/ศูนย์รับเรื่องร้องเรียน' ],
     ];
-    $breadcrumbTitle = 'แจ้งเบาะแสทุจริตการเลือกตั้ง';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/21.jpg';
-    $sectionOptions;
-    $sectionOptions;
+    $breadcrumbTitle = 'ศูนย์รับเรื่องร้องเรียน';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/40.jpg';
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
   ?>
@@ -50,7 +48,8 @@
                       สำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดทุกจังหวัด
                     </li>
                     <li class="fw-400 mt-2">
-                      ฝ่ายปฏิบัติการข่าว โทร. 02-141-8050 หรือ 02-141-8201 หรือ 02-141-2611
+                      ฝ่ายปฏิบัติการข่าว โทร. <span class="fw-600">02-141-8050</span> หรือ 
+                      <span class="fw-600">02-141-8201</span> หรือ <span class="fw-600">02-141-2611</span>
                     </li>
                     <li class="fw-400 mt-2">
                       สายด่วน กกต. โทร. 1444 กด 2
@@ -100,7 +99,7 @@
                 </ul>
               </div>
               <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
-                <form action="action.php" method="post">
+                <form class="form style-02" action="action.php" method="post">
                   <div class="grids">
                     <div class="grid sm-50 mt-0">
                       <div class="form-group">
@@ -138,7 +137,7 @@
                           <option value="2">ข่าวประชาสัมพันธ์ 2</option>
                           <option value="3">ข่าวประชาสัมพันธ์ 3</option>
                         </select>
-                        <div class="dropdown-icon bg-black border-left">
+                        <div class="dropdown-icon style-02">
                           <em class="fa-solid fa-chevron-down"></em>
                         </div>
                       </div>
@@ -150,14 +149,50 @@
                       </div>
                     </div>
                     <div class="grid sm-100 mt-2">
-                      <p class="sm fw-400">แนบรูปภาพ (หากท่านมี) *รูปภาพมีขนาดไฟล์ไม่เกิน 5MB และนามสกุล jpg, jpeg หรือ png</p>
-                      <div class="btn-browse-container mt-2">
-                        <div class="fileUpload btn btn-browse">
-                          <em class="fa-regular fa-folder-open"></em>
-                          <span class="p">Browse...</span>
-                          <input id="uploadBtn" type="file" class="upload" />
+                      <div class="ss-card ss-card-68">
+                        <div class="top">
+                          <div class="wrapper">
+                            <div class="item">
+                              <div class="icon">
+                                <em class="fa-solid fa-arrow-up-from-bracket"></em>
+                              </div>
+                              <p class="color-black-theme fw-500 ml-2">ลากไฟล์และวางลงที่นี้</p>
+                            </div>
+                            <div class="item">
+                              <div class="ss-sep-01 style-02">
+                                <p class="color-black-theme fw-500">หรือ</p>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="btns jc-end">
+                                <div class="btn style-03 btn-action btn-13 size-03 btn-white-theme pos-relative">
+                                  เลือกไฟล์
+                                  <input type="file" class="file-upload" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <input id="uploadFile" class="form-input" />
+                        <div class="footer mt-2">
+                          <p class="sm color-black-theme fw-400">ประเภทไฟล์ที่รองรับ PDF, JPG, JPEG, PNG, GIF ขนาดไม่เกิน 50 MB</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid sm-100">
+                      <div class="ss-card ss-card-32 mini-site">
+                        <div class="wrapper box-shadow style-02">
+                          <div class="icon">
+                            <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                          </div>
+                          <div class="text-container">
+                            <p class="title lh-sm fw-500">
+                              ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
+                            </p>
+                            <div class="x-mark">
+                              <em class="fa-solid fa-xmark"></em>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="grid lg-50 md-100 sm-100 mt-4">
@@ -167,18 +202,18 @@
                     </div>
                     <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-4">
                       <div class="grids no-gap">
-                        <div class="grid sm-50 xs-50 mt-0">
-                          <div class="pr-1">
-                            <button type="submit" href="#" class="btn btn-black-theme btn-action width-full mw-auto btn-12">
-                              ส่งข้อความ
+                          <div class="grid sm-50 xs-50 mt-0">
+                            <div class="pr-1">
+                              <button type="submit" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-13">
+                                ส่งข้อความ
+                              </button>
+                            </div>
+                          </div>
+                          <div class="grid sm-50 xs-50 mt-0">
+                            <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-05">
+                              ยกเลิก
                             </button>
                           </div>
-                        </div>
-                        <div class="grid sm-50 xs-50 mt-0">
-                          <button type="cancel" href="#" class="btn btn-black-theme btn-action width-full mw-auto btn-03">
-                            ยกเลิก
-                          </button>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -191,7 +226,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-style-04.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <script>

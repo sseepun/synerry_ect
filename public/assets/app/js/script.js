@@ -738,7 +738,7 @@ function ssPageProcess(){
                     parent.removeClass('active');
                     parent.find('> .answer').slideUp();
                 }else{
-                    self.html('ปิดแบบสอบถาม');
+                    self.html('ปิด');
                     parent.addClass('active');
                     parent.find('> .answer').slideDown();
                 }

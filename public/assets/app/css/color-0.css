@@ -200,6 +200,7 @@ html, body, table.table{color:#000000;}
 .btn.btn-25:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 .btn.btn-26, .btn.btn-26:focus{color:#ffffff; background:#7cc5b5; border-color:#7cc5b5;}
+.btns:hover .btn-26{background:#303031; border-color:#303031;}
 
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
@@ -234,6 +235,9 @@ html, body, table.table{color:#000000;}
 /* Buttons Group */
 .buttons-group{border-color:#eeeeee;}
 .buttons-group .wrapper > .icon-container em{color:#30906a;}
+
+/* Chart */
+.chart-container.style-01 .chart text{fill:#000000!important;}
 
 /* Calendar */
 .calendar-header .wrapper > .text{background:#eeeeee;}
@@ -347,7 +351,7 @@ html, body, table.table{color:#000000;}
 .form-check-container{border-color:#eeeeee;}
 .form-check-container.active{background:#eeeeee;}
 .form-check-container .checkmark,
-.form-check-container-02 .checkmark{ background:#ffffff; border-color:#2e603c;}
+.form-check-container-02 .checkmark{background:#ffffff; border-color:#2e603c;}
 .form-check-container  input:checked ~ .checkmark,
 .form-check-container-02  input:checked ~ .checkmark{background-color:#2e603c!important;}
 .form-check-container .checkmark:after,
@@ -445,8 +449,10 @@ html, body, table.table{color:#000000;}
 /* Faq 08 */
 .faq-08 .faq > .question{background:#f2f2f2;}
 .faq-08 .faq:hover > .question,
-.faq-08 .faq.active > .question{background:#10563a; border-color:#10563a;}
+.faq-08 .faq.active > .question{background:#8c6961; border-color:#8c6961;}
+.faq-08 .faq:hover > .question .title{color:#ffffff;}
 .faq-08 .faq:hover > .question .title, .faq-08 .faq:hover > .question .ftag,
+.faq-08 .faq > .answer .content{border-color:#3aa57b;}
 .faq-08 .faq.active > .question .title{color:#ffffff;}
 .faq-08 .faq > .question h6{color:#222325;}
 .faq-08 .faq > .question .ftag{color:#2e603c;}
@@ -459,6 +465,8 @@ html, body, table.table{color:#000000;}
 .faq-08 .faq .arrow > .wrapper em{color:#fef200;}
 .faq-08 .faq .date-view > .wrapper .icon > em{color:#2e603c;}
 .faq-08 .faq.active .date-view > .wrapper .icon > em{color:#ffffff;}
+.faq-08 .per-container > p:nth-child(1){color:#3aa57b;}
+.faq-08 .faq.active .options .btn{background:transparent!important; border-color:#ffffff!important;}
 
 /* Faq 09 */
 .faq-09 .faq > .question .ftag{background:#8c6961;}
@@ -1578,3 +1586,7 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 /* Special Card 68 */
 .ss-card-68{background:#eeeeee; border-color:#2d5e3b;}
 .ss-card-68 .top > .wrapper .item:nth-child(1) > .icon{background:#7cc5b5; color:#ffffff;}
+
+/* Special Card 69 */
+.ss-card-69 .text-container > .arrow{color:#ffffff;}
+.ss-card-69{background:#7cc5b5;}

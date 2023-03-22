@@ -222,7 +222,7 @@
               ข่าวล่าสุด
             </h5> 
             <?php foreach($lastestnews as $d) {?>
-              <a class="ss-card ss-card-12" href="#" data-aos="fade-up" data-aos-delay="300">
+              <a class="ss-card ss-card-12 mb-3" href="#" data-aos="fade-up" data-aos-delay="300">
                 <div class="ss-img">
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                   <div class="filter style-02">

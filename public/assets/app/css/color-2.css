@@ -292,6 +292,7 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-02:hover{background:#fecb00!important; color:#000000!important;}
 .btn.btn-05.btn-white-theme, .btn.btn-05:focus.btn-white-theme,
 .btn.btn-13, .btn.btn-13:focus.btn-white-theme{background:#000000!important; color:#fecb00!important;}
+.btn.btn-13:focus.bcolor-white-theme{border-color:#fecb00!important;}
 
 .btn.btn-03.btn-black-theme, .btn.btn-03.btn-black-theme:focus{background:#000000; color:#fecb00;}
 .btn.btn-04, .btn.btn-04:focus{background:#000000; color:#fecb00;}
@@ -562,6 +563,8 @@ input[type="search"]::placeholder{color:#fecb00;}
 
 /* Faq 08 */
 .faq-08 .faq > .question{background:#000000; color:#fecb00;}
+.faq-08 .faq > .answer .content{border-color:#000000;}
+.faq-08 .faq.active .options .btn{border-color:#fecb00!important;}
 
 /* Faq 09 */
 .faq-09 .faq > .question{border-color:#000000;}
@@ -576,11 +579,16 @@ input[type="search"]::placeholder{color:#fecb00;}
 .form.style-01 .form-footer{border-color:#000000;}
 .form.style-01 input[type='email']{border-color:#000000!important;}
 .form.style-02 select{background:#000000!important; color:#fecb00!important;}
-.form.style-02 input[type=text], .form.style-02 textarea{
+.form.style-02 input[type=text], .form.style-02 textarea, .form.style-02 input[type=password],
+.form.style-02 input[type=email]{
   background:#000000!important; border-color:#d3a901!important;
 }
 .form.style-02 ::placeholder{color:#fecb00!important;}
 .form.style-02 .ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#000000;}
+.form.style-02.style-02 .password-level > .levels > *{border-color:#000000;}
+.form.style-02 .password-level.level-1 > .levels > *:nth-child(1){
+  background:#000000; border-color:#000000;
+}
 
 /* Form Container 03 */
 .form-container-03 .option .icon-view{border-color:#000000;}
@@ -711,6 +719,7 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Section 06 */
 .section-06 .swiper-pagination-bullets{background:#fecb00;}
 .section-06 .swiper-pagination-bullet-active{background:#000000;}
+.section-06 .arrow-container > .arrow{background:#fecb00; color:#000000;}
 
 /* Section 07 */
 .section-07 .swiper-container > .btns-swiper .wrapper > .btn .arrow{background:#fecb00; color:#000000; border-color:#000000;}
@@ -947,4 +956,7 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Special Card 68 */
 .ss-card-68{border-color:#000000;}
 .ss-card-68 .top > .wrapper .item:nth-child(1) > .icon{background:#000000; color:#fecb00;}
+
+/* Special Card 69 */
+.ss-card-69{background:#000000; color:#fecb00;}
 

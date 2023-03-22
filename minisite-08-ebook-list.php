@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
@@ -14,8 +14,8 @@
     ];
     $breadcrumbTitle = 'สื่อประชาสัมพันธ์';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/31.jpg';
-    $sectionOptions = [ 'views', 'rss' ];
     $formContainer = true;
+    $sectionOptions = [ 'option-01', 'views'];
     include('component/breadcrumb-style-02.php');
   ?>
 
