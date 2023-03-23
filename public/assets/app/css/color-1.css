@@ -95,6 +95,9 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 
 .btn.btn-05.btn-white-theme, .btn.btn-05:focus.btn-white-theme,
 .btn.btn-13, .btn.btn-13:focus.btn-white-theme{background:#000000!important; color:#ffffff!important;}
+.btn.btn-13.btn-black-theme, .btn.btn-13:focus.btn-black-theme{
+  background:#ffffff!important; color:#000000!important;
+}
 .btn.btn-13:focus.bcolor-white-theme{border-color:#ffffff!important;}
 
 
@@ -108,6 +111,9 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 
 .btn.btn-action-style-02:hover{border-color:#000000;}
 .btn.btn-action-style-04 .wrapper > .icon{background:#000000; color:#ffffff!important;}
+.btn.btn-action-style-04.style-02 .wrapper > .icon{background:transparent; color:#ffffff!important;}
+.btn.btn-action-style-04.style-02{background:#000000; color:#ffffff;}
+.btn.btn-action-style-04.style-02:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.3); color:#ffffff;}
 .btn.btn-action-style-06{background:#ffffff;}
 .btn.btn-action-style-06 span{color:#000000;}
 .btn.btn-action-style-06 .sep{background:#000000;}
@@ -344,6 +350,11 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
   background:#000000; border-color:#000000;
 }
 
+.form.style-02.white-theme input[type=text], .form.style-02.white-theme textarea, 
+.form.style-02.white-theme input[type=password], .form.style-02.white-theme input[type=email]{
+  background:#ffffff!important; border-color:#dddddd!important;
+}
+
 
 /* Form check container */
 .form-check-container{border-color:#ffffff;}
@@ -574,13 +585,18 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Box */
 .ss-box.style-02{border-color:#000000;}
+.ss-box.style-05{border-color:#ffffff;}
 
 /* Special Box Header */
 .ss-box-header{border-color:#ffffff;}
 .ss-box-header .ellipsis{background:#ffffff; color:#000000;}
+.ss-box-header.style-03 .ellipsis-container{background:#ffffff;}
+.ss-box-header.style-03 .ellipsis-container:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+.ss-box-header.style-03 .ellipsis-container > em{color:#ffffff; background:#000000;}
 
 /* Main Container */
 .main-container .main-content > .wrapper .ss-box.style-02{border-color:#ffffff;}
+.main-container .main-content > .wrapper .ss-box.style-03{border-color:#ffffff;}
 
 /* Banner 02 */
 .banner-02 .arrow{border-color:#000000; color:#000000;}

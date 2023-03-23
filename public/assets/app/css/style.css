@@ -130,8 +130,9 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
   padding:.5rem 1.25rem .5rem 1.25rem; border-radius:.375rem; 
 }
 .btn.btn-action.style-04{
-  padding:.625rem 1.25rem .625rem 1.25rem; border-radius:.375rem;
+  padding:.625rem 1.25rem .625rem 1.25rem; border-radius:.375rem; transition:all .25s;
 }
+.btn.btn-action-style-04 .wrapper > .icon{transition:color .25s;}
 .btn.btn-action.style-05{
   width:2.5rem; height:2.5rem; border-radius:.125rem; min-width:unset; padding:0;
   display:flex; justify-content:center; align-items:center;
@@ -361,6 +362,7 @@ textarea.style-02{border-radius:.4375rem;}
   .form.style-03 .form-group > .pw-title{margin-top:0!important;}
   .form.style-03 .captcha-container, .form.style-03 .btns{justify-content:center;}
 }
+
 @media screen and (max-width:767.98px){
   .form.style-04 .form-group,
   .form.style-04 .form-group > .pw-title{margin-top:0!important;}
@@ -368,6 +370,11 @@ textarea.style-02{border-radius:.4375rem;}
   .form.style-04 .captcha-container img{margin:0 auto;}
   .form.style-04 .captcha-container > .btns{justify-content:center;}
 }
+@media screen and (max-width:991.98px){
+  .form.style-04.size-02 .captcha-container{flex-wrap:wrap;}
+  .form.style-04.size-02 .captcha-container > .btns{margin-left:0!important;}
+}
+
 
 
 
@@ -474,6 +481,9 @@ textarea.style-02{border-radius:.4375rem;}
   display:block; width:calc((100% - .5rem) / 4); height:.4375rem; transition:background .25s;
   border:1px solid transparent;
 }
+@media screen and (max-width:991.98px){
+  .form-group.style-02.size-02 > label{width:100%; justify-content:flex-start;}
+}
 @media screen and (max-width:767.98px){
   .form-group.style-02 > label{width:100%; justify-content:flex-start;}
   .form-group.style-02 > label.size-02{width:100%} 
@@ -484,6 +494,7 @@ textarea.style-02{border-radius:.4375rem;}
   .form-group.style-02 .search-file-container > label{width:100%;}
   .form-group.style-02 > .search-btn-container{width:100%; margin-top:.5rem;}
 }
+
 
 
 /* Radio & Checkbox Container */
@@ -1261,6 +1272,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .ss-box.style-03{padding:1rem; border-radius:.9375rem;}
 .ss-box.style-04{padding:1rem; border-radius:0 0 .9375rem .9375rem;}
+.ss-box.style-05{border:1px solid transparent;}
 .ss-box.m-unset{margin:unset!important;}
 .ss-box.md{max-width:34rem;}
 .ss-box.lg{max-width:38rem;}
@@ -1296,12 +1308,19 @@ fieldset{padding:0; margin:0; border:0;}
 
 /* Special Box Header */
 .ss-box-header{border-bottom:1px solid transparent; padding:1rem 1rem;}
-.ss-box-header.style-02{border:1px solid transparent;}
 .ss-box-header .ellipsis{
   font-size:2rem; width:auto; height:1rem; display:flex; align-items:center;
   padding:.5625rem .5rem; border-radius:3rem; cursor:pointer; transition:all .25s;
 }
-
+.ss-box-header.style-02{border:1px solid transparent;}
+.ss-box-header.style-03{padding:0; display:flex; align-items:center;}
+.ss-box-header.style-03 .ellipsis-container{
+  width:4rem; height:4rem; display:flex; justify-content:center; align-items:center;
+  cursor:pointer; transition:all .25s;
+}
+.ss-box-header.style-03 .ellipsis-container > em{
+  line-height:.5; padding:.125rem .25rem 0 .25rem; border-radius:.125rem;
+}
 
 /* Special Box Shadow */
 .ss-box-shadow{
@@ -2218,7 +2237,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 07 */
 .ss-card-07 .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
-.ss-card-07 .wrapper > .img-container{width:48%; border-radius:.5rem; overflow:hidden;}
+.ss-card-07 .wrapper > .img-container{width:48%; border-radius:.375rem; overflow:hidden;}
 .ss-card-07 .wrapper > .text-container{width:52%; padding-left:1rem;}
 .ss-card-07.style-02{margin-bottom:.5rem;}
 .ss-card-07.style-02 .wrapper > .img-container{width:45%;}
@@ -2310,7 +2329,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 12 */
 .ss-card-12{width:auto;}
-.ss-card-12 .ss-img{border-radius:.5rem; overflow:hidden;}
+.ss-card-12 .ss-img{border-radius:.375rem; overflow:hidden;}
 .ss-card-12 .text-container{border-bottom:1px solid transparent; padding-bottom:1rem;}
 .ss-card-12 .text-container > .title{-webkit-line-clamp:2;}
 .ss-card-12 .text-container > .title.style-02{-webkit-line-clamp:3;}

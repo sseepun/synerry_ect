@@ -10,9 +10,9 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'รีเซ็ทรหัสผ่าน' ],
+      [ 'url' => '#', 'display' => 'ขอรหัสผ่านใหม่' ],
     ];
-    $breadcrumbTitle = 'รีเซ็ทรหัสผ่าน';
+    $breadcrumbTitle = 'ขอรหัสผ่านใหม่';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/39.jpg';
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
@@ -31,40 +31,16 @@
           </div>
           <div class="ss-box lg">
             <p class="pl-unset-sm fw-400 mt-2" style="padding-left:8rem;" data-aos="fade-up" data-aos-delay="150">
-              กรุณากรอกอีเมลในช่วงด้านล่างเพื่อทำการตั้งค่ารหัสผ่านใหม่
+              กรุณากรอกอีเมลในช่องด้านล่างเพื่อทำการตั้งค่ารหัสผ่านใหม่
             </p>
             <form class="form style-04 style-02" action="action.php">
               <div class="grids" data-aos="fade-up" data-aos-delay="150">
-                <div class="grid sm-100 mt-2">
+                <div class="grid sm-100 mt-0">
                   <div class="form-group style-02">
                     <label class="p fw-500">อีเมล <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <input class="style-02 size-01" type="email" required>
                     </div>
-                  </div>
-                </div>
-                <div class="grid sm-100 mt-2">
-                  <div class="form-group style-02">
-                    <label class="p pw-title ai-start fw-500">รหัสผ่านใหม่ <span class="text-danger">*</span></label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="password" required/>
-                      <div class="password-level level-1">
-                        <div class="levels">
-                          <div></div><div></div><div></div><div></div>
-                        </div>
-                        <p class="sm fw-300">
-                          การคาดเดาของรหัสผ่าน <span class="fw-600 text">ง่าย</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid sm-100 mt-2">
-                  <div class="form-group style-02 mt-3">
-                    <label class="p fw-500 ws-nowrap">ยืนยันรหัสผ่านใหม่ <span class="text-danger">*</span></label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="text"/>
-                      </div>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-3">
@@ -73,7 +49,7 @@
                       <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
                       <div class="btns ai-center ml-4">
                         <button type="submit" href="#" class="btn btn-action btn-26 ">
-                          รีเซ็ทรหัสผ่านใหม่
+                          <span class="mr-2">ขอรหัสผ่านใหม่</span>
                           <em class="fa-solid fa-arrow-right"></em>
                         </button>
                       </div>
