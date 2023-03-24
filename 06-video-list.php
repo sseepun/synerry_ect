@@ -23,7 +23,8 @@
       ['image' => 'public/assets/app/images/content/42.jpg']
     ]
   ?>
-  <?php 
+
+<?php 
     $news02 = [
       ['image' => 'public/assets/app/images/content/46.jpg'], 
       ['image' => 'public/assets/app/images/content/43.jpg']
@@ -133,17 +134,19 @@
                     <?php foreach($news02 as $d) {?>
                       <div class="grid lg-100 md-50 sm-100" data-aos="fade-up" data-aos-delay="150">
                         <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-                          <div class="ss-img">
-                            <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                            <div class="hover-container show h-hidden">
-                              <div class="icon">
-                                <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                              </div>
-                            </div>
-                            <div class="filter style-02">
-                              <div class="wrapper">
+                          <div class="img-wrapper">
+                            <div class="ss-img">
+                              <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                              <div class="hover-container show h-hidden">
                                 <div class="icon">
-                                  <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                                  <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                                </div>
+                              </div>
+                              <div class="filter style-02">
+                                <div class="wrapper">
+                                  <div class="icon">
+                                    <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -220,17 +223,19 @@
             <div class="ss-card ss-card-55 mt-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
               <div class="wrapper">
                 <div class="img-container">
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="hover-container show h-hidden">
-                      <div class="icon">
-                        <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                      </div>
-                    </div>
-                    <div class="filter style-02">
-                      <div class="wrapper">
+                  <div class="img-wrapper">
+                    <div class="ss-img">
+                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="hover-container show h-hidden">
                         <div class="icon">
-                          <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                          <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                        </div>
+                      </div>
+                      <div class="filter style-02">
+                        <div class="wrapper">
+                          <div class="icon">
+                            <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                          </div>
                         </div>
                       </div>
                     </div>

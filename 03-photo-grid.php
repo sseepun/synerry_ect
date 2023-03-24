@@ -30,14 +30,16 @@
               <a class="ss-card ss-card-53" href="#">
                 <div class="wrapper">
                   <div class="img-container">
-                    <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= ($i%3+0) ?>.jpg');"></div>
-                      <div class="hover-container">
-                        <div class="icon sm">
-                          <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                    <div class="img-wrapper">
+                      <div class="ss-img">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= ($i%3+0) ?>.jpg');"></div>
+                        <div class="hover-container">
+                          <div class="icon sm">
+                            <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                          </div>
                         </div>
+                        <div class="filter style-01"></div>
                       </div>
-                      <div class="filter style-01"></div>
                       <div class="card-line style-01"></div>
                     </div>
                   </div>
@@ -130,16 +132,18 @@
         <?php foreach($news03 as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
           <a class="ss-card ss-card-08 mb-3" href="#">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-              <div class="card-line style-01"></div>
-              <div class="filter style-02">
-                <div class="wrapper">
-                  <div class="icon sm">
-                    <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+            <div class="img-wrapper">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm">
+                      <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="card-line style-01"></div>
             </div>
             <div class="text-container">
               <p class="title fw-500 mt-1">

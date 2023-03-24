@@ -19,9 +19,15 @@
 
   <div class="section-padding">
     <div class="container">
-      <h3 class="fw-600 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="fw-600 mt-3" data-aos="fade-up" data-aos-delay="0">
         แบบสำรวจความคิดเห็น
       </h3>
+      <div class="mt-3" data-aos="fade-up" data-aos-delay="150">
+        <?php
+          $listHeader = ['search', 'category', 'order'];
+          include('component/list-header.php');
+        ?>
+      </div>
       <div class="faq-06 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
         <?php for($i=0; $i<8; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">

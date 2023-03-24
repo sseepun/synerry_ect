@@ -1,6 +1,6 @@
   <div class="pos-relative">
     <div class="shortcode-container mt-2">
-      <a class="btn icon active cursor-pointer">
+      <a class="btn icon cursor-pointer">
         <em class="fa-solid fa-code"></em>
       </a>
       <div class="shortcode-popup">

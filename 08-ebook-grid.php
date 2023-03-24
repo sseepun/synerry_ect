@@ -96,7 +96,7 @@
         'title' => 'คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
         คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น'
       ],[
-        'image' => 'public/assets/app/images/content/52.jpg',
+        'image' => 'public/assets/app/images/content/47.jpg',
         'title' => 'รวมกฎหมาย ระเบียบ และประกาศที่เกี่ยวข้องกับงานพรรคการเมือง'
       ],[
         'image' => 'public/assets/app/images/content/53.jpg',
@@ -141,16 +141,16 @@
           <div class="grid xl-25 lg-1-3 md-50">
             <a class="ss-card ss-card-17" href="#">
               <div class="wrapper">
-                <div class="img-container">
-                  <div class="ebook-container">
-                    <div class="wrapper">
-                      <img src="<?= $d['image']?>" alt="Ebook">
-                      <div class="shadow-container">
-                        <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
+                <div class="img-wrapper">
+                  <div class="img-container">
+                    <div class="ebook-container">
+                      <div class="wrapper">
+                        <img src="<?= $d['image']?>" alt="Ebook">
+                        <div class="shadow-container">
+                          <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="card-line style-01 card-line-black-theme"></div>
                     <div class="filter style-02">
                       <div class="wrapper">
                         <div class="icon">
@@ -158,6 +158,8 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div class="card-line style-01 card-line-black-theme"></div>
                 </div>
                 <div class="text-container mt-2">
                   <div class="content">

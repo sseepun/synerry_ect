@@ -30,7 +30,7 @@
       </div>
       <div class="scroll-x-wrapper mt-4" data-simplebar>
         <div class="faq-04 pb-1" data-aos="fade-up" data-aos-delay="300">
-          <?php for($i=0; $i<10; $i++){?>
+          <?php for($i=0; $i<12; $i++){?>
             <div class="faq">
               <div class="question box-shadow style-02">
                 <h3 class="ftag">

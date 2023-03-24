@@ -17,21 +17,7 @@
     include('component/breadcrumb.php');
   ?>
 
-  <?php 
-    $news01 = [
-      ['image' => 'public/assets/app/images/content/41.jpg'], 
-      ['image' => 'public/assets/app/images/content/42.jpg']
-    ]
-  ?>
-
-  <?php 
-    $news02 = [
-      ['image' => 'public/assets/app/images/content/46.jpg'], 
-      ['image' => 'public/assets/app/images/content/43.jpg']
-    ]
-  ?>
-
-<section class="section-padding section-23">
+  <section class="section-padding section-23">
     <div class="container">
       <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
         ไฮไลต์วิดีโอ
@@ -44,17 +30,19 @@
                 <a class="ss-card ss-card-56" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                   <div class="wrapper">
                     <div class="img-container">
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/4<?= ($i%3+5) ?>.jpg');"></div>
-                        <div class="hover-container show h-hidden">
-                          <div class="icon">
-                            <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                          </div>
-                        </div>
-                        <div class="filter style-02">
-                          <div class="wrapper">
+                      <div class="img-wrapper">
+                        <div class="ss-img">
+                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/4<?= ($i%3+5) ?>.jpg');"></div>
+                          <div class="hover-container show h-hidden">
                             <div class="icon">
-                              <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                              <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                            </div>
+                          </div>
+                          <div class="filter style-02">
+                            <div class="wrapper">
+                              <div class="icon">
+                                <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -147,17 +135,19 @@
         <?php foreach($news03 as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
           <a class="ss-card ss-card-47" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-              <div class="hover-container show h-hidden">
-                <div class="icon">
-                  <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                </div>
-              </div>
-              <div class="filter style-02">
-                <div class="wrapper">
+            <div class="img-wrapper">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                <div class="hover-container show h-hidden">
                   <div class="icon">
-                    <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                    <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                  </div>
+                </div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                    </div>
                   </div>
                 </div>
               </div>

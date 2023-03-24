@@ -35,7 +35,7 @@
                 <div class="form-group style-02">
                   <label class="p fw-500">ชื่อ <span class="text-danger">*</span></label>
                   <div class="form-input">
-                    <input class="style-02 size-01" type="text">
+                    <input class="style-02 size-01" type="text" required>
                   </div>
                 </div>
               </div>
@@ -43,7 +43,7 @@
                 <div class="form-group style-02">
                   <label class="p fw-500">นามสกุล <span class="text-danger">*</span></label>
                   <div class="form-input">
-                    <input class="style-02 size-01" type="text">
+                    <input class="style-02 size-01" type="text" required>
                   </div>
                 </div>
               </div>
@@ -51,7 +51,7 @@
                 <div class="form-group style-02">
                   <label class="p fw-500">อีเมล <span class="text-danger">*</span></label>
                   <div class="form-input">
-                    <input class="style-02 size-01" type="text">
+                    <input class="style-02 size-01" type="email" required>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@
                     <div class="d-flex jc-end pw-desc">
                       <p class="sm">รหัสผ่านควรมีอย่างน้อย 8 ตัว</p>
                     </div>
-                    <input class="style-02 size-01" type="password"/>
+                    <input class="style-02 size-01" type="password" required/>
                     <div class="password-level level-1">
                       <div class="levels">
                         <div></div><div></div><div></div><div></div>
@@ -78,7 +78,7 @@
                 <div class="form-group style-02 mt-3">
                   <label class="p fw-500">ยืนยันรหัสผ่าน <span class="text-danger">*</span></label>
                   <div class="form-input">
-                    <input class="style-02 size-01" type="text"/>
+                    <input class="style-02 size-01" type="text" required/>
                     </div>
                   </div>
                 </div>
@@ -98,9 +98,9 @@
                     <img src="public/assets/app/images/content/captcha.jpg" alt="">
                   </div>
                   <div class="btns mt-2">
-                    <div href="#" class="btn btn-action size-03 btn-03">
+                    <button type="submit" href="#" class="btn btn-action size-03 btn-03">
                       ยืนยัน
-                    </div>
+                    </button>
                     <div href="#" class="btn btn-action size-03 btn-05">
                       ยกเลิก
                     </div>

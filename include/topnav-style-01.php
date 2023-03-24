@@ -25,34 +25,9 @@
 <!-- Super Topnav -->
 <nav class="stopnav style-02 bg-04 color-white">
   <div class="wrapper">
-    <div class="blocks blocks-main">
-      <div class="blocks">
-        <a class="option h-color-06" href="#">
-          <div class="icon"><em class="fa-solid fa-phone"></em></div>
-          +66 0-2141-8888
-        </a>
-        <a class="option h-color-06" href="#">
-          <div class="icon"><em class="fa-solid fa-envelope"></em></div>
-          webmaster@ect.go.th
-        </a>
-      </div>
+    <div class="blocks blocks-main ">
       <div class="blocks hide-mobile">
-        <div class="option bcolor-04 no-border-right">
-          <div class="icon hotline">
-            <em class="fa-solid fa-phone"></em>
-            สายด่วน 1444
-          </div>
-        </div>
-        <div class="option-select">
-          <div class="select bg-05 bg-white-theme">
-            TH <div class="chev"><em class="fa-solid fa-chevron-down"></em></div>
-          </div>
-          <div class="dropdown">
-            <a class="item" href="#">EN</a>
-            <a class="item" href="#">US</a>
-          </div>
-        </div>
-        <a class="btn-social" href="#">
+      <a class="btn-social" href="#">
           <em class="fa-brands fa-facebook-f"></em>
         </a>
         <a class="btn-social" href="#">
@@ -61,6 +36,29 @@
         <a class="btn-social" href="#">
           <em class="fa-brands fa-youtube"></em>
         </a>
+      </div>
+      <div class="blocks">
+        <div class="option bcolor-04 no-border-right">
+          <a class="icon hotline" href="#">
+            <em class="fa-solid fa-phone"></em>
+            สายด่วน 1444
+          </a>
+        </div>
+        <div class="option bcolor-04 no-border-right">
+          <a class="icon" href="#">
+          <em class="fa-solid fa-right-to-bracket mr-1"></em>
+            เข้าสู่ระบบ
+          </a>
+        </div>
+        <div class="option-select hide-mobile">
+          <div class="select bg-05 bg-white-theme">
+            TH <div class="chev"><em class="fa-solid fa-chevron-down"></em></div>
+          </div>
+          <div class="dropdown">
+            <a class="item" href="#">EN</a>
+            <a class="item" href="#">US</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

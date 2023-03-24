@@ -15,7 +15,6 @@
     $breadcrumbTitle = 'ภาพกิจกรรม';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/02.jpg';
     include('component/breadcrumb.php');
-    $tagContainerStyle = ''
   ?>
 
   <section class="section-padding">
@@ -94,22 +93,24 @@
             <?php foreach($news01 as $d) {?>
               <div class="grid xl-25 lg-1-3">
                 <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="filter style-02">
-                      <div class="wrapper">
-                        <div class="icon op-0">
-                          <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                  <div class="img-wrapper">
+                    <div class="ss-img">
+                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="filter style-02">
+                        <div class="wrapper">
+                          <div class="icon op-0">
+                            <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="filter-01">
+                        <div class="text">
+                          <h3 class="number lh-3xs fw-600">+30</h3>
+                          <p class="h6 fw-500">รูปภาพ</p>
                         </div>
                       </div>
                     </div>
                     <div class="card-line style-01"></div>
-                  </div>
-                  <div class="filter-01">
-                    <div class="text">
-                      <h3 class="number lh-3xs fw-600">+30</h3>
-                      <p class="h6 fw-500">รูปภาพ</p>
-                    </div>
                   </div>
                 </a>
               </div>
@@ -131,7 +132,10 @@
               ให้เป็นไปด้วยความเรียบร้อยและให้การสนับสนุนภารกิจดังกล่าว
             </p>
         
-          <?php include('component/tags-container.php'); ?>
+          <?php 
+            $tagContainerStyle = '';
+            include('component/tags-container.php'); 
+          ?>
 
         </div>
         <!-- Right Content -->
@@ -163,12 +167,14 @@
             </h5> 
             <?php foreach($lastestnews as $d) {?>
               <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
-                <div class="ss-img">
-                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                  <div class="filter style-02">
-                    <div class="wrapper">
-                      <div class="icon op-0">
-                        <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                <div class="img-wrapper">
+                  <div class="ss-img">
+                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon op-0">
+                          <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                        </div>
                       </div>
                     </div>
                   </div>

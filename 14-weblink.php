@@ -55,31 +55,7 @@
       ],[
         'image' => 'public/assets/app/images/content/72.jpg',
         'title' => 'ศูนย์การเรียนรู้ฯที่ 2'
-      ],[
-        'image' => 'public/assets/app/images/content/68.jpg',
-        'title' => 'ศูนย์ศึกษาประชาธิปไตย'
-      ],[
-        'image' => 'public/assets/app/images/content/73.jpg',
-        'title' => 'สำนักงาน กกต. จังหวัด'
-      ],[
-        'image' => 'public/assets/app/images/content/74.jpg',
-        'title' => 'เครื่องลงคะแนนเลือกตั้ง'
-      ],[
-        'image' => 'public/assets/app/images/content/75.jpg',
-        'title' => 'สหกรณ์ออมทรัพย์ องค์กรอิสระ จำกัด'
-      ],[
-        'image' => 'public/assets/app/images/content/76.jpg',
-        'title' => 'สถาบันพัฒนาการเมืองและการเลือกตั้ง'
-      ],[
-        'image' => 'public/assets/app/images/content/67.jpg',
-        'title' => 'สำนักงานส่งเสริมสวัสดิภาพและพิทักษ์เด็ก เยาวชน ผู้ด้อยโอกาส คนพิการ'
-      ],[
-        'image' => 'public/assets/app/images/content/71.jpg',
-        'title' => 'ศูนย์การเรียนรู้ฯที่ 1'
-      ],[
-        'image' => 'public/assets/app/images/content/72.jpg',
-        'title' => 'ศูนย์การเรียนรู้ฯที่ 2'
-      ], 
+      ]
     ]
   ?>
 
@@ -97,32 +73,34 @@
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($weblinks as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
-          <a class="ss-card ss-card-22 mb-3" href="#">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-              <div class="filter style-02">
-                <div class="wrapper">
-                  <div class="icon sm">
-                    <img src="public/assets/app/images/icon-svg/link.svg" alt="Icon">
+            <a class="ss-card ss-card-22 mb-3" href="#">
+              <div class="img-wrapper">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="filter style-02">
+                    <div class="wrapper">
+                      <div class="icon sm">
+                        <img src="public/assets/app/images/icon-svg/link.svg" alt="Icon">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-line style-01"></div>
+              </div>
+              <div class="text-container">
+                <p class="title text-center fw-500 mt-1">
+                  <?= $d['title']?>
+                </p>
+              </div>
+              <div class="btns jc-center pt-5" data-aos="fade-up" data-aos-delay="400">
+                <div class="btns jc-center">
+                  <div class="btn btn-action-style-06">
+                    <span>ไปที่เว็บไซต์</span><div class="sep"></div>
                   </div>
                 </div>
               </div>
-              <div class="card-line style-01"></div>
-            </div>
-            <div class="text-container">
-              <p class="title text-center fw-500 mt-1">
-                <?= $d['title']?>
-              </p>
-            </div>
-            <div class="btns jc-center pt-5" data-aos="fade-up" data-aos-delay="400">
-              <div class="btns jc-center">
-                <div class="btn btn-action-style-06">
-                  <span>ไปที่เว็บไซต์</span><div class="sep"></div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
         <?php }?>
       </div>
       <div class="mt-6 pt-4">

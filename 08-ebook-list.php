@@ -103,16 +103,16 @@
           <div class="grid lg-100 md-50 sm-50 xs-100">
             <a class="ss-card ss-card-18" href="#">
               <div class="wrapper">
-                <div class="img-container">
-                  <div class="ebook-container">
-                    <div class="wrapper">
-                      <img src="<?= $d['image']?>" alt="Ebook">
-                      <div class="shadow-container">
-                        <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
+                <div class="img-wrapper">
+                  <div class="img-container">
+                    <div class="ebook-container">
+                      <div class="wrapper">
+                        <img src="<?= $d['image']?>" alt="Ebook">
+                        <div class="shadow-container">
+                          <img class="img" src="public/assets/app/images/content/shadow.png" alt="Shadow">  
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="card-line style-01 card-line-black-theme"></div>
                     <div class="filter style-02">
                       <div class="wrapper">
                         <div class="icon">
@@ -120,6 +120,8 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div class="card-line style-01 card-line-black-theme"></div>
                 </div>
                 <div class="text-container">
                   <div class="content">

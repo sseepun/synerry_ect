@@ -45,7 +45,7 @@
               <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
               <img class="icon-active" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
             </a>
-            <a class="icon-view active ml-1" href="#">
+            <a class="icon-view ml-1" href="#">
               <img class="icon-inactive" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
               <img class="icon-active" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
             </a>
@@ -113,7 +113,7 @@
         <?php if(in_array('view-grid', $listHeader)){?>
           <div class="option view">
             <div class="wrapper">
-              <a class="icon-view active" href="#">
+              <a class="icon-view" href="#">
                 <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
                 <img class="icon-active" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
               </a>
@@ -133,7 +133,7 @@
         <?php if(in_array('view-list', $listHeader)){?>
           <div class="option view">
             <div class="wrapper">
-              <a class="icon-view active" href="#">
+              <a class="icon-view" href="#">
                 <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
                 <img class="icon-active" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
               </a>

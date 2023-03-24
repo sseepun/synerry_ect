@@ -19,41 +19,41 @@
 
   <section class="section-padding">
     <div class="container">
-      <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
-        <h4 class="title lh-sm fw-500">
-          คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
-        </h4>
-        <div class="card-top mt-3">
-          <div class="wrapper">
-            <div class="icon d-inline-block">
-              <em class="fa-regular fa-file-lines"></em>
-              <span class="p sm ml-1 fw-500">ภาพกิจกรรม</span>
-            </div>
-            <div class="icon d-inline-block">
-              <em class="fa-solid fa-calendar-days"></em>
-              <span class="p sm ml-1 fw-500">08 มิถุนายน 2565</span>
-            </div>
-            <div class="icon d-inline-block">
-              <em class="fa-solid fa-eye"></em>
-              <span class="p sm ml-1 fw-500">255</span>
-            </div>
-            <div class="icon d-inline-block">
-              <em class="fa-solid fa-share-nodes"></em>
-              <span class="p sm ml-1 fw-500">208</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="book-container mt-3" data-aos="fade-up" data-aos-delay="150">
-        <div class="wow-book" id="wow-book">
-          <?php for($i=0; $i<6; $i++){?>
-            <div><img class="img" src="public/assets/app/images/content/6<?= ($i%2+4) ?>.jpg" alt="Page <?= $i ?>" /></div>
-          <?php }?>
-        </div>
-      </div>
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-2-3 md-2-3 sm-100">
+          <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
+            <h4 class="title lh-sm fw-500">
+              คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
+            </h4>
+            <div class="card-top mt-3">
+              <div class="wrapper">
+                <div class="icon d-inline-block">
+                  <em class="fa-regular fa-file-lines"></em>
+                  <span class="p sm ml-1 fw-500">ภาพกิจกรรม</span>
+                </div>
+                <div class="icon d-inline-block">
+                  <em class="fa-solid fa-calendar-days"></em>
+                  <span class="p sm ml-1 fw-500">08 มิถุนายน 2565</span>
+                </div>
+                <div class="icon d-inline-block">
+                  <em class="fa-solid fa-eye"></em>
+                  <span class="p sm ml-1 fw-500">255</span>
+                </div>
+                <div class="icon d-inline-block">
+                  <em class="fa-solid fa-share-nodes"></em>
+                  <span class="p sm ml-1 fw-500">208</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="book-container mt-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="wow-book" id="wow-book">
+              <?php for($i=0; $i<6; $i++){?>
+                <div><img class="img" src="public/assets/app/images/content/6<?= ($i%2+4) ?>.jpg" alt="Page <?= $i ?>" /></div>
+              <?php }?>
+            </div>
+          </div>
           <p class="color-gray fw-400 mt-2" data-aos="fade-up" data-aos-delay="300">
             วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง พร้อมด้วย พล.ต.ต.ชัชชรินร์ สว่างวงศ์ 
             ผู้เชี่ยวชาญด้านรัฐประศาสนศาสตร์ นางสาวโชติกา แก้วผล ผู้อำนวยการฝ่ายกิจการกรรมการการเลือกตั้ง 4 ได้มอบนโยบายในการปฏิบัติงาน 
@@ -71,7 +71,7 @@
               <tbody>
                 <?php
                   foreach([
-                    'pdf-02'
+                    'pdf'
                   ] as $k){
                 ?>
                   <tr class="table-card-01 box-shadow style-02 mb-2">
@@ -88,9 +88,9 @@
                         <div class="wrapper">
                           <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                           <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                          <div class="icon">
-                            <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                          <div class="icon h-color-19">
+                            <em class="h-color-19 fa-solid fa-circle-exclamation mr-1"></em>
+                            <p class="btn-popup-toggle cursor-pointer h-color-19 sm color-black-theme fw-400" data-popup="99">
                               แจ้งไฟล์เสีย
                             </p>
                           </div>

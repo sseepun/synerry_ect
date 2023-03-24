@@ -340,7 +340,7 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 
 /* Card Line */
 .card-line.style-01{background:#fecb00;}
-.card-line.style-01.card-line-black-theme{background:#000000;}
+.card-line.style-01.card-line-black-theme{background:#e4b703;}
 .card-line.style-02{background:#fecb00;}
 
 /* Inputs */
@@ -560,7 +560,7 @@ input[type="search"]::placeholder{color:#fecb00;}
 .faq-06 .faq .answer-wrapper{background:#fecb00; color:#000000;}
 .faq-06 .faq > .answer .content{border-color:#fecb00;}
 .faq-06 .faq .checkbox-set input:checked ~ .checkmark{background:#fecb00;}
-.faq-06 .faq  .checkbox-set > .checkmark{border-color:#fecb00;}
+.faq-06 .faq  .checkbox-set > .checkmark{border-color:#fecb00; background:#000000;}
 .faq-06 .faq .checkbox-set > .checkmark::before, .faq-06 .faq .checkbox-set > .checkmark::after{border-color:#000000;}
 
 /* Faq 07 */
@@ -763,6 +763,12 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Section 21 */
 .section-21 .arrow-container > .arrow{background:#fecb00; color:#000000;}
 
+/* Section 23 */ 
+.section-23 .swiper-pagination-bullets{background:#fecb00;}
+.section-23 .swiper-pagination-bullet{background:#e4b703;}
+.section-23 .swiper-pagination-bullet-active{background:#000000;}
+.section-23 .arrow-container > .arrow{background:#fecb00; color:#000000;}
+
 /* Section 24 */
 .section-24 .swiper-container > .fraction-container .wrapper > .dots{background:#fecb00;}
 .section-24 .swiper-container .dots > span:first-child{color:#000000;}
@@ -810,12 +816,14 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-11 .filter-01{background:rgb(0,0,0,.4)}
 
 /* Special Card 17 */
-.ss-card-17 .wrapper > .img-container .ebook-container::after{background:#fecb00;}
-.ss-card-17 .wrapper > .img-container .ebook-container > .wrapper > img{border-color:#fecb00;}
+.ss-card-17 .wrapper .img-container .ebook-container::before{background:#e4b703;}
+.ss-card-17 .wrapper .img-container .ebook-container::after{background:#fecb00;}
+.ss-card-17 .wrapper .img-container .ebook-container > .wrapper > img{border-color:#fecb00;}
 
 /* Special Card 18 */
-.ss-card-18 .wrapper > .img-container .ebook-container::after{background:#fecb00;}
-.ss-card-18 .wrapper > .img-container .ebook-container > .wrapper > img{border-color:#fecb00;}
+.ss-card-18 .wrapper .img-container .ebook-container:before{background:#e4b703;}
+.ss-card-18 .wrapper .img-container .ebook-container::after{background:#fecb00;}
+.ss-card-18 .wrapper .img-container .ebook-container > .wrapper > img{border-color:#fecb00;}
 
 /* Special Card 20 */
 .ss-card-20 .wrapper > .date .wrapper{border-color:#fecb00;}

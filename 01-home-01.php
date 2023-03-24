@@ -15,7 +15,7 @@
           <div class="slide size-02">
             <div class="img-bg" style="background-image:url('public/assets/app/images/bg/02.jpg');"></div>
             <div class="hero size-02 animate" style="--delay:.55s;">
-              <img src="public/assets/app/images/hero/07.png" class="Hero" />
+              <img src="public/assets/app/images/hero/05.png" class="Hero" />
             </div>
             <div class="container">
               <div class="quote-container style-02 animate" style="--delay:.4s;">
@@ -661,70 +661,116 @@
       <div class="grids jc-center">
         <div class="grid lg-1-3 sm-50">
           <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="150">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
-              <div class="card-line style-01"></div>
-              <div class="filter style-02">
-                <div class="wrapper">
-                  <div class="icon sm">
-                    <img src="public/assets/app/images/icon/51.png" alt="Icon">
+            <div class="img-wrapper">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm">
+                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="card-line style-01"></div>
             </div>
             <div class="text-container color-black">
               <a class="title h6 fw-500 h-color-04" href="#">
                 วารสารสำนักงานคณะกรรมการการเลือกตั้ง : พรรค การเมืองกับการเปลี่ยนแปลงทางการเมือง และการเลือกตั้ง
               </a>
-              <p class="sm fw-400 mt-2">
-                08 มิถุนายน 2565 เวลา 20:34 น. / By <a class="color-02 h-color-04 border-bottom bcolor-04" href="#">Admin</a>
-              </p>
+              <div class="card-footer mt-2">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-calendar-days"></em>
+                    <span class="p sm fw-500 ml-2">08 มิถุนายน 2565</span>
+                  </div>
+                  <div class="icon">
+                    <em class="fa-solid fa-eye"></em>
+                    <span class="p sm fw-500 ml-2">255</span>
+                  </div>
+                  <div class="icon">
+                    <em class="fa-solid fa-share-nodes"></em>
+                    <span class="p sm fw-500 ml-2">208</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="grid lg-1-3 sm-50">
           <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="300">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
-              <div class="card-line style-01"></div>
-              <div class="filter style-02">
-                <div class="wrapper">
-                  <div class="icon sm">
-                    <img src="public/assets/app/images/icon/51.png" alt="Icon">
+            <div class="img-wrapper">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm">
+                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="card-line style-01"></div>
             </div>
             <div class="text-container color-black">
               <a class="title h6 fw-500 h-color-04" href="#">
                 หนังสือสรุปผลงานเนื่องในโอกาสครบรอบวันสถาปนาสำนักงานคณะกรรมการการเลือกตั้งปีที่ 23
               </a>
-              <p class="sm fw-400 mt-2">
-                08 มิถุนายน 2565 เวลา 20:34 น. / By <a class="color-02 h-color-04 border-bottom bcolor-04" href="#">Admin</a>
-              </p>
+              <div class="card-footer mt-2">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-calendar-days"></em>
+                    <span class="p sm fw-500 ml-2">08 มิถุนายน 2565</span>
+                  </div>
+                  <div class="icon">
+                    <em class="fa-solid fa-eye"></em>
+                    <span class="p sm fw-500 ml-2">255</span>
+                  </div>
+                  <div class="icon">
+                    <em class="fa-solid fa-share-nodes"></em>
+                    <span class="p sm fw-500 ml-2">208</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="grid lg-1-3 sm-50">
           <div class="ss-card ss-card-04" data-aos="fade-up" data-aos-delay="450">
-            <div class="ss-img">
-              <div class="img-bg" style="background-image:url('public/assets/app/images/bg/13.jpg');"></div>
-              <div class="card-line style-01 bradius"></div>
-              <div class="filter style-02">
-                <div class="wrapper">
-                  <div class="icon sm">
-                    <img src="public/assets/app/images/icon/51.png" alt="Icon">
+            <div class="img-wrapper">
+              <div class="ss-img">
+                <div class="img-bg" style="background-image:url('public/assets/app/images/bg/13.jpg');"></div>
+                <div class="card-line style-01"></div>
+                <div class="filter style-02">
+                  <div class="wrapper">
+                    <div class="icon sm">
+                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="card-line style-01"></div>
             </div>
             <div class="text-container color-black">
               <a class="title h6 fw-500 h-color-04" href="#">
                 วารสารสำนักงานคณะกรรมการการเลือกตั้ง : ปีแห่งการเลือกตั้งท้องถิ่น 2
               </a>
-              <p class="sm fw-400 mt-2">
-                08 มิถุนายน 2565 เวลา 20:34 น. / By <a class="color-02 h-color-04 border-bottom bcolor-04" href="#">Admin</a>
-              </p>
+              <div class="card-footer mt-2">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-calendar-days"></em>
+                    <span class="p sm fw-500 ml-2">08 มิถุนายน 2565</span>
+                  </div>
+                  <div class="icon">
+                    <em class="fa-solid fa-eye"></em>
+                    <span class="p sm fw-500 ml-2">255</span>
+                  </div>
+                  <div class="icon">
+                    <em class="fa-solid fa-share-nodes"></em>
+                    <span class="p sm fw-500 ml-2">208</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

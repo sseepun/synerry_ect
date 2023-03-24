@@ -75,18 +75,26 @@
             <?php foreach($news01 as $d) {?>
               <div class="grid xl-25 lg-1-3">
                 <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="filter style-01"></div>
-                    <div class="card-line style-01"></div>
-                  </div>
-                  <div class="filter style-02">
-                    <div class="wrapper">
-                      <div class="icon op-0">
-                        <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                  <div class="img-wrapper">
+                    <div class="ss-img">
+                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="filter style-02">
+                        <div class="wrapper">
+                          <div class="icon op-0">
+                            <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="filter-01">
+                        <div class="text">
+                          <h3 class="number lh-3xs fw-600">+30</h3>
+                          <p class="h6 fw-500">รูปภาพ</p>
+                        </div>
                       </div>
                     </div>
+                    <div class="card-line style-01"></div>
                   </div>
+                
                 </a>
               </div>
             <?php }?>
@@ -157,17 +165,19 @@
             <?php foreach($videos as $d) {?>
               <div class="grid lg-25 sm-50 mt-2">
                 <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="hover-container show h-hidden">
-                      <div class="icon xs">
-                        <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                      </div>
-                    </div>
-                    <div class="filter style-02">
-                      <div class="wrapper">
+                  <div class="img-wrapper">
+                    <div class="ss-img">
+                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="hover-container show h-hidden">
                         <div class="icon xs">
-                          <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                          <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                        </div>
+                      </div>
+                      <div class="filter style-02">
+                        <div class="wrapper">
+                          <div class="icon xs">
+                            <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                          </div>
                         </div>
                       </div>
                     </div>
