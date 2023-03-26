@@ -4,7 +4,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
 <script src="public/assets/lib/fancybox-3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="public/assets/app/js/calendar-year.min.js"></script>
+<script src="public/assets/app/js/calendar.js"></script>
+<!-- <script src="public/assets/app/js/calendar-year.min.js"></script> -->
 <script src="public/assets/lib/vanilla-datepicker/dist/js/datepicker.min.js"></script>
 <script src="public/assets/lib/wow_book/wow_book/wow_book.min.js"></script>
 <script src="public/assets/lib/aos-2.3.1/aos.min.js"></script>

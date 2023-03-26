@@ -78,7 +78,7 @@
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.css" />
   <link rel="stylesheet" type="text/css" href="public/assets/app/css/custom-calendar.css" />
   <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.js"></script>
   <script src="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.min.js"></script>

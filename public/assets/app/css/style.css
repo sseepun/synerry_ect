@@ -1286,6 +1286,7 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-box.xxl{max-width:50rem;}
 .ss-box.xxl.size-02{max-width:46rem;}
 .ss-box.xxl.size-03{max-width:60rem;}
+.ss-box.xxl.size-04{max-width:55rem;}
 .ss-box > .header, .ss-box > .body{
     display:block; position:relative; width:100%; padding:1.25rem 1.75rem;
 }
@@ -2666,7 +2667,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 
 /* Special Card 29 */
-.ss-card-29{width:50%; padding:1rem;}
+.ss-card-29{padding:1rem;}
 .ss-card-29 .wrapper{display:flex; align-items:center;}
 .ss-card-29 .wrapper > .icon{width:2rem;}
 .ss-card-29 .wrapper > .icon img{
