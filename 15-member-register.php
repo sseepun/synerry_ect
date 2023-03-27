@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -39,24 +39,33 @@
                       <input class="style-02 size-01" type="text" required>
                     </div>
                   </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกชื่อ</label>
+                  </div>
                 </div>
-                <div class="grid sm-100 mt-2">
+                <div class="grid sm-100 mt-1">
                   <div class="form-group style-02">
                     <label class="p fw-500">นามสกุล <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <input class="style-02 size-01" type="text" required>
                     </div>
                   </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
+                  </div>
                 </div>
-                <div class="grid sm-100 mt-2">
+                <div class="grid sm-100 mt-1">
                   <div class="form-group style-02">
                     <label class="p fw-500">อีเมล <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <input class="style-02 size-01" type="email" required>
                     </div>
                   </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกอีเมล</label>
+                  </div>
                 </div>
-                <div class="grid sm-100 mt-2">
+                <div class="grid sm-100 mt-1">
                   <div class="form-group style-02">
                     <label class="p pw-title fw-500">รหัสผ่าน <span class="text-danger">*</span></label>
                     <div class="form-input">
@@ -74,16 +83,22 @@
                       </div>
                     </div>
                   </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกรหัสผ่าน</label>
+                  </div>
                 </div>
-                <div class="grid sm-100 mt-2">
+                <div class="grid sm-100 mt-1">
                   <div class="form-group style-02 mt-3">
                     <label class="p fw-500">ยืนยันรหัสผ่าน <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <input class="style-02 size-01" type="text" required/>
-                      </div>
                     </div>
                   </div>
-                  <div class="grid sm-100 mt-2">
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณายืนยันรหัสผ่าน</label>
+                  </div>
+                </div>
+                  <div class="grid sm-100 mt-1">
                     <div class="padding-style-04">
                       <label class="form-check ai-center form-check-container-02 pl-6 mt-3">
                         <input type="checkbox" class="form-check-input"/>
@@ -99,6 +114,7 @@
                       <div class="captcha-container mt-5">
                         <img src="public/assets/app/images/content/captcha.jpg" alt="">
                       </div>
+                      <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                       <div class="btns mt-2">
                         <button type="submit" href="#" class="btn btn-action size-03 btn-03">
                           ยืนยัน

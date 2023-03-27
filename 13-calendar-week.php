@@ -124,15 +124,15 @@
         slotDuration: '01:00:00',
         events: [
           {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-            start: '2021-10-09T10:00:00',
-            end: '2021-10-09T18:00:00',
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้ง ที่ 4',
+            start: '2023-03-27T10:00:00',
+            end: '2023-03-27T12:00:00',
             url: '#',
           },
           {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564 2',
-            start: '2021-10-10T12:00:00',
-            end: '2021-10-10T21:00:00',
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้ง ที่ 4',
+            start: '2023-03-28T08:00:00',
+            end: '2023-03-28T15:00:00',
             url: '#',
           },
           {
@@ -164,6 +164,40 @@
               info.el.style.opacity = 0.3;
             }
           }
+        }, 
+        eventRender: function(info, d){
+          var event = info.event,
+              dateStart = new Date(event.start),
+              timeStart = new Date(event.start),
+              timeEnd = new Date(event.end),
+              minutesStart = String(timeStart.getMinutes()).padStart(2, '0'),
+              hoursStart = String(timeStart.getHours()).padStart(2, '0'),
+              minutesEnd = String(timeEnd.getMinutes()).padStart(2, '0'),
+              hoursEnd = String(timeEnd.getHours()).padStart(2, '0')
+
+              console.log(minutesStart)
+              console.log(hoursStart)
+         
+          info.el.innerHTML = `
+            <div class="ss-card ss-card-70 color-dark"> 
+              <h6 class="color-dark fw-500 lh-xs">${event.title}</h6>
+              <div class="option mt-2">
+                <div class="icon">
+                  <em class="fa-solid fa-calendar-days"></em>
+                </div>
+                <span class="p xs fw-500">
+                  เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
+                </span>
+              </div>
+              <div class="option ai-start mt-1">
+                <div class="icon">
+                  <em class="fa-solid fa-location-dot"></em>
+                </div>
+                <p class="xs fw-500 lh-xs">องค์การบริหารส่วนตำบลเทอดไทย, จังหวัดเชียงราย</p>
+              </div>
+            </div>
+          `;
+          return true;
         },
       });
       calendarWeek.render();

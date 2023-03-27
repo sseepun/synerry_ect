@@ -145,6 +145,7 @@
 .calendar-day .fc-unthemed td.fc-today{background:transparent;}
 
 /* Calendar - Month */
+.calendar-month .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-popover .fc-header{display:none;}
 .calendar-month{border-bottom:4px solid transparent;}
 .calendar-month .fc-toolbar.fc-header-toolbar{display:none;}
 .calendar-month .fc-head-container.fc-widget-header{border:0;}
@@ -160,7 +161,7 @@
 }
 .calendar-month .fc-day-top > span{
   display:block; width:2rem; height:2rem; font-size:.9375rem; font-weight:500;
-  text-align:center; line-height:2rem; margin:0 auto 0 0;
+  text-align:center; line-height:2rem; margin:0 0 0 auto;
 }
 .calendar-month .fc-day-top.fc-other-month > span{font-size:.9375rem; font-weight:500;}
 
@@ -176,7 +177,7 @@
 }
 .calendar-month .fc-day{transition:background .25s;}
 .calendar-month .custom-event > .table-view{
-    display:block; width:calc(100% - .875rem); padding:.375rem .375rem; line-height:1;
+    position:relative; display:block; width:calc(100% - .875rem); padding:.375rem .375rem; line-height:1;
     margin:0 0 .125rem .0625rem; border-radius:.25rem; font-size:1.125rem; 
     box-shadow:none; overflow:hidden; font-weight:200; transition:box-shadow .25s;
 }
@@ -192,7 +193,10 @@
 .calendar-month .fc-popover.fc-more-popover .custom-event > .popup-view{display:block;}
 .calendar-month .fc-popover.fc-more-popover{
     top:0!important; left:0!important; right:0!important; 
-    width:calc(100% - 2px); height:100%;
+    width:12rem; max-height:15rem; overflow-y:auto; border-left:4px solid transparent;
+}
+.calendar-month .fc-popover.fc-more-popover{
+  background:#2e603c;
 }
 .calendar-month .fc-popover.fc-more-popover .fc-body{
     max-height:calc(100% - 36px); overflow-x:hidden; overflow-y:auto;
@@ -290,9 +294,9 @@
     border-top-color:transparent; border-bottom-color:transparent;
 }
 .calendar-week .fc-time-grid .fc-event{
-    display:block; border:1px solid transparent; border-radius:.25rem;
+    display:block; border:1px solid transparent;
     text-align:left; padding:.5rem; box-shadow:none; overflow:hidden;
-    transition:background .25s, box-shadow .25s;
+    transition:background .25s, box-shadow .25s; border-left:4px solid transparent;
 }
 .calendar-week .fc-time-grid .fc-event:hover{box-shadow:0px 3px 6px 4px rgba(0,0,0,.15);}
 .calendar-week .fc-time-grid .fc-event .fc-time{font-size:1.125rem; font-weight:600; padding:0;}

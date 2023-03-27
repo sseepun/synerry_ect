@@ -180,7 +180,7 @@
     border-radius:1000em; margin:.125rem; 
 }
 .banner-02 .arrow{border:1px solid transparent;}
-/* .banner-02.style-02 .swiper-container .swiper-slide{min-height:calc(100vh - 8.75rem);} */
+
 .banner-02.style-02 .swiper-container > .swiper-wrapper .swiper-slide .hero{
   position:absolute; height:calc(100% - 1rem); z-index:5; bottom:0; left:2rem;
   display:flex; align-items:flex-end;

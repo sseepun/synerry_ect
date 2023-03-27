@@ -526,7 +526,10 @@ fieldset{padding:0; margin:0; border:0;}
   .captcha-container.style-02{flex-direction:column;}
   .captcha-container > .btns{margin:.9375rem 0;}
 }
-
+@media screen and (max-width:767.98px){
+  .captcha-container.style-03{flex-direction:column;}
+  .captcha-container.style-03 > .btns{margin:.9375rem 0!important;}
+}
 
 .padding-style-01{padding-left:8rem;} 
 .padding-style-02{padding-left:3.5rem;} 
@@ -619,7 +622,8 @@ fieldset{padding:0; margin:0; border:0;}
 .ck.ck-editor__main>.ck-editor__editable{min-height:260px; outline:none; box-shadow:none;}
 
 /* Checkbox Set */
-.checkbox-set{position:relative;}
+.checkbox-set{position:relative; display:flex; align-items:center;}
+.checkbox-set input{opacity:0;}
 .checkbox-set > .bg-color{
   position:absolute; top:.3125rem; left:.3125rem; width:.75rem; height:.75rem; border-radius:50%; z-index:1;
 }
@@ -639,11 +643,6 @@ fieldset{padding:0; margin:0; border:0;}
   border:solid transparent; border-width:0 .1875rem 0 0; transform:rotate(-45deg);
   display:none;
 }
-.checkbox-set > .checkmark::before,
-.checkbox-set > .checkmark::after{border-color:#ffd000;}
-.checkbox-set > .checkmark{border-color:#2e603b;}
-.checkbox-set input:checked ~ .checkmark{background:#2e603b;}
-.checkbox-set > .bg-color{background:#c7dece!important;}
 
 /* Date Picker */
 .datepicker.datepicker-dropdown{color:#000000!important;}
@@ -991,7 +990,10 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .ui.icon.input > em.icon.size-02{width:3rem;}
 
-
+/* Text Danger */
+.text-danger.style-02{
+  display:flex; font-size:.875rem!important; font-weight:400; margin-top:.25rem!important;
+}
 
 /* List Control */
 .list-control{
@@ -3624,17 +3626,15 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   margin:.0625rem .125rem 0 .25rem; transition:margin .25s; width:1.5rem;
 }
 .ss-card-69:hover .text-container > .arrow em{margin:.0625rem 0 0 .5rem;}
-/* @media screen and (max-width:767.98px){
-  .ss-card-69 .wrapper{flex-direction:column;}
-} */
-/* @media screen and (max-width:1299.99px){
-  .ss-card-69{width:80%;}
-}
-@media screen and (max-width:1199.99px){
-  .ss-card-69{width:90%;}
-}
-@media screen and (max-width:991.98px){
-  .ss-card-69{width:100%;}
-  .ss-card-69 .text-container{padding-left:.5rem;}
-}
- */
+
+/* Special Card 70 */
+.ss-card-70 .option{display:flex; align-items:center;}
+.ss-card-70 .option > .icon{display:flex; justify-content:center; width:1rem; height:1rem; margin-right:.25rem;}
+.ss-card-70 .option > .icon{color:#2e603c;}
+
+/* Special Card 71 */
+.ss-card-71{transition:background .25s; padding:.5rem; margin-right:1rem;}
+.ss-card-71 .option{display:flex; align-items:center;}
+.ss-card-71 .option > .icon{display:flex; justify-content:center; width:1rem; height:1rem; margin-right:.25rem;}
+.ss-card-71 .option > .icon{color:#2e603c;}
+.ss-card-71:hover{background:#dff3eb;}

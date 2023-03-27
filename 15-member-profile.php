@@ -151,12 +151,12 @@
         </div>
       </div>
       <div class="wrapper">
-        <div class="ss-box m-unset xxl" data-aos="fade-in" data-aos-delay="0">
+        <div class="ss-box all-bradius style-02 m-unset xxl" data-aos="fade-in" data-aos-delay="0">
           <div class="ss-box-header">
             <h5 class="color-black color-02 fw-500">ข้อมูลส่วนตัว</h5>  
           </div> 
           <div class="ss-box lg" style="padding:1.5rem 1rem;">
-            <form action="">
+            <form class="form style-02 white-theme" action="">
               <div class="grids no-gap">
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
@@ -164,8 +164,11 @@
                       <label class="p fw-500">เปลี่ยนภาพโปรไฟล์</label>
                     </div>
                     <div class="search-btn-container">
-                      <div class="btns">
-                        <div href="#" class="btn btn-action size-04 btn-02">ค้นหาไฟล์</div>
+                      <div class="btns jc-end">
+                        <div class="btn style-03 btn-action btn-21 size-03 btn-black-theme pos-relative">
+                          อัปโหลดรูปภาพ
+                          <input type="file" class="file-upload">
+                        </div>
                       </div>
                       <p class="xs fw-400">ประเภทไฟล์ที่รองรับ JPG, PNG, GIF ขนาดรวมไม่เกิน 2 MB</p>
                     </div>
@@ -173,26 +176,35 @@
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
-                    <label class="p fw-500">ชื่อ</label>
+                    <label class="p fw-500">ชื่อ <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <input class="style-02 size-01" type="text"/>
                     </div>
                   </div>
-                </div>
-                <div class="grid sm-100 mt-2">
-                  <div class="form-group style-02">
-                    <label class="p pw-title fw-500">นามสกุล</label>
-                    <div class="form-input">
-                      <input class="style-02 size-01" type="text"/>
-                    </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกชื่อ</label>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
-                    <label class="p fw-500">อีเมล</label>
+                    <label class="p pw-title fw-500">นามสกุล <span class="text-danger">*</span></label>
+                    <div class="form-input">
+                      <input class="style-02 size-01" type="text"/>
+                    </div>
+                  </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
+                  </div>
+                </div>
+                <div class="grid sm-100 mt-2">
+                  <div class="form-group style-02">
+                    <label class="p fw-500">อีเมล <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <input class="style-02 size-01" type="email"/>
                     </div>
+                  </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกอีเมล</label>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
@@ -205,7 +217,7 @@
                 </div>
                 <div class="grid lg-50 md-100 sm-100 mt-2">
                   <div class="form-group style-02">
-                    <label class="p fw-500">วันเกิด</label>
+                    <label class="p fw-500">วันเกิด <span class="text-danger">*</span></label>
                       <div class="form-input">
                         <div class="date-wrapper">
                         <input type="text" class="date-picker form-control style-02 size-01">
@@ -215,40 +227,43 @@
                 </div>
                 <div class="grid lg-50 md-100 sm-100 mt-2">
                   <div class="form-group style-02">
-                    <label class="ย fw-500">เพศ</label>
+                    <label class="fw-500">เพศ <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <fieldset>
                         <div class="gallery-grids">
                           <div class="grid sm-50 xs-50">
                             <div class="checkbox-set">
-                                <input type="radio" name="radio" id="radio_0" checked="">
-                                <label for="radio_0" class="checkmark"></label>
-                                <span for="radio_0" class="p sm">ชาย</span>
-                                <div class="bg-color"></div>
-                              </div>
+                              <input type="radio" name="radio" id="radio_0" checked="">
+                              <label for="radio_0" class="checkmark"></label>
+                              <span for="radio_0" class="p sm">ชาย</span>
+                              <div class="bg-color"></div>
+                            </div>
                           </div>
                           <div class="grid sm-50 xs-50">
                             <div class="checkbox-set">
                               <input type="radio" name="radio" id="radio_1">
                               <label for="radio_1" class="checkmark"></label>
-                              <span class="p sm lh-3xs">หญิง</span>
+                              <span class="p sm">หญิง</span>
                               <div class="bg-color"></div>
                             </div>
                           </div>
                         </div>
                       </fieldset>
                     </div>
+                    <div>
+                  </div>
                   </div>
                 </div>
                 <div class="grid xl-2-3 lg-70 md-100 sm-100">
                   <div class="captcha padding-style-01">
                     <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                    <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                   </div>
                 </div>
                 <div class="grid xl-1-3 lg-30 md-100 sm-100">
-                  <div class="btns pl-3 pl-unset-xs h-full">
+                  <div class="btns mt-2 ai-start pl-3 pl-unset-xs h-full">
                     <div href="#" class="btn btn-action btn-02 w-full">
-                      ยืนยัน
+                      บันทึก
                     </div>
                   </div>
                 </div>

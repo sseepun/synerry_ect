@@ -578,10 +578,10 @@ nav.side-panel.active + .access-filter{opacity:1; pointer-events:auto;}
 }
 .main-container .main-header > .main-header-menu img.active{opacity:0;}
 .main-container .main-header > .main-header-menu:hover img.active{opacity:1;}
-.main-container .main-header > .main-header-menu:hover img.inactive{opacity:0;}
 .main-container .main-header #openBtn{opacity:0;}
 .main-container .main-content > .wrapper{padding:1rem;}
 .main-container .main-content > .wrapper .ss-box.style-02{border:1px solid transparent;}
+.main-container .main-content > .wrapper .ss-box.all-bradius{border-radius:.375rem .375rem .375rem .375rem;}
 .main-container .ss-box > .ss-box-content{border:1px solid transparent;}
 .main-container  .ss-box > .ss-box-content{min-height:32rem;}
 .main-container  .ss-box > .ss-box-content.size-02{min-height:30rem;}

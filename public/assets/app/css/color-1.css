@@ -326,6 +326,13 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .breadcrumb-02 .ui.icon.input > em.icon.style-03{background:#000000; color:#ffffff;}
 .breadcrumb-02 .ui.icon.input input{border-color:#000000;}
 
+/* Checkbox Set */
+.checkbox-set > .checkmark::before,
+.checkbox-set > .checkmark::after{border-color:#ffffff;}
+.checkbox-set > .checkmark{border-color:#ffffff;}
+.checkbox-set input:checked ~ .checkmark{background:#000000;}
+.checkbox-set > .bg-color{background:#000000!important;}
+
 /* Global Filter */
 .filter.style-01{background:rgba(0,0,0,.4)}
 .filter.style-02{background:rgba(0,0,0,.4)}

@@ -10,6 +10,13 @@
   .calendar-month-02 .fc .fc-toolbar.fc-header-toolbar{display:none;}
   .calendar-month-02 .fc .fc-more-popover .fc-popover-body{border-left:5px solid transparent;}
   .calendar-month-02 .fc .fc-more-popover .fc-popover-body{border-color:#2e603c;}
+  .fc .fc-col-header-cell-cushion{display:block; padding:.75rem .5rem;}
+  .fc-daygrid-day-top{display:block; width:2rem; height:2rem;}
+  .fc .fc-daygrid-day-number{width:100%; text-align:center;}
+
+  .fc-daygrid-day-top{background:#2e603c;}
+  .fc .fc-daygrid-day-number{color:#ffffff;}
+  .fc-col-header-cell{background:#bfe7d7;}
 </style>
 
 
@@ -128,76 +135,99 @@
 
       const calendarMonth = new FullCalendar.Calendar($('#calendar-month')[0], {
         initialDate: '2023-01-12',
-       editable: true,
-       locale: 'th',
-      selectable: true,
-      businessHours: true,
-      dayMaxEvents: true, // allow "more" link when too many events
-      events: [
-        {
-          title: 'All Day Event',
-          start: '2023-01-01'
-        },
-        {
-          title: 'Long Event',
-          start: '2023-01-07',
-          end: '2023-01-10'
-        },
-        {
-          groupId: 999,
-          title: 'Repeating Event',
-          start: '2023-01-09T16:00:00'
-        },
-        {
-          groupId: 999,
-          title: 'Repeating Event',
-          start: '2023-01-16T16:00:00'
-        },
-        {
-          title: 'Conference',
-          start: '2023-01-11',
-          end: '2023-01-13'
-        },
-        {
-          title: 'Meeting',
-          start: '2023-01-12T10:30:00',
-          end: '2023-01-12T12:30:00'
-        },
-        {
-          title: 'Lunch',
-          start: '2023-01-12T12:00:00'
-        },
-        {
-          title: 'Meeting',
-          start: '2023-01-12T14:30:00'
-        },
-        {
-          title: 'Happy Hour',
-          start: '2023-01-12T17:30:00'
-        },
-        {
-          title: 'Dinner',
-          start: '2023-01-12T20:00:00'
-        },
-        {
-          title: 'Birthday Party',
-          start: '2023-01-13T07:00:00'
-        },
-        {
-          title: 'Click for Google',
-          url: 'http://google.com/',
-          start: '2023-01-28'
-        }
-      ],
-      
+        editable: true,
+        locale: 'th',
+        selectable: true,
+        businessHours: true,
+        dayMaxEvents: true, // allow "more" link when too many events
+        events: [
+          {
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-01-12T10:30:00',
+            customStartTime: '12:45 น.',
+            customEndTime: '15:00 น.',
+          },{
+            title: 'Lunch',
+            start: '2023-01-12T12:00:00'
+          },{
+            title: 'Meeting',
+            start: '2023-01-12T14:30:00'
+          },{
+            title: 'Happy Hour',
+            start: '2023-01-12T17:30:00'
+          },{
+            title: 'Dinner',
+            start: '2023-01-12T20:00:00'
+          }
+        ],
         datesSet: function(info){
           var date = new Date(info.view.currentStart);
           updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
         },
+        eventsSet: function(info, d){
+          var event = info.event,
+              date = new Date(event.start),
+              classer = '',
+              index = Math.round(Math.random() * 2);
+          if(date.getFullYear()===today.getFullYear() 
+          && date.getMonth()===today.getMonth() 
+          && date.getDate()===today.getDate()){
+            classer = 'today';
+          }
+          info.el.innerHTML = `
+            <div class="custom-event type-${index} ${classer}">
+              <div class="table-view">
+                <div class="time">
+                  ${event.extendedProps.customStartTime} - 
+                  ${event.extendedProps.customEndTime}
+                </div>
+                <div class="title">${event.title}</div>
+              </div>
+              <div class="popup-view">
+                <div class="ss-card ss-card-04 sm">
+                  <div class="img-container">
+                    <a class="ss-img adaptive" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/img/content/calendar-0${index+1}.jpg');"></div>
+                      <div class="hover-container">
+                        <img class="icon-img" src="public/assets/app/img/icon/hover-read.png" alt="Image Icon" />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="text-container">
+                    <a class="title h5 fw-600" href="#">
+                      นิทรรศการพลังงานไฟฟ้า พลังชีวิต (Clean Energy for Life)
+                    </a>
+                    <div class="ss-stats mt-1">
+                      <div class="stat p lg">
+                        <div class="icon"><em class="far fa-clock"></em></div> 18 มกราคม 2564
+                      </div>
+                      <div class="stat p lg">
+                        <div class="icon"><em class="far fa-eye"></em></div> 158
+                      </div>
+                      <div class="stat p lg">
+                        <div class="icon"><em class="fas fa-map-marker-alt"></em></div> 
+                        สว่างวีระวงศ์, อุบลราชธานี
+                      </div>
+                    </div>
+                    <p class="desc lg mt-1">
+                      รมว.พลังงาน ร่วมกับ คณะกรรมการการกำกับกิจการพลังงาน (กกพ.) เปิดตัวโครงการ "โซลาร์ภาค ประชาชน" 
+                      ให้เจ้าของบ้านและอาคารที่อยู่อาศัยที่ต้องการติดตั้งแผงเซลล์ผลิตไฟฟ้าด้วยพลังงานแสงอาทิตย์
+                    </p>
+                    <div class="mt-4">
+                      <a class="btn p fw-400 color-03" href="#">
+                        อ่านเพิ่มเติม <em class="fas fa-chevron-right ml-1"></em>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `;
+          return true;
+        }
       
       });
       calendarMonth.render();
-
 
       // Events
       prevMonthBtn.click(function(e){

@@ -496,6 +496,13 @@ input[type="search"]::placeholder{color:#fecb00;}
 /* Buttons Group */
 .buttons-group{border-color:#fecb00;}
 
+/* Checkbox Set */
+.checkbox-set > .checkmark::before,
+.checkbox-set > .checkmark::after{border-color:#fecb00;}
+.checkbox-set > .checkmark{border-color:#fecb00;}
+.checkbox-set input:checked ~ .checkmark{background:#000000;}
+.checkbox-set > .bg-color{background:#000000!important;}
+
 /* Category Container */
 .category-container .cate-list{border-color:#fecb00;}
 .category-container .cate-list.bcolor-white-theme{border-color:#000000;}

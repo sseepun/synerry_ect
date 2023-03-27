@@ -39,7 +39,7 @@
         <div class="button-container">
           <div class="button-wrapper">
           <div class="btns">
-            <div class="btn btn-action btn-22 active size-05 btn-white-theme">
+            <div class="btn btn-action btn-22 size-05 btn-white-theme">
               วัน
             </div>
             <div class="btn btn-action btn-22 size-05 btn-white-theme">
@@ -140,15 +140,55 @@
         slotDuration: '01:00:00',
         events: [
           {
-            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4 เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4 เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
-            start: '2023-03-14T08:00:00',
-            end: '2023-03-14T16:00:00',
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-03-27T08:00:00',
+            end: '2023-03-27T12:00:00',
+            url: '#',
+          },{
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-03-27T08:00:00',
+            end: '2023-03-27T12:00:00',
             url: '#',
           },
         ],
         datesRender: function(info){
           updateCalendarHeaderDay(info.view);
         },
+        eventRender: function(info, d){
+          var event = info.event,
+              dateStart = new Date(event.start),
+              timeStart = new Date(event.start),
+              timeEnd = new Date(event.end),
+              minutesStart = String(timeStart.getMinutes()).padStart(2, '0'),
+              hoursStart = String(timeStart.getHours()).padStart(2, '0'),
+              minutesEnd = String(timeEnd.getMinutes()).padStart(2, '0'),
+              hoursEnd = String(timeEnd.getHours()).padStart(2, '0')
+
+              console.log(minutesStart)
+              console.log(hoursStart)
+         
+          info.el.innerHTML = `
+            <div class="ss-card ss-card-70 color-dark"> 
+              <h6 class="color-dark fw-500">${event.title}</h6>
+              <div class="option">
+                <div class="icon">
+                  <em class="fa-solid fa-calendar-days"></em>
+                </div>
+                <span class="p sm fw-500">${dateStart.getDate()} มีนาคม ${dateStart.getFullYear() + 543}</span>
+                <span class="p sm fw-500">
+                  เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
+                </span>
+              </div>
+              <div class="option">
+                <div class="icon">
+                  <em class="fa-solid fa-location-dot"></em>
+                </div>
+                <p class="sm fw-500">องค์การบริหารส่วนตำบลเทอดไทย, จังหวัดเชียงราย</p>
+              </div>
+            </div>
+          `;
+          return true;
+        }
       });
       calendarDay.render();
 
@@ -161,69 +201,6 @@
         e.preventDefault();
         calendarDay.next();
       });
-
-      const title = document.querySelector('.fc-title')
-      const containerEvent = document.querySelector('.fc-content')
-      const wrapperContainer = document.createElement('div')
-      const btnAction = document.createElement('div')
-      const sep = document.createElement('div')
-      const textContainer = document.createElement('div')
-      const imageContainer = document.createElement('div')
-      const specialImage = document.createElement('div')
-      const imgBg = document.createElement('div')
-      const option01 = document.createElement('div')
-      const option02 = document.createElement('div')
-      const icon01 = document.createElement('div')
-      const icon02 = document.createElement('div')
-      const calendarIcon = document.createElement('em')
-      const locationIcon = document.createElement('em')
-      const span01 = document.createElement('span')
-      const span02 = document.createElement('span')
-      const span03 = document.createElement('span')
-
-      console.log(containerEvent)
-      console.log(title)
-      
-      containerEvent.appendChild(wrapperContainer)
-      containerEvent.appendChild(btnAction)
-      btnAction.className = 'btn btn-action-style-06 size-03'
-      btnAction.appendChild(span03)
-      btnAction.appendChild(sep)
-      span03.textContent = 'อ่านเพิ่มเติม'
-      sep.className = 'sep'
-    
-      wrapperContainer.className = 'wrapper'
-      wrapperContainer.appendChild(textContainer)
-      textContainer.className = 'text-container'
-      wrapperContainer.appendChild(imageContainer)
-      imageContainer.className = 'img-container'
-      imageContainer.appendChild(specialImage)
-      specialImage.className = 'ss-img square'
-      specialImage.appendChild(imgBg)
-      imgBg.className = 'img-bg'
-      imgBg.style.backgroundImage = "url('public/assets/app/images/content/134.jpg')"
-    
-      textContainer.appendChild(title)
-      title.classList.add("title")
-      textContainer.appendChild(option01)
-      option01.className = 'option'
-      option01.appendChild(icon01)
-      option01.appendChild(span01)
-      icon01.className = 'icon'
-      icon01.appendChild(calendarIcon)
-      calendarIcon.className = 'fa-solid fa-calendar-days color-02'
-      span01.className = 'color-black fw-500'
-      span01.textContent = '04 ตุลาคม 2565  เวลา 08:00 - 12:00'
-
-      textContainer.appendChild(option02)
-      option02.className = 'option'
-      option02.appendChild(icon02)
-      option02.appendChild(span02)
-      icon02.className = 'icon'
-      icon02.appendChild(locationIcon)
-      locationIcon.className = 'fa-solid fa-location-dot color-02'
-      span02.className = 'color-black fw-500'
-      span02.textContent = 'องค์การบริหารส่วนตำบลเทอดไทย, จังหวัดเชียงราย'
     });
 
    

@@ -124,7 +124,7 @@
               กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย 
               <span class="text-danger fw-600">*</span>
             </p>
-            <form action="action.php" method="post">
+            <form class="form style-02 white-theme" action="action.php" method="post">
               <div class="grids">
                 <div class="grid sm-100 mt-3">
                   <div class="option cate">

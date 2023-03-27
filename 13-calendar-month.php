@@ -129,88 +129,38 @@
         contentHeight: 'auto',
         eventLimit: true,      
         eventLimitText: '',
-        views: {dayGrid: {eventLimit: 2}},
+        views: {dayGrid: {eventLimit: 4}},
         events: [
           {
-            title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2023-03-13',
-            customStartTime: '12:45 น.',
-            end: '2021-10-22',
-            customEndTime: '15:00 น.',
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-12T10:30:00',
+            end: '2023-03-12T15:30:00',
             url: '#',
           },
           {
-            title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2023-03-13',
-            customStartTime: '12:45 น.',
-            end: '2021-10-20',
-            customEndTime: '15:00 น.',
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-12T12:30:00',
+            end: '2023-03-12T17:00:00',
             url: '#',
           },
           {
-            title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2023-03-13',
-            customStartTime: '12:45 น.',
-            end: '2021-10-20',
-            customEndTime: '15:00 น.',
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-12T13:30:00',
+            end: '2023-03-12T14:00:00',
             url: '#',
           },
           {
-            title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2021-10-19',
-            customStartTime: '12:45 น.',
-            end: '2021-10-19',
-            customEndTime: '15:00 น.',
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-12T15:00:00',
+            end: '2023-03-12T17:30:00',
             url: '#',
           },
           {
-            title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2021-10-19',
-            customStartTime: '12:45 น.',
-            end: '2021-10-19',
-            customEndTime: '15:00 น.',
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-12T08:00:00',
+            end: '2023-03-12T10:30:00',
             url: '#',
-          },
-          {
-            title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-            start: '2021-10-19',
-            customStartTime: '12:45 น.',
-            end: '2021-10-19',
-            customEndTime: '15:00 น.',
-            url: '#',
-          },
-          {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-            start: '2021-10-29',
-            customStartTime: '09:00 น.',
-            end: '2021-10-29',
-            customEndTime: '20:00 น.',
-            url: '#',
-          },
-          {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-            start: '2021-10-24',
-            customStartTime: '09:00 น.',
-            end: '2021-10-24',
-            customEndTime: '20:00 น.',
-            url: '#',
-          },
-          {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-            start: '2021-10-24',
-            customStartTime: '09:00 น.',
-            end: '2021-10-24',
-            customEndTime: '20:00 น.',
-            url: '#',
-          },
-          {
-            title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-            start: '2021-10-24',
-            customStartTime: '09:00 น.',
-            end: '2021-10-24',
-            customEndTime: '20:00 น.',
-            url: '#',
-          },
+          },     
         ],
         columnHeaderText: function(date){
           return days[date.getDay()];
@@ -223,58 +173,41 @@
           var event = info.event,
               date = new Date(event.start),
               classer = '',
+              timeStart = new Date(event.start),
+              timeEnd = new Date(event.end),
+              hoursStart = String(timeStart.getHours()).padStart(2, '0'),
+              minutesStart = String(timeStart.getMinutes()).padStart(2, '0'),
+              minutesEnd = String(timeEnd.getMinutes()).padStart(2, '0'),
+              hoursEnd = String(timeEnd.getHours()).padStart(2, '0'),
               index = Math.round(Math.random() * 2);
+              
           if(date.getFullYear()===today.getFullYear() 
           && date.getMonth()===today.getMonth() 
           && date.getDate()===today.getDate()){
             classer = 'today';
           }
           info.el.innerHTML = `
-            <div class="custom-event type-${index} ${classer}">
-              <div class="table-view">
+            <div class="pos-relative custom-event type-${index} ${classer}">
+              <div class="table-view color-dark">
                 <div class="time">
-                  ${event.extendedProps.customStartTime} - 
-                  ${event.extendedProps.customEndTime}
+                <em class="fa-solid fa-calendar-days"></em>
+                  ${hoursStart} : ${minutesStart} - 
+                  ${hoursEnd} : ${minutesEnd}
                 </div>
                 <div class="title">${event.title}</div>
               </div>
               <div class="popup-view">
-                <div class="ss-card ss-card-04 sm">
-                  <div class="img-container">
-                    <a class="ss-img adaptive" href="#">
-                      <div class="img-bg" style="background-image:url('public/assets/app/img/content/calendar-0${index+1}.jpg');"></div>
-                      <div class="hover-container">
-                        <img class="icon-img" src="public/assets/app/img/icon/hover-read.png" alt="Image Icon" />
-                      </div>
-                    </a>
+               <div class="ss-card ss-card-71 color-dark">
+                <div class="option">
+                  <div class="icon">
+                    <em class="fa-solid fa-calendar-days"></em>
                   </div>
-                  <div class="text-container">
-                    <a class="title h5 fw-600" href="#">
-                      นิทรรศการพลังงานไฟฟ้า พลังชีวิต (Clean Energy for Life)
-                    </a>
-                    <div class="ss-stats mt-1">
-                      <div class="stat p lg">
-                        <div class="icon"><em class="far fa-clock"></em></div> 18 มกราคม 2564
-                      </div>
-                      <div class="stat p lg">
-                        <div class="icon"><em class="far fa-eye"></em></div> 158
-                      </div>
-                      <div class="stat p lg">
-                        <div class="icon"><em class="fas fa-map-marker-alt"></em></div> 
-                        สว่างวีระวงศ์, อุบลราชธานี
-                      </div>
-                    </div>
-                    <p class="desc lg mt-1">
-                      รมว.พลังงาน ร่วมกับ คณะกรรมการการกำกับกิจการพลังงาน (กกพ.) เปิดตัวโครงการ "โซลาร์ภาค ประชาชน" 
-                      ให้เจ้าของบ้านและอาคารที่อยู่อาศัยที่ต้องการติดตั้งแผงเซลล์ผลิตไฟฟ้าด้วยพลังงานแสงอาทิตย์
-                    </p>
-                    <div class="mt-4">
-                      <a class="btn p fw-400 color-03" href="#">
-                        อ่านเพิ่มเติม <em class="fas fa-chevron-right ml-1"></em>
-                      </a>
-                    </div>
-                  </div>
+                  <span class="p sm fw-500">
+                    เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
+                  </span>
                 </div>
+                <p class="fw-400">${event.title}</p>
+               </div>
               </div>
             </div>
           `;

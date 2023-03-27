@@ -253,6 +253,13 @@ html, body, table.table{color:#000000;}
 /* Chart */
 .chart-container.style-01 .chart text{fill:#000000!important;}
 
+/* Checkbox */
+.checkbox-set > .checkmark::before,
+.checkbox-set > .checkmark::after{border-color:#ffd000;}
+.checkbox-set > .checkmark{border-color:#2e603b;}
+.checkbox-set input:checked ~ .checkmark{background:#2e603b;}
+.checkbox-set > .bg-color{background:#c7dece!important;}
+
 /* Calendar */
 .calendar-header .wrapper > .text{background:#eeeeee;}
 .calendar-header .wrapper > .btn-calendar{border-color:2e603c!important; color:#ffffff; background:#2e603c;}
@@ -283,7 +290,7 @@ html, body, table.table{color:#000000;}
   background:#2e603c; color:#ffffff;
 }
 .calendar-week .fc-time-grid .fc-event{
-  background:#f87037; color:#ffffff; border-color:#f87037!important;
+  background:#ffffff; color:#ffffff; border-color:#2e603c!important;
 }
 .calendar-week .custom-date{color:#000000;} 
 .calendar-week .custom-date.active{background:#063112; color:#ffffff;} 
@@ -297,14 +304,14 @@ html, body, table.table{color:#000000;}
 .calendar-month .fc-day-top.fc-other-month > span{background:#eeeeee; color:#000000;}
 .calendar-month .fc-unthemed td.fc-today > span{color:#ffffff;}
 .calendar-month .custom-event > .table-view{background:#f87037; color:#ffffff;}
-.calendar-month .custom-event.type-1 > .table-view{background:#219ebc;}
-.calendar-month .custom-event.type-2 > .table-view{background:#023047;}
+.calendar-month .custom-event.type-1 > .table-view{background:#ffffff!important;}
+.calendar-month .custom-event.type-2 > .table-view{background:#ffffff;}
 .calendar-month a.fc-more{color:#000000;}
 .calendar-month a.fc-more:hover{color:#f87037;}
 .calendar-month .fc-day.fc-today,
 .calendar-month .fc-day:hover{background:#dff3eb;}
 .calendar-month .fc-day.fc-other-month{background:#dcdcdc!important;}
-.calendar-month .fc-event-container{background:#f5f5f5;}
+.calendar-month .fc-event-container{background:#ffffff;}
 
 /* Calendar Style 02 */
 .calendar-style-02 .calendar-header table th.next, 
@@ -1182,6 +1189,7 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 
 /* Text Danger */
 .text-danger{color:#dc3545!important;}
+.text-danger.style-02{color:#dc3545!important;}
 
 /* wowbook */
 .wowbook-book-container{background:#eeeeee;}

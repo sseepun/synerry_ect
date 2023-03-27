@@ -34,6 +34,7 @@
               <span class="p sm fw-400">กรุณากรอกอีเมลที่ต้องการรับข่าวสาร</span>
             </label>
             <input class="style-02 mt-1" type="text" placeholder="อีเมล *" required>
+            <label class="text-danger style-02">กรุณากรอกอีเมล</label>
             <p class="sm fw-400 mt-3">กรุณาเลือกประเภทของข่าวสารที่คุณมีความสนใจในการติดตาม</p>
             <fieldset class="mt-2">
               <label class="form-check ai-center form-check-container-02">
@@ -107,9 +108,12 @@
               </div>
             </fieldset>
           </div>
-          <div class="captcha-container mt-5">
-            <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
-            <div class="btns ml-4">
+          <div class="captcha-container style-03 ai-start mt-5">
+            <div>
+              <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCA">
+              <label class="text-danger style-02">กรุณายืนยันตัวตน</label>  
+            </div>
+            <div class="btns mt-3 ml-4">
               <button type="submit" class="btn btn-popup-toggle btn-action btn-03 size-03" data-popup="99">
                 ยืนยัน
               </button>

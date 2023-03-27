@@ -36,13 +36,19 @@
             <div class="form-input size-02">
               <input class="style-02 size-03" type="email" required/>
             </div>
-            <div class="captcha-container padding-style-02 d-flex ai-center mt-5">
+          </div>
+          <div class="padding-style-02">
+            <label class="text-danger style-02">กรุณากรอกอีเมล</label>
+          </div>
+          <div class="captcha-container ai-start padding-style-02 d-flex mt-5">
+            <div>
               <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
-              <div class="btns ml-3">
-                <button class="btn btn-popup-toggle btn-action btn-02" value="submit" type="submit" data-popup="99">
-                  ยืนยัน
-                </button>
-              </div>
+              <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
+            </div>
+            <div class="btns mt-2 ml-3">
+              <button class="btn btn-popup-toggle btn-action btn-02" value="submit" type="submit" data-popup="99">
+                ยืนยัน
+              </button>
             </div>
           </div>
         </form>
