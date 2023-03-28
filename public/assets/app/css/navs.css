@@ -694,7 +694,7 @@ nav.footer.style-03 .footer-socials > .social-wrapper .tooltip.size-02{left:-2%;
 nav.footer.style-03 .footer-socials > .social-wrapper .tooltip.size-03{left:-13%;}
 nav.footer.style-03 .footer-socials > .social-wrapper:hover .tooltip{opacity:1;}
 
-nav.footer.style-03 .footer-socials .social{position:relative; overflow:hidden; margin-top:1.5rem;}
+nav.footer.style-03 .footer-socials .social{position:relative; overflow:hidden; margin-top:1.5rem; cursor:default;}
 nav.footer.style-03 .footer-socials .social:hover em{transform:translateY(100%);}
 nav.footer.style-03 .footer-socials .social em::after{content:''; position:absolute; top:0; left:0; transform:translateY(-100%);}
 nav.footer.style-03 .footer-socials .social-wrapper:nth-child(1) > .social em::after{content:'\f39e';}

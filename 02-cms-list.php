@@ -17,13 +17,6 @@
     include('component/breadcrumb.php');
   ?>
 
-  <?php 
-    $news01 = [
-      ['image' => 'public/assets/app/images/content/02.jpg'], 
-      ['image' => 'public/assets/app/images/content/01.jpg']
-    ]
-  ?>
-
   <section class="section-padding section-05">
     <div class="container">
       <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
@@ -34,98 +27,101 @@
           <?php for($i=0; $i<4; $i++){?>
             <div class="swiper-slide">
               <div class="grids" data-aos="fade-up" data-aos-delay="150">
-                <?php foreach($news01 as $d) {?>
-                  <div class="grid lg-50 md-50 sm-100">
-                    <a class="ss-card ss-card-06" href="#">
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                      </div>
-                      <div class="text-wrapper">
-                        <div class="card-top">
-                          <div class="wrapper">
-                            <div class="icon">
-                              <em class="fa-solid fa-calendar-days"></em>
-                              <span class="p sm ml-2">08 มิถุนายน 2565</span>
-                            </div>
-                            <div class="icon">
-                              <em class="fa-solid fa-eye"></em>
-                              <span class="p sm ml-2">255</span>
-                            </div>
-                            <div class="icon">
-                              <em class="fa-solid fa-share-nodes"></em>
-                              <span class="p sm ml-2">208</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="desc h6 fw-500 h-color-t" href="#">
-                          กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                          ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                          ปฏิบัติงานระดับการชำนาญพิเศษ
-                          กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                          ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                          ปฏิบัติงานระดับการชำนาญพิเศษ
-                        </div>
-                      </div>
-                      <div class="filter-01"></div>
+                <div class="grid lg-70 sm-100">
+                  <div class="ss-card ss-card-01 main-card">
+                    <a class="ss-img" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/bg/03.jpg');"></div>
                     </a>
-                  </div>
-                <?php }?>
-              </div>
-              <div class="grids" data-aos="fade-up" data-aos-delay="300">
-                <?php for($j=0; $j<2; $j++){?>
-                  <div class="grid lg-50 md-50">
-                    <?php 
-                      $news02 = [
-                        ['image' => 'public/assets/app/images/content/03.jpg'], 
-                        ['image' => 'public/assets/app/images/content/04.jpg']
-                      ]
-                    ?>
-                    <?php foreach($news02 as $d) {?>
-                      <div class="grid sm-100">
-                        <div class="ss-card ss-card-07 mb-4">
-                          <div class="wrapper">
-                            <div class="img-container">
-                              <div class="ss-img">
-                                <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                                <div class="card-line style-01"></div>
-                                <div class="filter style-02">
-                                  <div class="wrapper">
-                                    <div class="icon sm">
-                                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="text-container">
-                              <a class="title p fw-600 h-color-t" href="#">
-                                กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
-                                ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
-                                ปฏิบัติงานระดับการชำนาญพิเศษ
-                              </a>
-                              <div class="card-footer mt-2">
-                                <div class="wrapper">
-                                  <div class="icon">
-                                    <em class="fa-solid fa-calendar-days"></em>
-                                    <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
-                                  </div>
-                                  <div class="icon">
-                                    <em class="fa-solid fa-eye"></em>
-                                    <span class="p sm ml-2 fw-500">255</span>
-                                  </div>
-                                  <div class="icon">
-                                    <em class="fa-solid fa-share-nodes"></em>
-                                    <span class="p sm ml-2 fw-500">208</span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                    <div class="text-container color-white">
+                      <div class="ss-tags">
+                        <a class="tag fw-400" href="#">การเลือกตั้ง</a>
+                      </div>
+                      <a class="title style-02 h5 fw-600 h-color-07 mt-3" href="#">
+                        การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ
+                      </a>
+                      <p class="desc">
+                        ผู้อำนวยการสถาบันพัฒนาการเมืองและการเลือกตั้ง เป็นวิทยากรบรรยายเรื่อง “วัฒนธรรมองค์กร 
+                        พลังขับเคลื่อนสู่ความสำเร็จ” ในการปฐมนิเทศพนักงานใหม่ พ.ศ. 2565
+                      </p>
+                      <div class="card-footer mt-2">
+                        <div class="wrapper">
+                          <div class="icon">
+                            <em class="fa-solid fa-calendar-days"></em>
+                            <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-eye"></em>
+                            <span class="p sm fw-300 ml-2">255</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-share-nodes"></em>
+                            <span class="p sm fw-300 ml-2">208</span>
                           </div>
                         </div>
                       </div>
-                    <?php }?>
+                    </div>
                   </div>
-                <?php }?>
+                </div>
+                <div class="grid lg-30 sm-100">
+                  <div class="ss-card ss-card-01 sub-card">
+                    <a class="ss-img" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/bg/04.jpg');"></div>
+                    </a>
+                    <div class="text-container color-white">
+                      <div class="ss-tags">
+                        <a class="tag fw-400" href="#">การเลือกตั้ง</a>
+                      </div>
+                      <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
+                        การประชุมพัฒนางานและยกระดับมาตรฐาน
+                      </a>
+                      <div class="card-footer mt-2">
+                        <div class="wrapper">
+                          <div class="icon">
+                            <em class="fa-solid fa-calendar-days"></em>
+                            <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-eye"></em>
+                            <span class="p sm fw-300 ml-2">255</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-share-nodes"></em>
+                            <span class="p sm fw-300 ml-2">208</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ss-card ss-card-01 sub-card mt-4">
+                    <a class="ss-img" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/bg/05.jpg');"></div>
+                    </a>
+                    <div class="text-container color-white">
+                      <div class="ss-tags">
+                        <a class="tag fw-400" href="#">การเลือกตั้ง</a>
+                      </div>
+                      <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
+                        คณะกรรมการการเลือกตั้งครบรอบ 24 ปี
+                      </a>
+                      <div class="card-footer mt-2">
+                        <div class="wrapper">
+                          <div class="icon">
+                            <em class="fa-solid fa-calendar-days"></em>
+                            <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-eye"></em>
+                            <span class="p sm fw-300 ml-2">255</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-share-nodes"></em>
+                            <span class="p sm fw-300 ml-2">208</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           <?php }?>

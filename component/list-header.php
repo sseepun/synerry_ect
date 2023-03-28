@@ -59,11 +59,11 @@
         <?php }?>
         <?php if(in_array('view-02', $listHeader)){?>
           <div class="option view">
-            <div class="btn btn-action-style-03 btn-10 op-10 mr-3" href="#">
+            <div class="btn btn-action-style-03 btn-10 op-0 mr-3" href="#">
               <em class="fa-solid fa-arrow-down"></em>
               <em class="fa-solid fa-arrow-up"></em>
             </div>
-            <div class="btn btn-action-style-03 op-10 btn-10 mr-3" href="#">
+            <div class="btn btn-action-style-03 op-0 btn-10 mr-3" href="#">
               <em class="fa-solid fa-arrow-up"></em>
               <em class="fa-solid fa-arrow-down"></em>
             </div>

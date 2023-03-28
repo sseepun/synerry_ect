@@ -51,23 +51,23 @@
                 <a class="social" href="#">
                   <em class="fa-brands fa-facebook-f icon-01"></em>
                 </a>
-                <div class="tooltip">facebook</div>
+                <div class="tooltip">Facebook</div>
               </div>
               <div class="social-wrapper">
                 <a class="social" href="#">
                   <em class="fa-brands fa-twitter"></em>
                 </a>
-                <div class="tooltip size-02">twitter</div>
+                <div class="tooltip size-02">Twitter</div>
               </div>
               <div class="social-wrapper">
                 <a class="social" href="#">
                   <em class="fa-brands fa-youtube"></em>
                 </a>
-                <div class="tooltip size-03">youtube</div>
+                <div class="tooltip size-03">Youtube</div>
               </div>
             </div>
             <div class="d-flex ai-center mt-5">
-              <h6 class="color-02 fw-400">สมัครรับจดหมายข่าว</h6>
+              <h6 class="color-02 fw-400">สมัครรับข่าวสาร</h6>
               <a class="btn btn-action-style-08 btn-20 ml-2">
                 <em class="fa-solid fa-arrow-right"></em>
               </a>

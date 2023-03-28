@@ -17,7 +17,7 @@
     include('component/breadcrumb.php');
   ?>
 
-  <section class="section-padding section-06">
+  <section class="section-padding section-25">
     <div class="container">
       <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
         ไฮไลต์ภาพกิจกรรม
@@ -25,77 +25,127 @@
       <div class="swiper-main-container">
         <div class="swiper-container"  data-aos="fade-up" data-aos-delay="300">
           <div class="swiper-wrapper">
-            <?php for($i=0; $i<10; $i++){?>
+            <?php for($i=0; $i<4; $i++){?>
               <div class="swiper-slide">
-              <a class="ss-card ss-card-53" href="#">
-                <div class="wrapper">
-                  <div class="img-container">
-                    <div class="img-wrapper">
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('public/assets/app/images/content/2<?= ($i%3+0) ?>.jpg');"></div>
-                        <div class="hover-container">
-                          <div class="icon sm">
-                            <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
-                          </div>
-                        </div>
-                        <div class="filter style-01"></div>
-                      </div>
-                      <div class="card-line style-01"></div>
-                    </div>
-                  </div>
-                  <div class="text-container">
-                    <div class="text">
-                      <p class="title fw-600">
-                        รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
-                        สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี รองเลขาธิการคณะกรรมการการเลือกตั้ง 
-                        ประชุมหารือเตรียมการจัดงานวันสถาปนา สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
+              <div class="grids" data-aos="fade-up" data-aos-delay="150">
+                <div class="grid lg-70 sm-100">
+                  <div class="ss-card ss-card-01 main-card">
+                    <a class="ss-img" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/bg/03.jpg');"></div>
+                    </a>
+                    <div class="text-container color-white">
+                      <a class="title style-02 h5 fw-600 h-color-07 mt-3" href="#">
+                        การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ
+                      </a>
+                      <p class="desc">
+                        ผู้อำนวยการสถาบันพัฒนาการเมืองและการเลือกตั้ง เป็นวิทยากรบรรยายเรื่อง “วัฒนธรรมองค์กร 
+                        พลังขับเคลื่อนสู่ความสำเร็จ” ในการปฐมนิเทศพนักงานใหม่ พ.ศ. 2565
                       </p>
-                      <div class="card-top mt-1">
+                      <div class="card-footer mt-2">
                         <div class="wrapper">
                           <div class="icon">
                             <em class="fa-solid fa-calendar-days"></em>
-                            <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
+                            <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
                           </div>
                           <div class="icon">
                             <em class="fa-solid fa-eye"></em>
-                            <span class="p sm ml-2 fw-500">255</span>
+                            <span class="p sm fw-300 ml-2">255</span>
                           </div>
                           <div class="icon">
                             <em class="fa-solid fa-share-nodes"></em>
-                            <span class="p sm ml-2 fw-500">208</span>
+                            <span class="p sm fw-300 ml-2">208</span>
                           </div>
                         </div>
-                      </div>
-                      <p class="desc sm color-gray mt-1 fw-400">
-                        วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายเกรียงไกร พานดอกไม้ 
-                        รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงาน
-                        ในการศึกษาวิธีการปฏิบัติที่ผ่านมาสำหรับการประเมินผลการปฏิบัติงาน
-                        ของเลขาธิการคณะกรรมการการเลือกตั้ง เพื่อให้เป็นไปตามความเห็นและ
-                        ข้อสังเกตของคณะกรรมการการเลือกตั้ง ณ ห้องประชุมรองเลขาธิการ
-                        เพื่อให้เป็นไปตามความเห็นและ ข้อสังเกตของคณะกรรมการการเลือกตั้ง 
-                        ณ ห้องประชุมรองเลขาธิการ
-                      </p>
-                    </div>
-                    <div class="btns mt-5">
-                      <div class="btn btn-action-style-06">
-                        <span>อ่านเพิ่มเติม</span><div class="sep"></div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </a>    
+                <div class="grid lg-30 sm-100">
+                  <div class="ss-card ss-card-01 sub-card">
+                    <a class="ss-img" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/bg/04.jpg');"></div>
+                    </a>
+                    <div class="text-container color-white">
+                      <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
+                        การประชุมพัฒนางานและยกระดับมาตรฐาน
+                      </a>
+                      <div class="card-footer mt-2">
+                        <div class="wrapper">
+                          <div class="icon">
+                            <em class="fa-solid fa-calendar-days"></em>
+                            <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-eye"></em>
+                            <span class="p sm fw-300 ml-2">255</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-share-nodes"></em>
+                            <span class="p sm fw-300 ml-2">208</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ss-card ss-card-01 sub-card mt-4">
+                    <a class="ss-img" href="#">
+                      <div class="img-bg" style="background-image:url('public/assets/app/images/bg/05.jpg');"></div>
+                    </a>
+                    <div class="text-container color-white">
+                      <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
+                        คณะกรรมการการเลือกตั้งครบรอบ 24 ปี
+                      </a>
+                      <div class="card-footer mt-2">
+                        <div class="wrapper">
+                          <div class="icon">
+                            <em class="fa-solid fa-calendar-days"></em>
+                            <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-eye"></em>
+                            <span class="p sm fw-300 ml-2">255</span>
+                          </div>
+                          <div class="icon">
+                            <em class="fa-solid fa-share-nodes"></em>
+                            <span class="p sm fw-300 ml-2">208</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>    
               </div>
             <?php }?>
           </div>
+          <?php 
+            if($i > 1){
+                echo ' <div class="bullet mt-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="container">
+                  <div class="bullet-wrapper">
+                    <div class="dots"></div>
+                  </div>
+                </div>  
+              </div>';
+            } else {
+              echo '';
+            }
+          ?>
         </div>
-        <div class="arrow-container" data-aos="fade-up" data-aos-delay="150">
-          <div class="arrow btn-icon-prev">
-            <em class="fa-solid fa-arrow-left"></em>
-          </div>
-          <div class="arrow btn-icon-next">
-            <em class="fa-solid fa-arrow-right"></em>
-          </div>
-        </div>
+        <?php 
+          if($i > 1){
+            echo '<div class="arrow-container" data-aos="fade-up" data-aos-delay="150">
+              <div class="arrow btn-icon-prev">
+                <em class="fa-solid fa-arrow-left"></em>
+              </div>
+              <div class="arrow btn-icon-next">
+                <em class="fa-solid fa-arrow-right"></em>
+              </div>
+            </div>';
+          } else {
+            echo '';
+          }
+        ?>
       </div> 
     </div>
   </section>

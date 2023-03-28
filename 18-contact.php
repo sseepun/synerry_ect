@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -124,7 +124,7 @@
               กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย 
               <span class="text-danger fw-600">*</span>
             </p>
-            <form class="form style-02 white-theme" action="action.php" method="post">
+            <form class="form style-02 black-theme" action="action.php" method="post">
               <div class="grids">
                 <div class="grid sm-100 mt-3">
                   <div class="option cate">
@@ -138,6 +138,7 @@
                       <em class="fa-solid fa-chevron-down"></em>
                     </div>
                   </div>
+                  <label class="text-danger style-02">กรุณาเลือกหน่วยงานที่ต้องการติดต่อ</label>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="option cate">
@@ -151,6 +152,7 @@
                       <em class="fa-solid fa-chevron-down"></em>
                     </div>
                   </div>
+                  <label class="text-danger style-02">กรุณาเลือกหัวข้อที่ต้องการติดต่อ</label>
                 </div>
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
@@ -158,6 +160,7 @@
                       <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
                     </div>
                   </div>
+                  <label class="text-danger style-02">กรุณากรอกชื่อ</label>
                 </div>
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
@@ -165,6 +168,7 @@
                       <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
                     </div>
                   </div>
+                  <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
@@ -172,6 +176,7 @@
                       <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*" required>
                     </div>
                   </div>
+                  <label class="text-danger style-02">กรุณากรอกมายเลขติดต่อเป็นตัวเลข</label>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
@@ -179,6 +184,7 @@
                       <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
                     </div>
                   </div>
+                  <label class="text-danger style-02">กรุณากรอกอีเมล</label>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
@@ -236,10 +242,11 @@
                 </div>
                 <div class="grid lg-50 md-100 sm-100 mt-4">
                   <div class="captcha">
-                    <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                    <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
+                    <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                   </div>
                 </div>
-                <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-4">
+                <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-0">
                   <div class="grids no-gap">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">

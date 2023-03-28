@@ -105,50 +105,53 @@
           <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
-          <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
-            <table class="table table-download" data-aos="fade-up" data-aos-delay="600">
-              <tbody>
-                <?php
-                  foreach([
-                    'pdf', 'doc', 'xls', 'ppt', 'zip',
-                    'rar', 'link'
-                  ] as $k){
-                ?>
-                  <tr class="table-card-01 box-shadow style-02 mb-2">
-                    <td>
-                      <div class="download-card">
-                        <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
-                      </div>
-                    </td>
-                    <td class="title-container" style="min-width:450px;">
-                      <a class="fw-600 title" href="#">
-                        รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
-                      </a>
-                      <div class="text-footer">
-                        <div class="wrapper">
-                          <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
-                          <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                          <div class="icon">
-                            <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
-                              แจ้งไฟล์เสีย
-                            </p>
+          <div class="box-shadow style-04" data-aos="fade-up" data-aos-delay="600">
+            <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
+              <table class="table table-download bg-white">
+                <tbody>
+                  <?php
+                    foreach([
+                      'pdf', 'doc', 'xls', 'ppt', 'zip',
+                      'rar', 'link'
+                    ] as $k){
+                  ?>
+                    <tr class="table-card-01 box-shadow style-02 mb-2">
+                      <td>
+                        <div class="download-card">
+                          <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                        </div>
+                      </td>
+                      <td class="title-container" style="min-width:450px;">
+                        <a class="fw-600 title" href="#">
+                          รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
+                        </a>
+                        <div class="text-footer">
+                          <div class="wrapper">
+                            <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
+                            <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
+                            <div class="icon h-color-19">
+                              <em class="fa-solid fa-circle-exclamation mr-1"></em>
+                              <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                                แจ้งไฟล์เสีย
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </td>
-                    <td class="arrow-container" style="min-width:100px;">
-                      <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
-                        <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
-                        <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
-                      </div>
-                      <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
-                    </td>
-                  </tr>
-                <?php }?>
-              </tbody>
-            </table>
+                      </td>
+                      <td class="arrow-container" style="min-width:100px;">
+                        <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                          <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                          <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
+                        </div>
+                        <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                      </td>
+                    </tr>
+                  <?php }?>
+                </tbody>
+              </table>
+            </div>
           </div>
+       
 
           <?php 
             $videos = [
@@ -192,8 +195,7 @@
             สื่อที่เกี่ยวข้อง
           </h4>
           <div data-aos="fade-up" data-aos-delay="950">
-            <a class="twitter-timeline" href="https://twitter.com/EctThailand?ref_src=twsrc%5Etfw">Tweets by EctThailand</a> 
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <blockquote class="twitter-tweet"><p lang="th" dir="ltr">ข้อห้ามในการหาเสียงเลือกตั้ง <a href="https://t.co/6ergCeZjhH">https://t.co/6ergCeZjhH</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; สำนักงานคณะกรรมการการเลือกตั้ง (@EctThailand) <a href="https://twitter.com/EctThailand/status/1620704316142260224?ref_src=twsrc%5Etfw">February 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
         <!-- Right Content -->

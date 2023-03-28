@@ -303,27 +303,29 @@
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="0">
           <div class="cate-container bc-none-01">
             <h3 class="fw-600">ถาม-ตอบข้อซักถามพรรคการเมือง</h3>
-            <?php foreach($titles as $d) {?>
-              <div class="ss-card ss-card-24 mb-2">
-                <div class="wrapper">
-                  <div class="icon">
-                    <em class="fa-solid fa-question"></em>
-                  </div>
-                  <div class="text-container">
-                    <p class="title fw-500">
-                      <?= $d['title'] ?>
-                    </p>
-                    <p class="desc fw-400">
-                      <?= $d['desc']?>
-                    </p>
-                    <div class="arrow mt-3">
-                      <em class="fa-solid fa-arrow-right"></em>
+            <div class="content-box">
+              <?php foreach($titles as $d) {?>
+                <div class="ss-card ss-card-24 mb-2">
+                  <div class="wrapper">
+                    <div class="icon">
+                      <em class="fa-solid fa-question"></em>
+                    </div>
+                    <div class="text-container">
+                      <p class="title fw-500">
+                        <?= $d['title'] ?>
+                      </p>
+                      <p class="desc fw-400">
+                        <?= $d['desc']?>
+                      </p>
+                      <div class="arrow mt-3">
+                        <em class="fa-solid fa-arrow-right"></em>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            <?php }?>
-            <div class="btns mt-3">
+              <?php }?>
+            </div>
+            <div class="btns mt-1">
               <a class="btn btn-action btn-03" href="#">
                 ถาม-ตอบทั้งหมด
               </a>
@@ -348,19 +350,22 @@
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="150">
           <div class="cate-container bc-none-02">
             <h3 class="fw-600">คำวินิจฉัย กกต.</h3>
-            <?php foreach($titles02 as $d) {?>
-              <div class="ss-card ss-card-25 mb-2">
-                <div class="text-container">
-                  <p class="title fw-500">
-                    <?= $d['title'] ?>
-                  </p>
-                  <div class="arrow mt-3">
-                    <em class="fa-solid fa-arrow-right"></em>
-                  </div>
-                </div> 
-              </div>
-            <?php }?>
-            <div class="btns mt-3">
+            <div class="content-box">
+              <?php foreach($titles02 as $d) {?>
+                <div class="ss-card ss-card-25 mb-2">
+                  <div class="text-container">
+                    <p class="title fw-500">
+                      <?= $d['title'] ?>
+                    </p>
+                    <div class="arrow mt-3">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </div>
+                  </div> 
+                </div>
+              <?php }?>
+            </div>
+         
+            <div class="btns mt-1">
               <a class="btn btn-action btn-03" href="#">
                 คำวินิจฉัยทั้งหมด
               </a>
@@ -383,21 +388,23 @@
         <div class="grid lg-1-3 sm-100 mt-0" data-aos="fade-up" data-aos-delay="300">
           <div class="cate-container bc-none-03">
             <h3 class="fw-600">รวมข่าว กกต.</h3>
-            <?php foreach($titles03 as $d) {?>
-              <div class="ss-card ss-card-26">
-                <div class="wrapper">
-                  <div class="icon">
-                    <em class="fa-regular fa-file-lines"></em>
-                  </div>
-                  <div class="text-container">
-                    <p class="title fw-500">
-                      <?= $d['title'] ?>
-                    </p>
-                  </div>
-                </div> 
-              </div>
-            <?php }?>
-            <div class="btns mt-5">
+            <div class="content-box">
+              <?php foreach($titles03 as $d) {?>
+                <div class="ss-card ss-card-26">
+                  <div class="wrapper">
+                    <div class="icon">
+                      <em class="fa-regular fa-file-lines"></em>
+                    </div>
+                    <div class="text-container">
+                      <p class="title fw-500">
+                        <?= $d['title'] ?>
+                      </p>
+                    </div>
+                  </div> 
+                </div>
+              <?php }?>
+            </div>
+            <div class="btns mt-1">
               <a class="btn btn-action btn-03" href="#">
                 ข่าวทั้งหมด
               </a>
@@ -569,76 +576,92 @@
         <div class="grid xl-50 lg-75 sm-100">
           <div class="grids">
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="150">
-                <div class="wrapper">
-                  <h5 class="title color-05 lh-sm fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
-                  <p class="desc fw-400 color-white-theme mt-1">
-                    วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. 
-                    เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
-                  </p>
-                </div>
-                <div class="card-line style-01"></div>
-                <div class="filter style-02">
-                  <div class="wrapper">
-                    <div class="icon sm op-0">
-                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+              <div class="ss-card">
+                <div class="img-wrapper">
+                  <div class="ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="150">
+                    <div class="wrapper">
+                      <h5 class="title color-05 lh-sm fw-500">เลือกตั้งกรุงเทพมหานครและเมืองพัทยา</h5>
+                      <p class="desc fw-400 color-white-theme mt-1">
+                        วันอาทิตย์ที่ 22 พฤษภาคม 2565 เวลา 08.00 - 17.00 น. 
+                        เลือกตั้งสมาชิกสภาท้องถิ่นและผู้บริหารท้องถิ่นของ
+                      </p>
+                    </div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon op-0">
+                          <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <div class="card-line style-01"></div>
                 </div>
               </div>
             </div>
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="300">
-                <div class="wrapper">
-                  <h5 class="title color-05 lh-sm fw-500">การบริจาคภาษีแก่พรรคการเมือง</h5>
-                  <p class="desc fw-400 mt-1">
-                    ประชาชนผู้เสียภาษีที่เป็นบุคคลธรรมดาสามารถมีส่วนร่วมทางการเมืองได้ ด้วยผ่านการบริจาคภาษีเงิน
-                  </p>
-                </div>
-                <div class="card-line style-01"></div>
-                <div class="filter style-02">
-                  <div class="wrapper">
-                    <div class="icon sm op-0">
-                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+              <div class="ss-card">
+                <div class="img-wrapper">
+                  <div class="ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="300">
+                    <div class="wrapper">
+                      <h5 class="title color-05 lh-sm fw-500">การบริจาคภาษีแก่พรรคการเมือง</h5>
+                      <p class="desc fw-400 mt-1">
+                        ประชาชนผู้เสียภาษีที่เป็นบุคคลธรรมดาสามารถมีส่วนร่วมทางการเมืองได้ ด้วยผ่านการบริจาคภาษีเงิน
+                      </p>
+                    </div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon op-0">
+                          <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <div class="card-line style-01"></div>
                 </div>
               </div>
             </div>
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="450">
-                <div class="wrapper">
-                  <h5 class="title color-05 fw-500">เลือกตั้ง อบต.</h5>
-                  <p class="desc fw-400 mt-1">
-                    วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. 
-                    เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบลและ
-                  </p>
-                </div>
-                <div class="card-line style-01"></div>
-                <div class="filter style-02">
-                  <div class="wrapper">
-                    <div class="icon sm op-0">
-                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+              <div class="ss-card">
+                <div class="img-wrapper">
+                  <div class="ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="450">
+                    <div class="wrapper">
+                      <h5 class="title color-05 fw-500">เลือกตั้ง อบต.</h5>
+                      <p class="desc fw-400 mt-1">
+                        วันอาทิตย์ที่ 28 พฤศจิกายน 2564 เวลา 08.00 - 17.00 น. 
+                        เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบลและ
+                      </p>
+                    </div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon op-0">
+                          <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <div class="card-line style-01"></div>
                 </div>
               </div>
             </div>
             <div class="grid sm-50">
-              <div class="ss-card ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="600">
-                <div class="wrapper">
-                  <h5 class="title color-05 fw-500">การแจ้งเหตุไม่อาจไปใช้สิทธิเลือกตั้งทางสื่ออิเล็กทรอนิกส์</h5>
-                  <p class="desc fw-400 mt-1">
-                    เพื่อเป็นการเพิ่มช่องทางอำนวยความสะดวกแก่ประชาชนผู้มีสิทธิเลือกตั้งที่มีความจำเป็นไม่อาจไปใช้สิทธิเลือกตั้ง
-                  </p>
-                </div>
-                <div class="card-line style-01"></div>
-                <div class="filter style-02">
-                  <div class="wrapper">
-                    <div class="icon sm op-0">
-                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+              <div class="ss-card">
+                <div class="img-wrapper">
+                  <div class="ss-card-03 bg-black-theme" data-aos="fade-up" data-aos-delay="600">
+                    <div class="wrapper">
+                      <h5 class="sm title color-05 fw-500">การแจ้งเหตุไม่อาจไปใช้สิทธิเลือกตั้งทางสื่ออิเล็กทรอนิกส์</h5>
+                      <p class="desc fw-400 mt-1">
+                        เพื่อเป็นการเพิ่มช่องทางอำนวยความสะดวกแก่ประชาชนผู้มีสิทธิเลือกตั้งที่มีความจำเป็นไม่อาจไปใช้สิทธิเลือกตั้ง
+                      </p>
+                    </div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon op-0">
+                          <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <div class="card-line style-01"></div>
                 </div>
               </div>
             </div>

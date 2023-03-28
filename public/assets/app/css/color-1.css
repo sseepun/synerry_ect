@@ -361,6 +361,17 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .form.style-02.white-theme input[type=password], .form.style-02.white-theme input[type=email]{
   background:#ffffff!important; border-color:#dddddd!important;
 }
+.form.style-02.black-theme input[type=text], .form.style-02.black-theme textarea, 
+.form.style-02.black-theme input[type=password], .form.style-02.black-theme input[type=email]{
+  background:#ffffff!important; border-color:#dddddd!important;
+}
+.form.style-02.black-theme select{background:#ffffff!important; color:#000000!important;}
+.form.style-02.black-theme textarea{background:#ffffff!important; border-color:#000000!important;}
+.form.style-02.black-theme .ss-sep-01.style-02 > *::before, 
+.form.style-02.black-theme .ss-sep-01.style-02 > *::after{background:#ffffff!important;}
+
+.form.style-05 .ui.icon.input > input{background:#ffffff!important;}
+.form.style-05 .ui.icon.input > em.icon{background:#dddddd; color:#000000;}
 
 
 /* Form check container */
@@ -448,6 +459,10 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 
 .rc-container.style-03 > label::after{background:#000000!important;}
 .rc-container.style-03 > label::before{border-color:#000000;}
+
+.rc-container.style-04 > label::before{border-color:#ffffff;}
+.rc-container.style-04 > label::after{background:#dddddd;}
+.rc-container.style-04 > input:checked + label::after{background:#000000;}
 
 /* Mobile Device Container */
 .mobile-device-container .wrapper > .text-container{background:#000000;}
@@ -591,6 +606,9 @@ select.style-02{background:#ffffff!important;}
 .search-container .ui.icon.input input{background:#ffffff!important;}
 .search-container .ui.icon.input > em.icon{background:#ffffff; color:#000000; border-color:#000000;}
 
+.search-container .form > .search-wrapper:after,
+.search-container .form > .form-group .date-wrapper:after{background:#dddddd; color:#000000;}
+
 /* Special Box */
 .ss-box.style-02{border-color:#000000;}
 .ss-box.style-05{border-color:#ffffff;}
@@ -662,6 +680,12 @@ select.style-02{background:#ffffff!important;}
 .section-24 .swiper-container .dots > span:first-child{color:#000000;}
 .section-24 .arrow-container > .btn .arrow{background:#ffffff; color:#000000;}
 .section-24 .arrow-container > .btn .arrow:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+/* Section 25 */
+.section-25 .swiper-pagination-bullets{background:#f2f2f2;}
+.section-25 .swiper-pagination-bullet{background:#2e603d;}
+.section-25 .swiper-pagination-bullet-active{background:#2e603d;}
+.section-25 .arrow-container > .arrow{background:#ffffff; color:#000000;}
 
 /* Special Tag */
 .ss-tags.style-02{border-color:#ffffff;}

@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -44,8 +44,13 @@
             <div class="swiper-wrapper">
               <?php foreach($ebooks as $d) {?>
                 <div class="swiper-slide">
-                  <div class="ss-img vertical">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="ss-card ss-card-72">
+                    <div class="ss-img vertical">
+                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                    </div>
+                    <div class="shadow-wrapper">
+                        <img src="public/assets/app/images/content/shadow-book.png" alt="Shadow" />
+                      </div>
                   </div>
                 </div>
               <?php }?>

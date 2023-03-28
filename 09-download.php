@@ -82,8 +82,8 @@
                             </td>
                             <td class="arrow-container" style="min-width:100px;">
                               <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
-                                <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
-                                <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
+                                <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
+                                <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">
                               </div>
                               <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
                             </td>
