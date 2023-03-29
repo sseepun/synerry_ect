@@ -794,6 +794,8 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .section-09 .swiper-arrows-container > .arrows-container .arrow{
   background:#000000; border-color:#000000; color:#ffffff;
 }
+
+.section-12 .content-box > .line{border-color:#fecb00;}
   
 /* Section 14 */
 .section-14 .ss-title{color:#000000; border-color:#000000;}

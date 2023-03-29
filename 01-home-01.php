@@ -409,6 +409,7 @@
                     </div>
                   </div> 
                 </div>
+                <div class="line"></div>
               <?php }?>
             </div>
             <div class="btns mt-1">

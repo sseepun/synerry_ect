@@ -2709,7 +2709,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-25:hover .text-container .arrow > em{margin:.0625rem .75rem 0 0;}
 
 /* Special Card 26 */
-.ss-card-26{height:3rem; margin-bottom:1rem;}
+.ss-card-26{height:3rem; margin-bottom:.5rem;}
 .ss-card-26 .wrapper{display:flex; align-items:center; height:100%;}
 .ss-card-26 .wrapper > .icon{
   position:relative; z-index:2; width:3.75rem; height:2rem; display:flex; justify-content:center; align-items:center;
@@ -2724,6 +2724,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 }
 .ss-card-26 .wrapper > .text-container .title{cursor:pointer; transition:color .25s}
+
 
 /* Special Card 28 */
 .ss-card-28{position:relative;}

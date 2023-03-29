@@ -1194,6 +1194,8 @@
   height:27rem;
 }
 .section-12 .content-box{min-height:29rem;}
+.section-12 .content-box > .line{border:1px solid transparent; margin-bottom:.5rem;}
+
 @media screen and (max-width:991.98px){
   .section-12 .content-box{min-height:0;}
 }

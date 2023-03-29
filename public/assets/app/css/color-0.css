@@ -1299,6 +1299,9 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 }
 .section-09 .swiper-arrows-container > .arrows-container .arrow:hover{color:#2e603c;}
 
+/* Section 12 */
+.section-12 .content-box > .line{border-color:#e1e1e1;}
+
 /* Section 14 */
 .section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#30906a;}
 

@@ -666,6 +666,9 @@ select.style-02{background:#ffffff!important;}
   background:#ffffff; border-color:#ffffff; color:#000000;
 }
 
+/* Section 12 */
+.section-12 .content-box > .line{border-color:#ffffff;}
+
 /* Section 14 */
 .section-14 .ss-title{color:#000000; border-color:#000000;}
 .section-14 .ss-box > .body{background:#ffffff;}
