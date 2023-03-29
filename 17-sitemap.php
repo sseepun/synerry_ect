@@ -51,6 +51,15 @@
               <li><a class="p fw-400" href="#">รายงานผลการปฏิบัติงานประจำปี</a></li>
               <li><a class="p fw-400" href="#">แผนปฏิบัติการประจำปี/การติดตามผล/ รายงานความพึงพอใจ</a></li>
               <li><a class="p fw-400" href="#">รายงานของผู้สอบบัญชีและรายงานการเงินของสำนักงาน</a></li>
+              <li><a class="p fw-400" href="#">ข้อมูลผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a></li>
+              <div class="ss-list style-04 level-3">
+                <li><a class="p fw-400" href="#">ผู้บริหาร CIO</a></li>
+                <li><a class="p fw-400" href="#">ผังการบริหารงานด้าน ICT</a></li>
+                <li><a class="p fw-400" href="#">วิสัยทัศน์ด้านเทคโนโลยีสารสนเทศและการสื่อสาร</a></li>
+                <li><a class="p fw-400" href="#">ปฏิทินกิจกรรมของ CIO</a></li>
+                <li><a class="p fw-400" href="#">ข่าวสารจาก CIO</a></li>
+                <li><a class="p fw-400" href="#">นโยบายด้านเทคโนโลยีสารสนเทศ</a></li>
+              </div>
               <li><a class="p fw-400" href="#">มาตรการ กลไก และมาตราฐาน/ขั้นตอนการปฏิบัติงาน</a></li>
               <li><a class="p fw-400" href="#">การบริหารและพัฒนาทรัพยากรบุคคล</a></li>
               <li><a class="p fw-400" href="#">การป้องกันการทุจริตภายในหน่วยงาน</a></li>
@@ -84,6 +93,52 @@
               <li><a class="p fw-400" href="#">ร่างกฎหมายและการรับฟังความคิดเห็น</a></li>
               <li><a class="p fw-400" href="#">ประกาศ สนง. กกต.ร่างกฎหมายและการรับฟังความคิดเห็น</a></li>
             </ul>
+          </div>
+          <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="450">
+            <div class="btn btn-action style-03 btn-06 btn-white-theme mt-3">
+              <div class="header-title">
+                <div class="icon">
+                  <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                </div>
+                <p class="h5 fw-500">ข่าวสาร</p>
+              </div>
+            </div>
+            <ul class="ss-list style-04 min-height pt-3 pb-3 color-black-theme">
+              <li><a class="p fw-400" href="#">ข่าวประชาสัมพันธ์</a></li>
+              <li><a class="p fw-400" href="#">เรื่องเด่น กกต.</a></li>
+              <li><a class="p fw-400" href="#">ข่าว สนง.กกต.จว.</a></li>
+              <li><a class="p fw-400" href="#">CLIPPING NEWS</a></li>
+              <li><a class="p fw-400" href="#">ข่าวรับสมัครงาน</a></li>
+              <li><a class="p fw-400" href="#">บทความพิเศษ</a></li>
+              <li><a class="p fw-400" href="#">การจัดทำ MOU กับหน่วยงานต่างๆ</a></li>
+              <li><a class="p fw-400" href="#">องค์ความรู้การเลือกตั้ง</a></li>
+              <li><a class="p fw-400" href="#">วิดีโอ</a></li>
+            </ul>
+          </div>
+          <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="0">
+            <div class="btn btn-action style-03 btn-06 btn-white-theme mt-3">
+              <div class="header-title">
+                <div class="icon">
+                  <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                </div>
+                <p class="h5 fw-500">บริการข้อมูล</p>
+              </div>
+            </div>
+            <ul class="ss-list style-04 min-height pt-3 pb-3 color-black-theme">
+              <li><a class="p fw-400" href="#">สถิติการเลือกตั้ง</a></li>
+              <li><a class="p fw-400" href="#">ประกาศผลการเลือกตั้ง</a></li>
+              <li><a class="p fw-400" href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a></li>
+              <li><a class="p fw-400" href="#">ข้อมูลพรรคการเมือง</a></li>
+              <li><a class="p fw-400" href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a></li>
+              <li><a class="p fw-400" href="#">สื่อประชาสัมพันธ์</a></li>
+              <li><a class="p fw-400" href="#">คู่มือปฏิบัติงาน</a></li>
+              <li><a class="p fw-400" href="#">แบบฟอร์ม</a></li>
+              <li><a class="p fw-400" href="#">บริการสารสนเทศภายในหน่วยงาน</a></li>
+              <li><a class="p fw-400" href="#">KNOWLEDGE MANAGEMENT</a></li>
+              <li><a class="p fw-400" href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a></li>
+            </ul>
+          </div>
+          <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="150">
             <div class="btn btn-action style-03 btn-06 btn-white-theme mt-3">
               <div class="header-title">
                 <div class="icon">
@@ -106,26 +161,22 @@
               <li><a class="p fw-400" href="#">เครื่องลงคะแนนเลือกตั้ง</a></li>
               <li><a class="p fw-400" href="#">สหกรณ์ออมทรัพย์ องค์กรอิสระ จำกัด</a></li>
             </ul>
+            
           </div>
-          <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="450">
+          <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="300">
             <div class="btn btn-action style-03 btn-06 btn-white-theme mt-3">
               <div class="header-title">
                 <div class="icon">
                   <img src="public/assets/app/images/icon/51.png" alt="Icon">
                 </div>
-                <p class="h5 fw-500">ข่าวสาร</p>
+                <p class="h5 fw-500">จัดซื้อ/จัดจ้าง</p>
               </div>
             </div>
-            <ul class="ss-list style-04 min-height pt-3 pb-3 color-black-theme">
-              <li><a class="p fw-400" href="#">ข่าวประชาสัมพันธ์</a></li>
-              <li><a class="p fw-400" href="#">เรื่องเด่น กกต.</a></li>
-              <li><a class="p fw-400" href="#">ข่าว สนง.กกต.จว.</a></li>
-              <li><a class="p fw-400" href="#">CLIPPING NEWS</a></li>
-              <li><a class="p fw-400" href="#">ข่าวรับสมัครงาน</a></li>
-              <li><a class="p fw-400" href="#">บทความพิเศษ</a></li>
-              <li><a class="p fw-400" href="#">การจัดทำ MOU กับหน่วยงานต่างๆ</a></li>
-              <li><a class="p fw-400" href="#">องค์ความรู้การเลือกตั้ง</a></li>
-              <li><a class="p fw-400" href="#">วิดีโอ</a></li>
+            <ul class="ss-list style-04 pt-3 pb-3 color-black-theme">
+              <li><a class="p fw-400" href="#">แผน/ผลการจัดซื้อจัดจ้างรายเดือนรายปี</a></li>
+              <li><a class="p fw-400" href="#">การเปิดเผยราคากลาง</a></li>
+              <li><a class="p fw-400" href="#">ข่าวประกวดราคา/สอบราคา</a></li>
+              <li><a class="p fw-400" href="#">ผลการเสนอราคา/ประกวดราคา</a></li>
             </ul>
             <div class="btn btn-action style-04 btn-06 btn-white-theme mt-3">
               <div class="header-title">
@@ -143,43 +194,6 @@
               <li><a class="p fw-400" href="#">ตอบข้อซักถามพรรคการเมือง</a></li>
               <li><a class="p fw-400" href="#">ศูนย์รับเรื่องราวร้องทุกข์ คณะกรรมการการเลือกตั้ง</a></li>
               <li><a class="p fw-400" href="#">แจ้งเบาะแสทุจริตการเลือกตั้ง</a></li>
-            </ul>
-          </div>
-          <div class="sitemap-grid" data-aos="fade-up" data-aos-delay="450">
-            <div class="btn btn-action style-03 btn-06 btn-white-theme mt-3">
-              <div class="header-title">
-                <div class="icon">
-                  <img src="public/assets/app/images/icon/51.png" alt="Icon">
-                </div>
-                <p class="h5 fw-500">บริการข้อมูล</p>
-              </div>
-            </div>
-            <ul class="ss-list style-04 min-height pt-3 pb-3 color-black-theme">
-              <li><a class="p fw-400" href="#">สถิติการเลือกตั้ง</a></li>
-              <li><a class="p fw-400" href="#">ประกาศผลการเลือกตั้ง</a></li>
-              <li><a class="p fw-400" href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a></li>
-              <li><a class="p fw-400" href="#">ข้อมูลพรรคการเมือง</a></li>
-              <li><a class="p fw-400" href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a></li>
-              <li><a class="p fw-400" href="#">สื่อประชาสัมพันธ์</a></li>
-              <li><a class="p fw-400" href="#">คู่มือปฏิบัติงาน</a></li>
-              <li><a class="p fw-400" href="#">แบบฟอร์ม</a></li>
-              <li><a class="p fw-400" href="#">บริการสารสนเทศภายในหน่วยงาน</a></li>
-              <li><a class="p fw-400" href="#">KNOWLEDGE MANAGEMENT</a></li>
-              <li><a class="p fw-400" href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a></li>
-            </ul>
-            <div class="btn btn-action style-03 btn-06 btn-white-theme mt-3">
-              <div class="header-title">
-                <div class="icon">
-                  <img src="public/assets/app/images/icon/51.png" alt="Icon">
-                </div>
-                <p class="h5 fw-500">จัดซื้อ/จัดจ้าง</p>
-              </div>
-            </div>
-            <ul class="ss-list style-04 pt-3 pb-3 color-black-theme">
-              <li><a class="p fw-400" href="#">แผน/ผลการจัดซื้อจัดจ้างรายเดือนรายปี</a></li>
-              <li><a class="p fw-400" href="#">การเปิดเผยราคากลาง</a></li>
-              <li><a class="p fw-400" href="#">ข่าวประกวดราคา/สอบราคา</a></li>
-              <li><a class="p fw-400" href="#">ผลการเสนอราคา/ประกวดราคา</a></li>
             </ul>
           </div>
         </div>

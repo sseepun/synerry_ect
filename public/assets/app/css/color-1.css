@@ -87,6 +87,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-16, .btn.btn-16:focus,
 .btn.btn-20, .btn.btn-20:focus,
 .btn.btn-24, .btn.btn-24:focus{background:#ffffff; color:#000000;}
+.btn.btn-06, .btn.btn-06:focus,
 .btn.btn-25, .btn.btn-25:focus,
 .btn.btn-26, .btn.btn-26:focus{background:#000000; color:#ffffff;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
@@ -333,6 +334,9 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .checkbox-set > .checkmark{border-color:#ffffff;}
 .checkbox-set input:checked ~ .checkmark{background:#000000;}
 .checkbox-set > .bg-color{background:#000000!important;}
+
+/* Content Found - Search Pages */
+.content-found .icon{color:#ffffff;}
 
 /* Global Filter */
 .filter.style-01{background:rgba(0,0,0,.4)}
@@ -707,6 +711,7 @@ select.style-02{background:#ffffff!important;}
 .ss-list.style-03 > li::before{background:#ffffff;}
 .list-style-03 li::before{background:#000000;}
 .ss-list.style-04 > li::before{background:#000000;}
+.ss-list.style-04.level-3 > li::before{background:#000000;}
 .ss-list.style-04 .line{background:#000000;}
 .ss-list.style-08 > li::before{background:#000000;}
 

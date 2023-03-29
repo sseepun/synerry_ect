@@ -473,6 +473,7 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .list-style-02 li:before{background:#000000;}
 .list-style-02.white-theme li:before{background:#fecb00;}
 .list-style-03 li::before{background:#000000;}
+.ss-list.style-04.level-3 > li::before{background:#000000;}
 .ss-list.style-04 > li::before{background:#000000;}
 .ss-list.style-04 .line{background:#000000;}
 .ss-list.style-08 > li::before{background:#000000;}
@@ -509,6 +510,9 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 /* Category Container */
 .category-container .cate-list{border-color:#fecb00;}
 .category-container .cate-list.bcolor-white-theme{border-color:#000000;}
+
+/* Content Found - Search Pages */
+.content-found .icon{color:#fecb00;}
 
 /* Ui */
 

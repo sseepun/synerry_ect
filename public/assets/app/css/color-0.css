@@ -253,6 +253,9 @@ html, body, table.table{color:#000000;}
 /* Chart */
 .chart-container.style-01 .chart text{fill:#000000!important;}
 
+/* Content Found - Search Pages */
+.content-found .icon{color:#ff0000;}
+
 /* Checkbox */
 .checkbox-set > .checkmark::before,
 .checkbox-set > .checkmark::after{border-color:#ffd000;}
@@ -1131,6 +1134,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 
 /* List Header */
 .list-header.style-02 .option .icon-view{background:#eeeeee;}
+.list-header.style-02 .option .icon-view.style-02{color:#30906a;}
 .list-header.style-02 .option .icon-view:hover,
 .list-header.style-02 .option .icon-view.active{background:#30906a;}
 .list-header.style-02 .option .icon-view.disable{color:#eeeeee;}

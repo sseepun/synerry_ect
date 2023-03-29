@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -219,8 +219,43 @@
           <div class="mt-2" data-aos="fade-up" data-aos-delay="150">
             <span class="fw-400">ผลการค้นหา <span class="h5 color-02 fw-600">"การเลือกตั้ง"</span>
             <span>ค้นพบ <span class="color-02 fw-600">0</span> รายการ</span></span>
-          </div>
+            <div class="content-found">
+              <div class="wrapper">
+                <div class="icon">
+                <em class="fa-solid fa-circle-xmark"></em>
+                </div>
+                <p class="h6 fw-400">ไม่พบเนื้อหาจากคำค้นหา <span class="h5 color-04 fw-600">"การเลือกตั้ง"</span></p>
+              </div>
+              <div class="mt-1">
+                    <div class="ss-tags style-02">
+                      <div class="tag">
+                        <span class="title">ข่าวประกาศ</span>
+                      </div>
+                    </div>
+                    <div class="ss-tags style-02">
+                      <div class="tag">
+                        <span class="title">อบรมหลักสูตร</span>
+                      </div>
+                    </div>
+                    <div class="ss-tags style-02">
+                      <div class="tag">
+                        <span class="title">การเลือกตั้ง</span>
+                      </div>
+                    </div>
+                    <div class="ss-tags style-02">
+                      <div class="tag">
+                        <span class="title">รายงานจัดซื้อจัดจ้าง</span>
+                      </div>
+                    </div>
+                    <div class="ss-tags style-02">
+                      <div class="tag">
+                        <span class="title">ระดับชำนาญการพิเศษ</span>
+                      </div>
+                    </div>
+                  </div>
           
+            </div>
+          </div>
         </div> 
       </div>
       <div class="mt-6 pt-4">
