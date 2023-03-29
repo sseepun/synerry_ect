@@ -578,6 +578,9 @@ input[type=file].sgray, select.sgray, textarea.sgray,
 .form-group .upload-wrapper.sgray::before{background:#e1e1e1!important;}
 input[type="search"]::placeholder{color:#000000;}
 
+input[type="email"][disabled],
+input[type="text"][disabled]{background:#eeeeee!important; color:#737373!important}
+
 /* Input Style 02 */
 input.style-02[type=text]:focus, input.style-02[type=password]:focus,
 input.style-02[type=email]:focus{border-color:#2e603b!important;}
@@ -1003,6 +1006,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .main-container{background:#f2f2f2;}
 .main-container .main-header{background:#c6dccc;}
 .main-container .main-content > .wrapper .ss-box{background:#ffffff;}
+.main-container .main-content .profile-edit > .photo-upload{background:#fdf100;}
 .main-container.style-02 .main-header{background:#7cc5b5;}
 .main-container.style-02 .header-title{color:#ffffff;}
 .main-container.style-02 .icon.title-arrow > em{color:#ffffff;}
@@ -1134,7 +1138,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .list-header.style-02 .option > select{background:#eeeeee!important;}
 .list-header.style-02 .option > .dropdown-icon{background:#30906a; color:#ffffff;}
 .ui.icon.input input{background:#eeeeee!important;}
-input[type="text"][disabled]{background:#eeeeee!important;}
+
 
 /* List Header */
 .list-header.style-03 .option{color:#fe4d01; background:#ffffff; border-color:#dddddd;}

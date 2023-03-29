@@ -19,7 +19,7 @@
 
   <section class="section-padding section-13" style="background-image:url('public/assets/app/images/bg/25.jpg')">
     <div class="container">
-      <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+      <h3 class="color-black-theme fw-500" data-aos="fade-up" data-aos-delay="0">
         ศูนย์รับเรื่องร้องเรียน
       </h3>
       <div class="ss-card ss-card-30 mt-4" data-aos="fade-up" data-aos-delay="150">
@@ -47,11 +47,11 @@
         </div>
       </div>
       <!-- FORM -->
-      <div class="form-container-01 bg-white-theme-02 box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
+      <div class="form-container-01 bg-black-theme box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
         <div class="grids">
           <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
-            <h3 class="color-black-theme fw-600">แบบฟอร์มรับเรื่อง</h3>
-            <p class="color-black-theme color-16 fw-400">
+            <h3 class="color-white-theme fw-600">แบบฟอร์มรับเรื่อง</h3>
+            <p class="color-white-theme color-16 fw-400">
               กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย
               <span class="text-danger fw-400 ml-1">*</span>
             </p>
@@ -60,7 +60,7 @@
             </div>
           </div>
           <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
-            <form class="form style-02" action="action.php" method="post">
+            <form class="form style-06" action="action.php" method="post">
               <div class="grids">
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
@@ -115,7 +115,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-31">
+                  <div class="ss-card ss-card-31 bg-white-theme">
                     <div class="top">
                       <div class="wrapper">
                         <div class="item">
@@ -131,7 +131,7 @@
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn style-03 btn-action btn-21 size-03 btn-white-theme pos-relative">
+                            <div class="btn style-03 btn-action btn-21 size-03 btn-upload pos-relative">
                               เลือกไฟล์
                               <input type="file" class="file-upload" />
                             </div>
@@ -145,7 +145,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100">
-                  <div class="ss-card ss-card-32">
+                  <div class="ss-card ss-card-32 bg-white-theme">
                     <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
@@ -162,7 +162,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-32">
+                  <div class="ss-card ss-card-32 bg-white-theme">
                     <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/jpg.png" alt="Image File" />
@@ -194,7 +194,7 @@
                       </div>
                     </div>
                     <div class="grid sm-50 xs-50 mt-0">
-                      <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-05">
+                      <button type="cancel" href="#" class="btn  btn-action width-full mw-auto btn-05">
                         ยกเลิก
                       </button>
                     </div>

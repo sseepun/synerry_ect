@@ -27,11 +27,11 @@
       <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
         เข้าสู่ระบบ
       </h3>
-      <div class="grids" data-aos="fade-up" data-aos-delay="150">
-        <div class="grid xl-60 lg-70 md-100 sm-100 mt-0">
-          <form action="">
+      <div class="grids flex-column-reverse md" data-aos="fade-up" data-aos-delay="150">
+        <div class="grid xl-50 lg-70 md-100 sm-100 mt-0">
+          <form class="form style-06" action="action.php">
             <div class="grids">
-              <div class="grid sm-100">
+              <div class="grid sm-100 mt-4">
                 <div class="form-group style-02">
                   <label class="p fw-500">อีเมล/ชื่อผู้ใช้</label>
                   <div class="form-input">
@@ -46,10 +46,14 @@
                     <input class="style-02 size-01" type="text" required>
                   </div>
                 </div>
+                <div class="padding-style-04">
+                  <label class="text-danger style-02">กรุณากรอก email / ชื่อผู้ใช้งาน และรหัสผ่าน</label>
+                </div>
               </div>
               <div class="grid xl-2-3 lg-60 md-50 sm-50">
                 <div class="captcha padding-style-01">
-                  <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                  <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
+                  <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                 </div>
               </div>
               <div class="grid xl-1-3 lg-40 md-50 sm-50">
@@ -66,7 +70,7 @@
               </div>
               <div class="grid sm-100 mt-0">
                 <div class="padding-style-01">
-                  <div class="ss-sep-01">
+                  <div class="ss-sep-01 white-theme">
                     <p class="fw-500">หรือ</p>
                   </div>
                   <div class="grids no-gap">
@@ -132,7 +136,7 @@
             </div>
           </form>
         </div>
-        <div class="grid xl-40 lg-30 md-100 sm-100">
+        <div class="grid xl-50 lg-30 md-100 sm-100">
           <a class="ss-card ss-card-29" href="#">
             <div class="wrapper">
               <div class="icon">

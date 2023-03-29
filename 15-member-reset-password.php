@@ -28,38 +28,43 @@
         ตั้งรหัสผ่านใหม่
       </h3>
       <div class="ss-box md" data-aos="fade-up" data-aos-delay="0">
-        <div class="form-group style-02 mt-3">
-          <label class="p pw-title size-02 fw-500">รหัสผ่าน <span class="text-danger">*</span></label>
-          <div class="form-input size-02">
-            <input class="style-02 size-01" type="password"/>
-          </div>
-          <div class="password-level level-1 padding-style-03">
-            <div class="levels">
-              <div></div><div></div><div></div><div></div>
+        <form class="form style-06" action="action.php">
+          <div class="form-group style-02 mt-3">
+            <label class="p pw-title size-02 fw-500">รหัสผ่าน <span class="text-danger">*</span></label>
+            <div class="form-input size-02">
+              <input class="style-02 size-01" type="password"/>
             </div>
-            <p class="sm fw-300">
-              การคาดเดาของรหัสผ่าน <span class="fw-600 text">ง่าย</span>
-            </p>
-            <label class="text-danger style-02">กรุณากรอกรหัสผ่าน</label>
-          </div>
-        </div>
-        <div class="form-group style-02 mt-3">
-          <label class="p size-02 fw-500">ยืนยันรหัสผ่าน <span class="text-danger">*</span></label>
-          <div class="form-input size-02">
-            <input class="style-02 size-01" type="text"/>
-          </div>
-          <div class="captcha-container d-flex ai-start padding-style-03 mt-5">
-            <div> 
-              <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
-              <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
-            </div>
-            <div class="btns mt-2 ml-3">
-              <a href="./01-home-01.php" class="btn btn-action btn-popup-toggle btn-02" data-popup="99">
-                ยืนยัน
-              </a>
+            <div class="password-level level-1 padding-style-03">
+              <div class="levels">
+                <div></div><div></div><div></div><div></div>
+              </div>
+              <p class="sm fw-300">
+                การคาดเดาของรหัสผ่าน <span class="fw-600 text">ง่าย</span>
+              </p>
+              <label class="text-danger style-02">กรุณากรอกรหัสผ่าน</label>
             </div>
           </div>
-        </div>
+          <div class="form-group style-02 mt-3">
+            <label class="p size-02 fw-500">ยืนยันรหัสผ่าน <span class="text-danger">*</span></label>
+            <div class="form-input size-02">
+              <input class="style-02 size-01" type="text"/>
+            </div>
+            <div class="padding-style-03">
+              <label class="text-danger style-02">กรุณายืนยันรหัส</label>
+            </div>
+            <div class="captcha-container d-flex ai-start padding-style-03 mt-5">
+              <div> 
+                <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
+              </div>
+              <div class="btns mt-2 ml-3">
+                <a href="./01-home-01.php" class="btn btn-action btn-popup-toggle btn-02" data-popup="99">
+                  ยืนยัน
+                </a>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </section>

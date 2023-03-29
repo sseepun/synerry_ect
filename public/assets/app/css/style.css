@@ -505,8 +505,6 @@ textarea.style-02{border-radius:.4375rem;}
   .form-group.style-02 > .search-btn-container{width:100%; margin-top:.5rem;}
 }
 
-
-
 /* Radio & Checkbox Container */
 fieldset{padding:0; margin:0; border:0;}
 .rc-container{position:relative; width:100%;}
@@ -1030,6 +1028,48 @@ fieldset{padding:0; margin:0; border:0;}
     .list-control > .list-icon{display:none;}
     .list-control > .list-btn{width:calc(50% - .25rem);}
 }
+
+/* Main Container - Member Pages */
+.main-container{
+  position:relative; top:0; left:5rem; width:calc(100% - 5rem);
+  transition:all .5s ease; z-index:2;
+}
+.main-container .main-header{
+  position:relative; width:100%; height:5rem; display:flex; align-items:center;
+  padding:.5rem 3rem .5rem 3.5rem;
+}
+.main-container .main-header > .main-header-menu{display:flex; align-items:center;}
+.main-container .main-header > .main-header-menu .icon{
+  width:1.5rem; height:1.5rem; display:flex; justify-content:center; align-items:center;
+}
+.main-container .main-header > .main-header-menu .icon > em{margin:.0625rem .125rem 0 .125rem; transition:margin .25s;}
+.main-container .main-header > .main-header-menu:hover .icon > em{margin:.0625rem 0 0 .25rem;}
+.main-container .main-header > .main-header-menu:hover .title{transition:color .25s;}
+.main-container .main-header > .main-header-menu img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1rem; transition:opacity .25s;
+}
+.main-container .main-header > .main-header-menu img.active{opacity:0;}
+.main-container .main-header > .main-header-menu:hover img.active{opacity:1;}
+.main-container .main-header #openBtn{opacity:0;}
+.main-container .main-content > .wrapper{padding:1rem;}
+.main-container .main-content > .wrapper .ss-box.style-02{border:1px solid transparent;}
+.main-container .main-content > .wrapper .ss-box.all-bradius{border-radius:.375rem .375rem .375rem .375rem;}
+.main-container .main-content .profile-edit > .img-container{
+  width:3rem; height:3rem; border-radius:50%; overflow:hidden;
+}
+.main-container .main-content .profile-edit{position:relative;}
+.main-container .main-content .profile-edit > .photo-upload{
+  position:absolute; bottom:-.25rem; left:auto; right:0; width:1.25rem; height:1.25rem; border-radius:50%; display:flex; justify-content:center;
+  align-items:center; font-size:.6125rem; cursor:pointer;
+}
+.main-container .main-content .profile-edit > input[type="file"]{
+  position:absolute; bottom:-.25rem; left:auto; right:0; opacity:0; width:1.25rem; height:1.25rem; 
+  border-radius:50%; cursor:pointer; z-index:2;
+}
+.main-container .ss-box > .ss-box-content{border:1px solid transparent;}
+.main-container  .ss-box > .ss-box-content{min-height:32rem;}
+.main-container  .ss-box > .ss-box-content.size-02{min-height:30rem;}
+.main-container  .ss-box > .ss-box-content.size-unset{min-height:0;}
 
 
 /* Map Container */
@@ -2685,7 +2725,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 
 /* Special Card 29 */
-.ss-card-29{padding:1rem;}
+.ss-card-29{padding:1rem; max-width:18rem;}
 .ss-card-29 .wrapper{display:flex; align-items:center;}
 .ss-card-29 .wrapper > .icon{width:2rem;}
 .ss-card-29 .wrapper > .icon img{
@@ -2700,9 +2740,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   display:flex; justify-content:center; align-items:center;
 }
  .ss-card-29 .text-container > .arrow em{
-  margin:.0625rem .125rem 0 0; transition:margin .25s; width:1.5rem;
+  margin:.0625rem .125rem 0 .25rem; transition:margin .25s; width:1.5rem;
 }
-.ss-card-29:hover .text-container > .arrow em{margin:.0625rem .75rem 0 0;}
+.ss-card-29:hover .text-container > .arrow em{margin:.0625rem 0 0 .5rem;}
 @media screen and (max-width:1299.99px){
   .ss-card-29{width:80%;}
 }
@@ -2710,11 +2750,12 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ss-card-29{width:90%;}
 }
 @media screen and (max-width:991.98px){
-  .ss-card-29{width:100%;}
-  .ss-card-29 .text-container{padding-left:.5rem;}
+  .ss-card-29{width:100%; max-width:unset;}
+  .ss-card-29.size-02{max-width:18rem;}
+  .ss-card-29 .text-container{padding-left:1rem;}
 }
 @media screen and (max-width:767.98px){
-  .ss-card-29 .text-container{padding-left:1rem;}
+  .ss-card-29.size-02{width:100%; max-width:unset;}
 }
 
 /* Special Card 30 */

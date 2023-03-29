@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -27,12 +27,12 @@
       <h3 class="fw-600" data-aos="fade-up" data-aos-delay="0">
         สมัครสมาชิก
       </h3>
-      <div class="ss-box m-unset xxl size-04">
-        <div class="grids">
-          <div class="grid xl-60 lg-70 md-100 sm-100 mt-0">
-            <form action="action.php">
+      <div>
+        <div class="grids flex-column-reverse sm">
+          <div class="grid xl-40 lg-70 md-60 sm-100 mt-0">
+            <form class="form style-06" action="action.php">
               <div class="grids" data-aos="fade-up" data-aos-delay="150">
-                <div class="grid sm-100 mt-2">
+                <div class="grid sm-100 mt-4">
                   <div class="form-group style-02">
                     <label class="p fw-500">ชื่อ <span class="text-danger">*</span></label>
                     <div class="form-input">
@@ -127,8 +127,8 @@
                   </div>
                 </div>
               </div>
-              <div class="grid xl-40 lg-30 md-100 sm-100" data-aos="fade-up" data-aos-delay="150">
-                <a class="ss-card ss-card-29" href="#">
+              <div class="grid xl-60 lg-30 md-40 sm-100" data-aos="fade-up" data-aos-delay="150">
+                <a class="ss-card ss-card-29 size-02" href="#">
                     <div class="wrapper">
                       <div class="icon">
                         <img src="public/assets/app/images/icon/30.png" alt="">

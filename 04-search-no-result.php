@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -79,7 +79,7 @@
                 <div class="pl-3">
                   <label class="form-check style-03 ai-center form-check-container-03">
                     <input type="checkbox" id="c_0" class="form-check-input" onclick="myFunction()"/>
-                    <span class="checkmark theme-02"></span>
+                    <span class="checkmark"></span>
                     <p class="ml-3 fw-400">ข่าวประชาสัมพันธ์</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
@@ -87,7 +87,7 @@
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">คลังภาพ</p>
                   </label>
-                  <label class="form-check style-03 ai-center form-check-container-03 ">
+                  <label class="form-check style-03 ai-center form-check-container-03">
                     <input type="checkbox" id="c_2" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">วิดีโอ</p>
@@ -218,60 +218,9 @@
           </form>
           <div class="mt-2" data-aos="fade-up" data-aos-delay="150">
             <span class="fw-400">ผลการค้นหา <span class="h5 color-02 fw-600">"การเลือกตั้ง"</span>
-            <span>ค้นพบ <span class="color-02 fw-600">200</span> รายการ</span></span>
+            <span>ค้นพบ <span class="color-02 fw-600">0</span> รายการ</span></span>
           </div>
-          <?php foreach($informations as $d) {?>
-            <div class="ss-card ss-card-15 mt-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="wrapper">
-                <div class="img-container">
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="card-line style-01"></div>
-                    <div class="filter style-02">
-                      <div class="wrapper">
-                        <div class="icon sm">
-                          <?php 
-                            if ($d['type'] === 'ebook'){
-                              echo '<img src="public/assets/app/images/icon/e-book.png" alt="Icon">';
-                            } elseif ($d['type'] === 'video'){
-                              echo '<img src="public/assets/app/images/icon/youtube-active.png" alt="Icon">';
-                            } else {
-                              echo '<img src="public/assets/app/images/icon/51.png" alt="Icon">';
-                            }
-                          ?>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-container">
-                  <div class="text-content">
-                    <p class="title lh-sm fw-400">
-                      กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติงาน
-                      ให้แก่พนักงานในการอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ
-                    </p>
-                    <div class="btns mt-3">
-                      <div class="btn btn-action-style-06">
-                        <span>อ่านเพิ่มเติม</span><div class="sep"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="info-content">
-                    <p class="color-02 fw-500">ประเภท</p>
-                    <p class="fw-500"><?= $d['cate']?></p>
-                    <div class="icon mt-2">
-                      <em class="fa-solid fa-calendar-days"></em>
-                      <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
-                    </div>
-                    <div class="icon">
-                      <em class="fa-solid fa-eye"></em>
-                      <span class="p sm fw-400 ml-2">255</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          <?php }?>
+          
         </div> 
       </div>
       <div class="mt-6 pt-4">
@@ -283,20 +232,8 @@
     </div>   
   </section>
 
-  
-  
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 
-  <script>
-    function myFunction() {
-      var checkBox = document.getElementById("c_0");
-      if(checkBox.checked == true){
-        console.log('ใช้งานได้ :)');
-      }else{
-        console.log('');
-      }
-    }
-  </script>
 </body>
 </html>

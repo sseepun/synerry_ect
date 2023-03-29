@@ -20,9 +20,7 @@
       <div class="profile-container">
         <div class="wrapper">
           <div class="img-container">
-            <div class="img-container">
-              <img class="img" src="public/assets/app/images/avatars/02.jpg" alt="Avatar">
-            </div>
+            <img class="img" src="public/assets/app/images/avatars/03.jpg" alt="Avatar">
           </div>
           <div class="text-container">
             <p class="color-white lh-xs fw-400 title-link">สวัสดี</p>

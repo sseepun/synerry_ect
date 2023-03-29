@@ -58,7 +58,7 @@
         </div>
       </div>
 
-      <div class="scroll-x-wrapper mt-4" data-simplebar data-aos="fade-up" data-aos-delay="300">
+      <div class=" mt-4" data-simplebar data-aos="fade-up" data-aos-delay="300">
         <div class="calendar-wrapper">
           <div class="calendar-month">
             <div id="calendar-month"></div>
@@ -161,6 +161,36 @@
             end: '2023-03-12T10:30:00',
             url: '#',
           },     
+          {
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-10T08:00:00',
+            end: '2023-03-10T10:30:00',
+            url: '#',
+          }, 
+          {
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-10T08:00:00',
+            end: '2023-03-10T10:30:00',
+            url: '#',
+          }, 
+          {
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-10T08:00:00',
+            end: '2023-03-10T10:30:00',
+            url: '#',
+          }, 
+          {
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-10T08:00:00',
+            end: '2023-03-10T10:30:00',
+            url: '#',
+          }, 
+          {
+            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
+            start: '2023-03-10T08:00:00',
+            end: '2023-03-10T10:30:00',
+            url: '#',
+          }, 
         ],
         columnHeaderText: function(date){
           return days[date.getDay()];

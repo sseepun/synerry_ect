@@ -192,8 +192,8 @@
 .calendar-month .fc-popover.fc-more-popover .custom-event > .table-view{display:none;}
 .calendar-month .fc-popover.fc-more-popover .custom-event > .popup-view{display:block;}
 .calendar-month .fc-popover.fc-more-popover{
-    top:0!important; left:0!important; right:0!important; 
-    width:12rem; max-height:15rem; overflow-y:auto; border-left:4px solid transparent;
+     margin:0 auto;
+    max-width:12rem; max-height:15rem; overflow-y:auto; border-left:4px solid transparent;
 }
 .calendar-month .fc-popover.fc-more-popover{
   background:#2e603c;

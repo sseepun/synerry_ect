@@ -192,6 +192,7 @@ input[type=file].sgray, select.sgray, textarea.sgray,
 .form-group .upload-wrapper.sgray::before{background:#e1e1e1!important;}
 input[type="search"]::placeholder{color:#000000;}
 
+input[type="email"][disabled], input[type="text"][disabled]{color:#000000!important}
 
 /* Accessibility & Quick Links */
 nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active {
@@ -373,6 +374,9 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .form.style-05 .ui.icon.input > input{background:#ffffff!important;}
 .form.style-05 .ui.icon.input > em.icon{background:#dddddd; color:#000000;}
 
+.form.style-06 .dropdown-icon{background:#dddddd!important; color:#000000;}
+.form.style-06 .btn-upload{background:#000000!important; color:#ffffff;}
+
 
 /* Form check container */
 .form-check-container{border-color:#ffffff;}
@@ -386,9 +390,10 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 
 .form-check-container-02.style-02 .checkmark{border-color:#000000;}
 
-.form-check-container-03 .checkmark{background:#000000;}
-.form-check-container-03  input:checked ~ .checkmark{background:#000000!important;}
-.form-check-container-03 .checkmark:after{border-color:#ffffff;}
+.form-check-container-03 .checkmark{background:#ffffff;}
+.form-check-container-03  input:checked ~ .checkmark{background:#ffffff!important;}
+.form-check-container-03 .checkmark:after{border-color:#000000;}
+
 
 /* Faq 01 */
 .faq-01 .faq > .question{border-color:#ffffff;}
@@ -585,6 +590,7 @@ select.style-02{background:#ffffff!important;}
 
 /* sep 01 */
 .ss-sep-01 > *::before, .ss-sep-01 > *::after{background:#ffffff!important;}
+.ss-sep-01.white-theme > *::before, .ss-sep-01.white-theme > *::after{background:#ffffff!important;}
 .ss-sep-01.style-02 > *::before, .ss-sep-01.style-02 > *::after{background:#000000;}
 
 /* Section Options */
@@ -597,6 +603,7 @@ select.style-02{background:#ffffff!important;}
 /* Special List */
 .list-style-01 li:before{background:#000000;}
 .list-style-02 li:before{background:#000000;}
+.list-style-02.white-theme li:before{background:#ffffff;}
 
 /* Shortcode */
 .shortcode-container .shortcode-content > .arrow{border-color:#ffffff; background:#ffffff;}
@@ -623,6 +630,7 @@ select.style-02{background:#ffffff!important;}
 /* Main Container */
 .main-container .main-content > .wrapper .ss-box.style-02{border-color:#ffffff;}
 .main-container .main-content > .wrapper .ss-box.style-03{border-color:#ffffff;}
+.main-container .main-content .profile-edit > .photo-upload{background:#ffffff; color:#000000;}
 
 /* Banner 02 */
 .banner-02 .arrow{border-color:#000000; color:#000000;}

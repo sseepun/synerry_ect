@@ -81,17 +81,17 @@
         </div>
       </div>
       <!-- FORM -->
-      <div class="form-container-02 bg-white-theme-02 box-shadow style-02" data-aos="fade-up" data-aos-delay="350">
+      <div class="form-container-02 bg-black-theme box-shadow style-02" data-aos="fade-up" data-aos-delay="350">
         <div class="grids">
           <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
             <div class="header">
               <div class="img-container">
                 <img src="public/assets/app/images/icon/38.png" alt="Message">
               </div>
-              <div class="text-container color-black-theme">
-                <h4 class="fw-500 lh-2xs color-black-theme color-02">ข้อตกลง</h4>
+              <div class="text-container color-white-theme">
+                <h4 class="fw-500 lh-2xs color-02">ข้อตกลง</h4>
                 <p class="fw-400">การแจ้งเหตุหรือเบาะแสผ่านเว็บไซต์</p>
-                <ul class="list-style-02 mt-3">
+                <ul class="list-style-02 white-theme mt-3">
                   <li class="fw-500">
                     ไม่ถือว่าเป็นการยื่นคำร้องคัดค้านการเลือกตั้งตามระเบียบคณะกรรมการการเลือกตั้งว่าด้วยการสืบสวนสอบสวนและการวินิจฉัยชี้ขาด
                   </li>
@@ -106,7 +106,7 @@
                   </li>
                   <li class="fw-500 mt-2">
                     เลือกข้อที่ต้องการจะแจ้งข้อมูล
-                    <ul class="list-style-02 size-02 line-black">
+                    <ul class="list-style-02 size-02 white-theme">
                       <li class="fw-400">การเลือก ส.ว.</li>
                       <li class="fw-400">การเลือกตั้ง ส.ส.</li>
                       <li class="fw-400">การเลือกตั้งท้องถิ่น</li>
@@ -123,7 +123,7 @@
               กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย 
               <span class="text-danger fw-600">*</span>
             </p>
-            <form action="action.php" method="post">
+            <form class="form style-06" action="action.php" method="post">
               <div class="grids mt-2">
                 <div class="grid sm-50 mt-0">
                   <div class="form-group">
@@ -178,7 +178,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-31 color-black-theme">
+                  <div class="ss-card ss-card-31 bg-white-theme color-black-theme">
                     <div class="top">
                       <div class="wrapper">
                         <div class="item">
@@ -194,7 +194,7 @@
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn style-03 btn-action btn-21 size-03 btn-white-theme pos-relative">
+                            <div class="btn style-03 btn-action btn-21 size-03 btn-upload pos-relative">
                               เลือกไฟล์
                               <input type="file" class="file-upload" />
                             </div>
@@ -208,7 +208,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100">
-                  <div class="ss-card ss-card-32">
+                  <div class="ss-card ss-card-32 bg-white-theme">
                     <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/mp4.png" alt="Image File" />
@@ -225,7 +225,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-32">
+                  <div class="ss-card ss-card-32 bg-white-theme">
                     <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/jpg.png" alt="Image File" />
@@ -242,7 +242,7 @@
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
-                  <div class="ss-card ss-card-32">
+                  <div class="ss-card ss-card-32 bg-white-theme">
                     <div class="wrapper box-shadow style-02">
                       <div class="icon">
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
@@ -274,7 +274,7 @@
                       </div>
                     </div>
                     <div class="grid sm-50 xs-50 mt-0">
-                      <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-05">
+                      <button type="cancel" href="#" class="btn btn-action width-full mw-auto btn-05">
                         ยกเลิก
                       </button>
                     </div>
