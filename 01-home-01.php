@@ -82,6 +82,13 @@
                     </div>
                   </div>
                   <div class="card-line bradius style-02"></div>
+                  <div class="filter style-02">
+                    <div class="wrapper">
+                      <div class="icon op-0">
+                        <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             <?php } ?>
