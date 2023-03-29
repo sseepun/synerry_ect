@@ -2592,10 +2592,11 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-20 .wrapper > .date .wrapper > .month{
   padding:.125rem 0; display:flex; justify-content:center; align-items:center;
 }
-.ss-card-20 .wrapper > .img-container{position:relative; width:calc(30% - 4.75rem); border-radius:.5rem; overflow:hidden;}
+.ss-card-20 .wrapper > .img-container{position:relative; width:calc(30% - 4.75rem); }
 .ss-card-20 .wrapper > .img-container .ss-img > .filter-01{
   position:absolute; top:0; left:0; bottom:0; right:0; opacity:0; transition:opacity .5s;
 }
+.ss-card-20 .wrapper > .img-container .ss-img{border-radius:.5rem;}
 .ss-card-20 .wrapper > .text-container{display:flex; flex-direction:column; justify-content:space-between;}
 .ss-card-20 .wrapper > .text-container .content{display:flex; flex-wrap:wrap;}
 .ss-card-20 .wrapper > .text-container .content > .text{width:calc(100% - 11rem)}
