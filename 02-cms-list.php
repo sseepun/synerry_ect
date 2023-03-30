@@ -33,9 +33,6 @@
                       <div class="img-bg" style="background-image:url('public/assets/app/images/bg/03.jpg');"></div>
                     </a>
                     <div class="text-container color-white">
-                      <div class="ss-tags">
-                        <a class="tag fw-400" href="#">การเลือกตั้ง</a>
-                      </div>
                       <a class="title style-02 h5 fw-600 h-color-07 mt-3" href="#">
                         การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ
                       </a>
@@ -68,9 +65,6 @@
                       <div class="img-bg" style="background-image:url('public/assets/app/images/bg/04.jpg');"></div>
                     </a>
                     <div class="text-container color-white">
-                      <div class="ss-tags">
-                        <a class="tag fw-400" href="#">การเลือกตั้ง</a>
-                      </div>
                       <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
                         การประชุมพัฒนางานและยกระดับมาตรฐาน
                       </a>
@@ -97,9 +91,6 @@
                       <div class="img-bg" style="background-image:url('public/assets/app/images/bg/05.jpg');"></div>
                     </a>
                     <div class="text-container color-white">
-                      <div class="ss-tags">
-                        <a class="tag fw-400" href="#">การเลือกตั้ง</a>
-                      </div>
                       <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
                         คณะกรรมการการเลือกตั้งครบรอบ 24 ปี
                       </a>

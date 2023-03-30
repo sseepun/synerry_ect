@@ -405,6 +405,7 @@
 }
 
 /* Faq 02 */
+/* Faq 02 */
 .faq-02{width:100%;}
 .faq-02 .faq{width:100%; margin:.4375rem 0 0 0;}
 .faq-02 .faq > .question{
@@ -850,6 +851,33 @@
 }
 @media screen and (max-width:991.98px){
   .faq-10 .faq > .question{height:auto;}
+}
+
+/* Faq 11 */
+.faq-11{width:100%;}
+.faq-11 .faq{display:block; width:100%; margin:0 0 .5rem 0;}
+.faq-11 .faq > .question{
+  width:100%; display:flex; border:1px solid transparent; align-items:;
+  cursor:pointer; transition:all .4s ease; border-radius:.4375rem; overflow:hidden;
+  /* height:4.5rem; */
+}
+.faq-11 .faq .ftag{
+  width:4rem; height:auto; display:flex; justify-content:center; 
+  align-items:center; font-weight:600; border-right:2px solid transparent;
+}
+.faq-11 .faq > .question .ftag > .icon{display:flex; justify-content:center; align-items:center;}
+.faq-11 .faq > .question .ftag > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:2.5rem;  
+}
+.faq-11 .faq > .question .text-container{
+  display:flex; justify-content:center; height:auto; flex-direction:column; width:calc(100% - 4rem);
+  transition:all .4s ease; padding:1rem 0 1rem 1rem; 
+}
+.faq-11 .faq > .question .text-container > .title{-webkit-line-clamp:2;}
+.faq-11 .faq > .question .text-container > .footer .wrapper{display:flex; flex-wrap:wrap;}
+.faq-11 .faq > .question  .footer > .wrapper .icon{display:flex; align-items:center;}
+@media screen and (max-width:575.98px){
+  .faq-11 .faq > .question{height:auto;}
 }
 
 /* Post Video */

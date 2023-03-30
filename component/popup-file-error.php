@@ -1,4 +1,4 @@
-<div class="popup-container" data-popup="99">
+<div class="popup-container size-02" data-popup="99">
   <div class="wrapper">
     <div class="close-filter btn-popup-toggle" data-popup="99"></div>
     <div class="popup-box">
@@ -52,11 +52,11 @@
             </div> 
           </div>
           <div class="btns jc-center text-center mt-4">
-            <button type="reset" class="btn btn-action btn-17 btn-round btn-mw ml-1 mr-1">
-              ยกเลิก
-            </button>
             <button type="submit" class="btn btn-action btn-16 btn-round btn-mw ml-1 mr-1">
               ส่งข้อความ
+            </button>
+            <button type="reset" class="btn btn-action btn-17 btn-round btn-mw ml-1 mr-1">
+              ยกเลิก
             </button>
           </div>
         </form>

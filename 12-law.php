@@ -13,7 +13,7 @@
       [ 'url' => '#', 'display' => 'คำวินิจฉัยคณะกรรมการการเลือกตั้ง' ],
     ];
     $breadcrumbTitle = 'คำวินิจฉัยคณะกรรมการการเลือกตั้ง';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/10.jpg';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/08.jpg';
     include('component/breadcrumb.php');
   ?>
 
@@ -24,69 +24,85 @@
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
-          $listHeader = ['search', 'category', 'order', 'view-03', 'rss'];
+          $listHeader = ['search', 'category', 'order', 'view-02', 'rss'];
           include('component/list-header.php');
         ?>
       </div>
-      <div class="btns jc-end xs-center mt-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="btn btn-action-style-03 btn-02 mr-3" href="#">
-          <em class="fa-solid fa-arrow-down"></em>
-          <em class="fa-solid fa-arrow-up"></em>
-        </div>
-        <div href="#" class="btn btn-action size-02 btn-02">
-          ดาวน์โหลดทั้งหมด (30)
-        </div>
-      </div>
-      <div class="scroll-x-wrapper" data-simplebar>
-        <div class="faq-05 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="450">
-          <?php for($i=0; $i<10; $i++){?>
-            <div class="faq">
-              <div class="question box-shadow style-02">
-                <h3 class="ftag">
-                  <div class="icon">
-                    <img src="public/assets/app/images/file/pdf.png" alt="">
-                  </div>
-                </h3>
-                <div class="text">
-                  <div>
-                    <p class="fw-600">มาตรา</p>
-                    <p class="sm fw-500">ม.120 พรบ.เลือกตั้ง</p>
-                  </div>
+      <div class="faq-02 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
+        <?php for($i=0; $i<10; $i++){?>
+          <div class="faq <?php if($i==0)echo 'active'; ?>">
+            <div class="question box-shadow style-02">
+              <h3 class="ftag">
+                <div class="icon">
+                  <img src="public/assets/app/images/icon/14.png" alt="">
                 </div>
-                <div class="title sm lh-sm fw-500">
-                  คำวินิจฉัยที่ 1212/2565 เรื่อง การวินิจฉัยสิทธิสมัครรับเลือกตั้งสมาชิกสภาเทศบาลตำบลดอนมนต์ เขตเลือกตั้งที่ 2 
-                  <div class="icon d-flex ai-center">
-                    <em class="fa-solid fa-circle-exclamation color-04 mr-1"></em>
-                    <p class="btn-popup-toggle cursor-pointer sm ดcolor-black-theme fw-400" data-popup="99">
-                      แจ้งไฟล์เสีย
-                    </p>
-                  </div>
+              </h3>
+              <p class="title sm lh-sm fw-400">
+                ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครองในระบอบประชาธิปไตย 
+                จำนวน 4 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding) 
+              </p>
+              <div class="chevron-wrapper">
+                <div class="icon">
+                  <em class="fa-solid fa-chevron-down"></em>
                 </div>
-                <div class="date-view">
-                  <div class="wrapper">
-                    <div class="icon">
-                      <em class="fa-solid fa-calendar-days"></em>
-                      <span class="p sm ml-1">08 มิถุนายน 2565</span>
-                    </div>
-                    <div class="icon">
-                      <em class="fa-solid fa-eye"></em>
-                      <span class="p sm ml-1">255</span>
-                    </div>
+              </div>
+            </div>
+            <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
+              <div class="content">
+                <div class="scroll-x-wrapper" data-simplebar>
+                    <table class="table table-download p-5" data-aos="fade-up" data-aos-delay="600">
+                      <tbody>
+                        <?php
+                          foreach([
+                            'pdf', 'doc', 'link'
+                          ] as $k){
+                        ?>
+                          <tr class="table-card-01 box-shadow style-02 mb-2">
+                            <td>
+                              <div class="download-card">
+                                <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                              </div>
+                            </td>
+                            <td class="title-container" style="min-width:450px;">
+                              <a class="fw-600 title" href="#">
+                                รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
+                              </a>
+                              <div class="text-footer">
+                                <div class="wrapper">
+                                  <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
+                                  <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-circle-exclamation mr-1"></em>
+                                    <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                                      แจ้งไฟล์เสีย
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="arrow-container" style="min-width:100px;">
+                              <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                                <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
+                                <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">
+                              </div>
+                              <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                            </td>
+                          </tr>
+                        <?php }?>
+                      </tbody>
+                    </table>
                   </div>
-                </div>
-                <div class="button-download">
-                  <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
-                    <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
-                    <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
+                  <div class="btns jc-center mb-5">
+                    <a class="btn btn-action-style-06 size-02" href="#">
+                      <span>ดาวน์โหลดทั้งหมด</span><div class="sep"></div>
+                    </a>
                   </div>
-                  <p class="xs fw-400 text-center mt-1">ดาวน์โหลด</p>
                 </div>
               </div>
             </div>
           <?php }?>
-        </div>
       </div>
-      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="0">
+      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="350">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');

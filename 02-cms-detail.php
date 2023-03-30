@@ -32,19 +32,19 @@
               <div class="wrapper">
                 <div class="icon d-inline-block">
                   <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-2 color-white-theme fw-500">เรื่องเด่น กกต.</span>
+                  <span class="p sm ml-2 color-white-theme fw-400">เรื่องเด่น กกต.</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-calendar-days"></em>
-                  <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
+                  <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-eye"></em>
-                  <span class="p sm ml-2 fw-500">255</span>
+                  <span class="p sm ml-2 fw-400">255</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-share-nodes"></em>
-                  <span class="p sm ml-2 fw-500">208</span>
+                  <span class="p sm ml-2 fw-400">208</span>
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@
                       'rar', 'link'
                     ] as $k){
                   ?>
-                    <tr class="table-card-01 box-shadow style-02 mb-2">
+                    <tr class="table-card-01 border-bottom no-bradius">
                       <td>
                         <div class="download-card">
                           <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />

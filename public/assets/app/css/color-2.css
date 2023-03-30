@@ -603,6 +603,10 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .faq-10 .faq > .question .ftag{background:#000000;}
 .faq-10 .faq > .question{border-color:#000000;}
 
+/* Faq 11 */
+.faq-11.theme-02 .faq > .question{color:#000000;}
+.faq-11.theme-02 .faq > .question .ftag{background:#000000;}
+
 /* Form */
 .form.style-01 .form-footer{border-color:#000000;}
 .form.style-01 input[type='email']{border-color:#000000!important;}
@@ -919,7 +923,7 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-26:hover .wrapper > .text-container .title{color:#000000;}
 
 /* Special Card 28 */
-.ss-card-28 .text-container{background:#000000; color:#fecb00;}
+.ss-card-28 .text-container{background:#fecb00; color:#000000;}
 
 /* Special Card 29 */
 .ss-card-29{background:#fecb00; color:#000000;}

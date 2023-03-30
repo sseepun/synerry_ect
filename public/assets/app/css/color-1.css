@@ -459,6 +459,14 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .faq-10 .faq > .question .ftag{background:#000000;}
 .faq-10 .faq > .question{border-color:#000000;}
 
+/* Faq 11 */
+.faq-11 .faq > .question{border-color:#ffffff;}
+.faq-11 .faq > .question .ftag{border-color:#ffffff;}
+.faq-11 .faq > .answer{border-color:#ffffff;}
+.faq-11 .faq > .answer .content{border-color:#ffffff;}
+
+.faq-11.theme-02 .faq > .question .ftag{background:#000000;}
+
 /* Form Container 03 */
 .form-container-03 .option .icon-view{background:rgba(0,0,0,.3);}
 .form-container-03 .option .icon-view:hover, 
@@ -792,7 +800,7 @@ select.style-02{background:#ffffff!important;}
 .ss-card-26:hover .wrapper > .text-container .title{color:#000000;}
 
 /* Special Card 28 */
-.ss-card-28 .text-container{background:#000000; color:#ffffff;}
+.ss-card-28 .text-container{background:#ffffff; color:#000000;}
 
 /* Special Card 29 */
 .ss-card-29{background:#ffffff; color:#000000!important;}

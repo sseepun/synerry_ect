@@ -409,6 +409,7 @@ html, body, table.table{color:#000000;}
 .faq-02 .faq.active > .question .chevron-wrapper{background:#3aa57b; color:#ffffff;}
 .faq-02 .faq > .answer .content{border-color:#3aa57b;}
 
+
 /* Faq 03 */
 .faq-03 .faq.active > .question{background:#3aa57b; border-color:#3aa57b;}
 .faq-03 .faq > .question .ftag{background:#30906a; border-color:#f7f7f7;}
@@ -514,6 +515,11 @@ html, body, table.table{color:#000000;}
 .faq-10 .faq > .question .text-container > .date-view .wrapper > .icon{color:#666666;}
 .faq-10 .faq:hover > .question .button-container > .btn{background:#303031; border-color:#303031;}
 
+/* Faq 11 */
+.faq-11 .faq > .question .ftag{background:#30906a; border-color:#f7f7f7;}
+.faq-11 .faq:hover > .question .title{color:#30906a;}
+.faq-11 .faq > .question  .footer > .wrapper .icon{color:#30906a;}
+
 /* Accessibility & Quick Links */
 nav.side-panel .icon{background:#30906a; color:#ffffff;}
 nav.side-panel .panel{box-shadow:0px 4px 8px 5px rgba(0,0,0,.08);}
@@ -608,7 +614,15 @@ textarea.style-02{background:#eeeeee!important; border-color:#eeeeee!important;}
 
 /* Select */
 select.decorated.style-02{background:#2e603b!important; color:#ffffff!important; border-color:#2e603b!important;}
-select.decorated.style-02 option{background:#eeeeee; color:#000000;}
+select.decorated.style-02 option{background:#eeeeee!important; color:#000000; border:0!important;    appearance: none;}
+
+select.decorated.style-02 option:hover{background:#30906a!important; color:#ffffff;}
+select.decorated.style-02:focus > option:checked {
+  background:#30906a!important; color:#ffffff;
+}
+select.decorated.style-02:focus > option:hover{
+  background:#30906a!important; color:#ffffff;
+}
 
 /* Category Container */
 .category-container .cate-list{border-color:#eeeeee;}
@@ -1139,6 +1153,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .list-header.style-02 .option .icon-view.active{background:#30906a;}
 .list-header.style-02 .option .icon-view.disable{color:#eeeeee;}
 .list-header.style-02 .option > .ui.icon.input input{background:#eeeeee!important;}
+.list-header.style-02 .option > .ui.icon.input input::placeholder{color:#69696a!important;}
 .list-header.style-02 .option > select{background:#eeeeee!important;}
 .list-header.style-02 .option > .dropdown-icon{background:#30906a; color:#ffffff;}
 .ui.icon.input input{background:#eeeeee!important;}

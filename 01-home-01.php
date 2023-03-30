@@ -472,9 +472,9 @@
                   <div class="img-bg" style="background-image:url('<?= $d['image']?>')"></div>
                 </div>
                 <div class="text-container">
-                  <p class="rank sm"><?= $d['rank'] ?></p>
+                  <p class="rank sm fw-200"><?= $d['rank'] ?></p>
                   <h6 class="name-th lh-sm fw-400"><?= $d['nameTH'] ?></h6>
-                  <p class="name-eng sm"><?= $d['nameEng'] ?><p>
+                  <p class="name-eng sm fw-200"><?= $d['nameEng'] ?><p>
                 </div>
               </div>
             </div>
@@ -791,8 +791,7 @@
   </section>
 
   <?php
-    $listResult= ['re-password'];
-    include_once('component/popup-file-error-style-02.php');
+    include_once('component/popup-file-error.php');
   ?>
 
   <?php include_once('include/footer-03.php'); ?>

@@ -1127,6 +1127,7 @@ fieldset{padding:0; margin:0; border:0;}
 .popup-container .close-icon{
   width:2rem; height:2rem; font-size:1.5rem;
 }
+.popup-container.size-02 .popup-box{width:23rem}
 .popup-container .popup-box{
   display:block; position:relative; width:20.3125rem; padding:0; margin:0 auto; max-width:470px;
   border-radius:.3125rem;
@@ -2198,7 +2199,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card .text-container .title, .ss-card .text-container .desc,
 .ss-card .text-wrapper .title, .ss-card .text-wrapper .desc,
 .ss-card .title, .ss-card .desc, .faq-01 .faq .title, .text-slide-container .title, .fc-title.title,
-.title-container .title{
+.title-container .title, .faq-11 .faq .title{
     display:block; display:-webkit-box; text-overflow:ellipsis; overflow:hidden;
     -webkit-box-orient:vertical; transition:color .25s;
 }
@@ -2729,8 +2730,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 28 */
 .ss-card-28{position:relative;}
-.ss-card-28 .ss-img{border-radius:.875rem; overflow:hidden;}
-.ss-card-28 .text-container{position:absolute; left:0; bottom:1rem; right:0; padding:.5rem; transition:color .5s;}
+.ss-card-28 .ss-img{border-radius:.3125rem; overflow:hidden;}
+.ss-card-28 .text-container{position:absolute; left:0; bottom:0; right:0; padding:.5rem; transition:color .5s;}
 @media screen and (max-width:991.98px){
   .ss-card-28 .text-container > .name-th{font-size:.9375rem;}
   .ss-card-28 .text-container > .name-eng{font-size:.6875rem;}

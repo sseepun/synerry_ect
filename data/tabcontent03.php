@@ -7,7 +7,7 @@
           <div class="icon">
             <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
           </div>
-      </div>
+        </div>
       </a>
       <div class="text-container color-white">
         <div class="ss-tags">
