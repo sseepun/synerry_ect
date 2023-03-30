@@ -81,7 +81,7 @@
                       <p class="fw-400"><?= $d['title'] ?></p>
                     </div>
                   </div>
-                  <div class="card-line bradius style-02"></div>
+                  <div class="card-line style-02"></div>
                   <div class="filter style-02">
                     <div class="wrapper">
                       <div class="icon op-0">
