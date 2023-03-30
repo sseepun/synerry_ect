@@ -2203,7 +2203,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
     -webkit-box-orient:vertical; transition:color .25s;
 }
 
-.ss-card .img-wrapper{position:relative; padding:0 .4375rem;}
+.ss-card .img-wrapper{position:relative; padding:0;}
 .ss-card:hover .btn.btn-action-style-06 .sep{transform: scaleX(.375);}
 .ss-card .ss-img > .hover-container .icon{position:relative; z-index:3;}
 .ss-card:hover .filter{opacity:1;}

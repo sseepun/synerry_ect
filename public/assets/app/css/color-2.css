@@ -555,6 +555,8 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .faq-02 .faq > .answer{border-color:#fecb00;}
 .faq-02 .faq > .answer .content{border-color:#fecb00;}
 
+.faq-02.theme-02 .faq > .question .ftag{background:#000000;}
+.faq-02.theme-02 table.table{background:#000000;}
 /* Faq 03 */
 .faq-03 .faq > .question{border-color:#fecb00;}
 .faq-03 .faq > .question .ftag{border-color:#fecb00;}
@@ -716,6 +718,8 @@ table.table.table-download.style-06 tr:hover > td.warning-container em,
 table.table.table-download.style-06 tr:hover > td.warning-container a{color:#000000!important;}
 
 /* Tab Container 01 */
+.tab-container.theme-02 .tab-contents.style-02 > .tab-content{background:#fecb00;}
+
 .tab-container .tabs.tabs-01 .tab::after{background:#fecb00;}
 .tab-container .tabs.tabs-01.style-02 .tab{color:#000000;}
 .tab-container .tabs.tabs-01.style-02 .tab.active{background:#000000; color:#fecb00;}
@@ -850,10 +854,11 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Special Card 01 */
 .ss-card-01 .ss-img::after{
-    background-image:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.7),
-    rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
-    rgba(0,0,0,0),rgba(0,0,0,0));
-  }
+  background-image:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.7),
+  rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
+  rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.ss-card-01 .text-container > .ss-tags .tag{background:#000000; color:#fecb00;}
 
 /* Special Card 03 */
 .ss-card-03{background:#fecb00;}

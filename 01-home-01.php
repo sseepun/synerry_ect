@@ -126,7 +126,7 @@
       ],
     ];
   ?>
-  <section class="section-padding section-12 bg-white-theme tab-container">
+  <section class="section-padding section-12 bg-white-theme tab-container theme-02">
     <div class="pattern style-01">
       <div class="wrapper">
         <img src="public/assets/app/images/pattern/02.png" alt="Hero">
@@ -166,103 +166,13 @@
       <div class="tab-contents style-02" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($categories as $i=>$d){?>
           <div class="tab-content box-shadow style-03 <?= $i==0? 'active': '' ?> " data-tab="content_<?= $i ?>">
-            <div class="grids">
-              <div class="grid lg-70 sm-100">
-                <div class="ss-card ss-card-01 main-card">
-                  <a class="ss-img" href="#">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+0)%3+3 ?>.jpg');"></div>
-                  </a>
-                  <div class="text-container color-white">
-                    <div class="ss-tags">
-                      <a class="tag fw-400" href="#"><?= $d['title'] ?></a>
-                    </div>
-                    <a class="title style-02 h5 fw-600 h-color-07 mt-3" href="#">
-                      การอบรมหลักสูตรการปฏิบัติงานระดับการชำนาญพิเศษ
-                    </a>
-                    <p class="desc">
-                      ผู้อำนวยการสถาบันพัฒนาการเมืองและการเลือกตั้ง เป็นวิทยากรบรรยายเรื่อง “วัฒนธรรมองค์กร 
-                      พลังขับเคลื่อนสู่ความสำเร็จ” ในการปฐมนิเทศพนักงานใหม่ พ.ศ. 2565
-                    </p>
-                    <div class="card-footer mt-2">
-                      <div class="wrapper">
-                        <div class="icon">
-                          <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
-                        </div>
-                        <div class="icon">
-                          <em class="fa-solid fa-eye"></em>
-                          <span class="p sm fw-300 ml-2">255</span>
-                        </div>
-                        <div class="icon">
-                          <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm fw-300 ml-2">208</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid lg-30 sm-100">
-                <div class="ss-card ss-card-01 sub-card">
-                  <a class="ss-img" href="#">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+1)%3+3 ?>.jpg');"></div>
-                  </a>
-                  <div class="text-container color-white">
-                    <div class="ss-tags">
-                      <a class="tag fw-400" href="#"><?= $d['title'] ?></a>
-                    </div>
-                    <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
-                      การประชุมพัฒนางานและยกระดับมาตรฐาน
-                    </a>
-                    <div class="card-footer mt-2">
-                      <div class="wrapper">
-                        <div class="icon">
-                          <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
-                        </div>
-                        <div class="icon">
-                          <em class="fa-solid fa-eye"></em>
-                          <span class="p sm fw-300 ml-2">255</span>
-                        </div>
-                        <div class="icon">
-                          <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm fw-300 ml-2">208</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="ss-card ss-card-01 sub-card mt-4">
-                  <a class="ss-img" href="#">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/0<?= ($i+2)%3+3 ?>.jpg');"></div>
-                  </a>
-                  <div class="text-container color-white">
-                    <div class="ss-tags">
-                      <a class="tag fw-400" href="#"><?= $d['title'] ?></a>
-                    </div>
-                    <a class="title h5 fw-600 lh-xs h-color-07 mt-2" href="#">
-                      คณะกรรมการการเลือกตั้งครบรอบ 24 ปี
-                    </a>
-                    <div class="card-footer mt-2">
-                      <div class="wrapper">
-                        <div class="icon">
-                          <em class="fa-solid fa-calendar-days"></em>
-                          <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
-                        </div>
-                        <div class="icon">
-                          <em class="fa-solid fa-eye"></em>
-                          <span class="p sm fw-300 ml-2">255</span>
-                        </div>
-                        <div class="icon">
-                          <em class="fa-solid fa-share-nodes"></em>
-                          <span class="p sm fw-300 ml-2">208</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <?php 
+              if($i === 0){include('data/tabcontent01.php');} 
+              else if($i === 1){include('data/tabcontent01.php');}
+              else if($i === 2) {include('data/tabcontent01.php');}
+              else if($i === 3) {include('data/tabcontent02.php');}
+              else if($i === 4) {include('data/tabcontent03.php');}
+            ?>
         
             <div class="table-footer mt-6 pt-3">
               <div class="paginate style-03">
