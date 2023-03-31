@@ -843,34 +843,51 @@ function ssPageProcess(){
      var section09 = $('.section-09');
      if(section09.length){
          section09.each(function(){
-             var self = $(this);
-             new Swiper(self.find('.swiper-container'), {
-                 loop: true,
-                 spaceBetween: 37,
-                 slidesPerView: 5,
-                 effect: 'coverflow', 
-                 coverflowEffect: {
-                     rotate: 0,
-                     stretch: -40,
-                     // depth: 0,
-                     modifier: 1,
-                     slideShadows : true
-                 },
-                 breakpoints: {
-                    1299.98: { slidesPerView:5},
-                    991.98: { slidesPerView:3,  spaceBetween:0},
-                    767.98: { slidesPerView:3, spaceBetween:0},
-                    575.98:{ slidesPerView:1}
+            let self = $(this);
+            let swiperContainer = self.find('.swiper-container');
+            
+            let childNum = swiperContainer.find('.swiper-slide').length;
+            let startIndex = childNum == 3? 1: childNum == 4? 1: childNum > 4? 2: 0;
+
+            let swiperTitle = section09.find('.swiper-title');
+            let titles = swiperContainer.find('.swiper-slide').map(function(i,d){
+                return $(this).data('title');
+            });
+            swiperTitle.html(titles[startIndex]);
+
+            let thisSwiper = new Swiper(self.find('.swiper-container'), {
+                loop: false,
+                centeredSlides: true,
+                centerMode: true,
+                spaceBetween: 37,
+                slidesPerView: 5,
+                effect: 'coverflow', 
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: -40,
+                    modifier: 1,
+                    slideShadows: true,
+                    // depth: 0,
                 },
-                 speed: 800,
-                 grabCursor: true,
-                 type: "fraction",
-                 navigation: {
-                     nextEl: self.find('.btn-icon-next'),
-                     prevEl: self.find('.btn-icon-prev'),
-                 },
-             });
-         });
+                breakpoints: {
+                    1299.98: { slidesPerView:5 },
+                    991.98: { slidesPerView:3, spaceBetween:0 },
+                    767.98: { slidesPerView:3, spaceBetween:0 },
+                    575.98:{ slidesPerView:1 }
+                },
+                speed: 800,
+                grabCursor: true,
+                type: 'fraction',
+                initialSlide: startIndex,
+                navigation: {
+                    nextEl: self.find('.btn-icon-next'),
+                    prevEl: self.find('.btn-icon-prev'),
+                },
+            });
+            thisSwiper.on('slideChange', function(e){
+                swiperTitle.html(titles[thisSwiper.activeIndex]);
+            });
+        });
      }
 
       // Section 10
