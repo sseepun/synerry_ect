@@ -28,22 +28,22 @@
         <div class="grids">
           <div class="grid xl-25 lg-40 sm-100">
             <h6 class="color-02 fw-500 mb-2">สำนักงานคณะกรรมการการเลือกตั้ง</h6>
-            <p class="sm color-05 fw-500">
+            <p class="sm color-05 fw-400">
               เลขที่ 120 ม.3 ชั้น 2 อาคารรัฐประศาสนภักดี <br />
               ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550 
               ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพ 10210
             </p>
             <div class="list-icon mt-3">
               <div class="icon color-02"><em class="fa-solid fa-phone"></em></div>
-              <p class="sm color-05 fw-500">โทร. +66 0-2141-8888</p>
+              <p class="sm color-05 fw-400">โทร. +66 0-2141-8888</p>
             </div>
             <div class="list-icon mt-2">
               <div class="icon color-02"><em class="fa-solid fa-fax"></em></div>
-              <p class="sm color-05 fw-500">โทรสาร. +66 0-2143-8510</p>
+              <p class="sm color-05 fw-400">โทรสาร. +66 0-2143-8510</p>
             </div>
             <div class="list-icon mt-2">
               <div class="icon color-02"><em class="fa-solid fa-envelope"></em></div>
-              <p class="sm color-05 fw-500">Email : webmaster@ect.go.th</p>
+              <p class="sm color-05 fw-400">Email : webmaster@ect.go.th</p>
             </div>
             <h6 class="fw-400 mb-2 mt-3">ติดตาม</h6>
             <div class="footer-socials">
@@ -69,7 +69,7 @@
             <div class="d-flex ai-center mt-5">
               <h6 class="color-02 fw-400">สมัครรับข่าวสาร</h6>
               <a class="btn btn-action-style-08 btn-20 ml-2">
-                <em class="fa-solid fa-arrow-right"></em>
+                <em class="size-02 fa-solid fa-arrow-right"></em>
               </a>
             </div>
           </div>

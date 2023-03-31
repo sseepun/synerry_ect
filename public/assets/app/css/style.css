@@ -223,6 +223,7 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
   width:2rem; height:2rem; display:flex; justify-content:center; align-items:center; cursor:pointer;
   border-radius:.375rem; font-size:.375rem; transition:background .25s, color .25s; border:1px solid transparent; transition:all .25s;
  }
+ .btn.btn-action-style-08 > em.size-02{font-size:.875rem;}
 @media screen and (max-width:575.98px){
     .btns.xs-center{justify-content:center!important;}
     .btn.btn-action,.btn.btn-action.size-02{font-size:.9375rem; padding:.375rem 1rem .25rem 1rem; min-width:9rem;}
