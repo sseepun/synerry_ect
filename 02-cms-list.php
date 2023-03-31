@@ -137,6 +137,10 @@
       ['image' => 'public/assets/app/images/content/01.jpg'], 
       ['image' => 'public/assets/app/images/content/03.jpg'], 
       ['image' => 'public/assets/app/images/content/07.jpg'], 
+      ['image' => 'public/assets/app/images/content/08.jpg'],
+      ['image' => 'public/assets/app/images/content/01.jpg'],
+      ['image' => 'public/assets/app/images/content/03.jpg'], 
+      ['image' => 'public/assets/app/images/content/07.jpg'], 
       ['image' => 'public/assets/app/images/content/08.jpg']
     ]
   ?>
@@ -163,8 +167,8 @@
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                       <div class="filter style-02">
                         <div class="wrapper">
-                          <div class="icon sm">
-                            <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                          <div class="icon xs">
+                            <img src="public/assets/app/images/icon-svg/vote-white.svg" alt="Icon">
                           </div>
                         </div>
                       </div>

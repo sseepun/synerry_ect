@@ -23,41 +23,38 @@
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-2-3 sm-100">
-          <div class="ss-card ss-card-59 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+          <div class="ss-card ss-card-10" data-aos="fade-up" data-aos-delay="0">
             <h4 class="title lh-sm fw-500">
               ดร.ฐิติเชฏฐ์ นุชนาฏ กรรมการการเลือกตั้ง ตรวจเยี่ยมและสังเกตการณ์การเลือกตั้งกรุงเทพมหานคร 
             </h4>
             <div class="card-top mt-3">
               <div class="wrapper">
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-2 fw-500">เรื่องเด่น กกต.</span>
+                  <span class="p sm ml-1 fw-500">งานกิจกรรม</span>
                 </div>
-                <div class="icon">
-                  <p class="p sm fw-500">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
+                <div class="icon d-inline-block">
+                  <em class="fa-solid fa-calendar-days"></em>
+                  <span class="p sm ml-1 fw-500">08 มิถุนายน 2565</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-eye"></em>
-                  <p class="p sm fw-500 ml-2">280 <span class="ml-1">/</span></p>
+                  <span class="p sm ml-1 fw-500">255</span>
                 </div>
-                <div class="icon">
+                <div class="icon d-inline-block">
                   <em class="fa-solid fa-share-nodes"></em>
-                  <span class="p sm fw-500 ml-2">60</span>
+                  <span class="p sm ml-1 fw-500">208</span>
                 </div>
               </div>
             </div>
-            <a class="ss-card" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-              <div class="ss-img horizontal no-hover mt-3">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/146.jpg');"></div>
-                  <div class="btn-play style-02">
-                    <div class="img-container lg">
-                      <img class="inactive" src="public/assets/app/images/icon/btn-play-inactive.png" alt="Icon Inactive">
-                      <img class="active" src="public/assets/app/images/icon/btn-play-active.png" alt="Icon active">
-                    </div>
-                </div>
-                <div class="filter style-03"></div>
+            <div class="post-video width-full mt-2">
+              <div class="wrapper">
+                <video class="fit" controls="">
+                  <source src="public/assets/app/video/01.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
               </div>
-            </a>
+            </div>
             <p class="desc color-gray color-black-theme fw-400 mt-3">
               วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง 
               พร้อมด้วย พล.ต.ต.ชัชชรินร์ สว่างวงศ์ ผู้เชี่ยวชาญด้านรัฐประศาสนศาสตร์ นางสาวโชติกา 

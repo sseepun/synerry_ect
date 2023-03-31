@@ -83,6 +83,10 @@
       ['image' => 'public/assets/app/images/content/e-book-01.png'], 
       ['image' => 'public/assets/app/images/content/e-book-02.png'], 
       ['image' => 'public/assets/app/images/content/e-book-03.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-04.png'],
+      ['image' => 'public/assets/app/images/content/e-book-01.png'],
+      ['image' => 'public/assets/app/images/content/e-book-02.png'], 
+      ['image' => 'public/assets/app/images/content/e-book-03.png'], 
       ['image' => 'public/assets/app/images/content/e-book-04.png']
     ]
   ?>
@@ -126,7 +130,7 @@
                 <div class="text-container">
                   <div class="content">
                     <div class="text-content">
-                      <p class="title lh-sm fw-500">
+                      <p class="title lh-sm fw-400">
                         คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
                         คู่มือการจัดทำบัญชีรายรับและรายจ่ายของผู้สมัครรับเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น
                       </p>

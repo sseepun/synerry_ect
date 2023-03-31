@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -40,22 +40,22 @@
             <br/>การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น
           </p>
         </div>
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <?php foreach($ebooks as $d) {?>
-                <div class="swiper-slide">
-                  <div class="ss-card ss-card-72">
-                    <div class="ss-img vertical">
-                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    </div>
-                    <div class="shadow-wrapper">
-                        <img src="public/assets/app/images/content/shadow-book.png" alt="Shadow" />
-                      </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <?php foreach($ebooks as $d) {?>
+              <div class="swiper-slide">
+                <div class="ss-card ss-card-72">
+                  <div class="ss-img vertical">
+                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                   </div>
+                  <div class="shadow-wrapper">
+                      <img src="public/assets/app/images/content/shadow-book.png" alt="Shadow" />
+                    </div>
                 </div>
-              <?php }?>
-            </div>
+              </div>
+            <?php }?>
           </div>
+        </div>
         <div class="shelf-container">
           <img class="img" src="public/assets/app/images/content/shelf-02.png" alt="Shelf">  
         </div>
@@ -169,7 +169,7 @@
                 <div class="text-container mt-2">
                   <div class="content">
                     <div class="text-content">
-                      <p class="title lh-sm fw-500">
+                      <p class="title lh-sm fw-400">
                         สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.
                         ในเขตอำเภอศรีนครินทร์ และอำเภอศรีบรรพต
                         สนง.กกต.จว.พัทลุง ประสานงานและติดตามตรวจเยี่ยม ศศ.ปชต.

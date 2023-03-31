@@ -762,6 +762,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .list-header.style-02 .option .icon-view.style-02:hover{color:#ffffff;}
 .list-header.style-02 .option .icon-view img{width:1rem; height:1rem;}
+.list-header.style-02 .option .icon-view.size-02 img{width:1.5rem; height:1.5rem;}
 .list-header.style-02 .option .icon-view img.icon-active{position:absolute; opacity:0; transition:opacity .25s;}
 .list-header.style-02 .option .icon-view.active img.icon-active,
 .list-header.style-02 .option .icon-view:hover img.icon-active{opacity:1;}
@@ -1597,11 +1598,11 @@ fieldset{padding:0; margin:0; border:0;}
 .ss-list.style-10 > li a{font-weight:500; font-size:.9375rem; cursor:pointer; transition:color .25;}
 
 .ss-list-style-02{padding-left:0;}
-.ss-list-style-02 > li{display:flex;}
+.ss-list-style-02 > li{display:flex; margin-bottom:.5rem;} 
 .ss-list-style-02 > li img{
   display:block; max-width:100%; max-height:100%; width:auto; height:1rem; margin-right:.4375rem;
 }
-.ss-list-style-02 > li a{font-weight:500;}
+.ss-list-style-02 > li a{font-weight:400;}
 
 /* Number */
 .ss-list-style-01 > li::marker{font-size:1.25rem; font-weight:600;}
@@ -2233,6 +2234,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   display:block; max-width:100%; max-height:100%; width:auto; height:auto;
   transition:opacity .25s;
 }
+.ss-card .btn-play > .img-container img.size-02{width:5rem; height:auto;}
 .ss-card .btn-play > .img-container img.active{position:absolute; top:0; opacity:0;}
 .ss-card:hover .btn-play > .img-container img.active{opacity:1;}
 .ss-card .btn-26{transition:background .25s, border .25s;}

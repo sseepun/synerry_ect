@@ -405,9 +405,8 @@
 }
 
 /* Faq 02 */
-/* Faq 02 */
 .faq-02{width:100%;}
-.faq-02 .faq{width:100%; margin:.4375rem 0 0 0;}
+.faq-02 .faq{width:100%; margin:.4375rem 0 .5625rem 0;}
 .faq-02 .faq > .question{
   width:100%; display:flex; border:1px solid transparent; height:4.5rem;
   cursor:pointer; transition:all .4s ease; border-radius:.4375rem; overflow:hidden;
@@ -1695,7 +1694,7 @@
 }
 .tab-container .tabs.tabs-04 .tab{
   position:relative; display:flex; align-items:center; font-size:1rem; font-weight:400; height:100%;
-  padding:.5625rem 1rem; transition:background .25s, color .25s; overflow:hidden;
+  padding:.5625rem 1rem; transition:background .25s, color .25s;
 }
 .tab-container .tabs.tabs-04 .tab > .title{position:relative;}
 .tab-container .tabs.tabs-04 .tab::after{

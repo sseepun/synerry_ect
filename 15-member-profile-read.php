@@ -155,15 +155,12 @@
                   </div>
                   </div>
                 </div>
-                <div class="grid xl-2-3 lg-70 md-100 sm-100">
-                  <div class="captcha padding-style-01">
-                    <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
-                  </div>
-                </div>
                 <div class="grid xl-1-3 lg-30 md-100 sm-100">
-                  <div class="btns mt-2 ai-start pl-3 pl-unset-xs h-full">
-                    <div href="#" class="btn btn-action btn-02 w-full">
-                      บันทึก
+                  <div class="padding-style-04">
+                    <div class="btns mt-2 ai-start pl-unset-xs h-full">
+                      <div href="#" class="btn btn-action btn-02">
+                        บันทึก
+                      </div>
                     </div>
                   </div>
                 </div>

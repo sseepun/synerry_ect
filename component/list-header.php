@@ -59,18 +59,18 @@
         <?php }?>
         <?php if(in_array('view-02', $listHeader)){?>
           <div class="option view">
-            <div class="btn btn-action-style-03 btn-10 op-0 mr-3" href="#">
-              <em class="fa-solid fa-arrow-down"></em>
-              <em class="fa-solid fa-arrow-up"></em>
-            </div>
-            <div class="btn btn-action-style-03 op-0 btn-10 mr-3" href="#">
-              <em class="fa-solid fa-arrow-up"></em>
-              <em class="fa-solid fa-arrow-down"></em>
-            </div>
+            <a class="icon-view size-02 ml-1 disable op-0" href="#">
+              <img class="icon-inactive" src="public/assets/app/images/icon-svg/drag-vertical-green.svg" alt="Icon">
+              <img class="icon-active" src="public/assets/app/images/icon-svg/drag-vertical-white.svg" alt="Icon">
+            </a>
+            <a class="icon-view size-02 ml-1" href="#">
+              <img class="icon-inactive" src="public/assets/app/images/icon-svg/drag-vertical-green.svg" alt="Icon">
+              <img class="icon-active" src="public/assets/app/images/icon-svg/drag-vertical-white.svg" alt="Icon">
+            </a>
             <?php if(in_array('rss', $listHeader)){?>
-              <a class="icon-view style-02 ml-1" href="#">
-              <em class="fa-solid fa-arrow-up"></em>
-              <em class="fa-solid fa-arrow-down"></em>
+              <a class="icon-view size-02 ml-1" href="#">
+                <img class="icon-inactive" src="public/assets/app/images/icon-svg/arrows-collapse-green.svg" alt="Icon">
+                <img class="icon-active" src="public/assets/app/images/icon-svg/arrows-collapse-white.svg" alt="Icon">
               </a>
             <?php }?>
           </div>

@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -29,18 +29,18 @@
         ?>
       </div>
       <div class="faq-02 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
-        <?php for($i=0; $i<10; $i++){?>
-          <div class="faq <?php if($i==0)echo 'active'; ?>">
+        <?php for($i=0; $i<12; $i++){?>
+          <div class="faq <?php if($i==0)echo 'active'; ?> mb-2">
             <div class="question box-shadow style-02">
               <h3 class="ftag">
                 <div class="icon">
                   <img src="public/assets/app/images/icon/14.png" alt="">
                 </div>
               </h3>
-              <p class="title sm lh-sm fw-400">
+              <a class="p title sm lh-sm fw-400" href="#">
                 ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครองในระบอบประชาธิปไตย 
                 จำนวน 4 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding) 
-              </p>
+              </a>
               <div class="chevron-wrapper">
                 <div class="icon">
                   <em class="fa-solid fa-chevron-down"></em>
@@ -49,43 +49,64 @@
             </div>
             <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
               <div class="content">
-                <div class="scroll-x-wrapper" data-simplebar>
-                    <table class="table table-download p-5" data-aos="fade-up" data-aos-delay="600">
+                <div class="scroll-x-wrapper">
+                    <table class="table table-download p-5">
                       <tbody>
                         <?php
                           foreach([
-                            'pdf', 'doc', 'link'
+                            'xls', 'doc', 'link', 'xls', 'pptx', 'zip', 'rar'
                           ] as $k){
                         ?>
                           <tr class="table-card-01 box-shadow style-02 mb-2">
                             <td>
                               <div class="download-card">
-                                <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                                <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
                               </div>
                             </td>
                             <td class="title-container" style="min-width:450px;">
-                              <a class="fw-600 title" href="#">
+                              <a class="fw-400 title" href="#">
                                 รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                               </a>
                               <div class="text-footer">
                                 <div class="wrapper">
                                   <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                                   <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                                  <div class="icon">
+                                  <div class="icon h-color-19">
                                     <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                    <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
-                                      แจ้งไฟล์เสีย
-                                    </p>
+                                    <?php 
+                                      if($k === 'link'){
+                                        echo '<p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                                                แจ้งลิงก์เสีย
+                                              </p>';
+                                      }else{
+                                        echo '<p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                                                แจ้งไฟล์เสีย
+                                              </p>';
+                                      }
+                                    ?>
                                   </div>
                                 </div>
                               </div>
                             </td>
                             <td class="arrow-container" style="min-width:100px;">
                               <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
-                                <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
-                                <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">
+                              <?php 
+                                if($k === 'link'){
+                                  echo '<img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
+                                        <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">';
+                                }else{
+                                  echo '<img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                                        <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">';
+                                }
+                              ?>
                               </div>
-                              <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                              <?php 
+                                if($k === 'link'){
+                                  echo '<a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">คลิกลิงก์</a>';
+                                }else{
+                                  echo '<a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>';
+                                }
+                              ?>
                             </td>
                           </tr>
                         <?php }?>

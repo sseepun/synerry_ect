@@ -388,15 +388,17 @@
                             <a class="ss-card ss-card-07 style-02" href="#">
                               <div class="wrapper">
                                 <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
-                                    <div class="hover-container">
-                                      <div class="icon xs">
-                                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                  <div class="img-wrapper">
+                                    <div class="ss-img">
+                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
+                                      <div class="hover-container">
+                                        <div class="icon xs">
+                                          <img src="public/assets/app/images/icon-svg/photo-white.svg" alt="Icon">
+                                        </div>
                                       </div>
+                                      <div class="filter style-01"></div>
+                                      <div class="card-line style-01"></div>
                                     </div>
-                                    <div class="filter style-01"></div>
-                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -421,15 +423,17 @@
                             <a class="ss-card ss-card-07 style-02" href="#">
                               <div class="wrapper">
                                 <div class="img-container">
-                                  <div class="ss-img">
-                                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
-                                    <div class="hover-container">
-                                      <div class="icon xs">
-                                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                  <div class="img-wrapper">
+                                    <div class="ss-img">
+                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
+                                      <div class="hover-container">
+                                        <div class="icon xs">
+                                          <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                        </div>
                                       </div>
+                                      <div class="filter style-01"></div>
+                                      <div class="card-line style-01"></div>
                                     </div>
-                                    <div class="filter style-01"></div>
-                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -495,7 +499,7 @@
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
                                     <div class="hover-container">
                                       <div class="icon xs">
-                                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                                        <img src="public/assets/app/images/icon-svg/photo-white.svg" alt="Icon">
                                       </div>
                                     </div>
                                     <div class="filter style-01"></div>

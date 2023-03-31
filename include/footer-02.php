@@ -163,19 +163,19 @@
                 <a class="social" href="#">
                   <em class="fa-brands fa-facebook-f icon-01"></em>
                 </a>
-                <div class="tooltip">facebook</div>
+                <div class="tooltip">Facebook</div>
               </div>
               <div class="social-wrapper">
                 <a class="social" href="#">
                   <em class="fa-brands fa-twitter"></em>
                 </a>
-                <div class="tooltip size-02">twitter</div>
+                <div class="tooltip size-02">Twitter</div>
               </div>
               <div class="social-wrapper">
                 <a class="social" href="#">
                   <em class="fa-brands fa-youtube"></em>
                 </a>
-                <div class="tooltip size-03">youtube</div>
+                <div class="tooltip size-03">Youtube</div>
               </div>
             </div>
             <div class="count-container mt-4">

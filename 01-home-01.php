@@ -48,19 +48,19 @@
     $content01 = [
       [
         'title' => 'สถิติการเลือกตั้ง',
-        'icon'  => 'public/assets/app/images/icon/46.png'
+        'icon'  => 'public/assets/app/images/icon-svg/graph.svg'
       ],[
         'title' => 'ประกาศผลการเลือกตั้ง',
-        'icon'  => 'public/assets/app/images/icon/47.png'
+        'icon'  => 'public/assets/app/images/icon-svg/election.svg'
       ],[
         'title' => 'ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง',
-        'icon'  => 'public/assets/app/images/icon/48.png'
+        'icon'  => 'public/assets/app/images/icon-svg/folder.svg'
       ],[
         'title' => 'ข้อมูลพรรคการเมือง',
-        'icon'  => 'public/assets/app/images/icon/49.png'
+        'icon'  => 'public/assets/app/images/icon-svg/political-party.svg'
       ],[
         'title' => 'ตรวจสอบข้อมูลสมาชิกพรรคการเมือง',
-        'icon'  => 'public/assets/app/images/icon/50.png'
+        'icon'  => 'public/assets/app/images/icon-svg/check.svg'
       ],
     ]
   ?>
@@ -109,20 +109,20 @@
   <?php
     $categories = [
       [ 
-        'title' => 'เรื่องเด่น กกต.', 'icon' => 'public/assets/app/images/icon/19.png',
-        'icon_active' => 'public/assets/app/images/icon/20.png'
+        'title' => 'เรื่องเด่น กกต.', 'icon' => 'public/assets/app/images/icon-svg/megaphone-green.svg',
+        'icon_active' => 'public/assets/app/images/icon-svg/megaphone-white.svg'
       ], [
-        'title' => 'ข่าวสารประชาสัมพันธ์', 'icon' => 'public/assets/app/images/icon/21.png',
+        'title' => 'ข่าวสารประชาสัมพันธ์', 'icon' => 'public/assets/app/images/icon-svg/news02-green.svg',
         'icon_active' => 'public/assets/app/images/icon/22.png'
       ], [
-        'title' => 'ข่าว สนง. กกต.', 'icon' => 'public/assets/app/images/icon/23.png',
-        'icon_active' => 'public/assets/app/images/icon/24.png'
+        'title' => 'ข่าว สนง. กกต.', 'icon' => 'public/assets/app/images/icon-svg/group-green.svg',
+        'icon_active' => 'public/assets/app/images/icon-svg/group-white.svg'
       ], [
-        'title' => 'ข่าวประกวดราคา', 'icon' => 'public/assets/app/images/icon/25.png',
-        'icon_active' => 'public/assets/app/images/icon/26.png'
+        'title' => 'ข่าวประกวดราคา', 'icon' => 'public/assets/app/images/icon-svg/comment-green.svg',
+        'icon_active' => 'public/assets/app/images/icon-svg/comment-white.svg'
       ], [
-        'title' => 'วิดีโอ', 'icon' => 'public/assets/app/images/icon/27.png',
-        'icon_active' => 'public/assets/app/images/icon/28.png'
+        'title' => 'วิดีโอ', 'icon' => 'public/assets/app/images/icon-svg/video-green.svg',
+        'icon_active' => 'public/assets/app/images/icon-svg/video-white.svg'
       ],
     ];
   ?>
@@ -173,7 +173,6 @@
               else if($i === 3) {include('data/tabcontent02.php');}
               else if($i === 4) {include('data/tabcontent03.php');}
             ?>
-        
             <div class="table-footer mt-6 pt-3">
               <div class="paginate style-03">
                 <div class="page active">1</div>
@@ -607,8 +606,8 @@
                 <div class="img-bg" style="background-image:url('public/assets/app/images/bg/11.jpg');"></div>
                 <div class="filter style-02">
                   <div class="wrapper">
-                    <div class="icon sm">
-                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    <div class="icon xs">
+                      <img src="public/assets/app/images/icon-svg/vote-white.svg" alt="Icon Vote">
                     </div>
                   </div>
                 </div>
@@ -645,8 +644,8 @@
                 <div class="img-bg" style="background-image:url('public/assets/app/images/bg/12.jpg');"></div>
                 <div class="filter style-02">
                   <div class="wrapper">
-                    <div class="icon sm">
-                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    <div class="icon xs">
+                      <img src="public/assets/app/images/icon-svg/vote-white.svg" alt="Icon Vote">
                     </div>
                   </div>
                 </div>
@@ -684,8 +683,8 @@
                 <div class="card-line style-01"></div>
                 <div class="filter style-02">
                   <div class="wrapper">
-                    <div class="icon sm">
-                      <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                    <div class="icon xs">
+                      <img src="public/assets/app/images/icon-svg/vote-white.svg" alt="Icon Vote">
                     </div>
                   </div>
                 </div>

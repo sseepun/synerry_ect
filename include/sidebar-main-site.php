@@ -33,7 +33,7 @@
         <a class="menu-item" href="#">
           <div class="wrapper">
             <div class="icon">
-              <img src="public/assets/app/images/icon/31.png" alt="">
+              <img src="public/assets/app/images/icon-svg/home.svg" alt="Home">
             </div>
             <span class="p sm color-white title-link">หน้าแรก</span>
           </div> 
@@ -42,7 +42,7 @@
         <a class="menu-item" href="#">
           <div class="wrapper">
             <div class="icon">
-              <img src="public/assets/app/images/icon/32.png" alt="">
+              <img src="public/assets/app/images/icon-svg/member.svg" alt="Member">
             </div>
             <p class="sm color-white title-link">ข้อมูลส่วนตัว</ย>
           </div>
@@ -51,7 +51,7 @@
         <a class="menu-item" href="#">
           <div class="wrapper">
             <div class="icon">
-              <img src="public/assets/app/images/icon/33.png" alt="">
+              <img src="public/assets/app/images/icon-svg/password.svg" alt="Password">
             </div>
             <p class="sm color-white title-link">เปลี่ยนรหัสผ่าน</p>
           </div>
@@ -60,7 +60,7 @@
         <a class="menu-item" href="#">
           <div class="wrapper">
             <div class="icon">
-              <img src="public/assets/app/images/icon/34.png" alt="">
+              <img src="public/assets/app/images/icon-svg/mail.svg" alt="Envalop">
             </div>
             <p class="sm color-white title-link">จดหมายข่าวสาร</p>
           </div>
@@ -69,7 +69,7 @@
         <a class="menu-item" href="#">
           <div class="wrapper">
             <div class="icon">
-              <img src="public/assets/app/images/icon/35.png" alt="">
+              <img src="public/assets/app/images/icon-svg/chatting.svg" alt="Chat">
             </div>
             <p class="sm color-white title-link">กระทู้ของฉัน</p>
           </div>
@@ -78,7 +78,7 @@
         <a class="menu-item" href="#">
           <div class="wrapper">
             <div class="icon">
-              <img src="public/assets/app/images/icon/36.png" alt="">
+              <img src="public/assets/app/images/icon-svg/logout.svg" alt="Logout">
             </div>
             <p class="sm color-white title-link">ออกจากระบบ</p>
           </div>

@@ -33,7 +33,7 @@
                   <div class="filter style-02">
                     <div class="wrapper">
                       <div class="icon sm">
-                        <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                        <img src="public/assets/app/images/icon-svg/photo-white.svg" alt="Icon">
                       </div>
                     </div>
                   </div>
@@ -89,6 +89,10 @@
       ['image' => 'public/assets/app/images/content/16.jpg'], 
       ['image' => 'public/assets/app/images/content/17.jpg'], 
       ['image' => 'public/assets/app/images/content/18.jpg'], 
+      ['image' => 'public/assets/app/images/content/19.jpg'],
+      ['image' => 'public/assets/app/images/content/16.jpg'],
+      ['image' => 'public/assets/app/images/content/17.jpg'], 
+      ['image' => 'public/assets/app/images/content/18.jpg'], 
       ['image' => 'public/assets/app/images/content/19.jpg']
     ]
   ?>
@@ -116,7 +120,7 @@
                       <div class="filter style-02">
                         <div class="wrapper">
                           <div class="icon sm">
-                            <img src="public/assets/app/images/icon/photo-white.png" alt="Icon">
+                            <img src="public/assets/app/images/icon-svg/photo-white.svg" alt="Icon">
                           </div>
                         </div>
                       </div>

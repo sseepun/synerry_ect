@@ -26,11 +26,11 @@
     <div class="footer-container" data-aos="fade-up" data-aos-delay="0">
       <div class="wrapper">
         <div class="grids">
-          <div class="grid xl-30 lg-40 sm-100">
+          <div class="grid xl-25 lg-40 sm-100">
             <h6 class="color-02 fw-500 mb-2">สำนักงานคณะกรรมการการเลือกตั้ง</h6>
             <p class="sm color-05 fw-500">
               เลขที่ 120 ม.3 ชั้น 2 อาคารรัฐประศาสนภักดี <br />
-              ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550 <br />
+              ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550 
               ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพ 10210
             </p>
             <div class="list-icon mt-3">
@@ -73,7 +73,7 @@
               </a>
             </div>
           </div>
-          <div class="grid xl-70 lg-60 sm-100 mt-0">
+          <div class="grid xl-75 lg-60 sm-100 mt-0">
             <div class="grids">
               <div class="grid xl-30 lg-50">
                 <h6 class="color-02 fw-500 mb-1">แผนผังเว็บไซต์</h6>
@@ -200,9 +200,9 @@
                     <div class="counts">
                       <p class="sm fw-400">จำนวนผู้เข้าชม</p>
                       <div class="count-web ml-2">
+                        <div>0</div>
                         <div>1</div>
-                        <div>8</div>
-                        <div>3</div>
+                        <div>4</div>
                         <div>0</div>
                         <div>0</div>
                         <div>6</div>

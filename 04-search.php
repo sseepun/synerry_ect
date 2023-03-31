@@ -23,27 +23,27 @@
         'image' => 'public/assets/app/images/content/02.jpg',
         'cate' => 'ข่าวประชาสัมพันธ์',
         'type' => ''
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/27.jpg',
         'cate' => 'หนังสืออิเล็กทรอนิกส์',
         'type' => ''
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/28.jpg',
         'cate' => 'วิดีโอ',
         'type' => 'video'
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/29.jpg',
         'cate' => 'เอกสารดาวน์โหลด',
         'type' => ''
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/32.jpg',
         'cate' => 'เอกสารดาวน์โหลด',
         'type' => ''
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/30.jpg',
         'cate' => 'เอกสารดาวน์โหลด',
         'type' => ''
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/31.jpg',
         'cate' => 'เอกสารดาวน์โหลด',
         'type' => ''
@@ -51,15 +51,19 @@
         'image' => 'public/assets/app/images/content/02.jpg',
         'cate' => 'คลังภาพ',
         'type' => ''
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/33.jpg',
         'cate' => 'สื่อประชาสัมพันธ์',
         'type' => 'ebook'
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/34.jpg',
         'cate' => 'ถาม-ตอบ',
         'type' => ''
-      ], [
+      ],[
+        'image' => 'public/assets/app/images/content/35.jpg',
+        'cate' => 'เนื้อหาเว็บไซต์',
+        'type' => ''
+      ],[
         'image' => 'public/assets/app/images/content/35.jpg',
         'cate' => 'เนื้อหาเว็บไซต์',
         'type' => ''
@@ -283,8 +287,6 @@
     </div>   
   </section>
 
-  
-  
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 
