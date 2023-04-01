@@ -63,16 +63,14 @@
               <img class="icon-inactive" src="public/assets/app/images/icon-svg/drag-vertical-green.svg" alt="Icon">
               <img class="icon-active" src="public/assets/app/images/icon-svg/drag-vertical-white.svg" alt="Icon">
             </a>
-            <a class="icon-view size-02 ml-1" href="#">
+            <div class="icon-view faq-expand-all size-02 ml-1">
               <img class="icon-inactive" src="public/assets/app/images/icon-svg/drag-vertical-green.svg" alt="Icon">
               <img class="icon-active" src="public/assets/app/images/icon-svg/drag-vertical-white.svg" alt="Icon">
-            </a>
-            <?php if(in_array('rss', $listHeader)){?>
-              <a class="icon-view size-02 ml-1" href="#">
-                <img class="icon-inactive" src="public/assets/app/images/icon-svg/arrows-collapse-green.svg" alt="Icon">
-                <img class="icon-active" src="public/assets/app/images/icon-svg/arrows-collapse-white.svg" alt="Icon">
-              </a>
-            <?php }?>
+            </div>
+            <div class="icon-view faq-collapse-all size-02 ml-1" href="#">
+              <img class="icon-inactive" src="public/assets/app/images/icon-svg/arrows-collapse-green.svg" alt="Icon">
+              <img class="icon-active" src="public/assets/app/images/icon-svg/arrows-collapse-white.svg" alt="Icon">
+            </div>
           </div>
         <?php }?>
         <?php if(in_array('view-03', $listHeader)){?>

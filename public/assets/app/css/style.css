@@ -755,7 +755,7 @@ fieldset{padding:0; margin:0; border:0;}
 .list-header.style-02 .option{display:flex; align-items:center;}
 .list-header.style-02 .option > .ui.icon.input input{background:#eeeeee!important; border:1px solid transparent;}
 .list-header.style-02 .option .icon-view{
-  display:flex; align-items:center; justify-content:center; width:2.875rem; height:2.875rem;
+  display:flex; align-items:center; justify-content:center; width:2.875rem; height:2.875rem; cursor:pointer;
   border:1px solid transparent; border-radius:.375rem; font-size:1.125rem; transition:all .25s;
 }
 .list-header.style-02 .option .icon-view.style-02{
