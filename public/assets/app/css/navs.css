@@ -144,9 +144,9 @@ nav.topnav .submenu > *:first-child{
 
 nav.topnav .mega-menu-dropdown{
   position:absolute; top:100%; width:100%; left:0; right:0; border:1px solid transparent;
-  transition:opacity .5s, top .5s; display:block; opacity:0;
+  transition:opacity .5s, top .5s; display:block; opacity:0; pointer-events:none;
 }
-nav.topnav .menu:hover > .mega-menu-dropdown{opacity:1;}
+nav.topnav .menu:hover > .mega-menu-dropdown{opacity:1; pointer-events:auto;}
 nav.topnav .mega-menu-wrapper{
   position:relative; display:flex; width:100%; max-width:calc(1300px - 2rem); margin:0 auto;
 }
