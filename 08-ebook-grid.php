@@ -27,38 +27,38 @@
         'image' => 'public/assets/app/images/content/56.jpg',
         'title' => 'คู่มือประชาชน พลเมืองคุณภาพ',
       ],
-      // [
-      //   'image' => 'public/assets/app/images/content/57.jpg',
-      //   'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
-      // ],
-      // [
-      //   'image' => 'public/assets/app/images/content/58.jpg',
-      //   'title' => 'A',
-      // ],
-      // [
-      //   'image' => 'public/assets/app/images/content/59.jpg',
-      //   'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
-      // ],
-      // [
-      //   'image' => 'public/assets/app/images/content/55.jpg',
-      //   'title' => 'A',
-      // ],
-      // [
-      //   'image' => 'public/assets/app/images/content/56.jpg',
-      //   'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
-      // ],
-      // [
-      //   'image' => 'public/assets/app/images/content/57.jpg',
-      //   'title' => 'A',
-      // ],
-      // [
-      //   'image' => 'public/assets/app/images/content/58.jpg',
-      //   'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
-      // ],
-      // [
-      //   'image' => 'public/assets/app/images/content/59.jpg',
-      //   'title' => 'A',
-      // ],
+      [
+        'image' => 'public/assets/app/images/content/57.jpg',
+        'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/58.jpg',
+        'title' => 'A',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/59.jpg',
+        'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/55.jpg',
+        'title' => 'A',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/56.jpg',
+        'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/57.jpg',
+        'title' => 'A',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/58.jpg',
+        'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/59.jpg',
+        'title' => 'A',
+      ],
     ]
   ?>
 

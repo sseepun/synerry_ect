@@ -20,6 +20,55 @@
         </div>
       </div>
     </div>';
+
+$megamenu = '<div class="mega-menu-dropdown">
+    <div class="mega-menu-wrapper">
+      <div class="mega-menu-content">
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+      </div>
+      <div class="mega-menu-content">
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+      </div>
+      <div class="mega-menu-content">
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+      </div>
+      <div class="mega-menu-content">
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+        <div class="mega-menu">
+          <a>สถิติการเลือกตั้ง</a>
+        </div>
+      </div>
+    </div>
+    </div>';
 ?>
 
 <!-- Super Topnav -->
@@ -87,60 +136,148 @@
           <a href="#" data-dropdown="<?= $i ?>">
             <?= $d ?> <em class="fas fa-chevron-down"></em>
           </a>
-          <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
-            <div class="submenu-container">
-              <div class="submenu-wrapper">
-                <div class="submenu has-children">
-                  <a href="#">สถิติการเลือกตั้ง</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">ประกาศผลการเลือกตั้ง</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">ข้อมูลพรรคการเมือง</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">สื่อประชาสัมพันธ์</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">คู่มือปฏิบัติงาน</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">แบบฟอร์ม</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">บริการสารสนเทศภายในหน่วยงาน</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">Knowledge Management</a>
-                  <?= $submenu ?>
-                </div>
-                <div class="submenu has-children">
-                  <a href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a>
-                  <?= $submenu ?>
+
+          <?php if($i != 4){?>
+            <div class="submenu-dropdown <?php if($i>2 && $i != 4)echo 'anchor-right'; ?>">
+              <div class="submenu-container">
+                <div class="submenu-wrapper">
+                  <div class="submenu has-children">
+                    <a href="#">สถิติการเลือกตั้ง</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">ประกาศผลการเลือกตั้ง</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">ข้อมูลพรรคการเมือง</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">สื่อประชาสัมพันธ์</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">คู่มือปฏิบัติงาน</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">แบบฟอร์ม</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">บริการสารสนเทศภายในหน่วยงาน</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">Knowledge Management</a>
+                    <?= $submenu ?>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a>
+                    <?= $submenu ?>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          <?php } ?>
+          <?php if($i === 4){?>
+            <div class="mega-menu-dropdown">
+              <div class="mega-menu-wrapper">
+                <div class="mega-menu-content">
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">สถิติการเลือกตั้ง</a>
+                  </div>
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">ประกาศผลการเลือกตั้ง</a>
+                  </div>
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
+                  </div>
+                </div>
+                <div class="mega-menu-content">
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">ศูนย์รวมข้อมูลเพื่อติดต่อราชการ</a>
+                  </div>
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">ข้อมูลพรรคการเมือง</a>
+                  </div>
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
+                  </div>
+                </div>
+                <div class="mega-menu-content">
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">สื่อประชาสัมพันธ์</a>
+                  </div>
+                  <div class="mega-menu ">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">คู่มือปฏิบัติงาน</a>
+                  </div>
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">แบบฟอร์ม</a>
+                  </div>
+                </div>
+                <div class="mega-menu-content">
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">บริการสารสนเทศในหน่วยงาน</a>
+                  </div>
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">KHOWLEDEG MANAGEMENT</a>
+                  </div>
+                  <div class="mega-menu">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    </div>
+                    <a href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <?php }?>
         </div>
       <?php }?>
     </div>
-
     <div class="blocks">
       <a class="option global-search-toggle pb-1" href="#">
         <img src="public/assets/app/images/icon/search-02.png" alt="Icon" />

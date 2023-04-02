@@ -113,6 +113,7 @@ nav.topnav .logo p{font-size:1.25rem; font-weight:500; transition:color .25s;}
 
 nav.topnav .menu-container{display:flex; align-items:center; margin:0 0 0 auto;}
 nav.topnav .menu{position:relative; display:block; padding:0 .875rem;}
+nav.topnav .menu:nth-child(5){position:static;}
 nav.topnav .menu > *:first-child{
   position:relative; display:flex; align-items:center; font-size:1rem; font-weight:400;
   padding:1.325rem 0; white-space:nowrap; transition:background .25s, color .25s;
@@ -140,6 +141,27 @@ nav.topnav .submenu > *:first-child{
   display:block; position:relative; width:100%; margin:0; padding:.5rem .875rem .5rem .875rem;
   font-size:1rem; font-weight:400; transition:background .25s, color .25s;
 }
+
+nav.topnav .mega-menu-dropdown{
+  position:absolute; top:100%; width:100%; left:0; right:0; border:1px solid transparent;
+  transition:opacity .5s, top .5s; display:block; opacity:0;
+}
+nav.topnav .menu:hover > .mega-menu-dropdown{opacity:1;}
+nav.topnav .mega-menu-wrapper{
+  position:relative; display:flex; width:100%; max-width:calc(1300px - 2rem); margin:0 auto;
+}
+nav.topnav .mega-menu-content{width:25%; transition:color .25s;}
+nav.topnav .mega-menu-content{border-right:1px solid transparent; padding:1rem .875rem 1rem 0;}
+nav.topnav .mega-menu-content > .mega-menu{
+  display:flex; padding:.875rem .5rem; border-radius:.375rem;
+  transition:background .25s; cursor:pointer;
+}
+nav.topnav .mega-menu-content > .mega-menu a{display:block; font-weight:500; line-height:1.1; transition:color .25s;}
+nav.topnav .mega-menu-content > .mega-menu .icon{margin-right:.75rem;}
+nav.topnav .mega-menu-content > .mega-menu .icon > img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1rem;
+}
+
 nav.topnav .blocks{display:flex; margin:0 -.875rem 0 1.5rem;}
 nav.topnav .blocks .option{
   display:flex; align-items:center; justify-content:center; height:4.25rem; padding:0 .875rem;
@@ -156,6 +178,7 @@ nav.topnav + .topnav-spacer{display:block; width:100%; height:4.25rem;}
 @media screen and (max-width:1299.98px){
   nav.topnav .show-tablet{display:flex!important;}
   nav.topnav .hide-tablet{display:none!important;}
+  nav.topnav .mega-menu-dropdown{display:none!important;}
   nav.topnav .blocks{margin:0 -.875rem 0 auto;}
 }
 @media screen and (max-width:1199.98px){
@@ -262,6 +285,15 @@ nav.sidenav .submenu > *:first-child{padding-left:1.5rem;}
 nav.sidenav .submenu .submenu > *:first-child{padding-left:2.5rem;}
 nav.sidenav .has-children > *:first-child{padding-right:4.125rem!important;}
 nav.sidenav .submenu-dropdown, nav.sidenav .submenu > .submenu-wrapper{display:none;}
+nav.sidenav .mega-menu-dropdown{display:none; position:relative;}
+nav.sidenav .mega-menu-content > .mega-menu{
+  display:flex; padding:1.0625rem 1rem .875rem 1rem; border-bottom:1px solid transparent;
+}
+nav.sidenav .mega-menu-content > .mega-menu .icon{margin-right:.75rem;}
+nav.sidenav .mega-menu-content > .mega-menu .icon > img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:1rem;
+}
+nav.sidenav .mega-menu-content > .mega-menu a{display:block; font-weight:500; line-height:1.1; transition:color .25s;}
 nav.sidenav .dropdown-toggle{
   position:absolute; right:0; top:0; width:3.125rem; height:3.125rem; text-align:center;
   line-height:3.125rem; cursor:pointer; font-size:.875rem;
@@ -273,7 +305,6 @@ nav.sidenav ~ .sidenav-filter {
   display:none; position:fixed; top:0; left:0; width:100%; height:100vh;
   z-index:97; background:#000000; opacity:0; pointer-events:none; cursor:pointer; transition:opacity .5s;
 }
-
 nav.sidenav.minisite .options > .option{width:3.9375rem;}
 nav.sidenav.minisite .options > .option-btn{width:calc(100% - 3.9375rem);}
 
