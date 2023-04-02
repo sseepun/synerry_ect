@@ -514,6 +514,13 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 /* Content Found - Search Pages */
 .content-found .icon{color:#fecb00;}
 
+/* Custom Select */
+.custom-select .select-selected{background:#fecb00; color:#000000;}
+.custom-select .chev{color:#000000;}
+.custom-select .select-items{background:#fecb00;}
+.custom-select .select-items div, .custom-select .select-selected{color:#000000;}
+.custom-select .select-items div:hover{background:#000000!important; color:#fecb00;}
+
 /* Ui */
 
 /* Dropdown */

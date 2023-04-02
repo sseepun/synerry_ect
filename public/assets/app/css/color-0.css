@@ -990,6 +990,13 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .client-02 .swiper-pagination-bullet-active{background:#a07cc5;}
 .client-02.style-02 .swiper-pagination-bullet-active{background:#f7b331;}
 
+/* Custom Select */
+.custom-select .select-selected{background:#2e603b; color:#ffffff!important;}
+.custom-select .select-items div, .custom-select .select-selected{color:#000000;}
+.custom-select .select-items{background:#eeeeee;}
+.custom-select .chev{color:#ffffff;}
+.custom-select .select-items div:hover{background:#30906a!important; color:#ffffff;}
+
 /* Form Container */
 .form-container-01{background:#ffffff;}
 .form-container-02{background:#ffffff;}

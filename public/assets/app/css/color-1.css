@@ -338,6 +338,13 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 /* Content Found - Search Pages */
 .content-found .icon{color:#ffffff;}
 
+/* Custom Select */
+.custom-select .select-selected{background:#ffffff; color:#000000;}
+.custom-select .chev{color:#000000;}
+.custom-select .select-items{background:#ffffff;}
+.custom-select .select-items div, .custom-select .select-selected{color:#000000;}
+.custom-select .select-items div:hover{background:#000000!important; color:#ffffff;}
+
 /* Global Filter */
 .filter.style-01{background:rgba(0,0,0,.4)}
 .filter.style-02{background:rgba(0,0,0,.4)}
