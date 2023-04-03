@@ -1078,6 +1078,8 @@
 
 
 /* Section 05 */
+.section-05 .swiper-main-container{position:relative; width:calc(100% + 8rem); margin:0 -4rem; padding:0 4rem;}
+.section-05 .swiper-main-container:hover .arrow{opacity:1;}
 .section-05 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
 .section-05 .swiper-pagination-bullets{padding:0 .5rem; border-radius:1000em;}
 .section-05 .swiper-pagination-bullet{
@@ -1085,6 +1087,14 @@
     transition:width .25s; opacity:1;
 }
 .section-05 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:2.125rem;}
+.section-05 .arrow-container{
+  position:absolute; top:0; right:0; bottom:0; left:0; display:flex;
+  justify-content:space-between; align-items:center;
+}
+.section-05 .arrow-container > .arrow{
+  width:3rem; height:3rem; border-radius:.375rem; transition:all .25s; opacity:0;
+  display:flex; justify-content:center; align-items:center; cursor:pointer; border:1px solid transparent;
+}
 
 /* Section 06 */
 .section-06 .swiper-main-container{position:relative; width:calc(100% + 8rem); margin:0 -4rem; padding:0 4rem;}
@@ -1404,6 +1414,7 @@
 
 /* Section 23 */
 .section-23 .swiper-main-container{position:relative; width:calc(100% + 8rem); margin:0 -4rem; padding:0 4rem;}
+.section-23 .swiper-main-container:hover .arrow{opacity:1;}
 .section-23 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
 .section-23 .swiper-pagination-bullets{padding:0 .5rem; border-radius:1000em;}
 .section-23 .swiper-pagination-bullet{
@@ -1413,14 +1424,16 @@
 
 .section-23 .swiper-slide-active .img-container{opacity:1;}
 .section-23 .img-container{opacity:.2; transition:opacity 2s;}
+.section-23 .swiper-slide-active .img-container.img-hidden{opacity:1;}
+.section-23 .img-container.img-hidden{opacity:0;}
 .section-23 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:2.125rem;}
 .section-23 .arrow-container{
-  position:absolute; top:0; right:0; bottom:0; left:0; display:flex; justify-content:space-between; 
-  align-items:center; 
+  position:absolute; top:-3rem; right:0; bottom:0; left:0; display:flex; justify-content:space-between; 
+  align-items:center;
 }
 .section-23 .arrow-container > .arrow{
   width:3rem; height:3rem; border-radius:.375rem; transition:all .25s; display:flex;
-  justify-content:center; align-items:center; cursor:pointer;
+  justify-content:center; align-items:center; cursor:pointer; opacity:0; border:1px solid transparent;
 }
 @media screen and (max-width:767.98px){
   .section-23 .img-container{opacity:1;}

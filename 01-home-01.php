@@ -349,7 +349,7 @@
             แก่ภาคประชาชนทุกภาคส่วน
           </h2>
           <p class="h3 color-05 color-black-theme mt-1 mb-1" data-aos="fade-up" data-aos-delay="150">
-            ด้วยหลากหลายแอพพลิเคชั่น
+            ด้วยหลากหลายแอพพลิเคชั่นk
           </p>
           <div class="grids jc-center">
             <div class="grid md-1-3 sm-50 xs-50">

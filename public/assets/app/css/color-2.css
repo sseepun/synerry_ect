@@ -720,6 +720,10 @@ table.table.table-download.style-05{background:#fecb00;}
 table.table.table-download.style-05 .table-card{border-color:#000000!important;}
 table.table.table-download.style-05 .button-container{background:#fecb00;}
 
+table.table.style-05.table-download.theme-03{background:#000000!important;}
+table.table.style-05.table-download.theme-03 .download-card{background:transparent!important;}
+table.table.style-05.table-download.theme-03 tr{border-color:#fecb00;}
+
 table.table.table-download.style-06{color:#000000;}
 table.table.table-download.style-06 tr{border-color:#000000!important;}
 table.table.table-download.style-06{background:#fecb00!important;}
@@ -794,6 +798,9 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Section 05 */
 .section-05 .swiper-pagination-bullets{background:#fecb00;}
 .section-05 .swiper-pagination-bullet-active{background:#000000;}
+.section-05 .arrow-container > .arrow{background:#fecb00; color:#000000;}
+.section-05 .arrow-container > .arrow.active,
+.section-05 .arrow-container > .arrow:hover{background:transparent; border-color:#fecb00; color:#fecb00;}
 
 /* Section 06 */
 .section-06 .swiper-pagination-bullets{background:#fecb00;}
@@ -829,9 +836,10 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Section 23 */ 
 .section-23 .swiper-pagination-bullets{background:#fecb00;}
-.section-23 .swiper-pagination-bullet{background:#e4b703;}
 .section-23 .swiper-pagination-bullet-active{background:#000000;}
 .section-23 .arrow-container > .arrow{background:#fecb00; color:#000000;}
+.section-23 .arrow-container > .arrow.active,
+.section-23 .arrow-container > .arrow:hover{background:transparent; border-color:#fecb00; color:#fecb00;}
 
 /* Section 24 */
 .section-24 .swiper-container > .fraction-container .wrapper > .dots{background:#fecb00;}

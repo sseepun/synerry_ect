@@ -394,6 +394,14 @@ textarea.style-02{border-radius:.4375rem;}
 
 .form.style-02 select:focus{outline:none!important;}
 .form.style-02 textarea{border:1px solid transparent;}
+.form.style-02 .calendar-icon{position:relative;}
+.form.style-02 .calendar-icon::after{
+  position:absolute; top:0; bottom:0; content:"\f073"; font-size:.875rem; 
+  font-family:'Font Awesome 6 Free'; left:.5rem; width:2.5rem; display:flex;
+  align-items:center;
+}
+.form.style-02 .calendar-icon input{padding-left:2.375rem;}
+.form.style-02 .calendar-icon::after{color:#2e603c;}
 
 @media screen and (max-width:767.98px){
   .form.style-03 .form-group,
@@ -412,6 +420,8 @@ textarea.style-02{border-radius:.4375rem;}
   .form.style-04.size-02 .captcha-container{flex-wrap:wrap;}
   .form.style-04.size-02 .captcha-container > .btns{margin-left:0!important;}
 }
+
+.form.style-05 .ui.icon.input > input::placeholder{font-weight:100!important;}
 
 
 
@@ -1101,7 +1111,7 @@ fieldset{padding:0; margin:0; border:0;}
 }
 .main-container .ss-box > .ss-box-content{border:1px solid transparent;}
 .main-container  .ss-box > .ss-box-content{min-height:32rem;}
-.main-container  .ss-box > .ss-box-content.size-02{min-height:30rem;}
+.main-container  .ss-box > .ss-box-content.size-02{min-height:31rem;}
 .main-container  .ss-box > .ss-box-content.size-unset{min-height:0;}
 
 
@@ -1745,6 +1755,10 @@ table.table.style-05 .title-container{padding:0 1rem;}
 table.table.style-05 .title-container > .title{-webkit-line-clamp:2;}
 table.table.style-05 tr:hover .title-container > .title{text-decoration:underline!important;}
 
+table.table.style-05.table-download.theme-03 tr{
+  border-radius:.25rem!important; overflow:hidden; border:1px solid transparent;
+}
+
 table.table.table-download.style-06 tr{
   display:flex; min-height:6rem; border:1px solid transparent; border-radius:.375rem; overflow:hidden;
 }
@@ -1798,7 +1812,7 @@ table.table.table-download.style-04 td:nth-child(1){
 }
 table.table.table-download.style-04 .download-card{width:5rem; height:100%;}
 
-table.table .table-card-01{border-radius:.375rem; overflow:hidden;}
+table.table .table-card-01{border-radius:.375rem; overflow:hidden; border-bottom:1px solid transparent;}
 table.table .table-card-01{cursor:pointer;}
 
 
@@ -2064,6 +2078,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .pl-1{padding-left:.25rem!important;} .pl-2{padding-left:.5rem!important;}
 .pl-3{padding-left:.75rem!important;} .pl-4{padding-left:1rem!important;}
 .pl-5{padding-left:1.25rem!important;} .pl-6{padding-left:1.5rem!important;}
+@media screen and (max-width:991.98px){
+  .pl-unset-md{padding-left:0!important;}
+}
 @media screen and (max-width:767.98px){
   .pl-unset-sm{padding-left:0!important;}
 }
@@ -2335,7 +2352,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 
 /* Special Card 06 */
-.ss-card-06{position:relative; border-radius:.5rem; overflow:hidden;}
+.ss-card-06{position:relative; overflow:hidden;}
+.ss-card-06 .ss-img{border-radius:var(--bradius);}
 .ss-card-06 .text-wrapper{position:absolute; bottom:0; z-index:2; padding:1.5rem;}
 .ss-card-06 .text-wrapper > .card-top .wrapper{display:flex; align-items:center;}
 .ss-card-06 .text-wrapper > .card-top .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
@@ -2346,7 +2364,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 07 */
 .ss-card-07 .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
-.ss-card-07 .wrapper > .img-container{width:48%; border-radius:.375rem; overflow:hidden;}
+.ss-card-07 .wrapper > .img-container{width:48%; border-radius:.375rem;}
+.ss-card-07 .wrapper > .img-container .ss-img{border-radius:var(--bradius);}
 .ss-card-07 .wrapper > .text-container{width:52%; padding-left:1rem;}
 .ss-card-07.style-02{margin-bottom:.5rem;}
 .ss-card-07.style-02 .wrapper > .img-container{width:45%;}
@@ -2440,7 +2459,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 12 */
 .ss-card-12{width:auto;}
-.ss-card-12 .ss-img{border-radius:var(--bradius); overflow:hidden;}
+.ss-card-12 .ss-img{border-radius:var(--bradius);}
 .ss-card-12 .text-container{border-bottom:1px solid transparent; padding-bottom:1rem;}
 .ss-card-12 .text-container > .title{-webkit-line-clamp:2;}
 .ss-card-12 .text-container > .title.style-02{-webkit-line-clamp:3;}
@@ -2467,8 +2486,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 /* Special Card 15 */
 .ss-card-15{width:100%;}
 .ss-card-15 .wrapper{display:flex; flex-wrap:wrap;}
-.ss-card-15 .wrapper > .img-container{width:25%; border-radius:.375rem; overflow:hidden;}
-.ss-card-15 .ss-img{border-radius:.5rem; overflow:hidden;}
+.ss-card-15 .wrapper > .img-container{width:25%;}
+.ss-card-15 .ss-img{border-radius:var(--bradius);}
 .ss-card-15 .wrapper > .text-container{width:75%;}
 .ss-card-15 .wrapper > .text-container{padding:0 1rem; display:flex;}
 .ss-card-15 .wrapper > .text-container .text-content{
@@ -2490,7 +2509,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 16 */
 .ss-card-16{position:relative;}
-.ss-card-16 .ss-img{border-radius:var(--bradius); overflow:hidden;}
+.ss-card-16 .ss-img{border-radius:var(--bradius);}
 .ss-card-16 .text-container > .title{-webkit-line-clamp:2;}
 .ss-card-16 .text-container > .card-bottom .wrapper{display:flex; flex-wrap:wrap; align-items:center;}
 .ss-card-16 .text-container > .card-bottom .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
@@ -2919,6 +2938,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-35 .wrapper > .date{border:1px solid transparent; border-radius:.4375rem;}
 .ss-card-35 .wrapper > .date .wrapper{
   width:3.5rem; text-align:center; border-radius:.4375rem; overflow:hidden;
+}
+.ss-card-35 .wrapper > .date .wrapper.style-02::after{
+  content:''; position:absolute; top:49%; width:.75rem; height:.125rem; background:#ffffff;
 }
 .ss-card-35 .wrapper > .date .wrapper > .day, .ss-card-35 .wrapper > .date .wrapper > .month{width:100%;}
 .ss-card-35 .wrapper > .date .wrapper > .day{padding:.125rem 0;}

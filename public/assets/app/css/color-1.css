@@ -551,12 +551,15 @@ table.table.table-download.style-05{background:#ffffff;}
 table.table.table-download.style-05 .table-card{border-color:#000000!important;}
 table.table.table-download.style-05 .button-container{background:#ffffff;}
 
+table.table.style-05.table-download.theme-03{background:#000000!important;}
+table.table.style-05.table-download.theme-03 .download-card{background:transparent!important;}
+table.table.style-05.table-download.theme-03 tr{border-color:#ffffff;}
+
 table.table.table-download.style-06{color:#000000;}
 table.table.table-download.style-06 tr{border-color:#000000!important;}
 table.table.table-download.style-06{background:#ffffff!important;}
 table.table.table-download.style-06 tr > td.download-card{background:#000000;}
 table.table.table-download.style-06 .color-04{color:#000000!important;}
-
 
 /* Tab Container 01 */
 .tab-container.theme-02 .tab-contents.style-02 > .tab-content{background:#ffffff;}
@@ -669,6 +672,9 @@ select.style-02{background:#ffffff!important;}
 /* Section 05 */
 .section-05 .swiper-pagination-bullets{background:#ffffff;}
 .section-05 .swiper-pagination-bullet-active{background:#000000;}
+.section-05 .arrow-container > .arrow{background:#ffffff; color:#000000;}
+.section-05 .arrow-container > .arrow.active,
+.section-05 .arrow-container > .arrow:hover{background:transparent; border-color:#ffffff; color:#ffffff;}
 
 /* Section 06 */
 .section-06 .swiper-pagination-bullets{background:#ffffff;}
@@ -705,9 +711,10 @@ select.style-02{background:#ffffff!important;}
 
 /* Section 23 */ 
 .section-23 .swiper-pagination-bullets{background:#ffffff;}
-.section-23 .swiper-pagination-bullet{background:#dddddd;}
 .section-23 .swiper-pagination-bullet-active{background:#000000;}
 .section-23 .arrow-container > .arrow{background:#ffffff; color:#000000;}
+.section-23 .arrow-container > .arrow.active,
+.section-23 .arrow-container > .arrow:hover{background:transparent; border-color:#ffffff; color:#ffffff;}
 
 /* Section 24 */
 .section-24 .swiper-container > .fraction-container .wrapper > .dots{background:#ffffff;}

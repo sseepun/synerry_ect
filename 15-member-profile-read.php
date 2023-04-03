@@ -155,11 +155,11 @@
                   </div>
                   </div>
                 </div>
-                <div class="grid xl-1-3 lg-30 md-100 sm-100">
+                <div class="grid sm-100">
                   <div class="padding-style-04">
-                    <div class="btns mt-2 ai-start pl-unset-xs h-full">
+                    <div class="btns mt-2 jc-center h-full">
                       <div href="#" class="btn btn-action btn-02">
-                        บันทึก
+                        แก้ไข
                       </div>
                     </div>
                   </div>

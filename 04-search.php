@@ -82,47 +82,47 @@
                 <p class="color-02 fw-400 mt-3 mb-1">ประเภทข้อมูล</p>    
                 <div class="pl-3">
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_0" class="form-check-input" onclick="myFunction()"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark theme-02"></span>
                     <p class="ml-3 fw-400">ข่าวประชาสัมพันธ์</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_1" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">คลังภาพ</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03 ">
-                    <input type="checkbox" id="c_2" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">วิดีโอ</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_3" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">หนังสืออิเล็กทรอนิกส์</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_4" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">เอกสารดาวน์โหลด</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_5" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">ประกาศรับสมัครงาน</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_6" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">ถาม-ตอบ</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_7" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">เนื้อหาเว็บไซต์</p>
                   </label>
                   <label class="form-check style-03 ai-center form-check-container-03">
-                    <input type="checkbox" id="c_8" class="form-check-input"/>
+                    <input type="checkbox" class="form-check-input"/>
                     <span class="checkmark"></span>
                     <p class="ml-3 fw-400">ทั้งหมด</p>
                   </label>
@@ -228,24 +228,26 @@
             <div class="ss-card ss-card-15 mt-6" data-aos="fade-up" data-aos-delay="300">
               <div class="wrapper">
                 <div class="img-container">
-                  <div class="ss-img">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="card-line style-01"></div>
-                    <div class="filter style-02">
-                      <div class="wrapper">
-                        <div class="icon sm">
-                          <?php 
-                            if ($d['type'] === 'ebook'){
-                              echo '<img src="public/assets/app/images/icon/e-book.png" alt="Icon">';
-                            } elseif ($d['type'] === 'video'){
-                              echo '<img src="public/assets/app/images/icon/youtube-active.png" alt="Icon">';
-                            } else {
-                              echo '<img src="public/assets/app/images/icon/51.png" alt="Icon">';
-                            }
-                          ?>
+                  <div class="img-wrapper">
+                    <div class="ss-img">
+                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="filter style-02">
+                        <div class="wrapper">
+                          <div class="icon sm">
+                            <?php 
+                              if ($d['type'] === 'ebook'){
+                                echo '<img src="public/assets/app/images/icon/e-book.png" alt="Icon">';
+                              } elseif ($d['type'] === 'video'){
+                                echo '<img src="public/assets/app/images/icon/youtube-active.png" alt="Icon">';
+                              } else {
+                                echo '<img src="public/assets/app/images/icon/51.png" alt="Icon">';
+                              }
+                            ?>
+                          </div>
                         </div>
                       </div>
                     </div>
+                    <div class="card-line style-01"></div>
                   </div>
                 </div>
                 <div class="text-container">
@@ -265,11 +267,11 @@
                     <p class="fw-500"><?= $d['cate']?></p>
                     <div class="icon mt-2">
                       <em class="fa-solid fa-calendar-days"></em>
-                      <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                      <span class="p sm fw-300 ml-2">08 มิถุนายน 2565</span>
                     </div>
                     <div class="icon">
                       <em class="fa-solid fa-eye"></em>
-                      <span class="p sm fw-400 ml-2">255</span>
+                      <span class="p sm fw-300 ml-2">255</span>
                     </div>
                   </div>
                 </div>
@@ -289,16 +291,5 @@
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
-
-  <script>
-    function myFunction() {
-      var checkBox = document.getElementById("c_0");
-      if(checkBox.checked == true){
-        console.log('ใช้งานได้ :)');
-      }else{
-        console.log('');
-      }
-    }
-  </script>
 </body>
 </html>

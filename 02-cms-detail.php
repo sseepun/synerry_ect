@@ -32,19 +32,19 @@
               <div class="wrapper">
                 <div class="icon d-inline-block">
                   <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-2 color-white-theme fw-400">เรื่องเด่น กกต.</span>
+                  <span class="p sm ml-2 color-white-theme fw-300">เรื่องเด่น กกต.</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-calendar-days"></em>
-                  <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
+                  <span class="p sm ml-2 fw-300">08 มิถุนายน 2565</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-eye"></em>
-                  <span class="p sm ml-2 fw-400">255</span>
+                  <span class="p sm ml-2 fw-300">255</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-share-nodes"></em>
-                  <span class="p sm ml-2 fw-400">208</span>
+                  <span class="p sm ml-2 fw-300">208</span>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
             ไฟล์ที่เกี่ยวข้อง
           </h4>     
           <div class="box-shadow style-04" data-aos="fade-up" data-aos-delay="600">
-            <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
+            <div class="scroll-x-wrapper pb-0 style-02 mt-2">
               <table class="table table-download bg-white">
                 <tbody>
                   <?php
@@ -116,7 +116,7 @@
                     ] as $k){
                   ?>
                     <tr class="table-card-01 border-bottom no-bradius">
-                      <td>
+                      <td class="no-bradius">
                         <div class="download-card">
                           <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
                         </div>
@@ -127,13 +127,20 @@
                         </a>
                         <div class="text-footer">
                           <div class="wrapper">
-                            <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
-                            <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                            <div class="icon h-color-19">
+                            <p class="sm fw-300 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
+                            <p class="sm fw-300 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
+                            <div class="icon report-file">
                               <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                              <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
-                                แจ้งไฟล์เสีย
-                              </p>
+                              <?php
+                                if($k === 'link'){?>
+                                  <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                                    แจ้งลิงค์เสีย
+                                  </p>
+                              <?php } else {?>
+                                <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                                  แจ้งไฟล์เสีย
+                                </p>
+                              <?php }?>
                             </div>
                           </div>
                         </div>
@@ -161,7 +168,7 @@
               ['image' => 'public/assets/app/images/content/12.jpg'],
             ]
           ?>
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="450">
+          <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="450">
             วิดีโอที่เกี่ยวข้อง
           </h4>
           <div class="grids" data-aos="fade-up" data-aos-delay="650">
@@ -191,7 +198,7 @@
             <?php }?>
           </div> 
           
-          <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="800">
+          <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="800">
             สื่อที่เกี่ยวข้อง
           </h4>
           <div data-aos="fade-up" data-aos-delay="950">

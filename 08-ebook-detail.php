@@ -30,19 +30,19 @@
               <div class="wrapper">
                 <div class="icon d-inline-block">
                   <em class="fa-regular fa-file-lines"></em>
-                  <span class="p sm ml-1 fw-500">ภาพกิจกรรม</span>
+                  <span class="p sm ml-1 fw-400">ภาพกิจกรรม</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-calendar-days"></em>
-                  <span class="p sm ml-1 fw-500">08 มิถุนายน 2565</span>
+                  <span class="p sm ml-1 fw-400">08 มิถุนายน 2565</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-eye"></em>
-                  <span class="p sm ml-1 fw-500">255</span>
+                  <span class="p sm ml-1 fw-400">255</span>
                 </div>
                 <div class="icon d-inline-block">
                   <em class="fa-solid fa-share-nodes"></em>
-                  <span class="p sm ml-1 fw-500">208</span>
+                  <span class="p sm ml-1 fw-400">208</span>
                 </div>
               </div>
             </div>
@@ -86,9 +86,9 @@
                       </a>
                       <div class="text-footer">
                         <div class="wrapper">
-                          <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
-                          <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                          <div class="icon h-color-19">
+                          <p class="sm fw-300 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
+                          <p class="sm fw-300 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
+                          <div class="icon report-file">
                             <em class="h-color-19 fa-solid fa-circle-exclamation mr-1"></em>
                             <p class="btn-popup-toggle cursor-pointer h-color-19 sm color-black-theme fw-400" data-popup="99">
                               แจ้งไฟล์เสีย

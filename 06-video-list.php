@@ -17,37 +17,33 @@
     include('component/breadcrumb.php');
   ?>
 
-  <?php 
-    $news01 = [
-      ['image' => 'public/assets/app/images/content/41.jpg'], 
-      ['image' => 'public/assets/app/images/content/42.jpg']
-    ]
-  ?>
-
 <?php 
-    $news02 = [
-      ['image' => 'public/assets/app/images/content/46.jpg'], 
-      ['image' => 'public/assets/app/images/content/43.jpg']
+    $classImageHidden = 'img-hidden';
+    $video = [
+      ['image' => 'public/assets/app/images/content/46'], 
+      ['image' => 'public/assets/app/images/content/46'], 
+      ['image' => 'public/assets/app/images/content/46'], 
+      ['image' => 'public/assets/app/images/content/46'], 
     ]
   ?>
-
-  <section class="section-padding section-05">
-    <div class="container">
-      <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-        ไฮไลต์วิดีโอ
-      </h3>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <?php for($i=0; $i<4; $i++){?>
-            <div class="swiper-slide">
-              <div class="grids">
-                <div class="grid lg-25 md-100 sm-100 mt-0">
-                  <div class="grids">
-                    <?php foreach($news01 as $d) {?>
-                      <div class="grid lg-100 md-50 sm-100" data-aos="fade-up" data-aos-delay="150">
-                        <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+  
+  <?php if(sizeof($video) >= 1 && sizeof($video) < 5 ){?>
+    <section class="section-padding section-23">
+      <div class="container">
+        <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+          ไฮไลต์วิดีโอ
+        </h3>
+        <div class="swiper-main-container">
+          <div class="swiper-container"  data-aos="fade-up" data-aos-delay="300">
+            <div class="swiper-wrapper">
+              <?php foreach($video as $d){?>
+                <div class="swiper-slide">
+                  <a class="ss-card ss-card-56" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                    <div class="wrapper">
+                      <div class="img-container <?php if(sizeof($video) === 1) echo $classImageHidden ?>">
+                        <div class="img-wrapper">
                           <div class="ss-img">
-                            <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                            <div class="img-bg" style="background-image:url('<?= $d['image'] ?>.jpg');"></div>
                             <div class="hover-container show h-hidden">
                               <div class="icon">
                                 <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
@@ -60,83 +56,87 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="card-line style-01"></div>
                           </div>
-                          <div class="text-container">
-                            <p class="title fw-500">
-                              "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
-                            </p>
-                            <div class="card-bottom mt-1">
-                              <div class="wrapper">
-                                <div class="icon">
-                                  <em class="fa-solid fa-calendar-days"></em>
-                                  <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
-                                </div>
-                                <div class="icon">
-                                  <em class="fa-solid fa-eye"></em>
-                                  <span class="p sm fw-400 ml-2">255</span>
-                                </div>
-                                <div class="icon">
-                                  <em class="fa-solid fa-share-nodes"></em>
-                                  <span class="p sm fw-400 ml-2">208</span>
-                                </div>
+                          <div class="card-line style-01"></div>
+                        </div>
+                      </div>
+                      <div class="text-container">
+                        <div class="text">
+                          <h6 class="title fw-600">
+                            รายการ กกต. ขอบอก EP 65 : การพิจารณา
+                            ประกาศผลการเลือกตั้ง สถ./ผถ.ของ กกต.
+                          </h6>
+                          <div class="card-top mt-1">
+                            <div class="wrapper">
+                              <div class="icon">
+                                <em class="fa-solid fa-calendar-days"></em>
+                                <span class="p sm ml-2 fw-500">08 มิถุนายน 2565</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-eye"></em>
+                                <span class="p sm ml-2 fw-500">255</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-share-nodes"></em>
+                                <span class="p sm ml-2 fw-500">208</span>
                               </div>
                             </div>
                           </div>
-                        </a>
-                      </div>
-                    <?php }?>
-                  </div>
-                </div>
-                <div class="grid lg-50 md-100 sm-100" data-aos="fade-up" data-aos-delay="150">
-                  <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-                    <div class="ss-img square-size-02">
-                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
-                      <div class="hover-container show h-hidden">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
                         </div>
-                      </div>
-                      <div class="filter style-02">
-                        <div class="wrapper">
-                          <div class="icon">
-                            <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card-line style-01"></div>
-                    </div>
-                    <div class="text-container">
-                      <p class="h4 title lh-sm fw-500">
-                        รายการ กกต. ขอบอก EP 65 : การพิจารณาประกาศผลการเลือกตั้ง สถ./ผถ.ของ กกต.
-                      </p>
-                      <div class="card-bottom mt-1">
-                        <div class="wrapper">
-                          <div class="icon">
-                            <em class="fa-solid fa-calendar-days"></em>
-                            <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
-                          </div>
-                          <div class="icon">
-                            <em class="fa-solid fa-eye"></em>
-                            <span class="p sm fw-400 ml-2">255</span>
-                          </div>
-                          <div class="icon">
-                            <em class="fa-solid fa-share-nodes"></em>
-                            <span class="p sm fw-400 ml-2">208</span>
+                        <div class="btns mt-5">
+                          <div class="btn btn-action-style-06">
+                            <span>อ่านเพิ่มเติม</span><div class="sep"></div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </a>
+                  </a>    
                 </div>
-                <div class="grid lg-25 md-100 sm-100 mt-0">
+              <?php }?>
+            </div>
+            <?php if(sizeof($video) > 1){?>
+            <div class="bullet mt-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="container">
+                <div class="bullet-wrapper">
+                  <div class="dots"></div>
+                </div>
+              </div>  
+            </div>
+            <?php }?>
+          </div>
+          <?php if(sizeof($video) > 1){?>
+            <div class="arrow-container" data-aos="fade-up" data-aos-delay="150">
+              <div class="arrow btn-icon-prev">
+                <em class="fa-solid fa-arrow-left"></em>
+              </div>
+              <div class="arrow btn-icon-next">
+                <em class="fa-solid fa-arrow-right"></em>
+              </div>
+            </div>
+          <?php }?>
+        </div> 
+      </div>
+    </section>
+  <?php }?>
+
+  <?php if(sizeof($video) >= 5) {?>
+    <section class="section-padding section-05">
+      <div class="container">
+        <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+          ไฮไลต์วิดีโอ
+        </h3>
+        <div class="swiper-main-container">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <?php foreach($video as $d){?>
+                <div class="swiper-slide">
                   <div class="grids">
-                    <?php foreach($news02 as $d) {?>
-                      <div class="grid lg-100 md-50 sm-100" data-aos="fade-up" data-aos-delay="150">
-                        <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-                          <div class="img-wrapper">
+                    <div class="grid lg-25 md-100 sm-100 mt-0">
+                      <div class="grids">
+                        <div class="grid lg-100 md-50 sm-100" data-aos="fade-up" data-aos-delay="150">
+                          <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                             <div class="ss-img">
-                              <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                              <div class="img-bg" style="background-image:url('public/assets/app/images/content/46.jpg');"></div>
                               <div class="hover-container show h-hidden">
                                 <div class="icon">
                                   <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
@@ -149,49 +149,229 @@
                                   </div>
                                 </div>
                               </div>
+                              <div class="card-line style-01"></div>
                             </div>
-                            <div class="card-line style-01"></div>
-                          </div>
-                          <div class="text-container">
-                            <p class="title fw-500">
-                              "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
-                            </p>
-                            <div class="card-bottom mt-1">
-                              <div class="wrapper">
-                                <div class="icon">
-                                  <em class="fa-solid fa-calendar-days"></em>
-                                  <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
-                                </div>
-                                <div class="icon">
-                                  <em class="fa-solid fa-eye"></em>
-                                  <span class="p sm fw-400 ml-2">255</span>
-                                </div>
-                                <div class="icon">
-                                  <em class="fa-solid fa-share-nodes"></em>
-                                  <span class="p sm fw-400 ml-2">208</span>
+                            <div class="text-container">
+                              <p class="title fw-500">
+                                "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
+                              </p>
+                              <div class="card-bottom mt-1">
+                                <div class="wrapper">
+                                  <div class="icon">
+                                    <em class="fa-solid fa-calendar-days"></em>
+                                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-eye"></em>
+                                    <span class="p sm fw-400 ml-2">255</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-share-nodes"></em>
+                                    <span class="p sm fw-400 ml-2">208</span>
+                                  </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </a>
+                          </a>
+                        </div>
+                        <div class="grid lg-100 md-50 sm-100" data-aos="fade-up" data-aos-delay="150">
+                          <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                            <div class="ss-img">
+                              <div class="img-bg" style="background-image:url('public/assets/app/images/content/46.jpg');"></div>
+                              <div class="hover-container show h-hidden">
+                                <div class="icon">
+                                  <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                                </div>
+                              </div>
+                              <div class="filter style-02">
+                                <div class="wrapper">
+                                  <div class="icon">
+                                    <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-line style-01"></div>
+                            </div>
+                            <div class="text-container">
+                              <p class="title fw-500">
+                                "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
+                              </p>
+                              <div class="card-bottom mt-1">
+                                <div class="wrapper">
+                                  <div class="icon">
+                                    <em class="fa-solid fa-calendar-days"></em>
+                                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-eye"></em>
+                                    <span class="p sm fw-400 ml-2">255</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-share-nodes"></em>
+                                    <span class="p sm fw-400 ml-2">208</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
                       </div>
-                    <?php }?>
+                    </div>
+                    <div class="grid lg-50 md-100 sm-100" data-aos="fade-up" data-aos-delay="150">
+                      <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                        <div class="ss-img square-size-02">
+                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
+                          <div class="hover-container show h-hidden">
+                            <div class="icon">
+                              <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                            </div>
+                          </div>
+                          <div class="filter style-02">
+                            <div class="wrapper">
+                              <div class="icon">
+                                <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-line style-01"></div>
+                        </div>
+                        <div class="text-container">
+                          <p class="h4 title lh-sm fw-500">
+                            รายการ กกต. ขอบอก EP 65 : การพิจารณาประกาศผลการเลือกตั้ง สถ./ผถ.ของ กกต.
+                          </p>
+                          <div class="card-bottom mt-1">
+                            <div class="wrapper">
+                              <div class="icon">
+                                <em class="fa-solid fa-calendar-days"></em>
+                                <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-eye"></em>
+                                <span class="p sm fw-400 ml-2">255</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-share-nodes"></em>
+                                <span class="p sm fw-400 ml-2">208</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="grid lg-25 md-100 sm-100 mt-0">
+                      <div class="grids">
+                        <div class="grid lg-100 md-50 sm-100" data-aos="fade-up" data-aos-delay="150">
+                          <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                            <div class="img-wrapper">
+                              <div class="ss-img">
+                                <div class="img-bg" style="background-image:url('public/assets/app/images/content/46.jpg');"></div>
+                                <div class="hover-container show h-hidden">
+                                  <div class="icon">
+                                    <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                                  </div>
+                                </div>
+                                <div class="filter style-02">
+                                  <div class="wrapper">
+                                    <div class="icon">
+                                      <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-line style-01"></div>
+                            </div>
+                            <div class="text-container">
+                              <p class="title fw-500">
+                                "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
+                              </p>
+                              <div class="card-bottom mt-1">
+                                <div class="wrapper">
+                                  <div class="icon">
+                                    <em class="fa-solid fa-calendar-days"></em>
+                                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-eye"></em>
+                                    <span class="p sm fw-400 ml-2">255</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-share-nodes"></em>
+                                    <span class="p sm fw-400 ml-2">208</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="grid lg-100 md-50 sm-100" data-aos="fade-up" data-aos-delay="150">
+                          <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                            <div class="img-wrapper">
+                              <div class="ss-img">
+                                <div class="img-bg" style="background-image:url('public/assets/app/images/content/46.jpg');"></div>
+                                <div class="hover-container show h-hidden">
+                                  <div class="icon">
+                                    <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                                  </div>
+                                </div>
+                                <div class="filter style-02">
+                                  <div class="wrapper">
+                                    <div class="icon">
+                                      <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-line style-01"></div>
+                            </div>
+                            <div class="text-container">
+                              <p class="title fw-500">
+                                "ความดี" ไม่ต้องเริ่มที่ใคร แต่เริ่มที่ตัวเรา | กองทุนเพื่อการพัฒนา
+                              </p>
+                              <div class="card-bottom mt-1">
+                                <div class="wrapper">
+                                  <div class="icon">
+                                    <em class="fa-solid fa-calendar-days"></em>
+                                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-eye"></em>
+                                    <span class="p sm fw-400 ml-2">255</span>
+                                  </div>
+                                  <div class="icon">
+                                    <em class="fa-solid fa-share-nodes"></em>
+                                    <span class="p sm fw-400 ml-2">208</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              <?php }?>
             </div>
-          <?php }?>
-        </div>
-        <div class="bullet mt-3" data-aos="fade-up" data-aos-delay="400">
-          <div class="container">
-            <div class="bullet-wrapper">
-              <div class="dots"></div>
+            <div class="bullet mt-3" data-aos="fade-up" data-aos-delay="400">
+              <div class="container">
+                <div class="bullet-wrapper">
+                  <div class="dots"></div>
+                </div>
+              </div>  
             </div>
-          </div>  
+          </div>
+          <div class="arrow-container" data-aos="fade-up" data-aos-delay="150">
+            <div class="arrow btn-icon-prev">
+              <em class="fa-solid fa-arrow-left"></em>
+            </div>
+            <div class="arrow btn-icon-next">
+              <em class="fa-solid fa-arrow-right"></em>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  <?php }?>
 
   <?php 
     $news03 = [

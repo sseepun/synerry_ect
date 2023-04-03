@@ -385,6 +385,8 @@ html, body, table.table{color:#000000;}
 .form-check-container-03  input:checked ~ .checkmark{background:#b2e0ce!important;}
 .form-check-container-03 .checkmark:after{border-color:#000000;}
 
+.form.style-05 .ui.icon.input > input::placeholder{color:#69696a;}
+
 /* Faq 01 */
 .faq-01 .faq.active > .question{background:#3aa57b; border-color:#3aa57b;}
 .faq-01 .faq.active > .question h6{color:#ffffff;}
@@ -1205,9 +1207,13 @@ table.table.style-05 tr:hover .arrow-container > em{color:#30906a;}
 table.table.table-download.style-05.theme-02 .download-card{background:#ffffff;}
 table.table.table-download.style-05.theme-02 tr:hover .title{color:#3dce95;}
 
+table.table.style-05.table-download.theme-03 .download-card{background:#30906a;}
+
 table.table .table-card-01:hover .title{color:#30906a;}
 table.table .table-card-01:hover img.inactive{opacity:0!important;}
 table.table .table-card-01:hover img.active{opacity:1!important;}
+table.table .table-card-01{border-color:#f0f0f0!important;}
+table.table .table-card-01:hover .report-file{color:#d91818!important;}
 
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#eeeeee!important;}
 table.table.table-download.style-03 td:nth-child(2) > .title:hover{color:#10563a; border-color:#10563a!important;}
@@ -1229,6 +1235,7 @@ table.table.table-download.style-06 tr:hover > td.button-container .btn{backgrou
 table.table.table-download.style-06 tr > td.warning-container em{color:#ffab28;}
 table.table.table-download.style-06 tr:hover > td.warning-container em,
 table.table.table-download.style-06 tr:hover > td.warning-container a{color:#30906a;}
+
 
 /* Text Danger */
 .text-danger{color:#dc3545!important;}
@@ -1312,6 +1319,9 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 .section-05 .swiper-pagination-bullets{background:#f2f2f2;}
 .section-05 .swiper-pagination-bullet{background:#2e603d;}
 .section-05 .swiper-pagination-bullet-active{background:#2e603d;}
+.section-05 .arrow-container > .arrow{background:#e1e1e1; color:#ffffff;}
+.section-05 .arrow-container > .arrow.active,
+.section-05 .arrow-container > .arrow:hover{background:#2e603c;}
 
 /* Section 06 */ 
 .section-06 .swiper-pagination-bullets{background:#f2f2f2;}
