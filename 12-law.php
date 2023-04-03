@@ -136,5 +136,25 @@
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    var faqAll = $('.faq');
+    var faqExpandAll = $('.faq-expand-all'),
+        faqCollapseAll = $('.faq-collapse-all');
+    faqExpandAll.click(function(e) {
+        e.preventDefault();
+        faqExpandAll.addClass('active');
+        faqCollapseAll.removeClass('active');
+        faqAll.addClass('active');
+        faqAll.find('> .answer').slideDown();
+    });
+    faqCollapseAll.click(function(e) {
+        e.preventDefault();
+        faqExpandAll.removeClass('active');
+        faqCollapseAll.addClass('active');
+        faqAll.removeClass('active');
+        faqAll.find('> .answer').slideUp();
+    });
+  </script>
 </body>
 </html>
