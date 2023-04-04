@@ -10,7 +10,7 @@ nav.stopnav .blocks > .option .hotline{
 }
 nav.stopnav .blocks > .option .hotline > em{
   width:1.5rem; height:1.5rem; display:flex; justify-content:center; align-items:center; transition:border .25s;
-  margin-right:.375rem; background:transparent; border-radius:50%; border:1px solid transparent;
+  margin-right:.375rem; background:transparent; border-radius:50%; border:2px solid transparent; font-size:.6125rem;
 }
 nav.stopnav .blocks.blocks-main{width:100%; justify-content:space-between;}
 nav.stopnav .option{
@@ -20,6 +20,14 @@ nav.stopnav .option{
 nav.stopnav .option:first-child{padding-left:0;}
 nav.stopnav .option:last-child{padding-right:0; border-right:0;}
 nav.stopnav .option > .icon{margin:0 .4375rem 0 0; font-size:.875rem;}
+nav.stopnav .option.login > .icon{display:flex;}
+nav.stopnav .option.login > .icon img{
+  position:relative; display:block; max-width:100%; max-height:100%; width:auto; height:1.25rem;
+  margin-right:.375rem; transition:opacity .25s;
+}
+nav.stopnav .option.login > .icon img.active{position:absolute; opacity:0;}
+nav.stopnav .option.login:hover > .icon img.active{opacity:1;}
+
 nav.stopnav .option-select{position:relative; display:block; margin:0 0 0 1rem;}
 nav.stopnav .option-select > .select{
   display:flex; align-items:center; justify-content:center; font-size:.8125rem; font-weight:500;
@@ -682,7 +690,7 @@ nav.footer.style-02 .image-container > img{
 /* Footer Style 03 */
 nav.footer.style-03{padding-bottom:0; background-size:cover; background-position:center; height:100%;}
 nav.footer.style-03 .footer-container{border-radius:.875rem .875rem 0 0; margin-top:3rem;}
-nav.footer.style-03 .footer-container > .wrapper{padding:2rem;}
+nav.footer.style-03 .footer-container > .wrapper{padding:1.625rem;}
 nav.footer.style-03 .footer-socials .social em{
   transition:transform .25s; transform:translateY(0); display:inline-block; line-height:40px;
 }

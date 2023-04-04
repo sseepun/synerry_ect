@@ -526,6 +526,14 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 .popular-search-container{background:#ffffff;} 
 .popular-search-container .ss-tags > .tag{background:#000000; color:#ffffff;}
 
+/* Popup Container */
+.popup-container.theme-01 .popup-header{border-color:#ffffff;}
+.popup-container.theme-01 .popup-header,
+.popup-container.theme-01 .box-body{background:#000000;}
+.popup-container.theme-01 .close-icon{color:#000000; background:#ffffff;}
+.popup-container.theme-01 .close-icon:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+
 /* Table */
 table.table.table-download .download-card{background:#ffffff; border-color:#000000;}
 table.table.table-download.style-03 td:nth-child(1){background:#000000;}

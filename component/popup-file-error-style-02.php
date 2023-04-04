@@ -51,6 +51,24 @@
             </div>
           </div>
         <?php }?>
+        <?php if(in_array('member-enews-subscription', $listResult)) {?>
+          <h6 class="h4 fw-400">สำเร็จ</h6>
+          <p>บันทึกการเปลี่ยนแปลงเรียบร้อยแล้ว</p>
+          <div class="btns mt-4">
+            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+              <span>ตกลง</span><div class="sep"></div>
+            </div>
+          </div>
+        <?php }?>
+        <?php if(in_array('poll', $listResult)) {?>
+          <h6 class="h4 fw-400">สำเร็จ</h6>
+          <p>ส่งแบบประเมินของคุณเรียบร้อยแล้ว</p>
+          <div class="btns mt-4">
+            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+              <span>ตกลง</span><div class="sep"></div>
+            </div>
+          </div>
+        <?php }?>
       </div>
     </div>
   </div>

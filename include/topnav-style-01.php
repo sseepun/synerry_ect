@@ -20,55 +20,6 @@
         </div>
       </div>
     </div>';
-
-$megamenu = '<div class="mega-menu-dropdown">
-    <div class="mega-menu-wrapper">
-      <div class="mega-menu-content">
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-      </div>
-      <div class="mega-menu-content">
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-      </div>
-      <div class="mega-menu-content">
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-      </div>
-      <div class="mega-menu-content">
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-        <div class="mega-menu">
-          <a>สถิติการเลือกตั้ง</a>
-        </div>
-      </div>
-    </div>
-    </div>';
 ?>
 
 <!-- Super Topnav -->
@@ -90,13 +41,14 @@ $megamenu = '<div class="mega-menu-dropdown">
         <div class="option bcolor-04 no-border-right">
           <a class="icon hotline" href="#">
             <em class="fa-solid fa-phone"></em>
-            สายด่วน 1444
+            <p class="sm fw-300">สายด่วน 1444</p>
           </a>
         </div>
-        <div class="option bcolor-04 no-border-right">
+        <div class="option bcolor-04 login no-border-right">
           <a class="icon" href="#">
-          <em class="fa-solid fa-right-to-bracket mr-1"></em>
-            เข้าสู่ระบบ
+            <img class="inactive" src="public/assets/app/images/icon-svg/login.svg" alt="Icon Inactive">
+            <img class="active" src="public/assets/app/images/icon-svg/login-hover.svg" alt="Icon Active">
+            <p class="sm fw-300">เข้าสู่ระบบ</p>
           </a>
         </div>
         <div class="option-select hide-mobile">

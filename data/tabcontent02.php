@@ -4,7 +4,7 @@
       <div class="question box-shadow style-02">
         <h3 class="ftag">
           <div class="icon">
-            <img src="public/assets/app/images/icon/14.png" alt="">
+            <img src="public/assets/app/images/icon-svg/document.svg" alt="Icon Document">
           </div>
         </h3>
         <div class="text-container">

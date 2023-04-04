@@ -1279,9 +1279,9 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 .calendar-day .fc-time-grid .fc-event .fc-title{color:#000000;}
 
 /* Popup Container */
-.popup-container .popup-header{border-color:#eeeeee;}
-.popup-container .popup-box{background:#ffffff;}
-.popup-container .close-icon{color:#2e603c;}
+.popup-container.theme-01 .popup-box{background:#ffffff; border-color:#044c21;}
+.popup-container.theme-01 .close-icon{color:#ffffff; background:#000000;}
+.popup-container.theme-01 .close-icon:hover{background:#fef200;}
 
 .popup-container.style-02 .popup-box > .mark-container{background:#30906a; color:#ffffff;}
 

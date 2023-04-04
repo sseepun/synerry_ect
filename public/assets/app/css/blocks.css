@@ -1185,7 +1185,8 @@
 .section-09 .swiper-background::after{background:#c6dccc;}
 
 .section-09 .swiper-container{position:relative; width:95%; margin-top:3rem; z-index:99;}
-.section-09 .shelf-container{position:absolute; bottom:0; margin-bottom:-8%;}
+.section-09 .shelf-container{position:absolute; bottom:0; margin-bottom:-1.4%; z-index:2;}
+.section-09 .shelf-shadow{position:absolute; bottom:0; margin-bottom:-8%;}
 .section-09 .swiper-arrows-container >  .arrows-container .wrapper{display:flex; justify-content:space-between;}
 
 .section-09 .swiper-arrows-container > .arrows-container .arrow{ 
@@ -1481,6 +1482,11 @@
   width:3rem; height:3rem; border-radius:.375rem; transition:all .25s; display:flex;
   justify-content:center; align-items:center; cursor:pointer;
 }
+
+/* Section 26 */
+.section-26{position:relative; background-size:cover; background-position:center; height:300px;}
+.section-26 > .img-bg{position:absolute; top:0; left:0; bottom:0; right:0;}
+
 
 /* Breadcrumb 01 */
 .breadcrumb-01 .top{

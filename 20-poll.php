@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -29,7 +29,7 @@
         ?>
       </div>
       <div class="faq-06 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
-        <?php for($i=0; $i<8; $i++){?>
+        <?php for($i=0; $i<10; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">
             <div class="question box-shadow style-02">
               <h6 class="title p lg fw-400">
@@ -109,7 +109,7 @@
                           </div>
                         </fieldset>
                         <div class="btns mt-4">
-                          <button type="submit" class="btn btn-action btn-03">
+                          <button type="submit" class="btn btn-action btn-03  btn-popup-toggle" data-popup="99">
                             โหวต
                           </button>
                         </div>
@@ -185,6 +185,11 @@
       </div>
     </div>
   </div>
+
+  <?php
+    $listResult= ['poll'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

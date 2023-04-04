@@ -455,6 +455,13 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .popup-container.simple .popup-box > .btn-close{background:#fecb00;}
 .popup-container.simple .hamburger > *{background:#000000;}
 
+/* Popup Container */
+.popup-container.theme-01 .popup-header{border-color:#fecb00;}
+.popup-container.theme-01 .popup-header,
+.popup-container.theme-01 .box-body{background:#000000;}
+.popup-container.theme-01 .close-icon{color:#000000; background:#fecb00;}
+.popup-container.theme-01 .close-icon:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 /* Post Stat */
 .post-stats, .post-stats .post-stat{border-color:#fecb00;}
 

@@ -17,62 +17,105 @@
     include('component/breadcrumb.php');
   ?>
 
-  <?php 
+<?php 
     $ebooks = [
-      ['image' => 'public/assets/app/images/content/55.jpg'], 
-      ['image' => 'public/assets/app/images/content/56.jpg'],
-      ['image' => 'public/assets/app/images/content/57.jpg'],
-      ['image' => 'public/assets/app/images/content/58.jpg'],
-      ['image' => 'public/assets/app/images/content/59.jpg'],
+      [
+        'image' => 'public/assets/app/images/content/55.jpg',
+        'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/56.jpg',
+        'title' => "คู่มือประชาชน 'พลเมืองคุณภาพ'",
+      ],
+      [
+        'image' => 'public/assets/app/images/content/57.jpg',
+        'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/58.jpg',
+        'title' => 'รวมกฎหมาย ระเบียบ และประกาศที่เกี่ยวข้องกับงานพรรคการเมือง',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/59.jpg',
+        'title' => 'คู่มือการจัดทำบัญชีรายรับและรายจ่ายในการเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/55.jpg',
+        'title' => 'คู่มือบทบาทหน้าที่ของนายทะเบียนอำเภอและนายทะเบียนท้องถิ่น สำหรับการเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/56.jpg',
+        'title' => "คู่มือประชาชน 'พลเมืองคุณภาพ'",
+      ],
+      [
+        'image' => 'public/assets/app/images/content/57.jpg',
+        'title' => 'คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/58.jpg',
+        'title' => 'รวมกฎหมาย ระเบียบ และประกาศที่เกี่ยวข้องกับงานพรรคการเมือง',
+      ],
+      [
+        'image' => 'public/assets/app/images/content/59.jpg',
+        'title' => 'คู่มือการจัดทำบัญชีรายรับและรายจ่ายในการเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น',
+      ],
     ]
   ?>
 
-  <section class="section-padding section-09">
-    <div class="container">
-      <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-        ไฮไลต์สื่อประชาสัมพันธ์
-      </h3>
-      <div class="swiper-background bg-03 mt-5" data-aos="fade-up" data-aos-delay="150">
-        <div class="text-wrapper text-center">
-          <p class="h6 color-black-theme fw-500">
-            คู่มือปฏิบัติงานผู้อำนวยการการเลือกตั้ง<br/>
-            ประจำองค์กรปกครองส่วนท้องถิ่นและคณะกรรมการ
-            <br/>การเลือกตั้งประจำองค์กรปกครองส่วนท้องถิ่น
-          </p>
-        </div>
+  <?php if(sizeof($ebooks) > 1) {?>
+    <section class="section-padding section-09">
+      <div class="container">
+        <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+          ไฮไลต์สื่อประชาสัมพันธ์
+        </h3>
+        <div class="swiper-background bg-03 mt-5" data-aos="fade-up" data-aos-delay="150">
+          <div class="text-wrapper d-flex ai-center jc-center" style="height:6.375rem;">
+            <p class="h6 color-black-theme fw-500 text-center swiper-title"></p>
+          </div>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <?php foreach($ebooks as $d) {?>
-                <div class="swiper-slide">
-                  <div class="ss-img vertical">
-                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+              <?php foreach($ebooks as $d){?>
+                <div class="swiper-slide" data-title="<?= $d['title'] ?>">
+                  <div class="ss-card ss-card-72">
+                    <div class="ss-img vertical">
+                      <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                    </div>
+                    <div class="shadow-wrapper">
+                      <img src="public/assets/app/images/content/shadow-book.png" alt="Shadow" />
+                    </div>
                   </div>
                 </div>
               <?php }?>
             </div>
           </div>
-        <div class="shelf-container">
-          <img class="img" src="public/assets/app/images/content/shelf-02.png" alt="Shelf">  
-        </div>
-      </div>
-    </div>
-    <div class="swiper-arrows-container">
-      <div class="arrows-container">
-        <div class="wrapper">
-          <div class="btn btn-icon-prev">
-            <div class="arrow">
-              <em class="fa-solid fa-arrow-left"></em>
-            </div>
+          <div class="shelf-container">
+            <img class="img" src="public/assets/app/images/content/shelf-03.png" alt="Shelf">  
           </div>
-          <div class="btn btn-icon-next">
-            <div class="arrow">
-              <em class="fa-solid fa-arrow-right"></em>
-            </div>
+          <div class="shelf-shadow">
+            <img class="img" src="public/assets/app/images/content/shelf-shadow.png" alt="Shelf Shadow"> 
           </div>
         </div>
       </div>
-    </div>
-  </section>
+      <?php if(sizeof($ebooks) > 1){?>
+        <div class="swiper-arrows-container">
+          <div class="arrows-container">
+            <div class="wrapper">
+              <div class="btn btn-icon-prev">
+                <div class="arrow">
+                  <em class="fa-solid fa-arrow-left"></em>
+                </div>
+              </div>
+              <div class="btn btn-icon-next">
+                <div class="arrow">
+                  <em class="fa-solid fa-arrow-right"></em>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php }?>
+    </section>
+  <?php }?>
 
   <?php 
     $ebook02 = [
@@ -119,8 +162,8 @@
                     </div>
                     <div class="filter style-02">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/e-book.png" alt="Icon">
+                        <div class="icon sm">
+                          <img src="public/assets/app/images/icon-svg/book.svg" alt="Icon">
                         </div>
                       </div>
                     </div>

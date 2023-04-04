@@ -34,7 +34,7 @@
             <div class="question box-shadow style-02">
               <h3 class="ftag">
                 <div class="icon">
-                  <img src="public/assets/app/images/icon/14.png" alt="">
+                  <img src="public/assets/app/images/icon-svg/document.svg" alt="Icon Document">
                 </div>
               </h3>
               <a class="p title sm lh-sm fw-400" href="#">
@@ -71,7 +71,7 @@
                                 <div class="wrapper">
                                   <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                                   <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                                  <div class="icon h-color-19">
+                                  <div class="icon report-file">
                                     <em class="fa-solid fa-circle-exclamation mr-1"></em>
                                     <?php 
                                       if($k === 'link'){
