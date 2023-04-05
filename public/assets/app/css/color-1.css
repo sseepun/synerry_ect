@@ -328,6 +328,11 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .breadcrumb-02 .ui.icon.input > em.icon.style-03{background:#000000; color:#ffffff;}
 .breadcrumb-02 .ui.icon.input input{border-color:#000000;}
 
+/* Breadcrumb 03 */
+.breadcrumb-03 .wrapper a::before{background:#ffffff;}
+.breadcrumb-03{background:#000000;}
+.breadcrumb-03:before{background:#000000;}
+
 /* Checkbox Set */
 .checkbox-set > .checkmark::before,
 .checkbox-set > .checkmark::after{border-color:#ffffff;}
@@ -947,3 +952,6 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Card 69 */
 .ss-card-69{background:#000000; color:#ffffff!important;}
+
+/* Special Card 73 */
+.ss-card-73 .number{background:#000000;}

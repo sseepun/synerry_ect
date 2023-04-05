@@ -30,6 +30,9 @@ html, body, table.table{color:#000000;}
 .color-17, .h-color-17:hover{color:#044c21;}
 .color-18, .h-color-18:hover{color:#3cd096;}
 .color-19, .h-color-19:hover{color:#d91818!important;}
+.color-20, .h-color-20:hover{color:#157a52!important;}
+.color-21, .h-color-21:hover{color:#159261!important;}
+.color-22, .h-color-22:hover{color:#09a064!important;}
 
 
 .bg-p{background:#0ab3de!important;}
@@ -59,6 +62,9 @@ html, body, table.table{color:#000000;}
 .bg-17{background:#044c21!important;}
 .bg-18{background:#3cd096!important;}
 .bg-19{background:#d91818!important;}
+.bg-20{background:#157a52!important;}
+.bg-21{background:#159261!important;}
+.bg-22{background:#09a064!important;}
 
 
 .bcolor-p{border-color:#0ab3de!important;}
@@ -88,6 +94,10 @@ html, body, table.table{color:#000000;}
 .bcolor-17{border-color:#044c21!important;}
 .bcolor-18{border-color:#3cd096!important;}
 .bcolor-19{border-color:#d91818!important;}
+.bcolor-20{border-color:#157a52!important;}
+.bcolor-21{border-color:#159261!important;}
+.bcolor-22{border-color:#09a064!important;}
+
 
 /* Buttons */
 .btn.btn-p, .btn.btn-p:focus{color:#ffffff; background:#194e84; border-color:#194e84;}
@@ -987,6 +997,12 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .breadcrumb-02 .title{color:#eeeeee;}
 .breadcrumb-02 .sub-title{color:#ffffff;}
 
+/* Breadcrumb 03 */
+.breadcrumb-03 .wrapper a::before{background:#30906a;}
+.breadcrumb-03{background:rgba(110,106,102,.7);}
+.breadcrumb-03:before{background:rgba(110,106,102,.7)}
+.breadcrumb-03 .wrapper a{color:#ffffff;}
+
 /* Client 02 */
 .client-02 .swiper-pagination-bullet{background:#cbcbcb;}
 .client-02 .swiper-pagination-bullet-active{background:#a07cc5;}
@@ -1062,6 +1078,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 /* Special Title */
 .ss-title{border-color:#30906a;}
 .ss-title.style-02{border-color:#35758e;}
+.ss-title.style-03{border-color:#e9b913;}
 
 .ss-title-style-02 .link-more > .text, .ss-title-style-02 .link-more > .arrow{color:#30906a;}
 .ss-title-style-02.style-02{background:#00ce8f; color:#ffffff;}
@@ -1087,6 +1104,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .ss-list.style-10 > li a:hover{color:#8c6961;}
 .ss-list.style-11 > li a{color:#ffffff;}
 .ss-list.style-11 > li::before{background:#ffffff;}
+.ss-list.style-12 > li::before{background:#088f59;}
 
 /* Number */
 .ss-list-style-01 > li::marker{color:#35758e;}
@@ -1702,3 +1720,6 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 /* Special Card 69 */
 .ss-card-69 .text-container > .arrow{color:#ffffff;}
 .ss-card-69{background:#7cc5b5;}
+
+/* Special Card 73 */
+.ss-card-73 .number{background:#08905a; color:#ffffff;}

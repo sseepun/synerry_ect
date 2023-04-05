@@ -2247,6 +2247,17 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ribbon-wrapper{height:auto;}
 }
 
+/* Special Header */
+.ss-header{display:flex; align-items:center;}
+.ss-header .icon{
+  width:3rem; height:3rem; display:flex; justify-content:center; align-items:center;
+  border-radius:.375rem;
+}
+.ss-header .icon > img{display:block; max-width:100%; max-height:100%; width:auto; height:1.75rem;}
+.ss-header .title{padding-left:.75rem; width:calc(100% - 3rem);}
+.ss-header .icon{background:#303031;}
+
+
 /* Special Card */
 .ss-card{display:block; width:100%;}
 .ss-card .text-container .title, .ss-card .text-container .desc,
@@ -3773,12 +3784,18 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-71 .option > .icon{color:#2e603c;}
 .ss-card-71:hover{background:#dff3eb;}
 
-/* Special Card 75 */
+/* Special Card 72 */
 .ss-card-72{position:relative;}
 .ss-card-72 .ss-img > .img-bg{z-index:2;}
-.ss-card-72 .shadow-wrapper{
-  position:absolute; bottom:-3rem; 
-}
+.ss-card-72 .shadow-wrapper{position:absolute; bottom:-3rem;}
 .ss-card-72 .shadow-wrapper > img{
   display:block; max-width:100%; max-height:100%; width:auto; height:10rem;
 }
+
+/* Special Card 73 */
+.ss-card-73 .wrapper{display:flex; flex-wrap:wrap; margin-top:1rem;}
+.ss-card-73 .number{
+  display:flex; justify-content:center; align-items:center; width:2rem; height:2rem;
+  font-weight:400; border-radius:.375rem;
+}
+.ss-card-73 .text-container{width:calc(100% - 2rem); padding-left:.875rem; line-height:1.3;}
