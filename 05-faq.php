@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -91,7 +91,7 @@
                         <tr class="table-card-01 box-shadow style-02 mb-2">
                           <td>
                             <div class="download-card">
-                              <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                              <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
                             </div>
                           </td>
                           <td class="title-container" style="min-width:450px;">
@@ -141,5 +141,25 @@
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    var faqAll = $('.faq');
+    var faqExpandAll = $('.faq-expand-all'),
+        faqCollapseAll = $('.faq-collapse-all');
+    faqExpandAll.click(function(e) {
+        e.preventDefault();
+        faqExpandAll.addClass('active');
+        faqCollapseAll.removeClass('active');
+        faqAll.addClass('active');
+        faqAll.find('> .answer').slideDown();
+    });
+    faqCollapseAll.click(function(e) {
+        e.preventDefault();
+        faqExpandAll.removeClass('active');
+        faqCollapseAll.addClass('active');
+        faqAll.removeClass('active');
+        faqAll.find('> .answer').slideUp();
+    });
+  </script>
 </body>
 </html>

@@ -147,19 +147,22 @@
                 <div class="mega-menu-content">
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="active" src="public/assets/app/images/icon/graph-white.png" />
                     </div>
                     <a href="#">สถิติการเลือกตั้ง</a>
                   </div>
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-02.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-02.png" />
                     </div>
                     <a href="#">ประกาศผลการเลือกตั้ง</a>
                   </div>
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
                     </div>
                     <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
                   </div>
@@ -167,19 +170,22 @@
                 <div class="mega-menu-content">
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-04.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-04.png" />
                     </div>
                     <a href="#">ศูนย์รวมข้อมูลเพื่อติดต่อราชการ</a>
                   </div>
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-05.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
                     </div>
                     <a href="#">ข้อมูลพรรคการเมือง</a>
                   </div>
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-06.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
                     </div>
                     <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
                   </div>
@@ -187,19 +193,22 @@
                 <div class="mega-menu-content">
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img src="public/assets/app/images/icon/menu-black-07.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-07.png" />
                     </div>
                     <a href="#">สื่อประชาสัมพันธ์</a>
                   </div>
                   <div class="mega-menu ">
-                    <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                    <div class="icon xs">
+                      <img src="public/assets/app/images/icon/menu-black-08.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-08.png" />
                     </div>
                     <a href="#">คู่มือปฏิบัติงาน</a>
                   </div>
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img src="public/assets/app/images/icon/menu-black-09.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
                     </div>
                     <a href="#">แบบฟอร์ม</a>
                   </div>
@@ -207,19 +216,22 @@
                 <div class="mega-menu-content">
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-10.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-10.png" />
                     </div>
                     <a href="#">บริการสารสนเทศในหน่วยงาน</a>
                   </div>
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-11.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-11.png" />
                     </div>
                     <a href="#">KHOWLEDEG MANAGEMENT</a>
                   </div>
                   <div class="mega-menu">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/graph-black.png" />
+                      <img class="inactive" src="public/assets/app/images/icon/menu-black-12.png" />
+                      <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
                     </div>
                     <a href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a>
                   </div>

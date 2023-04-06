@@ -261,9 +261,14 @@ $(function(){ 'use strict';
         e.preventDefault();
         $('.popup-container[data-popup="'+$(this).data('popup')+'"]').toggleClass('active');
     });
+     $('.btn-popup-toggle-02').click(function(e){
+        e.preventDefault();
+        $('.popup-container-02[data-popup="'+$(this).data('popup')+'"]').toggleClass('active');
+    });
     $('.btn-popup-close-all').click(function(e){
         e.preventDefault();
         $('.popup-container').removeClass('active');
+        $('.popup-container-02').removeClass('active');
     });
 
     // Button Copy

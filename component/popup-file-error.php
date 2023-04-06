@@ -1,4 +1,4 @@
-<div class="popup-container theme-01 size-03" data-popup="99">
+<div class="popup-container popup-container-02 theme-01 size-03" data-popup="99">
   <div class="wrapper">
     <div class="close-filter btn-popup-toggle" data-popup="99"></div>
     <div class="popup-box">
@@ -59,7 +59,7 @@
               <div class="grids no-gap mt-4">
                 <div class="grid sm-50 xs-50 mt-0">
                   <div class="pr-1">
-                    <button type="submit" class="btn btn-white-theme  btn-action width-full mw-auto btn-03" >
+                    <button type="submit" class="btn btn-white-theme btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
                       ส่งข้อความ
                     </button>
                   </div>

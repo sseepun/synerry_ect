@@ -164,11 +164,23 @@ nav.topnav .mega-menu-content > .mega-menu{
   display:flex; padding:.875rem .5rem; border-radius:.375rem;
   transition:background .25s; cursor:pointer;
 }
-nav.topnav .mega-menu-content > .mega-menu a{display:block; font-weight:500; line-height:1.1; transition:color .25s;}
-nav.topnav .mega-menu-content > .mega-menu .icon{margin-right:.75rem;}
+nav.topnav .mega-menu-content:last-child{border-right:0;}
+nav.topnav .mega-menu-content > .mega-menu a{display:block; font-weight:500; line-height:.9375; transition:color .25s;}
+nav.topnav .mega-menu-content > .mega-menu .icon{margin-right:.75rem; position:relative;}
 nav.topnav .mega-menu-content > .mega-menu .icon > img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:1rem;
+ display:block; max-width:100%; max-height:100%; width:auto; height:1rem; transition:opacity .25s;
 }
+nav.topnav .mega-menu-content > .mega-menu .icon.xs{height:.5rem;}
+nav.topnav .mega-menu-content > .mega-menu .icon > img.active{position:absolute!important; top:0; opacity:0;}
+nav.topnav .mega-menu-content > .mega-menu:hover .icon > img.inactive{opacity:0;}
+nav.topnav .mega-menu-content > .mega-menu:hover .icon > img.active{opacity:1;}
+
+nav.sidenav .mega-menu-content > .mega-menu .icon{position:relative;}
+nav.sidenav .mega-menu-content > .mega-menu .icon > img{transition:opacity .25s;}
+nav.sidenav .mega-menu-content > .mega-menu .icon > img.active{position:absolute!important; top:0; opacity:1;}
+nav.sidenav .mega-menu-content > .mega-menu .icon > img.inactive{opacity:0;}
+nav.sidenav .mega-menu-content > .mega-menu:hover .icon > img.active{opacity:1;}
+nav.sidenav .mega-menu-content > .mega-menu .icon.xs{height:.5rem;}
 
 nav.topnav .blocks{display:flex; margin:0 -.875rem 0 1.5rem;}
 nav.topnav .blocks .option{
@@ -569,6 +581,7 @@ nav.side-panel.active + .access-filter{opacity:1; pointer-events:auto;}
 .sidebar .menu-container > .menu-item .wrapper > .icon img{
   display:block; max-width:100%; max-height:100%; width:auto; height:.9375rem;
 }
+.sidebar .menu-container > .menu-item .wrapper > .icon.size-02 img{width:1.5rem;}
 .sidebar .menu-container > .menu-item{position:relative; border-bottom:1px solid transparent;}
 .sidebar .tooltip,
 .sidebar .profile-container .tootltip{

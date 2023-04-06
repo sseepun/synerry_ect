@@ -111,14 +111,14 @@
                 <tbody>
                   <?php
                     foreach([
-                      'pdf', 'doc', 'xls', 'ppt', 'zip',
+                      'pdf', 'doc', 'xls', 'pptx', 'zip',
                       'rar', 'link'
                     ] as $k){
                   ?>
                     <tr class="table-card-01 border-bottom no-bradius">
                       <td class="no-bradius">
                         <div class="download-card">
-                          <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                          <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
                         </div>
                       </td>
                       <td class="title-container" style="min-width:450px;">
@@ -133,8 +133,8 @@
                               <em class="fa-solid fa-circle-exclamation mr-1"></em>
                               <?php
                                 if($k === 'link'){?>
-                                  <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
-                                    แจ้งลิงค์เสีย
+                                  <p class="btn-popup-toggle-02 cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                                    แจ้งลิงก์เสีย
                                   </p>
                               <?php } else {?>
                                 <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
@@ -313,7 +313,12 @@
     </div>
   </section>
 
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
   <?php include_once('component/popup-file-error.php'); ?>
+ 
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

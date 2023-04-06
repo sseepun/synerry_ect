@@ -78,7 +78,7 @@
           <div class="search-container box-shadow style-02" data-aos="fade-up" data-aos-delay="0">
             <form class="form" action="action.php" method="get">
               <div class="form-group mt-3">
-                <h6 class="color-02 fw-500">ตัวกรองชั้นสูง</h6>
+                <h6 class="color-02 fw-500">ตัวกรองขั้นสูง</h6>
                 <p class="color-02 fw-400 mt-3 mb-1">ประเภทข้อมูล</p>    
                 <div class="pl-3">
                   <label class="form-check style-03 ai-center form-check-container-03">
@@ -233,14 +233,14 @@
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                       <div class="filter style-02">
                         <div class="wrapper">
-                          <div class="icon sm">
+                          <div class="icon xs">
                             <?php 
                               if ($d['type'] === 'ebook'){
-                                echo '<img src="public/assets/app/images/icon/e-book.png" alt="Icon">';
+                                echo '<img src="public/assets/app/images/icon-svg/book.svg" alt="Icon">';
                               } elseif ($d['type'] === 'video'){
-                                echo '<img src="public/assets/app/images/icon/youtube-active.png" alt="Icon">';
+                                echo '<img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">';
                               } else {
-                                echo '<img src="public/assets/app/images/icon/51.png" alt="Icon">';
+                                echo '<img src="public/assets/app/images/icon-svg/vote-white.svg" alt="Icon">';
                               }
                             ?>
                           </div>

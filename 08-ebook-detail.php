@@ -77,7 +77,7 @@
                   <tr class="table-card-01 box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card">
-                        <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                        <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">

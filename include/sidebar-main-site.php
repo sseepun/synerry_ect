@@ -61,7 +61,7 @@
           </a>
           <a class="menu-item" href="#">
             <div class="wrapper">
-              <div class="icon">
+              <div class="icon size-02">
                 <img src="public/assets/app/images/icon-svg/password.svg" alt="Password">
               </div>
               <p class="sm color-white title-link">เปลี่ยนรหัสผ่าน</p>

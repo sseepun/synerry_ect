@@ -856,7 +856,7 @@
 .faq-11{width:100%;}
 .faq-11 .faq{display:block; width:100%; margin:0 0 .5rem 0;}
 .faq-11 .faq > .question{
-  width:100%; display:flex; border:1px solid transparent; align-items:;
+  width:100%; display:flex; border:1px solid transparent; align-items:center;
   cursor:pointer; transition:all .4s ease; border-radius:.4375rem; overflow:hidden;
   /* height:4.5rem; */
 }
@@ -1485,9 +1485,19 @@
 
 /* Section 26 */
 .section-26{padding-bottom:8rem; position:relative; overflow:hidden;}
-.section-26 .img-bg{position:absolute; top:0; left:0; right:0; bottom:0;}
+.section-26 .hero{
+  position:absolute; width:20vw; bottom:-3rem; right:6rem; height:100%; z-index:2;
+}
+.section-26 .hero > img{display:block; width:auto; ; max-height:65vh; height:auto;}
+.section-26 .img-bg{
+  position:absolute; top:0; left:0; right:0; bottom:0; background-size:cover;
+  background-repeat:no-repeat; background-position:center right;
+}
+.section-26.size-02{height:600px; display:flex; align-items:center;}
+.section-26 .img-bg.style-02{background-position:center right;  background-size:cover}
+
 .section-26 .pattern{
-  position:absolute; bottom:-24rem; left:30rem; right:auto; z-index: 2;
+  position:absolute; bottom:-25rem; left:auto; right:5rem; z-index: 2;
 }
 .section-26 .pattern > .wrapper{position:relative; width:100%; height:100%;}
 .section-26 .pattern > .wrapper img{height:40rem; animation-name:opacity; animation-duration:6s;}
@@ -1495,23 +1505,33 @@
 .section-26 .pattern.style-02{top:9rem; left:2rem; right:auto; animation-name:position; animation-duration:2s;}
 .section-26 .pattern.style-02 > .wrapper img{height:10rem; animation-name:opacity; animation-duration:7s;}
 
+.section-26 .pattern.style-03{bottom:-24rem; left:-1rem; right:auto; }
+.section-26 .pattern.style-03 > .wrapper img{height:40rem; animation-name:opacity; animation-duration:6s;}
+
+.section-26 .pattern.style-04{top:8rem; left:2rem; right:auto; animation-name:positionStyle02; animation-duration:2s;}
+.section-26 .pattern.style-04 > .wrapper img{height:7rem; animation-name:opacity; animation-duration:7s;}
+
 @keyframes opacity{
   from {opacity:0;} to {opacity:1;}
 }
 @keyframes position{
-  from {top:6rem;} to {top:9rem;}
+  from {bottom:-6rem;} to {bottom:-3rem;}
+}
+@keyframes positionStyle02{
+  from {top:5rem;} to {top:8rem;}
 }
 
-@media screen and (max-width:1299.98px){
+/* @media screen and (max-width:1299.98px){
   .section-26 .pattern{left:5rem;}
   .section-26 .pattern > .wrapper img{height:37rem;}
-}
+} */
 @media screen and (max-width:991.98px){
-    .section-26{padding-bottom:7rem;}
+    /* .section-26{padding-bottom:7rem;}
+    .section-26.size-02{min-height:400px;}
     .section-26 .pattern{left:auto; right:-2rem; bottom:-6rem;}
     .section-26 .pattern > .wrapper img{height:10rem;}
     .section-26 .pattern.style-02{left:-1rem;}
-    .section-26 .pattern.style-02 > .wrapper img{height:6rem;}
+    .section-26 .pattern.style-02 > .wrapper img{height:6rem;} */
 }
 @media screen and (max-width:767.98px){
     .section-26{padding-bottom:6rem;}
@@ -1519,6 +1539,7 @@
 }
 @media screen and (max-width:575.98px){
     .section-26{padding-bottom:5rem;}
+    .section-26.size-02{min-height:350px;}
 }
 
 

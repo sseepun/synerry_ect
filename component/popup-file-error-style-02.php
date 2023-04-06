@@ -28,7 +28,7 @@
           <h6 class="h4 fw-400">ส่งแบบฟอร์มสำเร็จ</h6>
           <p>ระบบได้ดำเนินการส่งแบบฟอร์มของคุณเรียบร้อยแล้ว</p>
           <div class="btns mt-4">
-            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+            <div class="btn btn-popup-close-all btn-action btn-06 w-full" data-popup="99">
               <span>ตกลง</span><div class="sep"></div>
             </div>
           </div>
@@ -37,7 +37,7 @@
           <h6 class="h4 fw-400">ลงทะเบียนสำเร็จ</h6>
           <p>ระบบได้ดำเนินการสมัครรับข่าวสารของคุณเรียบร้อยแล้ว</p>
           <div class="btns mt-4">
-            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+            <div class="btn btn-popup-close-all btn-action btn-06 w-full" data-popup="99">
               <span>ตกลง</span><div class="sep"></div>
             </div>
           </div>
@@ -46,7 +46,7 @@
           <h6 class="h4 fw-400">ยกเลิกสำเร็จ</h6>
           <p>ระบบได้ดำเนินการยกเลิกรับข่าวสารของคุณเรียบร้อยแล้ว</p>
           <div class="btns mt-4">
-            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+            <div class="btn btn-popup-close-all btn-action btn-06 w-full" data-popup="99">
               <span>ตกลง</span><div class="sep"></div>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <h6 class="h4 fw-400">สำเร็จ</h6>
           <p>บันทึกการเปลี่ยนแปลงเรียบร้อยแล้ว</p>
           <div class="btns mt-4">
-            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+            <div class="btn btn-popup-close-all btn-action btn-06 w-full" data-popup="99">
               <span>ตกลง</span><div class="sep"></div>
             </div>
           </div>
@@ -64,7 +64,16 @@
           <h6 class="h4 fw-400">สำเร็จ</h6>
           <p>ส่งแบบประเมินของคุณเรียบร้อยแล้ว</p>
           <div class="btns mt-4">
-            <div class="btn btn-popup-toggle btn-action btn-06 w-full" data-popup="99">
+            <div class="btn btn-popup-close-all btn-action btn-06 w-full" data-popup="99">
+              <span>ตกลง</span><div class="sep"></div>
+            </div>
+          </div>
+        <?php }?>
+        <?php if(in_array('report-file', $listResult)) {?>
+          <h6 class="h4 fw-400">แจ้งไฟล์เสียสำเร็จ</h6>
+          <p>ระบบได้รับข้อมูลการแจ้งไฟล์เสียเรียบร้อยแล้ว</p>
+          <div class="btns mt-4">
+            <div class="btn btn-popup-close-all btn-action btn-06 w-full" data-popup="99">
               <span>ตกลง</span><div class="sep"></div>
             </div>
           </div>

@@ -18,17 +18,7 @@
       ?>
   </div>
   <section class="section-padding section-26">
-    <div class="pattern">
-      <div class="wrapper">
-        <img src="public/assets/app/images/pattern/16.png" alt="Pattern">
-      </div>
-    </div>
-    <div class="pattern style-02">
-      <div class="wrapper">
-        <img src="public/assets/app/images/pattern/17.png" alt="Pattern">
-      </div>
-    </div>
-    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/28.jpg');"></div>
+    <div class="img-bg" style="background-image:url('public/assets/app/images/bg/40.jpg');"></div>
     <div class="container">
       <div class="grids">
         <div class="grid xl-60 lg-50 sm-100"></div>
@@ -45,34 +35,34 @@
             ตั้งประจำจังหวัด มีหน้าที่ดังนี้
           </p>
           <div data-aos="fade-up" data-aos-delay="300">
-          <div class="ss-card ss-card-73">
-            <div class="wrapper">
-              <div class="number">1</div>
-              <p class="text-container">
-                รับผิดชอบงานทางธุรการของสำนักงานคณะกรรมการการเลือกตั้งประจำ
-                จังหวัดและคณะกรรมการการเลือกตั้งประจำจังหวัด
-              </p>
+            <div class="ss-card ss-card-73">
+              <div class="wrapper">
+                <div class="number">1</div>
+                <p class="text-container">
+                  รับผิดชอบงานทางธุรการของสำนักงานคณะกรรมการการเลือกตั้งประจำ
+                  จังหวัดและคณะกรรมการการเลือกตั้งประจำจังหวัด
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="ss-card ss-card-73">
-            <div class="wrapper">
-              <div class="number">2</div>
-              <p class="text-container">
-                รับผิดชอบงานที่มีกฎหมายบัญญัติให้เป็นหน้าที่และอำนาจของผู้อำนวย
-                การการเลือกตั้งประจำจังหวัด
-              </p>
+            <div class="ss-card ss-card-73">
+              <div class="wrapper">
+                <div class="number">2</div>
+                <p class="text-container">
+                  รับผิดชอบงานที่มีกฎหมายบัญญัติให้เป็นหน้าที่และอำนาจของผู้อำนวย
+                  การการเลือกตั้งประจำจังหวัด
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="ss-card ss-card-73">
-            <div class="wrapper">
-              <div class="number">3</div>
-              <p class="text-container">
-                ปฏิบัติงานร่วมกับหรือสนับสนุนการปฏิบัติงานของส่วนงานอื่นที่เกี่ยวข้อง
-                ตามที่คณะกรรมการการเลือกตั้งและสำนักงานคณะกรรมการการเลือกตั้ง
-                มอบหมาย
-              </p>
+            <div class="ss-card ss-card-73">
+              <div class="wrapper">
+                <div class="number">3</div>
+                <p class="text-container">
+                  ปฏิบัติงานร่วมกับหรือสนับสนุนการปฏิบัติงานของส่วนงานอื่นที่เกี่ยวข้อง
+                  ตามที่คณะกรรมการการเลือกตั้งและสำนักงานคณะกรรมการการเลือกตั้ง
+                  มอบหมาย
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
