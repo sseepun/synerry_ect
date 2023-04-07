@@ -1521,18 +1521,6 @@
   from {top:5rem;} to {top:8rem;}
 }
 
-/* @media screen and (max-width:1299.98px){
-  .section-26 .pattern{left:5rem;}
-  .section-26 .pattern > .wrapper img{height:37rem;}
-} */
-@media screen and (max-width:991.98px){
-    /* .section-26{padding-bottom:7rem;}
-    .section-26.size-02{min-height:400px;}
-    .section-26 .pattern{left:auto; right:-2rem; bottom:-6rem;}
-    .section-26 .pattern > .wrapper img{height:10rem;}
-    .section-26 .pattern.style-02{left:-1rem;}
-    .section-26 .pattern.style-02 > .wrapper img{height:6rem;} */
-}
 @media screen and (max-width:767.98px){
     .section-26{padding-bottom:6rem;}
     .section-26 .pattern{display:none;}

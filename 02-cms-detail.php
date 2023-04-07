@@ -133,11 +133,11 @@
                               <em class="fa-solid fa-circle-exclamation mr-1"></em>
                               <?php
                                 if($k === 'link'){?>
-                                  <p class="btn-popup-toggle-02 cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                                  <p class="btn-popup-toggle-02 cursor-pointer text-file sm color-black-theme fw-400" data-popup="99">
                                     แจ้งลิงก์เสีย
                                   </p>
                               <?php } else {?>
-                                <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                                <p class="btn-popup-toggle cursor-pointer text-file sm color-black-theme fw-400" data-popup="99">
                                   แจ้งไฟล์เสีย
                                 </p>
                               <?php }?>

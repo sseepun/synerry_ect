@@ -36,6 +36,8 @@ html, body, table.table{color:#000000;}
 .color-23, .h-color-23:hover{color:#137a6a!important;}
 .color-24, .h-color-24:hover{color:#464646!important;}
 .color-25, .h-color-25:hover{color:#206046!important;}
+.color-26, .h-color-26:hover{color:#f2b612!important;}
+.color-27, .h-color-27:hover{color:#eeefef!important;}
 
 
 .bg-p{background:#0ab3de!important;}
@@ -71,6 +73,8 @@ html, body, table.table{color:#000000;}
 .bg-23{background:#137a6a!important;}
 .bg-24{background:#464646!important;}
 .bg-25{background:#206046!important;}
+.bg-26{background:#f2b612!important;}
+.bg-27{background:#eeefef!important;}
 
 
 .bcolor-p{border-color:#0ab3de!important;}
@@ -106,6 +110,8 @@ html, body, table.table{color:#000000;}
 .bcolor-23{border-color:#137a6a!important;}
 .bcolor-24{border-color:#464646!important;}
 .bcolor-25{border-color:#206046!important;}
+.bcolor-26{border-color:#f2b612!important;}
+.bcolor-27{border-color:#eeefef!important;}
 
 
 /* Buttons */
@@ -1114,6 +1120,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .ss-list.style-11 > li a{color:#ffffff;}
 .ss-list.style-11 > li::before{background:#ffffff;}
 .ss-list.style-12 > li::before{background:#088f59;}
+.ss-list.style-13 > li::before{background:#088f59;}
 
 /* Number */
 .ss-list-style-01 > li::marker{color:#35758e;}
@@ -1240,7 +1247,10 @@ table.table .table-card-01:hover .title{color:#30906a;}
 table.table .table-card-01:hover img.inactive{opacity:0!important;}
 table.table .table-card-01:hover img.active{opacity:1!important;}
 table.table .table-card-01{border-color:#f0f0f0!important;}
+table.table .table-card-01 .report-file .icon > em{color:#30906a;}
 table.table .table-card-01:hover .report-file{color:#d91818!important;}
+table.table .table-card-01 .report-file .text-file{color:#000000;}
+table.table .table-card-01:hover .report-file .text-file{color:#d91818!important}
 
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#eeeeee!important;}
 table.table.table-download.style-03 td:nth-child(2) > .title:hover{color:#10563a; border-color:#10563a!important;}
@@ -1747,3 +1757,6 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 
 /* Special Card 75 */
 .ss-card-75 .number{background:#206046; color:#ffffff;}
+
+/* Special Card 76 */
+.ss-card-76{border-color:#ffffff;}

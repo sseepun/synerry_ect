@@ -90,7 +90,7 @@
                           <p class="sm fw-300 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                           <div class="icon report-file">
                             <em class="h-color-19 fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="btn-popup-toggle cursor-pointer h-color-19 sm color-black-theme fw-400" data-popup="99">
+                            <p class="btn-popup-toggle cursor-pointer text-file h-color-19 sm color-black-theme fw-400" data-popup="99">
                               แจ้งไฟล์เสีย
                             </p>
                           </div>
