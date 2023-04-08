@@ -173,9 +173,9 @@
                 <div class="grid xl-100 lg-100 md-100 sm-100">
                   <div class="padding-style-04">
                     <div class="btns mt-2 jc-center pl-unset-xs h-full">
-                      <div href="#" class="btn btn-action btn-02">
+                      <button type="submit" class="btn btn-action btn-popup-toggle btn-02" data-popup="99">
                         บันทึก
-                      </div>
+                      </button>
                       <div href="#" class="btn btn-action btn-05">
                         ยกเลิก
                       </div>
@@ -189,6 +189,11 @@
       </div>       
     </div>     
   </div>
+
+  <?php
+    $listResult= ['member-enews-subscription'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>

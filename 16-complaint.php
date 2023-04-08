@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -188,7 +188,7 @@
                   <div class="grids no-gap mt-4">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
-                        <button type="submit" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-03">
+                        <button type="submit" href="#" class="btn btn-white-theme btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
                           ส่งข้อความ
                         </button>
                       </div>
@@ -207,6 +207,11 @@
       </div>
     </div>
   </section>
+
+  <?php
+    $listResult= ['contact'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>

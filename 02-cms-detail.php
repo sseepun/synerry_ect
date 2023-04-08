@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -137,7 +137,7 @@
                                     แจ้งลิงก์เสีย
                                   </p>
                               <?php } else {?>
-                                <p class="btn-popup-toggle cursor-pointer text-file sm color-black-theme fw-400" data-popup="99">
+                                <p class="btn-popup-toggle-02 cursor-pointer text-file sm color-black-theme fw-400" data-popup="99">
                                   แจ้งไฟล์เสีย
                                 </p>
                               <?php }?>
@@ -313,11 +313,12 @@
     </div>
   </section>
 
+  <?php include_once('component/popup-file-error.php'); ?>
   <?php
     $listResult= ['report-file'];
     include_once('component/popup-file-error-style-02.php');
   ?>
-  <?php include_once('component/popup-file-error.php'); ?>
+ 
  
 
   <?php include_once('include/footer-02.php'); ?>
