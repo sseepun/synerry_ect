@@ -1248,9 +1248,9 @@ table.table .table-card-01:hover img.inactive{opacity:0!important;}
 table.table .table-card-01:hover img.active{opacity:1!important;}
 table.table .table-card-01{border-color:#f0f0f0!important;}
 table.table .table-card-01 .report-file .icon > em{color:#30906a;}
-table.table .table-card-01:hover .report-file{color:#d91818!important;}
+table.table .table-card-01 .report-file:hover{color:#d91818!important;}
 table.table .table-card-01 .report-file .text-file{color:#000000;}
-table.table .table-card-01:hover .report-file .text-file{color:#d91818!important}
+table.table .table-card-01 .report-file:hover .text-file{color:#d91818!important}
 
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#eeeeee!important;}
 table.table.table-download.style-03 td:nth-child(2) > .title:hover{color:#10563a; border-color:#10563a!important;}
