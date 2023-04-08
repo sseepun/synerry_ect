@@ -2526,7 +2526,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 
 /* Special Card 13 */
-.ss-card-13{border-radius:var(--bradius);}
+.ss-card-13 .ss-img{border-radius:var(--bradius);}
 
 /* Special Card 14 */
 .ss-card-14{position:relative;}
