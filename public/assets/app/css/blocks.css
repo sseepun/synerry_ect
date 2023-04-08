@@ -856,7 +856,7 @@
 .faq-11{width:100%;}
 .faq-11 .faq{display:block; width:100%; margin:0 0 .5rem 0;}
 .faq-11 .faq > .question{
-  width:100%; display:flex; border:1px solid transparent; align-items:center;
+  width:100%; display:flex; border:1px solid transparent;
   cursor:pointer; transition:all .4s ease; border-radius:.4375rem; overflow:hidden;
   /* height:4.5rem; */
 }
