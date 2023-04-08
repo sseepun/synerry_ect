@@ -682,25 +682,46 @@ fieldset{padding:0; margin:0; border:0;}
 /* Checkbox Set */
 .checkbox-set{position:relative; display:flex; align-items:center;}
 .checkbox-set.none input{opacity:0;}
-.checkbox-set > .bg-color{
-  position:absolute; top:.3125rem; left:.3125rem; width:.75rem; height:.75rem; border-radius:50%; z-index:1;
+.checkbox-set  .bg-color{
+  position:absolute; top:-.4375rem; left:-1rem; width:.75rem; height:.75rem; border-radius:50%; z-index:1;
+  pointer-events:all;
 }
-.checkbox-set > .checkmark{
+/* .checkbox-set > .checkmark{
   position:absolute; top:.3125rem; left:.3125rem; width:.75rem; height:.75rem; border-radius:50%;
   border:2px solid transparent; pointer-events:all; z-index:2;
+} */
+.checkbox-set > .checkmark{
+  position:relative; 
 }
-.checkbox-set > .checkmark::after{
-  content:""; position:absolute; top:.003125rem; left:.1875rem; height:.5625rem;
+
+
+.checkbox-set input:checked ~ .checkmark::before {
+  content: '';
+  position: absolute;
+  top: -.4375rem;
+  left: -1rem;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background-image: url('../images/icon/x-mark.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events:auto;
+  z-index:2;
+}
+/* .checkbox-set > .checkmark::after{
+  content:""; position:absolute; top:.003125rem; left:3px; height:.5625rem;
   border:solid transparent; border-width:0 .1875rem 0 0; transform:rotate(45deg);
   display:none;
 }
 .checkbox-set input:checked ~ .checkmark::after,
 .checkbox-set input:checked ~ .checkmark::before{display:block;}
 .checkbox-set > .checkmark::before{
-  content:""; position:absolute; top:.003125rem; left:.1875rem; height:.5625rem;
+  content:""; position:absolute; top:.003125rem; left:3px; height:.5625rem;
   border:solid transparent; border-width:0 .1875rem 0 0; transform:rotate(-45deg);
   display:none;
-}
+} */
 
 /* Date Picker */
 .datepicker.datepicker-dropdown{color:#000000!important;}

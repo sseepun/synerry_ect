@@ -2,7 +2,7 @@
 /* Reset */
 html, body, table.table{background:#000000; color:#ffffff;}
 img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-background::before, iframe, .chart-container,
-.swiper-background::after, .section-03 .section-card::before, .icon-view.disable, .post-video{filter:grayscale(1)!important;}
+.swiper-background::after, .section-03 .section-card::before, .icon-view.disable, .post-video, .checkbox-set input:checked ~ .checkmark::before{filter:grayscale(1)!important;}
 
 /* Colors */
 .color-p, 
@@ -338,7 +338,7 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .checkbox-set > .checkmark::after{border-color:#ffffff;}
 .checkbox-set > .checkmark{border-color:#ffffff;}
 .checkbox-set input:checked ~ .checkmark{background:#000000;}
-.checkbox-set > .bg-color{background:#000000!important;}
+.checkbox-set .bg-color.white-theme{background:#ffffff!important;}
 
 /* Content Found - Search Pages */
 .content-found .icon{color:#ffffff;}

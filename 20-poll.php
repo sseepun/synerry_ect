@@ -69,41 +69,46 @@
                             <div class="grid sm-100">
                               <div class="checkbox-set">
                                 <input type="radio" name="radio" id="radio_0" checked="">
-                                <label for="radio_0" class="checkmark"></label>
+                                <label for="radio_0" class="checkmark">
+                                  <div class="bg-color white-theme"></div>
+                                </label>
                                 <span for="radio_0" class="p sm">มากที่สุด</span>
-                                <div class="bg-color"></div>
                               </div>
                             </div>
                             <div class="grid sm-100">
                               <div class="checkbox-set">
                                 <input type="radio" name="radio" id="radio_1">
-                                <label for="radio_1" class="checkmark"></label>
+                                <label for="radio_1" class="checkmark">
+                                  <div class="bg-color white-theme"></div>
+                                </label>
                                 <span class="p sm">มาก</span>
-                                <div class="bg-color"></div>
                               </div>
                             </div>
                             <div class="grid sm-100">
                               <div class="checkbox-set">
                                 <input type="radio" name="radio" id="radio_2">
-                                <label for="radio_2" class="checkmark"></label>
+                                <label for="radio_2" class="checkmark">
+                                 <div class="bg-color white-theme"></div>
+                                </label>
                                 <span class="p sm">ปานกลาง</span> 
-                                <div class="bg-color"></div>
                               </div>
                             </div>
                             <div class="grid sm-100">
                               <div class="checkbox-set">
                                 <input type="radio" name="radio" id="radio_3">
-                                <label for="radio_3" class="checkmark"></label>
+                                <label for="radio_3" class="checkmark">
+                                 <div class="bg-color white-theme"></div>
+                                </label>
                                 <span class="p sm">น้อย</span>
-                                <div class="bg-color"></div>
                               </div>
                             </div>
                             <div class="grid sm-100">
                               <div class="checkbox-set">
                                 <input type="radio" name="radio" id="radio_4">
-                                <label for="radio_4" class="checkmark"></label>
+                                <label for="radio_4" class="checkmark">
+                                  <div class="bg-color white-theme"></div>
+                                </label>
                                 <span class="p sm">น้อยที่สุด</span>
-                                <div class="bg-color"></div>
                               </div>
                             </div>
                           </div>

@@ -144,17 +144,21 @@
                           <div class="grid sm-50 xs-50">
                             <div class="checkbox-set none">
                               <input type="radio" name="radio" id="radio_0" checked="">
-                              <label for="radio_0" class="checkmark"></label>
+                              <label for="radio_0" class="checkmark">   
+                                <div class="bg-color white-theme"></div>
+                              </label>
                               <span for="radio_0" class="p sm">ชาย</span>
-                              <div class="bg-color"></div>
+                           
                             </div>
                           </div>
                           <div class="grid sm-50 xs-50">
                             <div class="checkbox-set none">
                               <input type="radio" name="radio" id="radio_1">
-                              <label for="radio_1" class="checkmark"></label>
+                              <label for="radio_1" class="checkmark">  
+                                <div class="bg-color white-theme"></div>
+                              </label>
                               <span class="p sm">หญิง</span>
-                              <div class="bg-color"></div>
+                            
                             </div>
                           </div>
                         </div>

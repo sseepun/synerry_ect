@@ -286,7 +286,7 @@ html, body, table.table{color:#000000;}
 .checkbox-set > .checkmark::after{border-color:#ffd000;}
 .checkbox-set > .checkmark{border-color:#2e603b;}
 .checkbox-set input:checked ~ .checkmark{background:#2e603b;}
-.checkbox-set > .bg-color{background:#c7dece!important;}
+.checkbox-set  .bg-color{background:#c7dece!important;}
 
 /* Calendar */
 .calendar-header .wrapper > .text{background:#eeeeee;}
