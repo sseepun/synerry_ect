@@ -72,7 +72,8 @@
           <?php for($i=0; $i<5; $i++){?>
             <?php foreach($content01 as $d){?>
               <div class="swiper-slide">
-                <div class="ss-card ss-card-51" onmouseover="cardOver()" onmouseout="cardNoOver()">
+                <!-- <div class="ss-card ss-card-51" onmouseover="cardOver()" onmouseout="cardNoOver()"> -->
+                <div class="ss-card ss-card-51">
                   <div class="wrapper">
                     <div class="icon">
                       <img class="inactive" src="<?= $d['icon'] ?>" alt="Icon">
@@ -94,7 +95,7 @@
             <?php } ?>
           <?php }?>
         </div>
-      </div>  
+      </div>
       <div class="arrow-container">
         <div id="arrow01" class="arrow btn-icon-prev">
           <em class="fa-solid fa-arrow-left"></em>
@@ -102,7 +103,7 @@
         <div id="arrow02" class="arrow btn-icon-next">
           <em class="fa-solid fa-arrow-right"></em>
         </div>
-      </div>   
+      </div>
     </div>
   </section>
 
@@ -152,6 +153,7 @@
       <div class="ribbon">
         <div class="ribbon-wrapper box-shadow"  data-aos="fade-up" data-aos-delay="150">
           <div class="tabs tabs-04">
+            <div class="tab-active-bg"></div>
             <?php foreach($categories as $i=>$d){?>
               <div class="tab <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
                 <div class="icon-inactive"><img src="<?= $d['icon'] ?>" alt="Icon" /></div>
@@ -795,20 +797,5 @@
 
   <?php include_once('include/footer-03.php'); ?>
   <?php include_once('include/script.php'); ?>
-
-  <script>
-    const arrow01 = document.querySelector('#arrow01')
-    const arrow02 = document.querySelector('#arrow02')
-
-    function cardOver(){
-      arrow01.style.opacity = '1';
-      arrow02.style.opacity = '1';
-    }
-    function cardNoOver(){
-      arrow01.style.opacity = '0';
-      arrow02.style.opacity = '0';
-    }
-
-  </script>
 </body>
 </html>

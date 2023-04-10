@@ -603,7 +603,7 @@ table.table.table-download.style-06 .color-04{color:#000000!important;}
 
 /* Tab 04 */
 .tab-container .tabs.tabs-04 .tab.active > .title{color:#ffffff;}
-.tab-container .tabs.tabs-04 .tab.active::before{background:#000000!important;}
+.tab-container .tabs.tabs-04 .tab::before{background:#000000!important;}
 
 /* Tags Container */
 .tags-container{border-color:#ffffff;}
