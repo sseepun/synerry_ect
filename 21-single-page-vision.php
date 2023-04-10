@@ -23,13 +23,13 @@
       <div class="grids">
         <div class="grid xl-60 lg-50 sm-100"></div>
         <div class="grid xl-40 lg-50 sm-100">
-          <div data-aos="fade-up" data-aos-delay="0">
+          <div class="color-black-theme" data-aos="fade-up" data-aos-delay="0">
             <h2 class="color-20 fw-400">วิสัยทัศน์</h2>
             <p class="color-20 h2 fw-400">
               พันธกิจ / ยุทธศาสตร์
             </p>
           </div>
-          <p class="fw-300 mt-3" style="text-indent:20px;" data-aos="fade-up" data-aos-delay="150">
+          <p class="color-black-theme fw-300 mt-3" style="text-indent:20px;" data-aos="fade-up" data-aos-delay="150">
               มีความสอดคล้องกับแผนของประเทศทั้งยุทธศาสตร์ชาติ 20 ปี แผนพัฒนา
             เศรษฐกิจและสังคมแห่งชาติ ฉบับที่ 12 และแผนการปฏิรูปประเทศด้านการ
             เมือง ได้แก่ ยุทธศาสตร์ชาติ 20 ปี ด้านความมั่นคง แผนการปฏิรูปด้านการ
@@ -45,7 +45,7 @@
   <section class="section-26 section-padding">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/39.jpg');"></div>
     <div class="container">
-      <div class="text-center">
+      <div class="text-center color-black-theme" data-aos="fade-up" data-aos-delay="0">
         <h3 class="color-20 fw-400">วิสัยทัศน์</h3>
         <p class="h6 fw-400 sm-no-br">
           สำนักงานคณะกรรมการการเลือกตั้งเป็นที่ยอมรับระดับสากล 
@@ -56,7 +56,7 @@
           for democracy under the King’s Head of State.)
         </p>
       </div>
-      <div class="text-center" style="margin-top:5rem;">
+      <div class="text-center color-black-theme" style="margin-top:5rem;" data-aos="fade-up" data-aos-delay="150">
         <h3 class="color-20 fw-400">พันธกิจ</h3>
         <p class="h6 fw-400">
           สร้างความเข้มแข็งของกระบวนการเลือกตั้ง เพื่อให้ได้คนดีมาปกครองบ้านเมือง
@@ -71,8 +71,10 @@
 
   <section class="section-padding bg-23">
     <div class="container">
-      <h5 class="sm text-center color-white fw-300">ค่านิยมร่วมขององค์กร "OECT"</h5>
-      <div class="grids">
+      <h5 class="sm text-center color-white fw-300" data-aos="fade-up" data-aos-delay="0">
+        ค่านิยมร่วมขององค์กร "OECT"
+      </h5>
+      <div class="grids" data-aos="fade-up" data-aos-delay="150">
         <div class="grid lg-25">
           <div class="ss-card ss-card-74">
             <div class="ss-img square">
@@ -130,11 +132,14 @@
   </section>
 
   <div class="section-padding section-26">
+    <div class="img-bg style-03" style="background-image:url('public/assets/app/images/bg/43.jpg');"></div>
     <div class="container">
       <div class="grids">
         <div class="grid lg-50 md-100">
-          <h2 class="color-20 fw-400">ยุทธศาสตร์</h2>
-          <div class="ss-card ss-card-75">
+          <h2 class="color-20 fw-400" data-aos="fade-up" data-aos-delay="0">
+            ยุทธศาสตร์
+          </h2>
+          <div class="ss-card ss-card-75" data-aos="fade-up" data-aos-delay="150">
             <div class="wrapper">
               <div class="number">1</div>
               <div class="text-container">
@@ -146,7 +151,7 @@
               </div>
             </div>
           </div>
-          <div class="ss-card ss-card-75">
+          <div class="ss-card ss-card-75" data-aos="fade-up" data-aos-delay="300">
             <div class="wrapper">
               <div class="number">2</div>
               <div class="text-container">
@@ -158,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class="ss-card ss-card-75">
+          <div class="ss-card ss-card-75" data-aos="fade-up" data-aos-delay="450">
             <div class="wrapper">
               <div class="number">3</div>
               <div class="text-container">
@@ -171,7 +176,7 @@
             </div>
           </div>
         </div>
-        <div class="grid lg-50 md-100 pos-relative">
+        <!-- <div class="grid lg-50 md-100 pos-relative">
         <div class="pattern" data-aos="fade-in" data-aos-delay="0">
       <div class="wrapper">
         <img src="public/assets/app/images/pattern/18.png" alt="Pattern">
@@ -180,12 +185,15 @@
     <div class="hero" data-aos="fade-up" data-aos-delay="150">
       <img src="public/assets/app/images/hero/10.png" alt="">
     </div>
-        </div>
+        </div> -->
       </div>
-      <p class="color-25 fw-400 mt-6">ดาวน์โหลด</p>
-      <p>แผนยุทธศาสตร์สำนักงานคณะกรรมการการเลือกตั้ง <span class="p sm">20</span> ปี 
-      (พ.ศ. <span class="p sm">2561 - 2580</span>) <a class="color-25 fw-400" href="#">คลิก</a>
-    </p>
+      <div data-aos="fade-up" data-aos-delay="600">
+        <p class="color-25 fw-400 mt-6">ดาวน์โหลด</p>
+        <p>แผนยุทธศาสตร์สำนักงานคณะกรรมการการเลือกตั้ง <span class="p sm">20</span> ปี 
+          (พ.ศ. <span class="p sm">2561 - 2580</span>) <a class="color-25 fw-400" href="#">คลิก</a>
+        </p>
+      </div>
+     
     </div>    
   </div>
   

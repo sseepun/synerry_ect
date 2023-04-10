@@ -94,7 +94,6 @@
                     </div>
                     <div class="card-line style-01"></div>
                   </div>
-                
                 </a>
               </div>
             <?php }?>

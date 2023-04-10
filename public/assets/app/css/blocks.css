@@ -1494,7 +1494,9 @@
   background-repeat:no-repeat; background-position:center right;
 }
 .section-26.size-02{height:600px; display:flex; align-items:center;}
-.section-26 .img-bg.style-02{background-position:center right;  background-size:cover}
+.section-26 .img-bg.style-02{background-position:center right; background-size:cover;}
+.section-26 .img-bg.style-03{background-position:center top;}
+
 
 .section-26 .pattern{
   position:absolute; bottom:-25rem; left:auto; right:5rem; z-index: 2;
@@ -1540,6 +1542,39 @@
 .section-27 .pattern.style-02{bottom:16.5rem; right:12.5rem;}
 .section-27 .pattern.style-02 > .wrapper img{height:10rem;}
 
+/* Section 28 */
+.section-28{position:relative; width:100%;}
+.section-28 .img-bg{
+  position:absolute; top:0; left:0; right:0; bottom:0; background-size:cover;
+  background-repeat:no-repeat; background-position:center;
+}
+.section-28 .app-download > .wrapper{display:flex; align-items:center;}
+.section-28 .app-download > .wrapper .app-logo{margin:-1rem 0  0 -1.75rem;}
+.section-28 .app-download > .wrapper .app-logo > img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:9.5rem;
+}
+.section-28 .app-download > .wrapper .btn-link{margin:0 0 0 -.75rem;}
+.section-28 .app-download > .wrapper .btn-link > img{
+  display:block; max-width:100%; max-height:100%; width:auto;
+}
+.section-28 .app-download > .wrapper .btn-link a{display:block; position:relative;}
+.section-28 .app-download > .wrapper .btn-link a:last-child{margin-top:-.4375rem;}
+.section-28 .app-download > .wrapper .btn-link img.google-play{height:2.75rem; width:8.375rem;}
+.section-28 .app-download > .wrapper .btn-link img.app-store{height:2.625rem;}
+
+/* Section 29 */
+.section-29 .steps{
+  position:relative; width:4.5rem; height:4.5rem; border-radius:50%; display:flex; justify-content:center;
+  align-items:center; margin:0 auto; z-index:2;
+}
+.section-29 .mobile-screen{position:relative;}
+.section-29 .swiper-container{margin-top:-2.8125rem;}
+.section-29 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
+.section-29 .swiper-pagination-bullet{
+    margin:0 .25rem;  width:0.4375rem; height:0.4375rem; border-radius:.3125rem; 
+    transition:width .25s; opacity:1;
+}
+.section-29 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:2.125rem;}
 
 /* Breadcrumb 01 */
 .breadcrumb-01 .top{
@@ -1601,7 +1636,8 @@
 .breadcrumb-03 .wrapper a:not(:first-child):before{
   position:absolute; content:""; width:1rem; height:4px; top:40%; left:.5rem;
 }
-
+.breadcrumb-03.style-02{background:transparent;}
+.breadcrumb-03.style-02:before{background:transparent;}
 
 
 /* Election Commission */

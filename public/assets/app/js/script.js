@@ -1163,3 +1163,48 @@ function ssPageProcess(){
             });
         });
     }
+
+    var section29 = $('.section-29');
+    if(section29.length){
+        section29.each(function(){
+           let self = $(this);
+           let swiperContainer = self.find('.swiper-container');
+           let childNum = swiperContainer.find('.swiper-slide').length;
+           let startIndex = childNum == 3? 1: childNum == 4? 1: childNum > 4? 2: 0;
+
+            let swiperTitle = section29.find('.swiper-title');
+            let titles = swiperContainer.find('.swiper-slide').map(function(i,d){
+                return $(this).data('title');
+            });
+            let thisSwiper = new Swiper(self.find('.swiper-container'), {
+               loop: false,
+               centeredSlides: true,
+               centerMode: true,
+               spaceBetween: -50,
+               slidesPerView: 6,
+               effect: 'coverflow', 
+               coverflowEffect: {
+                   rotate: 0,
+                   modifier: 1,
+                   slideShadows: true,
+                   // depth: 0,
+               },
+               breakpoints: {
+                   1299.98: { slidesPerView:5 },
+                   991.98: { slidesPerView:3, spaceBetween:0 },
+                   767.98: { slidesPerView:3, spaceBetween:0 },
+                   575.98:{ slidesPerView:1 }
+               },
+               speed: 800,
+               grabCursor: true,
+               initialSlide: startIndex,
+               pagination: {
+                el: self.find('.dots'),
+                clickable: true,
+            },
+           });
+           thisSwiper.on('slideChange', function(e){
+            swiperTitle.html(titles[thisSwiper.activeIndex]);
+        });
+       });
+    }

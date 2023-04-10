@@ -1028,6 +1028,7 @@ nav.footer.style-11 .footer-socials > .social{border:none; border-radius:50%;}
   nav.footer.style-11 .google-map-container{display:unset;}
 }
 
+/* Footer Single Pages */ 
 nav.footer-single-page{
   display:flex; justify-content:flex-end; padding:1rem 0;
 }
@@ -1040,6 +1041,3 @@ nav.footer-single-page .social-list .tooltip{
   border-radius:1000em; padding:.25rem 1rem; opacity:0; transition:opacity .25s
 }
 nav.footer-single-page .social-list .tooltip > p{white-space:nowrap; font-size:.75rem;}
-nav.footer-single-page .social-list .tooltip{background:#159261; color:#ffffff;}
-
-nav.footer-single-page .social-list .icon:hover{background:#159261; color:#ffffff;}

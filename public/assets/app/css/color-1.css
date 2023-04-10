@@ -127,6 +127,9 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 
 .btn-browse-container .btn-browse{background:#000000; border-color:#000000; color:#ffffff;}
 
+/* Box Shadow */
+.box-shadow.style-05{box-shadow: rgba(0, 0, 0, 0.9) 4px 4px 18px 6px, rgba(0, 0, 0, 0.8) -6px -2px 16px 0px;}
+
 /* Card Line */
 .card-line.style-01{background:#ffffff;}
 .card-line.style-01.card-line-black-theme{background:#dddddd;}
@@ -295,6 +298,10 @@ nav.footer.style-11 .footer-bottom{border-color:#ffffff!important;}
 nav.footer.style-11 .footer-socials > .social{background:#000000; color:#ffffff;}
 nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#000000;}
 
+/* Footer Single Pages */ 
+nav.footer-single-page .social-list .tooltip{background:#ffffff; color:#000000;}
+nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#000000;}
+
 /* Sidebar (Member page) */
 .sidebar{border-color:#ffffff;}
 .sidebar .wrapper > .arrow-container .arrow{background:#ffffff; color:#000000;}
@@ -306,6 +313,7 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .ss-title-style-02.style-02{background:#ffffff; color:#000000; border-color:#000000;}
 .ss-title-style-02.style-02:after{background:#ffffff;}
 .ss-title-style-02.style-02 .link-more > .text, .ss-title-style-02 .link-more > .arrow{color:#000000;}
+.ss-title.style-03{border-color:#ffffff;}
 
 /* Password Level */
 .password-level > .levels > *{border-color:#ffffff;}
@@ -332,6 +340,8 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .breadcrumb-03 .wrapper a::before{background:#ffffff;}
 .breadcrumb-03{background:#000000;}
 .breadcrumb-03:before{background:#000000;}
+.breadcrumb-03.style-02 .wrapper a{color:#000000;}
+.breadcrumb-03.style-02 .wrapper a::before{background:#000000;}
 
 /* Checkbox Set */
 .checkbox-set > .checkmark::before,
@@ -357,6 +367,11 @@ nav.footer.style-11 .footer-socials > .social:hover{background:#ffffff; color:#0
 .filter.style-03{ 
   background-image:linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,.4),
   rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,0));
+}
+.filter.style-04{
+  background-image:linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,.9),
+  rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
+  rgba(0,0,0,0));
 }
 
 /* Form */
@@ -741,6 +756,11 @@ select.style-02{background:#ffffff!important;}
 .section-25 .swiper-pagination-bullet-active{background:#2e603d;}
 .section-25 .arrow-container > .arrow{background:#ffffff; color:#000000;}
 
+/* Section 29 */
+.section-29 .steps{background:#ffffff; color:#000000;}
+.section-29 .swiper-pagination-bullet{background:#ffffff;}
+.section-29 .swiper-pagination-bullet-active{background:#dddddd;}
+
 /* Special Tag */
 .ss-tags.style-02{border-color:#ffffff;}
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}
@@ -756,6 +776,8 @@ select.style-02{background:#ffffff!important;}
 .ss-list.style-04.level-3 > li::before{background:#000000;}
 .ss-list.style-04 .line{background:#000000;}
 .ss-list.style-08 > li::before{background:#000000;}
+.ss-list.style-13 > li::before{background:#000000;}
+.ss-list.style-13.theme-02 > li::before{background:#ffffff;}
 
 /* Special Card */
 .ss-card .number-of-picture{background:rgba(0,0,0,.4); color:#ffffff;}
@@ -955,3 +977,10 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Card 73 */
 .ss-card-73 .number{background:#000000;}
+.ss-card-73.theme-02 .number{background:#ffffff; color:#000000;}
+
+/* Special Card 75 */
+.ss-card-75 .number{background:#ffffff; color:#000000;}
+
+/* Special Card 79 */
+.ss-card-79 .wrapper > .icon{border-color:#ffffff; background:transparent;}

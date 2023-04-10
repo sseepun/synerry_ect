@@ -38,6 +38,7 @@ html, body, table.table{color:#000000;}
 .color-25, .h-color-25:hover{color:#206046!important;}
 .color-26, .h-color-26:hover{color:#f2b612!important;}
 .color-27, .h-color-27:hover{color:#eeefef!important;}
+.color-28, .h-color-28:hover{color:#0b6853!important;}
 
 
 .bg-p{background:#0ab3de!important;}
@@ -75,6 +76,7 @@ html, body, table.table{color:#000000;}
 .bg-25{background:#206046!important;}
 .bg-26{background:#f2b612!important;}
 .bg-27{background:#eeefef!important;}
+.bg-28{background:#0b6853!important;}
 
 
 .bcolor-p{border-color:#0ab3de!important;}
@@ -112,6 +114,7 @@ html, body, table.table{color:#000000;}
 .bcolor-25{border-color:#206046!important;}
 .bcolor-26{border-color:#f2b612!important;}
 .bcolor-27{border-color:#eeefef!important;}
+.bcolor-28{border-color:#0b6853!important;}
 
 
 /* Buttons */
@@ -589,6 +592,8 @@ nav.side-panel.style-06.active > .wrapper > .icon, nav.side-panel.style-05 .opti
 nav.side-panel.style-06 .option:not(.btn-cursor).active, nav.side-panel.style-05 .option-row .icon + *::before{background:#f7b331;}
 nav.side-panel.style-06 > .wrapper > .icon:hover{background:#f2af86;}
 
+
+
 /* Global Search Container */
 .global-search-container{color:#68459b!important;}
 .global-search-container .hamburger > *{background:#ffffff;}
@@ -987,6 +992,10 @@ nav.footer.style-11 .footer-socials > .social:hover{color:#3d3f4d; background:#f
 nav.footer.style-11 .footer-container{background:#56abcc; box-shadow: 0px 0px 10px 0px rgb(0 0 0/7%);}
 nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 
+/* Footer Single Pages */ 
+nav.footer-single-page .social-list .tooltip{background:#159261; color:#ffffff;}
+nav.footer-single-page .social-list .icon:hover{background:#159261; color:#ffffff;}
+
 
 .page-loader.style-02  > .bg > *{background:#30906a;}
 .page-loader.style-02 .loader-text{color:#ffffff;}
@@ -1017,6 +1026,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 .breadcrumb-03{background:rgba(110,106,102,.7);}
 .breadcrumb-03:before{background:rgba(110,106,102,.7)}
 .breadcrumb-03 .wrapper a{color:#ffffff;}
+.breadcrumb-03.style-02 .wrapper a{color:#000000;}
 
 /* Client 02 */
 .client-02 .swiper-pagination-bullet{background:#cbcbcb;}
@@ -1430,6 +1440,11 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 .section-25 .swiper-pagination-bullet{background:#2e603d;}
 .section-25 .swiper-pagination-bullet-active{background:#2e603d;}
 .section-25 .arrow-container > .arrow{background:#2e603c; color:#ffffff;}
+
+/* Section 29 */
+.section-29 .swiper-pagination-bullet{background:#ffffff;}
+.section-29 .swiper-pagination-bullet-active{background:#159261;}
+.section-29 .steps{background:#91bb4d; color:#ffffff;}
 
 
 /* Intro 01 */ 
