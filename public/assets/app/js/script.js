@@ -1193,7 +1193,7 @@ function ssPageProcess(){
                    1299.98: { slidesPerView:5 },
                    991.98: { slidesPerView:3, spaceBetween:0 },
                    767.98: { slidesPerView:3, spaceBetween:0 },
-                   575.98:{ slidesPerView:1 }
+                   575.98:{ slidesPerView:2 }
                },
                speed: 800,
                grabCursor: true,
@@ -1206,5 +1206,46 @@ function ssPageProcess(){
            thisSwiper.on('slideChange', function(e){
             swiperTitle.html(titles[thisSwiper.activeIndex]);
         });
+       });
+    }
+
+    var section31 = $('.section-31');
+    if(section31.length){
+        section31.each(function(){
+            let self = $(this);
+            let swiperContainer = self.find('.swiper-container');
+            let childNum = swiperContainer.find('.swiper-slide').length;
+            let startIndex = childNum == 3? 1: childNum == 4? 1: childNum > 4? 2: 0;
+            new Swiper(self.find('.swiper-container'), {
+               loop: false,
+               centeredSlides: true,
+               centerMode: true,
+               spaceBetween: -50,
+               slidesPerView: 6,
+               effect: 'coverflow', 
+               coverflowEffect: {
+                   rotate: 0,
+                   modifier: 1,
+                   slideShadows: true,
+                   // depth: 0,
+               },
+               breakpoints: {
+                   1299.98: { slidesPerView:5 },
+                   991.98: { slidesPerView:3, spaceBetween:0 },
+                   767.98: { slidesPerView:3, spaceBetween:0 },
+                   575.98:{ slidesPerView:2 }
+               },
+               speed: 800,
+               grabCursor: true,
+               initialSlide: startIndex,
+               navigation: {
+                prevEl: self.find('.btn-icon-prev'),
+                nextEl: self.find('.btn-icon-next'), 
+             },
+               pagination: {
+                el: self.find('.dots'),
+                clickable: true,
+            }, 
+           });
        });
     }

@@ -102,7 +102,7 @@
                               <div class="wrapper">
                                 <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
                                 <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
-                                <div class="icon">
+                                <div class="icon report-file">
                                   <em class="fa-solid fa-circle-exclamation mr-1"></em>
                                   <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
                                     แจ้งไฟล์เสีย

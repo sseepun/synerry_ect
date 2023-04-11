@@ -338,14 +338,14 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
   position:absolute; top:.5rem; right:.4375rem; pointer-events:none; font-size:.25rem; 
 }
 .custom-select .select-hide{display:none;}
-.custom-select .select-selected{border-radius:.375rem; font-size:.875rem;}
+.custom-select .select-selected{border-radius:.375rem .375rem .34375rem .34375rem; font-size:.875rem;}
 .custom-select .select-items div, .custom-select .select-selected {
   min-height:2rem; min-width:3rem; display:flex; align-items:center; padding:0 .5rem;
   cursor:pointer; user-select:none; transition:background .25s, color .25s;
 }
 .custom-select .select-items {
-  position:absolute; top:100%; left:0; right:0; font-size:.875rem;
-  z-index:99; border-radius:.375rem; overflow:hidden; 
+  position:absolute; top:100%; left:0; right:0; font-size:.875rem; margin-top:-.125rem;
+  z-index:99; border-radius:0 0 .21875rem .21875rem; overflow:hidden;
 }
 
 /* Inputs */

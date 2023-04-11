@@ -879,6 +879,41 @@
   .faq-11 .faq > .question{height:auto;}
 }
 
+/* Faq 12 */
+.faq-12{width:100%;}
+.faq-12 .faq-link{width:100%; margin:.4375rem 0 .5625rem 0;}
+.faq-12 .faq-link > .question{
+  width:100%; display:flex; border:1px solid transparent; height:4.5rem;
+  cursor:pointer; transition:all .4s ease; border-radius:.4375rem; overflow:hidden;
+}
+.faq-12 .faq-link .ftag{
+  width:4rem; height:auto; display:flex; justify-content:center; 
+  align-items:center; font-weight:600; border-right:2px solid transparent;
+}
+.faq-12 .faq-link > .question .ftag > .icon{display:flex; justify-content:center; align-items:center;}
+.faq-12 .faq-link > .question .ftag > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:2.5rem;  
+}
+.faq-12 .faq-link > .question .title{
+  display:flex; align-items:center; height:auto; width:calc(100% - 9rem);
+  transition:color .25s; -webkit-line-clamp:2; padding:1rem 0 1rem 1rem; 
+}
+.faq-12 .faq-link > .question .chevron-wrapper{
+  width:5rem; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  border-radius:0 .4375rem .4375rem 0; transition:color .25s;
+}
+.faq-12 .faq-link > .question .chevron-wrapper > .icon{position:relative;}
+.faq-12 .faq-link > .question .chevron-wrapper > .icon img{
+  display:block; max-width:100%; max-height:100%; width:auto; height:2rem;
+  transition:opacity .25s;
+}
+.faq-12 .faq-link > .question .chevron-wrapper > .icon img.active{position:absolute; top:0; opacity:0;}
+.faq-12 .faq-link:hover > .question .chevron-wrapper > .icon img.inactive{opacity:0;}
+.faq-12 .faq-link:hover > .question .chevron-wrapper > .icon img.active{opacity:1;}
+@media screen and (max-width:575.98px){
+  .faq-12 .faq-link > .question{height:auto;}
+}
+
 /* Post Video */
 .post-video{display:block; width:100%; max-width:44rem; margin:0 auto;}
 .post-video > .wrapper{position:relative; width:100%; padding:56% 0 0 0;}
@@ -1554,7 +1589,10 @@
 .section-28 .app-download > .wrapper .app-logo > img{
   display:block; max-width:100%; max-height:100%; width:auto; height:9.5rem;
 }
+.section-28 .app-download.style-02 > .wrapper .app-logo > img{height:8rem;}
+.section-28 .app-download.style-02 > .wrapper .app-logo{margin:-1rem 0  0 -.5rem;}
 .section-28 .app-download > .wrapper .btn-link{margin:0 0 0 -.75rem;}
+.section-28 .app-download.style-02 > .wrapper .btn-link{margin:0 0 0 1rem;}
 .section-28 .app-download > .wrapper .btn-link > img{
   display:block; max-width:100%; max-height:100%; width:auto;
 }
@@ -1576,6 +1614,78 @@
     transition:width .25s; opacity:1;
 }
 .section-29 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:2.125rem;}
+
+/* Section 30 */
+.section-30{position:relative; width:100%; overflow:hidden;}
+.section-30 .img-bg{
+  position:absolute; top:0; left:0; right:0; bottom:0; background-size:cover;
+  background-repeat:no-repeat; background-position:center;
+}
+.section-30 .hero{
+  position:absolute; bottom:0; left:0; width:50vw; height:100%;
+  display:flex; justify-content:center; align-items:flex-end;
+}
+.section-30 .hero > img{
+  display:block; width:auto; max-width:100%; max-height:100%; height:34rem;
+}
+.section-30 .hero.shape{left:-2rem; justify-content:unset; bottom:-7rem;}
+.section-30 .hero.shape > img{height:37rem;}
+.section-30 .hero.pineapple-01{left:39rem; justify-content:unset; bottom:9rem;}
+.section-30 .hero.pineapple-01 > img{height:6rem;}
+.section-30 .hero.pineapple-02{left:0; justify-content:unset; bottom:27rem;}
+.section-30 .hero.pineapple-02 > img{height:6rem;}
+@media screen and (max-width:1199.98px){
+  .section-30 .hero > img{height:28rem;}
+  .section-30 .hero.shape > img{height:31rem;}
+}
+@media screen and (max-width:991.98px){
+  .section-30{padding-bottom:36rem;}
+  .section-30 .hero{width:100vw;}
+  .section-30 .hero > img{height:30rem;}
+  .section-30 .hero.shape{left:7rem;}
+  .section-30 .hero.shape > img{height:35rem;}
+  .section-30 .hero.pineapple-01{left:46rem;}
+  .section-30 .hero.pineapple-02{left:3rem; bottom:25rem;}
+}
+@media screen and (max-width:767.98px){
+  .section-30 .hero.pineapple-01{left:38rem;}
+  .section-30 .hero.pineapple-01 > img,
+  .section-30 .hero.pineapple-02 > img{height:5.5rem;}
+}
+@media screen and (max-width:575.98px){
+  .section-30{padding-bottom:32rem;}
+  .section-30 .hero > img{height:25rem;}
+  .section-30 .hero.shape > img{height:28rem;}
+  .section-30 .hero.pineapple-01{left:28rem;}
+  .section-30 .hero.pineapple-02{left:2rem; bottom:24rem;}
+  .section-30 .hero.pineapple-01 > img,
+  .section-30 .hero.pineapple-02 > img{height:4.5rem;}
+  .section-30 .hero.shape{left:2rem;}
+}
+@media screen and (max-width:492.98px){
+  .section-30 .download{display:block; margin-left:0!important;}
+}
+
+/* Section 31 */
+.section-31{position:relative;}
+.section-31 .img-bg{
+  position:absolute; top:0; left:0; right:0; bottom:0; background-size:cover;
+  background-repeat:no-repeat; background-position:center;
+}
+.section-31 .swiper-pagination-bullet{opacity:1;}
+.section-31 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
+.section-31 .swiper-pagination-bullet{
+  margin:0 .25rem; width:0.4375rem; height:0.4375rem; border-radius:.3125rem; 
+}
+.section-31 .arrow-container{
+  position:absolute; top:0; right:7rem; bottom:0; left:7rem; pointer-events:auto;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.section-31 .arrow-container > .arrow{
+  position:relative; width:3rem; height:3rem; border-radius:.375rem; cursor:pointer;
+   display:flex; justify-content:center; align-items:center; z-index:2; transition:opacity .25s;
+}
+.section-31 .arrow-container > .arrow:hover{opacity:.75;}
 
 /* Breadcrumb 01 */
 .breadcrumb-01 .top{
@@ -1637,8 +1747,8 @@
 .breadcrumb-03 .wrapper a:not(:first-child):before{
   position:absolute; content:""; width:1rem; height:4px; top:40%; left:.5rem;
 }
-.breadcrumb-03.style-02{background:transparent;}
-.breadcrumb-03.style-02:before{background:transparent;}
+.breadcrumb-03.style-02, .breadcrumb-03.style-03{background:transparent;}
+.breadcrumb-03.style-02:before, .breadcrumb-03.style-03:before{background:transparent;}
 
 
 /* Election Commission */

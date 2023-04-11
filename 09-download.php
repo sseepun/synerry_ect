@@ -28,8 +28,8 @@
           include('component/list-header.php');
         ?>
       </div>
-      <div class="faq-02 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
-        <?php for($i=0; $i<12; $i++){?>
+      <div class="faq-02 mt-3 pt-2" data-aos="fade-up" data-aos-delay="300">
+        <?php for($i=0; $i<10; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?> mb-2">
             <div class="question box-shadow style-02">
               <h3 class="ftag">
@@ -73,40 +73,34 @@
                                   <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
                                   <div class="icon report-file">
                                     <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                                    <?php 
-                                      if($k === 'link'){
-                                        echo '<p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
-                                                แจ้งลิงก์เสีย
-                                              </p>';
-                                      }else{
-                                        echo '<p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
-                                                แจ้งไฟล์เสีย
-                                              </p>';
-                                      }
-                                    ?>
+                                    <?php if($k === 'link') {?>
+                                      <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                                        แจ้งลิงก์เสีย
+                                      </p>
+                                    <?php } else {?>
+                                       <p class="btn-popup-toggle cursor-pointer sm color-black color-black-theme fw-400" data-popup="99">
+                                       แจ้งไฟล์เสีย
+                                     </p>
+                                    <?php } ?>
                                   </div>
                                 </div>
                               </div>
                             </td>
                             <td class="arrow-container" style="min-width:100px;">
                               <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
-                              <?php 
-                                if($k === 'link'){
-                                  echo '<img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
-                                        <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">';
-                                }else{
-                                  echo '<img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
-                                        <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">';
-                                }
-                              ?>
-                              </div>
-                              <?php 
-                                if($k === 'link'){
-                                  echo '<a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">คลิกลิงก์</a>';
-                                }else{
-                                  echo '<a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>';
-                                }
-                              ?>
+                                  <?php if($k === 'link') {?>
+                                    <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="Icon">
+                                    <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="Icon">
+                                  <?php } else {?>
+                                    <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                                    <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
+                                  <?php } ?>
+                                </div>
+                                <?php if($k === 'link') {?>
+                                  <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">คลิกลิงก์</a>
+                                <?php } else {?>
+                                  <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                                <?php } ?>
                             </td>
                           </tr>
                         <?php }?>
@@ -122,6 +116,48 @@
               </div>
             </div>
           <?php }?>
+      </div>
+      <div class="faq-12" data-aos="fade-up" data-aos-delay="300">
+        <div class="faq-link">
+          <div class="question box-shadow style-02">
+            <h3 class="ftag">
+              <div class="icon">
+                <img src="public/assets/app/images/icon-svg/document-link.svg" alt="Icon Document Link">
+              </div>
+            </h3>
+            <a class="p title sm lh-sm fw-400" href="#">
+              ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครองในระบอบประชาธิปไตย 
+              จำนวน 4 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding) 
+            </a>
+            <div class="chevron-wrapper">
+              <div class="icon">
+                <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="External Link">
+                <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="External Link">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-12" data-aos="fade-up" data-aos-delay="300">
+        <div class="faq-link">
+          <div class="question box-shadow style-02">
+            <h3 class="ftag">
+              <div class="icon">
+                <img src="public/assets/app/images/icon-svg/document-link.svg" alt="Icon Document Link">
+              </div>
+            </h3>
+            <a class="p title sm lh-sm fw-400" href="#">
+              ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครองในระบอบประชาธิปไตย 
+              จำนวน 4 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding) 
+            </a>
+            <div class="chevron-wrapper">
+              <div class="icon">
+                <img class="inactive" src="public/assets/app/images/icon-svg/external-link-01.svg" alt="External Link">
+                <img class="active" src="public/assets/app/images/icon-svg/external-link-yellow.svg" alt="External Link">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="mt-6 pt-4">
         <?php

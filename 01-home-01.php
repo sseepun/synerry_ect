@@ -72,7 +72,6 @@
           <?php for($i=0; $i<5; $i++){?>
             <?php foreach($content01 as $d){?>
               <div class="swiper-slide">
-                <!-- <div class="ss-card ss-card-51" onmouseover="cardOver()" onmouseout="cardNoOver()"> -->
                 <div class="ss-card ss-card-51">
                   <div class="wrapper">
                     <div class="icon">

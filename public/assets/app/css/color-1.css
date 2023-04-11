@@ -342,6 +342,8 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .breadcrumb-03:before{background:#000000;}
 .breadcrumb-03.style-02 .wrapper a{color:#000000;}
 .breadcrumb-03.style-02 .wrapper a::before{background:#000000;}
+.breadcrumb-03.style-03 .wrapper a{color:#ffffff;}
+.breadcrumb-03.style-03 .wrapper a::before{background:#ffffff;}
 
 /* Checkbox Set */
 .checkbox-set > .checkmark::before,
@@ -493,6 +495,12 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .faq-11 .faq > .answer .content{border-color:#ffffff;}
 
 .faq-11.theme-02 .faq > .question .ftag{background:#000000;}
+
+/* Faq 12 */
+.faq-12 .faq-link > .question{border-color:#ffffff;}
+.faq-12 .faq-link > .question .ftag{border-color:#ffffff;}
+.faq-12 .faq-link > .answer{border-color:#ffffff;}
+.faq-12 .faq-link > .answer .content{border-color:#ffffff;}
 
 /* Form Container 03 */
 .form-container-03 .option .icon-view{background:rgba(0,0,0,.3);}
@@ -761,6 +769,10 @@ select.style-02{background:#ffffff!important;}
 .section-29 .swiper-pagination-bullet{background:#ffffff;}
 .section-29 .swiper-pagination-bullet-active{background:#dddddd;}
 
+/* Section 31 */
+.section-31 .swiper-pagination-bullet{background:#ffffff;}
+.section-31 .swiper-pagination-bullet-active{background:#dddddd;}
+
 /* Special Tag */
 .ss-tags.style-02{border-color:#ffffff;}
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}
@@ -778,6 +790,7 @@ select.style-02{background:#ffffff!important;}
 .ss-list.style-08 > li::before{background:#000000;}
 .ss-list.style-13 > li::before{background:#000000;}
 .ss-list.style-13.theme-02 > li::before{background:#ffffff;}
+.ss-list.style-14 > li::before{background:#ffffff;}
 
 /* Special Card */
 .ss-card .number-of-picture{background:rgba(0,0,0,.4); color:#ffffff;}
@@ -981,6 +994,7 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Card 75 */
 .ss-card-75 .number{background:#ffffff; color:#000000;}
+.ss-card-75.theme-02 .number{background:#000000; color:#ffffff;}
 
 /* Special Card 79 */
 .ss-card-79 .wrapper > .icon{border-color:#ffffff; background:transparent;}

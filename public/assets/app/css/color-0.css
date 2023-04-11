@@ -39,6 +39,7 @@ html, body, table.table{color:#000000;}
 .color-26, .h-color-26:hover{color:#f2b612!important;}
 .color-27, .h-color-27:hover{color:#eeefef!important;}
 .color-28, .h-color-28:hover{color:#0b6853!important;}
+.color-29, .h-color-29:hover{color:#f6ed59!important;}
 
 
 .bg-p{background:#0ab3de!important;}
@@ -77,6 +78,7 @@ html, body, table.table{color:#000000;}
 .bg-26{background:#f2b612!important;}
 .bg-27{background:#eeefef!important;}
 .bg-28{background:#0b6853!important;}
+.bg-29{background:#f6ed59!important;}
 
 
 .bcolor-p{border-color:#0ab3de!important;}
@@ -115,6 +117,7 @@ html, body, table.table{color:#000000;}
 .bcolor-26{border-color:#f2b612!important;}
 .bcolor-27{border-color:#eeefef!important;}
 .bcolor-28{border-color:#0b6853!important;}
+.bcolor-29{border-color:#f6ed59!important;}
 
 
 /* Buttons */
@@ -439,7 +442,6 @@ html, body, table.table{color:#000000;}
 .faq-02 .faq.active > .question .chevron-wrapper{background:#3aa57b; color:#ffffff;}
 .faq-02 .faq > .answer .content{border-color:#3aa57b;}
 
-
 /* Faq 03 */
 .faq-03 .faq.active > .question{background:#3aa57b; border-color:#3aa57b;}
 .faq-03 .faq > .question .ftag{background:#30906a; border-color:#f7f7f7;}
@@ -549,6 +551,11 @@ html, body, table.table{color:#000000;}
 .faq-11 .faq > .question .ftag{background:#30906a; border-color:#f7f7f7;}
 .faq-11 .faq:hover > .question .title{color:#30906a;}
 .faq-11 .faq > .question  .footer > .wrapper .icon{color:#30906a;}
+
+/* Faq 12 */
+.faq-12 .faq-link:hover > .question .title{color:#30906a;}
+.faq-12 .faq-link > .question .ftag{background:#30906a;}
+.faq-12 .faq-link > .question .chevron-wrapper{color:#3aa57b;}
 
 /* Accessibility & Quick Links */
 nav.side-panel .icon{background:#30906a; color:#ffffff;}
@@ -1131,6 +1138,7 @@ nav.footer-single-page .social-list .icon:hover{background:#159261; color:#fffff
 .ss-list.style-11 > li::before{background:#ffffff;}
 .ss-list.style-12 > li::before{background:#088f59;}
 .ss-list.style-13 > li::before{background:#088f59;}
+.ss-list.style-14 > li::before{background:#f6ed59;}
 
 /* Number */
 .ss-list-style-01 > li::marker{color:#35758e;}
@@ -1445,6 +1453,10 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 .section-29 .swiper-pagination-bullet{background:#ffffff;}
 .section-29 .swiper-pagination-bullet-active{background:#159261;}
 .section-29 .steps{background:#91bb4d; color:#ffffff;}
+
+/* Section 31 */
+.section-31 .swiper-pagination-bullet{background:#ffffff;}
+.section-31 .swiper-pagination-bullet-active{background:#159261;}
 
 
 /* Intro 01 */ 

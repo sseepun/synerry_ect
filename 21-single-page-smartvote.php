@@ -27,7 +27,7 @@
             แอปพลิเคชันฉลาดเลือก
           </h2>
           <h4 class="color-21 fw-400" data-aos="fade-up" data-aos-delay="150">
-            ข้อมูลเบื้องต้นแอปพลิเคชัน ฉลาดเลือก
+            ข้อมูลเบื้องต้นแอปพลิเคชันฉลาดเลือก
           <h4/>
           <p class="fw-400 mt-3" style="text-indent:20px;" data-aos="fade-up" data-aos-delay="300">
             สำนักงานคณะกรรมการการเลือกตั้ง จัดทำแอปพลิเคชันฉลาดเลือก (Smart Vote) 

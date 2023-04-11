@@ -136,10 +136,10 @@
     <div class="container">
       <div class="grids">
         <div class="grid lg-50 md-100">
-          <h2 class="color-20 fw-400" data-aos="fade-up" data-aos-delay="0">
+          <h2 class="color-20 color-black-theme fw-400" data-aos="fade-up" data-aos-delay="0">
             ยุทธศาสตร์
           </h2>
-          <div class="ss-card ss-card-75" data-aos="fade-up" data-aos-delay="150">
+          <div class="ss-card ss-card-75 color-black-theme theme-02" data-aos="fade-up" data-aos-delay="150">
             <div class="wrapper">
               <div class="number">1</div>
               <div class="text-container">
@@ -151,7 +151,7 @@
               </div>
             </div>
           </div>
-          <div class="ss-card ss-card-75" data-aos="fade-up" data-aos-delay="300">
+          <div class="ss-card ss-card-75 color-black-theme theme-02" data-aos="fade-up" data-aos-delay="300">
             <div class="wrapper">
               <div class="number">2</div>
               <div class="text-container">
@@ -163,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class="ss-card ss-card-75" data-aos="fade-up" data-aos-delay="450">
+          <div class="ss-card ss-card-75 color-black-theme theme-02" data-aos="fade-up" data-aos-delay="450">
             <div class="wrapper">
               <div class="number">3</div>
               <div class="text-container">
@@ -176,18 +176,8 @@
             </div>
           </div>
         </div>
-        <!-- <div class="grid lg-50 md-100 pos-relative">
-        <div class="pattern" data-aos="fade-in" data-aos-delay="0">
-      <div class="wrapper">
-        <img src="public/assets/app/images/pattern/18.png" alt="Pattern">
       </div>
-    </div>
-    <div class="hero" data-aos="fade-up" data-aos-delay="150">
-      <img src="public/assets/app/images/hero/10.png" alt="">
-    </div>
-        </div> -->
-      </div>
-      <div data-aos="fade-up" data-aos-delay="600">
+      <div class="color-black-theme" data-aos="fade-up" data-aos-delay="600">
         <p class="color-25 fw-400 mt-6">ดาวน์โหลด</p>
         <p>แผนยุทธศาสตร์สำนักงานคณะกรรมการการเลือกตั้ง <span class="p sm">20</span> ปี 
           (พ.ศ. <span class="p sm">2561 - 2580</span>) <a class="color-25 fw-400" href="#">คลิก</a>
@@ -201,9 +191,6 @@
     <?php include_once('include/footer-single-page.php'); ?>
   </div>
  
-
-  
-
   <?php include_once('include/script.php'); ?>
 
 </body>
