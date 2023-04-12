@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -25,16 +25,16 @@
           <div class="ss-card ss-card-21" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="date">
-                  <div class="wrapper">
+                <div class="wrapper">
                   <p class="xxs day fw-400">18 ก.พ. 66</p>
-                      <p class="xxs month fw-400">19 ก.พ. 66</p>
-                  </div>
+                  <p class="xxs month fw-400">19 ก.พ. 66</p>
                 </div>
+              </div>
               <div class="text-container">
                 <h4 class="title lh-sm fw-600">
                   อบรมตามโครงการสร้างจิตสำนึกพลเมืองดีวิถีประชาธิปไตยประจำปี 2565 จังหวัดพังงา
                 </h4>
-                <div class="title-footer mt-2">
+                <div class="title-footer mt-4">
                   <div class="wrapper">
                     <div class="item">
                       <div class="icon">
@@ -42,13 +42,13 @@
                         <span class="p sm ml-2 fw-500">วันที่ 20 กุมภาพันธ์ 2566</span>
                       </div>
                     </div>
-                    <div class="item ml-4">
+                    <div class="item">
                       <div class="icon">
                         <em class="fa-solid fa-clock"></em>
                         <span class="p sm ml-2 fw-500">12:50 - 13:50</span>
                       </div>
                     </div>
-                    <div class="item ml-4">
+                    <div class="item">
                       <div class="icon">
                         <em class="fa-solid fa-building"></em>
                         <span class="p sm ml-2 fw-500">หน่วยงานฝ่ายประชาสัมพันธ์</span>
@@ -62,13 +62,13 @@
                         <span class="p sm ml-2 fw-500">วันที่ 19 กุมภาพันธ์ 2566</span>
                       </div>
                     </div>
-                    <div class="item ml-2">
+                    <div class="item">
                       <div class="icon">
                         <em class="fa-solid fa-clock"></em>
                         <span class="p sm ml-2 fw-500">12:50 - 13:50</span>
                       </div>
                     </div>
-                    <div class="item ml-2">
+                    <div class="item">
                       <div class="icon">
                         <em class="fa-solid fa-phone"></em>
                         <span class="p sm ml-2 fw-500">2 141-8888 ต่อ 89</span>
@@ -202,16 +202,16 @@
             </div>
           </div>
 
-          <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="800">
+          <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="750">
             แผนที่
           </h4>
            <!-- Goolgle Map -->
-           <iframe 
+           <iframe data-aos="fade-up" data-aos-delay="900"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.285629391629!2d100.56366531478078!3d13.8818618902634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e28323d10290b5%3A0x946e22bc8754445a!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4LiE4LiT4Liw4LiB4Lij4Lij4Lih4LiB4Liy4Lij4LiB4Liy4Lij4LmA4Lil4Li34Lit4LiB4LiV4Lix4LmJ4LiH!5e0!3m2!1sth!2sth!4v1672824557112!5m2!1sth!2sth" 
               width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
 
-          <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="800">
+          <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="1050">
             สื่อที่เกี่ยวข้อง
           </h4>
           <div data-aos="fade-up" data-aos-delay="950">

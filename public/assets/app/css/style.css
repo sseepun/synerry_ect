@@ -2783,18 +2783,27 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 
 /* Special Card 21 */
-.ss-card-21 > .wrapper{display:flex;}
+.ss-card-21 .wrapper{display:flex; flex-wrap:wrap;}
 .ss-card-21 .wrapper > .date .wrapper{
-  width:3.5rem; text-align:center; border-radius:.4375rem; overflow:hidden; margin-right:.875rem;  
-  border:1px solid transparent;
+  position:relative; width:4rem; height:5rem; text-align:center; border-radius:.4375rem; overflow:hidden;
+  border:1px solid transparent; display:flex; justify-content:center;
 }
-.ss-card-21 .wrapper > .date .wrapper > .day, .ss-card-21 .wrapper > .date .wrapper > .month{width:100%;}
-.ss-card-21 .wrapper > .date .wrapper > .day{padding:.125rem 0;}
-.ss-card-21 .wrapper > .date .wrapper > .month{padding:.375rem 0;}
-.ss-card-21 .wrapper > .text-container{width:calc(100% - 3.5rem);}
+.ss-card-21 .wrapper > .date .wrapper::after{
+  content:''; position:absolute; top:49%; width:.75rem; height:.125rem;
+}
+.ss-card-21 .wrapper > .date .wrapper > .day, 
+.ss-card-21 .wrapper > .date .wrapper > .month{width:100%;}
+.ss-card-21 .wrapper > .date .wrapper > .day, 
+.ss-card-21 .wrapper > .date .wrapper > .month{
+  padding:.125rem 0; display:flex; justify-content:center; align-items:center;
+}
+.ss-card-21 .wrapper .text-container{width:calc(100% - 4rem); padding-left:1rem;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper{display:flex; flex-wrap:wrap; align-items:center;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .item{display:inline-block!important;}
-.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon{display:flex; align-items:center;}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon{
+  display:flex; align-items:center; 
+}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .item:not(:last-child){margin-right:1.75rem;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon > em{
   display:flex; align-items:center; font-size:.875rem;
 }

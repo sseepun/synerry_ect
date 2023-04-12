@@ -843,6 +843,7 @@ select.style-02{background:#ffffff!important;}
 .ss-card-21 .wrapper > .date .wrapper{border-color:#ffffff;}
 .ss-card-21 .wrapper > .date .wrapper > .day{background:#ffffff; color:#000000;}
 .ss-card-21 .wrapper > .date .wrapper > .month{color:#ffffff;}
+.ss-card-21 .wrapper > .date .wrapper::after{background:#dddddd;}
 
 /* Special Card 23 */
 .ss-card-23 .text-container{background:#000000;}

@@ -1575,6 +1575,7 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 .ss-card-21 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
 .ss-card-21 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon > em{color:#2e603c;}
+.ss-card-21 .wrapper > .date .wrapper::after{background:#ffffff;}
 
 /* Special Card 23 */
 .ss-card-23 .text-container{background:#ffffff;}

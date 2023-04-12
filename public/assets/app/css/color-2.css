@@ -967,6 +967,7 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 .ss-card-21 .wrapper > .date .wrapper{border-color:#fecb00;}
 .ss-card-21 .wrapper > .date .wrapper > .day{background:#fecb00; color:#000000;}
 .ss-card-21 .wrapper > .date .wrapper > .month{color:#fecb00;}
+.ss-card-21 .wrapper > .date .wrapper::after{background:#dddddd;}
 
 /* Special Card 23 */
 .ss-card-23 .text-container{background:#000000;}
