@@ -129,7 +129,6 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
   text-decoration:none; border-radius:.375rem; min-width:10rem; text-align:center;
   cursor:pointer; border:.125rem solid transparent; transition:all .25s;
 }
-
 .btn.btn-action.style-02{
   padding:.6125rem 1.25rem .6125rem 1.75rem; border-radius:.875rem; text-align:left;
 }
@@ -900,20 +899,48 @@ fieldset{padding:0; margin:0; border:0;}
   .list-header.style-03 .btn-icon em{margin:0 .125rem 0 0;}
 }
 
+/* List Header Calendar */
 .list-header-calendar{display:flex;}
-.list-header-calendar .options {
+.list-header-calendar .options{
   display:flex; flex-wrap:wrap; align-items:center; flex-wrap:wrap; margin:0; width:70%;
 }
+.list-header-calendar .options #search{border:1px solid transparent;}
+.list-header-calendar select.ui.dropdown{border:1px solid transparent;}
 .list-header-calendar .option.search{width:50%;}
 .list-header-calendar .option{display:flex; align-items:center;}
 .list-header-calendar .option.cate{width:50%; padding-left:1rem;}
 .list-header-calendar .button-container{width:40%; display:flex; align-items:center; justify-content:flex-end;}
 .list-header-calendar .button-container > .button-wrapper{display:flex; align-items:center;}
 .list-header-calendar .button-container > .button-wrapper span{white-space:nowrap;}
+
+.list-header-calendar.style-02{display:flex; flex-wrap:wrap;}
+.list-header-calendar.style-02 .options{width:75%;}
+.list-header-calendar.style-02 .option.search,
+.list-header-calendar.style-02 .option.cate, .list-header-calendar.style-02 .option.sort{width:33.33%;}
+.list-header-calendar.style-02 .option.cate, .list-header-calendar.style-02 .option.sort{padding-left:1rem;}
+.list-header-calendar.style-02 .button-container{width:25%;}
+@media screen and (max-width:1199.98px){
+  .list-header-calendar.style-02 .options,
+  .list-header-calendar.style-02 .button-container{width:100%;}
+  .list-header-calendar.style-02 .button-container{margin-top:1.5rem; justify-content:flex-start;}
+}
 @media screen and (max-width:767.98px){
   .list-header-calendar{flex-wrap:wrap;}
   .list-header-calendar .options, .list-header-calendar .button-container{width:100%;}
   .list-header-calendar .button-container{margin-top:1rem; justify-content:flex-start;}
+
+  .list-header-calendar.style-02 .option.search{width:100%;}
+  .list-header-calendar.style-02 .option.cate{padding-left:0;}
+  .list-header-calendar.style-02 .option.cate, 
+  .list-header-calendar.style-02 .option.sort{width:50%; margin-top:1rem;}
+}
+@media screen and (max-width:575.98px){
+  .list-header-calendar.style-02 .option.cate, 
+  .list-header-calendar.style-02 .option.sort{width:100%;}
+  .list-header-calendar.style-02 .option.cate > span,
+  .list-header-calendar.style-02 .option.sort > span{display:none;}
+  .list-header-calendar.style-02 .option.sort{padding-left:0;}
+  .list-header-calendar.style-02 .button-container{justify-content:center;}
 }
 @media screen and (max-width:543.98px){
   .list-header-calendar .option.search, 
@@ -2703,7 +2730,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   border:1px solid transparent; display:flex; justify-content:center;
 }
 .ss-card-20 .wrapper > .date .wrapper.style-02::after{
-  content:''; position:absolute; top:49%; width:.75rem; height:.125rem; background:#ffffff;
+  content:''; position:absolute; top:49%; width:.75rem; height:.125rem;
 }
 .ss-card-20 .wrapper > .date .wrapper > .day, 
 .ss-card-20 .wrapper > .date .wrapper > .month{width:100%;}
@@ -2724,8 +2751,14 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-20 .wrapper > .text-container .text > .title{-webkit-line-clamp:2;}
 .ss-card-20 .wrapper > .text-container .text > .desc{-webkit-line-clamp:3;}
 .ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper{display:flex; align-items:center;}
-.ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
+.ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper > .icon{
+  display:flex; align-items:center; margin-right:1rem; min-width:12rem;
+}
+.ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper > .icon.time{min-width:9rem;}
 .ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper > .icon em{font-size:.8125rem;}
+@media screen and (max-width:1285.98px){
+  .ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper > .icon.time{min-width:7rem;}
+}
 @media screen and (max-width:1199.98px){
   .ss-card-20 .wrapper > .img-container{width:calc(35% - 4.75rem);}
   .ss-card-20 .wrapper > .text-container{width:65%;}
@@ -2758,19 +2791,14 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-21 .wrapper > .date .wrapper > .day, .ss-card-21 .wrapper > .date .wrapper > .month{width:100%;}
 .ss-card-21 .wrapper > .date .wrapper > .day{padding:.125rem 0;}
 .ss-card-21 .wrapper > .date .wrapper > .month{padding:.375rem 0;}
-.ss-card-21 .wrapper > .text-container{width:calc(100% - 4.375rem);}
-.ss-card-21 .wrapper > .text-container .title-footer > .wrapper{display:flex; align-items:center;}
+.ss-card-21 .wrapper > .text-container{width:calc(100% - 3.5rem);}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper{display:flex; flex-wrap:wrap; align-items:center;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .item{display:inline-block!important;}
-.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon{
-  display:flex; align-items:center; margin-right:1rem; 
-}
+.ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon{display:flex; align-items:center;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon > em{
-  width:1.125rem; display:flex; align-items:center; font-size:.875rem;
+  display:flex; align-items:center; font-size:.875rem;
 }
 .ss-card-21 .img-container > .ss-img{border-radius:.5rem;}
-@media screen and (max-width:991.98px){
-  .ss-card-21 .wrapper > .text-container .title-footer > .wrapper{display:unset;}
-}
 
 /* Special Card 22 */
 .ss-card-22{position:relative;}
@@ -2993,13 +3021,16 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   border-radius:50%; transition:background .25s;
 }
 .ss-card-34 .text-container > .social-list .item{margin-right:.5rem;}
+.ss-card-34 .text-container > .social-list .icon{overflow:hidden; border:1px solid transparent;}
 .ss-card-34 .text-container > .social-list .icon > img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:1.25rem; transition:opacity .25s;
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.25rem;
+  transition:transform .25s; transform:translateY(0)
 }
 .ss-card-34 .text-container > .social-list .icon.sm > img{height:1rem;}
-.ss-card-34 .text-container > .social-list .icon > img.active{position:absolute; opacity:0;}
-.ss-card-34 .text-container > .social-list .icon:hover > img.inactive{opacity:0;}
-.ss-card-34 .text-container > .social-list .icon:hover > img.active{opacity:1;}
+.ss-card-34 .text-container > .social-list .icon > img.active{position:absolute;}
+.ss-card-34 .text-container > .social-list .icon:hover > img.inactive{transform:translateY(-150%);}
+.ss-card-34 .text-container > .social-list .icon:hover > img.active{transform:translateY(5%);}
+.ss-card-34 .text-container > .social-list .icon > img.active{transform:translateY(150%);}
 @media screen and (max-width:991.98px){
   .ss-card-34 .wrapper{height:6rem;}
 }

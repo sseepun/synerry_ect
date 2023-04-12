@@ -2,7 +2,7 @@
   <div class="list-footer-02">
     <?php if(in_array('total', $listFooter)){?>
       <div class="option">
-        <p class="color-gray fw-600">
+        <p class="color-gray fw-500">
           จำนวนหน้าทั้งหมด <span class="ml-1 color-02">400 รายการ</span>
         </p>
       </div>
@@ -34,7 +34,7 @@
     <?php }?>
     <?php if(in_array('pp', $listFooter)){?>
       <div class="option">
-        <p class="color-gray fw-600">แสดงผลต่อหน้า</p>
+        <p class="color-gray fw-500">แสดงผลต่อหน้า</p>
         <div class="custom-select ml-1">
           <select class="ui selection dropdown style-02 ml-1">
             <option value="0">12</option>

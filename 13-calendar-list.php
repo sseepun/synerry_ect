@@ -66,18 +66,17 @@
         ปฏิทินกิจกรรม
       </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="0">
-        <?php include('component/list-header-calendar-style-02.php'); ?>
+        <?php include('component/list-header-calendar-style-03.php'); ?>
       </div>
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
-          <div class="grid lg-100 md-50 sm-100">
+          <div class="grid lg-100 md-100 sm-100">
             <a class="ss-card ss-card-20" href="#">
               <div class="wrapper">
                 <div class="img-container">
                   <div class="img-wrapper">
                     <div class="ss-img">
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                     
                       <div class="filter style-02">
                         <div class="wrapper">
                           <div class="icon sm">
@@ -91,15 +90,13 @@
                 </div>
                 <div class="date">
                   <div class="wrapper <?= $d['style']?>">
-                    <?php 
-                      if($d['style'] === 'style-02'){
-                        echo '<p class="xxs day fw-400">18 ก.พ. 66</p>';
-                        echo '<p class="xxs month fw-400">19 ก.พ. 66</p>';
-                      }else{
-                        echo '<p class="day fw-400">20</p>';
-                        echo '<p class="xs month">ก.ย.65</p>';
-                      }
-                    ?>
+                    <?php if($d['style'] === 'style-02') {?>
+                      <p class="xxs day fw-400">18 ก.พ. 66</p>
+                      <p class="xxs month fw-400">19 ก.พ. 66</p>
+                    <?php } else {?>
+                      <p class="day fw-400">20</p>
+                      <p class="xs month">ก.ย.65</p>
+                    <?php } ?> 
                   </div>
                 </div>
                 <div class="text-container">
@@ -115,25 +112,26 @@
                         <div class="wrapper">
                           <div class="icon">
                             <em class="fa-solid fa-calendar-days"></em>
-                            <span class="p sm ml-2 fw-500">วันที่ 18 กุมภาพันธ์ 2566</span>
+                            <span class="p sm ml-2 fw-400">วันที่ 18 กุมภาพันธ์ 2566</span>
                           </div>
-                          <div class="icon">
+                          <div class="icon time">
                             <em class="fa-solid fa-clock"></em>
-                            <span class="p sm ml-2 fw-500">เวลา 12:50 - 13:50</span>
+                            <span class="p sm ml-2 fw-400">เวลา 12:50 - 13:50</span>
                           </div>
-                          <div class="icon">
+                          <div class="icon location">
                             <em class="fa-solid fa-location-dot"></em>
-                            <span class="p sm ml-2 fw-500">สำนักงานกลางคณะกรรมการการเลือกตั้ง</span>
+                            <span class="p sm ml-2 fw-400 d-block">สำนักงานกลางคณะกรรมการการเลือกตั้ง</span>
                           </div>
-                          <?php 
-                            if($d['style'] === 'style-02'){
-                              echo 
-                                '<div class="icon ai-center d-block mt-1">
-                                  <em class="fa-solid fa-calendar-days"></em>
-                                  <span class="p sm ml-1 fw-500">ถึงวันที่ 19 กุมภาพันธ์ 2566</span>
-                                </div>';
-                            }
-                          ?>
+                          <?php if($d['style'] === 'style-02') {?>
+                            <div class="icon ai-center d-block">
+                              <em class="fa-solid fa-calendar-days"></em>
+                              <span class="p sm ml-1 fw-400">ถึงวันที่ 19 กุมภาพันธ์ 2566</span>
+                            </div>
+                            <div class="icon time">
+                              <em class="fa-solid fa-clock"></em>
+                              <span class="p sm ml-2 fw-400">เวลา 12:50 - 13:50</span>
+                            </div>
+                          <?php }?>  
                         </div>
                       </div>
                     </div>
@@ -159,7 +157,7 @@
           </div>
         <?php }?>
       </div>
-      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="0">
+      <div class="mt-6 pt-4">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');

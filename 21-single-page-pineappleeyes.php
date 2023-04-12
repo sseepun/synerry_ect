@@ -210,19 +210,18 @@
             </div>
           </div>  
         </div>
-      </div>
-      <div class="arrow-container">
-        <div class="arrow btn-icon-prev">
-          <img src="public/assets/app/images/icon/chevron-left.png" alt="Chevron Left">
-        </div>
-        <div class="arrow btn-icon-next">
-          <img src="public/assets/app/images/icon/chevron-right.png" alt="Chevron Right">
+        <div class="arrow-container">
+          <div class="arrow btn-icon-prev">
+            <img src="public/assets/app/images/icon/chevron-left.png" alt="Chevron Left">
+          </div>
+          <div class="arrow btn-icon-next">
+            <img src="public/assets/app/images/icon/chevron-right.png" alt="Chevron Right">
+          </div>
         </div>
       </div>
       <div class="pos-relative mt-6" style="z-index:2;">
         <?php include_once('include/footer-single-page.php'); ?>
       </div>
-     
     </div>    
   </section>
 

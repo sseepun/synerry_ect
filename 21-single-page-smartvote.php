@@ -138,7 +138,7 @@
       <div class="ss-card-79 mt-4" data-aos="fade-up" data-aos-delay="300">
         <div class="wrapper">
           <div class="icon">
-            <img src="public/assets/app/images/icon/63.png" alt="Icon">
+            <img src="public/assets/app/images/icon/65.png" alt="Icon">
           </div>
           <p class="text-container fw-400">
             ตรวจสอบหน่วยเลือกตั้ง และดูรายชื่อผู้สมัครในเขตเลือกตั้ง<br>

@@ -1580,10 +1580,14 @@
 
 /* Section 28 */
 .section-28{position:relative; width:100%;}
+.section-28.size-02{min-height:500px; margin-top:-40px;}
+.section-28.size-03{padding-bottom:14rem;}
+.section-28.size-03 .img-bg{background-size:auto;}
 .section-28 .img-bg{
   position:absolute; top:0; left:0; right:0; bottom:0; background-size:cover;
   background-repeat:no-repeat; background-position:center;
 }
+.section-28 .img-bg.style-02{background-position:center left;}
 .section-28 .app-download > .wrapper{display:flex; align-items:center;}
 .section-28 .app-download > .wrapper .app-logo{margin:-1rem 0  0 -1.75rem;}
 .section-28 .app-download > .wrapper .app-logo > img{
@@ -1600,6 +1604,12 @@
 .section-28 .app-download > .wrapper .btn-link a:last-child{margin-top:-.4375rem;}
 .section-28 .app-download > .wrapper .btn-link img.google-play{height:2.75rem; width:8.375rem;}
 .section-28 .app-download > .wrapper .btn-link img.app-store{height:2.625rem;}
+@media screen and (max-width:991.98px){
+  .section-28.size-03{padding-bottom:11rem;}
+}
+@media screen and (max-width:767.98px){
+  .section-28.size-03 .img-bg{background-size:cover;}
+}
 
 /* Section 29 */
 .section-29 .steps{
@@ -1672,6 +1682,7 @@
   position:absolute; top:0; left:0; right:0; bottom:0; background-size:cover;
   background-repeat:no-repeat; background-position:center;
 }
+.section-31 .swiper-container{position:relative;}
 .section-31 .swiper-pagination-bullet{opacity:1;}
 .section-31 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
 .section-31 .swiper-pagination-bullet{
@@ -1686,6 +1697,19 @@
    display:flex; justify-content:center; align-items:center; z-index:2; transition:opacity .25s;
 }
 .section-31 .arrow-container > .arrow:hover{opacity:.75;}
+@media screen and (max-width:1299.98px){
+  .section-31 .arrow-container{right:0rem; left:0rem;}
+}
+@media screen and (max-width:991.98px){
+  .section-31 .arrow-container{display:none;}
+}
+
+/* Section 32 */
+.section-32{position:relative;}
+.section-32 .img-bg{
+  position:absolute; top:0; left:0; right:0; bottom:0; background-size:cover;
+  background-repeat:no-repeat; background-position:center;
+}
 
 /* Breadcrumb 01 */
 .breadcrumb-01 .top{

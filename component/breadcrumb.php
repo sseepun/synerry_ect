@@ -11,7 +11,7 @@
         </h6>
       </div>
     </div>
-    <div class="bottom">
+    <div class="bottom pt-2">
       <div class="container">
         <div class="wrapper" data-aos="fade-in" data-aos-delay="0">
           <?php foreach($breadcrumb as $b){?>

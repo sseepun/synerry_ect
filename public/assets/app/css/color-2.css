@@ -290,6 +290,7 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-15, .btn.btn-15:focus,
 .btn.btn-16, .btn.btn-16:focus,
 .btn.btn-20, .btn.btn-20:focus,
+.btn.btn-22, .btn.btn-22:focus,
 .btn.btn-24, .btn.btn-24:focus{background:#fecb00; color:#000000;}
 .btn.btn-25, .btn.btn-25:focus,
 .btn.btn-26, .btn.btn-26:focus{background:#000000; color:#fecb00;}
@@ -557,6 +558,11 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 /* Dropdown */
 .dropdown-icon{background:#fecb00; color:#000000;}
 .dropdown-icon.style-02{background:#d3a901; color:#ffffff;}
+
+/* List Header Calendar */
+.list-header-calendar .options .option.search em.icon{background:#fecb00; color:#000000;}
+.list-header-calendar .dropdown-icon{background:#fecb00; color:#000000;}
+.list-header-calendar .options #search{background:transparent; border-color:#fecb00;}
 
 /* List Header 02 */
 .list-header.style-02 .option > select{background:#000000!important; border-color:#fecb00;}
@@ -955,6 +961,7 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Special Card 20 */
 .ss-card-20 .wrapper > .date .wrapper{border-color:#fecb00;}
 .ss-card-20 .wrapper > .date .wrapper > .day{background:#fecb00; color:#000000;}
+.ss-card-20 .wrapper > .date .wrapper.style-02::after{background:#dddddd;}
 
 /* Special Card 21 */
 .ss-card-21 .wrapper > .date .wrapper{border-color:#fecb00;}

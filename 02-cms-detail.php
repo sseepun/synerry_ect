@@ -318,13 +318,10 @@
     include_once('component/popup-file-error-style-02.php');
   ?>
  
- 
-
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <script>
-    
     let btn = document.querySelector("#btnLink")
     let toolTip = document.querySelector('#toolTip')
 
@@ -334,7 +331,6 @@
         toolTip.style.opacity = '0'
       }, 1200);
     });
-
   </script>
 </body>
 </html>

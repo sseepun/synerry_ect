@@ -1236,6 +1236,9 @@ nav.footer-single-page .social-list .icon:hover{background:#159261; color:#fffff
 }
 .list-header.style-03 .btn-icon em{background:#fe4d01; color:#ffffff;}
 
+/* List Header Calendar */
+.list-header-calendar .options #search::placeholder{color:#69696a!important;}
+
 /* Select */
 select{background:#eeeeee!important;}
 
@@ -1566,6 +1569,7 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 .ss-card-20 .wrapper > .text-container .text > .card-bottom .wrapper > .icon em{color:#2e603b;}
 .ss-card-20 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}
 .ss-card-20 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
+.ss-card-20 .wrapper > .date .wrapper.style-02::after{background:#ffffff;}
 
 /* Special Card 21 */
 .ss-card-21 .wrapper > .date .wrapper > .day{background:#2e603c; color:#ffffff;}

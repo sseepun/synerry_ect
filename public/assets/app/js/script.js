@@ -1249,3 +1249,38 @@ function ssPageProcess(){
            });
        });
     }
+
+    var section32 = $('.section-32');
+    if(section32.length){
+        section32.each(function(){
+            let self = $(this);
+            new Swiper(self.find('.swiper-container'), {
+               loop: false,
+               spaceBetween: 20,
+               slidesPerView: 4,
+               coverflowEffect: {
+                   rotate: 0,
+                   modifier: 1,
+                   slideShadows: true,
+                   // depth: 0,
+               },
+               breakpoints: {
+                   1299.98: { slidesPerView:5 },
+                   991.98: { slidesPerView:3, spaceBetween:0 },
+                   767.98: { slidesPerView:3, spaceBetween:0 },
+                   575.98:{ slidesPerView:2 }
+               },
+               speed: 800,
+               grabCursor: true,
+             
+               navigation: {
+                prevEl: self.find('.btn-icon-prev'),
+                nextEl: self.find('.btn-icon-next'), 
+             },
+               pagination: {
+                el: self.find('.dots'),
+                clickable: true,
+            }, 
+           });
+       });
+    }

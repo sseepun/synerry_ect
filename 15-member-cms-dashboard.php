@@ -5,8 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
-  
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/sidebar-main-site.php'); ?>
  
   <div id="main" class="main-container">
@@ -183,7 +182,7 @@
                   <tbody>
                     <?php
                       foreach([
-                        'news-white', 'news-white', 'news-white', 'news-white', 'news-white'
+                        'document', 'document-link', 'document', 'document', 'document'
                       ] as $k){
                     ?>
                       <tr class="box-shadow style-02 mb-2">
@@ -204,7 +203,7 @@
                 </div>
               </div>
               <div class="btns jc-center">
-                <div href="#" class="btn btn-action btn-08">
+                <div href="#" class="btn btn-action br-1 btn-08">
                   <p>ดูทั้งหมด</p>
                 </div>
               </div>

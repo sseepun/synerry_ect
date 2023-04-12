@@ -7,6 +7,7 @@
 <body class="loading">
   <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
+
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -16,6 +17,7 @@
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/16.jpg';
     include('component/breadcrumb.php');
   ?>
+ 
 
   <section class="section-padding section-13">
     <div class="container">
@@ -26,88 +28,90 @@
       <div class="mt-2" data-aos="fade-up" data-aos-delay="350">
         <div class="grids">
           <div class="grid xl-50 lg-50 md-50 sm-100 mt-0">
-            <p class="fw-400">สำนักงานคณะกรรมการการเลือกตั้ง</p>
-            <div class="ss-card ss-card-34 box-shadow style-02 mt-2">
-              <div class="wrapper">
-                <div class="icon">
-                  <em class="fa-solid fa-location-dot"></em>
-                </div>
-                <div class="text-container">
-                  <p class="sm md-no-br fw-400 lh-sm">
-                    เลขที่ 120 ม.3 ชั้น 2 อาคารรัฐประศาสนภักดี ศูนย์ราชการ<br>เฉลิมพระเกียรติ 
-                    80 พรรษา 5 ธันวาคม 2550<br>ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพ 10210
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="ss-card ss-card-34 box-shadow style-02 mt-2">
-              <div class="wrapper">
-                <div class="icon">
-                  <em class="fa-solid fa-phone"></em>
-                </div>
-                <div class="text-container flex-column jc-center ai-start">
-                  <p class="sm fw-400 lh-sm">
-                    <span>โทรศัพท์</span> +66 0-2141-8888
-                  </p>
-                  <p class="sm fw-400 lh-sm">
-                    <span>โทรสาร</span> +66 0-2143-8510
-                  </p>
+            <div class="ss-box m-unset">
+              <p class="fw-400">สำนักงานคณะกรรมการการเลือกตั้ง</p>
+              <div class="ss-card ss-card-34 box-shadow style-02 mt-2">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-location-dot"></em>
+                  </div>
+                  <div class="text-container">
+                    <p class="sm md-no-br fw-400 lh-sm">
+                      เลขที่ 120 ม.3 ชั้น 2 อาคารรัฐประศาสนภักดี ศูนย์ราชการ<br>เฉลิมพระเกียรติ 
+                      80 พรรษา 5 ธันวาคม 2550<br>ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพ 10210
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="ss-card ss-card-34 box-shadow style-02 mt-2">
-              <div class="wrapper">
-                <div class="icon">
-                  <em class="fa-solid fa-envelope"></em>
-                </div>
-                <div class="text-container">
-                  <p class="sm fw-400">webmaster@ect.go.th</p>
+              <div class="ss-card ss-card-34 box-shadow style-02 mt-2">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-phone"></em>
+                  </div>
+                  <div class="text-container flex-column jc-center ai-start">
+                    <p class="sm fw-400 lh-sm">
+                      <span>โทรศัพท์</span> +66 0-2141-8888
+                    </p>
+                    <p class="sm fw-400 lh-sm">
+                      <span>โทรสาร</span> +66 0-2143-8510
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="ss-card ss-card-34 box-shadow style-02 mt-2 mb-3">
-              <div class="wrapper">
-                <div class="icon">
-                  <em class="fa-solid fa-share-nodes"></em>
+              <div class="ss-card ss-card-34 box-shadow style-02 mt-2">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-envelope"></em>
+                  </div>
+                  <div class="text-container">
+                    <p class="sm fw-400">webmaster@ect.go.th</p>
+                  </div>
                 </div>
-                <div class="text-container flex-column jc-center ai-start">
-                  <p class="fw-500">ติดตาม</p>
-                  <div class="social-list">
-                    <div class="d-inline-block item">
-                      <a class="icon" href="#">
-                        <img class="inactive" src="public/assets/app/images/icon/facebook.png" alt="Facebook">
-                        <img class="active" src="public/assets/app/images/icon/facebook-active.png" alt="Facebook">
-                      </a>
-                    </div>
-                    <div class="d-inline-block item">
-                      <a class="icon" href="#">
-                        <img class="inactive" src="public/assets/app/images/icon/line.png" alt="Line">
-                        <img class="active" src="public/assets/app/images/icon/line-active.png" alt="Line">
-                      </a>
-                    </div>
-                    <div class="d-inline-block item">
-                      <a class="icon sm" href="#">
-                        <img class="inactive" src="public/assets/app/images/icon/youtube.png" alt="Youtube">
-                        <img class="active" src="public/assets/app/images/icon/youtube-active.png" alt="Youtube">
-                      </a>
-                    </div>
-                    <div class="d-inline-block item">
-                      <a class="icon" href="#">
-                        <img class="inactive" src="public/assets/app/images/icon/twitter.png" alt="Twitter">
-                        <img class="active" src="public/assets/app/images/icon/twitter-active.png" alt="Twitter">
-                      </a>
-                    </div>
-                    <div class="d-inline-block item">
-                      <a class="icon" href="#">
-                        <img class="inactive" src="public/assets/app/images/icon/ig.png" alt="Instagram">
-                        <img class="active" src="public/assets/app/images/icon/ig-active.png" alt="Instagram">
-                      </a>
-                    </div>
-                    <div class="d-inline-block item">
-                      <a class="icon" href="#">
-                        <img class="inactive" src="public/assets/app/images/icon/tiktok.png" alt="Tiktok">
-                        <img class="active" src="public/assets/app/images/icon/tiktok-active.png" alt="Tiktok">
-                      </a>
+              </div>
+              <div class="ss-card ss-card-34 box-shadow style-02 mt-2 mb-3">
+                <div class="wrapper">
+                  <div class="icon">
+                    <em class="fa-solid fa-share-nodes"></em>
+                  </div>
+                  <div class="text-container flex-column jc-center ai-start">
+                    <p class="fw-500">ติดตาม</p>
+                    <div class="social-list">
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/facebook.png" alt="Facebook">
+                          <img class="active" src="public/assets/app/images/icon/facebook-active.png" alt="Facebook">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/line.png" alt="Line">
+                          <img class="active" src="public/assets/app/images/icon/line-active.png" alt="Line">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon sm" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/youtube.png" alt="Youtube">
+                          <img class="active" src="public/assets/app/images/icon/youtube-active.png" alt="Youtube">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/twitter.png" alt="Twitter">
+                          <img class="active" src="public/assets/app/images/icon/twitter-active.png" alt="Twitter">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/ig.png" alt="Instagram">
+                          <img class="active" src="public/assets/app/images/icon/ig-active.png" alt="Instagram">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/tiktok.png" alt="Tiktok">
+                          <img class="active" src="public/assets/app/images/icon/tiktok-active.png" alt="Tiktok">
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -116,7 +120,7 @@
           </div>
           <div class="grid xl-50 lg-50 md-50 sm-100 mt-0">
             <h5 class="color-02 fw-500">แบบฟอร์มติดต่อสอบถาม</h5>
-            <p class="fw-500 lh-sm">
+            <p class="fw-400 lh-sm">
               หากมีคำถาม คำติชม คำแนะนำ หรือพบปัญหากรุณากรอกแบบฟอร์มด้านล่างนี้ 
               ทางเจ้าหน้าที่จะดำเนินการตามคำขอโดยเร็วที่สุด
             </p>
