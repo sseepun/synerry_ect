@@ -1284,3 +1284,26 @@ function ssPageProcess(){
            });
        });
     }
+
+    // revolution
+    var revapi = jQuery('#rev_slider_1').show().revolution({
+        sliderLayout: 'auto',
+        navigation: {
+            arrows: {
+                enable: true,
+                style: "hesperiden",
+                hide_onleave: false
+            },
+            bullets: {
+                enable: true,
+                style: "hesperiden",
+                hide_onleave: false,
+                h_align: "center",
+                v_align: "bottom",
+                h_offset: 0,
+                v_offset: 20,
+                space: 5
+            }
+        },
+    });
+
