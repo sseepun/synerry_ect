@@ -1,5 +1,5 @@
 <?php
-  $submenu = '<div class="submenu-dropdown">
+  $submenu = '<div class="submenu-dropdown level-3">
       <div class="submenu-container">
         <div class="submenu-wrapper">
           <div class="submenu">
@@ -91,53 +91,48 @@
 
           <?php if($i != 4){?>
             <div class="submenu-dropdown <?php if($i>2 && $i != 4)echo 'anchor-right'; ?>">
-              <div class="submenu-container">
+              <div class="submenu-scroll">
+                 <div class="submenu-container">
                 <div class="submenu-wrapper">
                   <div class="submenu has-children">
-                    <a href="#">สถิติการเลือกตั้ง</a>
+                    <a href="#">รัฐธรรมนูญ</a>
                     <?= $submenu ?>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">ประกาศผลการเลือกตั้ง</a>
-                    <?= $submenu ?>
+                    <a href="#">พระราชบัญญัติประกอบรัฐธรรมนูญ</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
-                    <?= $submenu ?>
+                    <a href="#">พระราชบัญญัติ</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">ข้อมูลพรรคการเมือง</a>
-                    <?= $submenu ?>
+                    <a href="#">พระราชกฤษฎีกา</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
-                    <?= $submenu ?>
+                    <a href="#">ระเบียบ กกต.</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">สื่อประชาสัมพันธ์</a>
-                    <?= $submenu ?>
+                    <a href="#">ประกาศ กกต.</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">คู่มือปฏิบัติงาน</a>
-                    <?= $submenu ?>
+                    <a href="#">คำสั่ง กกต.</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">แบบฟอร์ม</a>
-                    <?= $submenu ?>
+                    <a href="#">คำวินิจฉัย กกต.</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">บริการสารสนเทศภายในหน่วยงาน</a>
-                    <?= $submenu ?>
+                    <a href="#">ประกาศนายทะเบียนพรรคการเมือง</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">Knowledge Management</a>
-                    <?= $submenu ?>
+                    <a href="#">ประกาศ สนง. กกต.</a>
                   </div>
                   <div class="submenu has-children">
-                    <a href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a>
-                    <?= $submenu ?>
+                    <a href="#">ร่างกฎหมายและการรับฟังความคิดเห็น</a>
+                  </div>
+                  <div class="submenu has-children">
+                    <a href="#">ประกาศรายชื่อกฎหมายและหน่วยงานที่รับผิดชอบ</a>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           <?php } ?>

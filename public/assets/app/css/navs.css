@@ -134,13 +134,13 @@ nav.topnav .menu > *:first-child::after{
 nav.topnav .menu:hover > *:first-child::after{left:0; right:unset; width:100%;}
 
 nav.topnav .submenu-dropdown{
-  position:absolute; top:100%; left:0;
+  position:absolute; top:100%; left:0; transform:translateY(1.5625rem);
   box-shadow:0px 4px 8px 4px rgba(0,0,0,.1); border-radius:0;
-  opacity:0; pointer-events:none; transition:opacity .5s, top .5s;
+  opacity:0; pointer-events:none; transition:opacity .3s, top .3s, transform .3s;
 }
 nav.topnav .submenu-dropdown.anchor-right{left:auto; right:0;}
 nav.topnav .submenu-dropdown.anchor-middle{transform:translateX(-50%);}
-nav.topnav .menu:hover > .submenu-dropdown{opacity:1; top:100%; pointer-events:auto;}
+nav.topnav .menu:hover > .submenu-dropdown{opacity:1; top:100%; pointer-events:auto; transform:translateY(0);}
 nav.topnav .submenu-container{position:relative; display:flex;}
 nav.topnav .submenu-wrapper{display:block; width:280px; padding:.5rem 0 1.5rem 0;}
 nav.topnav .submenu{position:relative; border-bottom:1px solid transparent;}
@@ -152,9 +152,9 @@ nav.topnav .submenu > *:first-child{
 
 nav.topnav .mega-menu-dropdown{
   position:absolute; top:100%; width:100%; left:0; right:0; border:1px solid transparent;
-  transition:opacity .5s, top .5s; display:block; opacity:0; pointer-events:none;
+  transition:opacity .3s, top .3s, transform .3s; display:block; opacity:0; pointer-events:none; transform:translateY(1.5625rem);
 }
-nav.topnav .menu:hover > .mega-menu-dropdown{opacity:1; pointer-events:auto;}
+nav.topnav .menu:hover > .mega-menu-dropdown{opacity:1; pointer-events:auto; transform:translateY(0);}
 nav.topnav .mega-menu-wrapper{
   position:relative; display:flex; width:100%; max-width:calc(1300px - 2rem); margin:0 auto;
 }
@@ -217,6 +217,10 @@ nav.topnav + .topnav-spacer{display:block; width:100%; height:4.25rem;}
   nav.topnav .logo p{display:none;}
 }
 
+nav.topnav .submenu > .submenu-dropdown.level-3{transform:all .3s; transform:translateX(1.5625rem);}
+nav.topnav .submenu:hover > .submenu-dropdown.level-3{transform:translateX(0);}
+nav.topnav .submenu-dropdown.anchor-right .submenu > .submenu-dropdown{transform:translateX(-1.5625rem);}
+nav.topnav .submenu-dropdown.anchor-right .submenu:hover > .submenu-dropdown{transform:translateX(0);}
 nav.topnav.style-02 .submenu > .submenu-dropdown{top:-.5125rem; left:100%;}
 nav.topnav.style-02 .submenu-dropdown.anchor-right .submenu > .submenu-dropdown{
   left:unset; right:100%;
