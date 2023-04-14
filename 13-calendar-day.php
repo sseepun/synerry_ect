@@ -75,12 +75,6 @@
           </div>
         </div>
       </div>
-      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="450">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          include('component/list-footer.php');
-        ?>
-      </div>
     </div>
   </div>
 

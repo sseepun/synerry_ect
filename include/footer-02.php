@@ -5,7 +5,7 @@
 </a>
 
 <!-- Footer -->
-<nav class="footer style-02">
+<nav class="footer style-02" data-aos="fade-in" data-aos-delay="0">
   <img class="pattern" src="public/assets/app/images/icon/11.png" alt="Pattern" />
   <div class="container">
     <div class="grids">

@@ -19,8 +19,10 @@
 
   <div class="section-padding">
     <div class="container">
-      <?php include('component/list-header-calendar-style-02.php'); ?>
-      <div class="calendar-header mt-6" data-aos="fade-up" data-aos-delay="0">
+      <div data-aos="fade-up" data-aos-delay="0">
+        <?php include('component/list-header-calendar-style-02.php'); ?>
+      </div>
+      <div class="calendar-header mt-6" data-aos="fade-up" data-aos-delay="150">
         <div class="text-wrapper">
           <p id="calendar-title" class="h3 fw-600">
             <span class="month">&nbsp;</span>
@@ -42,7 +44,7 @@
             <div class="btn btn-action btn-22 size-05 btn-white-theme">
               วัน
             </div>
-            <div class="btn btn-action btn-22 active size-05 btn-white-theme">
+            <div class="btn btn-action btn-22 size-05 btn-white-theme">
               สัปดาห์
             </div>
             <div class="btn btn-action btn-22 size-05 btn-white-theme">
@@ -55,19 +57,12 @@
           </div>
         </div>
       </div>
-      <div class="scroll-x-wrapper mt-4" data-simplebar data-aos="fade-up" data-aos-delay="300">
+      <div class="scroll-x-wrapper mt-4" data-aos="fade-up" data-aos-delay="300">
         <div class="calendar-wrapper">
           <div class="calendar-week">
             <div id="calendar-week"></div>
           </div>
         </div>
-      </div>
-      
-      <div class="mt-6 pt-4">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          include('component/list-footer.php');
-        ?>
       </div>
     </div>
   </div>
@@ -180,12 +175,12 @@
          
           info.el.innerHTML = `
             <div class="ss-card ss-card-70 color-dark"> 
-              <h6 class="color-dark fw-500 lh-xs">${event.title}</h6>
+              <h6 class="color-dark fw-400 lh-xs">${event.title}</h6>
               <div class="option mt-2">
                 <div class="icon">
                   <em class="fa-solid fa-calendar-days"></em>
                 </div>
-                <span class="p xs fw-500">
+                <span class="p xs fw-400">
                   เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
                 </span>
               </div>
@@ -193,7 +188,7 @@
                 <div class="icon">
                   <em class="fa-solid fa-location-dot"></em>
                 </div>
-                <p class="xs fw-500 lh-xs">องค์การบริหารส่วนตำบลเทอดไทย, จังหวัดเชียงราย</p>
+                <p class="xs fw-400 lh-xs">จังหวัดเชียงราย</p>
               </div>
             </div>
           `;

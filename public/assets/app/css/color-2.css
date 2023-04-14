@@ -406,6 +406,8 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
     background:#fecb00; color:#000000; border:2px solid #000000!important;
 }
 .calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#fecb00;}
+.calendar-week .fc-day.fc-today{background:#e4b703!important;}
+.calendar-week .fc-unthemed td{border-color:#fecb00;}
 
 /* Calendar */
 .calendar-style-02 .calendar-header table th.prev, 
@@ -423,6 +425,8 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .calendar-wrapper .calendar-header-title > .wrapper .time{border-color:#fecb00!important;}
 .calendar-day td.fc-axis.fc-widget-content:first-child{background:#fecb00; color:#000000;}
 .calendar-day .fc-unthemed td{border-color:#fecb00;}
+.calendar-day .fc-time-grid-event{background:#fecb00!important; border-color:#e4b703!important;}
+.calendar-day .fc-time-grid .fc-event .fc-title{color:#000000;}
 
 /* Calendar - Month */
 .calendar-month .fc-day-header{background:#fecb00; color:#000000;}
@@ -1119,6 +1123,10 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 
 /* Special Card 69 */
 .ss-card-69{background:#000000; color:#fecb00;}
+
+/* Special Card 70 */
+.ss-card-70, .ss-card-70 h6{color:#000000!important;}
+.ss-card-70 .option > .icon{color:#000000;}
 
 /* Special Card 73 */
 .ss-card-73 .number{background:#000000;}

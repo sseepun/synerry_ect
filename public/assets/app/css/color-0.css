@@ -329,6 +329,7 @@ html, body, table.table{color:#000000;}
 .calendar-week .custom-date{color:#000000;} 
 .calendar-week .custom-date.active{background:#063112; color:#ffffff;} 
 .calendar-week .fc-day-grid .fc-day.fc-widget-content{border-color:#bfe7d7!important;}
+.calendar-week .fc-day.fc-today{background:#dff3eb!important;}
 
 /* Calendar - Month */
 .calendar-month{border-color:#232323;}
