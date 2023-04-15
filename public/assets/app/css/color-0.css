@@ -1003,6 +1003,7 @@ nav.footer.style-11 .footer-bottom{background:#3d3f4d;}
 /* Footer Single Pages */ 
 nav.footer-single-page .social-list .tooltip{background:#159261; color:#ffffff;}
 nav.footer-single-page .social-list .icon:hover{background:#159261; color:#ffffff;}
+nav.footer-single-page .social-list .icon{color:#2e603b;}
 
 
 .page-loader.style-02  > .bg > *{background:#30906a;}

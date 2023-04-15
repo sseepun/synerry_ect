@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
 
   <div class="pos-relative">
@@ -14,6 +14,7 @@
           [ 'url' => '#', 'display' => 'หน้าหลัก' ],
           [ 'url' => '#', 'display' => 'สำนักงาน กกต. จังหวัด' ],
         ];
+        $style = 'style-02';
         include('component/breadcrumb-single-page.php');
       ?>
   </div>
