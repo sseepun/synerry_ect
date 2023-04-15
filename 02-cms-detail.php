@@ -15,7 +15,6 @@
     $breadcrumbTitle = 'ข่าวประชาสัมพันธ์';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/01.jpg';
     include('component/breadcrumb.php');
-    $tagContainerStyle = ''
   ?>
 
   <section class="section-padding">
@@ -99,7 +98,10 @@
             <?php }?>
           </div>
 
-          <?php include('component/tags-container.php'); ?>
+          <?php 
+            $tagContainerStyle = '';
+            include('component/tags-container.php'); 
+          ?>
         
           <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
@@ -158,7 +160,6 @@
             </div>
           </div>
        
-
           <?php 
             $videos = [
               ['image' => 'public/assets/app/images/content/14.jpg'],

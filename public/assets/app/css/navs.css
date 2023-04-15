@@ -121,7 +121,8 @@ nav.topnav .logo p{font-size:1.25rem; font-weight:500; transition:color .25s;}
 
 nav.topnav .menu-container{display:flex; align-items:center; margin:0 0 0 auto;}
 nav.topnav .menu{position:relative; display:block; padding:0 .875rem;}
-nav.topnav .menu:nth-child(5){position:static;}
+nav.topnav .menu:nth-child(2),nav.topnav .menu:nth-child(3),
+nav.topnav .menu:nth-child(4), nav.topnav .menu:nth-child(5){position:static;}
 nav.topnav .menu > *:first-child{
   position:relative; display:flex; align-items:center; font-size:1rem; font-weight:400;
   padding:1.325rem 0; white-space:nowrap; transition:background .25s, color .25s;
@@ -159,6 +160,7 @@ nav.topnav .mega-menu-wrapper{
   position:relative; display:flex; width:100%; max-width:calc(1300px - 2rem); margin:0 auto;
 }
 nav.topnav .mega-menu-content{width:25%; transition:color .25s;}
+nav.topnav .mega-menu-content.size-02{width:33.33%;}
 nav.topnav .mega-menu-content{border-right:1px solid transparent; padding:1rem .875rem 1rem 0;}
 nav.topnav .mega-menu-content > .mega-menu{
   display:flex; padding:.875rem .5rem; border-radius:.375rem;
