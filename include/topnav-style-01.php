@@ -78,10 +78,11 @@
     </a>
 
     <div class="menu-container hide-tablet" id="topnav-menu">
+      
       <?php
         foreach([
           'หน้าหลัก', 'กกต.', 'รวมกฏหมาย', 'ข่าวสาร', 'บริการข้อมูล', 'หน่วยงาน',
-          'ตอบข้อซักถาม/แจ้งเบาะเเส', 'จัดซื้อ/จัดจ้าง'
+          'จัดซื้อ/จัดจ้าง', 'ติดต่อเรา'
         ] as $i=>$d){
       ?>
         <div class="menu has-children" <?= $i==0? 'active': '' ?>>
@@ -125,6 +126,46 @@
                         <div class="dot-list"></div>
                       </div>
                       <a href="#">ข้อมูลผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a>
+                    </div>
+                    <!-- Level 3 -->
+                    <div class="mega-menu-level-3">
+                      <?=  $submenu ?>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ผู้บริหาร CIO</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ผังการบริหารงานด้าน ICT</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">วิสัยทัศน์ด้านเทคโนโลยีสารสนเทศและการสื่อสาร</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ปฏิทินกิจกรรมของ CIO</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ข่าวสารจาก CIO</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">นโยบายด้านเทคโนโลยีสารสนเทศ</a>
+                      </div>
                     </div>
                   </div>
                   <div class="mega-menu-content size-02">
@@ -331,22 +372,22 @@
                     <div class="mega-menu-content">
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/graph-black.png" />
-                          <img class="active" src="public/assets/app/images/icon/graph-white.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
                         </div>
                         <a href="#">สถิติการเลือกตั้ง</a>
                       </div>
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-02.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-02.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-02.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-02.svg" />
                         </div>
                         <a href="#">ประกาศผลการเลือกตั้ง</a>
                       </div>
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-03.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-03.svg" />
                         </div>
                         <a href="#">ศูนย์กลางข้อมูลเปิดเกี่ยวกับการเลือกตั้ง</a>
                       </div>
@@ -354,22 +395,22 @@
                     <div class="mega-menu-content">
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-04.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-04.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-04.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-04.svg" />
                         </div>
                         <a href="#">ศูนย์รวมข้อมูลเพื่อติดต่อราชการ</a>
                       </div>
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-05.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-05.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-05.svg" />
                         </div>
                         <a href="#">ข้อมูลพรรคการเมือง</a>
                       </div>
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-06.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-06.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-06.svg" />
                         </div>
                         <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
                       </div>
@@ -377,22 +418,22 @@
                     <div class="mega-menu-content">
                       <div class="mega-menu">
                         <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-07.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-07.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-07.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-07.svg" />
                         </div>
                         <a href="#">สื่อประชาสัมพันธ์</a>
                       </div>
                       <div class="mega-menu ">
                         <div class="icon xs">
-                          <img src="public/assets/app/images/icon/menu-black-08.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-08.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-08.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-08.svg" />
                         </div>
                         <a href="#">คู่มือปฏิบัติงาน</a>
                       </div>
                       <div class="mega-menu">
                         <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-09.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-09.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-09.svg" />
                         </div>
                         <a href="#">แบบฟอร์ม</a>
                       </div>
@@ -400,22 +441,22 @@
                     <div class="mega-menu-content">
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-10.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-10.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-10.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-10.svg" />
                         </div>
                         <a href="#">บริการสารสนเทศในหน่วยงาน</a>
                       </div>
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-11.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-11.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-11.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-11.svg" />
                         </div>
                         <a href="#">KHOWLEDEG MANAGEMENT</a>
                       </div>
                       <div class="mega-menu">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-12.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-12.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-12.svg" />
                         </div>
                         <a href="#">เอกสารการศึกษาส่วนบุคคลหลักสูตร พตส.</a>
                       </div>
@@ -427,49 +468,204 @@
 
           <!-- Dropdown Menu -->
           <?php if($i > 4 && $i <= 7){?>
-            <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
-              <div class="submenu-container">
-                 <div class="submenu-wrapper">
-                  <div class="submenu has-children">
-                    <a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a>
-                    <?= $submenu ?>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ศูนย์บริการเบิกจ่ายตรงสวัสดิการฯ</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ศูนย์การเรียนรู้ฯที่ 1</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ศูนย์การเรียนรู้ฯที่ 2</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ศูนย์การเรียนรู้ฯที่ 3</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ศูนย์การเรียนรู้ฯที่ 4</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ศูนย์การเรียนรู้ฯที่ 5</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ศูนย์ศึกษาประชาธิปไตย</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">สำนักงาน กกต. จังหวัด</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">ห้องสมุดอิเล็กทรอนิกส์</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">เครื่องลงคะแนนเลือกตั้ง</a>
-                  </div>
-                  <div class="submenu has-children">
-                    <a href="#">สหกรณ์ออมทรัพย์ องค์กรอิสระ จำกัด</a>
+            <?php if($i === 5) {?>
+              <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
+                <div class="submenu-container">
+                  <div class="submenu-wrapper">
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์บริการเบิกจ่ายตรงสวัสดิการฯ</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์การเรียนรู้ฯที่ 1</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์การเรียนรู้ฯที่ 2</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์การเรียนรู้ฯที่ 3</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์การเรียนรู้ฯที่ 4</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์การเรียนรู้ฯที่ 5</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์ศึกษาประชาธิปไตย</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">สำนักงาน กกต. จังหวัด</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ห้องสมุดอิเล็กทรอนิกส์</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">เครื่องลงคะแนนเลือกตั้ง</a>
+                      </div>
+                    </div>
+                    <div class="submenu has-children">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">สหกรณ์ออมทรัพย์ องค์กรอิสระ จำกัด</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            <?php } else if ($i === 6)  {?>
+              <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
+                <div class="submenu-container">
+                  <div class="submenu-wrapper">
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">แผน/ผลการจัดซื้อจัดจ้างรายเดือนรายปี</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">การเปิดเผยราคากลาง</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ข่าวประกวดราคา/สอบราคา</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ผลการเสนอราคา/ประกวดราคา</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <?php } else if ($i === 7) {?>
+              <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
+                <div class="submenu-container">
+                  <div class="submenu-wrapper">
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ติดต่อสำนักงาน</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">คำถามที่พบบ่อย (FAQ)</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">กระดานถามตอบ</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ตอบข้อซักถามพรรคการเมือง</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">ศูนย์รับเรื่องราวร้องทุกข์ คณะกรรมการการเลือกตั้ง</a>
+                      </div>
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">แจ้งเบาะแสทุจริตการเลือกตั้ง</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <?php } ?>
           <?php } ?>
         </div>
       <?php }?>
