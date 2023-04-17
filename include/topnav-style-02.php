@@ -23,7 +23,7 @@
 ?>
 
 <!-- Super Topnav -->
-<nav class="stopnav style-03 <?= $superTopNavStyle ?>  bg-white bcolor-sgray">
+<nav class="stopnav style-03 <?= !empty($superTopNavStyle)? $superTopNavStyle: '' ?> bg-white bcolor-sgray">
   <div class="wrapper">
     <div class="blocks blocks-main">
       <div class="blocks">

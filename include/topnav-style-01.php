@@ -66,7 +66,7 @@
 </nav>
 
 <!-- Topnav -->
-<nav class="topnav style-02 <?= $optionMenu ?>">
+<nav class="topnav style-02 <?= !empty($optionMenu)? $optionMenu: '' ?>">
   <div class="wrapper">
     <a class="logo" href="#">
       <div class="img-container">

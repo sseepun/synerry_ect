@@ -30,7 +30,9 @@
             <div id="prev-day-btn" class="btn-calendar">
               <em class="fa-solid fa-arrow-left"></em>
             </div>
-            <a class="text fw-400" href="#">วันนี้</a>
+            <div id="today-btn" class="text fw-400 c-pointer">
+              วันนี้
+            </div>
             <div id="next-day-btn" class="btn-calendar">
               <em class="fa-solid fa-arrow-right"></em>
             </div>
@@ -103,6 +105,7 @@
 
       // Calendar Day
       var calendarTitle = $('#calendar-title'),
+          todayBtn = $('#today-btn'),
           prevDayBtn = $('#prev-day-btn'),
           nextDayBtn = $('#next-day-btn');
 
@@ -138,7 +141,7 @@
             start: '2023-03-27T08:00:00',
             end: '2023-03-27T12:00:00',
             url: '#',
-          },{
+          }, {
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
             start: '2023-03-27T08:00:00',
             end: '2023-03-27T12:00:00',
@@ -187,6 +190,10 @@
       calendarDay.render();
 
       // Events
+      todayBtn.click(function(e){
+        e.preventDefault();
+        calendarDay.today();
+      });
       prevDayBtn.click(function(e){
         e.preventDefault();
         calendarDay.prev();
@@ -196,8 +203,6 @@
         calendarDay.next();
       });
     });
-
-   
   </script>
 </body>
 </html>

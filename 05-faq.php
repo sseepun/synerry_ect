@@ -80,8 +80,8 @@
                     </p>
                   </div>
                 </div>
-                <div class="scroll-x-wrapper mt-3" data-simplebar>
-                  <table class="table style-05 table-download cursor-pointer" data-aos="fade-up" data-aos-delay="450">
+                <div class="scroll-x-wrapper mt-3">
+                  <table class="table style-05 table-download cursor-pointer">
                     <tbody>
                       <?php
                         foreach([

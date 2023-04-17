@@ -10,7 +10,10 @@
   display:flex; justify-content:center; align-items:center; width:2.5rem; height:2.5rem; border:2px solid transparent;
   border-radius:.375rem; cursor:pointer; font-size:1rem; transition:background .25s, color .25s;
 }
-.calendar-header .wrapper > .text{margin:0 1rem; padding:.375rem; border-radius:.3125rem;}
+.calendar-header .wrapper > .text{
+  display:flex; align-items:center; justify-content:center; width:2.5rem; height:2.5rem;
+  margin:0 .5rem; padding:.375rem; border-radius:.3125rem;
+}
 .calendar-wrapper{
   display:block; width:100%; min-width:44rem; padding:0; overflow:hidden;
 }

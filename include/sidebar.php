@@ -1,5 +1,5 @@
 <!-- Member Pages - Mini Site -->
-<div class="sidebar <?= $sidebarStyle ?> open">
+<div class="sidebar <?= !empty($sidebarStyle)? $sidebarStyle: '' ?> open">
     <div data-aos="fade-in" data-aos-delay="0">
       <div class="logo-container">
         <div class="wrapper">
