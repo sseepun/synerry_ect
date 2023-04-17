@@ -743,11 +743,13 @@ nav.topnav .mega-menu-content{border-color:#e1e1e1;}
 nav.topnav .mega-menu-content > .mega-menu.active,
 nav.topnav .mega-menu-content > .mega-menu:hover{background:#30906a;}
 nav.topnav .mega-menu-content > .mega-menu:hover a{color:#ffffff;}
+nav.topnav .mega-menu-content > .mega-menu .dot-list{background:#000000;}
+nav.topnav .mega-menu-content > .mega-menu:hover .dot-list{background:#ffffff;}
 
 nav.topnav.style-02 .logo{color:#333333;}
 nav.topnav.style-02 .menu:hover > *:first-child{color:#30906a;}
 nav.topnav.style-02 .menu > *:first-child::after{background:#30906a;}
-nav.topnav.style-02 .submenu-dropdown{background:rgba(45,129,96,.92); color:#ffffff;}
+nav.topnav.style-02 .submenu-dropdown{background:#ffffff; color:#000000;}
 nav.topnav.style-02 .submenu:hover > *:first-child{background:#1c4d38; color:#fffffd;}
 nav.topnav.style-02 .submenu > .submenu-dropdown{background:#1f4e3a;}
 nav.topnav.style-02 .submenu > .submenu-dropdown .submenu:hover > *:first-child{background:#303032;}

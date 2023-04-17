@@ -166,6 +166,12 @@ nav.topnav .mega-menu-content > .mega-menu{
   display:flex; padding:.875rem .5rem; border-radius:.375rem;
   transition:background .25s; cursor:pointer;
 }
+nav.topnav .mega-menu-content > .mega-menu .dot{
+  display:flex; justify-content:center; align-items:center;  margin-right:1rem;
+}
+nav.topnav .mega-menu-content > .mega-menu .dot-list{
+  width:.375rem; height:.375rem; border-radius:50%; transition:background .25s;
+}
 nav.topnav .mega-menu-content:last-child{border-right:0;}
 nav.topnav .mega-menu-content > .mega-menu a{display:block; font-weight:500; line-height:.9375; transition:color .25s;}
 nav.topnav .mega-menu-content > .mega-menu .icon{margin-right:.75rem; position:relative;}

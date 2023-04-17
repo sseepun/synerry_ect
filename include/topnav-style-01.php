@@ -97,83 +97,72 @@
                 <div class="mega-menu-wrapper">
                   <div class="mega-menu-content size-02">
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/graph-black.png" />
-                        <img class="active" src="public/assets/app/images/icon/graph-white.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">คณะกรรมการการเลือกตั้ง</a>
                     </div>
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/menu-black-02.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-02.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">อำนาจหน้าที่ของกกต.</a>
                     </div>
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">เลขาธิการ กกต.</a>
                     </div>
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">สำนักงาน กกต.</a>
                     </div>
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">ข้อมูลผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a>
                     </div>
                   </div>
                   <div class="mega-menu-content size-02">
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/menu-black-04.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-04.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">ผู้ตรวจการเลือกตั้ง</a>
                     </div>
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/menu-black-05.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">โครงสร้างสำนักงาน</a>
                     </div>
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img class="inactive" src="public/assets/app/images/icon/menu-black-06.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">ทำเนียบผู้บริหาร</a>
                     </div>
                   </div>
                   <div class="mega-menu-content size-02">
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img src="public/assets/app/images/icon/menu-black-07.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-07.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">วิสัยทัศน์ / พันธกิจ / ยุทธศาสตร์</a>
                     </div>
                     <div class="mega-menu ">
-                      <div class="icon xs">
-                        <img src="public/assets/app/images/icon/menu-black-08.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-08.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">ค่านิยมร่วมขององค์กร</a>
                     </div>
                     <div class="mega-menu">
-                      <div class="icon">
-                        <img src="public/assets/app/images/icon/menu-black-09.png" />
-                        <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
+                      <div class="dot">
+                        <div class="dot-list"></div>
                       </div>
                       <a href="#">แผนปฏิบัติการประจำปี/การติดตามผล/รายงานความพึงพอใจ</a>
                     </div>
@@ -186,90 +175,78 @@
                   <div class="mega-menu-wrapper">
                     <div class="mega-menu-content size-02">
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/graph-black.png" />
-                          <img class="active" src="public/assets/app/images/icon/graph-white.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">รัฐธรรมนูญ</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-02.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-02.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชบัญญัติประกอบรัฐธรรมนูญ</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชบัญญัติ</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชกฤษฎีกา</a>
                       </div>
                     </div>
                     <div class="mega-menu-content size-02">
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-04.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-04.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ระเบียบ กกต.</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-05.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศ กกต.</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-06.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">คำสั่ง กกต.</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-06.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">คำวินิจฉัย กกต.</a>
                       </div>
                     </div>
                     <div class="mega-menu-content size-02">
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-07.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-07.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศนายทะเบียนพรรคการเมือง</a>
                       </div>
                       <div class="mega-menu ">
-                        <div class="icon xs">
-                          <img src="public/assets/app/images/icon/menu-black-08.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-08.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศ สนง. กกต.</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-09.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ร่างกฎหมายและการรับฟังความคิดเห็น</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-09.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศรายชื่อกฎหมายและหน่วยงานที่รับผิดชอบ</a>
                       </div>
@@ -282,76 +259,66 @@
                   <div class="mega-menu-wrapper">
                     <div class="mega-menu-content size-02">
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/graph-black.png" />
-                          <img class="active" src="public/assets/app/images/icon/graph-white.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ข่าวประชาสัมพันธ์</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-02.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-02.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">เรื่องเด่น กกต.</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-03.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-03.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ข่าว สนง.กกต.จว.</a>
                       </div>
                     </div>
                     <div class="mega-menu-content size-02">
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-04.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-04.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">CLIPPING NEWS</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-05.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ปฏิทินกิจกรรม</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon/menu-black-06.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-05.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ข่าวรับสมัครงาน</a>
                       </div>
                     </div>
                     <div class="mega-menu-content size-02">
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-07.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-07.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">บทความพิเศษ</a>
                       </div>
                       <div class="mega-menu ">
-                        <div class="icon xs">
-                          <img src="public/assets/app/images/icon/menu-black-08.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-08.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">การจัดทำ MOU กับหน่วยงานต่าง ๆ</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-09.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">องค์ความรู้การเลือกตั้ง</a>
                       </div>
                       <div class="mega-menu">
-                        <div class="icon">
-                          <img src="public/assets/app/images/icon/menu-black-09.png" />
-                          <img class="active" src="public/assets/app/images/icon/menu-white-09.png" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">วิดีโอ</a>
                       </div>
@@ -461,8 +428,7 @@
           <!-- Dropdown Menu -->
           <?php if($i > 4 && $i <= 7){?>
             <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
-              <div class="submenu-scroll">
-                 <div class="submenu-container">
+              <div class="submenu-container">
                  <div class="submenu-wrapper">
                   <div class="submenu has-children">
                     <a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a>
@@ -503,10 +469,8 @@
                   </div>
                 </div>
               </div>
-              </div>
             </div>
           <?php } ?>
-          
         </div>
       <?php }?>
     </div>
