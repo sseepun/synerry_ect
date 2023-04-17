@@ -1295,7 +1295,7 @@ function ssPageProcess(){
                 hide_onleave: false
             },
             bullets: {
-                enable: true,
+                enable: false,
                 style: "hesperiden",
                 hide_onleave: false,
                 h_align: "center",
@@ -1306,4 +1306,12 @@ function ssPageProcess(){
             }
         },
     });
+    $('#quote').on('revolution.slide.onchange', function(e) {
+        e.preventDefault;
+        self.find('#quote')
+        $('#quote').removeClass("text-animation");
+        $('#quote').addClass("text-animation");
+        console.log('hello');
+     
+    }, false);
 

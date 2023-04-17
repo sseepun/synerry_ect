@@ -14,8 +14,8 @@
         <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
         <div class="content-wrapper">
           <div class="container">
-            <div class="quote-container style-02 animate" style="--delay:.4s;">
-              <div class="wrapper" data-aos="fade-up" data-aos-delay="0">
+            <div id="quote" class="quote-container style-02 animate">
+              <div class="wrapper">
                 <h2 class="color-black-theme fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
                 <h1 class="color-black-theme fw-700 mt-1">
                   <span class="color-04 color-black-theme">ประชาธิปไตย</span><br />

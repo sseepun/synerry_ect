@@ -1,4 +1,4 @@
-<div class="page-loader style-02">
+<div class="page-loader style-02" style="z-index:99;">
   <div class="bg">
     <div></div><div></div>
   </div>
