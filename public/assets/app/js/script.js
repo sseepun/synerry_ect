@@ -1288,6 +1288,7 @@ function ssPageProcess(){
     // revolution
     var revapi = jQuery('#rev_slider_1').show().revolution({
         sliderLayout: 'auto',
+        autoHeight: 'on',
         navigation: {
             arrows: {
                 enable: true,
@@ -1306,12 +1307,5 @@ function ssPageProcess(){
             }
         },
     });
-    $('#quote').on('revolution.slide.onchange', function(e) {
-        e.preventDefault;
-        self.find('#quote')
-        $('#quote').removeClass("text-animation");
-        $('#quote').addClass("text-animation");
-        console.log('hello');
-     
-    }, false);
+  
 
