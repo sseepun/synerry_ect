@@ -27,7 +27,7 @@
       </div>
 
       <div class="faq-01 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300" >
-        <?php for($i=0; $i<10; $i++){?>
+        <?php for($i=0; $i<12; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">
             <div class="question box-shadow style-02">
               <div class="ftag style-02">
@@ -128,12 +128,107 @@
           </div>
         <?php }?>
       </div>
+
+      
       <div class="mt-6 pt-4">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
           include('component/list-footer.php');
         ?>
       </div>
+
+      <!-- FORM -->
+      <div class="form-container-01 bg-black-theme box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
+        <div class="grids">
+          <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
+            <h3 class="color-white-theme fw-600">แบบฟอร์มติดต่อสอบถาม</h3>
+            <p class="fw-400">
+              หากมีคำถาม คำติชม คำแนะนำ หรือพบปัญหากรุณากรอกแบบฟอร์มนี้<br>
+              ทางเจ้าหน้าที่จะคำเนินการตามคำขอโดยเร็วที่สุด
+            </p>
+            <p class="color-white-theme color-16 fw-400 mt-1">
+              กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน โดยช่องเฉพาะที่มีเครื่องหมาย
+              <span class="text-danger fw-400 ml-1">*</span>
+            </p>
+            <div class="img-container">
+              <img src="public/assets/app/images/content/02.png" alt="Message">
+            </div>
+          </div>
+          <div class="grid xl-50 lg-2-3 md-60 sm-100 mt-0">
+            <form class="form style-06" action="action.php" method="post">
+              <div class="grids">
+                <div class="grid sm-50 mt-0">
+                  <div class="form-group">
+                    <div class="form-input">
+                      <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
+                    </div>
+                  </div>
+                  <label class="text-danger style-02">กรุณากรอกชื่อ</label>
+                </div>
+                <div class="grid sm-50 mt-0">
+                  <div class="form-group">
+                    <div class="form-input">
+                      <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
+                    </div>
+                  </div>
+                  <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
+                </div>
+                <div class="grid sm-100 mt-2">
+                  <div class="form-group">
+                    <div class="form-input">
+                      <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
+                    </div>
+                  </div>
+                  <label class="text-danger style-02">กรุณากรอกอีเมล</label>
+                </div>
+                <div class="grid sm-100 mt-4">
+                  <div class="option cate">
+                    <select class="color-gray ui dropdown bg-style-02" required>
+                      <option value="">เลือกหัวข้อ*</option>
+                      <option value="1">ข่าวประชาสัมพันธ์ 1</option>
+                      <option value="2">ข่าวประชาสัมพันธ์ 2</option>
+                      <option value="3">ข่าวประชาสัมพันธ์ 3</option>
+                    </select>
+                    <div class="dropdown-icon">
+                      <em class="fa-solid fa-chevron-down"></em>
+                    </div>
+                  </div>
+                  <label class="text-danger style-02">กรุณาเลือกหัวข้อที่ต้องการติดต่อ</label>
+                </div>
+                <div class="grid sm-100 mt-2">
+                  <div class="form-group">
+                    <textarea class="style-02" name="message" rows="10" class="form-control" 
+                    required="" title="General Textarea" placeholder="พิมพ์ข้อความ*"></textarea>
+                  </div>
+                </div>
+                <div class="grid lg-50 md-100 sm-100 mt-4">
+                  <div class="captcha">
+                    <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
+                    <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
+                  </div>
+                </div>
+                <div class="grid d-flex ai-start lg-50 md-100 sm-100 mt-4">
+                  <div class="grids no-gap mt-4">
+                    <div class="grid sm-50 xs-50 mt-0">
+                      <div class="pr-1">
+                        <button type="submit" href="#" class="btn btn-white-theme btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
+                          ส่งข้อความ
+                        </button>
+                      </div>
+                    </div>
+                    <div class="grid sm-50 xs-50 mt-0">
+                      <button type="cancel" href="#" class="btn  btn-action width-full mw-auto btn-05">
+                        ยกเลิก
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 

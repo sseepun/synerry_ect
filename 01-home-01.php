@@ -10,7 +10,7 @@
 
   <section class="banner-04 rev_slider" id="rev_slider_1" data-version="5.4.1">
     <ul>
-      <li class="content-container" data-transition="random-premium">
+      <li class="content-container" data-transition="incube-horizontal">
         <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
         <div class="content-wrapper">
           <div class="container">
@@ -31,7 +31,7 @@
           <img src="public/assets/app/images/hero/05.png" class="Hero" />
         </div>
       </li>
-      <li class="content-container" data-transition="random-premium">
+      <li class="content-container" data-transition="incube-horizontal">
         <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
         <div class="content-wrapper">
           <div class="container">
@@ -52,7 +52,7 @@
           <img src="public/assets/app/images/hero/05.png" class="Hero" />
         </div>
       </li>
-      <li class="content-container" data-transition="random-premium">
+      <li class="content-container" data-transition="incube-horizontal">
         <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
         <div class="content-wrapper">
           <div class="container">
@@ -73,7 +73,7 @@
           <img src="public/assets/app/images/hero/05.png" class="Hero" />
         </div>
       </li>
-      <li class="content-container" data-transition="random-premium">
+      <li class="content-container" data-transition="incube-horizontal">
         <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
         <div class="content-wrapper">
           <div class="container">

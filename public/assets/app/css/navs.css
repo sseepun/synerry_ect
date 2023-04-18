@@ -177,10 +177,11 @@ nav.topnav .mega-menu-content .mega-menu .dot-list.style-02::after{
   position:absolute; content:""; top:1.12px; left:1.15px; width:.25rem; height:.25rem; border-radius:50%;
 }
 nav.topnav .mega-menu-content > .mega-menu-level-3{padding-left:1.5rem;}
+
 nav.topnav .mega-menu-content .mega-menu .dot-list.style-02::after{background:#ffffff;}
 
 nav.topnav .mega-menu-content:last-child{border-right:0;}
-nav.topnav .mega-menu-content > .mega-menu a{display:block; font-weight:500; line-height:.9375; transition:color .25s;}
+nav.topnav .mega-menu-content .mega-menu a{display:block; font-weight:500; line-height:.9375; transition:color .25s;}
 nav.topnav .mega-menu-content > .mega-menu .icon{margin-right:.75rem; position:relative;}
 nav.topnav .mega-menu-content > .mega-menu .icon > img{
  display:block; max-width:100%; max-height:100%; width:auto; height:1rem; transition:opacity .25s;

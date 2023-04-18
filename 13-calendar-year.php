@@ -104,12 +104,6 @@
         <div id="calendar-year"></div>
       </div>
       
-      <div class="mt-6 pt-4" data-aos="fade-up" data-aos-delay="0">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          include('component/list-footer.php');
-        ?>
-      </div>
     </div>
   </div>
 
@@ -154,6 +148,18 @@
         locale: 'th',
         selectable: true,
         dayMaxEvents: true,
+        events: [
+          {
+            id: 'a',
+            title: 'my event',
+            start: '2023-04-12'
+          },
+          {
+            id: 'a',
+            title: 'my event',
+            start: '2023-04-21'
+          },
+        ],
         datesSet: function(info){
           var date = new Date(info.view.currentStart);
           updateCalendarHeader(date.getFullYear(), true);
@@ -181,6 +187,9 @@
       });
 
       function calcCalendar(){
+        let monthEvent = $('.fc-multimonth-month').find('.fc-event-main');
+        console.log(monthEvent);
+        monthEvent.addClass('active');
         let monthSlots = $('#calendar-year').find('.fc-multimonth-month');
         monthSlots.filter('[data-date="'+thisMonth+'"]').addClass('active');
         monthSlots.each(function(){
@@ -190,13 +199,14 @@
             <div class="activity-list">
               <div class="wrapper">
                 <a href="#" class="p md fw-400 mr-2">
-                  รายการ <span class="color-04 fw-500">4</span> กิจกรรม 
+                  รายการ <span class="color-04 fw-500">${monthEvent.length} </span> กิจกรรม 
                 </a>
                 <div class="arrow"><em class="fa-solid fa-arrow-right color-04"></em></div>
               </div>
             </div>
           `);
         });
+  
       };
     });
   </script>

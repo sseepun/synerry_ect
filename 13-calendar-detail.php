@@ -22,6 +22,59 @@
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-2-3 sm-100">
+          <div class="ss-card ss-card-21 style-02 mb-3">
+            <div class="wrapper">
+              <div class="date">
+                <div class="wrapper">
+                  <p class="day fw-400">20</p>
+                  <p class="xs month fw-400">ก.ย. 65</p>
+                </div>
+              </div>
+              <div class="text-container">
+                <h4 class="title lh-sm fw-600">
+                  อบรมตามโครงการสร้างจิตสำนึกพลเมืองดีวิถีประชาธิปไตยประจำปี 2565 จังหวัดพังงา
+                </h4>
+                <div class="title-footer mt-4">
+                  <div class="wrapper">
+                    <div class="item">
+                      <div class="icon">
+                        <em class="fa-solid fa-calendar-days"></em>
+                        <span class="p sm ml-2 fw-500">วันที่ 20 กุมภาพันธ์ 2566</span>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="icon">
+                        <em class="fa-solid fa-clock"></em>
+                        <span class="p sm ml-2 fw-500">12:50 - 13:50</span>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="icon">
+                        <em class="fa-solid fa-building"></em>
+                        <span class="p sm ml-2 fw-500">หน่วยงานฝ่ายประชาสัมพันธ์</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrapper">
+                    <div class="item">
+                      <div class="icon">
+                        <em class="fa-solid fa-phone"></em>
+                        <span class="p sm ml-2 fw-500">2 141-8888 ต่อ 89</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrapper mt-1">
+                    <div class="icon">
+                      <em class="fa-solid fa-location-dot"></em>
+                      <span class="p sm ml-2 fw-500">
+                        ห้องประชุมเทศบาลตำบลสันมะค่า อำเภอป่าแดดจังหวัดเชียงราย
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="ss-card ss-card-21" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="date">

@@ -2585,6 +2585,13 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-21 .wrapper > .date .wrapper > .month{
   padding:.125rem 0; display:flex; justify-content:center; align-items:center;
 }
+.ss-card-21.style-02 .wrapper > .date .wrapper > .day, 
+.ss-card-21.style-02 .wrapper > .date .wrapper > .month{
+  padding:.125rem 0; display: flex; justify-content: center; align-items: center;
+}
+.ss-card-21.style-02 .wrapper > .date .wrapper::after{display:none;}
+
+
 .ss-card-21 .wrapper .text-container{width:calc(100% - 4rem); padding-left:1rem;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper{display:flex; flex-wrap:wrap; align-items:center;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .item{display:inline-block!important;}

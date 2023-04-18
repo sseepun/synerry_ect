@@ -1288,6 +1288,7 @@ function ssPageProcess(){
     // revolution
     var revapi = jQuery('#rev_slider_1').show().revolution({
         sliderLayout: 'auto',
+        delay: 1500,
         autoHeight: 'on',
         navigation: {
             arrows: {

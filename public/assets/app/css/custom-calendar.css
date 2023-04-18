@@ -14,6 +14,7 @@
   display:flex; align-items:center; justify-content:center; width:2.5rem; height:2.5rem;
   margin:0 .5rem; padding:.375rem; border-radius:.3125rem;
 }
+.calendar-header .wrapper > .text.size-02{width:4.5rem; height:2.5rem;}
 .calendar-wrapper{
   display:block; width:100%; min-width:44rem; padding:0; overflow:hidden;
 }

@@ -878,6 +878,7 @@ nav.sidenav .dropdown-toggle{color:#232323;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 nav.sidenav .options > .option-btn:hover > a{color:#0ab3de;}
 nav.sidenav .mega-menu-content .mega-menu{background:#2d8160; border-color:rgba(255,255,255,.3);}
+nav.sidenav .mega-menu-content > .mega-menu-level-3 .mega-menu{background:#1f4e3a; border-color:rgba(255,255,255,.3);}
 nav.sidenav .mega-menu-content .mega-menu a{color:#ffffff;}
 nav.sidenav .mega-menu-content .mega-menu:hover a{color:#fff102;}
 

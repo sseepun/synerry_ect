@@ -596,6 +596,10 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .faq-01 .faq > .question{border-color:#fecb00;}
 .faq-01 .faq .arrow{border-color:#fecb00!important;}
 .faq-01 .faq .answer-wrapper{border-color:#fecb00;}
+@media screen and (max-width:991.98px){
+  .faq-01 .faq > .question.style-02 .arrow > .wrapper,
+  .faq-01 .faq > .question.style-02 .answer-wrapper{border-top:1px solid;}
+}
 
 /* Faq 02 */
 .faq-02 .faq > .question{border-color:#fecb00;}

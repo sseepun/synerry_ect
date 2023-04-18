@@ -437,6 +437,11 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .faq-01 .faq > .question{border-color:#ffffff;}
 .faq-01 .faq .arrow{border-color:#ffffff!important;}
 .faq-01 .faq .answer-wrapper{border-color:#ffffff;}
+@media screen and (max-width:991.98px){
+  .faq-01 .faq > .question.style-02 .arrow > .wrapper,
+  .faq-01 .faq > .question.style-02 .answer-wrapper{border-top:1px solid;}
+}
+
 
 /* Faq 02 */
 .faq-02 .faq > .question{border-color:#ffffff;}

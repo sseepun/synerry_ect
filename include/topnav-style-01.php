@@ -121,15 +121,14 @@
                       </div>
                       <a href="#">สำนักงาน กกต.</a>
                     </div>
-                    <div class="mega-menu">
+                    <div class="mega-menu menu-dropdown pos-relative">
                       <div class="dot">
                         <div class="dot-list"></div>
                       </div>
-                      <a href="#">ข้อมูลผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a>
+                      <a>ข้อมูลผู้บริหารเทคโนโลยีสารสนเทศระดับสูง</a>
                     </div>
                     <!-- Level 3 -->
                     <div class="mega-menu-level-3">
-                      <?=  $submenu ?>
                       <div class="mega-menu">
                         <div class="dot">
                           <div class="dot-list style-02"></div>
@@ -373,7 +372,7 @@
                       <div class="mega-menu">
                         <div class="icon">
                           <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-01.svg" />
                         </div>
                         <a href="#">สถิติการเลือกตั้ง</a>
                       </div>
@@ -472,7 +471,7 @@
               <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
                 <div class="submenu-container">
                   <div class="submenu-wrapper">
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -480,7 +479,7 @@
                         <a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -488,7 +487,7 @@
                         <a href="#">ศูนย์บริการเบิกจ่ายตรงสวัสดิการฯ</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -496,7 +495,7 @@
                         <a href="#">ศูนย์การเรียนรู้ฯที่ 1</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -504,7 +503,7 @@
                         <a href="#">ศูนย์การเรียนรู้ฯที่ 2</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -512,7 +511,7 @@
                         <a href="#">ศูนย์การเรียนรู้ฯที่ 3</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -520,7 +519,7 @@
                         <a href="#">ศูนย์การเรียนรู้ฯที่ 4</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -528,7 +527,7 @@
                         <a href="#">ศูนย์การเรียนรู้ฯที่ 5</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -536,7 +535,7 @@
                         <a href="#">ศูนย์ศึกษาประชาธิปไตย</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -544,7 +543,7 @@
                         <a href="#">สำนักงาน กกต. จังหวัด</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -552,7 +551,7 @@
                         <a href="#">ห้องสมุดอิเล็กทรอนิกส์</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -560,7 +559,7 @@
                         <a href="#">เครื่องลงคะแนนเลือกตั้ง</a>
                       </div>
                     </div>
-                    <div class="submenu has-children">
+                    <div class="submenu">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>

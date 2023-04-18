@@ -32,7 +32,7 @@
             <div id="prev-week-btn" class="btn-calendar">
               <em class="fa-solid fa-arrow-left"></em>
             </div>
-            <a class="text fw-400" href="#">สัปดาห์นี้</a>
+            <a class="text fw-400 size-02" href="#">สัปดาห์นี้</a>
             <div id="next-week-btn" class="btn-calendar">
               <em class="fa-solid fa-arrow-right"></em>
             </div>

@@ -387,11 +387,11 @@
             ส่วนงานอื่นๆ
           </h4>
         </div>
-        <div class="ss-card ss-card-77 style-02 mt-5">
+        <div class="ss-card ss-card-77 mt-5">
           <div class="wrapper">
             <div class="image-container">
               <div class="ss-img square shine no-hover box-shadow style-05">
-                <div class="img-bg" style="background-image:url('public/assets/app/images/content/164.jpg')"></div>
+                <div class="img-bg" style="background-image:url('public/assets/app/images/content/166.jpg')"></div>
               </div>
             </div>
             <div class="text-container">
