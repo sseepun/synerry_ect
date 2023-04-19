@@ -21,7 +21,7 @@
 </div>
 
 <!-- Accessibility -->
-<nav class="side-panel <?= $sidePanelStyle ?> access-panel">
+<nav class="side-panel <?= !empty($sidePanelStyle)? $sidePanelStyle: '' ?> access-panel">
   <div class="wrapper">
     <div class="panel">
       <div class="panel-row">

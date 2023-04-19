@@ -49,7 +49,7 @@
                 <img src="public/assets/app/images/icon/app-01.png" alt="App Logo">
               </div>
               <div class="btn-link mt-1">
-                <p class="color-black fw-400">ดาวน์โหลดได้ที่<p/>
+                <p class="color-black color-black-theme fw-400">ดาวน์โหลดได้ที่<p/>
                 <a href="#">
                   <img class="google-play" src="public/assets/app/images/icon/google-play.png" alt="Google Link">
                 </a>
@@ -68,12 +68,12 @@
   <section class="section-28 size-03 section-padding">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/48.jpg');"></div>
     <div class="container">
-      <div class="ss-title style-03 d-block color-black-theme aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+      <div class="ss-title style-03 d-block color-black-theme" data-aos="fade-up" data-aos-delay="0">
         <h3 class="fw-500 lh-xs">
           <span class="h2 color-21 fw-400">กกต</span> พร้อมให้บริการข้อมูล<br>การเลือกตั้งแก่ภาคประชาชนทุกภาคส่วน
         </h3>
       </div>
-      <p class="color-24 mt-6" style="text-indent:20px;">
+      <p class="color-24 color-black-theme mt-6" style="text-indent:20px;" data-aos="fade-up" data-aos-delay="150">
         คณะกรรมการการเลือกตั้ง และสำนักงานคณะกรรมการการเลือกตั้ง จึงได้กำหนดแนวทางและวิธีการพัฒนาสื่อสารสนเทศ เพื่อเป็นเครื่องมือสร้างความรู้ความเข้าใจเกี่ยวกับการปกครอง
         ระบอบประชาธิปไตย อันมีพระมหากษัตริย์ทรงเป็นประมุขแก่ประชาชน พร้อมทั้งกำหนดแนวทางวิธีการพัฒนาช่องทางการสร้างความรู้ความเข้าใจแก่ประชาชนผ่านสื่อสารสนเทศ เพื่อให้
         วิทยากรได้รับข้อมูลข่าวสาร สาระความรู้อย่างต่อเนื่อง และมีสื่อสนับสนุนการถ่ายทอดความรู้ต่อกลุ่มเป้าหมายที่มีความหลากหลาย ผ่านทางแอปพลิเคชัน Civic Education บนโทรศัพท์
@@ -85,18 +85,18 @@
     </div>
   </section>
 
-  <section class="section-28 size-02">
+  <section class="section-28 size-02" data-aos="fade-up" data-aos-delay="0">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/02.png');"></div>   
   </section>
 
   <section class="section-padding">
     <div class="container">
-      <h5 class="sm color-21 fw-300 mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+      <h5 class="sm color-21 fw-300 mt-5" data-aos="fade-up" data-aos-delay="0">
         <span class="color-black fw-400">แอปพลิเคชัน CIVIC</span> เพื่ออำนวยความสะดวกแก่ผู้มีสิทธิเลือกตั้งในการเข้าถึงข้อมูลผู้สมัครรับเลือกตั้ง 
         ข้อมูลพรรคการเมือง ข้อมูลที่เผยแพร่ประชาสัมพันธ์การเลือกตั้ง รวมทั้งข้อมูลอื่นๆ ที่เกี่ยวข้อง 
         ในการเลือกตั้งสมาชิกสภาผู้แทนราษฎร 2562 นี้ และที่จะมีขึ้นในครั้งต่อๆ ไป
       </h5>
-      <div class="ss-card ss-card-73 theme-02 aos-init aos-animate" data-aos="fade-up" data-aos-delay="450">
+      <div class="ss-card ss-card-73 theme-02" data-aos="fade-up" data-aos-delay="150">
         <div class="wrapper">
           <div class="number">1</div>
           <p class="text-container fw-300">
@@ -105,7 +105,7 @@
           </p>
         </div>
       </div>
-      <div class="ss-card ss-card-73 theme-02 aos-init aos-animate" data-aos="fade-up" data-aos-delay="450">
+      <div class="ss-card ss-card-73 theme-02" data-aos="fade-up" data-aos-delay="300">
         <div class="wrapper">
           <div class="number">2</div>
           <p class="text-container fw-300">
@@ -114,7 +114,7 @@
           </p>
         </div>
       </div>
-      <div class="ss-card ss-card-73 theme-02 aos-init aos-animate" data-aos="fade-up" data-aos-delay="450">
+      <div class="ss-card ss-card-73 theme-02" data-aos="fade-up" data-aos-delay="450">
         <div class="wrapper ai-center">
           <div class="number">3</div>
           <p class="text-container fw-300">
@@ -122,7 +122,7 @@
           </p>
         </div>
       </div>
-      <div class="ss-card ss-card-73 theme-02 aos-init aos-animate" data-aos="fade-up" data-aos-delay="450">
+      <div class="ss-card ss-card-73 theme-02" data-aos="fade-up" data-aos-delay="600">
         <div class="wrapper ai-center">
           <div class="number">4</div>
           <p class="text-container fw-300">
@@ -148,39 +148,53 @@
 
   <section class="section-32 section-padding">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/49.jpg');"></div>  
+    <div class="shadow-wrapper">
+      <img src="public/assets/app/images/pattern/shadow-02.png" alt="Shadow">
+    </div>
     <div class="container">
-      <h5 class="sm color-white text-center mt-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+      <h5 class="sm color-white text-center mt-6" data-aos="fade-up" data-aos-delay="0">
         การใช้งานแอปพลิเคชันพลเมืองศึกษา
       </h5> 
-      <div class="swiper-container mt-5" data-aos="fade-up" data-aos-delay="300">
-        <div class="swiper-wrapper">
-          <?php foreach($mobileScreen as $d){?>
-            <div class="swiper-slide">
-            <div class="mobile-screen">
-              <div class="ss-card ss-card-78">
-                <div class="ss-img shine style-02 vertical-05 no-hover">
-                  <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
+      <div class="swiper-main-container" data-aos="fade-up" data-aos-delay="150">
+        <div class="swiper-container mt-5">
+          <div class="swiper-wrapper">
+            <?php foreach($mobileScreen as $d){?>
+              <div class="swiper-slide">
+                <div class="mobile-screen">
+                  <div class="ss-card ss-card-78">
+                    <div class="ss-img shine style-02 vertical-05 no-hover">
+                      <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
+                    </div>
+                  </div>
+                  <div class="shadow-mobile">
+                    <img src="public/assets/app/images/pattern/shadow-03.png" alt="Shadow Mobile">
+                  </div>
                 </div>
-              </div>
-            </div>
+             </div>
+            <?php }?>
           </div>
-          <?php }?>
-        </div>
-        <div class="bullet mt-4" data-aos="fade-up" data-aos-delay="400">
-          <div class="container">
-            <div class="bullet-wrapper">
-              <div class="dots"></div>
-            </div>
-          </div>  
+          <div class="bullet mt-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="container">
+              <div class="bullet-wrapper">
+                <div class="dots"></div>
+              </div>
+            </div>  
+          </div>
         </div>
         <div class="arrow-container">
-        <div class="arrow btn-icon-prev">
-          <img src="public/assets/app/images/icon/chevron-left.png" alt="Chevron Left">
-        </div>
-        <div class="arrow btn-icon-next">
-          <img src="public/assets/app/images/icon/chevron-right.png" alt="Chevron Right">
+          <div class="arrow btn-icon-prev">
+            <img src="public/assets/app/images/icon/chevron-left.png" alt="Chevron Left">
+          </div>
+          <div class="arrow btn-icon-next">
+            <img src="public/assets/app/images/icon/chevron-right.png" alt="Chevron Right">
+          </div>
         </div>
       </div>
+      <div class="pos-relative mt-6" style="z-index:2;">
+        <?php 
+          $footerStyle = 'style-02';
+          include_once('include/footer-single-page.php'); 
+        ?>
       </div>
     </div>
   </section>

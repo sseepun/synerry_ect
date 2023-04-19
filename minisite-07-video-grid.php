@@ -281,17 +281,15 @@
           <a class="ss-card ss-card-61 mb-3" href="#">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-              <div class="btn-play">
+              <div class="btn-video">
                 <div class="img-container">
-                  <img class="inactive" src="public/assets/app/images/icon/btn-play-inactive.png" alt="Icon Inactive">
-                  <img class="active" src="public/assets/app/images/icon/btn-play-active.png" alt="Icon active">
+                  <img src="public/assets/app/images/icon-svg/play-square.svg" alt="Video Icon">
                 </div>
               </div>
-              <div class="filter style-02 bgcolor-02">
-                <div class="wrapper">
-                  <div class="btn btn-action style-05 btn-24">
-                    <em class="fa-solid fa-arrow-right"></em>
-                  </div>
+              <div class="filter-04"></div>
+              <div class="btn-scale">
+                <div class="btn btn-action style-06 btn-27">
+                  <em class="fa-solid fa-arrow-right"></em>
                 </div>
               </div>
             </div>
@@ -320,7 +318,7 @@
                   <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
                 </div>
               </div>
-              <div class="card-line style-02"></div>
+              <div class="card-line style-03"></div>
             </div>
           </a>
         </div>
@@ -329,6 +327,7 @@
       <div class="mt-6 pt-4">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
+          $style = 'style-02';
           include('component/list-footer.php');
         ?>
       </div>

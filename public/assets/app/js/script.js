@@ -1265,9 +1265,9 @@ function ssPageProcess(){
                    // depth: 0,
                },
                breakpoints: {
-                   1299.98: { slidesPerView:5 },
-                   991.98: { slidesPerView:3, spaceBetween:0 },
-                   767.98: { slidesPerView:3, spaceBetween:0 },
+                   1299.98: { slidesPerView:4 },
+                   991.98: { slidesPerView:3 },
+                   767.98: { slidesPerView:3 },
                    575.98:{ slidesPerView:2 }
                },
                speed: 800,

@@ -126,13 +126,12 @@
                                       <div class="img-container">
                                         <div class="ss-img">
                                           <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i+0)%3+3 ?>.jpg');"></div>
-                                          <div class="filter style-02 bgcolor-02">
-                                            <div class="wrapper">
-                                              <div class="btn btn-action style-05 btn-24">
-                                                <em class="fa-solid fa-arrow-right"></em>
-                                              </div>
+                                          <div class="filter-04"></div>
+                                          <div class="btn-scale">
+                                            <div class="btn btn-action style-06 btn-27">
+                                              <em class="fa-solid fa-arrow-right"></em>
                                             </div>
-                                          </div>
+                                           </div>
                                         </div>
                                       </div>
                                       <div class="text-container">
@@ -162,9 +161,8 @@
                                             <em class="fa-solid fa-arrow-right"></em>
                                           </div>   
                                         </div>
-                                          <div class="card-line style-02"></div>
+                                          <div class="card-line style-03"></div>
                                         </div>
-                                        
                                       </div>
                                     </div>
                                   </a>
@@ -304,6 +302,12 @@
           <a class="ss-card ss-card-40" href="#">
             <div class="ss-img square-02">
               <div class="img-bg" style="background-image:url('public/assets/app/images/content/95.jpg');"></div>
+              <div class="filter-04"></div>
+              <div class="btn-scale">
+                <div class="btn btn-action style-06 btn-27">
+                  <em class="fa-solid fa-arrow-right"></em>
+                </div>
+              </div>
             </div>
             <div class="text-container">
               <div class="date-container">
@@ -338,6 +342,12 @@
                     <div class="image-container">
                       <div class="ss-img">
                         <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
+                        <div class="filter-04"></div>
+                        <div class="btn-scale">
+                          <div class="btn btn-action style-06 btn-27">
+                            <em class="fa-solid fa-arrow-right"></em>
+                          </div>
+                        </div>
                       </div>
                       <div class="date-container">
                         <div class="date-wrapper color-white">

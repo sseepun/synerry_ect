@@ -1,5 +1,5 @@
 <?php if(!empty($listFooter)){?>
-  <div class="list-footer-02">
+  <div class="list-footer-02 <?= !empty($style)? $style: '' ?>">
     <?php if(in_array('total', $listFooter)){?>
       <div class="option">
         <p class="color-gray fw-500">

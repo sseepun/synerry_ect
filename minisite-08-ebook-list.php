@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
@@ -293,7 +293,7 @@
           <div class="grid xl-100 lg-100 md-50">
           <a class="ss-card ss-card-64 mb-3" href="#">
             <div class="wrapper">
-            <div class="img-container">
+              <div class="img-container">
                 <div class="ebook-container">
                   <div class="wrapper">
                     <img src="<?= $d['image']?>" alt="Ebook">
@@ -302,13 +302,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="filter style-02 bgcolor-02">
-                <div class="wrapper">
-                  <div class="btn btn-action style-05 btn-24">
+                <div class="filter-04"></div>
+                <div class="btn-scale">
+                  <div class="btn btn-action style-06 btn-27">
                     <em class="fa-solid fa-arrow-right"></em>
                   </div>
                 </div>
-              </div>
               </div>
               <div class="text-container box-shadow style-02">
                 <div class="top">
@@ -337,7 +336,7 @@
                     <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
                   </div>
                 </div>
-                <div class="card-line style-02"></div>
+                <div class="card-line style-03"></div>
               </div>
             </div>
           </a>

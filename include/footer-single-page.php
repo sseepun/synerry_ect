@@ -1,6 +1,6 @@
-<nav class="footer-single-page">
+<nav class="footer-single-page <?= !empty($footerStyle)? $footerStyle: '' ?>">
   <div class="social-list">
-    <span class="fw-500 mr-1">แบ่งปัน:</span>
+    <span class="title fw-500 mr-1">แบ่งปัน:</span>
     <div class="d-inline-block">
       <a class="icon" href="#">
         <em class="fa-brands fa-facebook-f"></em>

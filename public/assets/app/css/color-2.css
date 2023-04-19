@@ -364,6 +364,7 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .card-line.style-01{background:#fecb00;}
 .card-line.style-01.card-line-black-theme{background:#e4b703;}
 .card-line.style-02{background:#fecb00;}
+.card-line.style-03{background:#fecb00;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -912,6 +913,10 @@ select.bg-style-02{background:#000000!important; border-color:#000000!important;
 /* Section 31 */
 .section-31 .swiper-pagination-bullet{background:#fecb00;}
 .section-31 .swiper-pagination-bullet-active{background:#e4b703;}
+
+/* Section 32 */
+.section-32 .swiper-pagination-bullet{background:#fecb00;}
+.section-32 .swiper-pagination-bullet-active{background:#e4b703;}
 
 /* Special Tag */
 .ss-tags.style-02{border-color:#fecb00;}

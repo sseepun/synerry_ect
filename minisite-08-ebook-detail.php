@@ -10,12 +10,13 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'วิดีโอ' ],
-      [ 'url' => '#', 'display' => 'ดร.ฐิติเชฏฐ์ นุชนาฏ กรรมการการเลือกตั้ง' ]
+      [ 'url' => '#', 'display' => 'สื่อประชาสัมพันธ์' ],
+      [ 'url' => '#', 'display' => 'คู่มือการจัดทำงบรายรับรายจ่าย' ],
     ];
-    $breadcrumbTitle = 'วิดีโอ';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/30.jpg';
+    $breadcrumbTitle = 'สื่อประชาสัมพันธ์';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/31.jpg';
     $formContainer = false;
+    $sectionOptions = [ 'option-01', 'views'];
     include('component/breadcrumb-style-02.php');
   ?>
 
@@ -65,7 +66,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="book-container mt-3" data-aos="fade-up" data-aos-delay="150">
+                <div class="book-container mt-3">
                   <div class="wow-book" id="wow-book">
                     <?php for($i=0; $i<6; $i++){?>
                       <div><img class="img" src="public/assets/app/images/content/15<?= ($i%2+2) ?>.jpg" alt="Page <?= $i ?>" /></div>
@@ -211,27 +212,27 @@
               <div class="popular-search-container theme-02 box-shadow style-02 mt-6" data-aos="fade-up" data-aos-delay="150">
                 <p class="h5 fw-600 color-black-theme">แท็กยอดนิยม</p>
                 <div class="mt-1">
-                  <div class="ss-tags style-02">
+                  <div class="ss-tags style-03">
                     <div class="tag">
                       <span class="title">ข่าวประกาศ</span>
                     </div>
                   </div>
-                  <div class="ss-tags style-02">
+                  <div class="ss-tags style-03">
                     <div class="tag">
                       <span class="title">อบรมหลักสูตร</span>
                     </div>
                   </div>
-                  <div class="ss-tags style-02">
+                  <div class="ss-tags style-03">
                     <div class="tag">
                       <span class="title">การเลือกตั้ง</span>
                     </div>
                   </div>
-                  <div class="ss-tags style-02">
+                  <div class="ss-tags style-03">
                     <div class="tag">
                       <span class="title">รายงานการจัดซื้อจัดจ้าง</span>
                     </div>
                   </div>
-                  <div class="ss-tags style-02">
+                  <div class="ss-tags style-03">
                     <div class="tag">
                       <span class="title">ระดับชำนาญการพิเศษ</span>
                     </div>

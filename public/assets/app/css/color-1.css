@@ -135,6 +135,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .card-line.style-01{background:#ffffff;}
 .card-line.style-01.card-line-black-theme{background:#dddddd;}
 .card-line.style-02{background:#ffffff;}
+.card-line.style-03{background:#ffffff;}
 
 /* Calendar */
 .calendar-style-02 .calendar-header table th.prev, 
@@ -786,6 +787,10 @@ select.style-02{background:#ffffff!important;}
 /* Section 31 */
 .section-31 .swiper-pagination-bullet{background:#ffffff;}
 .section-31 .swiper-pagination-bullet-active{background:#dddddd;}
+
+/* Section 32 */
+.section-32 .swiper-pagination-bullet{background:#ffffff;}
+.section-32 .swiper-pagination-bullet-active{background:#dddddd;}
 
 /* Special Tag */
 .ss-tags.style-02{border-color:#ffffff;}
