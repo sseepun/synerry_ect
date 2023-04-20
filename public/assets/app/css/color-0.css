@@ -350,11 +350,12 @@ html, body, table.table{color:#000000;}
 .calendar-month .fc-day-number{background:#2e603c;}
 .calendar-month .fc-day-top.fc-other-month > span{background:#eeeeee; color:#000000;}
 .calendar-month .fc-unthemed td.fc-today > span{color:#ffffff;}
-.calendar-month .custom-event > .table-view{background:#f87037; color:#ffffff;}
+.calendar-month .custom-event > .table-view{color:#ffffff;}
 .calendar-month .custom-event.type-1 > .table-view{background:#ffffff!important;}
 .calendar-month .custom-event.type-2 > .table-view{background:#ffffff;}
+.calendar-month .custom-event:hover > .table-view{background:#dff3ea;}
 .calendar-month a.fc-more{color:#000000;}
-.calendar-month a.fc-more:hover{color:#f87037;}
+.calendar-month a.fc-more:hover{color:#30906a;}
 .calendar-month .fc-day.fc-today,
 .calendar-month .fc-day:hover{background:#dff3eb;}
 .calendar-month .fc-day.fc-other-month{background:#dcdcdc!important;}
