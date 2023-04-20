@@ -137,6 +137,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .card-line.style-02{background:#ffffff;}
 .card-line.style-03{background:#ffffff;}
 
+
 /* Calendar */
 .calendar-style-02 .calendar-header table th.prev, 
 .calendar-style-02 .calendar-header table th.next{border-color:#ffffff;}
@@ -144,7 +145,6 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .calendar-style-02 .months-container table.month .day-header{border-color:#ffffff;}
 .calendar-style-02 .calendar-footer > .wrapper-container p::after,
 .calendar-style-02 .calendar-footer > .wrapper-container p::before{color:#ffffff!important;}
-
 
 /* Calendar Header */
 .calendar-header .wrapper > .text{background:#ffffff; color:#000000;}
@@ -170,6 +170,28 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .calendar-week .custom-date.active{background:#ffffff; color:#000000;}
 .calendar-week .fc-day-grid .fc-day.fc-widget-content{border-color:#ffffff!important;}
 .calendar-week .fc-day.fc-today{background:#ffffff!important;}
+
+/* Calendar - Year */
+.calendar-year .fc-multimonth-month{border:3px solid #ffffff;}
+.calendar-year .fc-multimonth-month .fc-multimonth-title{
+  background:rgba(0,0,0,.06); color:#000000;
+}
+.calendar-year .fc-multimonth-month.active .fc-multimonth-title{
+  background:rgba(0,0,0,.24); color:#000000;
+}
+.calendar-year .fc-col-header-cell-cushion{color:#000000;}
+.calendar-year .fc-multimonth-month{box-shadow:0px 2px 6px 4px rgba(255,255,255,.04);}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-end,
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-start,
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{background:#000000;}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-day .fc-daygrid-day-number{color:#000000;}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-day.active .fc-daygrid-day-number{color:#ffffff;}
+.calendar-year .fc-popover{border-left-color:#000000;}
+.calendar-year .fc-popover .fc-popover-header .fc-popover-title{color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event{background:transparent; color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event *{color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event:hover{background:rgba(0,0,0,.06);}
+
 
 /* Client 02 */
 .client-02 .swiper-pagination-bullet{background:#ffffff;}

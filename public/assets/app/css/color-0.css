@@ -296,6 +296,7 @@ html, body, table.table{color:#000000;}
 .checkbox-set input:checked ~ .checkmark{background:#2e603b;}
 .checkbox-set  .bg-color{background:#c7dece!important;}
 
+
 /* Calendar */
 .calendar-header .wrapper > .text{background:#eeeeee;}
 .calendar-header .wrapper > .btn-calendar{border-color:2e603c!important; color:#ffffff; background:#2e603c;}
@@ -305,6 +306,15 @@ html, body, table.table{color:#000000;}
 .calendar-style-02 .months-container .month-container .month-title{background:#bfe7d7;}
 .calendar-style-02 .months-container table.month .day-header{border-color:#eeeeee;}
 .calendar-style-02 .calendar-footer > .wrapper-container .arrow-icon > em{color:#30906a;}
+.calendar-style-02 .calendar-header table th.next, 
+.calendar-style-02 .calendar-header table th.prev{color:#8c59b7;}
+.calendar-style-02 .calendar-header .year-title{color:#000000;}
+.calendar-style-02 table.month th.month-title{color:#000000;}
+.calendar-style-02 table.month td.day .day-content:hover{background:#30906a; color:#ffffff;}
+.calendar-style-02 .months-container table.month .day-header{color:#30906a;}
+.calendar-style-02 .calendar-header table th.prev, .calendar-style-02 .calendar-header table th.next{
+  border-color:#303031; color:#063112;
+}
 
 /* Calendar - Day */
 .calendar-day .fc-slats{
@@ -350,16 +360,21 @@ html, body, table.table{color:#000000;}
 .calendar-month .fc-day.fc-other-month{background:#dcdcdc!important;}
 .calendar-month .fc-event-container{background:#ffffff;}
 
-/* Calendar Style 02 */
-.calendar-style-02 .calendar-header table th.next, 
-.calendar-style-02 .calendar-header table th.prev{color:#8c59b7;}
-.calendar-style-02 .calendar-header .year-title{color:#000000;}
-.calendar-style-02 table.month th.month-title{color:#000000;}
-.calendar-style-02 table.month td.day .day-content:hover{background:#30906a; color:#ffffff;}
-.calendar-style-02 .months-container table.month .day-header{color:#30906a;}
-.calendar-style-02 .calendar-header table th.prev, .calendar-style-02 .calendar-header table th.next{
-  border-color:#303031; color:#063112;
-}
+/* Calendar - Year */
+.calendar-year .fc-multimonth-month.active{border:3px solid #30906a;}
+.calendar-year .fc-multimonth-month .fc-multimonth-title{background:#bfe7d7; color:#000000;}
+.calendar-year .fc-multimonth-month.active .fc-multimonth-title{background:#30906a; color:#ffffff;}
+.calendar-year .fc-col-header-cell-cushion{color:#30906a;}
+.calendar-year .fc-multimonth-month{box-shadow:0px 2px 6px 4px rgba(0,0,0,.04);}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-end,
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-start,
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{background:#30906a;}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-day.active .fc-daygrid-day-number{color:#ffffff;}
+.calendar-year .fc-popover{border-left-color:#30906a;}
+.calendar-year .fc-popover .fc-popover-body .fc-event{background:transparent; color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event *{color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event:hover{background:#dff3ea;}
+
 
 /* Dropdown Icon */
 .dropdown-icon{background:#30906a; color:#ffffff;}
