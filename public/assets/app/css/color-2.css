@@ -394,17 +394,18 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .main-container .main-content > .wrapper .ss-box.style-02{border-color:#fecb00;}
 .main-container .main-content .profile-edit > .photo-upload{background:#fecb00; color:#000000;}
 
+
 /* Calendar - Week */
 .calendar-week .fc-view-container{border-color:#fecb00!important;}
 .calendar-week .fc-day-grid .fc-day.fc-widget-content{color:#fecb00;} 
 .calendar-week .fc-day-grid .fc-day.fc-widget-content.fc-today{
-    background:#fecb00; color:#000000;
+  background:#fecb00; color:#000000;
 } 
 .calendar-week .fc-day-grid td.fc-widget-content{border-color:#fecb00!important;}
 .calendar-week .fc-row.fc-week.fc-widget-content .fc-axis.fc-widget-content:first-child,
 .calendar-week .fc-axis.fc-time.fc-widget-content{background:#fecb00; color:#000000;}
 .calendar-week .fc-time-grid .fc-event{
-    background:#fecb00; color:#000000; border:2px solid #000000!important;
+  background:#fecb00; color:#000000; border:2px solid #000000!important;
 }
 .calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#fecb00;}
 .calendar-week .fc-day.fc-today{background:#e4b703!important;}
@@ -441,6 +442,28 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .calendar-week .fc-day-grid .fc-bg td:first-child{background:#fecb00; color:#000000;}
 .calendar-week .fc-day-grid .fc-day.fc-widget-content{border-color:#fecb00;}
 
+/* Calendar - Year */
+.calendar-year .fc-multimonth-month{border:3px solid #fecb00;}
+.calendar-year .fc-multimonth-month .fc-multimonth-title{
+  background:rgba(0,0,0,.06); color:#000000;
+}
+.calendar-year .fc-multimonth-month.active .fc-multimonth-title{
+  background:rgba(0,0,0,.24); color:#000000;
+}
+.calendar-year .fc-col-header-cell-cushion{color:#000000;}
+.calendar-year .fc-multimonth-month{box-shadow:0px 2px 6px 4px rgba(255,255,255,.04);}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-end,
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-start,
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{background:#000000;}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-day .fc-daygrid-day-number{color:#000000;}
+.calendar-year .fc-multiMonthYear-view .fc-daygrid-day.active .fc-daygrid-day-number{color:#fecb00;}
+.calendar-year .fc-popover{border-left-color:#000000;}
+.calendar-year .fc-popover .fc-popover-header .fc-popover-title{color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event{background:transparent; color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event *{color:#000000;}
+.calendar-year .fc-popover .fc-popover-body .fc-event:hover{background:rgba(0,0,0,.06);}
+
+
 /* Chat Container */
 .chat-container .chat > .profile-container{background:#fecb00;}
 .chat-container .chat .text-wrapper{
@@ -449,10 +472,10 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 
 /* CK Editor */
 .ck.ck-editor__main>.ck-editor__editable{
-    border-color:#dddddd!important; transition:border-color .25s;
+  border-color:#dddddd!important; transition:border-color .25s;
 }
 .ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused{
-    border-color:#fe4d01!important;
+  border-color:#fe4d01!important;
 }
 .ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar{background:#e1e1e1;}
 .ck.ck-dropdown .ck-button.ck-dropdown__button,

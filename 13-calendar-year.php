@@ -4,49 +4,8 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-
-<style>
-/* Calendar - Year */
-.calendar-year .fc-view-harness.fc-view-harness-active{height:auto!important;}
-.calendar-year .fc-multimonth-month{
-  width:calc((100% - 2rem) / 3)!important; margin:1rem 1rem 0 0; padding:0;
-  border-radius:.375rem; overflow:hidden;
-}
-.calendar-year .fc-multimonth-month:nth-child(3n){margin:.75rem 0 0 0;}
-.calendar-year .fc-multimonth-month .fc-multimonth-title{border-radius:0!important;}
-.calendar-year .fc-multimonth-header-table .fc-col-header-cell{padding:.3125rem 0;}
-.calendar-year .fc .fc-view-harness-active > .fc-view{position:relative!important;}
-.calendar-year .fc-multiMonthYear-view.fc-view.fc-multimonth{overflow:unset;}
-.calendar-year .fc .fc-daygrid-day-frame{display:flex; justify-content:center; align-items:center;}
-.calendar-year .fc .fc-toolbar.fc-header-toolbar{display:none;}
-.calendar-year .fc .fc-multimonth{overflow-y:auto;}
-.calendar-year .fc .fc-multimonth{border:none;}
-.calendar-year .activity-list{padding:1rem .5rem; cursor:pointer;}
-.calendar-year .activity-list > .wrapper{display:flex; align-items:center; align-items:center;}
-.calendar-year .activity-list > .wrapper .arrow{transition:margin .25s; margin:.0625rem .125rem 0 0;}
-.calendar-year .activity-list:hover > .wrapper .arrow{margin:.0625rem 0 0 .125rem;}
-@media screen and (max-width:1199.98px){
-  .calendar-year .fc-multimonth-month,
-  .calendar-year .fc-multimonth-month:nth-child(3n){
-    width:calc((100% - 1rem) / 2)!important; margin:1rem 1rem 0 0;
-  }
-  .calendar-year .fc-multimonth-month:nth-child(2n){margin:1rem 0 0 0;}
-}
-@media screen and (max-width:575.98px){
-  .calendar-year .fc-multimonth-month{width:100%!important; margin:1rem 0 0 0!important;}
-  .calendar-year .fc-multimonth-month:nth-child(3n){width:100%!important;}
-}
-
-/* Calendar - Year */
-.calendar-year .fc-multimonth-month.active{border:3px solid #30906a;}
-.calendar-year .fc-multimonth-month .fc-multimonth-title{background:#bfe7d7; color:#000000;}
-.calendar-year .fc-multimonth-month.active .fc-multimonth-title{background:#30906a; color:#ffffff;}
-.calendar-year .fc-col-header-cell-cushion{color:#30906a;}
-.calendar-year .fc-multimonth-month{box-shadow:0px 2px 6px 4px rgba(0,0,0,.04);}
-</style>
-
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
   <?php
     $breadcrumb = [
@@ -150,13 +109,16 @@
         dayMaxEvents: true,
         events: [
           {
-            id: 'a',
-            title: 'my event',
+            id: 1,
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
             start: '2023-04-12'
-          },
-          {
-            id: 'a',
-            title: 'my event',
+          }, {
+            id: 2,
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-04-21'
+          }, {
+            id: 3,
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
             start: '2023-04-21'
           },
         ],
@@ -187,24 +149,26 @@
       });
 
       function calcCalendar(){
-        let monthEvent = $('.fc-multimonth-month').find('.fc-event-main');
-        console.log(monthEvent);
-        monthEvent.addClass('active');
         let monthSlots = $('#calendar-year').find('.fc-multimonth-month');
         monthSlots.filter('[data-date="'+thisMonth+'"]').addClass('active');
         monthSlots.each(function(){
           let temp = $(this);
-          console.log(temp.data('date'));
-          temp.append(`
-            <div class="activity-list">
-              <div class="wrapper">
-                <a href="#" class="p md fw-400 mr-2">
-                  รายการ <span class="color-04 fw-500">${monthEvent.length} </span> กิจกรรม 
-                </a>
-                <div class="arrow"><em class="fa-solid fa-arrow-right color-04"></em></div>
+          let eMonth = temp.find('.fc-event-main');
+          if(eMonth.length){
+            eMonth.closest('.fc-daygrid-day').addClass('active');
+            temp.append(`
+              <div class="activity-list">
+                <div class="wrapper">
+                  <a href="#" class="p md fw-400 mr-2">
+                    รายการ <span class="color-04 fw-500">${eMonth.length}</span> กิจกรรม 
+                  </a>
+                  <div class="arrow"><em class="fa-solid fa-arrow-right color-04"></em></div>
+                </div>
               </div>
-            </div>
-          `);
+            `);
+          }else{
+            temp.append(`<div class="activity-list"></div>`);
+          }
         });
   
       };
