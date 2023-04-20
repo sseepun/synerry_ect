@@ -344,7 +344,7 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .breadcrumb-02 select{border-color:#000000!important;}
 .breadcrumb-02 .dropdown-icon{border-color:#000000!important;}
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{border-color:#000000!important;}
-.breadcrumb-02 .ui.icon.input > em.icon.style-03{background:#fecb00; color:#000000;}
+.breadcrumb-02 .ui.icon.input > em.icon.style-03{background:#fecb00; color:#000000; border-color:#000000;}
 .breadcrumb-02 .ui.icon.input input{border-color:#000000;}
 .breadcrumb-02 input[type='search']{background:#000000;}
 

@@ -85,7 +85,7 @@
           'จัดซื้อ/จัดจ้าง', 'ติดต่อ'
         ] as $i=>$d){
       ?>
-        <div class="menu mega has-children" <?= $i==0? 'active': '' ?>>
+        <div class="menu has-children" <?= $i==0? 'active': '' ?>>
           <a href="#" data-dropdown="<?= $i ?>">
             <?= $d ?> <em class="fas fa-chevron-down"></em>
           </a>
@@ -211,80 +211,100 @@
               </div>
               <!-- รวมกฎหมาย -->
               <?php } else if ($i === 2) {?>
-                <div class="mega-menu-dropdown">
-                  <div class="mega-menu-wrapper">
-                    <div class="mega-menu-content size-02">
-                      <div class="mega-menu">
+                <div class="submenu-dropdown <?php if($i>2)echo 'anchor-right'; ?>">
+                <div class="submenu-container">
+                  <div class="submenu-wrapper">
+                    <div class="submenu has-children">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">รัฐธรรมนูญ</a>
+                        <?= $submenu ?>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชบัญญัติประกอบรัฐธรรมนูญ</a>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชบัญญัติ</a>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชกฤษฎีกา</a>
                       </div>
                     </div>
-                    <div class="mega-menu-content size-02">
-                      <div class="mega-menu">
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">ระเบียบ กกต.</a>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศ กกต.</a>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">คำสั่ง กกต.</a>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">คำวินิจฉัย กกต.</a>
                       </div>
                     </div>
-                    <div class="mega-menu-content size-02">
-                      <div class="mega-menu">
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศนายทะเบียนพรรคการเมือง</a>
                       </div>
-                      <div class="mega-menu ">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศ สนง. กกต.</a>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">ร่างกฎหมายและการรับฟังความคิดเห็น</a>
                       </div>
-                      <div class="mega-menu">
+                    </div>
+                    <div class="submenu">
+                      <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
@@ -293,6 +313,7 @@
                     </div>
                   </div>
                 </div>
+              </div>
               <!-- ข่าวสาร -->
               <?php } else if ($i === 3) {?>
                 <div class="mega-menu-dropdown">

@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="bottom <?= $backgroundColor ?>">
+    <div class="bottom <?= !empty($backgroundColor)? $backgroundColor: '' ?>">
       <div class="container">
         <div class="wrapper">
           <div class="grids ai-center" style="position:relative; z-index:2;" data-aos="fade-up" data-aos-delay="0">
@@ -96,7 +96,7 @@
                     <?php if(in_array('views', $sectionOptions)){?>
                       <div class="option view">
                         <div class="wrapper-view">
-                          <a class="icon-view active" href="#">
+                          <a class="icon-view" href="#">
                             <img class="icon-active" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
                             <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
                           </a>

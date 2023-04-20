@@ -1870,6 +1870,7 @@
 .breadcrumb-02 .bottom > .container .wrapper:after{
   position:absolute; content:""; width:100%; top:0; right:-15rem; height:100%; z-index:1;
 }
+.breadcrumb-02 .ui.icon.input > em.icon.style-03{border:1px solid transparent;}
 
 .breadcrumb-02 .bottom .wrapper .title-link{position:relative; padding-left:1rem;}
 .breadcrumb-02 .bottom .wrapper .title-link:not(:first-child)::before{content:":"; margin-right:1rem;}

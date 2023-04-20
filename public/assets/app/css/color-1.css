@@ -339,7 +339,7 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .breadcrumb-02 select{border-color:#000000!important;}
 .breadcrumb-02 .dropdown-icon{border-color:#000000!important;}
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{border-color:#000000!important;}
-.breadcrumb-02 .ui.icon.input > em.icon.style-03{background:#000000; color:#ffffff;}
+.breadcrumb-02 .ui.icon.input > em.icon.style-03{background:#000000; color:#ffffff; border-color:#000000;}
 .breadcrumb-02 .ui.icon.input input{border-color:#000000;}
 
 /* Breadcrumb 03 */
