@@ -50,11 +50,11 @@
               <input class="style-02 size-01" type="text"/>
             </div>
             <div class="padding-style-03">
-              <label class="text-danger style-02">กรุณายืนยันรหัส</label>
+              <label class="text-danger style-02">กรุณายืนยันรหัสผ่าน</label>
             </div>
             <div class="captcha-container d-flex ai-start padding-style-03 mt-5">
               <div> 
-                <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
                 <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
               </div>
               <div class="btns mt-2 ml-3">

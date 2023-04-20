@@ -155,7 +155,7 @@
                       <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
                     </div>
                   </div>
-                  <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
+                  <label class="text-danger style-02">กรุณากรอกอีเมล</label>
                 </div>
                 <div class="grid sm-100 mt-4">
                   <div class="option cate">
@@ -260,7 +260,7 @@
                 </div>
                 <div class="grid lg-50 md-100 sm-100 mt-4">
                   <div class="captcha">
-                    <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                    <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
                     <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                   </div>
                 </div>

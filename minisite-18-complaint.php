@@ -72,6 +72,7 @@
                             <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
                           </div>
                         </div>
+                        <label class="text-danger style-02">กรุณากรอกชื่อ</label>
                       </div>
                       <div class="grid sm-50 mt-0">
                         <div class="form-group">
@@ -79,6 +80,7 @@
                             <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
                           </div>
                         </div>
+                        <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
                       </div>
                       <div class="grid sm-100 mt-2">
                         <div class="form-group">
@@ -86,13 +88,15 @@
                             <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*" required>
                           </div>
                         </div>
+                        <label class="text-danger style-02">กรุณากรอกหมายเลขติดต่อเป็นตัวเลข</label>
                       </div>
                       <div class="grid sm-100 mt-2">
                         <div class="form-group">
                           <div class="form-input">
-                            <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
+                            <input class="style-02 size-01" type="email" placeholder="อีเมล*" required>
                           </div>
                         </div>
+                        <label class="text-danger style-02">กรุณากรอกอีเมล</label>
                       </div>
                       <div class="grid sm-100 mt-4">
                         <div class="option cate">
@@ -106,6 +110,7 @@
                             <em class="fa-solid fa-chevron-down"></em>
                           </div>
                         </div>
+                        <label class="text-danger style-02">กรุณาเลือกหัวข้อที่ต้องการติดต่อ</label>
                       </div>
                       <div class="grid sm-100 mt-2">
                         <div class="form-group">
@@ -160,16 +165,17 @@
                           </div>
                         </div>
                       </div>
-                      <div class="grid lg-50 md-100 sm-100 mt-4">
+                      <div class="grid lg-50 md-100 sm-100 mt-5">
                         <div class="captcha">
-                          <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                          <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
+                          <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                         </div>
                       </div>
-                      <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-4">
+                      <div class="grid d-flex ai-center lg-50 md-100 sm-100 mt-0">
                         <div class="grids no-gap">
                           <div class="grid sm-50 xs-50 mt-0">
                             <div class="pr-1">
-                              <button type="submit" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-13">
+                              <button type="submit" class="btn btn-popup-toggle btn-white-theme btn-action width-full mw-auto btn-13" data-popup="99">
                                 ส่งข้อความ
                               </button>
                             </div>
@@ -190,6 +196,11 @@
       </div>
     </div>
   </section>
+
+  <?php
+    $listResult= ['contact'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>

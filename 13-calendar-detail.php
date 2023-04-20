@@ -22,7 +22,8 @@
       <div class="grids">
         <!-- Left Content -->
         <div class="grid xl-70 lg-60 md-2-3 sm-100">
-          <div class="ss-card ss-card-21 style-02 mb-3">
+          <!-- ใช้ในกรณีวันปัจจุบัน (ลบ ชื่อ class 'd-none' ออกเมื่อต้องการนำไปใช้) -->
+          <div class="ss-card ss-card-21 style-02 mb-3 d-none">
             <div class="wrapper">
               <div class="date">
                 <div class="wrapper">
@@ -75,6 +76,7 @@
               </div>
             </div>
           </div>
+          <!-- ./ -->
           <div class="ss-card ss-card-21" data-aos="fade-up" data-aos-delay="0">
             <div class="wrapper">
               <div class="date">

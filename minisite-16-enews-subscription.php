@@ -18,7 +18,7 @@
     include('component/breadcrumb-style-02.php');
   ?>
 
-  <section class="section-14">
+  <section class="section-14 mb-6">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
       <div class="ss-box bg-white-theme style-02 w-full">
@@ -123,17 +123,6 @@
     $listResult= ['enews-subscription'];
     include_once('component/popup-file-error-style-02.php');
   ?>
-
-  <div class="section-padding">
-    <div class="container">
-      <div class="mt-6 pt-4">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          include('component/list-footer.php');
-        ?>
-      </div>
-    </div>
-  </div>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>

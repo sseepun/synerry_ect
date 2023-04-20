@@ -89,7 +89,7 @@
                 <div class="grid sm-100 mt-2">
                   <div class="form-group">
                     <div class="form-input">
-                      <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
+                      <input class="style-02 size-01" type="email" placeholder="อีเมล*" required>
                     </div>
                   </div>
                   <label class="text-danger style-02">กรุณากรอกอีเมล</label>
@@ -188,7 +188,7 @@
                   <div class="grids no-gap mt-4">
                     <div class="grid sm-50 xs-50 mt-0">
                       <div class="pr-1">
-                        <button type="submit" href="#" class="btn btn-white-theme btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
+                        <button type="submit"  class="btn btn-white-theme btn-popup-toggle btn-action width-full mw-auto btn-03" data-popup="99">
                           ส่งข้อความ
                         </button>
                       </div>

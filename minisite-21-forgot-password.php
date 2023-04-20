@@ -42,13 +42,19 @@
                       <input class="style-02 size-01" type="email" required>
                     </div>
                   </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกอีเมล</label>
+                  </div>
                 </div>
                 <div class="grid sm-100 mt-3">
                   <div class="padding-style-04">
-                    <div class="captcha-container">
-                      <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
-                      <div class="btns ai-center ml-4">
-                        <button type="submit" href="#" class="btn btn-action btn-26 ">
+                    <div class="captcha-container ai-start">
+                      <div>
+                        <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
+                        <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
+                      </div>
+                      <div class="btns mt-2 ai-center ml-4">
+                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action btn-26" data-popup="99">
                           <span class="mr-2">ขอรหัสผ่านใหม่</span>
                           <em class="fa-solid fa-arrow-right"></em>
                         </button>
@@ -63,6 +69,11 @@
       </div>
     </div>
   </section>
+
+  <?php
+    $listResult= ['fg-password'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>

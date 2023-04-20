@@ -80,51 +80,56 @@
                     </div>
                     <div class="text-container flex-column jc-center ai-start">
                       <p class="fw-500">ติดตาม</p>
+
                       <div class="social-list">
-                        <div class="d-inline-block item">
-                          <a class="icon" href="#">
-                            <img class="inactive" src="public/assets/app/images/icon/facebook-02.png" alt="Facebook">
-                            <img class="active" src="public/assets/app/images/icon/facebook-active.png" alt="Facebook">
-                          </a>
-                        </div>
-                        <div class="d-inline-block item">
-                          <a class="icon" href="#">
-                            <img class="inactive" src="public/assets/app/images/icon/line-02.png" alt="Line">
-                            <img class="active" src="public/assets/app/images/icon/line-active.png" alt="Line">
-                          </a>
-                        </div>
-                        <div class="d-inline-block item">
-                          <a class="icon sm" href="#">
-                            <img class="inactive" src="public/assets/app/images/icon/youtube-02.png" alt="Youtube">
-                            <img class="active" src="public/assets/app/images/icon/youtube-active.png" alt="Youtube">
-                          </a>
-                        </div>
-                        <div class="d-inline-block item">
-                          <a class="icon" href="#">
-                            <img class="inactive" src="public/assets/app/images/icon/twitter-02.png" alt="Twitter">
-                            <img class="active" src="public/assets/app/images/icon/twitter-active.png" alt="Twitter">
-                          </a>
-                        </div>
-                        <div class="d-inline-block item">
-                          <a class="icon" href="#">
-                            <img class="inactive" src="public/assets/app/images/icon/instagram-02.png" alt="Instagram">
-                            <img class="active" src="public/assets/app/images/icon/ig-active.png" alt="Instagram">
-                          </a>
-                        </div>
-                        <div class="d-inline-block item">
-                          <a class="icon" href="#">
-                            <img class="inactive" src="public/assets/app/images/icon/tiktok-02.png" alt="Tiktok">
-                            <img class="active" src="public/assets/app/images/icon/tiktok-active.png" alt="Tiktok">
-                          </a>
-                        </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/facebook-02.png" alt="Facebook">
+                          <img class="active" src="public/assets/app/images/icon/facebook-active.png" alt="Facebook">
+                        </a>
                       </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/line-02.png" alt="Line">
+                          <img class="active" src="public/assets/app/images/icon/line-active.png" alt="Line">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon sm" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/youtube-02.png" alt="Youtube">
+                          <img class="active" src="public/assets/app/images/icon/youtube-active.png" alt="Youtube">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/twitter-02.png" alt="Twitter">
+                          <img class="active" src="public/assets/app/images/icon/twitter-active.png" alt="Twitter">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/instagram-02.png" alt="Instagram">
+                          <img class="active" src="public/assets/app/images/icon/ig-active.png" alt="Instagram">
+                        </a>
+                      </div>
+                      <div class="d-inline-block item">
+                        <a class="icon" href="#">
+                          <img class="inactive" src="public/assets/app/images/icon/tiktok-02.png" alt="Tiktok">
+                          <img class="active" src="public/assets/app/images/icon/tiktok-active.png" alt="Tiktok">
+                        </a>
+                      </div>
+                    </div>
+
+
+
+                   
                     </div>
                   </div>
                 </div>
               </div>
               <div class="grid xl-50 lg-50 md-50 sm-100 mt-0">
                 <h5 class="color-02 fw-500">แบบฟอร์มติดต่อสอบถาม</h5>
-                <p class="fw-500 lh-sm">
+                <p class="fw-400 lh-sm">
                   หากมีคำถาม คำติชม คำแนะนำ หรือพบปัญหากรุณากรอกแบบฟอร์มด้านล่างนี้ 
                   ทางเจ้าหน้าที่จะดำเนินการตามคำขอโดยเร็วที่สุด
                 </p>
@@ -146,6 +151,7 @@
                           <em class="fa-solid fa-chevron-down"></em>
                         </div>
                       </div>
+                      <label class="text-danger style-02">กรุณาเลือกหน่วยงานที่ต้องการติดต่อ</label>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="option cate">
@@ -159,6 +165,7 @@
                           <em class="fa-solid fa-chevron-down"></em>
                         </div>
                       </div>
+                      <label class="text-danger style-02">กรุณาเลือกหัวข้อที่ต้องการติดต่อ</label>
                     </div>
                     <div class="grid sm-50 mt-0">
                       <div class="form-group">
@@ -166,6 +173,7 @@
                           <input class="style-02 size-01" type="text" placeholder="ชื่อ*" required>
                         </div>
                       </div>
+                      <label class="text-danger style-02">กรุณากรอกชื่อ</label>
                     </div>
                     <div class="grid sm-50 mt-0">
                       <div class="form-group">
@@ -173,6 +181,7 @@
                           <input class="style-02 size-01" type="text" placeholder="นามสกุล*" required>
                         </div>
                       </div>
+                      <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="form-group">
@@ -180,13 +189,15 @@
                           <input class="style-02 size-01" type="text" placeholder="หมายเลขติดต่อ*" required>
                         </div>
                       </div>
+                      <label class="text-danger style-02">กรุณากรอกมายเลขติดต่อเป็นตัวเลข</label>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="form-group">
                         <div class="form-input">
-                          <input class="style-02 size-01" type="text" placeholder="อีเมล*" required>
+                          <input class="style-02 size-01" type="email" placeholder="อีเมล*" required>
                         </div>
                       </div>
+                      <label class="text-danger style-02">กรุณากรอกอีเมล</label>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="form-group">
@@ -242,13 +253,14 @@
                         </div>
                       </div>
                     </div>
-                    <div class="grid xl-50 lg-100 md-100 sm-100 mt-4">
+                    <div class="grid xl-50 lg-100 md-100 sm-100 mt-5">
                       <div class="captcha">
-                        <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                        <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
+                        <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                       </div>
                     </div>
-                    <div class="grid xl-50 lg-100 md-100 sm-100 mt-4">
-                      <div class="btns ai-center h-full">
+                    <div class="grid xl-50 lg-100 md-100 sm-100 mt-0">
+                      <div class="btns h-full">
                         <button type="submit" href="#" class="btn btn-popup-toggle btn-action size-03 btn-13" data-popup="99">
                           ส่งข้อความ
                         </button>
@@ -268,21 +280,15 @@
   </section>
 
   <!-- Goolgle Map -->
-  <iframe data-aos="fade-up" data-aos-delay="400"
+  <iframe class="mt-3" data-aos="fade-up" data-aos-delay="400"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.285629391629!2d100.56366531478078!3d13.8818618902634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e28323d10290b5%3A0x946e22bc8754445a!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4LiE4LiT4Liw4LiB4Lij4Lij4Lih4LiB4Liy4Lij4LiB4Liy4Lij4LmA4Lil4Li34Lit4LiB4LiV4Lix4LmJ4LiH!5e0!3m2!1sth!2sth!4v1672824557112!5m2!1sth!2sth" 
     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>
 
-  <div class="section-padding">
-    <div class="container">
-      <div class="mt-6 pt-4">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          include('component/list-footer.php');
-        ?>
-      </div>
-    </div>
-  </div>
+  <?php
+    $listResult= ['contact'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>

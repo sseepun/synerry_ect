@@ -24,6 +24,24 @@
             </a>
           </div>
         <?php }?>
+        <?php if(in_array('mini-re-password', $listResult)) {?>
+          <h6 class="h4 fw-400">ตั้งรหัสผ่านใหม่สำเร็จ</h6>
+          <p>ระบบได้ดำเนินการตั้งรหัสผ่านใหม่ของคุณเรียบร้อยแล้ว</p>
+          <div class="btns mt-4">
+            <a href="minisite-21-member-login.php" class="btn btn-action btn-06 w-full">
+              <span>ตกลง</span><div class="sep"></div>
+            </a>
+          </div>
+        <?php }?>
+        <?php if(in_array('register', $listResult)) {?>
+          <h6 class="h4 fw-400">สำเร็จ</h6>
+          <p>ระบบได้ดำเนินการลงทะเบียนเรียบร้อยแล้ว</p>
+          <div class="btns mt-4">
+            <a href="minisite-21-member-login.php" class="btn btn-action btn-06 w-full">
+              <span>ตกลง</span><div class="sep"></div>
+            </a>
+          </div>
+        <?php }?>
         <?php if(in_array('contact', $listResult) || in_array('rp-corruption', $listResult)) {?>
           <h6 class="h4 fw-400">ส่งแบบฟอร์มสำเร็จ</h6>
           <p>ระบบได้ดำเนินการส่งแบบฟอร์มของคุณเรียบร้อยแล้ว</p>

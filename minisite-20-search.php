@@ -238,14 +238,19 @@
          
         </div> 
       </div>
-      <div class="mt-6 pt-4 mb-6">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          include('component/list-footer.php');
-        ?>
-      </div>
+    
     </div>
   </section>
+
+  <div class="container">
+    <div class="mt-6 pt-4 mb-6">
+      <?php
+        $listFooter = ['total', 'paginate', 'pp'];
+        $style = 'style-02';
+        include('component/list-footer.php');
+      ?>
+    </div>
+  </div>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>

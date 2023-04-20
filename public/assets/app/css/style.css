@@ -3641,13 +3641,16 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   border-radius:50%; transition:background .25s;
 }
 .ss-card-67 .text-container > .social-list .item{margin-right:.5rem;}
+.ss-card-67 .text-container > .social-list .icon{overflow:hidden; border:1px solid transparent;}
 .ss-card-67 .text-container > .social-list .icon > img{
-  display:block; max-width:100%; max-height:100%; width:auto; height:1.25rem; transition:opacity .25s;
+  display:block; max-width:100%; max-height:100%; width:auto; height:1.25rem;
+  transition:transform .25s; transform:translateY(0)
 }
 .ss-card-67 .text-container > .social-list .icon.sm > img{height:1rem;}
-.ss-card-67 .text-container > .social-list .icon > img.active{position:absolute; opacity:0;}
-.ss-card-67 .text-container > .social-list .icon:hover > img.inactive{opacity:0;}
-.ss-card-67 .text-container > .social-list .icon:hover > img.active{opacity:1;}
+.ss-card-67 .text-container > .social-list .icon > img.active{position:absolute;}
+.ss-card-67 .text-container > .social-list .icon:hover > img.inactive{transform:translateY(-150%);}
+.ss-card-67 .text-container > .social-list .icon:hover > img.active{transform:translateY(5%);}
+.ss-card-67 .text-container > .social-list .icon > img.active{transform:translateY(150%);}
 @media screen and (max-width:991.98px){
   .ss-card-67 .wrapper{height:6rem;}
 }

@@ -202,13 +202,14 @@
       <div class="mt-6 pt-4">
         <?php
           $listFooter = ['total', 'paginate', 'pp'];
+          $style = 'style-02';
           include('component/list-footer.php');
         ?>
       </div>
     </div>
   </div>
 
-  <?php include_once('include/footer-style-04.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   </script>

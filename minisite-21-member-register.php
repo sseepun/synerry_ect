@@ -41,6 +41,9 @@
                           <input class="style-02 size-01" type="text">
                         </div>
                       </div>
+                      <div class="padding-style-04">
+                        <label class="text-danger style-02">กรุณากรอกชื่อ</label>
+                      </div>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="form-group style-02">
@@ -49,6 +52,9 @@
                           <input class="style-02 size-01" type="text">
                         </div>
                       </div>
+                      <div class="padding-style-04">
+                        <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
+                      </div>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="form-group style-02">
@@ -56,6 +62,9 @@
                         <div class="form-input">
                           <input class="style-02 size-01" type="text">
                         </div>
+                      </div>
+                      <div class="padding-style-04">
+                        <label class="text-danger style-02">กรุณากรอกอีเมล</label>
                       </div>
                     </div>
                     <div class="grid sm-100 mt-2">
@@ -76,6 +85,9 @@
                           </div>
                         </div>
                       </div>
+                      <div class="padding-style-04">
+                        <label class="text-danger style-02">กรุณากรอกรหัสผ่าน</label>
+                      </div>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="form-group style-02 mt-3">
@@ -83,6 +95,9 @@
                         <div class="form-input">
                           <input class="style-02 size-01" type="text"/>
                           </div>
+                      </div>
+                      <div class="padding-style-04">
+                        <label class="text-danger style-02">กรุณายืนยันรหัสผ่าน</label>
                       </div>
                     </div>
                     <div class="padding-style-04">
@@ -97,16 +112,17 @@
                           </p>
                         </div>
                       </label>
-                      <div class="captcha-container mt-5">
+                      <div class="captcha-container mt-5 jc-start">
                         <img src="public/assets/app/images/content/captcha.jpg" alt="">
                       </div>
+                      <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                       <div class="btns mt-2">
-                        <div href="#" class="btn btn-action size-03 btn-13">
+                        <button type="submit" class="btn btn-action btn-popup-toggle size-03 btn-13" data-popup="99">
                           ยืนยัน
-                        </div>
-                        <div href="#" class="btn btn-action size-03 btn-05 btn-white-theme">
+                        </button>
+                        <button href="#" class="btn btn-action size-03 btn-05 btn-white-theme">
                           ยกเลิก
-                        </div>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -138,6 +154,11 @@
       </div>
     </div>
   </section>
+
+  <?php
+    $listResult= ['register'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
