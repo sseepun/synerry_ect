@@ -148,10 +148,9 @@
                   ดาวน์โหลดทั้งหมด (30)
                 </a>
               </div>
-              <?php 
-                $tagContainerStyle = 'style-02';
-                include('component/tags-container.php'); 
-              ?>
+
+              <?php include('component/tags-container-mini-site.php'); ?>
+
             </div>
             <!-- Right Content -->
             <div class="grid xl-30 lg-40 md-1-3 sm-100">

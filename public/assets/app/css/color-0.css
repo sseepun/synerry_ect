@@ -243,6 +243,11 @@ html, body, table.table{color:#000000;}
 .btn.btn-27:hover{background:#7dc6b5; color:#ffffff;}
 .btn.btn-27:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-28, .btn.btn-28:focus{color:#ffffff; background:#7cc5b5; border-color:#7cc5b5;}
+.btn.btn-28:hover{background:#7cc5b5;}
+.btn.btn-28:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
 .btn.btn-action-style-04 .wrapper > .icon.gg{color:#ec4034;}
@@ -1090,6 +1095,7 @@ nav.footer-single-page.style-02 .social-list .icon{color:#ffffff;}
 .form-container-03 .option > .dropdown-icon{background:#8c6961;}
 .form-container-03 .option .icon-view:hover,
 .form-container-03 .option .icon-view.active{background:#ffffff;}
+.form-container-03 .option.search .input > input::placeholder{color:#69696a!important;}
 
 /* Form Group Style 02 */
 .password-level > .levels > *{border-color:#d5d5d5;}
@@ -1370,7 +1376,10 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 /* Card Line */
 .card-line.style-01{background:#2e603b;}
 .card-line.style-02{background:#30906a;}
-.card-line.style-03{background:#30906a;}
+.card-line.style-03{background:#7dc6b5;}
+
+/* Card Line - Theme A */
+.card-line.style-01.theme-01{background:#7dc6b5;}
 
 /* Calendar */
 .calendar-day .fc-time-grid-event{background:#ffffff!important; border-color:#2e603c!important;}
@@ -1505,6 +1514,13 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 /* Section 32 */
 .section-32 .swiper-pagination-bullet{background:#ffffff;}
 .section-32 .swiper-pagination-bullet-active{background:#159261;}
+
+/* Section 33 */
+.section-33 .swiper-pagination-bullet{background:#000000;}
+.section-33 .swiper-pagination-bullet-active{background:#30906a;}
+.section-33 .arrow-container > .arrow{background:#7cc5b4; color:#ffffff;}
+.section-33 .arrow-container > .arrow:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 
 
 /* Intro 01 */ 

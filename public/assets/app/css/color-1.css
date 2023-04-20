@@ -814,6 +814,13 @@ select.style-02{background:#ffffff!important;}
 .section-32 .swiper-pagination-bullet{background:#ffffff;}
 .section-32 .swiper-pagination-bullet-active{background:#dddddd;}
 
+/* Section 33 */ 
+.section-33 .swiper-pagination-bullets{background:#ffffff;}
+.section-33 .swiper-pagination-bullet-active{background:#000000;}
+.section-33 .arrow-container > .arrow{background:#ffffff; color:#000000;}
+.section-33 .arrow-container > .arrow.active,
+.section-33 .arrow-container > .arrow:hover{background:transparent; border-color:#ffffff; color:#ffffff;}
+
 /* Special Tag */
 .ss-tags.style-02{border-color:#ffffff;}
 .ss-tags > .tag.style-02{background:#ffffff; color:#000000;}

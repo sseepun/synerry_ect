@@ -1359,7 +1359,7 @@
 .section-14 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
 .section-14 .swiper-container > .bullet .dots{display:flex; align-items:center;}
 .section-14 .swiper-pagination-bullet{margin:0 .25rem;}
-.section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:.615rem; height:.625rem;}
+.section-14 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:.625rem; height:.625rem;}
 
 /* Section 15 */
 .section-15 .swiper-main-container{position:relative; width:calc(100% + 10rem); margin:0 -5rem; padding:0 5rem;}
@@ -1550,6 +1550,7 @@
 @media screen and (max-width:1299.98px){
   .section-23 .arrow-container > .arrow{display:none;}
 }
+
 
 /* Section 24 */
 .section-24 .swiper-container{position:relative;}
@@ -1824,6 +1825,44 @@
 @media screen and (max-width:575.98px){
   .section-32 .shadow-wrapper{top:0;}
 }
+
+/* Section 33 */
+.section-33{margin-top:-2.5rem;}
+.section-33 .swiper-main-container{position:relative; width:calc(100% + 12rem); margin:0 -6rem; padding:0 6rem;}
+.section-33 .swiper-main-container:hover .arrow{opacity:1;}
+/* .section-33 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
+.section-33 .swiper-pagination-bullets{padding:0 .5rem;}
+.section-33 .swiper-pagination-bullet{
+  margin:0 .25rem; border-radius:.3125rem; 
+  transition:width .25s; opacity:.2;
+} */
+.section-33 .swiper-slide-active .img-container{opacity:1;}
+.section-33 .img-container{opacity:.2; transition:opacity 2s;}
+.section-33 .swiper-slide-active .img-container.img-hidden{opacity:1;}
+.section-33 .img-container.img-hidden{opacity:0;}
+/* .section-33 .swiper-pagination-bullet.swiper-pagination-bullet-active{opacity:1; width:0.625rem; height:0.625rem;} */
+.section-33 .arrow-container{
+  position:absolute; top:-3rem; right:0; bottom:0; left:0; display:flex; justify-content:space-between; 
+  align-items:center;
+}
+.section-33 .arrow-container > .arrow{
+  width:3rem; height:3rem; border-radius:.375rem; transition:all .25s; display:flex;
+  justify-content:center; align-items:center; cursor:pointer; opacity:0; border:1px solid transparent;
+}
+
+.section-33 .swiper-container > .bullet .bullet-wrapper{display:flex; justify-content:center; align-items:center;}
+.section-33 .swiper-container > .bullet .dots{display:flex; align-items:center;}
+.section-33 .swiper-pagination-bullet{margin:0 .25rem;}
+.section-33 .swiper-pagination-bullet.swiper-pagination-bullet-active{width:.625rem; height:.625rem;}
+@media screen and (max-width:767.98px){
+  .section-33 .img-container{opacity:1;}
+}
+@media screen and (max-width:1299.98px){
+  .section-33 .arrow-container > .arrow{display:none;}
+}
+
+
+
 
 
 /* Breadcrumb 01 */

@@ -117,8 +117,7 @@
               </div>
 
               <?php 
-                $tagContainerStyle = 'style-02';
-                include('component/tags-container.php'); 
+                include('component/tags-container-mini-site.php'); 
               ?>
             
               <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">

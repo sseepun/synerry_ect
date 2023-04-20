@@ -1285,6 +1285,35 @@ function ssPageProcess(){
        });
     }
 
+     // Section 33
+     var section33 = $('.section-33');
+     if(section33.length){
+         section33.each(function(){
+             var self = $(this);
+             new Swiper(self.find('.swiper-container'), {
+                 loop: true,
+                 spaceBetween: 20,
+                 slidesPerView: 1.2,
+                 speed: 800,
+                 grabCursor: true,
+                 navigation: {
+                     nextEl: self.find('.btn-icon-next'),
+                     prevEl: self.find('.btn-icon-prev'),
+                 },
+                 breakpoints: {
+                    1299.98: { slidesPerView: 1.1 },
+                    991.98: { slidesPerView: 1 },
+                    767.98: { slidesPerView: 2 },
+                    575.98:{ slidesPerView: 1 }
+                },
+                 pagination: {
+                     el: self.find('.dots'),
+                     clickable: true,
+                 },
+             });
+         });
+     }
+
     // revolution
     var revapi = jQuery('#rev_slider_1').show().revolution({
         sliderLayout: 'auto',
