@@ -4,7 +4,7 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
@@ -236,15 +236,12 @@
     $listResult= ['rp-corruption'];
     include_once('component/popup-file-error-style-02.php');
   ?>
-
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
-
   <script>
     document.getElementById("uploadBtn").onchange = function () {
-    document.getElementById("uploadFile").value = this.value.replace("C:\\fakepath\\", "");
-  };
-
+      document.getElementById("uploadFile").value = this.value.replace("C:\\fakepath\\", "");
+    };
   </script>
 </body>
 </html>

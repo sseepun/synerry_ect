@@ -4,7 +4,7 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
   
   <?php 
@@ -139,7 +139,6 @@
 
   <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>
-
   <script>
     let sidebar = document.querySelector(".sidebar");
     let arrowContainer = document.querySelector(".arrow-container");
@@ -171,9 +170,8 @@
         arrowContainer.style.display = "block"
       }
     }
-    myFunction(x) 
-    x.addListener(myFunction)
-
+    myFunction(x);
+    x.addListener(myFunction);
   </script>
 </body>
 </html>

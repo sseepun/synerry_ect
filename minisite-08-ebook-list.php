@@ -4,8 +4,8 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+<body class="minisite loading">
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
@@ -355,7 +355,5 @@
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
-
-  </script>
 </body>
 </html>

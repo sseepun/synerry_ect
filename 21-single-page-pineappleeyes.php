@@ -7,16 +7,15 @@
 <body class="loading">
   <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
-
   <div class="pos-relative">
     <?php
-        $breadcrumb = [
-          [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-          [ 'url' => '#', 'display' => 'แอปพลิเคชันตาสับปะรด' ],
-        ];
-        $style = 'style-03';
-        include('component/breadcrumb-single-page.php');
-      ?>
+      $breadcrumb = [
+        [ 'url' => '#', 'display' => 'หน้าหลัก' ],
+        [ 'url' => '#', 'display' => 'แอปพลิเคชันตาสับปะรด' ],
+      ];
+      $style = 'style-03';
+      include('component/breadcrumb-single-page.php');
+    ?>
   </div>
   
   <section class="section-28 section-padding">

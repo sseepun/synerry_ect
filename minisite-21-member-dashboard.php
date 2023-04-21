@@ -4,9 +4,8 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
-  
+<body class="minisite loading">
+  <?php include_once('component/page-loader.php'); ?>
   <?php 
     $sidebarStyle = 'style-02';
     include_once('include/sidebar.php'); 
@@ -537,7 +536,6 @@
 
   <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>
-
   <script>
     let sidebar = document.querySelector(".sidebar");
     let arrowContainer = document.querySelector(".arrow-container");
@@ -571,7 +569,6 @@
     }
     myFunction(x) 
     x.addListener(myFunction)
-
   </script>
 </body>
 </html>

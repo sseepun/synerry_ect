@@ -5,9 +5,8 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
-
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -17,7 +16,6 @@
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/16.jpg';
     include('component/breadcrumb.php');
   ?>
- 
 
   <section class="section-padding section-13">
     <div class="container">

@@ -7,7 +7,6 @@
 <body class="loading">
   <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
-
   <div class="pos-relative">
     <?php
       $breadcrumb = [
@@ -18,6 +17,7 @@
       include('component/breadcrumb-single-page.php');
     ?>
   </div>
+  
   <section class="section-padding section-26">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/40.jpg');"></div>
     <div class="container">

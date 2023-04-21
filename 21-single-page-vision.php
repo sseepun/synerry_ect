@@ -7,17 +7,17 @@
 <body class="loading">
   <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
-
   <div class="pos-relative">
     <?php
-        $breadcrumb = [
-          [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-          [ 'url' => '#', 'display' => 'สำนักงาน กกต. จังหวัด' ],
-        ];
-        $style = 'style-02';
-        include('component/breadcrumb-single-page.php');
-      ?>
+      $breadcrumb = [
+        [ 'url' => '#', 'display' => 'หน้าหลัก' ],
+        [ 'url' => '#', 'display' => 'สำนักงาน กกต. จังหวัด' ],
+      ];
+      $style = 'style-02';
+      include('component/breadcrumb-single-page.php');
+    ?>
   </div>
+  
   <section class="section-26 size-02 section-padding">
     <div class="img-bg style-02" style="background-image:url('public/assets/app/images/bg/38.jpg');"></div>
     <div class="container">
