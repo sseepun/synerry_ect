@@ -115,10 +115,7 @@
       ?>
     </div>
   </div>
-
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
-
-  </script>
 </body>
 </html>

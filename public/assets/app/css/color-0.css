@@ -247,6 +247,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-28:hover{background:#7cc5b5;}
 .btn.btn-28:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-29, .btn.btn-29:focus{color:#000000; background:#dff0ea; border-color:#dff0ea;}
+.btn.btn-29:hover, .btn.btn-29.active{color:#ffffff; background:#7cc5b4; border-color:#7cc5b4;}
+.btn.btn-29:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
@@ -304,8 +308,13 @@ html, body, table.table{color:#000000;}
 
 /* Calendar */
 .calendar-header .wrapper > .text{background:#eeeeee;}
-.calendar-header .wrapper > .btn-calendar{border-color:2e603c!important; color:#ffffff; background:#2e603c;}
+.calendar-header .wrapper > .btn-calendar{
+  border-color:#2e603c!important; color:#ffffff; background:#2e603c;
+}
 .calendar-wrapper .calendar-header-title > .wrapper .time{background:#063112; color:#ffffff;}
+body.minisite .calendar-header .wrapper > .btn-calendar{
+  border-color:#7cc5b4!important; color:#ffffff; background:#7cc5b4;
+}
 
 /* Calendar Style-02 */
 .calendar-style-02 .months-container .month-container .month-title{background:#bfe7d7;}
@@ -376,10 +385,18 @@ html, body, table.table{color:#000000;}
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-start,
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{background:#30906a;}
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-day.active .fc-daygrid-day-number{color:#ffffff;}
-.calendar-year .fc-popover{border-left-color:#30906a;}
+.calendar-year .fc-popover{border-left-color:#30906a!important;}
 .calendar-year .fc-popover .fc-popover-body .fc-event{background:transparent; color:#000000;}
 .calendar-year .fc-popover .fc-popover-body .fc-event *{color:#000000;}
 .calendar-year .fc-popover .fc-popover-body .fc-event:hover{background:#dff3ea;}
+
+body.minisite .calendar-year .fc-multimonth-month.active{border:3px solid #371e1a;}
+body.minisite .calendar-year .fc-multimonth-month .fc-multimonth-title{background:#8d6961; color:#ffffff;}
+body.minisite .calendar-year .fc-multimonth-month.active .fc-multimonth-title{background:#371e1a; color:#ffffff;}
+body.minisite .calendar-year .fc-col-header-cell-cushion{color:#7cc5b4;}
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-end,
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-start,
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{background:#7cc5b4;}
 
 
 /* Dropdown Icon */
@@ -597,8 +614,8 @@ nav.side-panel.active > .wrapper > .icon{background:#30906a;}
 nav.side-panel .panel-row{background:#ffffff; color:#000000;}
 nav.side-panel .panel-row:nth-child(odd){background:#f2f2f2;}
 nav.side-panel .panel-row:first-child{background:#30906a; color:#ffffff;}
-nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active
-nav.side-panel .option{color:#000000;}
+nav.side-panel .option:not(.btn-cursor):hover,
+nav.side-panel .option:not(.btn-cursor).active nav.side-panel .option{color:#000000;}
 nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active{
   background:#30906a; color:#ffffff; fill:#ffffff;
 }
@@ -631,6 +648,14 @@ nav.side-panel.style-06.active > .wrapper > .icon, nav.side-panel.style-05 .opti
 nav.side-panel.style-06 .option:not(.btn-cursor).active, nav.side-panel.style-05 .option-row .icon + *::before{background:#f7b331;}
 nav.side-panel.style-06 > .wrapper > .icon:hover{background:#f2af86;}
 
+body.minisite nav.side-panel .icon{background:#7cc5b4; color:#ffffff;}
+body.minisite nav.side-panel > .wrapper > .icon:hover{background:#8c6a61;}
+body.minisite nav.side-panel.active > .wrapper > .icon{background:#7cc5b4!important;}
+body.minisite nav.side-panel .panel-row:first-child{background:#7cc5b4;}
+body.minisite nav.side-panel .option:not(.btn-cursor):hover,
+body.minisite nav.side-panel .option:not(.btn-cursor).active{
+  background:#7cc5b4; color:#ffffff; fill:#ffffff;
+}
 
 
 /* Global Search Container */
@@ -919,6 +944,9 @@ nav.sidenav.theme-02 .submenu > *:first-child{color:#ffffff; background:#56abcc!
 /* Back to Top */
 .back-to-top{background:#2e603b; color:#ffffff;}
 .back-to-top:hover{background:#fef200;}
+body.minisite .back-to-top{background:#7cc5b4; color:#ffffff;}
+body.minisite .back-to-top:hover{background:#8c6a61;}
+
 
 /* Footer */
 nav.footer{background:#0d1b62; color:#ffffff;}

@@ -186,7 +186,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{background:#000000;}
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-day .fc-daygrid-day-number{color:#000000;}
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-day.active .fc-daygrid-day-number{color:#ffffff;}
-.calendar-year .fc-popover{border-left-color:#000000;}
+.calendar-year .fc-popover{border-left-color:#000000!important;}
 .calendar-year .fc-popover .fc-popover-header .fc-popover-title{color:#000000;}
 .calendar-year .fc-popover .fc-popover-body .fc-event{background:transparent; color:#000000;}
 .calendar-year .fc-popover .fc-popover-body .fc-event *{color:#000000;}
