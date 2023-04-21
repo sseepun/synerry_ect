@@ -14,7 +14,7 @@
     ];
     $breadcrumbTitle = 'ข่าวประกวดราคา/สอบราคา';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/32.jpg';
-    $sectionOptions = [ 'views-02'];
+    $sectionOptions = [ 'option-01', 'views-02' ];
     $formContainer = true;
     include('component/breadcrumb-style-02.php');
   ?>
@@ -82,10 +82,8 @@
                                 <td class="title-container" style="min-width:450px;">
                                   <a class="p title fw-600" href="#">
                                     รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
-                                    รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
-                                    รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
                                   </a>
-                                  <div class="text-footer">
+                                  <div class="text-footer mt-2">
                                     <div class="wrapper">
                                       <div class="icon">
                                         <em class="fa-regular fa-calendar"></em>

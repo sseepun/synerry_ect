@@ -113,11 +113,11 @@
                     <?php } else if(in_array('views-02', $sectionOptions)){?>
                       <div class="option view">
                         <div class="wrapper-view">
-                          <a class="icon-view disable op-10" href="#">
+                          <a class="icon-view disable op-0" href="#">
                             <img class="icon-active" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
                             <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
                           </a>
-                          <a class="icon-view disable ml-1 op-10" href="#">
+                          <a class="icon-view disable ml-1 op-0" href="#">
                             <img class="icon-active" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
                             <img class="icon-inactive" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
                           </a>

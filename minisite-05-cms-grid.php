@@ -156,13 +156,13 @@
             <div class="swiper-main-container">
               <div class="swiper-container">
                 <div class="swiper-wrapper">
-                  <?php for($i=0; $i<4; $i++){?>
+                  <?php foreach($content as $d){?>
                     <div class="swiper-slide">
                       <div class="grids">
                         <div class="grid xl-1-3 lg-1-3 md-50 sm-50" data-aos="fade-up" data-aos-delay="150">
                           <a class="ss-card ss-card-36" href="#">
                             <div class="ss-img vertical-03">
-                              <div class="img-bg" style="background-image:url('public/assets/app/images/content/84.jpg');"></div>
+                              <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
                             </div>
                             <div class="text-wrapper">
                               <div class="h6 title color-white fw-500" href="#">
@@ -194,7 +194,7 @@
                         <div class="grid xl-1-3 lg-1-3 md-50 sm-50" data-aos="fade-up" data-aos-delay="150">
                           <a class="ss-card ss-card-36" href="#">
                             <div class="ss-img vertical-03">
-                              <div class="img-bg" style="background-image:url('public/assets/app/images/content/135.jpg');"></div>
+                              <div class="img-bg" style="background-image:url('<?= $d['image'] ?>"></div>
                             </div>
                             <div class="text-wrapper">
                               <div class="h6 title color-white fw-500" href="#">
@@ -228,7 +228,7 @@
                             <div class="grid lg-100 md-100 sm-100 mt-0">
                               <a class="ss-card ss-card-57" href="#">
                                 <div class="ss-img horizontal-04">
-                                  <div class="img-bg" style="background-image:url('public/assets/app/images/content/91.jpg');"></div>
+                                  <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
                                 </div>
                                 <div class="text-container">
                                   <p class="title fw-500 color-black-theme h-color-18 mt-2">
@@ -260,7 +260,7 @@
                                     <div class="wrapper">
                                       <div class="img-container">
                                         <div class="ss-img square">
-                                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/136.jpg');"></div>
+                                          <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
                                         </div>
                                       </div>
                                       <div class="text-container">
