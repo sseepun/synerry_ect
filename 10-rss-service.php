@@ -17,12 +17,12 @@
     include('component/breadcrumb.php');
   ?>
 
-  <div class="section-padding">
+  <div class="section-padding section-padding-top">
     <div class="container">
       <h3 class="fw-600 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
         บริการ RSS
       </h3>
-      <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
+      <div class="mt-4" data-aos="fade-up" data-aos-delay="150">
         <?php
           $listHeader = ['search', 'category'];
           include('component/list-header.php');

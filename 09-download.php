@@ -17,7 +17,7 @@
     include('component/breadcrumb.php');
   ?>
 
-  <div class="section-padding">
+  <div class="section-padding section-padding-top">
     <div class="container">
       <h3 class="fw-600" data-aos="fade-up" data-aos-delay="0">
         ข่าวประกวดราคาสอบราคา

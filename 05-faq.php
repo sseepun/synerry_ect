@@ -17,8 +17,11 @@
     include('component/breadcrumb.php');
   ?>
 
-  <div class="section-padding">
+  <div class="section-padding section-padding-top">
     <div class="container">
+      <h3 class="fw-600 aos-init" data-aos="fade-up" data-aos-delay="0">
+        คำถามที่พบบ่อย
+      </h3>
       <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
         <?php
           $listHeader = ['search', 'category', 'order', 'view-02', 'rss'];
@@ -217,7 +220,7 @@
                       </div>
                     </div>
                     <div class="grid sm-50 xs-50 mt-0">
-                      <button type="cancel" href="#" class="btn  btn-action width-full mw-auto btn-05">
+                      <button type="cancel" href="#" class="btn btn-action width-full mw-auto btn-05">
                         ยกเลิก
                       </button>
                     </div>
@@ -232,7 +235,11 @@
     </div>
   </div>
 
-  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['contact'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
+
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
