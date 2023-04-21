@@ -776,6 +776,7 @@ table.table.table-download .title-container{background:#fecb00; color:#000000;}
 table.table.table-download .title-container a{color:#000000;}
 table.table.table-download .arrow-container{background:#fecb00; color:#000000;}
 table.table.table-download .btn.btn-02, .btn.btn-02:focus{background:#000000; color:#fecb00;}
+table.table.table-download .report-container > em{color:#000000;}
 
 table.table.table-download.style-03 tr{border-color:#000000;}
 table.table.table-download.style-03 .download-card{background:#000000; border-color:#000000;}

@@ -163,20 +163,20 @@
                         </td>
                         <td class="button-container" style="min-width:90px;">
                           <div class="btns jc-end">
-                            <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-29 btn-black-theme">
+                            <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30 btn-black-theme">
                               ดาวน์โหลดไฟล์ <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
                             </div>
                           </div>
                         </td>
-                        <td class="arrow-container" style="min-width:150px;">
+                        <td class="report-container" style="min-width:150px;">
                           <em class="fa-solid fa-triangle-exclamation"></em>
                           <?php
                             if($k === 'link'){?>
-                              <a class="btn-popup-toggle-02 xs color-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                              <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
                                 แจ้งลิงก์เสีย
                               </a>
                           <?php } else {?>
-                              <a class="btn-popup-toggle-02 xs color-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                              <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
                                 แจ้งไฟล์เสีย
                               </a>
                           <?php }?>

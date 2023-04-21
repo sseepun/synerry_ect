@@ -144,7 +144,7 @@
                 <?php }?>
               </div>
               <div class="btns jc-center mt-4" data-aos="fade-up" data-aos-delay="150">
-                <a href="#" class="btn width-auto btn-action btn-29">
+                <a href="#" class="btn width-auto btn-action btn-30">
                   ดาวน์โหลดทั้งหมด (30)
                 </a>
               </div>

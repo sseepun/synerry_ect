@@ -65,7 +65,7 @@
                 </div>
                 <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
                   <div class="content pb-5 mb-6">
-                    <div class="scroll-x-wrapper" data-simplebar>
+                    <div class="scroll-x-wrapper">
                       <table class="table table-download style-05 theme-02 p-5" data-aos="fade-up" data-aos-delay="600">
                          <tbody>
                             <?php
@@ -76,7 +76,7 @@
                               <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
                                 <td>
                                   <div class="download-card">
-                                    <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File">
+                                    <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File">
                                   </div>
                                 </td>
                                 <td class="title-container" style="min-width:450px;">
@@ -100,15 +100,24 @@
                                 </td>
                                 <td class="button-container" style="min-width:90px;">
                                   <div class="btns jc-end">
-                                    <div href="#" class="btn btn-white-theme width-auto btn-action btn-13">
+                                    <div href="#" class="btn btn-fling-down btn-white-theme width-auto btn-action btn-30">
                                       ดาวน์โหลดไฟล์
-                                      <em class="fa-solid fa-arrow-down ml-1"></em>
+                                      <em class="fa-solid fa-arrow-down ml-1 fling-down"></em>
                                     </div>
                                   </div>
                                 </td>
-                                <td class="arrow-container" style="min-width:150px;">
+                                <td class="report-container" style="min-width:150px;">
                                   <em class="fa-solid fa-triangle-exclamation"></em>
-                                  <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">แจ้งไฟล์เสีย</a>
+                                  <?php
+                                    if($k === 'link'){?>
+                                      <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                                        แจ้งลิงก์เสีย
+                                      </a>
+                                  <?php } else {?>
+                                      <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                                        แจ้งไฟล์เสีย
+                                      </a>
+                                  <?php }?>
                                 </td>
                               </tr>
                             <?php } ?>
@@ -151,16 +160,21 @@
     </div>
   </section>
 
-  <div class="container">
-  <div class="mt-6 pt-4 mb-6">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          $style = 'style-02';
-          include('component/list-footer.php');
-        ?>
-      </div>
-  </div>
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
+  <div class="container">
+    <div class="mt-6 pt-4 mb-6">
+      <?php
+        $listFooter = ['total', 'paginate', 'pp'];
+        $style = 'style-02';
+        include('component/list-footer.php');
+      ?>
+    </div>
+  </div>
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 

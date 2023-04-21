@@ -1320,6 +1320,9 @@ table.table .table-card-01 .report-file .icon > em{color:#30906a;}
 table.table .table-card-01 .report-file:hover{color:#d91818!important;}
 table.table .table-card-01 .report-file .text-file{color:#000000;}
 table.table .table-card-01 .report-file:hover .text-file{color:#d91818!important}
+table.table.table-download .report-container:hover > em{color:#ffab28;}
+table.table.table-download .report-container:hover > .text{color:#d91818;}
+
 
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#eeeeee!important;}
 table.table.table-download.style-03 td:nth-child(2) > .title:hover{color:#10563a; border-color:#10563a!important;}

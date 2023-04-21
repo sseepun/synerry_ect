@@ -1947,6 +1947,9 @@ table.table.table-download.style-04 .download-card{width:5rem; height:100%;}
 table.table .table-card-01{border-radius:.375rem; overflow:hidden; border-bottom:1px solid transparent;}
 table.table .table-card-01{cursor:pointer;}
 
+table.table.table-download .report-container:hover > em,
+table.table.table-download .report-container:hover > .text{transition:color .25s;}
+
 
 /* Table Download 02 */
 table.table.table-download-02{border:0;}
