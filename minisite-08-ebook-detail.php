@@ -75,30 +75,28 @@
                 </div>
               </div>
 
-              <?php include('component/tags-container-mini-site.php'); ?>
+              <?php 
+                $tagContainerStyle = 'style-02';
+                include('component/tags-container-mini-site.php'); 
+              ?>
             
-              <div class="d-flex jc-space-between ai-center fw-wrap">
-                <h4 class="title fw-600 mt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
-                  ไฟล์ที่เกี่ยวข้อง
-                </h4>
-                <a href="#" class="btn width-auto btn-action btn-25 mt-6" data-aos="fade-up" data-aos-delay="450">
-                  ดาวน์โหลดทั้งหมด
-                </a>
-              </div>
-                  
+              <h4 class="title fw-600 mt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
+                ไฟล์ที่เกี่ยวข้อง
+              </h4>
+                 
               <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
                 <table class="table style-05 table-download" data-aos="fade-up" data-aos-delay="600">
                   <tbody>
                     <?php
                       foreach([
-                        'mp4',
+                        'pdf',
                       ] as $k){
                     ?>
                       <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
                         <td>
                           <div class="download-card">
                             <div>
-                            <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                            <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
                             <p class="xxs color-white color-black-theme fw-400">0.2 MB</p>
                             </div>
                           </div>
@@ -124,15 +122,17 @@
                         </td>
                         <td class="button-container" style="min-width:90px;">
                           <div class="btns jc-end">
-                            <div href="#" class="btn btn-white-theme width-auto btn-action btn-13">
+                            <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-13">
                               ดาวน์โหลดไฟล์
-                              <em class="fa-solid fa-arrow-down ml-1"></em>
+                              <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
                             </div>
                           </div>
                         </td>
                         <td class="arrow-container" style="min-width:150px;">
                           <em class="fa-solid fa-triangle-exclamation"></em>
-                          <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">แจ้งไฟล์เสีย</a>
+                          <a class="xs color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                            แจ้งไฟล์เสีย
+                          </a>
                         </td>
                       </tr>
                     <?php }?>
@@ -242,6 +242,12 @@
       </div>
     </div>
   </section>
+
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
