@@ -5,19 +5,19 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-01.php'); ?>
-
   <div class="pos-relative">
     <?php
-        $breadcrumb = [
-          [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-          [ 'url' => '#', 'display' => 'แอปพลิเคชั่นฉลาดเลือก' ],
-        ];
-        $style = 'style-02';
-        include('component/breadcrumb-single-page.php');
-      ?>
+      $breadcrumb = [
+        [ 'url' => '#', 'display' => 'หน้าหลัก' ],
+        [ 'url' => '#', 'display' => 'แอปพลิเคชั่นฉลาดเลือก' ],
+      ];
+      $style = 'style-02';
+      include('component/breadcrumb-single-page.php');
+    ?>
   </div>
+
   <section class="section-28 section-padding">
     <div class="img-bg style-02" style="background-image:url('public/assets/app/images/bg/47.jpg');"></div>
     <div class="container">

@@ -4,8 +4,8 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+<body class="minisite loading">
+  <?php include_once('component/page-loader.php'); ?>
   <?php 
     $superTopNavStyle = 'theme-02';
     $topNavStyle = 'theme-02';
@@ -364,6 +364,5 @@
 
   <?php include_once('include/footer-style-09.php'); ?>
   <?php include_once('include/script.php'); ?>
-
 </body>
 </html>

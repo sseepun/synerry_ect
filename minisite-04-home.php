@@ -4,7 +4,7 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="minisite loading">
   <?php //include_once('component/page-loader.php'); ?>
   <?php 
     $superTopNavStyle = 'theme-06';
@@ -451,41 +451,38 @@
 
   <?php include_once('include/footer-style-08.php'); ?>
   <?php include_once('include/script.php'); ?>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("slide-item")
+
+      const prev = document.getElementById('prev')
+      const next = document.getElementById('next')
+
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+
+      if(slideIndex === 1){
+        prev.disabled = true;
+      }else if(slideIndex === slides.length) {
+        next.disabled = true
+      } else {
+        prev.disabled = false
+        next.disabled = false
+      }
+
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slides[slideIndex-1].style.display = "block";  
+    }
+  </script>
 </body>
-
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("slide-item")
-
-  const prev = document.getElementById('prev')
-  const next = document.getElementById('next')
-
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-
-  if(slideIndex === 1){
-    prev.disabled = true;
-  }else if(slideIndex === slides.length) {
-    next.disabled = true
-  } else {
-    prev.disabled = false
-    next.disabled = false
-  }
-
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  slides[slideIndex-1].style.display = "block";  
-}
-</script>
-
 </html>

@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="minisite loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [

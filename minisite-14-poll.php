@@ -4,8 +4,8 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
-  <?php //include_once('component/page-loader.php'); ?>
+<body class="minisite loading">
+  <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
@@ -211,56 +211,51 @@
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
-
-  </script>
-
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script>
     var options = {
-          series: [23.1, 7.7, 30.8, 23.1, 15.4],
+      series: [23.1, 7.7, 30.8, 23.1, 15.4],
+      chart: {
+        width: 335,
+        height: 320,
+        type: 'donut',
+      },
+      legend: {
+        show:false,
+      },
+      plotOptions: {
+        pie: {
+          donut: {
+            size: '85%',
+            color: '#00000',
+            labels: {
+              show: true,
+              color: '#000000',
+              value: '#000000'
+            }
+          },
+          dataLabels: {
+            offset: 25,
+          },
+        }
+      },
+      colors: ['#fcd361', '#26b6b6', '#044c21', '#ffab27', '#dd6d91'],
+      labels: ['มากที่สุด', 'มาก', 'ปานกลาง', 'น้อย', 'น้อยที่สุด'],
+      responsive: [{
+        breakpoint: 767.98,
+        options: {
           chart: {
-          width: 335,
-          height: 320,
-          type: 'donut',
-        },
-        legend: {
-          show:false,
-        },
-        plotOptions: {
-          pie: {
-            donut: {
-              size: '85%',
-              color: '#00000',
-              labels: {
-                show: true,
-                color: '#000000',
-                value: '#000000'
-              }
-            },
-            dataLabels: {
-              offset: 25,
-            },
-          }
-        },
-        
-        colors: ['#fcd361', '#26b6b6', '#044c21', '#ffab27', '#dd6d91'],
-        labels: ['มากที่สุด', 'มาก', 'ปานกลาง', 'น้อย', 'น้อยที่สุด'],
-        responsive: [{
-          breakpoint: 767.98,
-          options: {
-            chart: {
-              width: 350,
-              height:300
-            },
-          }
-        }],
-        
-        };
-        
-        $('.chart').each(function(){
-          var apexChart = new ApexCharts($(this)[0], options);
-          apexChart.render();
-         });
+            width: 350,
+            height:300
+          },
+        }
+      }],
+    };
+      
+    $('.chart').each(function(){
+      var apexChart = new ApexCharts($(this)[0], options);
+      apexChart.render();
+    });
   </script>
 </body>
 </html>
