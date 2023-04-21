@@ -89,7 +89,7 @@
                   <tbody>
                     <?php
                       foreach([
-                        'pdf',
+                        'zip',
                       ] as $k){
                     ?>
                       <tr class="table-card border table-card-01 box-shadow style-02 mb-2">

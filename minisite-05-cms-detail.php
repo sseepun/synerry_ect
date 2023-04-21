@@ -52,18 +52,18 @@
                   <div class="wrapper">
                     <div class="icon">
                       <em class="fa-regular fa-file-lines"></em>
-                      <span class="p sm ml-2 fw-500">เรื่องเด่น กกต.</span>
+                      <span class="p sm ml-2 fw-400">เรื่องเด่น กกต.</span>
                     </div>
                     <div class="icon">
-                      <p class="p sm fw-500">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
+                      <p class="p sm fw-400">08 มิถุนายน 2565 <span class="ml-1">/</span></p>
                     </div>
                     <div class="icon">
                       <em class="fa-solid fa-eye"></em>
-                      <p class="p sm fw-500 ml-2">280 <span class="ml-1">/</span></p>
+                      <p class="p sm fw-400 ml-2">280 <span class="ml-1">/</span></p>
                     </div>
                     <div class="icon">
                       <em class="fa-solid fa-share-nodes"></em>
-                      <span class="p sm fw-500 ml-2">60</span>
+                      <span class="p sm fw-400 ml-2">60</span>
                     </div>
                   </div>
                 </div>
@@ -143,12 +143,11 @@
                           </div>
                         </td>
                         <td class="title-container" style="min-width:450px;">
-                          <a class="p title fw-600" href="#">
+                          <a class="p title fw-600 lh-sm" href="#">
                             รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
-                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
-                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
+                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาค
                           </a>
-                          <div class="text-footer">
+                          <div class="text-footer mt-2">
                             <div class="wrapper">
                               <div class="icon">
                                 <em class="fa-regular fa-calendar"></em>
@@ -338,6 +337,8 @@
       </div>
     </div>
   </section>
+
+  <div class="mt-6"></div>
 
   <?php include_once('component/popup-file-error.php'); ?>
   <?php

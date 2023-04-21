@@ -10,12 +10,11 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ข่าวสารประชาสัมพันธ์' ],
-      [ 'url' => '#', 'display' => 'กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติ' ]
+      [ 'url' => '#', 'display' => 'วิดีโอ' ],
+      [ 'url' => '#', 'display' => 'ดร.ฐิติเชฏฐ์ นุชนาฏ กรรมการการเลือกตั้ง' ]
     ];
-    $breadcrumbTitle = 'ข่าวสาร/ประชาสัมพันธ์';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/28.jpg';
-    $sectionOptions = [ 'views', 'rss' ];
+    $breadcrumbTitle = 'วิดีโอ';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/30.jpg';
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
   ?>
@@ -45,8 +44,7 @@
             <div class="grid xl-70 lg-60 md-2-3 sm-100">
               <div class="ss-card ss-card-59" data-aos="fade-up" data-aos-delay="0">
                 <h4 class="title lh-sm fw-500">
-                  กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติงานให้แก่พนักงานใน
-                  การอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ 
+                  ดร.ฐิติเชฏฐ์ นุชนาฏ กรรมการการเลือกตั้ง ตรวจเยี่ยมและสังเกตการณ์การเลือกตั้งกรุงเทพมหานคร 
                 </h4>
                 <div class="card-top mt-3">
                   <div class="wrapper">
@@ -67,36 +65,13 @@
                     </div>
                   </div>
                 </div>
-                <!-- Swiper -->
-                <div class="section-24">
-                  <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                      <?php for($i=0; $i<20; $i++){?>
-                        <div class="swiper-slide">
-                          <div class="ss-img horizontal mt-3">
-                            <div class="img-bg" style="background-image:url('public/assets/app/images/content/0<?= ($i%3+2) ?>.jpg');"></div>
-                          </div>
-                        </div>
-                      <?php }?>
-                    </div>
-                  <div class="fraction-container">
-                    <div class="wrapper">
-                      <div class="dots"></div>
-                    </div>
+                <div class="post-video width-full mt-2">
+                  <div class="wrapper">
+                    <video class="fit" controls="">
+                      <source src="public/assets/app/video/01.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
                   </div>
-                  <div class="arrow-container">
-                    <div class="btn btn-icon-prev">
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-left"></em>
-                      </div>
-                    </div>
-                    <div class="btn btn-icon-next">
-                      <div class="arrow">
-                        <em class="fa-solid fa-arrow-right"></em>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 </div>
                 <p class="desc color-gray color-black-theme fw-400 mt-3">
                   วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง 
@@ -106,54 +81,11 @@
                   ระหว่างวันที่ 6-20 มิถุนายน 2565 ณ ห้องประชุมคอนเวนชั่น โรงแรมรามาการ์เด้นส์ กรุงเทพมหานคร 
                 </p>
               </div>
-              <?php 
-                $news01 = [
-                  ['image' => 'public/assets/app/images/content/02.jpg'],
-                  ['image' => 'public/assets/app/images/content/10.jpg'],
-                  ['image' => 'public/assets/app/images/content/11.jpg'],
-                  ['image' => 'public/assets/app/images/content/12.jpg'],
-                  ['image' => 'public/assets/app/images/content/13.jpg'],
-                  ['image' => 'public/assets/app/images/content/14.jpg'],
-                  ['image' => 'public/assets/app/images/content/15.jpg'],
-                  ['image' => 'public/assets/app/images/content/12.jpg', 'classer' => 'active'],
-                ]
-              ?>
-              <div class="grids jc-center mt-4" data-aos="fade-up" data-aos-delay="150">
-                <?php foreach($news01 as $d) {?>
-                  <div class="grid xl-25 lg-1-3">
-                    <a class="ss-card ss-card-11 <?= $d['classer']?>" href="<?= $d['image']?>" data-fancybox="gallery">
-                      <div class="ss-img">
-                        <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                        <div class="filter style-02">
-                          <div class="wrapper">
-                            <div class="icon op-0">
-                              <img src="public/assets/app/images/icon/51.png" alt="Icon">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card-line style-01"></div>
-                      </div>
-                      <div class="filter-01">
-                        <div class="text">
-                          <h3 class="number lh-3xs color-white-theme fw-600">+30</h3>
-                          <p class="h6 color-white-theme fw-500">รูปภาพ</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                <?php }?>
-              </div>
-              <div class="btns jc-center mt-4" data-aos="fade-up" data-aos-delay="150">
-                <a href="#" class="btn width-auto btn-action btn-30">
-                  ดาวน์โหลดทั้งหมด (30)
-                </a>
-              </div>
 
               <?php 
                 $tagContainerStyle = 'style-02';
                 include('component/tags-container-mini-site.php'); 
               ?>
-
             </div>
             <!-- Right Content -->
             <div class="grid xl-30 lg-40 md-1-3 sm-100">
@@ -164,31 +96,37 @@
                     <p class="fw-400">รายการ</p>
                   </div> 
                   <div class="cate-list mt-2 bcolor-white-theme">
-                    <p class="color-02 color-black-theme fw-600">ภาพกิจกรรม</p>
+                    <p class="color-02 color-black-theme fw-600">ข่าวประชาสัมพันธ์</p>
                     <p class="color-02 color-black-theme fw-600">108</p>
                   </div> 
                   <div class="cate-list bcolor-white-theme">
-                    <p class="fw-400">ภาพการดูงาน</p>
+                    <p class="fw-400">งานสัมนา</p>
                     <p class="fw-400">11</p>
+                  </div> 
+                  <div class="cate-list bcolor-white-theme">
+                    <p class="fw-400">แหล่งความรู้</p>
+                    <p class="fw-400">50</p>
                   </div>  
                 </div>   
                 <?php 
                   $lastestnews = [
-                    ['image' => 'public/assets/app/images/content/03.jpg'],
-                    ['image' => 'public/assets/app/images/content/08.jpg'],
-                    ['image' => 'public/assets/app/images/content/03.jpg']
+                    ['image' => 'public/assets/app/images/content/43.jpg'],
+                    ['image' => 'public/assets/app/images/content/42.jpg'],
+                    ['image' => 'public/assets/app/images/content/43.jpg']
                   ]
                 ?>
                 <h5 class="fw-600 mb-3" data-aos="fade-up" data-aos-delay="150">
-                  ภาพกิจกรมมล่าสุด
+                  วิดีโอล่าสุด
                 </h5> 
                 <?php foreach($lastestnews as $d) {?>
                   <a class="ss-card ss-card-60" href="#" data-aos="fade-up" data-aos-delay="300">
                     <div class="ss-img">
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                      <div class="number-of-picture">
-                        <em class="fa-solid fa-images"></em>
-                        <span class="number">15</span>
+                      <div class="btn-play">
+                        <div class="img-container">
+                          <img class="inactive" src="public/assets/app/images/icon/btn-play-inactive.png" alt="Icon Inactive">
+                          <img class="active" src="public/assets/app/images/icon/btn-play-active.png" alt="Icon active">
+                        </div>
                       </div>
                       <div class="filter style-02">
                         <div class="wrapper">
@@ -201,8 +139,7 @@
                     </div>
                     <div class="text-container">
                       <p class="title fw-400 lh-sm mt-2 color-black-theme">
-                        รองเลขาธิการคณะกรรมการเลือกตั้ง เป็นประธานในการประชุม
-                        ผู้บริหารกลุ่มภารกิจ รองเลขาธิการคณะกรรมการเลือกตั้ง เป็นประธานในการประชุม
+                        รายการ กกต. ขอบอก EP 81 : "สนง. กกต. มอบประกาศเกียรติคุณชื่นชมยกย่องคุณความดีแก่ผู้มีสิทธิเลือกตั้ง"
                       </p>
                       <div class="card-footer mt-1">
                         <div class="wrapper color-black-theme">
@@ -260,7 +197,13 @@
     </div>
   </section>
 
-  <div class="mt-6 pt-3"></div>
+  <div class="mt-6"></div>
+
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>

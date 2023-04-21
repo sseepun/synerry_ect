@@ -1412,6 +1412,9 @@ table.table.table-download.style-06 tr:hover > td.warning-container a{color:#309
 .card-line.style-02{background:#30906a;}
 .card-line.style-03{background:#7dc6b5;}
 
+/* */
+body.minisite .card-line.style-01{background:#7dc6b5;}
+
 /* Card Line - Theme A */
 .card-line.style-01.theme-01{background:#7dc6b5;}
 
