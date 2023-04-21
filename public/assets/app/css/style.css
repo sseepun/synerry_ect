@@ -220,7 +220,6 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
 .btn.btn-action-style-06.size-02 .sep{transform:scaleX(.25);}
 .btn.btn-action-style-06.size-02:hover .sep{transform: scaleX(.3);}
 
-.btn.btn-fling{transition:unset!important;}
 .btn.btn-fling:hover .fling{
  animation-timing-function: cubic-bezier(.125,.98,.565,1.17);
  animation-duration: .5s;
@@ -242,6 +241,28 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
     opacity: 1;
   }
 }
+
+.btn.btn-fling-down:hover .fling-down{
+  animation-timing-function:cubic-bezier(.125,.98,.565,1.17);
+  animation-duration:.5s; animation-name:in-out-top-bottom;
+}
+@keyframes in-out-top-bottom{
+  0%{
+    transform: translateZ(0);
+  }
+  49%{
+    transform: translate3d(0,50%,0);
+    opacity: 0;
+  }
+  50%{
+    transfrom: translate3d(0,-50%,0);
+  }
+  100%{
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width:991.98px){
   .btn.btn-action-style-06{width:10rem;}
 }
@@ -4067,3 +4088,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 @media screen and (max-width:575.98px){
   .mt-6-xs{margin-top:1.5rem!important;}
 }
+
+/* Margin Top For Mini Site */
+.margin-intro{margin-top:-7.625rem!important;}
+.margin-intro.size-02{margin-top:-8.625rem!important;}
+.margin-intro .container{z-index:3;}

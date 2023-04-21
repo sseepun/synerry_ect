@@ -144,12 +144,15 @@
                 <?php }?>
               </div>
               <div class="btns jc-center mt-4" data-aos="fade-up" data-aos-delay="150">
-                <a href="#" class="btn width-auto btn-action btn-25">
+                <a href="#" class="btn width-auto btn-action btn-29">
                   ดาวน์โหลดทั้งหมด (30)
                 </a>
               </div>
 
-              <?php include('component/tags-container-mini-site.php'); ?>
+              <?php 
+                $tagContainerStyle = 'style-02';
+                include('component/tags-container-mini-site.php'); 
+              ?>
 
             </div>
             <!-- Right Content -->

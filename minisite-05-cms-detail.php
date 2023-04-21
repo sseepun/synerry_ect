@@ -117,6 +117,7 @@
               </div>
 
               <?php 
+                $tagContainerStyle = 'style-02';
                 include('component/tags-container-mini-site.php'); 
               ?>
             
@@ -128,7 +129,7 @@
                   <tbody>
                     <?php
                       foreach([
-                        'pdf', 'doc', 'xls', 'ppt', 'zip',
+                        'pdf', 'doc', 'xls', 'pptx', 'zip',
                         'rar', 'link'
                       ] as $k){
                     ?>
@@ -136,7 +137,7 @@
                         <td>
                           <div class="download-card">
                             <div>
-                            <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                            <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
                             <p class="xxs color-white color-black-theme fw-400">0.2 MB</p>
                             </div>
                           </div>
@@ -162,15 +163,23 @@
                         </td>
                         <td class="button-container" style="min-width:90px;">
                           <div class="btns jc-end">
-                            <div href="#" class="btn btn-white-theme width-auto btn-action btn-12 btn-black-theme">
-                              ดาวน์โหลดไฟล์
-                              <em class="fa-solid fa-arrow-down ml-1"></em>
+                            <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-29 btn-black-theme">
+                              ดาวน์โหลดไฟล์ <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
                             </div>
                           </div>
                         </td>
                         <td class="arrow-container" style="min-width:150px;">
                           <em class="fa-solid fa-triangle-exclamation"></em>
-                          <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">แจ้งไฟล์เสีย</a>
+                          <?php
+                            if($k === 'link'){?>
+                              <a class="btn-popup-toggle-02 xs color-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                                แจ้งลิงก์เสีย
+                              </a>
+                          <?php } else {?>
+                              <a class="btn-popup-toggle-02 xs color-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                                แจ้งไฟล์เสีย
+                              </a>
+                          <?php }?>
                         </td>
                       </tr>
                     <?php }?>
@@ -218,8 +227,7 @@
                 สื่อที่เกี่ยวข้อง
               </h4>
               <div data-aos="fade-up" data-aos-delay="950">
-                <a class="twitter-timeline" href="https://twitter.com/EctThailand?ref_src=twsrc%5Etfw">Tweets by EctThailand</a> 
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <blockquote class="twitter-tweet"><p lang="th" dir="ltr">ข้อห้ามในการหาเสียงเลือกตั้ง <a href="https://t.co/6ergCeZjhH">https://t.co/6ergCeZjhH</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; สำนักงานคณะกรรมการการเลือกตั้ง (@EctThailand) <a href="https://twitter.com/EctThailand/status/1620704316142260224?ref_src=twsrc%5Etfw">February 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               </div>
             </div>
             <!-- Right Content -->
@@ -330,6 +338,12 @@
       </div>
     </div>
   </section>
+
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
