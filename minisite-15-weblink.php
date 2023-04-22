@@ -69,33 +69,9 @@
         'image' => 'public/assets/app/images/content/71.jpg',
         'title' => 'ศูนย์การเรียนรู้ฯที่ 1'
       ],[
-        'image' => 'public/assets/app/images/content/72.jpg',
-        'title' => 'ศูนย์การเรียนรู้ฯที่ 2'
-      ],[
-        'image' => 'public/assets/app/images/content/68.jpg',
-        'title' => 'ศูนย์ศึกษาประชาธิปไตย'
-      ],[
-        'image' => 'public/assets/app/images/content/73.jpg',
-        'title' => 'สำนักงาน กกต. จังหวัด'
-      ],[
-        'image' => 'public/assets/app/images/content/74.jpg',
-        'title' => 'เครื่องลงคะแนนเลือกตั้ง'
-      ],[
-        'image' => 'public/assets/app/images/content/75.jpg',
-        'title' => 'สหกรณ์ออมทรัพย์ องค์กรอิสระ จำกัด'
-      ],[
-        'image' => 'public/assets/app/images/content/76.jpg',
-        'title' => 'สถาบันพัฒนาการเมืองและการเลือกตั้ง'
-      ],[
-        'image' => 'public/assets/app/images/content/67.jpg',
-        'title' => 'สำนักงานส่งเสริมสวัสดิภาพและพิทักษ์เด็ก เยาวชน ผู้ด้อยโอกาส คนพิการ'
-      ],[
         'image' => 'public/assets/app/images/content/71.jpg',
         'title' => 'ศูนย์การเรียนรู้ฯที่ 1'
-      ],[
-        'image' => 'public/assets/app/images/content/72.jpg',
-        'title' => 'ศูนย์การเรียนรู้ฯที่ 2'
-      ], 
+      ]
     ]
   ?>
 
@@ -113,21 +89,13 @@
           <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
             <?php foreach($weblinks as $d) {?>
               <div class="grid xl-25 lg-1-3 md-50">
-                <a class="ss-card ss-card-65 mb-3" href="#">
+                <a class="ss-card fling ss-card-65 mb-3" href="#">
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                    <div class="filter style-02">
-                      <div class="wrapper">
-                        <div class="icon sm">
-                          <img src="public/assets/app/images/icon-svg/link.svg" alt="Icon">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="filter style-02 bgcolor-02">
-                      <div class="wrapper">
-                        <div class="btn btn-action style-05 btn-24">
-                          <em class="fa-solid fa-arrow-right"></em>
-                        </div>
+                    <div class="filter-04"></div>
+                    <div class="btn-scale">
+                      <div class="btn btn-action style-06 btn-27">
+                        <em class="fa-solid fa-arrow-right"></em>
                       </div>
                     </div>
                   </div>
@@ -137,13 +105,13 @@
                     </p>
                     <div class="btns jc-center pt-5">
                       <div class="btns jc-center">
-                        <div class="btn btn-action btn-26">
-                          <span>ไปที่เว็บไซต์</span>
-                          <em class="fa-solid fa-arrow-right"></em>
+                        <div class="btn btn-action btn-fling btn-26">
+                          <span class="mr-2">ไปที่เว็บไซต์</span>
+                          <em class="fa-solid fa-arrow-right fling "></em>
                         </div>
                       </div>
                     </div>
-                    <div class="card-line style-02"></div>
+                    <div class="card-line style-03"></div>
                   </div>
                 </a>
               </div>
@@ -163,6 +131,8 @@
       ?>
     </div>
   </div>
+
+  <div class="mt-6 pt-3"></div>
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>

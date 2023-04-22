@@ -128,22 +128,39 @@
                         </div>
                       </div>
                       <?php } else if(in_array('views-03', $sectionOptions)){?>
-                      <div class="option view">
-                        <div class="wrapper-view">
-                          <div class="icon-view faq-expand-all cursor-pointer size-02 ml-1">
-                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-drag-vertical-inactive-theme-01.svg" alt="Icon">
-                            <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-drag-vertical-active-theme-01.svg" alt="Icon">
+                        <div class="option view">
+                          <div class="wrapper-view">
+                            <div class="icon-view faq-expand-all cursor-pointer size-02 ml-1">
+                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-drag-vertical-inactive-theme-01.svg" alt="Icon">
+                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-drag-vertical-active-theme-01.svg" alt="Icon">
+                            </div>
+                            <div class="icon-view faq-collapse-all cursor-pointer size-02 ml-1" href="#">
+                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-inactive-theme-01.svg" alt="Icon">
+                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-active-theme-01.svg" alt="Icon">
+                            </div>
+                            <a class="icon-view ml-1" href="#">
+                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-rss-active.svg" alt="Icon">
+                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-rss-inactive.svg" alt="Icon">
+                            </a>
                           </div>
-                          <div class="icon-view faq-collapse-all cursor-pointer size-02 ml-1" href="#">
-                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-inactive-theme-01.svg" alt="Icon">
-                            <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-active-theme-01.svg" alt="Icon">
-                          </div>
-                          <a class="icon-view ml-1" href="#">
-                            <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-rss-active.svg" alt="Icon">
-                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-rss-inactive.svg" alt="Icon">
-                          </a>
                         </div>
-                      </div>
+                        <?php } else if(in_array('views-04', $sectionOptions)){?>
+                        <div class="option view">
+                          <div class="wrapper-view">
+                            <a class="icon-view op-0 ml-1" href="#">
+                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-rss-active.svg" alt="Icon">
+                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-rss-inactive.svg" alt="Icon">
+                            </a>
+                            <div class="icon-view faq-expand-all cursor-pointer size-02 ml-1">
+                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-drag-vertical-inactive-theme-01.svg" alt="Icon">
+                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-drag-vertical-active-theme-01.svg" alt="Icon">
+                            </div>
+                            <div class="icon-view faq-collapse-all cursor-pointer size-02 ml-1" href="#">
+                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-inactive-theme-01.svg" alt="Icon">
+                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-active-theme-01.svg" alt="Icon">
+                            </div>
+                          </div>
+                        </div>
                     <?php }?>
                   </div>
                 </div>

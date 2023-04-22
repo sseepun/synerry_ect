@@ -490,6 +490,9 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .election-commission-container .header{background:#000000; color:#fecb00;}
 
 /* List Footer */
+.list-footer-02.style-02 .btn.btn-action-style-07{background:#fecb00; color:#000000;}
+
+/* List Footer */
 .list-footer.minisite .slot select{background:#fecb00!important; color:#000000!important;}
 
 /* Password Level */

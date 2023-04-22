@@ -10,9 +10,9 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'RSS' ],
+      [ 'url' => '#', 'display' => 'บริการ RSS' ],
     ];
-    $breadcrumbTitle = 'RSS';
+    $breadcrumbTitle = 'บริการ RSS';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/34.jpg';
     $sectionOptions = ['option-02'];
     $formContainer = true;
@@ -41,7 +41,7 @@
         <div class="body">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-              RSS
+              บริการ RSS
             </h3>
           </div>
           <div class="scroll-x-wrapper mt-4">
@@ -63,19 +63,6 @@
                         เปิดเผยราคากลาง กิจกรรมประชาสัมพันธ์และเผยแพร่ไวรัลวีดิโอ 
                         สปอตโทรทัศน์พร้อมล่ามภาษามือผ่านเครือข่ายสังคมออนไลน์ จำนวน 2 ช่องทาง
                       </p>
-                      <div class="date-view mt-1">
-                        <div class="wrapper">
-                          <div class="icon">
-                            <p class="p xs fw-400">
-                              08 มิถุนายน 2565 <span class="ml-2">/</span>
-                            </p>
-                          </div>
-                          <div class="icon">
-                            <em class="fa-solid fa-eye"></em>
-                            <p class="p xs fw-400 ml-2">280</p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                     <div class="button-container">
                       <a href="#" class="btn size-05 btn-action btn-fling btn-13">

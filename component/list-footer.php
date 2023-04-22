@@ -3,7 +3,7 @@
     <?php if(in_array('total', $listFooter)){?>
       <div class="option">
         <p class="color-gray fw-500">
-          จำนวนหน้าทั้งหมด <span class="ml-1 color-02">400 รายการ</span>
+          จำนวนหน้าทั้งหมด <span class="ml-1 text-list color-02">400 รายการ</span>
         </p>
       </div>
     <?php }?>

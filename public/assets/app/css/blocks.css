@@ -676,7 +676,7 @@
 .faq-07 .faq{width:100%; margin:.4375rem 0 0 0;}
 .faq-07 .faq > .question{
   width:100%; display:flex; flex-wrap:wrap; border:1px solid transparent; height:4.5rem;
-  cursor:pointer; transition:border-color .25s, background .25s; border-radius:.4375rem; overflow:hidden;
+  cursor:pointer; transition:all .4s ease; border-radius:.4375rem; overflow:hidden;
 }
 .faq-07 .faq .ftag{
   width:3rem; height:auto; display:flex; justify-content:center; 
@@ -684,19 +684,19 @@
 }
 .faq-07 .faq .question > .title{
   display:flex; align-items:center; height:auto; width:calc(100% - 8rem);
-  transition:color .25s; -webkit-line-clamp:2; padding:0 1rem;
+  transition:all .4s ease; -webkit-line-clamp:2; padding:0 1rem;
 }
 .faq-07 .faq .arrows-container{
   width:5rem; height:100%; display:flex; justify-content:center; align-items:center;
-  transition:background .25s;
+  transition:all .4s ease;
 }
 .faq-07 .faq .arrow {
   display:block; width:3rem; height:3rem; line-height:2.625rem; position:relative;
-  font-size:1rem; text-align:center; font-weight:600; transition:background .25s, border-color .25s,color .25s;
+  font-size:1rem; text-align:center; font-weight:600; transition:all .4s ease;
   border-radius: 1000em;
 }
 .faq-07 .faq .arrow::before, .faq-07 .faq .arrow::after {
-  content:''; position: absolute; transition:transform .25s,background .25s;
+  content:''; position: absolute; transition:all .4s ease;
 }
 .faq-07 .faq .arrow::before {
   top: calc(50% - .0625rem); left: .5rem; right: .5rem; height: .125rem;
@@ -893,7 +893,7 @@
 .faq-10{min-width:600px;}
 .faq-10 .faq{width:100%; margin:.4375rem 0 0 0;}
 .faq-10 .faq > .question{
-  width:100%; display:flex; border:1px solid transparent; height:4.75rem;
+  width:100%; display:flex; border:1px solid transparent; height:5.5rem;
   cursor:pointer; transition:border-color .25s; border-radius:.375rem; overflow:hidden;
 }
 .faq-10 .faq .ftag{
@@ -905,11 +905,11 @@
   display:block; max-width:100%; max-height:100%; width:auto; height:1.375rem;  
 }
 .faq-10 .faq > .question .text-container{
-  height:auto; width:calc(100% - 5rem);
-  transition:background .5s, color .5s; -webkit-line-clamp:2; padding:1rem 0 1rem 1rem; 
+  height:auto; width:calc(100% - 5rem); display:flex; flex-direction:column; justify-content:center;
+  transition:background .5s, color .5s; -webkit-line-clamp:2; padding:0 2.5rem 0 1rem; 
 }
 .faq-10 .faq > .question .text-container > .title{-webkit-line-clamp:2;}
-.faq-10 .faq:hover > .question .text-container > .title{text-decoration:underline; transition:color .25s;}
+.faq-10 .faq:hover > .question .text-container > .title{transition:color .25s;}
 .faq-10 .faq > .question .text-container > .date-view .wrapper{display:flex; align-items:center;}
 .faq-10 .faq > .question .text-container > .date-view .wrapper > .icon{
   display:flex; align-items:center; font-size:.375rem; margin-right:.5rem;
@@ -921,9 +921,7 @@
 .faq-10 .faq:hover > .question .button-container > .btn em{
   margin:.0625rem 0 0 .25rem;
 }
-@media screen and (max-width:991.98px){
-  .faq-10 .faq > .question{height:auto;}
-}
+
 
 /* Faq 11 */
 .faq-11{width:100%;}
@@ -1923,6 +1921,13 @@
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{position: relative; border-bottom:1px solid transparent; z-index: 5;}
 .breadcrumb-02 .bottom .wrapper .title-link:nth-child(3) > *{border-color:#ffffff;}
 .breadcrumb-02 .ui.icon.input input{border:1px solid transparent;}
+
+@media screen and (max-width:460px){
+  .faq-07 .faq > .answer{padding:0 1rem;}
+}
+@media screen and (max-width:350px){
+  .breadcrumb-02 .bottom > .container .wrapper:after{right:-13rem;}
+}
 
 /* Breadcrumb 03  */
 .breadcrumb-03{position:absolute; top:0; z-index:2; padding:.5rem .5rem .5rem 0; z-index:2;}

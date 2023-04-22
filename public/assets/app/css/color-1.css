@@ -574,6 +574,9 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 /* Dropdown */
 .dropdown-icon{background:#000000; color:#ffffff;}
 
+/* List Footer */
+.list-footer-02.style-02 .btn.btn-action-style-07{background:#ffffff; color:#000000;}
+
 /* List Header Calendar */
 .list-header-calendar .options .option.search em.icon{background:#dddddd; color:#000000;}
 .list-header-calendar .dropdown-icon{background:#dddddd; color:#000000;}
