@@ -15,7 +15,7 @@
     $breadcrumbTitle = 'แบบสำรวจความคิดเห็น';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/41.jpg';
     $formContainer = true;
-    $sectionOptions = [ 'option-02'];
+    $sectionOptions = [ 'option-01' ];
     include('component/breadcrumb-style-02.php');
   ?>
 
@@ -31,8 +31,8 @@
             </h3>
           </div>
           <div class="faq-08 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
-            <?php for($i=0; $i<10; $i++){?>
-              <div class="faq <?php if($i==0)echo 'active'; ?>">
+          <?php for($i=0; $i<1; $i++){?>
+            <div class="faq <?php if($i==0)echo 'active'; ?>">
                 <div class="question box-shadow style-02">
                   <h6 class="title p lg fw-400">
                     คุณคิดว่า "www.ect.go.th" ปรับโฉมใหม่ ควรปรับปรุงอะไรเป็นลำดับแรกๆ 
@@ -85,7 +85,7 @@
                               </div>
                             </fieldset>
                             <div class="btns mt-4">
-                              <button type="submit" class="btn btn-action btn-13 btn-black-theme">
+                              <button id="btnVote" type="submit" class="btn btn-action btn-13 btn-black-theme btn-popup-toggle" data-popup="99">
                                 โหวต
                               </button>
                               <button type="submit" class="btn btn-action btn-03 btn-black-theme">
@@ -106,44 +106,43 @@
                   </div>
                 </div>
               </div>
-            <?php }?>
-            <?php for($i=0; $i<2; $i++){?>
-              <div class="faq <?php if($i==0)echo 'active'; ?>">
+          <?php }?>
+          <?php for($i=0; $i<1; $i++){?>
+              <div id="chart" class="faq">
                 <div class="question box-shadow style-02">
                   <h6 class="title p lg fw-400">
                     คุณคิดว่า "www.ect.go.th" ปรับโฉมใหม่ ควรปรับปรุงอะไรเป็นลำดับแรกๆ 
                   </h6>
                   <div class="options">
-                    <a class="btn btn-action btn-13" href="#">
-                      <?= $i==0? 'ปิด': 'ทำแบบสอบถาม' ?>
+                    <a id="textBtn" class="btn btn-action btn-13" href="#">
+                      ทำแบบสอบถาม
                     </a>
                   </div>
                 </div>
-              
-                <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
+                <div id="ansWer" class="answer">
                   <div class="content">
                     <div class="wrapper">
                       <div class="grids jc-center flex-column-reverse md">
                         <div class="grid lg-50 md-100 sm-100 xs-100 mt-0">
                           <div class="per-container">
-                            <p class="fw-500">
-                              <span class="percentage p sm fw-500">30.8%</span>
+                            <p class="fw-400">
+                              <span class="percentage p sm fw-400">30.8%</span>
                               ขนาดเว็บไซต์ไม่พอดีกับหน้าจอ
                             </p>
-                            <p class="fw-500">
-                              <span class="percentage p sm fw-500">23.1%</span>
+                            <p class="fw-400">
+                              <span class="percentage p sm fw-400">23.1%</span>
                               เว็บไซต์รกเกินไป
                             </p>
-                            <p class="fw-500">
-                              <span class="percentage p sm fw-500">7.7%</span>
+                            <p class="fw-400">
+                              <span class="percentage p sm fw-400">7.7%</span>
                               หาข้อมูลไม่พบหรือพบยาก
                             </p>
-                            <p class="fw-500">
-                              <span class="percentage p sm fw-500">15.4%</span>
+                            <p class="fw-400">
+                              <span class="percentage p sm fw-400">15.4%</span>
                               เว็บไซต์ทำงานไม่สมบูรณ์
                             </p>
-                            <p class="fw-500">
-                              <span class="percentage p sm fw-500">23.1%</span>
+                            <p class="fw-400">
+                              <span class="percentage p sm fw-400">23.1%</span>
                               เว็บไซต์ทำงานช้า
                             </p>
                           </div>
@@ -191,6 +190,81 @@
                 </div>
               </div>
             <?php }?>
+            <?php for($i=0; $i<10; $i++){?>
+              <div class="faq">
+                <div class="question box-shadow style-02">
+                  <h6 class="title p lg fw-400">
+                    คุณคิดว่า "www.ect.go.th" ปรับโฉมใหม่ ควรปรับปรุงอะไรเป็นลำดับแรกๆ 
+                  </h6>
+                  <div class="options">
+                    <a class="btn btn-action btn-13 bcolor-white-theme" href="#">
+                      ทำแบบสอบถาม
+                    </a>
+                  </div>
+                </div>
+                <div class="answer">
+                  <div class="content">
+                    <div class="wrapper">
+                      <div class="grids jc-center flex-column-reverse sm">
+                        <div class="grid lg-50 md-50 sm-100 xs-100 mt-0">
+                          <form action="action.php" method="post">
+                            <fieldset>
+                              <div class="gallery-grids">
+                                <div class="grid sm-100">
+                                  <div class="rc-container style-03">
+                                    <input type="radio" id="poll_0" name="poll" value="0">
+                                    <label class="fw-400" for="poll_0">ขนาดเว็บไซต์ไม่พอดีกับหน้าจอ</label>
+                                  </div>
+                                </div>
+                                <div class="grid sm-100">
+                                  <div class="rc-container style-03">
+                                    <input type="radio" id="poll_1" name="poll" value="1">
+                                    <label class="fw-400" for="poll_1">เว็บไซต์รกเกินไป</label>
+                                  </div>
+                                </div>
+                                <div class="grid sm-100">
+                                  <div class="rc-container style-03">
+                                    <input type="radio" id="poll_2" name="poll" value="2">
+                                    <label class="fw-400" for="poll_2">หาข้อมูลไม่พบหรือพบยาก</label>
+                                  </div>
+                                </div>
+                                <div class="grid sm-100">
+                                  <div class="rc-container style-03">
+                                    <input type="radio" id="poll_3" name="poll" value="3">
+                                    <label class="fw-400" for="poll_3">เว็บไซต์ทำงานไม่สมบูรณ์</label>
+                                  </div>
+                                </div>
+                                <div class="grid sm-100">
+                                  <div class="rc-container style-03">
+                                    <input type="radio" id="poll_4" name="poll" value="3">
+                                    <label class="fw-400" for="poll_4">เว็บไซต์ทำงานช้า</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </fieldset>
+                            <div class="btns mt-4">
+                              <button class="btn btn-action btn-13 btn-black-theme btn-popup-toggle" data-popup="99">
+                                โหวต
+                              </button>
+                              <button type="submit" class="btn btn-action btn-03 btn-black-theme">
+                                ผลโหวต
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="grid lg-50 md-50 sm-100 xs-100 mt-0">
+                          <div class="image-wrapper">
+                            <div class="image-container">
+                              <img src="public/assets/app/images/content/11.png" alt="Content">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <?php }?>
           </div>
         </div> 
       </div>
@@ -209,10 +283,16 @@
     </div>
   </div>
 
+  <?php
+    $listResult= ['poll'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
+
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script>
+
     var options = {
       series: [23.1, 7.7, 30.8, 23.1, 15.4],
       chart: {
@@ -256,6 +336,19 @@
       var apexChart = new ApexCharts($(this)[0], options);
       apexChart.render();
     });
+
+    var faq = $('.faq')
+    const element = document.getElementById("btnVote")
+    const chart  = document.getElementById("chart")
+    const answer = document.getElementById("ansWer")
+    const textButton = document.getElementById("textBtn")
+      element.addEventListener("click", function() {
+      chart.classList.add('active')
+      faq.find('> #ansWer').slideDown()
+      answer.style.display = 'block' 
+      textButton.innerHTML = 'ปิด'
+    });
+
   </script>
 </body>
 </html>

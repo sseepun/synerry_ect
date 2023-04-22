@@ -10,9 +10,9 @@
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
-      [ 'url' => '#', 'display' => 'ขอรหัสผ่านใหม่' ],
+      [ 'url' => '#', 'display' => 'ลืมรหัสผ่าน' ],
     ];
-    $breadcrumbTitle = 'ขอรหัสผ่านใหม่';
+    $breadcrumbTitle = 'ลืมรหัสผ่าน';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/39.jpg';
     $formContainer = false;
     include('component/breadcrumb-style-02.php');
@@ -26,7 +26,7 @@
         <div class="body">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-              รีเซ็ทรหัสผ่าน
+              ลืมรหัสผ่าน
             </h3>
           </div>
           <div class="ss-box lg">

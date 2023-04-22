@@ -49,6 +49,10 @@
                           <input class="style-02 size-01" type="password"/>
                         </div>
                       </div>
+                      <div class="padding-style-04 d-flex ai-center mt-2">
+                        <em class="fa-solid fa-triangle-exclamation color-30 mr-2" style="font-size:.75rem;"></em>
+                        <label class="text-danger style-02">รหัสผ่านไม่ถูกต้อง กรุณาลองใหม่</label>
+                      </div>
                     </div>
                     <div class="grid sm-100 mt-2">
                       <div class="padding-style-04">
@@ -64,9 +68,9 @@
                         <div class="captcha-container">
                           <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
                           <div class="btns ai-center ml-4">
-                            <button type="submit" href="#" class="btn btn-action btn-26">
+                            <button type="submit" href="#" class="btn btn-action btn-fling btn-26">
                               <span class="mr-2">เข้าสู่ระบบ</span>
-                              <em class="fa-solid fa-arrow-right"></em>
+                              <em class="fa-solid fa-arrow-right fling"></em>
                             </button>
                           </div>
                         </div>
@@ -158,6 +162,10 @@
                       </div>
                     </div>
                   </a>
+                  <div class="fg-pass">
+                    <a href="#" class="mr-2 fw-400">ลืมรหัสผ่าน</a>
+                    <img src="public/assets/app/images/icon/locked.png" alt="Locked">
+                  </div>
                 </div>
               </form>
             </div>

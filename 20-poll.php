@@ -114,7 +114,7 @@
                           </div>
                         </fieldset>
                         <div class="btns mt-4">
-                          <button type="submit" class="btn btn-action btn-03  btn-popup-toggle" data-popup="99">
+                          <button type="submit" class="btn btn-action btn-03 btn-popup-toggle" data-popup="99">
                             โหวต
                           </button>
                         </div>

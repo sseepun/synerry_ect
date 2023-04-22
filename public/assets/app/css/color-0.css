@@ -40,6 +40,7 @@ html, body, table.table{color:#000000;}
 .color-27, .h-color-27:hover{color:#eeefef!important;}
 .color-28, .h-color-28:hover{color:#0b6853!important;}
 .color-29, .h-color-29:hover{color:#f6ed59!important;}
+.color-30, .h-color-30:hover{color:#ffab28!important;}
 
 
 .bg-p{background:#0ab3de!important;}
@@ -79,7 +80,7 @@ html, body, table.table{color:#000000;}
 .bg-27{background:#eeefef!important;}
 .bg-28{background:#0b6853!important;}
 .bg-29{background:#f6ed59!important;}
-
+.bg-30{background:#ffab28!important;}
 
 .bcolor-p{border-color:#0ab3de!important;}
 .bcolor-s{border-color:#194e84!important;}
@@ -118,6 +119,8 @@ html, body, table.table{color:#000000;}
 .bcolor-27{border-color:#eeefef!important;}
 .bcolor-28{border-color:#0b6853!important;}
 .bcolor-29{border-color:#f6ed59!important;}
+.bcolor-29{border-color:#f6ed59!important;}
+.bcolor-30{border-color:#ffab28!important;}
 
 
 /* Buttons */
@@ -1356,7 +1359,8 @@ table.table .table-card-01 .report-file .text-file{color:#000000;}
 table.table .table-card-01 .report-file:hover .text-file{color:#d91818!important}
 table.table.table-download .report-container > em{color:#ffab28;}
 table.table.table-download .report-container > .text{color:#000000;}
-table.table.table-download .report-container:hover > .text{color:#d91818;}
+table.table.table-download .report-container:hover > em{color:#30906a;}
+table.table.table-download .report-container:hover > .text{color:#30906a;}
 
 
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#eeeeee!important;}
@@ -1685,6 +1689,10 @@ body.minisite .card-line.style-01{background:#7dc6b5;}
 .ss-card-21 .wrapper > .date .wrapper > .month{background:#30906a; color:#ffffff;}
 .ss-card-21 .wrapper > .text-container .title-footer > .wrapper .icon > em{color:#2e603c;}
 .ss-card-21 .wrapper > .date .wrapper::after{background:#ffffff;}
+
+.ss-card-21.theme-01 .wrapper > .date .wrapper > .day{background:#8c6961; color:#ffffff;}
+.ss-card-21.theme-01 .wrapper > .date .wrapper > .month{background:#371e1a;}
+.ss-card-21.theme-01 .wrapper > .text-container .title-footer > .wrapper .icon > em{color:#7cc5b5;}
 
 /* Special Card 23 */
 .ss-card-23 .text-container{background:#ffffff;}
