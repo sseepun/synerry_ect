@@ -255,6 +255,10 @@ html, body, table.table{color:#000000;}
 .btn.btn-30:hover{background:#303031; border-color:#303031; color:#ffffff;}
 .btn.btn-30:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.btn.btn-31, .btn.btn-31:focus{color:#ffffff; background:#303031; border-color:#303031;}
+.btn.btn-31:hover{background:#8c6961; border-color:#8c6961; color:#ffffff;}
+.btn.btn-31:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
 .btn.btn-action-style-04 .wrapper > .icon{background:#f2f2f2;}
 .btn.btn-action-style-04 .wrapper > .icon.fb{color:#4768b7;}
 .btn.btn-action-style-04 .wrapper > .icon.gg{color:#ec4034;}

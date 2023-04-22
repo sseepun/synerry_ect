@@ -14,7 +14,7 @@
     ];
     $breadcrumbTitle = 'ข่าวประกวดราคา/สอบราคา';
     $breadcrumbBg = 'public/assets/app/images/breadcrumb/32.jpg';
-    $sectionOptions = [ 'option-01', 'views-02' ];
+    $sectionOptions = [ 'option-01', 'views-03' ];
     $formContainer = true;
     include('component/breadcrumb-style-02.php');
   ?>
@@ -45,12 +45,12 @@
             </h3>
           </div>
           <div class="faq-09 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
-            <?php for($i=0; $i<8; $i++){?>
+            <?php for($i=0; $i<10; $i++){?>
               <div class="faq <?php if($i==0)echo 'active'; ?>">
                 <div class="question box-shadow style-02">
                   <h3 class="ftag">
                     <div class="icon">
-                      <img src="public/assets/app/images/icon/14.png" alt="">
+                      <img src="public/assets/app/images/icon-svg/minisite-document.svg" alt="">
                     </div>
                   </h3>
                   <p class="title sm lh-sm fw-500">
@@ -123,7 +123,7 @@
                         </table>
                       </div>
                       <div class="btns jc-center" data-aos="fade-up" data-aos-delay="750">
-                        <a href="#" class="btn width-auto btn-action btn-25">
+                        <a href="#" class="btn width-auto btn-action btn-31">
                           ดาวน์โหลดทั้งหมด
                         </a>
                       </div>
@@ -136,7 +136,7 @@
               <div class="question box-shadow style-02">
                 <h3 class="ftag">
                   <div class="icon">
-                    <img src="public/assets/app/images/icon/52.png" alt="">
+                    <img src="public/assets/app/images/icon-svg/document-link.svg" alt="">
                   </div>
                 </h3>
                 <p class="title sm lh-sm fw-500">
@@ -175,5 +175,25 @@
   </div>
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
+  
+  <script>
+    var faqAll = $('.faq');
+    var faqExpandAll = $('.faq-expand-all'),
+        faqCollapseAll = $('.faq-collapse-all');
+    faqExpandAll.click(function(e) {
+        e.preventDefault();
+        faqExpandAll.addClass('active');
+        faqCollapseAll.removeClass('active');
+        faqAll.addClass('active');
+        faqAll.find('> .answer').slideDown();
+    });
+    faqCollapseAll.click(function(e) {
+        e.preventDefault();
+        faqExpandAll.removeClass('active');
+        faqCollapseAll.addClass('active');
+        faqAll.removeClass('active');
+        faqAll.find('> .answer').slideUp();
+    });
+  </script>
 </body>
 </html>
