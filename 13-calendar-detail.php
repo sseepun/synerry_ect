@@ -331,7 +331,7 @@
                         <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
                       </div>
                       <div class="icon">
-                        <em class="fa-solid fa-eye"></em>
+                        <em class="fa-solid fa-location-dot"></em>
                         <span class="p sm ml-2 fw-400"><?= $d['address']?></span>
                       </div>
                     </div>

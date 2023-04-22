@@ -20,19 +20,32 @@
   ?>
 
   <?php 
-    $content = [
-      [
-        'title' => 'เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
-        การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13',
-        'image' => 'public/assets/app/images/content/84.jpg'
-      ],[
-        'title' => 'เลขาธิการคณะกรรมการการเลือกตั้ง ให้การต้อนรับและพบปะพูดคุยกับผู้เข้ารับ
-        การศึกษาอบรมหลักสูตรการพัฒนาการเมืองและการเลือกตั้งระดับสูง รุ่นที่ 13',
-        'image' => 'public/assets/app/images/content/135.jpg'
-      ]
-    ]
+    $marginIntro = 'margin-intro';
+    $classImageHidden = 'img-hidden';
+    $content = array(
+      array(
+        "image"=>"public/assets/app/images/content/147.jpg",
+        "title"=>"คู่มือสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดที่เกี่ยวข้องกับการปฏิบัติงานของพรรคการเมือง"
+      ), 
+      array(
+        "image"=>"public/assets/app/images/content/149.jpg",
+        "title"=>"คู่มือสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดที่เกี่ยวข้องกับการปฏิบัติงานของพรรคการเมือง"
+      ),
+      array(
+        "image"=>"public/assets/app/images/content/150.jpg",
+        "title"=>"คู่มือสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดที่เกี่ยวข้องกับการปฏิบัติงานของพรรคการเมือง"
+      ), 
+      array(
+        "image"=>"public/assets/app/images/content/148.jpg",
+        "title"=>"คู่มือสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดที่เกี่ยวข้องกับการปฏิบัติงานของพรรคการเมือง"
+      ), array(
+        "image"=>"public/assets/app/images/content/151.jpg",
+        "title"=>"คู่มือสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดที่เกี่ยวข้องกับการปฏิบัติงานของพรรคการเมือง"
+      ),
+    );
   ?>
 
+<?php if(sizeof($content) > 4 ){?>
   <section class="section-14">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
@@ -41,18 +54,18 @@
         <div class="body">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-              ไฮไลต์สื่อประชาสัมพันธ์
+              ไฮไลต์สื่อประชาสัมพันธ์ 
             </h3>
           </div>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <?php for($i=0; $i<4; $i++){?>
+              <?php for($i=0; $i<5; $i++){?>
                 <div class="swiper-slide">
                   <div class="grids">
                     <div class="grid xl-1-3 lg-50 md-100 sm-100" data-aos="fade-up" data-aos-delay="150">
                       <a class="ss-card ss-card-36" href="#">
                         <div class="ss-img vertical-04">
-                          <div class="img-bg" style="background-image:url('public/assets/app/images/content/147.jpg');"></div>
+                          <div class="img-bg" style="background-image:url(<?php echo $content['0']['image'] ?>);"></div>
                         </div>
                         <div class="text-wrapper">
                           <div class="h6 title size-02 color-white fw-500" href="#">
@@ -89,7 +102,7 @@
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
-                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/149.jpg');"></div>
+                                      <div class="img-bg" style="background-image:url(<?php echo $content['1']['image'] ?>);"></div>
                                     </div>
                                   </div>
                                   <div class="text-container">
@@ -122,7 +135,7 @@
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
-                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/150.jpg');"></div>
+                                      <div class="img-bg" style="background-image:url(<?php echo $content['2']['image'] ?>);"></div>
                                     </div>
                                   </div>
                                   <div class="text-container">
@@ -157,7 +170,7 @@
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
-                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/148.jpg');"></div>
+                                      <div class="img-bg" style="background-image:url(<?php echo $content['3']['image'] ?>);"></div>
                                     </div>
                                   </div>
                                   <div class="text-container">
@@ -188,7 +201,7 @@
                                 <div class="wrapper">
                                   <div class="img-container">
                                     <div class="ss-img vertical">
-                                      <div class="img-bg" style="background-image:url('public/assets/app/images/content/151.jpg');"></div>
+                                      <div class="img-bg" style="background-image:url(<?php echo $content['4']['image'] ?>);"></div>
                                     </div>
                                   </div>
                                   <div class="text-container">
@@ -234,6 +247,7 @@
       </div>
     </div>
   </section>
+  <?php } ?>
 
   <?php 
     $ebooks = [
@@ -286,7 +300,7 @@
     ]
   ?>
 
-  <section class="section-padding">
+  <section class="section-padding <?php if(sizeof($content) < 1) echo $marginIntro ?>">
     <div class="container">
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($ebooks as $d) {?>
@@ -333,7 +347,7 @@
                   <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
                 </div>
               </div>
-              <div class="card-line style-02"></div>
+              <div class="card-line style-03"></div>
             </div>
           </a>
         </div>
