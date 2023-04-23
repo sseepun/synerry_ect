@@ -2996,8 +2996,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   position:relative; border:1px solid transparent; padding:.5rem 1rem 1rem 1rem; 
   border-radius:0 0 var(--bradius-02) var(--bradius-02); transition:all .25s; border-top:0!important; overflow:hidden;
 }
-.ss-card-37 .text-container > .title{-webkit-line-clamp:2; transition:color .25s; min-height:3rem;}
-.ss-card-37 .text-container > .desc{-webkit-line-clamp:3; min-height:4rem;}
+.ss-card-37 .text-container > .title{-webkit-line-clamp:2; transition:color .25s; min-height:3.375rem;}
+.ss-card-37 .text-container > .desc{-webkit-line-clamp:3; min-height:4.4375rem;}
 .ss-card-37 .text-container > .card-footer .link-footer{
   display:flex; align-items:center; margin-top:.875rem;   
 }
@@ -3037,8 +3037,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   .ss-card-38 .wrapper > .text-container{width:calc(60% + .15625rem);}
 }
 @media screen and (max-width:991.98px){
-  .ss-card-38 .wrapper > .text-container .title{-webkit-line-clamp:2; min-height:3rem;}
-  .ss-card-38 .wrapper > .text-container .desc{-webkit-line-clamp:3; min-height:4rem;}
+  .ss-card-38 .wrapper > .text-container .title{-webkit-line-clamp:2; min-height:3.375rem;}
+  .ss-card-38 .wrapper > .text-container .desc{-webkit-line-clamp:3; min-height:4.4375rem;}
   .ss-card-38{border-radius:var(--bradius-02); overflow:hidden;}
   .ss-card-38 .wrapper > .image-container, .ss-card-38 .wrapper > .text-container{width:100%;}
   .ss-card-38 .wrapper > .image-container{border-radius:0;}
@@ -3504,7 +3504,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   position:relative; border:1px solid transparent; padding:.5rem 1rem 1rem 1rem; border-radius:0 0 var(--bradius-02) var(--bradius-02);
   transition:all .25s; border-top:0!important; overflow:hidden;
 }
-.ss-card-61 .text-container > .title{-webkit-line-clamp:2; transition:color .25s; min-height:3rem;}
+.ss-card-61 .text-container > .title{-webkit-line-clamp:2; transition:color .25s; min-height:3.375rem;}
 .ss-card-61 .text-container > .card-footer .link-footer{
   display:flex; align-items:center; margin-top:.875rem;   
 }
@@ -3548,7 +3548,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   position:relative; border:1px solid transparent; padding:.5rem 1rem 1rem 1rem; border-radius:0 0 var(--bradius-02) var(--bradius-02);
   transition:all .25s; border-top:0!important; overflow:hidden;
 }
-.ss-card-62 .text-container > .title{-webkit-line-clamp:2; transition:color .25s; min-height:3rem;}
+.ss-card-62 .text-container > .title{-webkit-line-clamp:2; transition:color .25s; min-height:3.375rem;}
 .ss-card-62 .text-container > .card-footer .link-footer{
   display:flex; align-items:center; margin-top:.875rem;   
 }

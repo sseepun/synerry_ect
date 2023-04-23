@@ -174,9 +174,11 @@ nav.topnav .mega-menu-wrapper{
 }
 nav.topnav .mega-menu-content{width:25%; transition:color .25s;}
 nav.topnav .mega-menu-content.size-02{width:33.33%;}
-nav.topnav .mega-menu-content{border-right:1px solid transparent; padding:.5rem .5rem .5rem .5rem;}
+nav.topnav .mega-menu-content.size-03{width:23%!important;}
+nav.topnav .mega-menu-content.size-04{width:27%!important;}
+nav.topnav .mega-menu-content{border-right:1px solid transparent; padding:.5rem .5rem .5rem .5rem; margin:1rem 0 1rem 0;}
 nav.topnav .mega-menu-content .mega-menu{
-  display:flex; padding:.875rem .5rem; border-radius:.375rem;
+  display:flex; align-items:center; padding:.875rem .5rem; border-radius:.375rem;
   transition:background .25s; cursor:pointer;
 }
 nav.topnav .mega-menu-content .mega-menu .dot{
@@ -194,7 +196,7 @@ nav.topnav .mega-menu-content > .mega-menu-level-3{padding-left:1.5rem;}
 nav.topnav .mega-menu-content .mega-menu .dot-list.style-02::after{background:#ffffff;}
 
 nav.topnav .mega-menu-content:last-child{border-right:0;}
-nav.topnav .mega-menu-content .mega-menu a{display:block; font-weight:500; line-height:.9375; transition:color .25s;}
+nav.topnav .mega-menu-content .mega-menu a{display:block; font-weight:500; transition:color .25s;}
 nav.topnav .mega-menu-content > .mega-menu .icon{margin-right:.75rem; position:relative;}
 nav.topnav .mega-menu-content > .mega-menu .icon > img{
  display:block; max-width:100%; max-height:100%; width:auto; height:1rem; transition:opacity .25s;

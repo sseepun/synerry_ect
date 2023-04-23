@@ -6,132 +6,24 @@
 </head>
 <body class="loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-dropdown-menu.php'); ?>
+  <?php include_once('include/topnav-mega-menu.php'); ?>
 
   <section class="banner-04 rev_slider" id="rev_slider_1" data-version="5.4.1">
     <ul>
       <li class="content-container" data-transition="incube-horizontal">
-        <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
-        <div class="content-wrapper">
-          <div class="container">
-            <div id="quote" class="quote-container style-02 animate">
-              <div class="wrapper">
-                <h2 class="color-black-theme fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
-                <h1 class="color-black-theme fw-700 mt-1">
-                  <span class="color-04 color-black-theme">ประชาธิปไตย</span><br />
-                  โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
-                </h1>
-                <img class="quote quote-left" src="public/assets/app/images/icon/15.png" alt="Quote" />
-                <img class="quote quote-right" src="public/assets/app/images/icon/16.png" alt="Quote" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hero size-02 animate" style="--delay:.55s;">
-          <img src="public/assets/app/images/hero/05.png" class="Hero" />
-        </div>
+        <img src="public/assets/app/images/bg/50.jpg" alt="Sky" class="rev-slidebg">
       </li>
       <li class="content-container" data-transition="incube-horizontal">
-        <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
-        <div class="content-wrapper">
-          <div class="container">
-            <div class="quote-container style-02 animate" style="--delay:.4s;">
-              <div class="wrapper">
-                <h2 class="color-black-theme fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
-                <h1 class="color-black-theme fw-700 mt-1">
-                  <span class="color-04 color-black-theme">ประชาธิปไตย</span><br />
-                  โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
-                </h1>
-                <img class="quote quote-left" src="public/assets/app/images/icon/15.png" alt="Quote" />
-                <img class="quote quote-right" src="public/assets/app/images/icon/16.png" alt="Quote" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hero size-02 animate" style="--delay:.55s;">
-          <img src="public/assets/app/images/hero/05.png" class="Hero" />
-        </div>
+        <img src="public/assets/app/images/bg/50.jpg" alt="Sky" class="rev-slidebg">
       </li>
       <li class="content-container" data-transition="incube-horizontal">
-        <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
-        <div class="content-wrapper">
-          <div class="container">
-            <div class="quote-container style-02 animate" style="--delay:.4s;">
-              <div class="wrapper">
-                <h2 class="color-black-theme fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
-                <h1 class="color-black-theme fw-700 mt-1">
-                  <span class="color-04 color-black-theme">ประชาธิปไตย</span><br />
-                  โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
-                </h1>
-                <img class="quote quote-left" src="public/assets/app/images/icon/15.png" alt="Quote" />
-                <img class="quote quote-right" src="public/assets/app/images/icon/16.png" alt="Quote" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hero size-02 animate" style="--delay:.55s;">
-          <img src="public/assets/app/images/hero/05.png" class="Hero" />
-        </div>
+        <img src="public/assets/app/images/bg/50.jpg" alt="Sky" class="rev-slidebg">
       </li>
       <li class="content-container" data-transition="incube-horizontal">
-        <img src="public/assets/app/images/bg/02.jpg" alt="Sky" class="rev-slidebg">
-        <div class="content-wrapper">
-          <div class="container">
-            <div class="quote-container style-02 animate" style="--delay:.4s;">
-              <div class="wrapper">
-                <h2 class="color-black-theme fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
-                <h1 class="color-black-theme fw-700 mt-1">
-                  <span class="color-04 color-black-theme">ประชาธิปไตย</span><br />
-                  โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
-                </h1>
-                <img class="quote quote-left" src="public/assets/app/images/icon/15.png" alt="Quote" />
-                <img class="quote quote-right" src="public/assets/app/images/icon/16.png" alt="Quote" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hero size-02 animate" style="--delay:.55s;">
-          <img src="public/assets/app/images/hero/05.png" class="Hero" />
-        </div>
+        <img src="public/assets/app/images/bg/50.jpg" alt="Sky" class="rev-slidebg">
       </li>
     </ul>
   </section>
-
-  <!-- <section class="banner-01">
-    <div class="slide-container">
-      <div class="slides">
-        <?php for($i=0; $i<4; $i++){?>
-          <div class="slide size-02">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/02.jpg');"></div>
-            <div class="hero size-02 animate" style="--delay:.55s;">
-              <img src="public/assets/app/images/hero/05.png" class="Hero" />
-            </div>
-            <div class="container">
-              <div class="quote-container style-02 animate" style="--delay:.4s;">
-                <div class="wrapper">
-                  <h2 class="color-black-theme fw-500">จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>ตามหลัก</h2>
-                  <h1 class="color-black-theme fw-700 mt-1">
-                    <span class="color-04 color-black-theme">ประชาธิปไตย</span><br />
-                    โปร่งใส<span class="h3 fw-500">และ</span>เป็นธรรม
-                  </h1>
-                  <img class="quote quote-left" src="public/assets/app/images/icon/15.png" alt="Quote" />
-                  <img class="quote quote-right" src="public/assets/app/images/icon/16.png" alt="Quote" />
-                </div>
-              </div>
-            </div>
-          </div>
-        <?php }?>
-      </div>
-      <div class="arrows style-02">
-        <div class="arrow size-01 arrow-prev">
-          <img src="public/assets/app/images/icon/17.png" alt="Arrow" />
-        </div>
-        <div class="arrow size-01 arrow-next">
-          <img src="public/assets/app/images/icon/18.png" alt="Arrow" />
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <?php 
     $content01 = [

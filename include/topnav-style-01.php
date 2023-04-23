@@ -415,7 +415,7 @@
                         <a href="#">ตรวจสอบข้อมูลสมาชิกพรรคการเมือง</a>
                       </div>
                     </div>
-                    <div class="mega-menu-content">
+                    <div class="mega-menu-content size-03">
                       <div class="mega-menu">
                         <div class="icon">
                           <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-07.svg" />
@@ -438,7 +438,7 @@
                         <a href="#">แบบฟอร์ม</a>
                       </div>
                     </div>
-                    <div class="mega-menu-content">
+                    <div class="mega-menu-content size-04">
                       <div class="mega-menu">
                         <div class="icon">
                           <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-10.svg" />
