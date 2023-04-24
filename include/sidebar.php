@@ -41,7 +41,7 @@
           <a class="menu-item" href="#">
             <div class="wrapper">
               <div class="icon">
-                <img src="public/assets/app/images/icon/31.png" alt="">
+                <img src="public/assets/app/images/icon-svg/home.svg" alt="Home Icon">
               </div>
               <span class="p sm color-white title-link">หน้าแรก</span>
             </div> 
@@ -50,7 +50,7 @@
           <a class="menu-item" href="#">
             <div class="wrapper">
               <div class="icon">
-                <img src="public/assets/app/images/icon/32.png" alt="">
+                <img src="public/assets/app/images/icon-svg/member.svg" alt="Member Card Icon">
               </div>
               <p class="sm color-white title-link">ข้อมูลส่วนตัว</ย>
             </div>
@@ -58,8 +58,8 @@
           </a>
           <a class="menu-item" href="#">
             <div class="wrapper">
-              <div class="icon">
-                <img src="public/assets/app/images/icon/33.png" alt="">
+              <div class="icon size-02">
+                <img src="public/assets/app/images/icon-svg/password.svg" alt="Password Icon">
               </div>
               <p class="sm color-white title-link">เปลี่ยนรหัสผ่าน</p>
             </div>
@@ -68,7 +68,7 @@
           <a class="menu-item" href="#">
             <div class="wrapper">
               <div class="icon">
-                <img src="public/assets/app/images/icon/34.png" alt="">
+                <img src="public/assets/app/images/icon-svg/mail.svg" alt="Mail Icon">
               </div>
               <p class="sm color-white title-link">จดหมายข่าวสาร</p>
             </div>
@@ -77,7 +77,7 @@
           <a class="menu-item" href="#">
             <div class="wrapper">
               <div class="icon">
-                <img src="public/assets/app/images/icon/35.png" alt="">
+                <img src="public/assets/app/images/icon-svg/chatting.svg" alt="Chat Icon">
               </div>
               <p class="sm color-white title-link">กระทู้ของฉัน</p>
             </div>
@@ -86,7 +86,7 @@
           <a class="menu-item mt-5" href="#">
             <div class="wrapper">
               <div class="icon">
-                <img src="public/assets/app/images/icon/logout.png" alt="">
+                <img src="public/assets/app/images/icon-svg/logout.svg" alt="Logout Icon">
               </div>
               <p class="sm color-white title-link">ออกจากระบบ</p>
             </div>

@@ -228,33 +228,32 @@
                 <p class="h6 fw-400">ไม่พบเนื้อหาจากคำค้นหา <span class="h5 color-04 fw-600">"การเลือกตั้ง"</span></p>
               </div>
               <div class="mt-1">
-                    <div class="ss-tags style-02">
-                      <div class="tag">
-                        <span class="title">ข่าวประกาศ</span>
-                      </div>
-                    </div>
-                    <div class="ss-tags style-02">
-                      <div class="tag">
-                        <span class="title">อบรมหลักสูตร</span>
-                      </div>
-                    </div>
-                    <div class="ss-tags style-02">
-                      <div class="tag">
-                        <span class="title">การเลือกตั้ง</span>
-                      </div>
-                    </div>
-                    <div class="ss-tags style-02">
-                      <div class="tag">
-                        <span class="title">รายงานจัดซื้อจัดจ้าง</span>
-                      </div>
-                    </div>
-                    <div class="ss-tags style-02">
-                      <div class="tag">
-                        <span class="title">ระดับชำนาญการพิเศษ</span>
-                      </div>
-                    </div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">ข่าวประกาศ</span>
                   </div>
-          
+                </div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">อบรมหลักสูตร</span>
+                  </div>
+                </div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">การเลือกตั้ง</span>
+                  </div>
+                </div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">รายงานจัดซื้อจัดจ้าง</span>
+                  </div>
+                </div>
+                <div class="ss-tags style-02">
+                  <div class="tag">
+                    <span class="title">ระดับชำนาญการพิเศษ</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div> 

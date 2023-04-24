@@ -86,6 +86,65 @@
                 $tagContainerStyle = 'style-02';
                 include('component/tags-container-mini-site.php'); 
               ?>
+     
+              <h4 class="title fw-600 mt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
+                ไฟล์ที่เกี่ยวข้อง
+              </h4>
+                
+              <div class="scroll-x-wrapper style-02 mt-2">
+                <table class="table style-05 table-download" data-aos="fade-up" data-aos-delay="600">
+                  <tbody>
+                    <?php
+                      foreach([
+                        'video',
+                      ] as $k){
+                    ?>
+                      <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
+                        <td>
+                          <div class="download-card">
+                            <div>
+                            <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
+                            <p class="xxs color-white color-black-theme fw-400">0.2 MB</p>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="title-container" style="min-width:450px;">
+                          <a class="p title fw-600" href="#">
+                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
+                            รายงานการจัดซื้อจัดจ้างส่วนภูมิภาค
+                          </a>
+                          <div class="text-footer mt-2">
+                            <div class="wrapper">
+                              <div class="icon">
+                                <em class="fa-regular fa-calendar"></em>
+                                <p class="xs fw-400 ml-1">29 พฤศจิกายน</p>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-regular fa-floppy-disk"></em>
+                                <p class="xs fw-400 ml-1">ดาวน์โหลด 122 ครั้ง</p>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="button-container" style="min-width:90px;">
+                          <div class="btns jc-end">
+                            <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-13">
+                              ดาวน์โหลดไฟล์
+                              <em class="fa-solid fa-arrow-down ml-1 fling-down"></em>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="report-container" style="min-width:150px;">
+                          <em class="fa-solid fa-triangle-exclamation"></em>
+                          <a class="xs text color-black-theme btn-popup-toggle-02 text-center fw-500 mt-1" data-popup="99">
+                            แจ้งไฟล์เสีย
+                          </a>
+                        </td>
+                      </tr>
+                    <?php }?>
+                  </tbody>
+                </table>
+              </div>
             </div>
             <!-- Right Content -->
             <div class="grid xl-30 lg-40 md-1-3 sm-100">

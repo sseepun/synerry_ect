@@ -66,19 +66,21 @@
             <h5 class="color-black color-02 fw-500">ข้อมูลส่วนตัว</h5>  
           </div> 
           <div class="ss-box lg" style="padding:1.5rem 1rem;">
-            <form class="form style-02 white-theme" action="">
+            <form class="form style-02 white-theme" action="action.php">
               <div class="grids no-gap">
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
-                    <label class="p ws-nowrap fw-500">เปลี่ยนภาพโปรไฟล์</label>
-                    <div class="profile-edit">
-                      <div class="img-container">
-                        <img class="img" src="public/assets/app/images/avatars/03.jpg" alt="Avatar">
+                    <div class="search-file-container">
+                      <label class="p fw-500">เปลี่ยนภาพโปรไฟล์</label>
+                    </div>
+                    <div class="search-btn-container">
+                      <div class="btns jc-end">
+                        <div class="btn style-03 btn-action btn-21 size-03 btn-black-theme pos-relative">
+                          อัปโหลดรูปภาพ
+                          <input type="file" class="file-upload">
+                        </div>
                       </div>
-                      <div class="photo-upload">
-                        <em class="fa-solid fa-camera"></em>
-                      </div>
-                      <input type="file" accept="image/png, image/jpeg">
+                      <p class="xs fw-400">ประเภทไฟล์ที่รองรับ JPG, PNG, GIF ขนาดรวมไม่เกิน 2 MB</p>
                     </div>
                   </div>
                 </div>
@@ -86,31 +88,40 @@
                   <div class="form-group style-02">
                     <label class="p fw-500">ชื่อ <span class="text-danger">*</span></label>
                     <div class="form-input">
-                      <input class="style-02 size-01 no-border-bottom" type="text" value="นิพันธ์พนธ์" disabled/>
+                      <input class="style-02 size-01" type="text"/>
                     </div>
+                  </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกชื่อ</label>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
                     <label class="p pw-title fw-500">นามสกุล <span class="text-danger">*</span></label>
                     <div class="form-input">
-                      <input class="style-02 size-01 no-border-bottom" type="text" value="สุวรรชัย" disabled/>
+                      <input class="style-02 size-01" type="text"/>
                     </div>
+                  </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกนามสกุล</label>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
                     <label class="p fw-500">อีเมล <span class="text-danger">*</span></label>
                     <div class="form-input">
-                      <input class="style-02 size-01 no-border-bottom" type="email" value="nipahtphone@ect.go.th" disabled/>
+                      <input class="style-02 size-01" type="email"/>
                     </div>
+                  </div>
+                  <div class="padding-style-04">
+                    <label class="text-danger style-02">กรุณากรอกอีเมล</label>
                   </div>
                 </div>
                 <div class="grid sm-100 mt-2">
                   <div class="form-group style-02">
                     <label class="p fw-500">หมายเลขติดต่อ</label>
                     <div class="form-input">
-                      <input class="style-02 size-01 no-border-bottom" type="text" value="088-421-7863" disabled/>
+                      <input class="style-02 size-01" type="text"/>
                     </div>
                   </div>
                 </div>
@@ -118,15 +129,14 @@
                   <div class="form-group style-02">
                     <label class="p fw-500">วันเกิด <span class="text-danger">*</span></label>
                       <div class="form-input">
-                        <div class="date-wrapper">
-                        <input type="text" value="10 ตุลาคม 2500" disabled
-                        class="date-picker form-control style-02 size-01 no-border-bottom">
-                      </div>
+                        <div class="date-wrapper calendar-icon">
+                          <input type="text" class="date-picker form-control style-02 size-01">
+                        </div>
                     </div>
                   </div>
                 </div>
                 <div class="grid lg-50 md-100 sm-100 mt-2">
-                <div class="form-group style-02">
+                  <div class="form-group style-02">
                     <label class="fw-500">เพศ <span class="text-danger">*</span></label>
                     <div class="form-input">
                       <fieldset>
@@ -143,7 +153,7 @@
                           </div>
                           <div class="grid sm-50 xs-50">
                             <div class="checkbox-set none">
-                              <input type="radio" name="radio" id="radio_1" disabled>
+                              <input type="radio" name="radio" id="radio_1">
                               <label for="radio_1" class="checkmark">  
                                 <div class="bg-color white-theme"></div>
                               </label>
@@ -158,12 +168,21 @@
                   </div>
                   </div>
                 </div>
-                <div class="grid sm-100">
+                <div class="grid xl-2-3 lg-70 md-100 sm-100">
+                  <div class="captcha padding-style-04">
+                    <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
+                    <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
+                  </div>
+                </div>
+                <div class="grid xl-100 lg-100 md-100 sm-100">
                   <div class="padding-style-04">
-                    <div class="btns mt-2 jc-center h-full">
-                      <a href="#" class="btn btn-action btn-02">
-                        แก้ไข
-                      </a>
+                    <div class="btns mt-2 jc-center pl-unset-xs h-full">
+                      <button type="submit" class="btn btn-action btn-popup-toggle btn-02" data-popup="99">
+                        บันทึก
+                      </button>
+                      <div href="#" class="btn btn-action btn-05">
+                        ยกเลิก
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -175,9 +194,13 @@
     </div>     
   </div>
 
+  <?php
+    $listResult= ['member-enews-subscription'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
+
   <?php include_once('include/access-panel.php'); ?>
   <?php include_once('include/script.php'); ?>
-
   <script>
     let sidebar = document.querySelector(".sidebar");
     let arrowContainer = document.querySelector(".arrow-container");

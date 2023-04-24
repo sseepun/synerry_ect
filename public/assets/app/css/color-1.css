@@ -95,8 +95,13 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#ffffff!important;}
 
+.btn.btn-27, .btn.btn-27:focus{color:#ffffff; background:transparent; border-color:#ffffff;}
+.btn.btn-27:hover{background:#ffffff; color:#000000;}
+
+.btn.btn-02.btn-white-theme, .btn.btn-02:focus.btn-white-theme,
+.btn.btn-03.btn-white-theme, .btn.btn-03:focus.btn-white-theme,
 .btn.btn-05.btn-white-theme, .btn.btn-05:focus.btn-white-theme,
-.btn.btn-13, .btn.btn-13:focus.btn-white-theme{background:#000000!important; color:#ffffff!important;}
+.btn.btn-13.btn-white-theme, .btn.btn-13:focus.btn-white-theme{background:#000000!important; color:#ffffff!important;}
 .btn.btn-13.btn-black-theme, .btn.btn-13:focus.btn-black-theme{
   background:#ffffff!important; color:#000000!important;
 }
@@ -382,6 +387,7 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 
 /* Content Found - Search Pages */
 .content-found .icon{color:#ffffff;}
+.content-found.icon-white-theme .icon{color:#000000;}
 
 /* Custom Select */
 .custom-select .select-selected{background:#ffffff; color:#000000;}
@@ -389,6 +395,8 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .custom-select .select-items{background:#ffffff;}
 .custom-select .select-items div, .custom-select .select-selected{color:#000000;}
 .custom-select .select-items div:hover{background:#000000!important; color:#ffffff;}
+
+.filter-04{background:rgb(0,0,0,.4)}
 
 /* Global Filter */
 .filter.style-01{background:rgba(0,0,0,.4)}
@@ -403,6 +411,8 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
   rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
   rgba(0,0,0,0));
 }
+
+.form.search > .ui.icon.input > em.icon{background:#dddddd;}
 
 /* Form */
 .form.style-01 .form-footer{border-color:#000000;}
@@ -455,6 +465,14 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .form-check-container-03  input:checked ~ .checkmark{background:#ffffff!important;}
 .form-check-container-03 .checkmark:after{border-color:#000000;}
 
+/* Theme A */
+.form-check-container-03.theme-01 .checkmark{background:#dddddd;}
+.form-check-container-03.theme-01  input:checked ~ .checkmark{background:#000000!important;}
+.form-check-container-03.theme-01 .checkmark:after{border-color:#ffffff;}
+
+body.minisite .rc-container.style-04 > label::before{border-color:#000000;}
+body.minisite .rc-container.style-04 > label::after{background:#dddddd;}
+body.minisite .rc-container.style-04 > input:checked + label::after{background:#ffffff;}
 
 /* Faq 01 */
 .faq-01 .faq > .question{border-color:#ffffff;}
@@ -726,7 +744,7 @@ select.style-02{background:#ffffff!important;}
 /* Special Box Header */
 .ss-box-header{border-color:#ffffff;}
 .ss-box-header .ellipsis{background:#ffffff; color:#000000;}
-.ss-box-header.style-03 .ellipsis-container{background:#ffffff;}
+.ss-box-header.style-03 .ellipsis-container{background:#dddddd;}
 .ss-box-header.style-03 .ellipsis-container:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 .ss-box-header.style-03 .ellipsis-container > em{color:#ffffff; background:#000000;}
 
@@ -867,6 +885,8 @@ select.style-02{background:#ffffff!important;}
   rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
   rgba(0,0,0,0));
 }
+
+
 
 /* Special Card 11 */
 .ss-card-11 .filter-01{background:rgb(0,0,0,.4)}
@@ -1031,6 +1051,11 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Card 65 */
 .ss-card-65 .text-container{border-color:#000000; color:#000000;}
+
+/* Special Card 66 */
+.ss-card-66 .wrapper > .text-container{border-color:#000000;}
+.ss-card-66 .link-footer > .text{color:#000000!important; border-color:#000000!important;}
+.ss-card-66 .wrapper > .text-container .info-content > .icon em{background:#000000; color:#ffffff;}
 
 /* Special Card 67 */
 .ss-card-67{border-color:#000000; background:#dddddd;}

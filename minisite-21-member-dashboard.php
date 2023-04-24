@@ -73,7 +73,7 @@
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">ข่าวสารประชาสัมพันธ์</h5> 
-                <div class="ellipsis style-02">
+                <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
@@ -85,13 +85,13 @@
                         <div class="img-container">
                           <div class="ss-img">
                             <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
-                            <div class="filter style-02 bgcolor-02">
-                              <div class="wrapper">
-                                <div class="btn btn-action style-05 btn-24">
-                                  <em class="fa-solid fa-arrow-right"></em>
-                                </div>
+                            <div class="filter-04"></div>
+                            <div class="btn-scale">
+                              <div class="btn btn-action style-06 btn-27">
+                                <em class="fa-solid fa-arrow-right"></em>
                               </div>
                             </div>
+                            <div class="card-line style-01"></div>
                           </div>
                         </div>
                         <div class="text-container">
@@ -125,13 +125,13 @@
                       <div class="ss-card ss-card-12 mt-3">
                         <div class="ss-img">
                           <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                          <div class="filter style-02 bgcolor-02">
-                            <div class="wrapper">
-                              <div class="btn btn-action style-05 btn-24">
-                                <em class="fa-solid fa-arrow-right"></em>
-                              </div>
+                          <div class="filter-04"></div>
+                          <div class="btn-scale">
+                            <div class="btn btn-action style-06 btn-27">
+                              <em class="fa-solid fa-arrow-right"></em>
                             </div>
                           </div>
+                          <div class="card-line style-01"></div>
                         </div>
                         <div class="text-container no-border">
                           <p class="title style-02 fw-400 lh-sm mt-2">
@@ -157,9 +157,9 @@
                 </div>
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-26 theme-02">
+                <a href="#" class="btn btn-action btn-fling btn-26 theme-02">
                   <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right"></em>
+                  <em class="fa-solid fa-arrow-right fling"></em>
                 </a>
               </div>
             </div>
@@ -168,17 +168,17 @@
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">เอกสารดาวน์โหลด</h5> 
-                <div class="ellipsis style-02">
+                <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
               <div class="ss-box-content size-02 p-4">
-                <div class="scroll-x-wrapper" data-simplebar>
+                <div class="scroll-x-wrapper">
                 <table class="table table-download style-05">
                   <tbody>
                     <?php
                       foreach([
-                        'news-white', 'news-white', 'news-white', 'news-white', 'news-white'
+                        'minisite-document', 'document-link', 'minisite-document', 'minisite-document', 'minisite-document'
                       ] as $k){
                     ?>
                       <tr class="box-shadow style-02 mb-2">
@@ -187,10 +187,9 @@
                             <img src="public/assets/app/images/icon-svg/<?= $k ?>.svg" alt="Image File">
                           </div>
                         </td>
-                        <td class="text-left title-container" style="min-width:700px;">
-                          <a class="fw-600 h-color-t" href="#">
-                            ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้อง
-                            เกี่ยวกับการปกครองในระบอบประชาธิปไตย จำนวน 4 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ 
+                        <td class="text-left title-container" style="min-width:400px;">
+                          <a class="fw-400 h-color-31" href="#">
+                            ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
                           </a>
                         </td>
                       </tr>
@@ -200,9 +199,9 @@
                 </div>
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-26 theme-02">
+                <a href="#" class="btn btn-action btn-fling btn-26 theme-02">
                   <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right"></em>
+                  <em class="fa-solid fa-arrow-right fling"></em>
                 </a>
               </div>
             </div>
@@ -214,17 +213,13 @@
                 'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
               ],[
                 'number' => '4',
-                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)
-                ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)
-                ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
+                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
               ],[
                 'number' => '3',
                 'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
               ],[
                 'number' => '2',
-                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)
-                ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)
-                ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
+                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
               ],[
                 'number' => '1',
                 'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
@@ -235,7 +230,7 @@
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">ปฏิทินกิจกรรม</h5> 
-                <div class="ellipsis style-02">
+                <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
@@ -250,7 +245,7 @@
                         </div>
                       </div>
                       <div class="text-container">
-                        <p class="title h-color-t lh-sm fw-500">
+                        <p class="title h-color-31 lh-sm fw-400">
                           <?= $d['title']?>
                         </p>
                       </div>      
@@ -259,9 +254,9 @@
                 <?php }?>
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-26 theme-02">
+                <a href="#" class="btn btn-action btn-26 btn-fling theme-02">
                   <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right"></em>
+                  <em class="fa-solid fa-arrow-right fling"></em>
                 </a>
               </div>
             </div>
@@ -270,7 +265,7 @@
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">คลังวิดีโอ</h5> 
-                <div class="ellipsis style-02">
+                <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
@@ -279,17 +274,11 @@
                   <div class="grid lg-70 md-100 sm-100">
                     <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                       <div class="ss-img">
+                        <div class="filter-04"></div>
                         <div class="img-bg" style="background-image:url('public/assets/app/images/content/66.jpg');"></div>
-                        <div class="hover-container show h-hidden">
-                          <div class="icon">
-                            <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                          </div>
-                        </div>
-                        <div class="filter style-02">
-                          <div class="wrapper">
-                            <div class="icon">
-                              <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
-                            </div>
+                        <div class="btn-scale">
+                          <div class="btn btn-action style-06 btn-27">
+                            <em class="fa-solid fa-arrow-right"></em>
                           </div>
                         </div>
                         <div class="card-line style-01"></div>
@@ -318,32 +307,28 @@
                   ?>
                   <div class="grid lg-30 md-100 sm-100">
                     <?php foreach($content03 as $d) {?>
-                      <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-                        <div class="ss-img">
-                          <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                          <div class="hover-container show h-hidden">
-                            <div class="icon xs">
-                              <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
-                            </div>
-                          </div>
-                          <div class="filter style-02">
-                            <div class="wrapper">
-                              <div class="icon xs">
-                                <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                      <div class="pl-2 pl-unset-md">
+                        <a class="ss-card ss-card-16 mb-2" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                          <div class="ss-img">
+                            <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                            <div class="filter-04"></div>
+                            <div class="btn-scale">
+                              <div class="btn btn-action sm style-06 btn-27">
+                                <em class="fa-solid fa-arrow-right"></em>
                               </div>
                             </div>
+                            <div class="card-line style-01"></div>
                           </div>
-                          <div class="card-line style-01"></div>
-                        </div>
-                      </a>
+                        </a>
+                      </div>
                     <?php } ?>
                   </div>
                 </div>  
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-26 theme-02">
+                <a href="#" class="btn btn-action btn-26 btn-fling theme-02">
                   <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right"></em>
+                  <em class="fa-solid fa-arrow-right fling"></em>
                 </a>
               </div>
             </div>
@@ -352,7 +337,7 @@
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
                 <h5 class="color-black color-02 fw-500">คลังภาพ</h5> 
-                <div class="ellipsis style-02">
+                <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
@@ -362,13 +347,20 @@
                     <a class="ss-card ss-card-06" href="#">
                       <div class="ss-img">
                         <div class="img-bg" style="background-image:url('public/assets/app/images/content/45.jpg');"></div>
+                        <div class="filter-04"></div>
                         <div class="number-of-picture">
                           <em class="fa-solid fa-images"></em>
                           <span class="number">15</span>
                         </div>
+                        <div class="btn-scale">
+                          <div class="btn btn-action style-06 btn-27">
+                            <em class="fa-solid fa-arrow-right"></em>
+                          </div>
+                        </div>
+                        <div class="card-line style-01"></div>
                       </div>
                       <div class="text-wrapper">
-                        <div class="title h6 fw-500 h-color-t" href="#">
+                        <div class="title h6 fw-500 h-color-31" href="#">
                           กรรมการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางแก้ไขปัญหาในการ
                           ปฏิบัติงานให้แก่พนักงานในการอบรมหลักสูตร การอบรมหลักสูตรการ
                           ปฏิบัติงานระดับการชำนาญพิเศษ
@@ -397,11 +389,18 @@
                               <div class="wrapper">
                                 <div class="img-container">
                                   <div class="ss-img">
+                                    <div class="filter-04"></div>
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/20.jpg');"></div>
                                     <div class="number-of-picture">
                                       <em class="fa-solid fa-images"></em>
                                       <span class="number">15</span>
                                     </div>
+                                    <div class="btn-scale">
+                                      <div class="btn btn-action sm style-06 btn-27">
+                                        <em class="fa-solid fa-arrow-right"></em>
+                                      </div>
+                                    </div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -427,11 +426,18 @@
                               <div class="wrapper">
                                 <div class="img-container">
                                   <div class="ss-img">
+                                    <div class="filter-04"></div>
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/22.jpg');"></div>
                                     <div class="number-of-picture">
                                       <em class="fa-solid fa-images"></em>
                                       <span class="number">15</span>
                                     </div>
+                                    <div class="btn-scale">
+                                      <div class="btn btn-action sm style-06 btn-27">
+                                        <em class="fa-solid fa-arrow-right"></em>
+                                      </div>
+                                    </div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -461,11 +467,18 @@
                               <div class="wrapper">
                                 <div class="img-container">
                                   <div class="ss-img">
+                                    <div class="filter-04"></div>
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/69.jpg');"></div>
                                     <div class="number-of-picture">
                                       <em class="fa-solid fa-images"></em>
                                       <span class="number">15</span>
                                     </div>
+                                    <div class="btn-scale">
+                                      <div class="btn btn-action sm style-06 btn-27">
+                                        <em class="fa-solid fa-arrow-right"></em>
+                                      </div>
+                                    </div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -492,10 +505,17 @@
                                 <div class="img-container">
                                   <div class="ss-img">
                                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/02.jpg');"></div>
+                                    <div class="filter-04"></div>
                                     <div class="number-of-picture">
                                       <em class="fa-solid fa-images"></em>
                                       <span class="number">15</span>
                                     </div>
+                                    <div class="btn-scale">
+                                      <div class="btn btn-action sm style-06 btn-27">
+                                        <em class="fa-solid fa-arrow-right"></em>
+                                      </div>
+                                    </div>
+                                    <div class="card-line style-01"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -522,9 +542,9 @@
                   </div>
                 </div>
                 <div class="btns ai-center jc-center mt-4">
-                  <a href="#" class="btn btn-action btn-26 theme-02">
+                  <a href="#" class="btn btn-action btn-26 btn-fling theme-02">
                     <span class="mr-2">ดูทั้งหมด</span>
-                    <em class="fa-solid fa-arrow-right"></em>
+                    <em class="fa-solid fa-arrow-right fling"></em>
                   </a>
                 </div>
               </div>

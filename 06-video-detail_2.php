@@ -65,7 +65,52 @@
           </div>
           
           <?php include('component/tags-container.php'); ?>
-      
+          <h4 class="title fw-600 mt-6 pt-6" data-aos="fade-up" data-aos-delay="600">
+            ไฟล์ที่เกี่ยวข้อง
+          </h4>     
+          <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
+            <table class="table table-download" data-aos="fade-up" data-aos-delay="750">
+              <tbody>
+                <?php
+                  foreach([
+                    'video'
+                  ] as $k){
+                ?>
+                  <tr class="table-card-01 box-shadow style-02 mb-2">
+                    <td>
+                      <div class="download-card">
+                        <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
+                      </div>
+                    </td>
+                    <td class="title-container" style="min-width:450px;">
+                      <a class="fw-600 title" href="#">
+                        รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
+                      </a>
+                      <div class="text-footer">
+                        <div class="wrapper">
+                          <p class="sm fw-400 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
+                          <p class="sm fw-400 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
+                          <div class="icon h-color-19">
+                            <em class="fa-solid fa-circle-exclamation mr-1"></em>
+                            <p class="btn-popup-toggle cursor-pointer sm color-black-theme fw-400" data-popup="99">
+                              แจ้งไฟล์เสีย
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="arrow-container" style="min-width:100px;">
+                      <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                        <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                        <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
+                      </div>
+                      <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                    </td>
+                  </tr>
+                <?php }?>
+              </tbody>
+            </table>
+          </div>
         </div>
         <!-- Right Content -->
         <div class="grid xl-30 lg-40 md-1-3 sm-100">

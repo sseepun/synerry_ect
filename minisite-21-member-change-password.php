@@ -72,7 +72,7 @@
         <div class="ss-box style-05 m-unset xxl" data-aos="fade-in" data-aos-delay="150">
           <div class="ss-box-header style-03">
             <div class="ellipsis-container">
-              <em class="fa-solid fa-ellipsis"></em>
+              <img class="size-02" src="public/assets/app/images/icon-svg/password.svg" alt="Password Icon">
             </div>
             <h5 class="color-black color-02 fw-500 ml-3">
               เปลี่ยนรหัสผ่าน

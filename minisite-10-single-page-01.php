@@ -20,11 +20,10 @@
       [ 'url' => '#', 'display' => 'ความเป็นมา' ],
     ];
     $breadcrumbTitle = 'ความเป็นมา';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/23.jpg';
-    $backgroundColor = 'style-02';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/43.jpg';
     $sectionOptions = ['']; // ['views', 'rss']
     $formContainer = false; // select form
-    include('component/breadcrumb-style-02.php');
+    include('component/breadcrumb-minisite-single-page.php');
   ?>
 
   <section class="section-14">
