@@ -421,7 +421,16 @@ nav.sidenav.minisite .options > .option-btn{width:calc(100% - 3.9375rem);}
   cursor:pointer; transition:color .3s;
 }
 
+body.minisite .global-search-container button{background:#8c6961; color:#ffffff;}
 
+body.minisite .global-search-container form{max-width:800px;}
+body.minisite .global-search-container{opacity:unset!important; transform:translateY(-110%)!important; transition:transform 500ms ease, opacity 500ms ease;}
+body.minisite .global-search-container form input{border-radius:.3rem .3rem .3rem .3rem;}
+body.minisite .global-search-container.active{transform:translateY(0%)!important;}
+body.minisite .global-search-container button{border-radius:0 .3rem .3rem 0;}
+
+
+body.minisite .global-search-container{background:rgba(124,197,180,.85);}
 /* Accessibility & Quick Links */
 nav.side-panel{position:fixed; top:8rem; right:0; letter-spacing:0; z-index:97;}
 nav.side-panel > .wrapper > .icon{transform:translateY(1px);}

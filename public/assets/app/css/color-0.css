@@ -1250,6 +1250,9 @@ nav.footer-single-page.style-02 .social-list .icon{color:#ffffff;}
 .ss-tags.style-03 > .tag:hover .title{color:#ffffff;}
 .ss-tags > .tag.style-03{background:#7cc5b5; color:#ffffff;}
 .ss-tags > .tag.style-04{background:#c2c8cd; color:#3d3f4d;}
+.ss-tags.style-03.background-01 > .tag{background:#ffffff; color:#000000;}
+.ss-tags.style-03.background-01 > .tag:hover{background:#000000;}
+.ss-tags.style-03.background-01 > .tag:hover .title{color:#ffffff;}
 
 /* Paginate */
 .paginate{display:flex; align-items:center;}

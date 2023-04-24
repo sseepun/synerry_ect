@@ -213,14 +213,5 @@
 </nav>
 <div class="sidenav-filter"></div>
 
-<!-- Global Search Container -->
-<div class="global-search-container">
-  <div class="wrapper">
-    <div class="close-filter global-search-toggle"></div>
-    <div class="container">
-    </div>
-  </div>
-</div>
-
 <!-- Options -->
-<?php include_once('component/options.php'); ?>
+<?php include_once('component/options-minisite.php'); ?>

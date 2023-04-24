@@ -80,6 +80,9 @@ $(function(){ 'use strict';
               .from('.global-search-container .input-container', .6, {
                   opacity: 0, y: 30, ease: Power3.easeInOut
               }, '-=.3')
+              .from('.global-search-container .popular-tags', .6, {
+                opacity: 0, y: 30, ease: Power3.easeInOut
+            }, '-=.3')
               .reverse();
           $('.global-search-toggle').click(function(e){
               e.preventDefault();

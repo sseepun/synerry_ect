@@ -781,6 +781,7 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 
 /* Popular Search Container  */
 .popular-search-container{background:#fecb00;} 
+.popular-search-container.transparent-theme{background:transparent;}
 .popular-search-container .ss-tags > .tag{background:#000000; color:#fecb00;}
 
 /* Table */

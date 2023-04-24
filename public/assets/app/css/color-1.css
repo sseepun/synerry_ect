@@ -610,6 +610,7 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 
 /* Popular Search Container  */
 .popular-search-container{background:#ffffff;} 
+.popular-search-container.transparent-theme{background:transparent;}
 .popular-search-container .ss-tags > .tag{background:#000000; color:#ffffff;}
 
 /* Popup Container */
