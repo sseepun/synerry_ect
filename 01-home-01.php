@@ -6,7 +6,7 @@
 </head>
 <body class="loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-mega-menu.php'); ?>
+  <?php include_once('include/topnav-dropdown-menu.php'); ?>
 
   <section class="banner-04 rev_slider" id="rev_slider_1" data-version="5.4.1">
     <ul>

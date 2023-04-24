@@ -1,21 +1,38 @@
 <?php
-  $submenu = '<div class="submenu-dropdown">
+  $submenu = '<div class="submenu-dropdown level-3">
       <div class="submenu-container">
         <div class="submenu-wrapper">
-          <div class="submenu">
-            <a href="#">การเลือกตั้งสมาชิกผู้แทนราษฎร</a>
+          <div class="submenu level-3">
+            <div class="wrapper">
+              <div class="dot">
+                <div class="dot-list"></div>
+              </div>
+              <a href="#">การเลือกตั้งสมาชิกผู้แทนราษฎร</a>
+            </div>
           </div>
-          <div class="submenu">
-            <a href="#">การได้มาซึ่งสมาชิกวุฒิสภา</a>
+          <div class="submenu level-3">
+            <div class="wrapper">
+              <div class="dot">
+                <div class="dot-list"></div>
+              </div>
+              <a href="#">การได้มาซึ่งสมาชิกวุฒิสภา</a>
+            </div>
           </div>
-          <div class="submenu">
+          <div class="submenu level-3">
+            <div class="wrapper">
+              <div class="dot">
+                <div class="dot-list"></div>
+              </div>
               <a href="#">การออกเสียงประชามติ</a>
+            </div>
           </div>
-          <div class="submenu">
-            <a href="#">การเลือกตั้งท้องถิ่น</a>
-          </div>
-          <div class="submenu">
-            <a href="#">สถิติการวินิจฉัยชี้ขาดเรื่องคัดค้านการเลือกตั้ง</a>
+          <div class="submenu level-3">
+            <div class="wrapper">
+              <div class="dot">
+                <div class="dot-list"></div>
+              </div>
+              <a href="#">การเลือกตั้งท้องถิ่น</a>
+            </div>
           </div>
         </div>
       </div>
@@ -214,7 +231,7 @@
               <div class="submenu-dropdown">
                 <div class="submenu-container">
                   <div class="submenu-wrapper size-03">
-                    <div class="submenu">
+                    <div class="submenu has-children">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -231,13 +248,14 @@
                         <a href="#">พระราชบัญญัติประกอบรัฐธรรมนูญ</a>
                       </div>
                     </div>
-                    <div class="submenu">
+                    <div class="submenu has-children">
                       <div class="wrapper">
                         <div class="dot">
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชบัญญัติ</a>
                       </div>
+                      <?= $submenu ?>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
@@ -325,8 +343,8 @@
                           <div class="dot-list"></div>
                         </div>
                         <a href="#">ข่าวประชาสัมพันธ์</a>
-                        <?= $submenu ?>
                       </div>
+                      <?= $submenu ?>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
@@ -405,17 +423,16 @@
               </div>
                <!-- บริการข้อมูล -->
               <?php } else if ($i === 4) {?>
-                <div class="submenu-dropdown">
+                <div class="submenu-dropdown anchor-right">
                   <div class="submenu-container">
                     <div class="submenu-wrapper size-02">
-                      <div class="submenu has-children">
+                      <div class="submenu">
                         <div class="wrapper">
                           <div class="icon">
                             <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
                             <img class="active" src="public/assets/app/images/icon-svg/menu-white-01.svg" />
                           </div>
                           <a href="#">สถิติการเลือกตั้ง</a>
-                          <?= $submenu ?>
                         </div>
                       </div>
                       <div class="submenu">
@@ -522,16 +539,15 @@
                 </div>
               <!-- หน่วยงาน -->
               <?php } else if ($i === 5) {?>
-                <div class="submenu-dropdown">
+                <div class="submenu-dropdown anchor-right">
                   <div class="submenu-container">
                     <div class="submenu-wrapper">
-                      <div class="submenu has-children">
+                      <div class="submenu">
                         <div class="wrapper">
                           <div class="dot">
                             <div class="dot-list"></div>
                           </div>
                           <a href="#">สถาบันพัฒนาการเมืองและการเลือกตั้ง</a>
-                          <?= $submenu ?>
                         </div>
                       </div>
                       <div class="submenu">
@@ -542,13 +558,14 @@
                           <a href="#">ศูนย์บริการเบิกจ่ายตรงสวัสดิการฯ</a>
                         </div>
                       </div>
-                      <div class="submenu">
+                      <div class="submenu has-children">
                         <div class="wrapper">
                           <div class="dot">
                             <div class="dot-list"></div>
                           </div>
                           <a href="#">ศูนย์การเรียนรู้ฯที่ 1</a>
                         </div>
+                        <?= $submenu ?>
                       </div>
                       <div class="submenu">
                         <div class="wrapper">

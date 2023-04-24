@@ -832,11 +832,12 @@ nav.topnav.style-02 .menu > *:first-child::after{background:#30906a;}
 nav.topnav.style-02 .submenu-dropdown{background:#ffffff; color:#000000;}
 nav.topnav.style-02 .submenu:hover > *:first-child{background:#30906a; color:#fffffd;}
 nav.topnav.style-02 .submenu > .submenu-dropdown{background:#1f4e3a;}
-nav.topnav.style-02 .submenu > .submenu-dropdown .submenu:hover > *:first-child{background:#303032;}
 nav.topnav.style-02 .sidenav-toggle::before{background:#1f4e3a;}
 nav.topnav.style-02 .sidenav-toggle:hover::before{background:#303032;}
-nav.topnav.style-02 .submenu:hover .dot-list{background:#ffffff;}
-nav.topnav.style-02 .submenu .dot-list{background:#10563a;}
+nav.topnav.style-02 .submenu:hover .dot-list{background:#ffffff}
+nav.topnav.style-02 .submenu .dot-list{background:#10563a}
+nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .dot-list{background:#10563a;}
+nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover  .dot-list{background:#ffffff;}
 
 nav.topnav.style-03 .logo{color:#333333;}
 nav.topnav.style-03 .menu:hover > *:first-child{color:#ffffff;}
