@@ -690,7 +690,7 @@
               <?php } else if ($i === 7) {?>
                 <div class="submenu-dropdown anchor-right">
                   <div class="submenu-container">
-                    <div class="submenu-wrapper">
+                    <div class="submenu-wrapper size-04">
                       <div class="submenu has-children">
                         <div class="wrapper">
                           <div class="dot">

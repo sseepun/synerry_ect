@@ -147,6 +147,7 @@ nav.topnav .submenu-container{position:relative; display:flex;}
 nav.topnav .submenu-wrapper{display:block; width:310px; padding:.5rem 0 1.5rem 0;}
 nav.topnav .submenu-wrapper.size-02{width:320px;}
 nav.topnav .submenu-wrapper.size-03{width:380px;}
+nav.topnav .submenu-wrapper.size-04{width:370px;}
 nav.topnav .submenu{position:relative; border-bottom:1px solid transparent;}
 nav.topnav .submenu:last-child{border-bottom:0;}
 nav.topnav .submenu{position:relative;}
