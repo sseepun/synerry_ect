@@ -106,15 +106,16 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
   background:#ffffff!important; color:#000000!important;
 }
 .btn.btn-13:focus.bcolor-white-theme{border-color:#ffffff!important;}
-
-
 .btn.btn-02:hover{background:#ffffff!important; color:#000000!important;}
-
 .btn.btn-03.btn-black-theme, .btn.btn-03.btn-black-theme:focus,
 .btn.btn-04, .btn.btn-04:focus,
 .btn.btn-12.btn-black-theme, .btn.btn-12.btn-black-theme:focus
 {background:#000000; color:#ffffff; border-color:#000000;}
 .btn.btn-21.btn-black-theme, .btn.btn-21.btn-black-theme:focus{background:#ffffff; color:#000000;}
+.btn.btn-32, .btn.btn-32:focus{background:transparent; color:#000000; border-color:transparent;}
+.btn.btn-32:hover, .btn.btn-32.active{color:#000000; background:#dddddd; border-color:#dddddd;}
+.btn.btn-33, .btn.btn-33:focus{color:#ffffff; background:#000000; border-color:#000000;}
+.btn.btn-33:hover, .btn.btn-33.active{color:#000000; background:#dddddd; border-color:#dddddd;}
 
 .btn.btn-action-style-02:hover{border-color:#000000;}
 .btn.btn-action-style-04 .wrapper > .icon{background:#000000; color:#ffffff!important;}
@@ -141,6 +142,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .card-line.style-01.card-line-black-theme{background:#dddddd;}
 .card-line.style-02{background:#ffffff;}
 .card-line.style-03{background:#ffffff;}
+.card-line.style-03.line-black-theme{background:#000000;}
 
 
 /* Calendar */
@@ -154,6 +156,17 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 /* Calendar Header */
 .calendar-header .wrapper > .text{background:#ffffff; color:#000000;}
 .calendar-header .wrapper > .btn-calendar{border-color:#ffffff!important;}
+
+body.minisite .calendar-header .wrapper > .btn-calendar{
+  border-color:#000000!important; color:#ffffff; background:#000000;
+}
+body.minisite .calendar-header .wrapper > .text{background:#000000; color:#ffffff;}
+body.minisite .calendar-header-title > .wrapper .time,
+body.minisite .calendar-wrapper .calendar-header-title > .wrapper .list{
+  background:#000000; color:#ffffff; border-color:#000000!important;
+}
+body.minisite .calendar-day td.fc-axis.fc-widget-content:first-child{background:#000000; color:#ffffff;}
+body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 
 /* Calendar - Day */
 .calendar-wrapper .calendar-header-title > .wrapper .time{border-color:#ffffff!important;}
@@ -175,6 +188,19 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .calendar-week .custom-date.active{background:#ffffff; color:#000000;}
 .calendar-week .fc-day-grid .fc-day.fc-widget-content{border-color:#ffffff!important;}
 .calendar-week .fc-day.fc-today{background:#ffffff!important;}
+
+/* Calendar Week - Minisite */
+body.minisite .calendar-week .fc-day-grid .fc-bg td:first-child{background:#000000;}
+body.minisite .calendar-week .fc-time-grid td.fc-axis.fc-widget-content:first-child{
+  background:#000000; color:#ffffff;
+}
+body.minisite .calendar-week .fc-day-grid .fc-bg td{background:#000000; color:#ffffff;}
+body.minisite .calendar-week .custom-date{color:#ffffff;}
+body.minisite .calendar-week .custom-date.active{background:#dddddd; color:#000000;}
+body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#dddddd!important;}
+body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#000000!important;}
+body.minisite .calendar-week .fc-time-grid-event{background:#ffffff;}
+
 
 /* Calendar - Year */
 .calendar-year .fc-multimonth-month{border:3px solid #ffffff;}
@@ -1085,3 +1111,11 @@ select.style-02{background:#ffffff!important;}
 
 /* Special Card 79 */
 .ss-card-79 .wrapper > .icon{border-color:#ffffff; background:transparent;}
+
+/* Special Card 81 */
+.ss-card-81 .wrapper > .text-container{border-color:#000000;}
+.ss-card-81 .text-container > .card-footer{border-color:#000000;}
+.ss-card-81 .text-container .date .wrapper > .day{background:#dddddd; color:#000000;}
+.ss-card-81 .text-container .date .wrapper > .month{background:#000000; color:#ffffff;}
+.ss-card-81 .text-container .date .wrapper.style-02::after{background:#ffffff;}
+.ss-card-81 .wrapper > .text-container .text > .card-bottom .wrapper > .icon em{color:#000000;}

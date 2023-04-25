@@ -13,9 +13,9 @@
       [ 'url' => '#', 'display' => 'ปฏิทินกิจกรรม' ],
     ];
     $breadcrumbTitle = 'ปฏิทินกิจกรรม';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/38.jpg';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/42.jpg';
     $formContainer = true;
-    $sectionOptions = ['option-02'];
+    $sectionOptions = ['option-02', 'views-05'];
     include('component/breadcrumb-style-02.php');
   ?>
   
@@ -26,13 +26,13 @@
         <div class="body">
           <div class="calendar-header" data-aos="fade-up" data-aos-delay="150">
             <div class="text-wrapper">
-              <p id="calendar-title" class="h3 fw-600">
-                <span class="year">&nbsp;</span>
-              </p>
               <div class="wrapper">
                 <div id="prev-month-btn" class="btn-calendar">
                   <em class="fa-solid fa-arrow-left"></em>
                 </div>
+                <p id="calendar-title" class="h3 ml-2 mr-2 fw-600">
+                  <span class="year">&nbsp;</span>
+                </p>
                 <div id="today-btn" class="text fw-400 c-pointer">
                   ปีนี้
                 </div>
@@ -114,7 +114,7 @@
           {
             id: 1,
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
-            start: '2023-04-12'
+            start: '2023-04-21'
           }, {
             id: 2,
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
@@ -123,7 +123,23 @@
             id: 3,
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
             start: '2023-04-21'
-          },
+          },{
+            id: 4,
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-04-21'
+          },{
+            id: 5,
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-04-21'
+          },{
+            id: 6,
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-04-18'
+          },{
+            id: 7,
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+            start: '2023-04-18'
+          }
         ],
         datesSet: function(info){
           var date = new Date(info.view.currentStart);

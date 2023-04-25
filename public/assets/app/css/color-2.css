@@ -300,6 +300,10 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 
 .btn.btn-27, .btn.btn-27:focus{color:#fecb00; background:transparent; border-color:#fecb00;}
 .btn.btn-27:hover{background:#fecb00; color:#000000;}
+.btn.btn-32, .btn.btn-32:focus{background:transparent; color:#000000; border-color:transparent;}
+.btn.btn-32:hover, .btn.btn-32.active{color:#fecb00; background:#000000; border-color:#000000;}
+.btn.btn-33, .btn.btn-33:focus{color:#fecb00; background:#000000; border-color:#000000;}
+.btn.btn-33:hover, .btn.btn-33.active{color:#000000; background:#d3a901; border-color:#d3a901;}
 
 .btn.btn-02:hover{background:#fecb00!important; color:#000000!important;}
 .btn.btn-03.btn-white-theme, .btn.btn-03:focus.btn-white-theme,
@@ -368,6 +372,7 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .card-line.style-01.card-line-black-theme{background:#e4b703;}
 .card-line.style-02{background:#fecb00;}
 .card-line.style-03{background:#fecb00;}
+.card-line.style-03.line-black-theme{background:#000000;}
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -414,6 +419,20 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .calendar-week .fc-day.fc-today{background:#e4b703!important;}
 .calendar-week .fc-unthemed td{border-color:#fecb00;}
 
+/* Calendar Week - Minisite */
+body.minisite .calendar-week .fc-day-grid .fc-bg td:first-child{background:#000000;}
+body.minisite .calendar-week .fc-time-grid td.fc-axis.fc-widget-content:first-child{
+  background:#000000; color:#fecb00;
+}
+body.minisite .calendar-week .fc-day-grid .fc-bg td{background:#000000; color:#fecb00;}
+body.minisite .calendar-week .custom-date{color:#fecb00;}
+body.minisite .calendar-week .custom-date.active{background:#d3a901; color:#000000;}
+body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#d3a901!important;}
+body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#000000!important;}
+body.minisite .calendar-week .fc-time-grid-event{background:#fecb00;}
+body.minisite .calendar-week .fc-widget-content{background:#000000!important; color:#fecb00!important;}
+
+
 /* Calendar */
 .calendar-style-02 .calendar-header table th.prev, 
 .calendar-style-02 .calendar-header table th.next{border-color:#fecb00;}
@@ -432,6 +451,17 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .calendar-day .fc-unthemed td{border-color:#fecb00;}
 .calendar-day .fc-time-grid-event{background:#fecb00!important; border-color:#e4b703!important;}
 .calendar-day .fc-time-grid .fc-event .fc-title{color:#000000;}
+
+body.minisite .calendar-header .wrapper > .btn-calendar{
+  border-color:#000000!important; color:#fecb00; background:#000000;
+}
+body.minisite .calendar-header .wrapper > .text{background:#000000; color:#fecb00;}
+body.minisite .calendar-header-title > .wrapper .time,
+body.minisite .calendar-wrapper .calendar-header-title > .wrapper .list{
+  background:#000000; color:#fecb00; border-color:#000000!important;
+}
+body.minisite .calendar-day td.fc-axis.fc-widget-content:first-child{background:#000000; color:#fecb00;}
+body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 
 /* Calendar - Month */
 .calendar-month .fc-day-header{background:#fecb00; color:#000000;}
@@ -1206,4 +1236,12 @@ body.minisite .search-container .form > .form-group .date-wrapper > input[type="
 
 /* Special Card 79 */
 .ss-card-79 .wrapper > .icon{border-color:#fecb00; background:transparent;}
+
+/* Special Card 81 */
+.ss-card-81 .wrapper > .text-container{border-color:#000000;}
+.ss-card-81 .text-container > .card-footer{border-color:#000000;}
+.ss-card-81 .text-container .date .wrapper > .day{background:#e4b703; color:#000000;}
+.ss-card-81 .text-container .date .wrapper > .month{background:#000000; color:#fecb00;}
+.ss-card-81 .text-container .date .wrapper.style-02::after{background:#fecb00;}
+.ss-card-81 .wrapper > .text-container .text > .card-bottom .wrapper > .icon em{color:#000000;}
 

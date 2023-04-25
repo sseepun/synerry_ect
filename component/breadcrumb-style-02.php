@@ -91,6 +91,7 @@
                           </div>
                       </div>
                     </div>
+                  </div>
                   <?php } ?>
                   <div class="grid lg-20 md-100 sm-100 mt-0">
                     <?php if(in_array('views', $sectionOptions)){?>
@@ -145,23 +146,38 @@
                           </div>
                         </div>
                         <?php } else if(in_array('views-04', $sectionOptions)){?>
-                        <div class="option view">
-                          <div class="wrapper-view">
-                            <a class="icon-view op-0 ml-1" href="#">
-                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-rss-active.svg" alt="Icon">
-                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-rss-inactive.svg" alt="Icon">
-                            </a>
-                            <div class="icon-view faq-expand-all cursor-pointer size-02 ml-1">
-                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-drag-vertical-inactive-theme-01.svg" alt="Icon">
-                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-drag-vertical-active-theme-01.svg" alt="Icon">
-                            </div>
-                            <div class="icon-view faq-collapse-all cursor-pointer size-02 ml-1" href="#">
-                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-inactive-theme-01.svg" alt="Icon">
-                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-active-theme-01.svg" alt="Icon">
+                          <div class="option view">
+                            <div class="wrapper-view">
+                              <a class="icon-view op-0 ml-1" href="#">
+                                <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-rss-active.svg" alt="Icon">
+                                <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-rss-inactive.svg" alt="Icon">
+                              </a>
+                              <div class="icon-view faq-expand-all cursor-pointer size-02 ml-1">
+                                <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-drag-vertical-inactive-theme-01.svg" alt="Icon">
+                                <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-drag-vertical-active-theme-01.svg" alt="Icon">
+                              </div>
+                              <div class="icon-view faq-collapse-all cursor-pointer size-02 ml-1" href="#">
+                                <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-inactive-theme-01.svg" alt="Icon">
+                                <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-active-theme-01.svg" alt="Icon">
+                              </div>
                             </div>
                           </div>
-                        </div>
-                    <?php }?>
+                          <?php } else if(in_array('views-05', $sectionOptions)){?>
+                          <div class="option view d-flex ai-center h-full">
+                            <div class="btn-calendar">
+                              <button class="btn btn-action style-08 btn-32 size-05 btn-white-theme mr-2">
+                                มุมมอง
+                              </button>
+                              <button class="btn btn-action style-08 btn-32 size-05 btn-white-theme mr-2">
+                                รายการ
+                              </button>
+                              <button class="btn btn-action style-08 btn-32 size-05 btn-white-theme">
+                                ปฏิทิน
+                              </button>
+                            </div>
+                          </div>
+                        <?php }?>
+                        
                   </div>
                 </div>
               </form>

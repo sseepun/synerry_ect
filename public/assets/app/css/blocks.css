@@ -337,6 +337,7 @@
 .form-container-03 .option .icon-view.active img.icon-active,
 .form-container-03 .option .icon-view:hover img.icon-active{opacity:1;}
 .form-container-03 .option .icon-view.disable{pointer-events:none;}
+.form-container-03 .btn-calendar{display:flex;}
 @media screen and (max-width:991.98px){
   .form-container-03{padding-bottom:4rem;}
   .form-container-03 .option{margin-top:1rem;}
@@ -345,6 +346,10 @@
 @media screen and (max-width:575.98px){
   .form-container-03 .option > .sub-title{display:none;}
   .form-container-03 .option > .dropdown.size-02{width:100%;}
+}
+@media screen and (max-width:354.98px){
+  .form-container-03 .btn-calendar{flex-wrap:wrap; justify-content:center;}
+  .form-container-03 .btn-calendar > .btn{margin-bottom:.5rem;}
 }
 
 .file-header-container{display:flex; flex-wrap:wrap;}

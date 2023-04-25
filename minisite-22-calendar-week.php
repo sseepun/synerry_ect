@@ -4,70 +4,75 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-01.php'); ?>
+  <?php include_once('include/topnav-style-02.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
       [ 'url' => '#', 'display' => 'ปฏิทินกิจกรรม' ],
     ];
     $breadcrumbTitle = 'ปฏิทินกิจกรรม';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/11.jpg';
-    include('component/breadcrumb.php');
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/42.jpg';
+    $formContainer = true;
+    $sectionOptions = ['option-02', 'views-05'];
+    include('component/breadcrumb-style-02.php');
   ?>
-
-  <div class="section-padding">
+  
+  <section class="section-14">
     <div class="container">
-      <div data-aos="fade-up" data-aos-delay="0">
-        <?php include('component/list-header-calendar-style-02.php'); ?>
-      </div>
-      <div class="calendar-header mt-6" data-aos="fade-up" data-aos-delay="150">
-        <div class="text-wrapper">
-          <p id="calendar-title" class="h3 fw-600">
-            <span class="month">&nbsp;</span>
-            <span class="year">&nbsp;</span>
-          </p>
-          <div class="wrapper">
-            <div id="prev-week-btn" class="btn-calendar">
-              <em class="fa-solid fa-arrow-left"></em>
+      <div class="ss-box bg-white-theme style-02 w-full">
+        <div class="ss-box-shadow xl"></div>
+        <div class="body pt-0">
+        <div class="calendar-header mt-6" data-aos="fade-up" data-aos-delay="0">
+          <div class="text-wrapper">
+            <div class="wrapper ml-0">
+              <div id="prev-week-btn" class="btn-calendar">
+                <em class="fa-solid fa-arrow-left"></em>
+              </div>
+              <p id="calendar-title" class="h3 ml-2 mr-2 fw-600">
+                <span class="month">&nbsp;</span>
+                <span class="year">&nbsp;</span>
+              </p>
+              <a class="text fw-400 size-02" href="#">สัปดาห์นี้</a>
+              <div id="next-week-btn" class="btn-calendar">
+                <em class="fa-solid fa-arrow-right"></em>
+              </div>
             </div>
-            <a class="text fw-400 size-02" href="#">สัปดาห์นี้</a>
-            <div id="next-week-btn" class="btn-calendar">
-              <em class="fa-solid fa-arrow-right"></em>
+          </div>
+          <div class="button-container">
+            <div class="button-wrapper">
+            <div class="btns">
+              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+                วัน
+              </div>
+              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+                สัปดาห์
+              </div>
+              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+                เดือน
+              </div>
+              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+                ปี
+              </div>
+            </div>
             </div>
           </div>
         </div>
-        <div class="button-container">
-          <div class="button-wrapper">
-          <div class="btns">
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              วัน
+        <div class="scroll-x-wrapper mt-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="calendar-wrapper theme-01">
+            <div class="calendar-week">
+              <div id="calendar-week"></div>
             </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              สัปดาห์
-            </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              เดือน
-            </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              ปี
-            </div>
-          </div>
           </div>
         </div>
-      </div>
-      <div class="scroll-x-wrapper mt-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="calendar-wrapper">
-          <div class="calendar-week">
-            <div id="calendar-week"></div>
-          </div>
+          <div class="pt-6 pb-6"></div>
         </div>
       </div>
     </div>
   </div>
 
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.css" />
@@ -76,6 +81,7 @@
   <script src="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.min.js"></script>
   <script src="https://unpkg.com/@fullcalendar/interaction@4.4.0/main.min.js"></script>
   <script src="https://unpkg.com/@fullcalendar/timegrid@4.4.0/main.min.js"></script>
+
   <script>
     $(function(){ 'use strict';
 
@@ -120,14 +126,14 @@
         events: [
           {
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้ง ที่ 4',
-            start: '2023-03-27T10:00:00',
-            end: '2023-03-27T12:00:00',
+            start: '2023-04-25T10:00:00',
+            end: '2023-04-25T20:00:00',
             url: '#',
           },
           {
-            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้ง ที่ 4',
-            start: '2023-03-28T08:00:00',
-            end: '2023-03-28T15:00:00',
+            title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้ง ที่ 2',
+            start: '2023-04-27T08:00:00',
+            end: '2023-04-27T12:00:00',
             url: '#',
           },
           {
@@ -176,20 +182,17 @@
           info.el.innerHTML = `
             <div class="ss-card ss-card-70 color-dark"> 
               <h6 class="color-dark fw-400 lh-xs">${event.title}</h6>
-              <div class="option mt-2">
-                <div class="icon">
-                  <em class="fa-solid fa-calendar-days"></em>
-                </div>
-                <span class="p xs fw-400">
-                  เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
-                </span>
-              </div>
-              <div class="option ai-start mt-1">
-                <div class="icon">
-                  <em class="fa-solid fa-location-dot"></em>
-                </div>
-                <p class="xs fw-400 lh-xs">จังหวัดเชียงราย</p>
-              </div>
+              <p class="sm fw-500 mt-1">วันเวลา</p>
+              <p class="xs fw-400">
+                ${dateStart.getDate()} มีนาคม ${dateStart.getFullYear() + 543}
+              </p>
+              <p class="p xs fw-400">
+                เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
+              </p>
+              <p class="sm fw-500 mt-1">สถานที่</p>
+              <p class="p xs fw-400">
+                จังหวัดเชียงราย
+              </p>
             </div>
           `;
           return true;
