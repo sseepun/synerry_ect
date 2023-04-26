@@ -16,7 +16,7 @@
   .calendar-month .calendar-wrapper{overflow:unset!important;}
   .calendar-month .fc-h-event{background:transparent; border:0;}
   .calendar-month .custom-event > .table{
-    position: relative; display: block; width: calc(100% - .875rem);
+    position:relative; display:block; width:100%;
     padding: .375rem .375rem; line-height: 1; margin: .125rem 0 0 0; border-radius: 0;
     font-size: .875rem; font-weight: 300; box-shadow: none; overflow: hidden; transition: all .25s;
   }
@@ -27,6 +27,11 @@
     border-radius:0 0 .375rem 0;
   } 
   .calendar-month .fc-daygrid-event-harness{cursor:pointer;}
+  .calendar-month .fc-daygrid-day-frame{position:relative;}
+  .calendar-month .fc-daygrid-day-bottom{
+    position:absolute; top:-1.625rem; right:0; display:flex; justify-content:flex-end; padding-right:.5rem;
+  }
+  .calendar-month .fc-more-link{font-size:1rem; text-decoration:underline; font-weight:400;}
 
   .calendar-month .fc-header-toolbar{display:none;}
   .calendar-month .fc-popover{border-left:.1875rem solid transparent!important; border-color:#30906a!important}
@@ -36,8 +41,8 @@
   .calendar-month .fc-popover-body{border-color:#30906a!important}
   .calendar-month .fc-popover-close{color:#ffffff;}
   .calendar-month  .fc-daygrid-day.fc-day-today{background:#dff3eb;}
-  .fc-day-other{background:#e6e6e6;}
-  .fc-day-other .fc-daygrid-day-number{background:#e6e6e6; color:#000000;}
+  .calendar-month .fc-day-other{background:#e6e6e6;}
+  .calendar-month .fc-day-other .fc-daygrid-day-number{background:#e6e6e6; color:#000000;}
   .calendar-month .fc-daygrid-event-harness:hover{background:#dff3eb;}
 </style>
 <body class="minisite loading">
@@ -95,13 +100,11 @@
               </div>
             </div>
           </div>
-          <div class="mt-4">
-  
-              <div class="calendar-month">
-                <div id='calendar-month'></div>
-              </div>
-           
-        </div>
+          <div class="scroll-x-wrapper-style-02 mt-4" >
+            <div class="calendar-month" style="min-width:1200px;">
+              <div id='calendar-month'></div>
+            </div>
+          </div>
           <div class="pt-6 pb-6"></div>
         </div>
       </div>
@@ -244,9 +247,10 @@
               start: '2023-04-30'
             },
           ], 
-        //   columnHeaderText: function(date){
-        //   return days[date.getDay()];
-        // },
+       
+        moreLinkContent:function(args){
+          return '+'+args.num+'';
+        },
         datesSet: function(info){
           var date = new Date(info.view.currentStart);
           updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
@@ -261,13 +265,8 @@
                   `
                   <div class="custom-event"> 
                     <div class="table">
-                      <div class="date-time">
-                        <div class="icon">
-                          <em class="fa-solid fa-calendar-days"></em>
-                        </div>
-                        <p class="sm">08:00 - 08:30</p>
-                      </div>
-                      <p class="title pos-relative">${event.title}</p>
+                      <p class="sm color-dark fw-400">08:00 - 08:30</p>
+                      <p class="title">${event.title}</p>
                     </div>
                   </div>
                   `
