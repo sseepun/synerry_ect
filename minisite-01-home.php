@@ -7,11 +7,8 @@
 <body class="minisite loading">
   <?php //include_once('component/page-loader.php'); ?>
   <?php 
-    $superTopNavStyle = 'theme-03';
-    $topNavStyle = 'theme-03';
-    $sideNavStyle = 'theme-03';
-    $sidePanelStyle = 'style-03';
-    include_once('include/topnav-style-02.php'); 
+    $sideNavStyle = 'theme-01';
+    include_once('include/topnav-minisite-dropdown-menu.php'); 
   ?>
 
   <section class="banner-03">
@@ -121,7 +118,7 @@
                             <div class="grid lg-50 md-50">
                               <?php foreach($content02 as $j) { ?>
                                 <div class="grid sm-100">
-                                  <a class="ss-card ss-card-43 color-black-theme mb-4" href="#">
+                                  <a class="ss-card fling ss-card-43 color-black-theme mb-4" href="#">
                                     <div class="wrapper">
                                       <div class="img-container">
                                         <div class="ss-img">
@@ -157,8 +154,8 @@
                                         </div>
                                         <div class="link-more mt-2" href="#">
                                           <p class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านต่อ</p>   
-                                          <div class="arrow">
-                                            <em class="fa-solid fa-arrow-right"></em>
+                                          <div class="arrow btn btn-fling">
+                                            <em class="fa-solid fa-arrow-right fling"></em>
                                           </div>   
                                         </div>
                                           <div class="card-line style-03"></div>
@@ -225,10 +222,10 @@
             <?php }?>
           </div>    
         </div>
-        <a class="link-more" href="#" data-aos="fade-up" data-aos-delay="0">
+        <a class="link-more btn btn-fling" href="#" data-aos="fade-up" data-aos-delay="0">
           <p class="text fw-400">ดูทั้งหมด</p>   
           <div class="arrow">
-            <em class="fa-solid fa-arrow-right"></em>
+            <em class="fa-solid fa-arrow-right fling"></em>
           </div>   
         </a>
       </div>  
@@ -300,7 +297,7 @@
       <div class="grids">
         <div class="grid xl-30 lg-30 md-40 sm-100" data-aos="fade-up" data-aos-delay="0">
           <a class="ss-card ss-card-40" href="#">
-            <div class="ss-img square-02">
+            <div class="ss-img square-05">
               <div class="img-bg" style="background-image:url('public/assets/app/images/content/95.jpg');"></div>
               <div class="filter-04"></div>
               <div class="btn-scale">
@@ -328,17 +325,17 @@
           <div class="ss-box bg-white-theme style-03 w-full" style="position:relative; z-index:2;">
             <div class="ss-title-style-02">
               <h3 class="fw-600">ปฏิทินกิจกรรม</h3>        
-              <a class="link-more" href="#">
+              <a class="link-more btn btn-fling" href="#">
                 <p class="text color-black-theme fw-400">ดูทั้งหมด</p>   
                 <div class="arrow color-04 color-black-theme">
-                  <em class="fa-solid fa-arrow-right"></em>
+                  <em class="fa-solid fa-arrow-right fling"></em>
                 </div>   
               </a>        
             </div>  
             <div class="grids jc-center">
               <?php foreach($content03 as $d) {?>
                 <div class="grid lg-1-3 mt-2">
-                  <a class="ss-card ss-card-41" href="#">
+                  <a class="ss-card ss-card-41 fling" href="#">
                     <div class="image-container">
                       <div class="ss-img">
                         <div class="img-bg" style="background-image:url('<?= $d['image'] ?>');"></div>
@@ -363,12 +360,12 @@
                       </p>
                       <div class="date-time">
                         <p class="sm fw-400">08 มิถุนายน</p>
-                        <p class="sm fw-400">เวลา 08:00 - 12:00</p>
+                        <p class="sm time fw-400 ml-2">เวลา 08:00 - 12:00</p>
                       </div>
-                      <div class="link-more mt-2" href="#">
+                      <div class="link-more btn btn-fling mt-2" href="#">
                         <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
                         <div class="arrow color-black">
-                          <em class="fa-solid fa-arrow-right"></em>
+                          <em class="fa-solid fa-arrow-right fling"></em>
                         </div>   
                       </div>
                     </div>
@@ -390,7 +387,7 @@
     </div>
     <div class="container pos-relative" style="z-index:3;">
       <div class="ss-card ss-card-42" data-aos="fade-up" data-aos-delay="0">
-        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/28.jpg');"></div>
+        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/51.jpg');"></div>
         <div class="wrapper h-full">
           <div class="text-container">
             <h3 class="color-white fw-500 lh-xs md-no-br">
@@ -433,10 +430,10 @@
             <?php }?>
           </div>    
         </div>
-        <a class="link-more" href="#" data-aos="fade-up" data-aos-delay="0">
+        <a class="link-more btn btn-fling" href="#" data-aos="fade-up" data-aos-delay="0">
           <p class="text fw-400">ดูทั้งหมด</p>   
           <div class="arrow">
-            <em class="fa-solid fa-arrow-right"></em>
+            <em class="fa-solid fa-arrow-right fling"></em>
           </div>   
         </a>
       </div> 

@@ -782,12 +782,23 @@ nav.stopnav .option-select > .dropdown .item{border-color:rgba(255,255,255,.3);}
 nav.stopnav .option-select > .dropdown .item:hover{background:#194e84; color:#f4b510;}
 nav.stopnav .btn-social:hover{background:#2e603c; color:#fff102!important;}
 
+nav.stopnav.minisite .btn-social{color:#7cc5b5!important;}
+nav.stopnav.minisite .blocks > .option .hotline{color:#000000;}
+
+nav.stopnav.minisite.style-02{border-color:#e1e1e1;}
 nav.stopnav.style-02 .blocks > .option .hotline > em{border-color:#ffffff;}
+nav.stopnav.minisite.style-02 .blocks > .option .hotline > em{border-color:#7cc5b5; background:#7cc5b5; color:#ffffff;}
 nav.stopnav.style-02 .blocks > .option .hotline:hover, nav.stopnav.style-02 .blocks > .option:hover{color:#fff102;}
+nav.stopnav.minisite.style-02 .blocks > .option .hotline:hover, nav.stopnav.minisite.style-02 .blocks > .option:hover{color:#8c6961;}
+nav.stopnav.minisite.style-02 .blocks > .option .hotline:hover > em{border-color:#8c6961; background:#8c6961;}
 nav.stopnav.style-02 .blocks > .option .hotline:hover > em{border-color:#fff102;}
 nav.stopnav.style-02 .btn-social:hover{background:#2e603c; color:#fff102}
+nav.stopnav.minisite.style-02 .btn-social:hover{background:#8c6961; color:#ffffff!important;}
 nav.stopnav.style-02 .option-select > .dropdown{background:#30906a;}
 nav.stopnav.style-02 .option-select > .dropdown .item:hover{background:#1c4d38; color:#fff102;}
+
+nav.stopnav.minisite.style-02 .option-select > .dropdown .item:hover{background:#8c6961; color:#ffffff;}
+nav.stopnav.minisite.style-02 .option-select > .dropdown{background:#7cc5b5;}
 
 nav.stopnav.style-03 .btn-social{color:#2d926a;}
 nav.stopnav.style-03 .btn-social:hover{background:#1c4d38; color:#fff102;}
@@ -867,6 +878,12 @@ nav.topnav.style-02 .submenu .dot-list{background:#10563a}
 nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .dot-list{background:#10563a;}
 nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover  .dot-list{background:#ffffff;}
 
+nav.topnav.minisite.style-02 .menu:hover{background:#8c6961;}
+nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffffff;}
+
+/* Theme A */
+nav.topnav.style-02 .submenu:hover > *:first-child{background:#8c6961; color:#ffffff;}
+
 nav.topnav.style-03 .logo{color:#333333;}
 nav.topnav.style-03 .menu:hover > *:first-child{color:#ffffff;}
 nav.topnav.style-03 .menu > *:first-child{color:#30906a;}
@@ -932,12 +949,11 @@ nav.stopnav.style-04 .btn-social{color:#30906a;}
 nav.stopnav.style-04 .btn-social:hover{background:#30906a; color:#fff102;}
 
 /* Sidenav */
-
 nav.sidenav.style-02 .menu:hover > *:first-child{color:#2d8160!important;}
-nav.sidenav.style-02 .submenu > *:first-child{background:#2d8160!important;;}
+nav.sidenav.style-02 .submenu > *:first-child{background:#2d8160!important;}
 nav.sidenav.style-02 .submenu:hover > *:first-child{background:#2d8160!important;; color:#fff102!important;;}
 nav.sidenav.style-02 .submenu .dropdown-toggle{color:#ffffff!important;;}
-nav.sidenav.style-02 .submenu .submenu > *:first-child{background:#1f4e3a!important;; color:#ffffff!important;;}
+nav.sidenav.style-02 .submenu .submenu > *:first-child{background:#1f4e3a!important;; color:#ffffff!important;}
 nav.sidenav.style-02 .submenu:hover > *:first-child{color:#fff102!important;}
 
 nav.sidenav.style-02.theme-02 .menu:hover > *:first-child{color:#56abcc!important;}
@@ -993,6 +1009,9 @@ nav.sidenav .mega-menu-content .mega-menu:hover a{color:#fff102;}
 
 nav.sidenav.theme-02 .submenu > *:first-child{color:#ffffff; background:#56abcc!important;}
 
+/* Sidenav - Theme 01 */
+nav.sidenav.style-02.theme-01 .submenu > *:first-child{background:#7cc5b5;}
+nav.sidenav.style-02.theme-01 .submenu .submenu > *:first-child{background:#8c6961!important; color:#ffffff!important;}
 
 /* Back to Top */
 .back-to-top{background:#2e603b; color:#ffffff;}
@@ -1249,6 +1268,8 @@ nav.footer-single-page.style-02 .social-list .icon{color:#ffffff;}
 .ss-list.style-04 > li::before{background:#2e603c;}
 .ss-list.style-04 > li:hover::before{background:#30906a!important;}
 .ss-list.style-04 > li a:hover{color:#30906a;}
+.ss-list.style-04.theme-01 > li:hover a{color:#3dce95!important;}
+.ss-list.style-04 > li:hover::before{background:#30906a!important;}
 .ss-list.style-05 > li::before{background:#30906a;}
 .ss-list.style-05 > li a:hover{color:#2e603c;}
 .ss-list.style-06 > li::before{background:#ffffff;}
@@ -1560,7 +1581,7 @@ body.minisite .card-line.style-01{background:#7dc6b5;}
 
 /* Section 15 */ 
 .section-15 .swiper-pagination-bullet{background:#cbcbcb;}
-.section-15 .swiper-pagination-bullet-active{background:#a07cc5;}
+.section-15 .swiper-pagination-bullet-active{background:#8c6961;}
 .section-15 .arrow-container > .arrow{background:#7cc5b5; color:#ffffff;}
 .section-15 .arrow-container > .arrow.style-02{background:#56abcc; color:#ffffff;}
 
