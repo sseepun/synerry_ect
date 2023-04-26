@@ -399,7 +399,7 @@ body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#7cc5b5;}
 body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#8c6961!important;}
 
 /* Calendar - Month */
-.calendar-month{border-color:#232323;}
+/* .calendar-month{border-color:#232323;}
 .calendar-month .fc-day-header{background:#bfe7d7; color:#000000;}
 .calendar-month .fc-day-top > span{color:#ffffff;}
 .calendar-month .fc-day-number{background:#2e603c;}
@@ -414,7 +414,7 @@ body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#8c6961!import
 .calendar-month .fc-day.fc-today,
 .calendar-month .fc-day:hover{background:#dff3eb;}
 .calendar-month .fc-day.fc-other-month{background:#dcdcdc!important;}
-.calendar-month .fc-event-container{background:#ffffff;}
+.calendar-month .fc-event-container{background:#ffffff;} */
 
 /* Calendar - Year */
 .calendar-year .fc-multimonth-month.active{border:3px solid #30906a;}

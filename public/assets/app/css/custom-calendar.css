@@ -151,7 +151,7 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 
 
 /* Calendar - Month */
-.calendar-month .fc-unthemed .fc-divider, 
+/* .calendar-month .fc-unthemed .fc-divider, 
 .fc-unthemed .fc-list-heading td, 
 .fc-unthemed .fc-popover .fc-header{display:none;}
 .calendar-month{border-bottom:4px solid transparent;}
@@ -206,7 +206,7 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 .calendar-month .fc-popover.fc-more-popover{background:#2e603c;}
 .calendar-month .fc-popover.fc-more-popover .fc-body{
   max-height:calc(100% - 36px); overflow-x:hidden; overflow-y:auto;
-}
+} */
 .calendar-month .event-popup{display:none;}
 
 

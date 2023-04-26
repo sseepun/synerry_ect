@@ -26,7 +26,7 @@
         <div class="body">
           <div class="calendar-header" data-aos="fade-up" data-aos-delay="150">
             <div class="text-wrapper">
-              <div class="wrapper">
+              <div class="wrapper ml-0">
                 <div id="prev-month-btn" class="btn-calendar">
                   <em class="fa-solid fa-arrow-left"></em>
                 </div>
