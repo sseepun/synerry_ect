@@ -1,58 +1,113 @@
 <?php
    $submenu = '<div class="submenu-dropdown level-3">
-   <div class="submenu-container">
-     <div class="submenu-wrapper">
-       <div class="submenu level-3">
-         <div class="wrapper">
-           <div class="dot">
-             <div class="dot-list"></div>
-           </div>
-           <a href="#">หน่วยงานส่วนกลาง</a>
-         </div>
-       </div>
-       <div class="submenu level-3">
-         <div class="wrapper">
-           <div class="dot">
-             <div class="dot-list"></div>
-           </div>
-           <a href="#">ภาคเหนือ</a>
-         </div>
-       </div>
-       <div class="submenu level-3">
-         <div class="wrapper">
-           <div class="dot">
-             <div class="dot-list"></div>
-           </div>
-           <a href="#">ภาคกลาง</a>
-         </div>
-       </div>
-       <div class="submenu level-3">
-         <div class="wrapper">
-           <div class="dot">
-             <div class="dot-list"></div>
-           </div>
-           <a href="#">ภาคตะวันออกเฉียงเหนือ</a>
-         </div>
-       </div>
-       <div class="submenu level-3">
-        <div class="wrapper">
-          <div class="dot">
-            <div class="dot-list"></div>
+    <div class="submenu-container">
+      <div class="submenu-wrapper">
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">หน่วยงานส่วนกลาง</a>
           </div>
-          <a href="#">ภาคตะวันออก</a>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">ภาคเหนือ</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">ภาคกลาง</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">ภาคตะวันออกเฉียงเหนือ</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">ภาคตะวันออก</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">ภาคใต้</a>
+          </div>
         </div>
       </div>
-      <div class="submenu level-3">
-        <div class="wrapper">
-          <div class="dot">
-            <div class="dot-list"></div>
+    </div>
+  </div>';
+
+  $subDemo = '<div class="submenu-dropdown level-3">
+    <div class="submenu-container">
+      <div class="submenu-wrapper">
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">เมนูรายการเพิ่มเติม</a>
           </div>
-          <a href="#">ภาคใต้</a>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">เมนูรายการเพิ่มเติม</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">เมนูรายการเพิ่มเติม</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">เมนูรายการเพิ่มเติม</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">เมนูรายการเพิ่มเติม</a>
+          </div>
+        </div>
+        <div class="submenu level-3">
+          <div class="wrapper">
+            <div class="dot">
+              <div class="dot-list"></div>
+            </div>
+            <a href="#">เมนูรายการเพิ่มเติม</a>
+          </div>
         </div>
       </div>
-     </div>
-   </div>
- </div>';
+    </div>
+  </div>';
 ?>
 
 <!-- Super Topnav -->
@@ -136,7 +191,7 @@
                         </div>
                         <a href="#">ความเป็นมา</a>
                       </div>
-                      <?= $submenu ?>
+                      <?= $subDemo ?>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
@@ -153,7 +208,7 @@
                         </div>
                         <a href="#">โครงสร้างองค์กร</a>
                       </div>
-                      <?= $submenu ?>
+                      <?= $subDemo ?>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
@@ -203,13 +258,13 @@
                         </div>
                         <a href="#">สถิติข้อมูลคะแนน สส</a>
                       </div>
-                      <?= $submenu ?>
+                      <?= $subDemo ?>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-02.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-02.svg" />
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-05.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-05.svg" />
                         </div>
                         <a href="#">สาขาพรรคการเมือง</a>
                       </div>
@@ -222,29 +277,31 @@
                         </div>
                         <a href="#">ทำเนียบ สส./สว.</a>
                       </div>
-                      <?= $submenu ?>
+                      <?= $subDemo ?>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
                         <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-04.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-04.svg" />
-                        </div>
+                            <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-11.svg" />
+                            <img class="active" src="public/assets/app/images/icon-svg/menu-white-11.svg" />
+                          </div>
                         <a href="#">ข้อมูลการปกครอง</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="dot">
-                          <div class="dot-list"></div>
+                        <div class="icon">
+                          <img class="inactive" src="public/assets/app/images/icon-svg/chatting-black.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/chatting-white.svg" />
                         </div>
                         <a href="#">คำถามที่พบบ่อย</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="dot">
-                          <div class="dot-list"></div>
+                        <div class="icon">
+                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-04.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-04.svg" />
                         </div>
                         <a href="#">ศูนย์รวมข้อมูลเพื่อติดต่อราชการ</a>
                       </div>
@@ -264,7 +321,7 @@
                         </div>
                         <a href="#">การเลือกตั้ง สส</a>
                       </div>
-                      <?= $submenu ?>
+                      <?= $subDemo ?>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
@@ -364,63 +421,56 @@
                   <div class="submenu-wrapper">
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-01.svg" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">รัฐธรรมนูญ</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-02.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-02.svg" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชบัญญัติประกอบรัฐธรรมนูญ</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-03.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-03.svg" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชบัญญัติ</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-04.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-04.svg" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">พระราชกฤษฎีกา</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-05.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-05.svg" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ระเบียบ กกต.</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-06.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-06.svg" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">ประกาศ สนง. กกต.</a>
                       </div>
                     </div>
                     <div class="submenu">
                       <div class="wrapper">
-                        <div class="icon">
-                          <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-07.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-07.svg" />
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
                         <a href="#">คำสั่ง กกต.</a>
                       </div>
@@ -448,6 +498,7 @@
                         </div>
                         <a href="#">วารสาร</a>
                       </div>
+                      <?= $subDemo ?>
                     </div>
                     <div class="submenu has-children">
                       <div class="wrapper">
@@ -456,7 +507,6 @@
                         </div>
                         <a href="#">วารสาร VDO</a>
                       </div>
-                      <?= $submenu ?>
                     </div>
                   </div>
                 </div>
@@ -472,7 +522,7 @@
                             <div class="dot-list"></div>
                           </div>
                           <a href="#">ข่าวประชาสัมพันธ์ กกต.</a>
-                          <?= $submenu ?>
+                          <?= $subDemo ?>
                         </div>
                       </div>
                       <div class="submenu">
@@ -534,7 +584,7 @@
                     </div>
                   </div>
                 </div>
-              <!-- ติดต่อ -->
+              <!-- หน่วยงานที่เกี่ยวข้อง -->
               <?php } else if ($i === 7) {?>
                 <div class="submenu-dropdown anchor-right">
                   <div class="submenu-container">
@@ -544,8 +594,7 @@
                           <div class="dot">
                             <div class="dot-list"></div>
                           </div>
-                          <a href="#">ติดต่อสำนักงาน</a>
-                          <?= $submenu ?>
+                          <a href="#">สำนักงาน กกต.</a>
                         </div>
                       </div>
                       <div class="submenu">
@@ -553,39 +602,16 @@
                           <div class="dot">
                             <div class="dot-list"></div>
                           </div>
-                          <a href="#">คำถามที่พบบ่อย (FAQ)</a>
+                          <a href="#">หน่วยงานภายใต้ สนง. กกต.</a>
                         </div>
+                        <?= $submenu ?>
                       </div>
                       <div class="submenu">
                         <div class="wrapper">
                           <div class="dot">
                             <div class="dot-list"></div>
                           </div>
-                          <a href="#">กระดานถามตอบ</a>
-                        </div>
-                      </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ตอบข้อซักถามพรรคการเมือง</a>
-                        </div>
-                      </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ศูนย์รับเรื่องราวร้องทุกข์ คณะกรรมการการเลือกตั้ง</a>
-                        </div>
-                      </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">แจ้งเบาะแสทุจริตการเลือกตั้ง</a>
+                          <a href="#">หน่วยงานอื่นๆ</a>
                         </div>
                       </div>
                     </div>

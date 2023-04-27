@@ -892,7 +892,7 @@ nav.topnav.minisite.style-02 .menu:hover{background:#8c6961;}
 nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffffff;}
 
 /* Theme A */
-nav.topnav.style-02 .submenu:hover > *:first-child{background:#8c6961; color:#ffffff;}
+nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#8c6961; color:#ffffff;}
 
 nav.topnav.style-03 .logo{color:#333333;}
 nav.topnav.style-03 .menu:hover > *:first-child{color:#ffffff;}
