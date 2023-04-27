@@ -176,11 +176,13 @@ body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 .calendar-day .fc-time-grid .fc-event .fc-title{color:#000000;}
 
 /* Calendar - Month */
-.calendar-month .fc-day-header{background:#ffffff; color:#000000;}
-.calendar-month .fc-day-number{background:#ffffff; color:#000000;}
-.calendar-month .fc-unthemed td.fc-today{background:#dddddd;}
-.calendar-month .fc-unthemed td{border-color:#ffffff;}
-.calendar-month .fc-day.fc-other-month{background:#fbf2f2!important;}
+.calendar-month .fc-col-header-cell{background:#000000; color:#ffffff;}
+.calendar-month .fc-theme-standard th{border-color:#000000;}
+.calendar-month .fc-daygrid-day-number{background:#000000; color:#ffffff;}
+.calendar-month .fc-day-other{background:#dddddd;}
+.calendar-month .fc-popover{border-left-color:#000000!important}
+.calendar-month .fc-daygrid-event-harness:hover{background:#dddddd;}
+.calendar-month  .fc-daygrid-day.fc-day-today{background:#f6f6f6;}
 
 /* Calendar - Week */
 .calendar-week .fc-time-grid td.fc-axis.fc-widget-content:first-child{background:#ffffff; color:#000000;}

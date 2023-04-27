@@ -58,31 +58,20 @@
         </div>
       </div>
 
-      <div class=" mt-4" data-simplebar data-aos="fade-up" data-aos-delay="300">
-        <div class="calendar-wrapper">
-          <div class="calendar-month">
-            <div id="calendar-month"></div>
-          </div>
+      <div class="scroll-x-wrapper mt-4" style="padding-bottom:5rem;">
+        <div class="calendar-month main-site" style="min-width:1000px;" data-aos="fade-up" data-aos-delay="300">
+          <div id='calendar-month'></div>
         </div>
       </div>
       
-      <div class="mt-6 pt-4">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          include('component/list-footer.php');
-        ?>
-      </div>
     </div>
   </div>
 
   <?php include_once('include/footer-02.php'); ?>
   <?php include_once('include/script.php'); ?>
 
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.css" />
   <link rel="stylesheet" type="text/css" href="public/assets/app/css/custom-calendar.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.js"></script>
-  <script src="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.min.js"></script>
-  <script src="https://unpkg.com/@fullcalendar/interaction@4.4.0/main.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.6/index.global.min.js"></script>
   <script>
     $(function(){ 'use strict';
 
@@ -93,7 +82,6 @@
         'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'
       ];
       var today = new Date();
-
 
       // Calendar Month
       var calendarTitle = $('#calendar-title');
@@ -122,142 +110,132 @@
       }
 
       const calendarMonth = new FullCalendar.Calendar($('#calendar-month')[0], {
-        plugins: [ 'interaction', 'dayGrid' ],
-        defaultView: 'dayGridMonth',
-        firstDay: 0,
-        locale: 'th',
-        contentHeight: 'auto',
-        eventLimit: true,      
-        eventLimitText: '',
-        views: {dayGrid: {eventLimit: 4}},
-        events: [
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-12T10:30:00',
-            end: '2023-03-12T15:30:00',
-            url: '#',
-          },
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-12T12:30:00',
-            end: '2023-03-12T17:00:00',
-            url: '#',
-          },
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-12T13:30:00',
-            end: '2023-03-12T14:00:00',
-            url: '#',
-          },
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-12T15:00:00',
-            end: '2023-03-12T17:30:00',
-            url: '#',
-          },
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-12T08:00:00',
-            end: '2023-03-12T10:30:00',
-            url: '#',
-          },     
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-10T08:00:00',
-            end: '2023-03-10T10:30:00',
-            url: '#',
-          }, 
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-10T08:00:00',
-            end: '2023-03-10T10:30:00',
-            url: '#',
-          }, 
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-10T08:00:00',
-            end: '2023-03-10T10:30:00',
-            url: '#',
-          }, 
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-10T08:00:00',
-            end: '2023-03-10T10:30:00',
-            url: '#',
-          }, 
-          {
-            title: 'เลือกตั้ง ส.ทต. จันจว้า เขตเลือกตั้งที่ 2',
-            start: '2023-03-10T08:00:00',
-            end: '2023-03-10T10:30:00',
-            url: '#',
-          }, 
-        ],
-        columnHeaderText: function(date){
-          return days[date.getDay()];
-        },
-        datesRender: function(info){
-          var date = new Date(info.view.currentStart);
-          updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
-        },
-        eventRender: function(info, d){
-          var event = info.event,
-              date = new Date(event.start),
-              classer = '',
-              timeStart = new Date(event.start),
-              timeEnd = new Date(event.end),
-              hoursStart = String(timeStart.getHours()).padStart(2, '0'),
-              minutesStart = String(timeStart.getMinutes()).padStart(2, '0'),
-              minutesEnd = String(timeEnd.getMinutes()).padStart(2, '0'),
-              hoursEnd = String(timeEnd.getHours()).padStart(2, '0'),
-              index = Math.round(Math.random() * 2);
-              
-          if(date.getFullYear()===today.getFullYear() 
-          && date.getMonth()===today.getMonth() 
-          && date.getDate()===today.getDate()){
-            classer = 'today';
+        initialView: 'dayGridMonth',
+          locale: 'th',
+          contentHeight: 'auto',
+          dayMaxEvents: true,
+          views: {
+            dayGrid: {
+              dayMaxEvents:2,
           }
-          info.el.innerHTML = `
-            <div class="pos-relative custom-event type-${index} ${classer}">
-              <div class="table-view color-dark">
-                <div class="time">
-                <em class="fa-solid fa-calendar-days"></em>
-                  ${hoursStart} : ${minutesStart} - 
-                  ${hoursEnd} : ${minutesEnd}
-                </div>
-                <div class="title">${event.title}</div>
-              </div>
-              <div class="popup-view">
-               <div class="ss-card ss-card-71 color-dark">
-                <div class="option">
-                  <div class="icon">
-                    <em class="fa-solid fa-calendar-days"></em>
+        },
+          events: [
+            {
+              id: '1',
+              title: 'ตรวจเยี่ยมสำนักงานคณะ กรรมการการเลือกตั้งประจำ',
+              start: '2023-04-25'
+            },{
+              id: '2',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-25'
+            },{
+              id: '3',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-25'
+            },{
+              id: '4',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-01'
+            },{
+              id: '5',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-01'
+            },{
+              id: '6',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-06'
+            },{
+              id: '7',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-06'
+            },{
+              id: '8',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-06'
+            },{
+              id: '9',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-06'
+            },{
+              id: '10',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-06'
+            },{
+              id: '11',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-09'
+            },{
+              id: '12',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-09'
+            },{
+              id: '13',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-09'
+            },{
+              id: '14',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-20'
+            },{
+              id: '15',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-20'
+            },{
+              id: '16',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-20'
+            },{
+              id: '17',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-20'
+            },{
+              id: '18',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-30'
+            },{
+              id: '19',
+              title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
+              start: '2023-04-30'
+            },{
+              id: '20',
+              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              start: '2023-04-30',
+            },
+          ], 
+          moreLinkContent:function(args){
+            return '+'+args.num+'';
+          },
+          datesSet: function(info){
+            var date = new Date(info.view.currentStart);
+            updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
+          },
+          eventContent: function(info) {
+            var event = info.event,
+                dateStart = new Date(event.start)
+              return { 
+                html: 
+                `<div class="custom-event"> 
+                  <div class="table">
+                    <p class="sm color-dark color-black-theme fw-400">08:00 - 08:30</p>
+                    <p class="title fw-400 color-black-theme">${event.title}</p>
                   </div>
-                  <span class="p sm fw-500">
-                    เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
-                  </span>
-                </div>
-                <p class="fw-400">${event.title}</p>
-               </div>
-              </div>
-            </div>
-          `;
-          return true;
-        }
-      });
-      calendarMonth.render();
-
-
-      // Events
-      prevMonthBtn.click(function(e){
-        e.preventDefault();
-        calendarMonth.prev();
-      });
-      nextMonthBtn.click(function(e){
-        e.preventDefault();
-        calendarMonth.next();
-      });
-
+                </div>`
+              };
+            },
+        });
+        calendarMonth.render();
+    
+        // Events
+        prevMonthBtn.click(function(e){
+          e.preventDefault();
+          calendarMonth.prev();
+        });
+        nextMonthBtn.click(function(e){
+          e.preventDefault();
+          calendarMonth.next();
+        });
     });
+
   </script>
 </body>
 </html>

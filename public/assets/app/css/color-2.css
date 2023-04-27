@@ -464,11 +464,18 @@ body.minisite .calendar-day td.fc-axis.fc-widget-content:first-child{background:
 body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 
 /* Calendar - Month */
-.calendar-month .fc-day-header{background:#fecb00; color:#000000;}
-.calendar-month .fc-day-number{background:#fecb00; color:#000000;}
-.calendar-month .fc-unthemed td.fc-today{background:#fcd847;}
-.calendar-month .fc-unthemed td{border-color:#fecb00;}
-.calendar-month .fc-day.fc-other-month{background:#f7e7a8!important;}
+.calendar-month .fc-col-header-cell{background:#000000; color:#fecb00;}
+.calendar-month .fc-theme-standard th{border-color:#000000;}
+.calendar-month .fc-daygrid-day-number{background:#000000; color:#fecb00;}
+.calendar-month .fc-day-other{background:#e4b703;}
+.calendar-month .fc-popover{border-left-color:#000000!important}
+.calendar-month .fc-daygrid-event-harness:hover{background:#e4b703;}
+.calendar-month  .fc-daygrid-day.fc-day-today{background:#fac905;}
+.calendar-month  .fc-theme-standard td, .calendar-month .fc-theme-standard th{border-color:#000000!important;}
+.calendar-month  .fc-theme-standard .fc-scrollgrid{border-color:#000000!important;}
+.calendar-month .fc-more-link{color:#000000;}
+
+
 
 /* Calendar - Week */
 .calendar-week .fc-time-grid td.fc-axis.fc-widget-content:first-child{background:#fecb00; color:#000000;}

@@ -399,22 +399,27 @@ body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#7cc5b5;}
 body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#8c6961!important;}
 
 /* Calendar - Month */
-/* .calendar-month{border-color:#232323;}
-.calendar-month .fc-day-header{background:#bfe7d7; color:#000000;}
-.calendar-month .fc-day-top > span{color:#ffffff;}
-.calendar-month .fc-day-number{background:#2e603c;}
-.calendar-month .fc-day-top.fc-other-month > span{background:#eeeeee; color:#000000;}
-.calendar-month .fc-unthemed td.fc-today > span{color:#ffffff;}
-.calendar-month .custom-event > .table-view{color:#ffffff;}
-.calendar-month .custom-event.type-1 > .table-view{background:#ffffff!important;}
-.calendar-month .custom-event.type-2 > .table-view{background:#ffffff;}
-.calendar-month .custom-event:hover > .table-view{background:#dff3ea;}
-.calendar-month a.fc-more{color:#000000;}
-.calendar-month a.fc-more:hover{color:#30906a;}
-.calendar-month .fc-day.fc-today,
-.calendar-month .fc-day:hover{background:#dff3eb;}
-.calendar-month .fc-day.fc-other-month{background:#dcdcdc!important;}
-.calendar-month .fc-event-container{background:#ffffff;} */
+.calendar-month.main-site .fc-col-header-cell{background:#bfe7d7; color:#000000;}
+.calendar-month.main-site .fc-theme-standard th{border-color:#bfe7d7!important;}
+.calendar-month.main-site .fc-day-other{background:#e6e6e6;}
+.calendar-month.main-site .fc-day-other .fc-daygrid-day-number{background:#eeeeee; color:#000000;}
+.calendar-month.main-site .fc-popover-header{background:#2e603c!important;} 
+.calendar-month.main-site .fc-daygrid-day-number{background:#2e603c;}
+.calendar-month.main-site .fc-popover{border-left-color:#2e603c!important}
+
+.calendar-month .custom-event{color:#000000;}
+.calendar-month .fc-popover{border-left-color:#30906a!important}
+.calendar-month .fc-daygrid-day-number{background:#8c6961; color:#ffffff;}
+.calendar-month .fc-popover-title{color:#ffffff;}
+.calendar-month .fc-popover-header{background:#7cc5b4!important;} 
+.calendar-month .fc-popover-body{border-color:#30906a!important}
+.calendar-month .fc-popover-close{color:#ffffff;}
+.calendar-month  .fc-daygrid-day.fc-day-today{background:#dff3eb;}
+.calendar-month .fc-day-other{background:#e6e6e6;}
+.calendar-month .fc-day-other .fc-daygrid-day-number{background:#e6e6e6; color:#000000;}
+.calendar-month .fc-daygrid-event-harness:hover{background:#dff3eb;}
+.calendar-month .fc-col-header-cell{background:#371e1a; color:#ffffff;}
+.calendar-month .fc-theme-standard th{border-color:#371e1a!important;}
 
 /* Calendar - Year */
 .calendar-year .fc-multimonth-month.active{border:3px solid #30906a;}

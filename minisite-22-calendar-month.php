@@ -4,47 +4,6 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<style>
-  .calendar-month .custom-event{color:#000000;}
-  .calendar-month .custom-event{position:relative; padding:0 .5rem;}
-  .calendar-month .custom-event .date-time{display:flex; align-items:center;}
-  .calendar-month .custom-event .date-time > .icon{margin-right:.5rem;}
-  .calendar-month .custom-event > .table .title{
-    display: block; text-overflow: ellipsis; overflow: hidden;
-     -webkit-line-clamp: 2;
-  }
-  .calendar-month .calendar-wrapper{overflow:unset!important;}
-  .calendar-month .fc-h-event{background:transparent; border:0;}
-  .calendar-month .custom-event > .table{
-    position:relative; display:block; width:100%;
-    padding: .375rem .375rem; line-height: 1; margin: .125rem 0 0 0; border-radius: 0;
-    font-size: .875rem; font-weight: 300; box-shadow: none; overflow: hidden; transition: all .25s;
-  }
-  .calendar-month .fc-popover-body{max-height:12rem; overflow-y:auto;}
-  .calendar-month .fc-daygrid-day-top{flex-direction:revert;}
-  .calendar-month .fc-daygrid-day-number{
-    width:2rem; height:2rem; display:flex; justify-content:center; flex-direction:revert; font-size:.875rem;
-    border-radius:0 0 .375rem 0;
-  } 
-  .calendar-month .fc-daygrid-event-harness{cursor:pointer;}
-  .calendar-month .fc-daygrid-day-frame{position:relative;}
-  .calendar-month .fc-daygrid-day-bottom{
-    position:absolute; top:-1.625rem; right:0; display:flex; justify-content:flex-end; padding-right:.5rem;
-  }
-  .calendar-month .fc-more-link{font-size:1rem; text-decoration:underline; font-weight:400;}
-
-  .calendar-month .fc-header-toolbar{display:none;}
-  .calendar-month .fc-popover{border-left:.1875rem solid transparent!important; border-color:#30906a!important}
-  .calendar-month .fc-daygrid-day-number{background:#8c6961; color:#ffffff;}
-  .calendar-month .fc-popover-title{color:#ffffff;}
-  .calendar-month .fc-popover-header{background:#7cc5b4!important;} 
-  .calendar-month .fc-popover-body{border-color:#30906a!important}
-  .calendar-month .fc-popover-close{color:#ffffff;}
-  .calendar-month  .fc-daygrid-day.fc-day-today{background:#dff3eb;}
-  .calendar-month .fc-day-other{background:#e6e6e6;}
-  .calendar-month .fc-day-other .fc-daygrid-day-number{background:#e6e6e6; color:#000000;}
-  .calendar-month .fc-daygrid-event-harness:hover{background:#dff3eb;}
-</style>
 <body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-style-02.php'); ?>
@@ -100,12 +59,11 @@
               </div>
             </div>
           </div>
-          <div class="scroll-x-wrapper-style-02 mt-4" >
-            <div class="calendar-month" style="min-width:1200px;">
+          <div class="scroll-x-wrapper mt-4" style="padding-bottom:5rem;">
+            <div class="calendar-month" style="min-width:1000px;" data-aos="fade-up" data-aos-delay="300">
               <div id='calendar-month'></div>
             </div>
           </div>
-          <div class="pt-6 pb-6"></div>
         </div>
       </div>
     </div>
@@ -161,13 +119,13 @@
           dayMaxEvents: true,
           views: {
             dayGrid: {
-              dayMaxEvents: 2 // adjust to 6 only for timeGridWeek/timeGridDay
+              dayMaxEvents:2,
           }
         },
           events: [
             {
               id: '1',
-              title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
+              title: 'ตรวจเยี่ยมสำนักงานคณะ กรรมการการเลือกตั้งประจำ',
               start: '2023-04-25'
             },{
               id: '2',
@@ -220,19 +178,19 @@
             },{
               id: '14',
               title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
-              start: '2023-04-22'
+              start: '2023-04-20'
             },{
               id: '15',
               title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
-              start: '2023-04-22'
+              start: '2023-04-20'
             },{
               id: '16',
               title: 'เลือกตั้ง ส.อบต. เทอดไทเขตเลือกตั้งที่ 4',
-              start: '2023-04-22'
+              start: '2023-04-20'
             },{
               id: '17',
               title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
-              start: '2023-04-22'
+              start: '2023-04-20'
             },{
               id: '18',
               title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
@@ -244,49 +202,43 @@
             },{
               id: '20',
               title: 'ตรวจเยี่ยมสำนักงานคณะกรรมการการเลือกตั้งประจำ',
-              start: '2023-04-30'
+              start: '2023-04-30',
             },
           ], 
-       
-        moreLinkContent:function(args){
-          return '+'+args.num+'';
-        },
-        datesSet: function(info){
-          var date = new Date(info.view.currentStart);
-          updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
-        },
+          moreLinkContent:function(args){
+            return '+'+args.num+'';
+          },
+          datesSet: function(info){
+            var date = new Date(info.view.currentStart);
+            updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
+          },
           eventContent: function(info) {
-               var event = info.event,
-                   dateStart = new Date(event.start)
-                  //  hoursStart = String(dateStart.getHours()).padStart(2, '0')
-                  //  minutesStart = String(dateStart.getMinutes()).padStart(2, '0')
-                return { 
-                  html: 
-                  `
-                  <div class="custom-event"> 
-                    <div class="table">
-                      <p class="sm color-dark fw-400">08:00 - 08:30</p>
-                      <p class="title">${event.title}</p>
-                    </div>
+            var event = info.event,
+                dateStart = new Date(event.start)
+              return { 
+                html: 
+                `<div class="custom-event"> 
+                  <div class="table">
+                    <p class="sm color-dark color-black-theme fw-400">08:00 - 08:30</p>
+                    <p class="title fw-400 color-black-theme">${event.title}</p>
                   </div>
-                  `
-                };
+                </div>`
+              };
             },
         });
         calendarMonth.render();
     
-
-      // Events
-      prevMonthBtn.click(function(e){
-        e.preventDefault();
-        calendarMonth.prev();
-      });
-      nextMonthBtn.click(function(e){
-        e.preventDefault();
-        calendarMonth.next();
-      });
-
+        // Events
+        prevMonthBtn.click(function(e){
+          e.preventDefault();
+          calendarMonth.prev();
+        });
+        nextMonthBtn.click(function(e){
+          e.preventDefault();
+          calendarMonth.next();
+        });
     });
+
   </script>
 </body>
 </html>
