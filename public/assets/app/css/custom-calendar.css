@@ -151,6 +151,7 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 
 
 /* Calendar - Month */
+.calendar-month{border-radius:.4375rem .4375rem 0 0; overflow:hidden;} 
 .calendar-month .custom-event{position:relative; padding:0 .5rem;}
 .calendar-month .custom-event .date-time{display:flex; align-items:center;}
 .calendar-month .custom-event .date-time > .icon{margin-right:.5rem;}

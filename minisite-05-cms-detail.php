@@ -103,7 +103,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-line style-01"></div>
+                        <div class="card-line style-01 size-02"></div>
                       </div>
                       <div class="filter-01">
                         <div class="text">
@@ -124,7 +124,7 @@
               <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
                 ไฟล์ที่เกี่ยวข้อง
               </h4>     
-              <div class="scroll-x-wrapper style-02 mt-2" data-simplebar>
+              <div class="scroll-x-wrapper style-02 mt-2">
                 <table class="table style-05 table-download" data-aos="fade-up" data-aos-delay="600">
                   <tbody>
                     <?php
@@ -143,19 +143,19 @@
                           </div>
                         </td>
                         <td class="title-container" style="min-width:450px;">
-                          <a class="p title fw-600 lh-sm" href="#">
+                          <a class="p title fw-500 lh-sm" href="#">
                             รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
                             รายงานการจัดซื้อจัดจ้างส่วนภูมิภาค
                           </a>
                           <div class="text-footer mt-2">
                             <div class="wrapper">
-                              <div class="icon">
+                              <div class="icon color-02">
                                 <em class="fa-regular fa-calendar"></em>
-                                <p class="xs fw-400 ml-1">29 พฤศจิกายน</p>
+                                <p class="xs fw-400 ml-2">29 พฤศจิกายน</p>
                               </div>
-                              <div class="icon">
+                              <div class="icon color-02">
                                 <em class="fa-regular fa-floppy-disk"></em>
-                                <p class="xs fw-400 ml-1">ดาวน์โหลด 122 ครั้ง</p>
+                                <p class="xs fw-400 ml-2">ดาวน์โหลด 122 ครั้ง</p>
                               </div>
                             </div>
                           </div>
@@ -194,7 +194,7 @@
                   ['image' => 'public/assets/app/images/content/12.jpg'],
                 ]
               ?>
-              <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="450">
+              <h4 class="fw-600 mt-4" data-aos="fade-up" data-aos-delay="450">
                 วิดีโอที่เกี่ยวข้อง
               </h4>
               <div class="grids" data-aos="fade-up" data-aos-delay="650">
@@ -215,14 +215,14 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-line style-01"></div>
+                        <div class="card-line style-01 size-02"></div>
                       </div>
                     </a>
                   </div>
                 <?php }?>
               </div> 
               
-              <h4 class="fw-600 mt-5" data-aos="fade-up" data-aos-delay="800">
+              <h4 class="fw-600 mt-6 pt-2" data-aos="fade-up" data-aos-delay="800">
                 สื่อที่เกี่ยวข้อง
               </h4>
               <div data-aos="fade-up" data-aos-delay="950">
@@ -275,7 +275,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="card-line style-01"></div>
+                      <div class="card-line style-01 size-02"></div>
                     </div>
                     <div class="text-container">
                       <p class="title fw-400 lh-sm mt-2 color-black-theme">

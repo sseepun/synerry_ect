@@ -32,10 +32,9 @@
       <div class="faq-01 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300" >
         <?php for($i=0; $i<12; $i++){?>
           <div class="faq <?php if($i==0)echo 'active'; ?>">
-            <div class="question box-shadow style-02">
-              <div class="ftag style-02">
-                <img class="active" src="public/assets/app/images/icon-svg/question-white.svg" alt="Icon">
-                <img class="inactive" src="public/assets/app/images/icon-svg/question.svg" alt="Icon">
+            <div class="question box-shadow style-02 pl-0">
+              <div class="ftag style-02 text-q">
+                <p>Q</p>
               </div>
               <h6 class="title p lg fw-400">
                 สำนักงานคณะกรรมการการเลือกตั้งตอบข้อสอบถามพรรคกล้าเกี่ยวกับ

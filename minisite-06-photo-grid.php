@@ -386,7 +386,7 @@
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
-          <a class="ss-card ss-card-61 mb-3" href="#">
+          <a class="ss-card ss-card-61 fling mb-3" href="#">
             <div class="ss-img">
               <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
               <div class="filter-04"></div>
@@ -420,9 +420,9 @@
                     <span class="p sm fw-400 ml-2">60</span>
                   </div>
                 </div>
-                <div class="link-footer">
+                <div class="link-footer btn btn-fling">
                   <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
-                  <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
+                  <div class="arrow"><em class="fa-solid fa-arrow-right fling"></em></div>
                 </div>
               </div>
               <div class="card-line style-03"></div>

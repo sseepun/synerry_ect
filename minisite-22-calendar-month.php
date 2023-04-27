@@ -60,7 +60,7 @@
             </div>
           </div>
           <div class="scroll-x-wrapper mt-4" style="padding-bottom:5rem;">
-            <div class="calendar-month" style="min-width:1000px;" data-aos="fade-up" data-aos-delay="300">
+            <div class="calendar-month minisite" style="min-width:1000px;" data-aos="fade-up" data-aos-delay="300">
               <div id='calendar-month'></div>
             </div>
           </div>

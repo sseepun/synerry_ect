@@ -77,12 +77,18 @@
         'cate' => 'ถาม-ตอบ',
         'title' => 'การปฏิบัติงานคณะกรรมการประจำหน่วยเลือกตั้งในการเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น',
         'type' => ''
-      ], [
+      ],[
         'image' => 'public/assets/app/images/content/35.jpg',
         'cate' => 'เนื้อหาเว็บไซต์',
         'title' => 'สำนักงานคณะกรรมการการเลือกตั้งมีฐานะเป็นนิติบุคคลและอยู่ภายใต้การบังคับบัญชา กำกับดูแลและรับผิดชอบ',
         'type' => ''
-      ]
+      ], [
+        'image' => 'public/assets/app/images/content/33.jpg',
+        'cate' => 'หนังสืออิเล็กทรอนิกส์',
+        'title' => 'หนังสือกฎหมาย ระเบียบ คู่มือการปฏิบัติงาน และแบบพิมพ์ต่างๆ เกี่ยวกับการสืบสวนและไต่สวน 
+        การเลือกตั้งสมาชิกสภาท้องถิ่นหรือผู้บริหารท้องถิ่น',
+        'type' => 'ebook'
+      ],
     ]
   ?>
 
@@ -187,7 +193,7 @@
                           </div>
                           <div class="grid sm-100">
                             <div class="btns">
-                              <a href="#" class="btn btn-action mw-auto btn-13">
+                              <a href="#" class="btn btn-action btn-white-theme mw-auto btn-13">
                                 ค้นหาขั้นสูง
                               </a>
                               <a href="#" class="btn btn-action mw-auto btn-white-theme btn-03">
@@ -236,12 +242,12 @@
               <form class="form search" data-aos="fade-up" data-aos-delay="0">
                 <div class="ui icon input">
                   <input class="size-02 bg-gray" id="search" type="search" placeholder="ค้นหา">
-                  <em class="icon size-02 style-02 fa-solid fa-magnifying-glass"></em>
+                  <em class="icon size-02 style-03 fa-solid fa-magnifying-glass"></em>
                 </div>
               </form>
               <div class="mt-2" data-aos="fade-up" data-aos-delay="150">
-                <span class="fw-400">ผลการค้นหา <span class="h5 color-02 color-black-theme fw-600">"การเลือกตั้ง"</span>
-                <span>ค้นพบ <span class="color-02 color-black-theme fw-600">200</span> รายการ</span></span>
+                <span class="fw-400">ผลการค้นหา <span class="h5 color-04 color-black-theme fw-600">"การเลือกตั้ง"</span>
+                <span>ค้นพบ <span class="color-04 color-black-theme fw-600">200</span> รายการ</span></span>
               </div>
               <?php foreach($informations as $d) {?>
                 <div class="ss-card ss-card-66 mt-6" data-aos="fade-up" data-aos-delay="300">

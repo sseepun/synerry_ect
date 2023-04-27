@@ -1,17 +1,17 @@
 <!-- Global Search Container -->
-<div class="global-search-container use-gsap">
+<div class="overlay-slide-down global-search-container use-gsap">
   <div class="wrapper">
     <div class="hamburger active global-search-toggle">
       <div></div><div></div><div></div>
     </div>
     <div class="container">
       <form action="./" method="GET">
-        <h2 class="h4 fw-500 text-center color-01 mb-4">
+        <h2 class="h4 fw-500 text-center color-white mb-4">
           คุณกำลังมองหาอะไร?
         </h2>
         <div class="input-container">
           <input type="text" name="keywords" placeholder="ค้นหา" required>
-          <button type="submit" class="h-color-01 pt-2">
+          <button type="submit">
             <i class="fas fa-search"></i>
           </button>
         </div>

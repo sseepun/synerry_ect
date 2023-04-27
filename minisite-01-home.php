@@ -86,9 +86,9 @@
               <?php }?>
             </div>    
           </div>
-          <a class="link-more"  data-aos="fade-up" data-aos-delay="0" href="#">
+          <a class="link-more btn btn-fling"  data-aos="fade-up" data-aos-delay="0" href="#">
             <p class="text fw-400">ดูทั้งหมด</p>   
-            <div class="arrow">
+            <div class="arrow fling">
               <em class="fa-solid fa-arrow-right"></em>
             </div>   
           </a>

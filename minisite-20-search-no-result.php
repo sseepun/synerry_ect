@@ -192,7 +192,7 @@
                           </div>
                           <div class="grid sm-100">
                             <div class="btns">
-                              <a href="#" class="btn btn-action mw-auto btn-13">
+                              <a href="#" class="btn btn-action mw-auto btn-white-theme btn-13">
                                 ค้นหาขั้นสูง
                               </a>
                               <a href="#" class="btn btn-action mw-auto btn-white-theme btn-03">
@@ -238,15 +238,15 @@
                 </div>
             </div>
             <div class="grid xl-75 lg-70 md-60 sm-100">
-              <form class="form search" data-aos="fade-up" data-aos-delay="0">
+            <form class="form search aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
                 <div class="ui icon input">
                   <input class="size-02 bg-gray" id="search" type="search" placeholder="ค้นหา">
-                  <em class="icon size-02 style-02 fa-solid fa-magnifying-glass"></em>
+                  <em class="icon size-02 style-03 fa-solid fa-magnifying-glass"></em>
                 </div>
               </form>
               <div class="mt-2" data-aos="fade-up" data-aos-delay="150">
-                <span class="fw-400">ผลการค้นหา <span class="h5 color-02 color-black-theme fw-600">"การเลือกตั้ง"</span>
-                <span>ค้นพบ <span class="color-02 color-black-theme fw-600">0</span> รายการ</span></span>
+                <span class="fw-400">ผลการค้นหา <span class="h5 color-04 color-black-theme fw-600">"การเลือกตั้ง"</span>
+                <span>ค้นพบ <span class="color-04 color-black-theme fw-600">0</span> รายการ</span></span>
               </div>
               <div class="content-found icon-white-theme popular-search-container" data-aos="fade-up" data-aos-delay="300">
                 <div class="wrapper">
@@ -264,11 +264,6 @@
                     <div class="ss-tags style-03">
                       <div class="tag">
                         <span class="title">อบรมหลักสูตร</span>
-                      </div>
-                    </div>
-                    <div class="ss-tags style-03">
-                      <div class="tag">
-                        <span class="title">การเลือกตั้ง</span>
                       </div>
                     </div>
                     <div class="ss-tags style-03">

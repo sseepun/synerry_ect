@@ -109,7 +109,7 @@
                           </div>
                         </td>
                         <td class="title-container" style="min-width:450px;">
-                          <a class="p title fw-600" href="#">
+                          <a class="p title fw-500" href="#">
                             รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
                             รายงานการจัดซื้อจัดจ้างส่วนภูมิภาค
                           </a>
@@ -117,11 +117,11 @@
                             <div class="wrapper">
                               <div class="icon">
                                 <em class="fa-regular fa-calendar"></em>
-                                <p class="xs fw-400 ml-1">29 พฤศจิกายน</p>
+                                <p class="xs fw-400 color-02 ml-2">29 พฤศจิกายน</p>
                               </div>
                               <div class="icon">
                                 <em class="fa-regular fa-floppy-disk"></em>
-                                <p class="xs fw-400 ml-1">ดาวน์โหลด 122 ครั้ง</p>
+                                <p class="xs fw-400 color-02 ml-2">ดาวน์โหลด 122 ครั้ง</p>
                               </div>
                             </div>
                           </div>
@@ -194,7 +194,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="card-line style-01"></div>
+                      <div class="card-line style-01 size-02"></div>
                     </div>
                     <div class="text-container">
                       <p class="title fw-400 lh-sm mt-2 color-black-theme">

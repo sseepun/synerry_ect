@@ -131,7 +131,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-line style-01"></div>
+                        <div class="card-line style-01 size-02"></div>
                       </div>
                       <div class="filter-01">
                         <div class="text">
@@ -197,7 +197,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="card-line style-01"></div>
+                      <div class="card-line style-01 size-02"></div>
                     </div>
                     <div class="text-container">
                       <p class="title fw-400 lh-sm mt-2 color-black-theme">

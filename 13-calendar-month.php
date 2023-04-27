@@ -111,12 +111,12 @@
 
       const calendarMonth = new FullCalendar.Calendar($('#calendar-month')[0], {
         initialView: 'dayGridMonth',
-          locale: 'th',
-          contentHeight: 'auto',
-          dayMaxEvents: true,
-          views: {
-            dayGrid: {
-              dayMaxEvents:2,
+        locale: 'th',
+        contentHeight: 'auto',
+        dayMaxEvents: true,
+        views: {
+          dayGrid: {
+            dayMaxEvents:2,
           }
         },
           events: [
@@ -216,8 +216,13 @@
                 html: 
                 `<div class="custom-event"> 
                   <div class="table">
-                    <p class="sm color-dark color-black-theme fw-400">08:00 - 08:30</p>
-                    <p class="title fw-400 color-black-theme">${event.title}</p>
+                    <div class="date-time">
+                      <div class="icon color-02 color-white-theme">
+                        <em class="fa-solid fa-calendar-days"></em>
+                      </div>
+                      <p class="sm color-dark color-white-theme fw-400">08:00 - 08:30</p>
+                    </div>
+                    <p class="title fw-400 color-white-theme">${event.title}</p>
                   </div>
                 </div>`
               };

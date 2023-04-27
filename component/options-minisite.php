@@ -1,5 +1,5 @@
 <!-- Global Search Container -->
-<div class="global-search-container use-gsap">
+<div class=" overlay-slide-down global-search-container use-gsap">
   <div class="wrapper">
     <div class="hamburger active global-search-toggle">
       <div></div><div></div><div></div>

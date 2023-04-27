@@ -388,13 +388,13 @@
   border-radius:.4375rem; transition:all .4s ease;
 }
 .faq-01 .faq > .question.style-02{position:relative;}
-.faq-01 .faq > .question .ftag{transition:color 1.5s;}
+.faq-01 .faq > .question .ftag{transition:color .4s ease;}
 .faq-01 .faq .ftag{
-  position:relative; width:3rem; height:auto; display:flex; justify-content:center; 
+  position:relative; width:5rem; height:auto; display:flex; justify-content:center; 
   align-items:center; font-weight:600; 
 }
 .faq-01 .faq .title{
-  display:flex; align-items:center; height:auto; width:calc(100% - 19rem);
+  display:flex; align-items:center; height:auto; width:calc(100% - 21rem);
   transition:color .4s ease; -webkit-line-clamp:2;
 }
 .faq-01 .faq > .question.style-02 .title{padding:.5rem 0;}
@@ -431,6 +431,7 @@
 .faq-01 .faq.active .ftag.style-02 > img.active{opacity:1;}
 .faq-01 .ftag.style-02 > img.inactive{opacity:1;}
 .faq-01 .faq.active .ftag.style-02 > img.inactive{opacity:0;}
+.faq-01 .text-q > p{font-size:2.75rem; font-weight:600; transition:color .4 ease;}
 
 @media screen and (max-width:1199.98px){
   .faq-01 .faq > .question{height:auto; padding:.5rem 1rem .5rem 0;}
@@ -439,9 +440,11 @@
 @media screen and (max-width:991.98px){
   .faq-01 .faq > .answer > .wrapper{max-width:100%;}
   .faq-01 .faq .title{width:calc(100% - 3rem);}
+  .faq-01 .faq > .question.style-02 .title{width:calc(100% - 3.5rem);}
+  .faq-01 .faq > .question.style-02 .ftag{width:3.5rem;}
+  .faq-01 .faq > .question.style-02 .date-view{padding-left:3.5rem; margin:0 0 .25rem 0}
   .faq-01 .faq .date-view{width:100%; justify-content:flex-start; padding-left:3rem; margin-top:.5rem;}
   .faq-01 .faq > .question{padding:.5rem .5rem .5rem .5rem;}
-  .faq-01 .faq > .question.style-02{padding:0 .5rem .5rem .5rem;}
   .faq-01 .faq .arrow{width:100%;}
   .faq-01 .faq .arrow > .wrapper{width:100%; justify-content:flex-end;}
   .faq-01 .faq .answer-wrapper{width:100%; border-radius:.4375rem; margin-top:.5rem; padding:.5rem 0;}
@@ -452,7 +455,6 @@
   }
   .faq-01 .faq > .question.style-02 .arrow > .wrapper{justify-content:center;}
   .faq-01 .faq .ftag{align-items:flex-start;}
-  .faq-01 .faq > .question.style-02 .ftag{width:2.5rem; padding:.75rem 0 0 0;}
 
 }
 @media screen and (max-width:767.98px){
@@ -1563,8 +1565,9 @@
 }
 .section-24 .arrow-container > .btn .arrow{
   width:3rem; height:3rem; display:flex; justify-content:center; align-items:center; 
-  transition:all .25s;
+  transition:all .25s; opacity:0;
 }
+.section-24:hover .arrow-container > .btn .arrow{opacity:1;}
 @media screen and (max-width:767.98px){
   .section-24 .arrow-container > .btn .arrow{width:2.75rem; height:2.75rem;}
 }
