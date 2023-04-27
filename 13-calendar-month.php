@@ -57,13 +57,11 @@
           </div>
         </div>
       </div>
-
-      <div class="scroll-x-wrapper mt-4" style="padding-bottom:5rem;">
+      <div class="scroll-x-wrapper mt-4">
         <div class="calendar-month main-site" style="min-width:1000px;" data-aos="fade-up" data-aos-delay="300">
           <div id='calendar-month'></div>
         </div>
       </div>
-      
     </div>
   </div>
 
