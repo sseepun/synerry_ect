@@ -183,53 +183,53 @@
       <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
         <?php foreach($news03 as $d) {?>
           <div class="grid xl-25 lg-1-3 md-50">
-          <a class="ss-card ss-card-08 mb-3" href="#">
-            <div class="img-wrapper">
-              <div class="ss-img ovf-hidden">
-                <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                <div class="filter style-02">
-                  <div class="wrapper">
-                    <div class="icon xs">
-                      <img src="public/assets/app/images/icon-svg/vote-white.svg" alt="Icon">
+            <a class="ss-card ss-card-08 mb-3" href="#">
+              <div class="img-wrapper">
+                <div class="ss-img ovf-hidden">
+                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="filter style-02">
+                    <div class="wrapper">
+                      <div class="icon xs">
+                        <img src="public/assets/app/images/icon-svg/vote-white.svg" alt="Icon">
+                      </div>
                     </div>
                   </div>
                 </div>
+                <div class="card-line style-01"></div>
               </div>
-              <div class="card-line style-01"></div>
-            </div>
-            <div class="text-container">
-              <p class="title fw-500 mt-1">
-                รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
-                สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
-              </p>
-              <div class="card-top mt-1">
-                <div class="wrapper">
-                  <div class="icon">
-                    <em class="fa-solid fa-calendar-days"></em>
-                    <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
-                  </div>
-                  <div class="icon">
-                    <em class="fa-solid fa-eye"></em>
-                    <span class="p sm fw-400 ml-2">255</span>
-                  </div>
-                  <div class="icon">
-                    <em class="fa-solid fa-share-nodes"></em>
-                    <span class="p sm fw-400 ml-2">208</span>
+              <div class="text-container">
+                <p class="title fw-500 mt-1">
+                  รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือเตรียมการจัดงานวันสถาปนา
+                  สำนักงานคณะกรรมการการเลือกตั้ง ครบรอบ 24 ปี
+                </p>
+                <div class="card-top mt-1">
+                  <div class="wrapper">
+                    <div class="icon">
+                      <em class="fa-solid fa-calendar-days"></em>
+                      <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
+                    </div>
+                    <div class="icon">
+                      <em class="fa-solid fa-eye"></em>
+                      <span class="p sm fw-400 ml-2">255</span>
+                    </div>
+                    <div class="icon">
+                      <em class="fa-solid fa-share-nodes"></em>
+                      <span class="p sm fw-400 ml-2">208</span>
+                    </div>
                   </div>
                 </div>
+                <p class="desc sm color-08 mt-1">
+                  วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายเกรียงไกร พานดอกไม้ 
+                  รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงานในการศึกษา
+                  รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงานในการศึกษา
+                </p>
               </div>
-              <p class="desc sm color-08 mt-1">
-                วันที่ 7 มิถุนายน 2565 เวลา 13.30 น. นายเกรียงไกร พานดอกไม้ 
-                รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงานในการศึกษา
-                รองเลขาธิการคณะกรรมการการเลือกตั้ง ประชุมหารือร่วมกับคณะทำงานในการศึกษา
-              </p>
-            </div>
-            <div class="btns jc-center mt-5">
-              <div class="btn btn-action-style-06">
-                <span>อ่านเพิ่มเติม</span><div class="sep"></div>
+              <div class="btns jc-center mt-5">
+                <div class="btn btn-action-style-06">
+                  <span>อ่านเพิ่มเติม</span><div class="sep"></div>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
         </div>
         <?php }?>
       </div>

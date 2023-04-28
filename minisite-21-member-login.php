@@ -144,7 +144,7 @@
                   </div>
                 </div>
                 <div class="grid xl-30 lg-30 md-100 sm-100" data-aos="fade-up" data-aos-delay="150">
-                  <a class="ss-card ss-card-69" href="#">
+                  <a class="ss-card ss-card-69 fling" href="#">
                     <div class="wrapper">
                       <div class="icon">
                         <img src="public/assets/app/images/icon/30.png" alt="">
@@ -155,8 +155,8 @@
                           <p class="sm lh-sm fw-400">สามารถลงทะเบียนได้ที่นี้</p>
                         </div>
                         <div class="arrow">
-                          <div class="arrow arrow-next">
-                            <em class="fa-solid fa-arrow-right"></em>
+                          <div class="arrow arrow-next btn btn-fling">
+                            <em class="fa-solid fa-arrow-right fling"></em>
                           </div>
                         </div>
                       </div>

@@ -1829,7 +1829,7 @@
 
 /* Section 33 */
 .section-33{margin-top:-2.5rem;}
-.section-33 .swiper-main-container{position:relative; width:calc(100% + 12rem); margin:0 -6rem; padding:0 6rem;}
+.section-33 .swiper-main-container{position:relative; width:calc(100% + 12rem); margin:0 -6rem; padding:0 6rem 1.25rem 6rem;}
 .section-33 .swiper-main-container:hover .arrow{opacity:1;}
 .section-33 .swiper-slide-active .img-container{opacity:1;}
 .section-33 .img-container{opacity:.2; transition:opacity 2s;}

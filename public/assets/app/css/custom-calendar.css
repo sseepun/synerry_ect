@@ -311,8 +311,6 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 .calendar-year .activity-list > .wrapper{
   display:flex; align-items:center; align-items:center; cursor:pointer;
 }
-.calendar-year .activity-list > .wrapper .arrow{transition:margin .25s; margin:.0625rem .125rem 0 0;}
-.calendar-year .activity-list:hover > .wrapper .arrow{margin:.0625rem 0 0 .125rem;}
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-day-top{position:relative; pointer-events:none; z-index:2;}
 .calendar-year .fc-multiMonthYear-view .fc-daygrid-body-balanced .fc-daygrid-day-events{
   position:absolute; top:0; bottom:0; left:0; right:0; margin:0; padding:0; z-index:1;

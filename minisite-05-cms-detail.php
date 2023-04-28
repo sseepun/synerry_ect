@@ -171,11 +171,11 @@
                           <em class="fa-solid fa-triangle-exclamation"></em>
                           <?php
                             if($k === 'link'){?>
-                              <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                              <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
                                 แจ้งลิงก์เสีย
                               </a>
                           <?php } else {?>
-                              <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                              <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
                                 แจ้งไฟล์เสีย
                               </a>
                           <?php }?>

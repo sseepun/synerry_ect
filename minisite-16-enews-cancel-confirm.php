@@ -37,9 +37,9 @@
               </div>
               <div class="btns jc-center ss-card pt-5">
                 <div class="btns">
-                  <div class="btn btn-action btn-26">
+                  <div class="btn btn-action btn-fling btn-26">
                     <span>กลับไปหน้าแรก</span>
-                    <em class="fa-solid fa-arrow-right"></em>
+                    <em class="fa-solid fa-arrow-right fling"></em>
                   </div>
                 </div>
               </div>

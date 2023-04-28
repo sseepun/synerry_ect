@@ -448,6 +448,11 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
   rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
   rgba(0,0,0,0));
 }
+.filter.style-05{
+  background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,.9),
+  rgba(0,0,0,.4),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),
+  rgba(0,0,0,0));
+}
 
 .form.search > .ui.icon.input > em.icon{background:#dddddd;}
 
@@ -1130,3 +1135,6 @@ select.style-02{background:#ffffff!important;}
 .ss-card-81 .text-container .date .wrapper > .month{background:#000000; color:#ffffff;}
 .ss-card-81 .text-container .date .wrapper.style-02::after{background:#ffffff;}
 .ss-card-81 .wrapper > .text-container .text > .card-bottom .wrapper > .icon em{color:#000000;}
+
+/* Special Card 82 */
+.ss-card-82 .filter-01{background:rgba(0,0,0,.4);}

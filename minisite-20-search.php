@@ -250,7 +250,7 @@
                 <span>ค้นพบ <span class="color-04 color-black-theme fw-600">200</span> รายการ</span></span>
               </div>
               <?php foreach($informations as $d) {?>
-                <div class="ss-card ss-card-66 mt-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="ss-card ss-card-66 fling mt-6" data-aos="fade-up" data-aos-delay="300">
                   <div class="wrapper">
                     <div class="img-container">
                       <div class="ss-img">
@@ -282,9 +282,9 @@
                           กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติงาน
                           ให้แก่พนักงานในการอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ
                         </p>
-                        <div class="link-footer">
-                          <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
-                          <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
+                        <div class="link-footer btn btn-fling">
+                          <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านเพิ่ม</p>
+                          <div class="arrow"><em class="fa-solid fa-arrow-right fling"></em></div>
                         </div>
                       </div>
                       <div class="info-content">

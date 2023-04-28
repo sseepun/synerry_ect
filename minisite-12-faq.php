@@ -23,7 +23,7 @@
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
       <div class="ss-box bg-white-theme style-02 w-full">
-        <div class="ss-box-shadow md"></div>
+        <div class="ss-box-shadow minisite"></div>
         <div class="body bg-white-theme">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
@@ -139,6 +139,13 @@
               </div>
             <?php }?>
           </div>
+          <div class="mt-6 pt-4">
+            <?php
+              $listFooter = ['total', 'paginate', 'pp'];
+              $style = 'style-02';
+              include('component/list-footer.php');
+            ?>
+          </div>
         </div> 
       </div>
     </div>
@@ -146,14 +153,6 @@
 
   <div class="section">
     <div class="container">
-      <div class="mt-6 pt-4">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          $style = 'style-02';
-          include('component/list-footer.php');
-        ?>
-      </div>
-
       <!-- FORM -->
       <div class="form-container-01 bg-black-theme box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
         <div class="grids">

@@ -54,9 +54,9 @@
                         <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                       </div>
                       <div class="btns mt-2 ai-center ml-4">
-                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action btn-26" data-popup="99">
+                        <button type="submit" href="#" class="btn btn-fling btn-popup-toggle btn-action btn-26" data-popup="99">
                           <span class="mr-2">ขอรหัสผ่านใหม่</span>
-                          <em class="fa-solid fa-arrow-right"></em>
+                          <em class="fa-solid fa-arrow-right fling"></em>
                         </button>
                       </div>
                     </div>

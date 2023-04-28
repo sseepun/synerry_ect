@@ -23,7 +23,7 @@
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
       <div class="ss-box bg-white-theme style-02 w-full">
-        <div class="ss-box-shadow md"></div>
+        <div class="ss-box-shadow minisite"></div>
         <div class="body bg-white-theme">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
@@ -33,72 +33,71 @@
           <div class="faq-08 mt-3 pt-2 pb-1" data-aos="fade-up" data-aos-delay="300">
           <?php for($i=0; $i<1; $i++){?>
             <div class="faq <?php if($i==0)echo 'active'; ?>">
-                <div class="question box-shadow style-02">
-                  <h6 class="title p lg fw-400">
-                    คุณคิดว่า "www.ect.go.th" ปรับโฉมใหม่ ควรปรับปรุงอะไรเป็นลำดับแรกๆ 
-                  </h6>
-                  <div class="options">
-                    <a class="btn btn-action btn-13 bcolor-white-theme" href="#">
-                      <?= $i==0? 'ปิด': 'ทำแบบสอบถาม' ?>
-                    </a>
-                  </div>
+              <div class="question box-shadow style-02">
+                <h6 class="title p lg fw-400">
+                  คุณคิดว่า "www.ect.go.th" ปรับโฉมใหม่ ควรปรับปรุงอะไรเป็นลำดับแรกๆ 
+                </h6>
+                <div class="options">
+                  <a class="btn btn-action btn-13 bcolor-white-theme" href="#">
+                    <?= $i==0? 'ปิด': 'ทำแบบสอบถาม' ?>
+                  </a>
                 </div>
+              </div>
               
-                <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
-                  <div class="content">
-                    <div class="wrapper">
-                      <div class="grids jc-center flex-column-reverse sm">
-                        <div class="grid lg-50 md-50 sm-100 xs-100 mt-0">
-                          <form action="action.php" method="post">
-                            <fieldset>
-                              <div class="gallery-grids">
-                                <div class="grid sm-100">
-                                  <div class="rc-container style-03">
-                                    <input type="radio" id="poll_0" name="poll" value="0">
-                                    <label class="fw-400" for="poll_0">ขนาดเว็บไซต์ไม่พอดีกับหน้าจอ</label>
-                                  </div>
-                                </div>
-                                <div class="grid sm-100">
-                                  <div class="rc-container style-03">
-                                    <input type="radio" id="poll_1" name="poll" value="1">
-                                    <label class="fw-400" for="poll_1">เว็บไซต์รกเกินไป</label>
-                                  </div>
-                                </div>
-                                <div class="grid sm-100">
-                                  <div class="rc-container style-03">
-                                    <input type="radio" id="poll_2" name="poll" value="2">
-                                    <label class="fw-400" for="poll_2">หาข้อมูลไม่พบหรือพบยาก</label>
-                                  </div>
-                                </div>
-                                <div class="grid sm-100">
-                                  <div class="rc-container style-03">
-                                    <input type="radio" id="poll_3" name="poll" value="3">
-                                    <label class="fw-400" for="poll_3">เว็บไซต์ทำงานไม่สมบูรณ์</label>
-                                  </div>
-                                </div>
-                                <div class="grid sm-100">
-                                  <div class="rc-container style-03">
-                                    <input type="radio" id="poll_4" name="poll" value="3">
-                                    <label class="fw-400" for="poll_4">เว็บไซต์ทำงานช้า</label>
-                                  </div>
+              <div class="answer" <?php if($i==0)echo 'style="display:block;"'; ?>>
+                <div class="content">
+                  <div class="wrapper">
+                    <div class="grids jc-center flex-column-reverse sm">
+                      <div class="grid lg-50 md-50 sm-100 xs-100 mt-0">
+                        <form action="action.php" method="post">
+                          <fieldset>
+                            <div class="gallery-grids">
+                              <div class="grid sm-100">
+                                <div class="rc-container style-03">
+                                  <input type="radio" id="poll_0" name="poll" value="0">
+                                  <label class="fw-400" for="poll_0">ขนาดเว็บไซต์ไม่พอดีกับหน้าจอ</label>
                                 </div>
                               </div>
-                            </fieldset>
-                            <div class="btns mt-4">
-                              <button id="btnVote" type="submit" class="btn btn-action btn-13 btn-black-theme btn-popup-toggle" data-popup="99">
-                                โหวต
-                              </button>
-                              <button type="submit" class="btn btn-action btn-03 btn-black-theme">
-                                ผลโหวต
-                              </button>
+                              <div class="grid sm-100">
+                                <div class="rc-container style-03">
+                                  <input type="radio" id="poll_1" name="poll" value="1">
+                                  <label class="fw-400" for="poll_1">เว็บไซต์รกเกินไป</label>
+                                </div>
+                              </div>
+                              <div class="grid sm-100">
+                                <div class="rc-container style-03">
+                                  <input type="radio" id="poll_2" name="poll" value="2">
+                                  <label class="fw-400" for="poll_2">หาข้อมูลไม่พบหรือพบยาก</label>
+                                </div>
+                              </div>
+                              <div class="grid sm-100">
+                                <div class="rc-container style-03">
+                                  <input type="radio" id="poll_3" name="poll" value="3">
+                                  <label class="fw-400" for="poll_3">เว็บไซต์ทำงานไม่สมบูรณ์</label>
+                                </div>
+                              </div>
+                              <div class="grid sm-100">
+                                <div class="rc-container style-03">
+                                  <input type="radio" id="poll_4" name="poll" value="3">
+                                  <label class="fw-400" for="poll_4">เว็บไซต์ทำงานช้า</label>
+                                </div>
+                              </div>
                             </div>
-                          </form>
-                        </div>
-                        <div class="grid lg-50 md-50 sm-100 xs-100 mt-0">
-                          <div class="image-wrapper">
-                            <div class="image-container">
-                              <img src="public/assets/app/images/content/11.png" alt="Content">
-                            </div>
+                          </fieldset>
+                          <div class="btns mt-4">
+                            <button id="btnVote" type="submit" class="btn btn-action btn-13 btn-black-theme btn-popup-toggle" data-popup="99">
+                              โหวต
+                            </button>
+                            <button type="submit" class="btn btn-action btn-03 btn-black-theme">
+                              ผลโหวต
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="grid lg-50 md-50 sm-100 xs-100 mt-0">
+                        <div class="image-wrapper">
+                          <div class="image-container">
+                            <img src="public/assets/app/images/content/11.png" alt="Content">
                           </div>
                         </div>
                       </div>
@@ -106,6 +105,7 @@
                   </div>
                 </div>
               </div>
+            </div>
           <?php }?>
           <?php for($i=0; $i<1; $i++){?>
               <div id="chart" class="faq">
@@ -266,22 +266,17 @@
               </div>
             <?php }?>
           </div>
+          <div class="mt-6 pt-4">
+            <?php
+              $listFooter = ['total', 'paginate', 'pp'];
+              $style = 'style-02';
+              include('component/list-footer.php');
+            ?>
+          </div>
         </div> 
       </div>
     </div>
   </section>
-
-  <div class="section-padding">
-    <div class="container">
-      <div class="mt-6 pt-4">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          $style = 'style-02';
-          include('component/list-footer.php');
-        ?>
-      </div>
-    </div>
-  </div>
 
   <?php
     $listResult= ['poll'];

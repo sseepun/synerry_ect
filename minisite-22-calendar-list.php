@@ -140,9 +140,9 @@
                         </div>
                       </div>               
                       <div class="card-footer">
-                        <div class="link-footer">
-                          <p class="text color-05 fw-500 color-black-theme border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
-                          <div class="arrow color-black-theme"><em class="fa-solid fa-arrow-right"></em></div>
+                        <div class="link-footer btn btn-fling">
+                          <p class="text color-05 fw-500 color-black-theme border-bottom bcolor-05 lh-sm mr-2">อ่านเพิ่ม</p>
+                          <div class="arrow color-black-theme"><em class="fa-solid fa-arrow-right fling"></em></div>
                         </div>
                         <div class="views-share color-black-theme">
                           <div class="icon">

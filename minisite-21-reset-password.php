@@ -65,10 +65,10 @@
                         <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
                         <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                       </div>
-                      <div class="btns mt-2 ml-4">
+                      <div class="btns btn btn-fling mt-2 ml-4">
                         <button type="submit" class="btn btn-action btn-26 btn-popup-toggle" data-popup="99">
                           รีเซ็ทรหัสผ่านใหม่
-                          <em class="fa-solid fa-arrow-right"></em>
+                          <em class="fa-solid fa-arrow-right fling"></em>
                         </button>
                       </div>
                     </div>

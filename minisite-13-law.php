@@ -37,7 +37,7 @@
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/22.jpg');"></div>
     <div class="container">
       <div class="ss-box bg-white-theme style-02 w-full">
-        <div class="ss-box-shadow xl"></div>
+        <div class="ss-box-shadow minisite"></div>
         <div class="body">
           <div class="ss-title d-flex ai-center fw-wrap jc-space-between">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
@@ -47,7 +47,7 @@
               ดาวน์โหลดทั้งหมด
             </a>
           </div>
-          <div class="scroll-x-wrapper style-02 mt-4" data-simplebar>
+          <div class="scroll-x-wrapper style-02 mt-4">
             <table class="table table-download style-06" data-aos="fade-up" data-aos-delay="600">
               <tbody>
                 <?php
@@ -59,7 +59,7 @@
                   <tr class="border box-shadow style-02 mb-2">
                     <td class="download-card">
                       <div>
-                        <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
+                        <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
                       </div>
                     </td>
                     <td class="title-container" style="min-width:650px;">
@@ -86,35 +86,41 @@
                     </td>
                     <td class="button-container" style="min-width:170px;">
                       <div class="btns jc-end">
-                        <div href="#" class="btn btn-white-theme width-auto btn-action btn-13">
+                        <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-13">
                           ดาวน์โหลดไฟล์
-                          <em class="fa-solid fa-arrow-down ml-1"></em>
+                          <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
                         </div>
                       </div>
                     </td>
                     <td class="warning-container" style="min-width:120px;">
                       <em class="fa-solid fa-triangle-exclamation"></em>
-                      <a class="xs color-02 color-black-theme text-center fw-500 ml-1" href="#">แจ้งไฟล์เสีย</a>
+                      <a class="xs color-02 color-black-theme btn-popup-toggle-02 text-center fw-500 ml-1" data-popup="99">
+                        แจ้งไฟล์เสีย
+                      </a>
                     </td>
                   </tr>
                 <?php }?>
               </tbody>
             </table>
           </div>
+          <div class="mt-6 pt-4 mb-6">
+            <?php
+              $listFooter = ['total', 'paginate', 'pp'];
+              $style = 'style-02';
+              include('component/list-footer.php');
+            ?>
+          </div>
         </div> 
       </div>
     </div>
   </section>
 
-  <div class="container">
-    <div class="mt-6 pt-4 mb-6">
-      <?php
-        $listFooter = ['total', 'paginate', 'pp'];
-        $style = 'style-02';
-        include('component/list-footer.php');
-      ?>
-    </div>
-  </div>
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
+
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
