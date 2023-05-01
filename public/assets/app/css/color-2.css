@@ -544,7 +544,15 @@ body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 .election-commission-container .header{background:#000000; color:#fecb00;}
 
 /* List Footer */
-.list-footer-02.style-02 .btn.btn-action-style-07{background:#fecb00; color:#000000;}
+.list-footer-02.style-02 .option p, .list-footer-02.style-02 .option .color-02{color:#000000!important;}
+.list-footer-02.style-02 .btn.btn-action-style-07{background:#000000; color:#fecb00;}
+.list-footer-02.style-02 .paginate.style-02 .arrow{background:#000000; color:#fecb00;}
+.list-footer-02.style-02 .paginate.style-02 .page:hover, .list-footer-02.style-02 .paginate.style-02 .page.active{
+  background:#000000; color:#fecb00;
+}
+.list-footer-02.style-02 .paginate.style-02 .page{background:#d3a901; color:#fecb00;}
+.list-footer-02.style-02 .custom-select .select-selected{background:#000000; color:#fecb00;}
+.list-footer-02.style-02  .custom-select .chev{color:#fecb00;}
 
 /* List Footer */
 .list-footer.minisite .slot select{background:#fecb00!important; color:#000000!important;}
@@ -1160,8 +1168,11 @@ body.minisite .search-container .form > .form-group .date-wrapper > input[type="
 .ss-card-36 .filter-01{background:rgba(0,0,0,.4);}
 
 /* Special Card 37 */
-.ss-card-37 .text-container{border-color:#fecb00;}
-.ss-card-37 .card-footer .link-footer > .arrow{color:#fecb00;}
+.ss-card-37 .text-container{border-color:#000000;}
+.ss-card-37 .text-container .title, .ss-card-37 .text-container .color-08, .ss-card-37 .c-icon,
+.ss-card-37 .text-container .color-05, .ss-card-37 .text-container .color-gray{color:#000000!important;}
+.ss-card-37 .text-container .bcolor-05{border-color:#000000!important;}
+
 
 /* Special Card 38 */
 .ss-card-38 .wrapper > .text-container{border-color:#fecb00;}

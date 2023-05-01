@@ -635,7 +635,15 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 .dropdown-icon{background:#000000; color:#ffffff;}
 
 /* List Footer */
-.list-footer-02.style-02 .btn.btn-action-style-07{background:#ffffff; color:#000000;}
+.list-footer-02.style-02 .option p, .list-footer-02.style-02 .option .color-02{color:#000000!important;}
+.list-footer-02.style-02 .btn.btn-action-style-07{background:#000000; color:#ffffff;}
+.list-footer-02.style-02 .paginate.style-02 .arrow{background:#000000; color:#ffffff;}
+.list-footer-02.style-02 .paginate.style-02 .page:hover, .list-footer-02.style-02 .paginate.style-02 .page.active{
+  background:#000000; color:#ffffff;
+}
+.list-footer-02.style-02 .paginate.style-02 .page{background:#dddddd; color:#ffffff;}
+.list-footer-02.style-02 .custom-select .select-selected{background:#000000; color:#ffffff;}
+.list-footer-02.style-02  .custom-select .chev{color:#ffffff;}
 
 /* List Header Calendar */
 .list-header-calendar .options .option.search em.icon{background:#dddddd; color:#000000;}
@@ -1028,8 +1036,11 @@ select.style-02{background:#ffffff!important;}
 .ss-card-36 .filter-01{background:rgba(0,0,0,.4);}
 
 /* Special Card 37 */
-.ss-card-37 .text-container{border-color:#ffffff;}
-.ss-card-37 .card-footer .link-footer > .arrow{color:#ffffff;}
+.ss-card-37 .text-container{border-color:#000000;}
+.ss-card-37 .text-container .color-08 ,
+.ss-card-37 .text-container .color-05,
+.ss-card-37 .text-container .color-gray{color:#000000!important;}
+.ss-card-37 .text-container .bcolor-05{border-color:#000000!important;}
 
 /* Special Card 38 */
 .ss-card-38 .wrapper > .text-container{border-color:#ffffff;}
