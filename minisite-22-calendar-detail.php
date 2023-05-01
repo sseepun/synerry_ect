@@ -133,7 +133,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-line style-01"></div>
+                        <div class="card-line style-01 size-02"></div>
                       </div>
                       <div class="filter-01">
                         <div class="text">
@@ -245,7 +245,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-line style-01"></div>
+                        <div class="card-line style-01 size-02"></div>
                       </div>
                     </a>
                   </div>
@@ -314,6 +314,14 @@
                   <a class="ss-card ss-card-12 mt-3" href="#" data-aos="fade-up" data-aos-delay="300">
                     <div class="ss-img">
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                      <div class="card-line style-01 size-02"></div>
+                      <div class="filter style-02">
+                          <div class="wrapper">
+                            <div class="icon op-0">
+                              <img src="public/assets/app/images/icon/51.png" alt="Icon">
+                            </div>
+                          </div>
+                        </div>
                     </div>
                     <div class="text-container">
                       <p class="title fw-400 lh-sm mt-2">

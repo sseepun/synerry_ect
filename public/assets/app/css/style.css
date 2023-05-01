@@ -4020,7 +4020,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
   content:''; position:absolute; top:49%; width:.75rem; height:.125rem;
 }
 .ss-card-81 .text-container > .card-footer{
-  border-top:1px solid transparent; padding-top:.25rem; display:flex; justify-content:space-between;
+  border-top:none; padding-top:.25rem; display:flex; justify-content:space-between;
 }
 .ss-card-81 .text-container > .card-footer .link-footer{display:flex; align-items:center;}
 .ss-card-81 .card-footer .link-footer > .arrow {transition: color .25s, margin .25s; margin: .0625rem .125rem 0 0;}

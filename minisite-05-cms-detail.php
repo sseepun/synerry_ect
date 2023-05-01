@@ -80,13 +80,13 @@
               </div>
               <?php 
                 $news01 = [
-                  ['image' => 'public/assets/app/images/content/02.jpg'],
-                  ['image' => 'public/assets/app/images/content/10.jpg'],
-                  ['image' => 'public/assets/app/images/content/11.jpg'],
-                  ['image' => 'public/assets/app/images/content/12.jpg'],
-                  ['image' => 'public/assets/app/images/content/13.jpg'],
-                  ['image' => 'public/assets/app/images/content/14.jpg'],
-                  ['image' => 'public/assets/app/images/content/15.jpg'],
+                  ['image' => 'public/assets/app/images/content/02.jpg', 'classer' => ''],
+                  ['image' => 'public/assets/app/images/content/10.jpg', 'classer' => ''],
+                  ['image' => 'public/assets/app/images/content/11.jpg', 'classer' => ''],
+                  ['image' => 'public/assets/app/images/content/12.jpg', 'classer' => ''],
+                  ['image' => 'public/assets/app/images/content/13.jpg', 'classer' => ''],
+                  ['image' => 'public/assets/app/images/content/14.jpg', 'classer' => ''],
+                  ['image' => 'public/assets/app/images/content/15.jpg' , 'classer' => ''],
                   ['image' => 'public/assets/app/images/content/12.jpg', 'classer' => 'active'],
                 ]
               ?>

@@ -137,20 +137,6 @@
                 </p>
                 <form class="form style-02" action="action.php" method="post">
                   <div class="grids">
-                    <div class="grid sm-100 mt-3">
-                      <div class="option cate">
-                        <select class="ui color-gray border dropdown" required>
-                          <option value="">เลือกหน่วยงาน*</option>
-                          <option value="1">ข่าวประชาสัมพันธ์ 1</option>
-                          <option value="2">ข่าวประชาสัมพันธ์ 2</option>
-                          <option value="3">ข่าวประชาสัมพันธ์ 3</option>
-                        </select>
-                        <div class="dropdown-icon style-02 border">
-                          <em class="fa-solid fa-chevron-down"></em>
-                        </div>
-                      </div>
-                      <label class="text-danger style-02">กรุณาเลือกหน่วยงานที่ต้องการติดต่อ</label>
-                    </div>
                     <div class="grid sm-100 mt-2">
                       <div class="option cate">
                         <select class="ui color-gray border dropdown" required>

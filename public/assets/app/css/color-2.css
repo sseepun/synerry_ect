@@ -1212,8 +1212,8 @@ body.minisite .search-container .form > .form-group .date-wrapper > input[type="
 .ss-card-60 .text-container{border-color:#000000;}
 
 /* Special Card 61 */
-.ss-card-61 .text-container{border-color:#fecb00;}
-.ss-card-61 .card-footer .link-footer > .arrow{color:#fecb00;}
+.ss-card-61 .text-container, .ss-card-61 .text-container .bcolor-05{border-color:#000000!important;}
+.ss-card-61 .text-container .color-gray, .ss-card-61 .text-container .color-05, a.ss-card-61{color:#000000!important;}
 
 /* Special Card 62 */
 .ss-card-62 .wrapper > .img-container .ebook-container::before{background:#e4b703;}

@@ -46,7 +46,7 @@
               <div class="btn btn-action btn-33 size-05 btn-white-theme">
                 วัน
               </div>
-              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+              <div class="btn btn-action btn-33 size-05 active btn-white-theme">
                 สัปดาห์
               </div>
               <div class="btn btn-action btn-33 size-05 btn-white-theme">

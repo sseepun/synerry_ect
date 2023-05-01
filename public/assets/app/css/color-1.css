@@ -1081,8 +1081,8 @@ select.style-02{background:#ffffff!important;}
 .ss-card-60 .text-container{border-color:#000000;}
 
 /* Special Card 61 */
-.ss-card-61 .text-container{border-color:#ffffff;}
-.ss-card-61 .card-footer .link-footer > .arrow{color:#ffffff;}
+.ss-card-61 .text-container, .ss-card-61 .text-container .bcolor-05{border-color:#000000!important;}
+.ss-card-61 .text-container .color-gray, .ss-card-61 .text-container .color-05{color:#000000!important;}
 
 /* Special Card 62 */
 .ss-card-62 .wrapper > .img-container .ebook-container::before{background:#e9e9e9;}

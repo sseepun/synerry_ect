@@ -254,7 +254,7 @@
                       <div class="wrapper">
                         <div class="icon">
                           <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
-                          <img class="active" src="public/assets/app/images/icon-svg/menu-white-01.svg" />
+                          <img class="active" src="public/assets/app/images/icon-svg/minisite-menu-white-01.svg" />
                         </div>
                         <a href="#">สถิติข้อมูลคะแนน สส</a>
                       </div>
@@ -416,7 +416,7 @@
               </div>
             <!-- กฏหมาย/ระเบียบ -->
             <?php } else if ($i === 4) {?>
-              <div class="submenu-dropdown anchor-right">
+              <div class="submenu-dropdown">
                 <div class="submenu-container">
                   <div class="submenu-wrapper">
                     <div class="submenu">
@@ -480,7 +480,7 @@
               </div>
               <!-- มัลติมีเดีย -->
             <?php } else if ($i === 5) {?>
-              <div class="submenu-dropdown anchor-right">
+              <div class="submenu-dropdown">
                 <div class="submenu-container">
                   <div class="submenu-wrapper">
                     <div class="submenu">
@@ -498,7 +498,6 @@
                         </div>
                         <a href="#">วารสาร</a>
                       </div>
-                      <?= $subDemo ?>
                     </div>
                     <div class="submenu has-children">
                       <div class="wrapper">

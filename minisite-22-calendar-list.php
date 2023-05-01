@@ -125,14 +125,16 @@
                                   <span class="p sm ml-2 fw-400 d-block">สำนักงานกลางคณะกรรมการการเลือกตั้ง</span>
                                 </div>
                                 <?php if($d['style'] === 'style-02') {?>
-                                  <div class="icon ai-center d-block">
-                                    <em class="fa-solid fa-calendar-days"></em>
-                                    <span class="p sm ml-1 fw-400">ถึงวันที่ 19 กุมภาพันธ์ 2566</span>
-                                  </div>
-                                  <div class="icon time">
-                                    <em class="fa-solid fa-clock"></em>
-                                    <span class="p sm ml-2 fw-400">เวลา 12:50 - 13:50</span>
-                                  </div>
+                                  <div class="wrapper">
+                                    <div class="icon ai-center d-block">
+                                      <em class="fa-solid fa-calendar-days"></em>
+                                      <span class="p sm ml-1 fw-400">ถึงวันที่ 19 กุมภาพันธ์ 2566</span>
+                                    </div>
+                                    <div class="icon time">
+                                      <em class="fa-solid fa-clock"></em>
+                                      <span class="p sm ml-2 fw-400">เวลา 12:50 - 13:50</span>
+                                    </div>
+                                  </div> 
                                 <?php }?>  
                               </div>
                             </div>

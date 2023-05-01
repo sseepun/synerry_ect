@@ -70,7 +70,7 @@
                          <tbody>
                             <?php
                               foreach([
-                                'pdf', 'doc', 'link'
+                                'pdf', 'doc', 'link', 'xls', 'pptx', 'zip', 'rar'
                               ] as $k){
                             ?>
                               <tr class="table-card border table-card-01 box-shadow style-02 mb-2">

@@ -168,7 +168,7 @@
 .banner-03 .swiper-container > .swiper-wrapper .swiper-slide > .hero > img{
   display:block; width:auto; max-width:100%; height:auto; max-height:calc(100% - 1rem);
 }
-.banner-03 .swiper-pagination-bullets{display:flex; position:absolute; left:13rem; bottom:0; z-index:3;}
+.banner-03 .swiper-pagination-bullets{display:flex; position:absolute; left:15.5rem; bottom:0; z-index:3;}
 .banner-03 .swiper-pagination-bullet{
   width:2.5rem; height:3rem; border-radius:0; display:flex; justify-content:center; align-items:center;
 }
