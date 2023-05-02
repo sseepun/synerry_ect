@@ -89,7 +89,7 @@
           <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
             <?php foreach($weblinks as $d) {?>
               <div class="grid xl-25 lg-1-3 md-50">
-                <a class="ss-card fling ss-card-65 mb-3" href="#">
+                <a class="ss-card ss-card-65 mb-3" href="#">
                   <div class="ss-img">
                     <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                     <div class="filter-04"></div>
@@ -104,10 +104,12 @@
                       <?= $d['title']?>
                     </p>
                     <div class="btns jc-center pt-5">
-                      <div class="btns jc-center">
-                        <div class="btn btn-action btn-fling btn-26">
-                          <span class="mr-2">ไปที่เว็บไซต์</span>
-                          <em class="fa-solid fa-arrow-right fling "></em>
+                      <div class="btn btn-action btn-26 c-btn c-btn--animate-left-right">
+                        <div class="c-wrapper jc-center">
+                          <span>ไปที่เว็บไซต์</span> 
+                          <span class="c-icon pl-2">
+                            <em class=" fa-solid fa-arrow-right"></em>
+                          </span>
                         </div>
                       </div>
                     </div>

@@ -102,10 +102,10 @@
                   </div>
                   <div class="grid lg-50 md-50 sm-100">
                     <div class="btns ai-center jc-end">
-                      <button type="submit" class="btn btn-popup-toggle btn-action btn-13 size-03" data-popup="99">
+                      <button type="submit" class="btn btn-popup-toggle btn-action btn-36 size-03" data-popup="99">
                         สมัครรับข่าวสาร
                       </button>
-                      <button type="cancel" href="#" class="btn btn-white-theme btn-action btn-05 size-03">
+                      <button type="cancel" href="#" class="btn btn-white-theme btn-action btn-37 size-03">
                         ยกเลิก
                       </button>
                     </div>

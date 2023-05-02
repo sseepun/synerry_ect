@@ -68,9 +68,13 @@
                         <div class="captcha-container">
                           <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="">
                           <div class="btns ai-center ml-4">
-                            <button type="submit" href="#" class="btn btn-action btn-fling btn-26">
-                              <span class="mr-2">เข้าสู่ระบบ</span>
-                              <em class="fa-solid fa-arrow-right fling"></em>
+                            <button type="submit" href="#" class="btn btn-action btn-26 c-btn c-btn--animate-left-right">
+                              <div class="c-wrapper jc-center">
+                                <span>เข้าสู่ระบบ</span>
+                                <span class="c-icon pl-2">
+                                  <em class=" fa-solid fa-arrow-right"></em>
+                                </span>
+                              </div>
                             </button>
                           </div>
                         </div>
@@ -144,19 +148,19 @@
                   </div>
                 </div>
                 <div class="grid xl-30 lg-30 md-100 sm-100" data-aos="fade-up" data-aos-delay="150">
-                  <a class="ss-card ss-card-69 fling" href="#">
+                  <a class="ss-card ss-card-69" href="#">
                     <div class="wrapper">
                       <div class="icon">
-                        <img src="public/assets/app/images/icon/30.png" alt="">
+                        <img src="public/assets/app/images/icon/30.png" alt="Icon">
                       </div>
                       <div class="text-container">
                         <div class="text">
                           <p class="h6 lh-sm fw-600">ยังไม่เป็นสมาชิก ?</p>
                           <p class="sm lh-sm fw-400">สามารถลงทะเบียนได้ที่นี้</p>
                         </div>
-                        <div class="arrow">
-                          <div class="arrow arrow-next btn btn-fling">
-                            <em class="fa-solid fa-arrow-right fling"></em>
+                        <div class="arrow c-btn c-btn--animate-left-right">
+                          <div class="arrow arrow-next c-icon pl-2">
+                            <em class="fa-solid fa-arrow-right"></em>
                           </div>
                         </div>
                       </div>
@@ -164,7 +168,9 @@
                   </a>
                   <div class="fg-pass">
                     <a href="#" class="mr-2 fw-400">ลืมรหัสผ่าน</a>
-                    <img src="public/assets/app/images/icon/locked.png" alt="Locked">
+                    <div class="icon">
+                      <img src="public/assets/app/images/icon-svg/open-unlock-theme-01.svg" alt="Locked">
+                    </div>
                   </div>
                 </div>
               </form>

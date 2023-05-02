@@ -85,10 +85,10 @@
                             </div>
                           </fieldset>
                           <div class="btns mt-4">
-                            <button id="btnVote" type="submit" class="btn btn-action btn-13 btn-black-theme btn-popup-toggle" data-popup="99">
+                            <button id="btnVote" type="submit" class="btn btn-action btn-36 btn-black-theme btn-popup-toggle" data-popup="99">
                               โหวต
                             </button>
-                            <button type="submit" class="btn btn-action btn-03 btn-black-theme">
+                            <button type="submit" class="btn btn-action btn-37 btn-black-theme">
                               ผลโหวต
                             </button>
                           </div>

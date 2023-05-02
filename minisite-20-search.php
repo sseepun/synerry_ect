@@ -282,9 +282,13 @@
                           กรรมการการเลือกตั้ง มอบนโยบายในการปฏิบัติงาน แนวทางการแก้ไขปัญหาในการปฏิบัติงาน
                           ให้แก่พนักงานในการอบรมหลักสูตรการปฏิบัติงานระดับชำนาญการพิเศษ
                         </p>
-                        <div class="link-footer btn btn-fling">
-                          <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านเพิ่ม</p>
-                          <div class="arrow"><em class="fa-solid fa-arrow-right fling"></em></div>
+                        <div class="link-footer c-btn c-btn--animate-left-right">
+                          <div class="c-wrapper">
+                            <span class="text color-05 fw-500 border-bottom bcolor-05 lh-sm">อ่านเพิ่ม</span>
+                            <span class="c-icon pl-2">
+                              <em class="fa-solid fa-arrow-right"></em>
+                            </span>
+                          </div>
                         </div>
                       </div>
                       <div class="info-content">

@@ -74,7 +74,7 @@
             <div class="ellipsis-container">
               <img src="public/assets/app/images/icon-svg/member.svg" alt="Member Card Icon">
             </div>
-            <h5 class="color-black color-02 fw-500 ml-3">
+            <h5 class="color-black color-05 fw-500 ml-3">
               ข้อมูลส่วนตัว
             </h5>  
           </div> 
@@ -88,7 +88,7 @@
                     </div>
                     <div class="search-btn-container">
                       <div class="btns jc-end">
-                        <div class="btn style-03 btn-action btn-21 size-03 btn-black-theme pos-relative">
+                        <div class="btn style-03 btn-action btn-35 size-03 btn-black-theme pos-relative">
                           อัปโหลดรูปภาพ
                           <input type="file" class="file-upload">
                         </div>

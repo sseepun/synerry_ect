@@ -138,9 +138,9 @@
                           <p class="h6 lh-sm fw-600">เป็นสมาชิกแล้ว ?</p>
                           <p class="sm lh-sm fw-400">สามารถเข้าสู่ระบบได้ที่นี้</p>
                         </div>
-                        <div class="arrow">
-                          <div class="arrow arrow-next btn btn-fling">
-                            <em class="fa-solid fa-arrow-right fling"></em>
+                        <div class="arrow c-btn c-btn--animate-left-right">
+                          <div class="arrow arrow-next c-icon pl-2">
+                            <em class="fa-solid fa-arrow-right"></em>
                           </div>
                         </div>
                       </div>

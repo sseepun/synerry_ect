@@ -176,12 +176,12 @@
           if(eMonth.length){
             eMonth.closest('.fc-daygrid-day').addClass('active');
             temp.append(`
-              <div class="activity-list btn btn-fling">
+              <div class="activity-list c-btn c-btn--animate-left-right">
                 <div class="wrapper">
                   <a href="#" class="p md fw-400 mr-2">
                     รายการ <span class="color-04 fw-500">${eMonth.length}</span> กิจกรรม 
                   </a>
-                  <div class="arrow"><em class="fa-solid fa-arrow-right color-04 fling"></em></div>
+                  <div class="arrow c-icon pl-1"><em class="fa-solid fa-arrow-right color-04"></em></div>
                 </div>
               </div>
             `);

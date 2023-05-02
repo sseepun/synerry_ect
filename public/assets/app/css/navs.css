@@ -446,6 +446,9 @@ nav.sidenav.minisite .options > .option-btn{width:calc(100% - 3.9375rem);}
 .overlay-slide-down.global-search-container form input{border-radius:.3rem .3rem .3rem .3rem;}
 .overlay-slide-down.global-search-container.active{transform:translateY(0%)!important;}
 .overlay-slide-down.global-search-container button{border-radius:0 .3rem .3rem 0;}
+.overlay-slide-down.global-search-container .ui.input.icon > input{padding-right:3rem!important;}
+.overlay-slide-down.global-search-container .ui.icon.input input{min-height:3.25rem!important;}
+.overlay-slide-down.global-search-container .ui.icon.input input::placeholder{color:#69696a;}
 
 .global-search-container button{background:#2e603c; color:#ffffff;}
 body.minisite .global-search-container button{background:#8c6961; color:#ffffff;}

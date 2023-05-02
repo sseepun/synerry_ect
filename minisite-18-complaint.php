@@ -175,13 +175,13 @@
                         <div class="grids no-gap">
                           <div class="grid sm-50 xs-50 mt-0">
                             <div class="pr-1">
-                              <button type="submit" class="btn btn-popup-toggle btn-white-theme btn-action width-full mw-auto btn-13" data-popup="99">
+                              <button type="submit" class="btn btn-popup-toggle btn-white-theme btn-action width-full mw-auto btn-36" data-popup="99">
                                 ส่งข้อความ
                               </button>
                             </div>
                           </div>
                           <div class="grid sm-50 xs-50 mt-0">
-                            <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-05">
+                            <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-37">
                               ยกเลิก
                             </button>
                           </div>

@@ -78,8 +78,13 @@
                       </div>
                     </div>
                     <div class="button-container">
-                      <a href="#" class="btn size-05 btn-action btn-fling btn-13">
-                        <span class="mr-1">อ่านเพิ่ม</span> <em class=" fa-solid fa-arrow-right fling"></em>
+                      <a href="#" class="btn size-05 btn-action btn-13 c-btn c-btn--animate-left-right">
+                        <div class="c-wrapper">
+                          <span>อ่านเพิ่ม</span> 
+                          <span class="c-icon pl-2">
+                            <em class=" fa-solid fa-arrow-right"></em>
+                          </span>
+                        </div>
                       </a>
                     </div>
                   </div>

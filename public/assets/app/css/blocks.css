@@ -267,8 +267,7 @@
 .client-02 .swiper-slide > .client:hover{opacity:.8;}
 .client-02 .swiper-container > .navigator{display:flex; justify-content:center; align-items:center; margin-top:1rem;}
 .client-02 .swiper-pagination-bullets{
-  margin:0 .75rem; display:flex; justify-content:center; align-items:center; 
-  opacity:0;
+  margin:0 .75rem; display:flex; justify-content:center; align-items:center; display:none;
 }
 .client-02 .swiper-pagination-bullet{
   margin:.25rem .25rem; width:.4375rem; height:.4375rem; border-radius:50%; opacity:1;
@@ -903,12 +902,6 @@
   display:flex; align-items:center; font-size:.375rem; margin-right:.5rem;
 }
 .faq-10 .faq > .question .button-container{display:flex; align-items:center; padding:0 1rem;}
-.faq-10 .faq > .question .button-container > .btn em{
-  margin:.0625rem .125rem 0 .125rem; transition:margin .25s;
-}
-.faq-10 .faq:hover > .question .button-container > .btn em{
-  margin:.0625rem 0 0 .25rem;
-}
 
 
 /* Faq 11 */

@@ -10,10 +10,12 @@
           พิมคำค้นหา
         </h2>
         <div class="input-container">
-          <input type="text" name="keywords" placeholder="ค้นหา" required>
-          <button type="submit">
-            <em class="fa-solid fa-arrow-right"></em>
-          </button>
+          <div class="ui icon input">
+            <input id="search" type="search" placeholder="ค้นหา">
+            <button type="submit">
+              <em class="fa-solid fa-arrow-right"></em>
+            </button>
+          </div>
         </div>
         <div class="popular-search-container transparent-theme  popular-tags d-flex fw-wrap ai-center jc-center pl-0">
           <p class="color-black fw-400 mr-2">แท็กยอดนิยม</p>

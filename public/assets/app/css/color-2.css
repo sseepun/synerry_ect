@@ -304,6 +304,9 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#fecb00!important;}
 
+.btn.btn-26.theme-03, .btn.btn-26.theme-03:focus{color:#fecb00; background:transparent; border-color:#fecb00;}
+.btn.btn-26.theme-03:hover, .btn.btn-26.theme-03.active{background:#fecb00; border-color:#fecb00; color:#000000;}
+
 .btn.btn-27, .btn.btn-27:focus{color:#fecb00; background:transparent; border-color:#fecb00;}
 .btn.btn-27:hover{background:#fecb00; color:#000000;}
 .btn.btn-32, .btn.btn-32:focus{background:transparent; color:#000000; border-color:transparent;}
@@ -639,6 +642,7 @@ body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 /* Content Found - Search Pages */
 .content-found .icon{color:#fecb00;}
 .content-found.icon-white-theme .icon{color:#000000;}
+.content-found.border-top{border-color:#000000!important;}
 
 /* Custom Select */
 .custom-select .select-selected{background:#fecb00; color:#000000;}

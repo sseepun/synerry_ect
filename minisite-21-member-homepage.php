@@ -15,7 +15,7 @@
     <div class="main-header" data-aos="fade-in" data-aos-delay="0">
       <a class="main-header-menu" href="./01-home-01.php">
         <div class="icon">
-          <img src="public/assets/app/images/icon/office-02.png" alt="Icon">
+          <img src="public/assets/app/images/icon-svg/homepage-white.svg" alt="Icon">
         </div>
         <p class="sm header-title fw-400 ml-1 mr-1">ไปที่หน้าหลักของเว็บไซต์</p>
         <div class="icon title-arrow">
@@ -72,7 +72,7 @@
           <div class="grid xl-50 lg-100 md-100 sm-100">
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
-                <h5 class="color-black color-02 fw-500">ข่าวสารประชาสัมพันธ์</h5> 
+                <h5 class="color-black color-05 fw-500">ข่าวสารประชาสัมพันธ์</h5> 
                 <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
@@ -80,7 +80,7 @@
               <div class="ss-box-content size-02 p-4">
                 <div class="grids jc-center">
                   <div class="grid lg-100 md-100 sm-100">
-                    <a class="ss-card ss-card-07" href="#">
+                    <a class="ss-card ss-card-07 style-03" href="#">
                       <div class="wrapper">
                         <div class="img-container">
                           <div class="ss-img">
@@ -91,7 +91,7 @@
                                 <em class="fa-solid fa-arrow-right"></em>
                               </div>
                             </div>
-                            <div class="card-line style-01"></div>
+                            <div class="card-line style-01 size-02"></div>
                           </div>
                         </div>
                         <div class="text-container">
@@ -101,10 +101,18 @@
                             ปฏิบัติงานระดับการชำนาญพิเศษ
                           </div>
                           <div class="card-footer mt-2">
-                            <div class="wrapper">
+                            <div class="wrapper color-gray">
                               <div class="icon">
                                 <em class="fa-solid fa-calendar-days"></em>
-                                <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                                <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-eye"></em>
+                                <span class="p sm fw-300 ml-2 fw-400">280</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-share-nodes"></em>
+                                <span class="p sm fw-300 ml-2 fw-400">60</span>
                               </div>
                             </div>
                           </div>
@@ -122,7 +130,7 @@
                   ?>
                   <?php foreach($content01 as $d) {?>
                     <div class="grid lg-50 sm-100 mt-2">
-                      <div class="ss-card ss-card-12 mt-3">
+                      <div class="ss-card ss-card-12 style-02 mt-3">
                         <div class="ss-img">
                           <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                           <div class="filter-04"></div>
@@ -131,7 +139,7 @@
                               <em class="fa-solid fa-arrow-right"></em>
                             </div>
                           </div>
-                          <div class="card-line style-01"></div>
+                          <div class="card-line style-01 size-02"></div>
                         </div>
                         <div class="text-container no-border">
                           <p class="title style-02 fw-400 lh-sm mt-2">
@@ -139,14 +147,18 @@
                             ผู้บริหารกลุ่มภารกิจ
                           </p>
                           <div class="card-footer mt-2">
-                            <div class="wrapper">
+                            <div class="wrapper color-gray">
                               <div class="icon">
                                 <em class="fa-solid fa-calendar-days"></em>
-                                <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                                <span class="p sm fw-400 ml-2">08 มิถุนายน 2565</span>
                               </div>
                               <div class="icon">
                                 <em class="fa-solid fa-eye"></em>
-                                <span class="p sm fw-400 ml-2">255</span>
+                                <span class="p sm fw-400 ml-2">280</span>
+                              </div>
+                              <div class="icon">
+                                <em class="fa-solid fa-share-nodes"></em>
+                                <span class="p sm fw-400 ml-2">60</span>
                               </div>
                             </div>
                           </div>
@@ -157,9 +169,13 @@
                 </div>
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-fling btn-26 theme-02">
-                  <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right fling"></em>
+                <a href="#" class="btn btn-action c-btn c-btn--animate-left-right btn-26 theme-03">
+                  <div class="c-wrapper jc-center">
+                    <span>ดูทั้งหมด</span>
+                    <span class="c-icon pl-6">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </span>
+                  </div>
                 </a>
               </div>
             </div>
@@ -167,7 +183,7 @@
           <div class="grid xl-50 lg-100 md-100 sm-100">
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
-                <h5 class="color-black color-02 fw-500">เอกสารดาวน์โหลด</h5> 
+                <h5 class="color-black color-05 fw-500">เอกสารดาวน์โหลด</h5> 
                 <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
@@ -199,9 +215,13 @@
                 </div>
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-fling btn-26 theme-02">
-                  <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right fling"></em>
+                <a href="#" class="btn btn-action c-btn c-btn--animate-left-right btn-26 theme-03">
+                  <div class="c-wrapper jc-center">
+                    <span>ดูทั้งหมด</span>
+                    <span class="c-icon pl-6">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </span>
+                  </div>
                 </a>
               </div>
             </div>
@@ -210,38 +230,48 @@
             $content02 = [
               [
                 'number' => '5',
-                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
+                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)',
+                'style' => 'style-02'
               ],[
                 'number' => '4',
-                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
+                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)',
+                'style' => ''
               ],[
                 'number' => '3',
-                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
+                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)',
+                'style' => 'style-02'
               ],[
                 'number' => '2',
-                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
+                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)',
+                'style' => ''
               ],[
                 'number' => '1',
-                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)'
+                'title' => 'ประกาศผลการเลือกตั้ง ส.อบต.เหมาะ เขต 4 กรณีแทนตำแหน่งที่ว่าง (ส.ถ.6/1)',
+                'style' => 'style-02'
               ]
             ]
           ?>
           <div class="grid xl-50 lg-100 md-100 sm-100">
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
-                <h5 class="color-black color-02 fw-500">ปฏิทินกิจกรรม</h5> 
+                <h5 class="color-black color-05 fw-500">ปฏิทินกิจกรรม</h5> 
                 <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
-              <div class="ss-box-content size-02 p-4">
+              <div class="ss-box-content p-4">
                 <?php foreach($content02 as $d) {?>
                   <div class="ss-card ss-card-35 style-02 mb-3">
                     <div class="wrapper">
                       <div class="date">
-                        <div class="wrapper">
-                          <p class="h5 day fw-500"><?= $d['number']?></p>
-                          <p class="xs month">ก.ย. 65</p>
+                        <div class="wrapper <?= $d['style']?>">
+                          <?php if($d['style'] === 'style-02') {?>
+                            <p class="xxs day fw-400">18 ก.พ. 66</p>
+                            <p class="xxs month fw-400">19 ก.พ. 66</p>
+                          <?php } else {?>
+                            <p class="h6 day fw-400">20</p>
+                            <p class="xxs month">ก.w. 66</p>
+                          <?php } ?> 
                         </div>
                       </div>
                       <div class="text-container">
@@ -254,9 +284,13 @@
                 <?php }?>
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-26 btn-fling theme-02">
-                  <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right fling"></em>
+                <a href="#" class="btn btn-action c-btn c-btn--animate-left-right btn-26 theme-03">
+                  <div class="c-wrapper jc-center">
+                    <span>ดูทั้งหมด</span>
+                    <span class="c-icon pl-6">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </span>
+                  </div>
                 </a>
               </div>
             </div>
@@ -264,15 +298,15 @@
           <div class="grid xl-50 lg-100 md-100 sm-100">
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
-                <h5 class="color-black color-02 fw-500">คลังวิดีโอ</h5> 
+                <h5 class="color-black color-05 fw-500">คลังวิดีโอ</h5> 
                 <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
-              <div class="ss-box-content size-02 p-4">
+              <div class="ss-box-content  p-4">
                 <div class="grids no-gap">
                   <div class="grid lg-70 md-100 sm-100">
-                    <a class="ss-card ss-card-16" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
+                    <a class="ss-card ss-card-16 theme-01" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
                       <div class="ss-img">
                         <div class="filter-04"></div>
                         <div class="img-bg" style="background-image:url('public/assets/app/images/content/66.jpg');"></div>
@@ -281,7 +315,12 @@
                             <em class="fa-solid fa-arrow-right"></em>
                           </div>
                         </div>
-                        <div class="card-line style-01"></div>
+                        <div class="card-line style-01 size-02"></div>
+                        <div class="btn-video">
+                          <div class="img-container">
+                            <img src="public/assets/app/images/icon-svg/play-square.svg" alt="Video Icon">
+                          </div>
+                        </div>
                       </div>
                       <div class="text-container">
                         <p class="title fw-500">
@@ -291,7 +330,7 @@
                           <div class="wrapper">
                             <div class="icon">
                               <em class="fa-solid fa-calendar-days"></em>
-                              <span class="p sm ml-2">08 มิถุนายน 2565</span>
+                              <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
                             </div>
                           </div>
                         </div>
@@ -317,7 +356,12 @@
                                 <em class="fa-solid fa-arrow-right"></em>
                               </div>
                             </div>
-                            <div class="card-line style-01"></div>
+                            <div class="card-line style-01 size-02"></div>
+                            <div class="btn-video">
+                              <div class="img-container">
+                                <img src="public/assets/app/images/icon-svg/play-square.svg" alt="Video Icon">
+                              </div>
+                            </div>
                           </div>
                         </a>
                       </div>
@@ -326,9 +370,13 @@
                 </div>  
               </div>
               <div class="btns ai-center jc-center">
-                <a href="#" class="btn btn-action btn-26 btn-fling theme-02">
-                  <span class="mr-2">ดูทั้งหมด</span>
-                  <em class="fa-solid fa-arrow-right fling"></em>
+                <a href="#" class="btn btn-action c-btn c-btn--animate-left-right btn-26 theme-03">
+                  <div class="c-wrapper jc-center">
+                    <span>ดูทั้งหมด</span>
+                    <span class="c-icon pl-6">
+                      <em class="fa-solid fa-arrow-right"></em>
+                    </span>
+                  </div>
                 </a>
               </div>
             </div>
@@ -336,7 +384,7 @@
           <div class="grid xl-100 lg-100 md-100 sm-100">
             <div class="ss-box style-02 pb-4 m-unset w-full">
               <div class="ss-box-header d-flex ai-center jc-space-between">
-                <h5 class="color-black color-02 fw-500">คลังภาพ</h5> 
+                <h5 class="color-black color-05 fw-500">คลังภาพ</h5> 
                 <div class="ellipsis d-none style-02">
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
@@ -357,7 +405,7 @@
                             <em class="fa-solid fa-arrow-right"></em>
                           </div>
                         </div>
-                        <div class="card-line style-01"></div>
+                        <div class="card-line style-01 size-02"></div>
                       </div>
                       <div class="text-wrapper">
                         <div class="title h6 fw-500 h-color-31" href="#">
@@ -385,7 +433,7 @@
                       <div class="grid lg-50 md-100 sm-100 mt-0">
                         <div class="grids">
                           <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
-                            <a class="ss-card ss-card-07 style-02" href="#">
+                            <a class="ss-card ss-card-07 theme-01 style-02" href="#">
                               <div class="wrapper">
                                 <div class="img-container">
                                   <div class="ss-img">
@@ -400,7 +448,7 @@
                                         <em class="fa-solid fa-arrow-right"></em>
                                       </div>
                                     </div>
-                                    <div class="card-line style-01"></div>
+                                    <div class="card-line style-01 size-02"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -422,7 +470,7 @@
                             </a>
                           </div>
                           <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
-                            <a class="ss-card ss-card-07 style-02" href="#">
+                            <a class="ss-card ss-card-07 theme-01 style-02" href="#">
                               <div class="wrapper">
                                 <div class="img-container">
                                   <div class="ss-img">
@@ -437,7 +485,7 @@
                                         <em class="fa-solid fa-arrow-right"></em>
                                       </div>
                                     </div>
-                                    <div class="card-line style-01"></div>
+                                    <div class="card-line style-01 size-02"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -463,7 +511,7 @@
                       <div class="grid lg-50 md-100 sm-100 mt-0">
                         <div class="grids">
                           <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
-                            <a class="ss-card ss-card-07 style-02" href="#">
+                            <a class="ss-card ss-card-07 theme-01 style-02" href="#">
                               <div class="wrapper">
                                 <div class="img-container">
                                   <div class="ss-img">
@@ -478,7 +526,7 @@
                                         <em class="fa-solid fa-arrow-right"></em>
                                       </div>
                                     </div>
-                                    <div class="card-line style-01"></div>
+                                    <div class="card-line style-01 size-02"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -500,7 +548,7 @@
                             </a>
                           </div>
                           <div class="grid lg-100 md-100 sm-100 mt-1 mt-unset-lg">
-                            <a class="ss-card ss-card-07 style-02" href="#">
+                            <a class="ss-card ss-card-07 theme-01 style-02" href="#">
                               <div class="wrapper">
                                 <div class="img-container">
                                   <div class="ss-img">
@@ -515,7 +563,7 @@
                                         <em class="fa-solid fa-arrow-right"></em>
                                       </div>
                                     </div>
-                                    <div class="card-line style-01"></div>
+                                    <div class="card-line style-01 size-02"></div>
                                   </div>
                                 </div>
                                 <div class="text-container">
@@ -542,9 +590,13 @@
                   </div>
                 </div>
                 <div class="btns ai-center jc-center mt-4">
-                  <a href="#" class="btn btn-action btn-26 btn-fling theme-02">
-                    <span class="mr-2">ดูทั้งหมด</span>
-                    <em class="fa-solid fa-arrow-right fling"></em>
+                  <a href="#" class="btn btn-action c-btn c-btn--animate-left-right btn-26 theme-03">
+                    <div class="c-wrapper jc-center">
+                      <span>ดูทั้งหมด</span>
+                      <span class="c-icon pl-6">
+                        <em class="fa-solid fa-arrow-right"></em>
+                      </span>
+                    </div>
                   </a>
                 </div>
               </div>

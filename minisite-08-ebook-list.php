@@ -466,7 +466,7 @@
                 <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
                   <?php foreach($ebooks as $d) {?>
                     <div class="grid xl-100 lg-100 md-50">
-                    <a class="ss-card ss-card-64 fling mb-3" href="#">
+                    <a class="ss-card ss-card-64 mb-3" href="#">
                       <div class="wrapper">
                         <div class="img-container">
                           <div class="ebook-container">
@@ -506,9 +506,13 @@
                             </div>
                           </div>
                           <div class="bottom">
-                            <div class="link-footer btn btn-fling">
-                              <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านเพิ่ม</p>
-                              <div class="arrow"><em class="fa-solid fa-arrow-right fling"></em></div>
+                            <div class="link-footer c-btn c-btn--animate-left-right">
+                              <div class="c-wrapper">
+                                <span class="text color-05 fw-500 border-bottom bcolor-05 lh-sm">อ่านเพิ่ม</span>
+                                <span class="c-icon pl-2">
+                                  <em class="fa-solid fa-arrow-right"></em>
+                                </span>
+                               </div>
                             </div>
                           </div>
                           <div class="card-line style-03"></div>

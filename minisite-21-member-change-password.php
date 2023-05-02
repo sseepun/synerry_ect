@@ -74,7 +74,7 @@
             <div class="ellipsis-container">
               <img class="size-02" src="public/assets/app/images/icon-svg/password.svg" alt="Password Icon">
             </div>
-            <h5 class="color-black color-02 fw-500 ml-3">
+            <h5 class="color-black color-05 fw-500 ml-3">
               เปลี่ยนรหัสผ่าน
             </h5>  
           </div> 

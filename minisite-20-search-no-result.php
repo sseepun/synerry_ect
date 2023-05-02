@@ -248,7 +248,7 @@
                 <span class="fw-400">ผลการค้นหา <span class="h5 color-04 color-black-theme fw-600">"การเลือกตั้ง"</span>
                 <span>ค้นพบ <span class="color-04 color-black-theme fw-600">0</span> รายการ</span></span>
               </div>
-              <div class="content-found icon-white-theme popular-search-container" data-aos="fade-up" data-aos-delay="300">
+              <div class="content-found border-top icon-white-theme popular-search-container" data-aos="fade-up" data-aos-delay="300">
                 <div class="wrapper">
                   <div class="icon">
                   <em class="fa-solid fa-circle-xmark"></em>

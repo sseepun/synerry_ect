@@ -35,11 +35,13 @@
                 <em class="fa-sharp fa-regular fa-square-check color-18"></em>
                 <p class="ml-2 fw-500">ระบบได้ทำการยกเลิกรับจดหมายข่าวของคุณเป็นที่เรียบร้อยแล้ว</p>
               </div>
-              <div class="btns jc-center ss-card pt-5">
-                <div class="btns">
-                  <div class="btn btn-action btn-fling btn-26">
-                    <span>กลับไปหน้าแรก</span>
-                    <em class="fa-solid fa-arrow-right fling"></em>
+              <div class="btns pt-5">
+                <div class="btn btn-action btn-26 c-btn c-btn--animate-left-right">
+                  <div class="c-wrapper jc-center">
+                    <span>กลับไปหน้าแรก</span> 
+                    <span class="c-icon pl-2">
+                      <em class=" fa-solid fa-arrow-right"></em>
+                    </span>
                   </div>
                 </div>
               </div>
