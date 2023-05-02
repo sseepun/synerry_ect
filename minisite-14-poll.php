@@ -108,7 +108,7 @@
             </div>
           <?php }?>
           <?php for($i=0; $i<1; $i++){?>
-              <div id="chart" class="faq">
+              <div id="chart" class="faq" style="display:none;">
                 <div class="question box-shadow style-02">
                   <h6 class="title p lg fw-400">
                     คุณคิดว่า "www.ect.go.th" ปรับโฉมใหม่ ควรปรับปรุงอะไรเป็นลำดับแรกๆ 
@@ -190,7 +190,7 @@
                 </div>
               </div>
             <?php }?>
-            <?php for($i=0; $i<10; $i++){?>
+            <?php for($i=0; $i<11; $i++){?>
               <div class="faq">
                 <div class="question box-shadow style-02">
                   <h6 class="title p lg fw-400">
@@ -338,6 +338,7 @@
     const answer = document.getElementById("ansWer")
     const textButton = document.getElementById("textBtn")
       element.addEventListener("click", function() {
+      chart.style.display = 'block'
       chart.classList.add('active')
       faq.find('> #ansWer').slideDown()
       answer.style.display = 'block' 

@@ -368,6 +368,8 @@ body.minisite .calendar-header-title > .wrapper .time{
 body.minisite .calendar-wrapper .calendar-header-title > .wrapper .list{color:#ffffff; background:#371e1a;}
 body.minisite .calendar-day td.fc-axis.fc-widget-content:first-child{background:#7cc5b5;}
 body.minisite .calendar-day .fc-time-grid-event{border-color:#8c6961!important;}
+body.minisite .calendar-day .fc-time-grid-event.bcolor-theme-01{border-color:#0d5cb7!important;}
+body.minisite .calendar-day .fc-time-grid-event.bcolor-theme-02{border-color:#e7b300!important;}
 
 /* Calendar Style-02 */
 .calendar-style-02 .months-container .month-container .month-title{background:#bfe7d7;}
@@ -420,7 +422,8 @@ body.minisite .calendar-week .custom-date{color:#ffffff;}
 body.minisite .calendar-week .custom-date.active{background:#7cc5b5;}
 body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#7cc5b5;}
 body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#8c6961!important;}
-body.minisite .calendar-week .fc-time-grid .fc-event.style-02{border-color:#04adf0;}
+body.minisite .calendar-week .fc-time-grid .fc-event.bcolor-theme-01{border-color:#e7b300!important;}
+body.minisite .calendar-week .fc-time-grid .fc-event.bcolor-theme-02{border-color:#0d5cb7!important;}
 
 /* Calendar - Month */
 .calendar-month.main-site .fc-col-header-cell{background:#bfe7d7; color:#000000;}
@@ -617,7 +620,7 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{backgrou
 .faq-06 .faq > .answer .content{border-color:#3aa57b;}
 
 /* Faq 07 */
-.faq-07 .faq.active > .question{background:#10563a; border-color:#10563a;}
+.faq-07 .faq.active > .question{background:#8c6961; border-color:#8c6961;}
 .faq-07 .faq.active > .question h6{color:#ffffff;}
 .faq-07 .faq > .question h6{color:#222325;}
 .faq-07 .faq > .question .ftag{color:#2e603c;}
@@ -628,8 +631,8 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{backgrou
 .faq-07 .faq .answer-wrapper{background:#044c21; color:#ffffff;}
 .faq-07 .faq .date-view > .wrapper .icon > em{color:#2e603c;}
 .faq-07 .faq .arrows-container{background:#10563a;} 
-.faq-07 .faq.active .arrows-container{background:#000000;}
-.faq-07 .faq > .answer .content{border-color:#371e1a}
+.faq-07 .faq.active .arrows-container{background:#371e1a;}
+.faq-07 .faq > .answer .content{border-color:#371e1a;}
 .faq-07 .faq > .answer .content > .wrapper .content-left{background:#303031; color:#ffffff;}
 
 /* Faq 08 */

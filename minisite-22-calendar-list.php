@@ -64,7 +64,7 @@
   <section class="section-14">
     <div class="container">
       <div class="ss-box bg-white-theme style-02 w-full">
-        <div class="ss-box-shadow xl"></div>
+        <div class="ss-box-shadow minisite"></div>
         <div class="body pt-0">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
@@ -167,6 +167,13 @@
                 </a>
               </div>
             <?php }?>
+          </div>
+          <div class="mt-6 pt-4">
+            <?php
+              $listFooter = ['total', 'paginate', 'pp'];
+              $style = 'style-02';
+              include('component/list-footer.php');
+            ?>
           </div>
         </div>
       </div>

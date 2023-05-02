@@ -34,7 +34,6 @@
             <?php for($i=0; $i<12; $i++){?>
               <div class="faq <?php if($i==0)echo 'active'; ?>">
                 <div class="question box-shadow style-02">
-                  <h3 class="ftag"><?php echo $i+1 ?></h3>
                   <h6 class="title p lg fw-400">
                     การเลือกตั้งผู้ว่ากรุงเทพมหานครในวันที่ 22 พค.นี้ จะมีการจัดการเลือกตั้งล่วงหน้าหรือไม่ 
                     เนื่องจากจะเดินทางไปต่างจังหวัดและคงกลับมาเลือกไม่ทันก่อนปิดหีบ หากไม่มี 
@@ -85,10 +84,11 @@
                             <tbody>
                               <?php
                                 foreach([
-                                  'pdf',
+                                  'pdf', 'doc', 'xls', 'pptx', 'zip',
+                                  'rar', 'link'
                                 ] as $k){
                               ?>
-                                <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
+                                <tr class="table-card border table-card-01 box-shadow style-02 mb-2 mt-3">
                                   <td>
                                     <div class="download-card">
                                       <div>
@@ -117,7 +117,7 @@
                                   </td>
                                   <td class="button-container" style="min-width:90px;">
                                     <div class="btns jc-end">
-                                      <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-13">
+                                      <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30">
                                         ดาวน์โหลดไฟล์
                                         <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
                                       </div>
@@ -125,7 +125,16 @@
                                   </td>
                                   <td class="report-container" style="min-width:150px;">
                                     <em class="fa-solid fa-triangle-exclamation"></em>
-                                    <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">แจ้งไฟล์เสีย</a>
+                                    <?php
+                                      if($k === 'link'){?>
+                                        <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                                          แจ้งลิงก์เสีย
+                                        </a>
+                                      <?php } else {?>
+                                          <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                                            แจ้งไฟล์เสีย
+                                          </a>
+                                      <?php }?>
                                   </td>
                                 </tr>
                               <?php }?>
