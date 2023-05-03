@@ -249,7 +249,7 @@
               <?php for($x=0; $x<2; $x++) {?>
                 <div class="grid lg-50 md-100 sm-100">
                   <?php foreach($content01 as $j) {?>
-                    <div class="ss-card ss-card-39 mb-2">
+                    <a class="ss-card ss-card-39 mb-2" href="#">
                       <div class="wrapper">
                         <div class="date-container">
                           <p class="day">1<?= $i+3 ?></p>
@@ -263,12 +263,12 @@
                           <p class="title fw-400 lh-sm"><?= $j['title'] ?></p>
                         </div>
                         <div class="arrow-container">
-                          <a class="btn btn-action-style-02 size-02 btn-13" href="#">
-                            <em class="fa-solid fa-arrow-right"></em>
-                          </a>
+                          <div class="btn btn-action-style-02 size-02 btn-13 c-btn c-btn--animate-left-right" href="#">
+                            <em class="fa-solid fa-arrow-right c-icon pl-0"></em>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </a>
                   <?php }?>
                 </div>
               <?php }?>
@@ -463,7 +463,7 @@
               <?php for($x=0; $x<2; $x++) {?>
                 <div class="grid lg-50 md-100 sm-100">
                   <?php foreach($content01 as $j) {?>
-                    <div class="ss-card ss-card-39 mb-2">
+                    <a class="ss-card ss-card-39 mb-2" href="#">
                       <div class="wrapper">
                         <div class="date-container">
                           <p class="day">1<?= $i+3 ?></p>
@@ -477,12 +477,12 @@
                           <p class="title fw-400 lh-sm mt-1"><?= $j['title'] ?></p>
                         </div>
                         <div class="arrow-container">
-                          <a class="btn btn-action-style-02 size-02 btn-13" href="#">
-                            <em class="fa-solid fa-arrow-right"></em>
-                          </a>
+                          <div class="btn btn-action-style-02 size-02 btn-13 c-btn c-btn--animate-left-right" href="#">
+                            <em class="fa-solid fa-arrow-right c-icon pl-0"></em>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </a>
                   <?php }?>
                 </div>
               <?php }?>

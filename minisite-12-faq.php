@@ -26,7 +26,7 @@
         <div class="ss-box-shadow minisite"></div>
         <div class="body bg-white-theme">
           <div class="ss-title">
-            <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="fw-600" data-aos="fade-up" data-aos-delay="0">
               คำถามที่พบบ่อย
             </h3>
           </div>
@@ -34,7 +34,7 @@
             <?php for($i=0; $i<12; $i++){?>
               <div class="faq <?php if($i==0)echo 'active'; ?>">
                 <div class="question box-shadow style-02">
-                  <h6 class="title p lg fw-400">
+                  <h6 class="title p fw-500">
                     การเลือกตั้งผู้ว่ากรุงเทพมหานครในวันที่ 22 พค.นี้ จะมีการจัดการเลือกตั้งล่วงหน้าหรือไม่ 
                     เนื่องจากจะเดินทางไปต่างจังหวัดและคงกลับมาเลือกไม่ทันก่อนปิดหีบ หากไม่มี 
                     ต้องไปแจ้งสาเหตุของการไม่ไปใช้สิทธิหรือไม่ ต้องไปแจ้งที่ใด 
@@ -98,7 +98,7 @@
                                     </div>
                                   </td>
                                   <td class="title-container" style="min-width:450px;">
-                                    <a class="p title fw-600 lh-sm" href="#">
+                                    <a class="p title fw-400 lh-sm" href="#">
                                       รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
                                       รายงานการจัดซื้อจัดจ้างส่วนภูมิภาค
                                     </a>
@@ -271,7 +271,7 @@
                         <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
                       </div>
                       <div class="text-container">
-                        <p class="title lh-sm fw-500">
+                        <p class="title lh-sm fw-400">
                           ประกวดราคาซื้อวัสดุสำนักงาน จำนวน 90 รายการ 
                           ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
                         </p>

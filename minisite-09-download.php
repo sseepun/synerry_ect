@@ -53,7 +53,7 @@
                       <img src="public/assets/app/images/icon-svg/minisite-document.svg" alt="">
                     </div>
                   </h3>
-                  <p class="title sm lh-sm fw-500">
+                  <p class="title lh-sm fw-500">
                     ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครองในระบอบประชาธิปไตย 
                     จำนวน 4 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding) 
                   </p>
@@ -80,7 +80,7 @@
                                   </div>
                                 </td>
                                 <td class="title-container" style="min-width:450px;">
-                                  <a class="p title fw-600" href="#">
+                                  <a class="p title fw-400" href="#">
                                     รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
                                   </a>
                                   <div class="text-footer mt-2">

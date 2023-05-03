@@ -791,6 +791,7 @@ fieldset{padding:0; margin:0; border:0;}
   position:absolute; top:-.4375rem; left:-1rem; width:.75rem; height:.75rem; border-radius:50%; z-index:1;
   pointer-events:all;
 }
+.checkbox-set  .bg-color.size-02{width:.9375rem; height:.9375rem;}
 .checkbox-set > .checkmark{
   position:relative; 
 }
@@ -810,6 +811,8 @@ fieldset{padding:0; margin:0; border:0;}
   pointer-events:auto;
   z-index:2;
 }
+
+.checkbox-set.size-02 input:checked ~ .checkmark::before{width:.9375rem; height:.9375rem;}
 
 .checkbox-set input:checked ~ .checkmark.background-02::before {
   background-image: url('../images/icon/minisite-x-mark.png');
