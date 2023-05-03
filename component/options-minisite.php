@@ -104,6 +104,24 @@
             </div>
             <p><span class="fw-400">สีปกติ</span></p>
           </div>
+          <div class="option-row theme-btn cursor-pointer theme-btn-0" data-theme="3">
+            <div class="icon">
+              <img src="https://www.dpt.go.th/assets/app/images/misc/color-0.png" alt="Theme">
+            </div>
+            <p><span class="fw-400">สีปกติ 2</span></p>
+          </div>
+          <div class="option-row theme-btn cursor-pointer theme-btn-0" data-theme="4">
+            <div class="icon">
+              <img src="https://www.dpt.go.th/assets/app/images/misc/color-0.png" alt="Theme">
+            </div>
+            <p><span class="fw-400">สีปกติ 3</span></p>
+          </div>
+          <div class="option-row theme-btn cursor-pointer theme-btn-0" data-theme="5">
+            <div class="icon">
+              <img src="https://www.dpt.go.th/assets/app/images/misc/color-0.png" alt="Theme">
+            </div>
+            <p><span class="fw-400">สีปกติ 4</span></p>
+          </div>
           <div class="option-row theme-btn cursor-pointer theme-btn-1" data-theme="1">
             <div class="icon">
               <img src="https://www.dpt.go.th/assets/app/images/misc/color-1.png" alt="Theme">
