@@ -791,10 +791,6 @@ fieldset{padding:0; margin:0; border:0;}
   position:absolute; top:-.4375rem; left:-1rem; width:.75rem; height:.75rem; border-radius:50%; z-index:1;
   pointer-events:all;
 }
-/* .checkbox-set > .checkmark{
-  position:absolute; top:.3125rem; left:.3125rem; width:.75rem; height:.75rem; border-radius:50%;
-  border:2px solid transparent; pointer-events:all; z-index:2;
-} */
 .checkbox-set > .checkmark{
   position:relative; 
 }
@@ -1944,8 +1940,12 @@ table.table.style-02.table-download td:nth-child(2){padding-left:0;}
 
 table.table.style-05 .table-card{border-radius:.375rem!important; overflow:hidden;}
 table.table.style-05 .text-footer > .wrapper .icon{display:flex; align-items:center; margin-right:1rem;}
-table.table.style-05 .title-container{padding:0 1rem;}
+table.table.style-05 .title-container{padding:.5625rem 1rem;}
 table.table.style-05 .title-container > .title{-webkit-line-clamp:2;}
+
+table.table.style-05.table-download .download-card{height:6.125rem; width:4.5rem;}
+table.table.style-05 .table-card .icon > em{color:#30906a;}
+table.table.style-05 .table-card .icon > p{color:#666666;}
 
 table.table.style-05.table-download.theme-03 tr{
   border-radius:.25rem!important; overflow:hidden; border:1px solid transparent;
@@ -4266,6 +4266,16 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 .va-baseline{vertical-align:baseline!important;}
 .va-middle{vertical-align:middle!important;}
+
+.youtube-container{
+  position:relative; width:100%; overflow:hidden;
+  padding-top:56.25%; 
+}
+.youtube-container.bradius{border-radius:.375rem;}
+.responsive-iframe {
+  position:absolute; top:0; left:0; bottom:0;
+  right:0; width:100%; height:100%; border:none;
+}
 
 @media screen and (max-width:1299.98px){
   .xl-no-br > br{display:none;}

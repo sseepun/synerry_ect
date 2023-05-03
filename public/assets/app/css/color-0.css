@@ -349,6 +349,8 @@ body.minisite .btn.btn-03:hover, body.minisite .btn.btn-03:active{background:#8c
 .checkbox-set > .checkmark{border-color:#2e603b;}
 .checkbox-set input:checked ~ .checkmark{background:#2e603b;}
 .checkbox-set  .bg-color{background:#c7dece!important;}
+.checkbox-set  .bg-color-white{background:#ffffff!important;}
+.checkbox-set  .bg-color-02{background:#8c6961!important;}
 
 
 /* Calendar */
@@ -533,9 +535,14 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{backgrou
 .form-check-container .checkmark,
 .form-check-container-02 .checkmark{background:#ffffff; border-color:#2e603c;}
 .form-check-container  input:checked ~ .checkmark,
-.form-check-container-02  input:checked ~ .checkmark{background-color:#2e603c!important;}
+.form-check-container-02  input:checked ~ .checkmark{background:#2e603c!important;}
 .form-check-container .checkmark:after,
 .form-check-container-02 .checkmark:after{border-color:#ffffff;}
+
+body.minisite .form-check-container input:checked ~ .checkmark,
+body.minisite .form-check-container-02  input:checked ~ .checkmark{background:#7cc5b5!important;}
+body.minisite .form-check-container .checkmark,
+body.minisite .form-check-container-02 .checkmark{background:#ffffff; border-color:#7cc5b5;}
 
 .form-check-container-03 .checkmark{background:#eeeeee;}
 .form-check-container-03  input:checked ~ .checkmark{background:#b2e0ce!important;}
@@ -545,6 +552,10 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{backgrou
 .form-check-container-03.theme-01 .checkmark{background:#eeeeee;}
 .form-check-container-03.theme-01  input:checked ~ .checkmark{background:#30906a!important;}
 .form-check-container-03.theme-01 .checkmark:after{border-color:#000000;}
+
+.form-check-container-03.theme-02 .checkmark{background:#eeeeee;}
+.form-check-container-03.theme-02  input:checked ~ .checkmark{background:#7cc5b4!important;}
+.form-check-container-03.theme-02 .checkmark:after{border-color:#000000;}
 
 .form .ui.icon.input > input[type="search"]::placeholder{color:#69696a;}
 .form.style-05 .ui.icon.input > input::placeholder{color:#69696a;}
@@ -744,6 +755,11 @@ body.minisite nav.side-panel .option:not(.btn-cursor).active{
 /* Global Search Container */
 .global-search-container{color:#68459b!important;}
 .global-search-container .hamburger > *{background:#ffffff;}
+.global-search-container button{background:#2e603c; color:#ffffff;}
+
+body.minisite .global-search-container button{background:#8c6961; color:#ffffff;}
+body.minisite .global-search-container{background:rgba(124,197,180,.85);}
+
 
 /* Inputs */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
@@ -781,6 +797,8 @@ body.minisite input.style-02[type=text], body.minisite input.style-02[type=passw
 body.minisite input.style-02[type=email]{background:#f7f7f7!important; border-color:#7cc5b5!important;}
 body.minisite textarea.style-02{background:#eeeeee!important; border-color:#eeeeee!important;}
 
+body.minisite input.style-02.input-minisite{background:#eeeeee!important;}
+
 /* Radio & Checkbox Container */
 .rc-container > label::before{border-color:#0ab3de;}
 .rc-container > label::after{background:#0ab3de;}
@@ -794,6 +812,8 @@ body.minisite textarea.style-02{background:#eeeeee!important; border-color:#eeee
 .rc-container.style-04 > label::before{border-color:#30906a;}
 .rc-container.style-04 > label::after{background:#eeeeee;}
 .rc-container.style-04 > input:checked + label::after{background:#ffffff;}
+
+.rc-container.style-05 > label::before{border-color:#8c6961;}
 
 /* Select */
 select.decorated.style-02{background:#2e603b!important; color:#ffffff!important; border-color:#2e603b!important;}
@@ -900,6 +920,9 @@ nav.topnav .mega-menu-content .mega-menu:hover a{color:#ffffff;}
 nav.topnav .mega-menu-content .mega-menu .dot-list{background:#10563a;}
 nav.topnav .mega-menu-content .mega-menu:hover .dot-list{background:#ffffff;}
 
+body.minisite nav.topnav .mega-menu-content .mega-menu.active,
+body.minisite nav.topnav .mega-menu-content .mega-menu:hover{background:#8c6961;}
+
 nav.topnav.style-02 .logo{color:#333333;}
 nav.topnav.style-02 .menu:hover > *:first-child{color:#30906a;}
 nav.topnav.style-02 .menu > *:first-child::after{background:#30906a;}
@@ -914,7 +937,7 @@ nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .dot-list{background:#1
 nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover  .dot-list{background:#ffffff;}
 
 nav.topnav.minisite.style-02 .menu:hover{background:#8c6961;}
-nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffffff;}
+nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffff;}
 
 /* Theme A */
 nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#8c6961; color:#ffffff;}

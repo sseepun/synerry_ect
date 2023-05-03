@@ -11,7 +11,7 @@
     $topNavStyle = 'theme-02';
     $sideNavStyle = 'theme-02';
     $sidePanelStyle = 'style-06';
-    include_once('include/topnav-style-02.php'); 
+    include_once('include/topnav-minisite-dropdown-menu.php'); 
   ?>
   <?php
     $breadcrumb = [

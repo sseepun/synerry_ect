@@ -6,7 +6,7 @@
 </head>
 <body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-02.php'); ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],

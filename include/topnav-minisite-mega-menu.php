@@ -453,106 +453,118 @@
               </div>
               <!-- ข่าวประชาสัมพันธ์ -->
               <?php } else if ($i === 6) {?>
-                <div class="submenu-dropdown anchor-right">
-                  <div class="submenu-container">
-                    <div class="submenu-wrapper">
-                      <div class="submenu has-children">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ข่าวประชาสัมพันธ์ กกต.</a>
-                          <?= $subDemo ?>
+                <div class="mega-menu-dropdown">
+                  <div class="mega-menu-wrapper">
+                    <div class="mega-menu-content size-02">
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
+                        <a href="#">ข่าวประชาสัมพันธ์ กกต.</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ข่าว/กิจกรรม</a>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
+                        <a href="#">ข่าว/กิจกรรม</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ประกาศและคำสั่งเกี่ยวกับการเลือกตั้ง</a>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
+                        <a href="#">ประกาศและคำสั่งเกี่ยวกับการเลือกตั้ง</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ประกาศผลการเลือกตั้ง</a>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
+                        <a href="#">ประกาศผลการเลือกตั้ง</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ข่าวประกวดราคา</a>
+                    </div>
+                    <div class="mega-menu-content size-02">
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
+                        <a href="#">ข่าวประกวดราคา</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ข่าวประชาสัมพันธ์ สนง. กกต. กทม.</a>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
+                        <a href="#">ข่าวประชาสัมพันธ์ สนง. กกต. กทม.</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">ปฎิทินกิจกรรม</a>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
-                      </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">สื่อประชาสัมพันธ์</a>
-                        </div>
+                        <a href="#">ปฎิทินกิจกรรม</a>
                       </div>
                     </div>
                   </div>
                 </div>
               <!-- หน่วยงานที่เกี่ยวข้อง -->
               <?php } else if ($i === 7) {?>
-                <div class="submenu-dropdown anchor-right">
-                  <div class="submenu-container">
-                    <div class="submenu-wrapper size-04">
-                      <div class="submenu has-children">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">สำนักงาน กกต.</a>
+                <div class="mega-menu-dropdown">
+                  <div class="mega-menu-wrapper">
+                    <div class="mega-menu-content size-02">
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
+                        <a href="#">สำนักงาน กกต.</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">หน่วยงานภายใต้ สนง. กกต.</a>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
                         </div>
-                        <?= $submenu ?>
+                        <a href="#">หน่วยงานภายใต้ สนง. กก</a>
                       </div>
-                      <div class="submenu">
-                        <div class="wrapper">
-                          <div class="dot">
-                            <div class="dot-list"></div>
-                          </div>
-                          <a href="#">หน่วยงานอื่นๆ</a>
+                      <div class="mega-menu-level-3">
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
                         </div>
+                        <a href="#">หน่วยงานส่วนกลาง</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ภาคเหนือ</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ภาคกลาง</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ภาคตะวันออกเฉียงเหนือ</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ภาคตะวันออก</a>
+                      </div>
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list style-02"></div>
+                        </div>
+                        <a href="#">ภาคใต้</a>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="mega-menu-content size-02">
+                      <div class="mega-menu">
+                        <div class="dot">
+                          <div class="dot-list"></div>
+                        </div>
+                        <a href="#">หน่วยงานอื่นๆ</a>
                       </div>
                     </div>
                   </div>

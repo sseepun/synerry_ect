@@ -171,7 +171,7 @@
                 <div class="grid sm-100">
                   <div class="padding-style-04">
                     <div class="btns mt-2 jc-center h-full">
-                      <div href="#" class="btn btn-action btn-13">
+                      <div href="#" class="btn btn-action btn-36">
                         แก้ไข
                       </div>
                     </div>

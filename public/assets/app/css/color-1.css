@@ -95,12 +95,11 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#ffffff!important;}
-
 .btn.btn-26.theme-03, .btn.btn-26.theme-03:focus{color:#ffffff; background:transparent; border-color:#ffffff;}
 .btn.btn-26.theme-03:hover, .btn.btn-26.theme-03.active{background:#ffffff; border-color:#ffffff; color:#000000;}
-
 .btn.btn-27, .btn.btn-27:focus{color:#ffffff; background:transparent; border-color:#ffffff;}
 .btn.btn-27:hover{background:#ffffff; color:#000000;}
+.btn.btn-36.white-theme, .btn.btn-36.white-theme:focus{background:#ffffff; color:#000000;}
 
 .btn.btn-02.btn-white-theme, .btn.btn-02:focus.btn-white-theme,
 .btn.btn-03.btn-white-theme, .btn.btn-03:focus.btn-white-theme,
@@ -329,12 +328,17 @@ nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
 
 nav.topnav.style-02 .logo{color:#000000;}
 nav.topnav.style-02 .menu > *:first-child::after{background:#000000;;}
-
 nav.topnav.style-02 .submenu > .submenu-dropdown .submenu:hover > *:first-child{background:#303032;}
 nav.topnav.style-02 .sidenav-toggle::before{background:#1f4e3a;}
 nav.topnav.style-02 .sidenav-toggle:hover::before{background:#303032;}
 nav.topnav.style-02 .sidenav-toggle::before{background:#000000;}
-
+nav.topnav.style-02 .submenu-dropdown{background:#ffffff; color:#000000;}
+nav.topnav.style-02 .submenu:hover .dot-list{background:#ffffff;}
+nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .dot-list{background:#000000;}
+nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover .dot-list{background:#ffffff;}
+nav.topnav.minisite.style-02 .menu:hover{background:#000000;}
+nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffff;}
+nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#000000!important; color:#ffffff!important;}
 
 /* Footer */
 nav.footer{border-color:#ffffff;}
@@ -621,6 +625,9 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 /* Global Search Container */
 .global-search-container{color:#ffffff;}
 .global-search-container .hamburger > *{background:#ffffff;}
+
+body.minisite .global-search-container button{background:#000000; color:#ffffff;}
+body.minisite .global-search-container{background:rgba(0,0,0,.85);}
 
 /* Accessibility & Quick Links */
 nav.side-panel > .wrapper > .icon{background:#000000;}

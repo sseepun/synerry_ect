@@ -154,11 +154,13 @@
                                             </div>
                                           </div>
                                         </div>
-                                        <div class="link-more mt-2" href="#">
-                                          <p class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านเพิ่ม</p>   
-                                          <div class="arrow btn btn-fling">
-                                            <em class="fa-solid fa-arrow-right fling"></em>
-                                          </div>   
+                                        <div class="link-more c-btn c-btn--animate-left-right mt-2" href="#">
+                                          <div class="c-wrapper">
+                                            <span class="text fw-400 border-bottom bcolor-black bcolor-black-theme">อ่านเพิ่ม</span>   
+                                            <span class="arrow c-icon pl-2">
+                                              <em class="fa-solid fa-arrow-right"></em>
+                                            </span> 
+                                          </div>  
                                         </div>
                                           <div class="card-line style-03"></div>
                                         </div>
@@ -368,11 +370,13 @@
                         <p class="sm fw-400">08 มิถุนายน</p>
                         <p class="sm time fw-400 ml-2">เวลา 08:00 - 12:00</p>
                       </div>
-                      <div class="link-more btn btn-fling mt-2" href="#">
-                        <p class="text fw-400 border-bottom bcolor-black">อ่านต่อ</p>   
-                        <div class="arrow color-black">
-                          <em class="fa-solid fa-arrow-right fling"></em>
-                        </div>   
+                      <div class="link-more mt-2 c-btn c-btn--animate-left-right" href="#">
+                        <div class="c-wrapper">
+                          <span class="text fw-400 border-bottom bcolor-black">อ่านเพิ่ม</span>   
+                          <span class="arrow color-black c-icon pl-2">
+                            <em class="fa-solid fa-arrow-right"></em>
+                          </span>
+                        </div>     
                       </div>
                     </div>
                   </a>      

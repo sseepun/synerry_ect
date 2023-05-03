@@ -6,7 +6,7 @@
 </head>
 <body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-02.php'); ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -50,46 +50,58 @@
                     <div class="grids jc-center flex-column-reverse sm">
                       <div class="grid lg-50 md-50 sm-100 xs-100 mt-0">
                         <form action="action.php" method="post">
-                          <fieldset>
-                            <div class="gallery-grids">
-                              <div class="grid sm-100">
-                                <div class="rc-container style-03">
-                                  <input type="radio" id="poll_0" name="poll" value="0">
-                                  <label class="fw-400" for="poll_0">ขนาดเว็บไซต์ไม่พอดีกับหน้าจอ</label>
-                                </div>
-                              </div>
-                              <div class="grid sm-100">
-                                <div class="rc-container style-03">
-                                  <input type="radio" id="poll_1" name="poll" value="1">
-                                  <label class="fw-400" for="poll_1">เว็บไซต์รกเกินไป</label>
-                                </div>
-                              </div>
-                              <div class="grid sm-100">
-                                <div class="rc-container style-03">
-                                  <input type="radio" id="poll_2" name="poll" value="2">
-                                  <label class="fw-400" for="poll_2">หาข้อมูลไม่พบหรือพบยาก</label>
-                                </div>
-                              </div>
-                              <div class="grid sm-100">
-                                <div class="rc-container style-03">
-                                  <input type="radio" id="poll_3" name="poll" value="3">
-                                  <label class="fw-400" for="poll_3">เว็บไซต์ทำงานไม่สมบูรณ์</label>
-                                </div>
-                              </div>
-                              <div class="grid sm-100">
-                                <div class="rc-container style-03">
-                                  <input type="radio" id="poll_4" name="poll" value="3">
-                                  <label class="fw-400" for="poll_4">เว็บไซต์ทำงานช้า</label>
-                                </div>
+                        <fieldset>
+                          <div class="gallery-grids">
+                            <div class="grid sm-100">
+                              <div class="checkbox-set none">
+                                <input type="radio" name="radio" id="radio_0" checked="">
+                                <label for="radio_0" class="checkmark background-02">
+                                  <div class="bg-color white-theme"></div>
+                                </label>
+                                <span for="radio_0" class="p sm">ขนาดเว็บไซต์ไม่พอดีกับหน้าจอ</span>
                               </div>
                             </div>
-                          </fieldset>
+                            <div class="grid sm-100">
+                              <div class="checkbox-set none">
+                                <input type="radio" name="radio" id="radio_1">
+                                <label for="radio_1" class="checkmark background-02">
+                                  <div class="bg-color white-theme"></div>
+                                </label>
+                                <span class="p sm">หาข้อมูลไม่พบหรือพบยาก</span>
+                              </div>
+                            </div>
+                            <div class="grid sm-100">
+                              <div class="checkbox-set none">
+                                <input type="radio" name="radio" id="radio_4">
+                                <label for="radio_4" class="checkmark background-02">
+                                  <div class="bg-color white-theme"></div>
+                                </label>
+                                <span class="p sm">เว็บไซต์รกเกินไป</span>
+                              </div>
+                            </div>
+                            <div class="grid sm-100">
+                              <div class="checkbox-set none">
+                                <input type="radio" name="radio" id="radio_2">
+                                <label for="radio_2" class="checkmark background-02">
+                                 <div class="bg-color white-theme"></div>
+                                </label>
+                                <span class="p sm">เว็บไซต์ทำงานไม่สมบูรณ์</span> 
+                              </div>
+                            </div>
+                            <div class="grid sm-100">
+                              <div class="checkbox-set none">
+                                <input type="radio" name="radio" id="radio_3">
+                                <label for="radio_3" class="checkmark background-02">
+                                 <div class="bg-color white-theme"></div>
+                                </label>
+                                <span class="p sm">เว็บไซต์ทำงานช้า</span>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
                           <div class="btns mt-4">
                             <button id="btnVote" type="submit" class="btn btn-action btn-36 btn-black-theme btn-popup-toggle" data-popup="99">
                               โหวต
-                            </button>
-                            <button type="submit" class="btn btn-action btn-37 btn-black-theme">
-                              ผลโหวต
                             </button>
                           </div>
                         </form>

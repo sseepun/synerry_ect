@@ -512,7 +512,7 @@
               </div>
               <!-- ข่าวประชาสัมพันธ์ -->
               <?php } else if ($i === 6) {?>
-                <div class="submenu-dropdown anchor-right">
+                <div class="submenu-dropdown">
                   <div class="submenu-container">
                     <div class="submenu-wrapper">
                       <div class="submenu has-children">

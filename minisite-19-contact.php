@@ -6,7 +6,7 @@
 </head>
 <body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-02.php'); ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -245,10 +245,10 @@
                     </div>
                     <div class="grid xl-50 lg-100 md-100 sm-100 mt-0">
                       <div class="btns h-full">
-                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action size-03 btn-13" data-popup="99">
+                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action size-03 btn-36" data-popup="99">
                           ส่งข้อความ
                         </button>
-                        <button type="cancel" href="#" class="btn btn-action mw-auto size-03 btn-05 btn-white-theme">
+                        <button type="cancel" href="#" class="btn btn-action mw-auto size-03 btn-37 btn-white-theme">
                           ยกเลิก
                         </button>
                       </div>

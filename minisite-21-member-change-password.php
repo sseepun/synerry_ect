@@ -121,10 +121,10 @@
                 <div class="grid xl-100 lg-100 md-100 sm-100">
                   <div class="padding-style-01">
                     <div class="btns pl-1 pl-unset-xs">
-                      <button type="submit" href="#" class="btn btn-action btn-13 btn-black-theme size-03">
+                      <button type="submit" href="#" class="btn btn-action btn-36 btn-black-theme size-03">
                         บันทึก
                       </button>
-                      <button type="cancel" href="#" class="btn btn-action btn-05 size-03">
+                      <button type="cancel" href="#" class="btn btn-action btn-37 size-03">
                         ยกเลิก
                       </button>
                     </div>

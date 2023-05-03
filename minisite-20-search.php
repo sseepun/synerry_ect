@@ -6,7 +6,7 @@
 </head>
 <body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-02.php'); ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -106,47 +106,47 @@
                     <h6 class="color-02 color-black-theme fw-500">ตัวกรองชั้นสูง</h6>
                     <p class="color-02 color-black-theme fw-400 mt-3 mb-1">ประเภทข้อมูล</p>  
                     <div class="pl-3">
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ข่าวประชาสัมพันธ์</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">คลังภาพ</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">วิดีโอ</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">หนังสืออิเล็กทรอนิกส์</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">เอกสารดาวน์โหลด</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ประกาศรับสมัครงาน</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ถาม-ตอบ</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">เนื้อหาเว็บไซต์</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-01">
+                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ทั้งหมด</p>
@@ -193,10 +193,10 @@
                           </div>
                           <div class="grid sm-100">
                             <div class="btns">
-                              <a href="#" class="btn btn-action btn-white-theme mw-auto btn-13">
+                              <a href="#" class="btn btn-action btn-white-theme mw-auto btn-36">
                                 ค้นหาขั้นสูง
                               </a>
-                              <a href="#" class="btn btn-action mw-auto btn-white-theme btn-03">
+                              <a href="#" class="btn btn-action mw-auto btn-white-theme btn-37">
                                 ล้างข้อมูลใหม่
                               </a>
                             </div> 

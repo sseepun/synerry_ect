@@ -121,6 +121,7 @@ nav.topnav .menu-container{display:flex; align-items:center; margin:0 0 0 auto;}
 nav.topnav .menu{position:relative; display:block; padding:0 .875rem;}
 nav.topnav .menu:first-child .fa-chevron-down{display:none;}
 nav.topnav .menu.mega, nav.topnav .menu:nth-child(2){position:static!important;}
+body.minisite nav.topnav .menu.mega:nth-child(6){position:relative!important;}
 nav.topnav .menu > *:first-child{
   position:relative; display:flex; align-items:center; font-size:1rem; font-weight:400;
   padding:1.325rem 0; white-space:nowrap; transition:background .25s, color .25s;
@@ -153,6 +154,7 @@ nav.topnav .submenu > *:first-child{
   display:block; position:relative; width:100%; margin:0; padding:.5rem .875rem .5rem .875rem;
   font-size:1rem; font-weight:400; transition:background .25s, color .25s;
 }
+nav.topnav.style-02 .submenu{border:0;}
 nav.topnav.style-02 .submenu > .submenu-dropdown{top:-.5125rem; left:100%;}
 nav.topnav.style-02 .submenu-dropdown.anchor-right .submenu > .submenu-dropdown{
   left:unset; right:100%;
@@ -450,9 +452,6 @@ nav.sidenav.minisite .options > .option-btn{width:calc(100% - 3.9375rem);}
 .overlay-slide-down.global-search-container .ui.icon.input input{min-height:3.25rem!important;}
 .overlay-slide-down.global-search-container .ui.icon.input input::placeholder{color:#69696a;}
 
-.global-search-container button{background:#2e603c; color:#ffffff;}
-body.minisite .global-search-container button{background:#8c6961; color:#ffffff;}
-body.minisite .global-search-container{background:rgba(124,197,180,.85);}
 /* Accessibility & Quick Links */
 nav.side-panel{position:fixed; top:8rem; right:0; letter-spacing:0; z-index:97;}
 nav.side-panel > .wrapper > .icon{transform:translateY(1px);}

@@ -38,14 +38,14 @@
             <div class="grid sm-100">
               <div class="form-group">
                 <div class="form-input">
-                  <input class="style-02 size-01 no-border-bottom" type="text" value="ประเภทรายงาน" disabled="">
+                  <input class="style-02 size-01 input-minisite no-border-bottom" type="text" value="ประเภทรายงาน" disabled="">
                 </div>
               </div>
             </div>
             <div class="grid sm-100">
               <div class="form-group">
                 <div class="form-input">
-                  <input class="style-02 size-01 no-border-bottom" type="text" value="รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคเดือนประจำเดือนมกราคม 2565.pdf" disabled="">
+                  <input class="style-02 size-01 input-minisite no-border-bottom" type="text" value="รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคเดือนประจำเดือนมกราคม 2565.pdf" disabled="">
                 </div>
               </div>
             </div>
