@@ -381,7 +381,7 @@
                 <div class="grids" data-aos="fade-up" data-aos-delay="300">
                   <?php foreach($news03 as $d) {?>
                     <div class="grid xl-25 lg-1-3 md-50">
-                    <a class="ss-card ss-card-61 fling mb-3" href="#">
+                    <a class="ss-card ss-card-61 mb-3" href="#">
                       <div class="ss-img">
                         <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
                         <div class="filter-04"></div>
@@ -424,7 +424,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-line style-03"></div>
+                        <div class="card-line style-03 line-black-theme"></div>
                       </div>
                     </a>
                   </div>

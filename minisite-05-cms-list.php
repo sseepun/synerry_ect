@@ -365,7 +365,7 @@
                   <div class="grids mt-3" data-aos="fade-up" data-aos-delay="300">
                     <?php foreach($news03 as $d) {?>
                       <div class="grid xl-100 lg-100 md-50">
-                      <a class="ss-card ss-card-38 fling mb-3" href="#">
+                      <a class="ss-card ss-card-38 mb-3" href="#">
                         <div class="wrapper">
                           <div class="image-container">
                             <div class="ss-img">
@@ -380,7 +380,7 @@
                           </div>
                           <div class="text-container box-shadow style-02">
                             <div class="top">
-                              <p class="h6 lh-sm title fw-500 mt-1">
+                              <p class="h6 lh-sm title fw-500 mt-1 color-black-theme">
                                 ประธานกรรมการการเลือกตั้ง เป็นประธานในพิธีเปิดการประชุมพัฒนางานและ
                                 ยกระดับมาตรฐานการทำงานของสำนักงานคณะกรรมการการเลือกตั้ง
                               </p>

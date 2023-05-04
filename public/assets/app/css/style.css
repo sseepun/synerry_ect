@@ -3132,7 +3132,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 
 /* Special Card 40 */
 .ss-card-40{border-radius:var(--bradius-02); overflow:hidden;}
-.ss-card-40 .text-container{padding:.75rem; display:flex;}
+.ss-card-40 .text-container{padding:.9375rem; display:flex;}
 .ss-card-40 .text-container > .date-container{position:relative; width:3.5rem;}
 .ss-card-40 .text-container > .date-container .date-wrapper{
  position:absolute; top:-2rem; z-index:3; display:flex; flex-direction:column; justify-content:center; 
@@ -3140,6 +3140,9 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 }
 .ss-card-40 .text-container > .text{width:calc(100% - 3.5rem); padding-left:.375rem;}
 .ss-card-40 .text-container > .text .title{line-height:1.40; -webkit-line-clamp:2; transition:color .25s;}
+@media screen and (max-width:1199.98px){
+  .ss-card-40 .text-container{padding:.75rem;}
+}
 
 /* Special Card 41 */
 .ss-card-41 .image-container{position:relative; border-radius:var(--bradius-02); overflow:hidden;}

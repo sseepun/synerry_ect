@@ -121,7 +121,15 @@ nav.topnav .menu-container{display:flex; align-items:center; margin:0 0 0 auto;}
 nav.topnav .menu{position:relative; display:block; padding:0 .875rem;}
 nav.topnav .menu:first-child .fa-chevron-down{display:none;}
 nav.topnav .menu.mega, nav.topnav .menu:nth-child(2){position:static!important;}
-body.minisite nav.topnav .menu.mega:nth-child(6){position:relative!important;}
+body.minisite nav.topnav .menu.mega:nth-child(6), body.minisite nav.topnav .menu.mega:nth-child(3),
+body.minisite nav.topnav .menu.mega:nth-child(2), body.minisite nav.topnav .menu.mega:nth-child(7),
+body.minisite nav.topnav .menu.mega:nth-child(5),
+body.minisite nav.topnav .menu.mega:nth-child(8){position:relative!important;}
+body.minisite nav.topnav .menu.mega:nth-child(2) .mega-menu-dropdown,
+body.minisite nav.topnav .menu.mega:nth-child(3) .mega-menu-dropdown,
+body.minisite nav.topnav .menu.mega:nth-child(7) .mega-menu-dropdown,
+body.minisite nav.topnav .menu.mega:nth-child(5) .mega-menu-dropdown,
+body.minisite nav.topnav .menu.mega:nth-child(8) .mega-menu-dropdown{width:620px;}
 nav.topnav .menu > *:first-child{
   position:relative; display:flex; align-items:center; font-size:1rem; font-weight:400;
   padding:1.325rem 0; white-space:nowrap; transition:background .25s, color .25s;
@@ -193,10 +201,12 @@ nav.topnav .menu:hover > .mega-menu-dropdown{opacity:1; pointer-events:auto; tra
 nav.topnav .mega-menu-wrapper{
   position:relative; display:flex; width:100%; max-width:calc(1300px - 2rem); margin:0 auto;
 }
+nav.topnav .mega-menu-dropdown.anchor-right{left:auto; right:0;}
 nav.topnav .mega-menu-content{width:25%; transition:color .25s;}
 nav.topnav .mega-menu-content.size-02{width:33.33%;}
 nav.topnav .mega-menu-content.size-03{width:23%!important;}
 nav.topnav .mega-menu-content.size-04{width:27%!important;}
+nav.topnav .mega-menu-content.size-05{width:50%!important;}
 nav.topnav .mega-menu-content{border-right:1px solid transparent; padding:.5rem .5rem .5rem .5rem; margin:1rem 0 1rem 0;}
 nav.topnav .mega-menu-content .mega-menu{
   display:flex; align-items:center; padding:.875rem .5rem; border-radius:.375rem;

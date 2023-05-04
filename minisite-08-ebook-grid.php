@@ -465,7 +465,7 @@
                   <div class="grids" data-aos="fade-up" data-aos-delay="300">
                     <?php foreach($ebooks as $d) {?>
                       <div class="grid xl-25 lg-1-3 md-50">
-                      <a class="ss-card ss-card-62 fling mb-3" href="#">
+                      <a class="ss-card ss-card-62 mb-3" href="#">
                         <div class="wrapper">
                           <div class="img-container">
                             <div class="ebook-container">
@@ -511,7 +511,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="card-line style-03"></div>
+                          <div class="card-line style-03 line-black-theme"></div>
                         </div>
                       </a>
                     </div>

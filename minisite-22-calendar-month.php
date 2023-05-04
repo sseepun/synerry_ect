@@ -49,7 +49,7 @@
                   <div class="btn btn-action btn-29 size-05 btn-white-theme">
                     สัปดาห์
                   </div>
-                  <div class="btn btn-action btn-29 size-05 activ5 btn-white-theme">
+                  <div class="btn btn-action btn-29 size-05 active btn-white-theme">
                     เดือน
                   </div>
                   <div class="btn btn-action btn-29 size-05 btn-white-theme">

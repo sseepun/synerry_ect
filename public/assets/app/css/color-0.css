@@ -1500,10 +1500,9 @@ table.table.table-download.style-05 td:nth-child(1){border-color:yellow;}
 table.table.table-download.style-06 tr > td.download-card{background:#8c6961;}
 table.table.table-download.style-06 tr:hover .title{color:#30906a;}
 table.table.table-download.style-06 tr:hover > td.download-card{background:#371e1a;}
-table.table.table-download.style-06 tr:hover > td.button-container .btn{background:#371e1a; border-color:#371e1a;}
 table.table.table-download.style-06 tr > td.warning-container em{color:#ffab28;}
-table.table.table-download.style-06 tr:hover > td.warning-container em,
-table.table.table-download.style-06 tr:hover > td.warning-container a{color:#30906a;}
+table.table.table-download.style-06 tr > td.warning-container:hover em,
+table.table.table-download.style-06 tr > td.warning-container:hover  a{color:#30906a;}
 
 
 /* Text Danger */

@@ -97,7 +97,7 @@
                     <div class="img-bg" style="background-image:url('public/assets/app/images/content/69.jpg');"></div>
                   </div>
                 </div>
-                <p class="desc color-gray fw-400 mt-3">
+                <p class="desc color-gray color-black-theme fw-400 mt-3">
                   วันที่ 11 สิงหาคม 2565 เวลา 09.00 น. สนง.กกต.จว.พังงา 
                   ดำเนินการจัดอบรมตามโครงการสร้างจิตสำนึกพลเมืองดีวิถีประชาธิปไตย 
                   กิจกรรมเผยแพร่ความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครองระบอบ
@@ -201,11 +201,11 @@
                           <em class="fa-solid fa-triangle-exclamation"></em>
                           <?php
                             if($k === 'link'){?>
-                              <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                              <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
                                 แจ้งลิงก์เสีย
                               </a>
                           <?php } else {?>
-                              <a class="xs text color-02 btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                              <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
                                 แจ้งไฟล์เสีย
                               </a>
                           <?php }?>
@@ -276,15 +276,15 @@
                     <h5 class="fw-600">ประเภท</h5>
                     <p class="fw-400">รายการ</p>
                   </div> 
-                  <div class="cate-list mt-2">
-                    <p class="color-02 fw-600">กิจกรรมประชาสัมพันธ์</p>
-                    <p class="color-02 fw-600">108</p>
+                  <div class="cate-list bcolor-white-theme mt-2">
+                    <p class="color-02 color-black-theme fw-600">กิจกรรมประชาสัมพันธ์</p>
+                    <p class="color-02 color-black-theme fw-600">108</p>
                   </div> 
-                  <div class="cate-list">
+                  <div class="cate-list bcolor-white-theme">
                     <p class="fw-400">ประกาศการเลือกตั้ง</p>
                     <p class="fw-400">11</p>
                   </div> 
-                  <div class="cate-list">
+                  <div class="cate-list bcolor-white-theme">
                     <p class="fw-400">อบรมสัมนา</p>
                     <p class="fw-400">50</p>
                   </div>  
@@ -324,16 +324,16 @@
                         </div>
                     </div>
                     <div class="text-container">
-                      <p class="title fw-400 lh-sm mt-2">
+                      <p class="title fw-400 color-black-theme lh-sm mt-2">
                         <?= $d['title']?>
                       </p>
                       <div class="card-footer mt-2">
                         <div class="wrapper">
-                          <div class="icon">
+                          <div class="icon color-black-theme">
                             <em class="fa-solid fa-calendar-days"></em>
                             <span class="p sm ml-2 fw-400">08 มิถุนายน 2565</span>
                           </div>
-                          <div class="icon">
+                          <div class="icon color-black-theme">
                             <em class="fa-solid fa-location-dot"></em>
                             <span class="p sm ml-2 fw-400"><?= $d['address']?></span>
                           </div>
@@ -388,5 +388,18 @@
 
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  
+  <script>
+    let btn = document.querySelector("#btnLink")
+    let toolTip = document.querySelector('#toolTip')
+
+    btn.addEventListener("click", () => {
+      toolTip.style.opacity = '1'
+      setTimeout(function(){
+        toolTip.style.opacity = '0'
+      }, 1200);
+    });
+  </script>
 </body>
 </html>

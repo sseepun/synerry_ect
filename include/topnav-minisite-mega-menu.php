@@ -183,7 +183,7 @@
             <?php if($i === 1){?>
               <div class="mega-menu-dropdown">
                 <div class="mega-menu-wrapper">
-                  <div class="mega-menu-content size-02">
+                  <div class="mega-menu-content size-05">
                     <div class="mega-menu">
                       <div class="dot">
                         <div class="dot-list"></div>
@@ -209,7 +209,7 @@
                       <a href="#">บุคลากร</a>
                     </div>
                   </div>
-                  <div class="mega-menu-content size-02">
+                  <div class="mega-menu-content size-05">
                     <div class="mega-menu">
                       <div class="dot">
                         <div class="dot-list"></div>
@@ -235,7 +235,7 @@
             <?php } else if ($i === 2) {?>
               <div class="mega-menu-dropdown">
                 <div class="mega-menu-wrapper">
-                  <div class="mega-menu-content size-02">
+                  <div class="mega-menu-content size-05">
                     <div class="mega-menu">
                       <div class="icon">
                         <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-01.svg" />
@@ -258,7 +258,7 @@
                       <a href="#">ทำเนียบ สส./สว.</a>
                     </div>
                   </div>
-                  <div class="mega-menu-content size-02">
+                  <div class="mega-menu-content size-05">
                     <div class="mega-menu">
                       <div class="icon">
                         <img class="inactive" src="public/assets/app/images/icon-svg/menu-black-04.svg" />
@@ -371,7 +371,7 @@
             <?php } else if ($i === 4) {?>
               <div class="mega-menu-dropdown">
                 <div class="mega-menu-wrapper">
-                  <div class="mega-menu-content size-02">
+                  <div class="mega-menu-content size-05">
                     <div class="mega-menu">
                       <div class="dot">
                         <div class="dot-list"></div>
@@ -397,7 +397,7 @@
                       <a href="#">พระราชกฤษฎีกา</a>
                     </div>
                   </div>
-                  <div class="mega-menu-content size-02">
+                  <div class="mega-menu-content size-05">
                     <div class="mega-menu">
                       <div class="dot">
                         <div class="dot-list"></div>
@@ -453,9 +453,9 @@
               </div>
               <!-- ข่าวประชาสัมพันธ์ -->
               <?php } else if ($i === 6) {?>
-                <div class="mega-menu-dropdown">
+                <div class="mega-menu-dropdown anchor-right">
                   <div class="mega-menu-wrapper">
-                    <div class="mega-menu-content size-02">
+                    <div class="mega-menu-content size-05">
                       <div class="mega-menu">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -481,7 +481,7 @@
                         <a href="#">ประกาศผลการเลือกตั้ง</a>
                       </div>
                     </div>
-                    <div class="mega-menu-content size-02">
+                    <div class="mega-menu-content size-05">
                       <div class="mega-menu">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -505,9 +505,9 @@
                 </div>
               <!-- หน่วยงานที่เกี่ยวข้อง -->
               <?php } else if ($i === 7) {?>
-                <div class="mega-menu-dropdown">
+                <div class="mega-menu-dropdown anchor-right">
                   <div class="mega-menu-wrapper">
-                    <div class="mega-menu-content size-02">
+                    <div class="mega-menu-content size-05">
                       <div class="mega-menu">
                         <div class="dot">
                           <div class="dot-list"></div>
@@ -559,7 +559,7 @@
                       </div>
                     </div>
                     </div>
-                    <div class="mega-menu-content size-02">
+                    <div class="mega-menu-content size-05">
                       <div class="mega-menu">
                         <div class="dot">
                           <div class="dot-list"></div>

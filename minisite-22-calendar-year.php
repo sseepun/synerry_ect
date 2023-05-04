@@ -179,9 +179,9 @@
               <div class="activity-list c-btn c-btn--animate-left-right">
                 <div class="wrapper">
                   <a href="minisite-22-calendar-list.php" class="p md fw-400 mr-2">
-                    รายการ <span class="color-04 fw-500">${eMonth.length}</span> กิจกรรม 
+                    รายการ <span class="color-04 color-black-theme fw-500">${eMonth.length}</span> กิจกรรม 
                   </a>
-                  <div class="arrow c-icon pl-1"><em class="fa-solid fa-arrow-right color-04"></em></div>
+                  <div class="arrow c-icon pl-1 color-black-theme"><em class="fa-solid fa-arrow-right color-04"></em></div>
                 </div>
               </div>
             `);

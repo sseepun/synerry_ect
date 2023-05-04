@@ -86,13 +86,13 @@
                     </td>
                     <td class="button-container" style="min-width:170px;">
                       <div class="btns jc-end">
-                        <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-13">
+                        <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30">
                           ดาวน์โหลดไฟล์
                           <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
                         </div>
                       </div>
                     </td>
-                    <td class="warning-container" style="min-width:120px;">
+                    <td class="warning-container c-pointer" style="min-width:120px;">
                       <em class="fa-solid fa-triangle-exclamation"></em>
                       <a class="xs color-02 color-black-theme btn-popup-toggle-02 text-center fw-500 ml-1" data-popup="99">
                         แจ้งไฟล์เสีย

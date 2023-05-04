@@ -408,7 +408,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-line style-03"></div>
+                        <div class="card-line style-03 line-black-theme"></div>
                       </div>
                     </a>
                   </div>

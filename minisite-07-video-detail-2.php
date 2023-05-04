@@ -117,18 +117,18 @@
                             <div class="wrapper">
                               <div class="icon">
                                 <em class="fa-regular fa-calendar"></em>
-                                <p class="xs fw-400 color-02 ml-2">29 พฤศจิกายน</p>
+                                <p class="xs fw-400 ml-2">29 พฤศจิกายน</p>
                               </div>
                               <div class="icon">
                                 <em class="fa-regular fa-floppy-disk"></em>
-                                <p class="xs fw-400 color-02 ml-2">ดาวน์โหลด 122 ครั้ง</p>
+                                <p class="xs fw-400 ml-2">ดาวน์โหลด 122 ครั้ง</p>
                               </div>
                             </div>
                           </div>
                         </td>
                         <td class="button-container" style="min-width:90px;">
                           <div class="btns jc-end">
-                            <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-13">
+                            <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30">
                               ดาวน์โหลดไฟล์
                               <em class="fa-solid fa-arrow-down ml-1 fling-down"></em>
                             </div>

@@ -68,19 +68,6 @@
                 <div class="youtube-container bradius mt-2">
                   <iframe class="responsive-iframe" src="https://www.youtube.com/embed/G8nNGk6LHaM"></iframe>
                 </div>
-                <!-- <a class="ss-card" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox="">
-                  <div class="ss-img horizontal no-hover mt-3">
-                    <div class="img-bg" style="background-image:url('public/assets/app/images/content/146.jpg');"></div>
-                      <div class="btn-play style-02">
-                        <div class="img-container lg">
-                          <img class="inactive" src="public/assets/app/images/icon/btn-play-inactive.png" alt="Icon Inactive">
-                          <img class="active" src="public/assets/app/images/icon/btn-play-active.png" alt="Icon active">
-                        </div>
-                    </div>
-                    <div class="filter style-03"></div>
-                  </div>
-                 
-                </a> -->
                 <p class="desc color-gray color-black-theme fw-400 mt-3">
                   วันพุธที่ 8 มิถุนายน 2565 เวลา 13.00 น. นายปกรณ์ มหรรณพ กรรมการการเลือกตั้ง 
                   พร้อมด้วย พล.ต.ต.ชัชชรินร์ สว่างวงศ์ ผู้เชี่ยวชาญด้านรัฐประศาสนศาสตร์ นางสาวโชติกา 

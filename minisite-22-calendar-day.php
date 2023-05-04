@@ -45,16 +45,16 @@
           <div class="button-container">
             <div class="button-wrapper">
             <div class="btns">
-              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+              <div class="btn btn-action btn-29 active size-05 btn-white-theme">
                 วัน
               </div>
-              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+              <div class="btn btn-action btn-29 size-05 btn-white-theme">
                 สัปดาห์
               </div>
-              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+              <div class="btn btn-action btn-29 size-05 btn-white-theme">
                 เดือน
               </div>
-              <div class="btn btn-action btn-33 size-05 btn-white-theme">
+              <div class="btn btn-action btn-29 size-05 btn-white-theme">
                 ปี
               </div>
             </div>
