@@ -1561,7 +1561,8 @@ body.minisite .card-line.style-01{background:#7dc6b5;}
 
 .popup-container.style-02 .box-body{background:#ffffff;}
 
-.popup-container.style-02 .popup-box > .mark-container{background:#30906a; color:#ffffff;}
+.popup-container.error.style-02 .popup-box > .mark-container{background:#f0483d; color:#ffffff;}
+.popup-container.error.style-02 .popup-box .btn.btn-06{background:#f0483d!important;}
 
 /* Global Filter */
 .filter.style-01{background:rgb(48,144,106,.6);}

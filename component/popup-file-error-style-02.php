@@ -102,7 +102,7 @@
 </div>
 
 <!-- แบบฟอร์มกรณีลงทะเบียนไม่สำเร็จ -->
-<!-- <div class="popup-container style-02" data-popup="99">
+<!-- <div class="popup-container error style-02" data-popup="99">
   <div class="wrapper">
     <div class="close-filter btn-popup-toggle" data-popup="99"></div>
     <div class="popup-box">
