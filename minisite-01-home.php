@@ -72,7 +72,7 @@
             <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
               <?php foreach($categories as $i=>$d){?>
                 <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                  <h3 class="fw-600 color-black-theme color-dark"><?= $d['title'] ?></h3>
+                  <h3 class="fw-600 main-topic color-black-theme color-dark"><?= $d['title'] ?></h3>
                 </div>
               <?php }?>
             </div>
@@ -212,7 +212,7 @@
           <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
             <?php foreach($categories02 as $i=>$d){?>
               <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                <h3 class="fw-600 color-dark"><?= $d['title'] ?></h3>
+                <h3 class="fw-600 main-topic color-dark"><?= $d['title'] ?></h3>
               </div>
             <?php }?>
           </div>
@@ -426,7 +426,7 @@
           <div class="tab-contents" data-aos="fade-up" data-aos-delay="0">
             <?php foreach($categories02 as $i=>$d){?>
               <div class="tab-content <?= $i==0? 'active': '' ?>" data-tab="content_<?= $i ?>">
-                <h3 class="fw-600 color-dark"><?= $d['title'] ?></h3>
+                <h3 class="fw-600 main-topic color-dark"><?= $d['title'] ?></h3>
               </div>
             <?php }?>
           </div>

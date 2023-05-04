@@ -64,7 +64,7 @@
                     </td>
                     <td class="title-container" style="min-width:650px;">
                       <div>
-                        <p class="sm color-04 fw-600">มาตรา ม.120 พรบ.เลือกตั้ง</p>
+                        <p class="sm color-04 fw-500">มาตรา ม.120 พรบ.เลือกตั้ง</p>
                         <a class="p title fw-400" href="#">
                           รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
                           รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
@@ -94,7 +94,7 @@
                     </td>
                     <td class="warning-container c-pointer" style="min-width:120px;">
                       <em class="fa-solid fa-triangle-exclamation"></em>
-                      <a class="xs color-02 color-black-theme btn-popup-toggle-02 text-center fw-500 ml-1" data-popup="99">
+                      <a class="xs color-black-theme btn-popup-toggle-02 text-center fw-500 ml-1" data-popup="99">
                         แจ้งไฟล์เสีย
                       </a>
                     </td>

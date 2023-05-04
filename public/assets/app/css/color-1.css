@@ -2,7 +2,8 @@
 /* Reset */
 html, body, table.table{background:#000000; color:#ffffff;}
 img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-background::before, iframe, .chart-container,
-.swiper-background::after, .section-03 .section-card::before, .icon-view.disable, .post-video, .checkbox-set input:checked ~ .checkmark::before{filter:grayscale(1)!important;}
+.swiper-background::after, .section-03 .section-card::before, .icon-view.disable, .post-video, .checkbox-set input:checked ~ .checkmark::before,
+.checkbox-set input:checked ~ .checkmark.background-02::before, .ss-list.style-04.theme-01 > li:hover::after{filter:grayscale(1)!important;}
 
 /* Colors */
 .color-p, 
@@ -43,6 +44,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .bg-white-theme{background:#ffffff!important; color:#000000!important;}
 .bg-white-theme-02{background:#ffffff!important;}
 .bg-black-theme{background:#000000!important; color:#ffffff!important;}
+.bg-gray-theme{background:#dddddd!important;}
 
 .bcolor-p, 
 .bcolor-s, 
@@ -93,7 +95,8 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-26, .btn.btn-26:focus,
 .btn.btn-29, .btn.btn-29:focus,
 .btn.btn-30, .btn.btn-30:focus,
-.btn.btn-31, .btn.btn-31:focus{background:#000000; color:#ffffff;}
+.btn.btn-31, .btn.btn-31:focus,
+.btn.btn-34, .btn.btn-34:focus{background:#000000; color:#ffffff;}
 .btn.btn-08, .btn.btn-08:focus{border-color:#ffffff; color:#ffffff;}
 .btn.btn-19, .btn.btn-19:focus{color:#000000; border-color:#000000;}
 .btn.btn-19:hover{background:#000000; border-color:#000000; color:#ffffff!important;}
@@ -101,7 +104,12 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-26.theme-03:hover, .btn.btn-26.theme-03.active{background:#ffffff; border-color:#ffffff; color:#000000;}
 .btn.btn-27, .btn.btn-27:focus{color:#ffffff; background:transparent; border-color:#ffffff;}
 .btn.btn-27:hover{background:#ffffff; color:#000000;}
-.btn.btn-36.white-theme, .btn.btn-36.white-theme:focus{background:#ffffff; color:#000000;}
+.btn.btn-30.white-theme, .btn.btn-30.white-theme:focus,
+.btn.btn-35.white-theme, .btn.btn-35.white-theme:focus,
+.btn.btn-36.white-theme, .btn.btn-36.white-theme:focus{background:#ffffff!important; color:#000000;}
+.btn.btn-36.black-theme, .btn.btn-36.black-theme:focus{background:#000000; color:#ffffff;}
+.btn.btn-37.white-theme, .btn.btn-37.white-theme:focus{background:#dddddd; color:#000000;}
+.btn.btn-37.black-theme, .btn.btn-37.black-theme:focus{background:#dddddd; color:#000000;}
 .btn.btn-29.active{background:#dddddd; color:#000000;}
 
 .btn.btn-02.btn-white-theme, .btn.btn-02:focus.btn-white-theme,
@@ -433,6 +441,7 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .checkbox-set > .checkmark{border-color:#ffffff;}
 .checkbox-set input:checked ~ .checkmark{background:#000000;}
 .checkbox-set .bg-color.white-theme{background:#ffffff!important;}
+.checkbox-set .bg-color.black-theme{background:#dddddd!important;}
 
 /* Content Found - Search Pages */
 .content-found .icon{color:#ffffff;}
@@ -519,6 +528,9 @@ nav.footer-single-page .social-list .icon:hover{background:#ffffff; color:#00000
 .form-check-container-03 .checkmark{background:#ffffff;}
 .form-check-container-03  input:checked ~ .checkmark{background:#ffffff!important;}
 .form-check-container-03 .checkmark:after{border-color:#000000;}
+.form-check-container-03.black-theme .checkmark{background:#dddddd;}
+.form-check-container-03.black-theme input:checked ~ .checkmark{background:#000000!important;}
+.form-check-container-03.black-theme .checkmark:after{border-color:#ffffff;}
 
 /* Theme A */
 .form-check-container-03.theme-01 .checkmark{background:#dddddd;}
@@ -583,7 +595,7 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 /* Faq 08 */
 .faq-08 .faq > .question{background:#000000; color:#ffffff;}
 .faq-08 .faq > .answer .content{border-color:#000000;}
-.faq-08 .faq.active .options .btn{border-color:#ffffff!important;}
+.faq-08 .faq.active .options .btn{border-color:#ffffff!important; color:#ffffff;}
 
 /* Faq 09 */
 .faq-09 .faq > .question{border-color:#000000;}
@@ -685,6 +697,8 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 .popup-container.theme-01 .box-body{background:#000000;}
 .popup-container.theme-01 .close-icon{color:#000000; background:#ffffff;}
 .popup-container.theme-01 .close-icon:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
+
+body.minisite .popup-container.size-03 .popup-header{background:#ffffff; color:#000000;}
 
 
 /* Table */

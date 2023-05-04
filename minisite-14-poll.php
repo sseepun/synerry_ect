@@ -56,7 +56,7 @@
                               <div class="checkbox-set none size-02">
                                 <input type="radio" name="radio" id="radio_0" checked="">
                                 <label for="radio_0" class="checkmark background-02">
-                                  <div class="bg-color size-02 white-theme"></div>
+                                  <div class="bg-color size-02 black-theme"></div>
                                 </label>
                                 <span for="radio_0" class="p sm ml-2">ขนาดเว็บไซต์ไม่พอดีกับหน้าจอ</span>
                               </div>
@@ -65,7 +65,7 @@
                               <div class="checkbox-set none size-02">
                                 <input type="radio" name="radio" id="radio_1">
                                 <label for="radio_1" class="checkmark background-02">
-                                  <div class="bg-color size-02 white-theme"></div>
+                                  <div class="bg-color size-02 black-theme"></div>
                                 </label>
                                 <span class="p sm ml-2">หาข้อมูลไม่พบหรือพบยาก</span>
                               </div>
@@ -74,7 +74,7 @@
                               <div class="checkbox-set none size-02">
                                 <input type="radio" name="radio" id="radio_4">
                                 <label for="radio_4" class="checkmark background-02">
-                                  <div class="bg-color size-02 white-theme"></div>
+                                  <div class="bg-color size-02 black-theme"></div>
                                 </label>
                                 <span class="p sm ml-2">เว็บไซต์รกเกินไป</span>
                               </div>
@@ -83,7 +83,7 @@
                               <div class="checkbox-set none size-02">
                                 <input type="radio" name="radio" id="radio_2">
                                 <label for="radio_2" class="checkmark background-02">
-                                 <div class="bg-color size-02 white-theme"></div>
+                                 <div class="bg-color size-02 black-theme"></div>
                                 </label>
                                 <span class="p sm ml-2">เว็บไซต์ทำงานไม่สมบูรณ์</span> 
                               </div>
@@ -92,7 +92,7 @@
                               <div class="checkbox-set none size-02">
                                 <input type="radio" name="radio" id="radio_3">
                                 <label for="radio_3" class="checkmark background-02">
-                                 <div class="bg-color size-02 white-theme"></div>
+                                 <div class="bg-color size-02 black-theme"></div>
                                 </label>
                                 <span class="p sm ml-2">เว็บไซต์ทำงานช้า</span>
                               </div>

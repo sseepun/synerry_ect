@@ -65,7 +65,7 @@
                       </p>
                     </div>
                     <div class="button-container">
-                      <a href="#" class="btn size-05 btn-action btn-13 c-btn c-btn--animate-left-right">
+                      <a href="#" class="btn size-05 btn-action btn-30 c-btn c-btn--animate-left-right">
                         <div class="c-wrapper">
                           <span>อ่านเพิ่ม</span> 
                           <span class="c-icon pl-2">

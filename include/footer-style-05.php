@@ -8,7 +8,7 @@
 <nav class="footer style-08 p-0">
   <div class="container">
     <div class="text-intro bcolor-black" data-aos="fade-up" data-aos-delay="0">
-      <h3 class="text-center fw-500">ทุกเสียง คือพลัง ร่วมกันใช้สิทธิ์</h3>
+      <h3 class="text-center main-title fw-500">ทุกเสียง คือพลัง ร่วมกันใช้สิทธิ์</h3>
     </div>
     <div class="text-center" data-aos="fade-up" data-aos-delay="150">
       <p class="h6 fw-500">สำนักงานคณะกรรมการเลือกตั้งจังหวัดเชียงใหม่</p>

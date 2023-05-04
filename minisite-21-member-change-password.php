@@ -16,7 +16,7 @@
     <div class="main-header" data-aos="fade-in" data-aos-delay="0">
       <a class="main-header-menu" href="./01-home-01.php">
         <div class="icon">
-          <img src="public/assets/app/images/icon/office-02.png" alt="Icon">
+          <img src="public/assets/app/images/icon-svg/homepage-white.svg" alt="Icon">
         </div>
         <p class="sm header-title fw-400 ml-1 mr-1">ไปที่หน้าหลักของเว็บไซต์</p>
         <div class="icon title-arrow">
@@ -121,10 +121,10 @@
                 <div class="grid xl-100 lg-100 md-100 sm-100">
                   <div class="padding-style-01">
                     <div class="btns pl-1 pl-unset-xs">
-                      <button type="submit" href="#" class="btn btn-action btn-36 btn-black-theme size-03">
+                      <button type="submit" href="#" class="btn btn-action white-theme btn-36 size-03">
                         บันทึก
                       </button>
-                      <button type="cancel" href="#" class="btn btn-action btn-37 size-03">
+                      <button type="cancel" href="#" class="btn btn-action white-theme btn-37 size-03">
                         ยกเลิก
                       </button>
                     </div>

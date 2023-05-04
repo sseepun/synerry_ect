@@ -1947,6 +1947,8 @@ table.table.style-05 .title-container{padding:.5625rem 1rem;}
 table.table.style-05 .title-container > .title{-webkit-line-clamp:2;}
 
 table.table.style-05.table-download .download-card{height:6.125rem; width:4.5rem;}
+table.table.style-05.size-02.table-download .download-card{height:4.75rem; width:4.5rem;}
+
 table.table.style-05 .table-card .icon > em{color:#30906a;}
 table.table.style-05 .table-card .icon > p{color:#666666;}
 
@@ -2512,7 +2514,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-12 .text-container{border-bottom:1px solid transparent; padding-bottom:1rem;}
 .ss-card-12 .text-container > .title{-webkit-line-clamp:2;}
 .ss-card-12 .text-container > .title.style-02{-webkit-line-clamp:3;}
-.ss-card-12 .card-footer > .wrapper{display:flex; align-items:center;}
+.ss-card-12 .card-footer > .wrapper{display:flex; align-items:center; flex-wrap:wrap;}
 .ss-card-12 .card-footer > .wrapper .icon{display:flex; align-items:center; margin-right:1rem;}
 .ss-card-12 .card-footer > .wrapper .icon > em{font-size:.8125rem;}
 .ss-card-12.style-02 .card-footer > .wrapper .icon{margin-right:.5rem;}

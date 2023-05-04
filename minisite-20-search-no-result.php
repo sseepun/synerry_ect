@@ -192,10 +192,10 @@
                           </div>
                           <div class="grid sm-100">
                             <div class="btns">
-                              <a href="#" class="btn btn-action mw-auto btn-white-theme btn-36">
+                              <a href="#" class="btn btn-action mw-auto black-theme btn-36">
                                 ค้นหาขั้นสูง
                               </a>
-                              <a href="#" class="btn btn-action mw-auto btn-white-theme btn-37">
+                              <a href="#" class="btn btn-action mw-auto black-theme btn-37">
                                 ล้างข้อมูลใหม่
                               </a>
                             </div> 

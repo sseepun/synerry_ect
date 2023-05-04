@@ -88,7 +88,7 @@
                     </div>
                     <div class="search-btn-container">
                       <div class="btns jc-end">
-                        <div class="btn style-03 btn-action btn-35 size-03 btn-black-theme pos-relative">
+                        <div class="btn style-03 btn-action btn-35 size-03 white-theme pos-relative">
                           อัปโหลดรูปภาพ
                           <input type="file" class="file-upload">
                         </div>
@@ -188,10 +188,10 @@
                 <div class="grid xl-100 lg-100 md-100 sm-100">
                   <div class="padding-style-04">
                     <div class="btns mt-2 jc-center pl-unset-xs h-full">
-                      <button type="submit" class="btn btn-action btn-popup-toggle btn-36" data-popup="99">
+                      <button type="submit" class="btn btn-action btn-popup-toggle btn-36 white-theme" data-popup="99">
                         บันทึก
                       </button>
-                      <div href="#" class="btn btn-action btn-37">
+                      <div href="#" class="btn btn-action btn-37 white-theme">
                         ยกเลิก
                       </div>
                     </div>

@@ -77,7 +77,7 @@
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
-              <div class="ss-box-content size-02 p-4">
+              <div class="ss-box-content p-4">
                 <div class="grids jc-center">
                   <div class="grid lg-100 md-100 sm-100">
                     <a class="ss-card ss-card-07 style-03" href="#">
@@ -188,9 +188,9 @@
                   <em class="fa-solid fa-ellipsis"></em>
                 </div> 
               </div> 
-              <div class="ss-box-content size-02 p-4">
+              <div class="ss-box-content p-4">
                 <div class="scroll-x-wrapper">
-                <table class="table table-download style-05">
+                <table class="table table-download style-05 size-02 bg-black-theme">
                   <tbody>
                     <?php
                       foreach([
@@ -199,7 +199,7 @@
                     ?>
                       <tr class="box-shadow style-02 mb-2">
                         <td>
-                          <div class="download-card">
+                          <div class="download-card bg-gray-theme">
                             <img src="public/assets/app/images/icon-svg/<?= $k ?>.svg" alt="Image File">
                           </div>
                         </td>

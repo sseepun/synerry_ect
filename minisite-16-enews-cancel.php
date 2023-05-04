@@ -45,7 +45,7 @@
                   </div>
                   <div class="grid lg-50 md-50 sm-100">
                     <div class="btns ai-center">
-                      <button type="cancel" href="#" class="btn btn-popup-toggle btn-white-theme btn-action btn-36" data-popup="99">
+                      <button type="cancel" href="#" class="btn btn-popup-toggle black-theme btn-action btn-36" data-popup="99">
                         ยกเลิกรับข่าวสาร
                       </button>
                     </div>

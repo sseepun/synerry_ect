@@ -39,28 +39,28 @@
                 <label class="fw-500">กรุณาเลือกประเภทของข่าวสารที่คุณมีความสนใจในการติดตาม</label>
                 <div class="grids">
                   <div class="grid md-1-3 sm-50 mt-3">
-                    <label class="form-check style-03 ai-center form-check-container-03">
+                    <label class="form-check style-03 ai-center form-check-container-03 black-theme">
                       <input type="checkbox" class="form-check-input" onclick="myFunction()">
                       <span class="checkmark"></span>
                       <p class="ml-2 fw-400">วารสารออนไลน์</p>
                     </label>
                   </div>
                   <div class="grid md-1-3 sm-50 mt-3">
-                    <label class="form-check style-03 ai-center form-check-container-03">
+                    <label class="form-check style-03 ai-center form-check-container-03 black-theme">
                       <input type="checkbox" class="form-check-input" onclick="myFunction()">
                       <span class="checkmark"></span>
                       <p class="ml-2 fw-400">ข่าวประชาสัมพันธ์</p>
                     </label>
                   </div>
                   <div class="grid md-1-3 sm-50 mt-3">
-                    <label class="form-check style-03 ai-center form-check-container-03">
+                    <label class="form-check style-03 ai-center form-check-container-03 black-theme">
                       <input type="checkbox" class="form-check-input">
                       <span class="checkmark"></span>
                       <p class="ml-2 fw-400">ข่าวรับสมัครทรัพยากร</p>
                     </label>
                   </div>
                   <div class="grid sm-100 mt-3">
-                    <label class="form-check style-03 ai-center form-check-container-03">
+                    <label class="form-check style-03 ai-center form-check-container-03 black-theme">
                       <input type="checkbox" class="form-check-input">
                       <span class="checkmark"></span>
                       <p class="ml-2 fw-400">ข่าวการจัดซื้อจัดจ้าง</p>
@@ -68,21 +68,21 @@
                     <div class="pl-6">
                       <div class="grids">
                         <div class="grid sm-100 mt-2">
-                          <label class="form-check style-03 ai-center form-check-container-03">
+                          <label class="form-check style-03 ai-center form-check-container-03 black-theme">
                             <input type="checkbox" class="form-check-input">
                             <span class="checkmark"></span>
                             <p class="ml-2 fw-400">การเปิดเผยราคากลาง</p>
                           </label>
                         </div>
                         <div class="grid sm-100 mt-2">
-                          <label class="form-check style-03 ai-center form-check-container-03">
+                          <label class="form-check style-03 ai-center form-check-container-03 black-theme">
                             <input type="checkbox" class="form-check-input">
                             <span class="checkmark"></span>
                             <p class="ml-2 fw-400">แผน-ผลการจัดซื้อจัดจ้าง</p>
                           </label>
                         </div>
                         <div class="grid sm-100 mt-2">
-                          <label class="form-check style-03 ai-center form-check-container-03">
+                          <label class="form-check style-03 ai-center form-check-container-03 black-theme">
                               <input type="checkbox" class="form-check-input">
                               <span class="checkmark"></span>
                               <p class="ml-2 fw-400">สรุปผลการดำเนินการจัดซื้อจัดจ้าง (สขร.1)</p>
@@ -102,10 +102,10 @@
                   </div>
                   <div class="grid lg-50 md-50 sm-100">
                     <div class="btns ai-center jc-end">
-                      <button type="submit" class="btn btn-popup-toggle btn-action btn-36 size-03" data-popup="99">
+                      <button type="submit" class="btn btn-popup-toggle btn-action btn-36 black-theme size-03" data-popup="99">
                         สมัครรับข่าวสาร
                       </button>
-                      <button type="cancel" href="#" class="btn btn-white-theme btn-action btn-37 size-03">
+                      <button type="cancel" href="#" class="btn btn-action btn-37 black-theme size-03">
                         ยกเลิก
                       </button>
                     </div>

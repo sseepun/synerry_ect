@@ -187,7 +187,7 @@
                       <div class="ss-card ss-card-32 mini-site">
                         <div class="wrapper box-shadow style-02">
                           <div class="icon">
-                            <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                            <img src="public/assets/app/images/file/svg/pdf.svg" alt="Image File" />
                           </div>
                           <div class="text-container">
                             <p class="title lh-sm fw-500">
@@ -210,13 +210,13 @@
                       <div class="grids no-gap">
                         <div class="grid sm-50 xs-50 mt-0">
                           <div class="pr-1">
-                            <button type="submit" class="btn btn-white-theme btn-popup-toggle btn-action width-full mw-auto btn-36" data-popup="99">
+                            <button type="submit" class="btn black-theme btn-popup-toggle btn-action width-full mw-auto btn-36" data-popup="99">
                               ส่งข้อความ
                             </button>
                           </div>
                         </div>
                         <div class="grid sm-50 xs-50 mt-0">
-                          <button type="cancel" href="#" class="btn btn-white-theme btn-action width-full mw-auto btn-37">
+                          <button type="cancel" href="#" class="btn black-theme btn-action width-full mw-auto btn-37">
                             ยกเลิก
                           </button>
                         </div>

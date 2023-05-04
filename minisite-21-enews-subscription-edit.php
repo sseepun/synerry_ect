@@ -166,10 +166,10 @@
                     </div>
                     <div class="grid xl-100 lg-100 md-100 sm-100">
                       <div class="btns mt-2 jc-center pl-unset-xs h-full">
-                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action btn-36" data-popup="99">
+                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action white-theme btn-36" data-popup="99">
                           บันทึก
                         </button>
-                        <button type="cancel" href="#" class="btn btn-action btn-37">
+                        <button type="cancel" href="#" class="btn btn-action white-theme btn-37">
                           ยกเลิก
                         </button>
                       </div>

@@ -106,47 +106,47 @@
                     <h6 class="color-02 color-black-theme fw-500">ตัวกรองชั้นสูง</h6>
                     <p class="color-02 color-black-theme fw-400 mt-3 mb-1">ประเภทข้อมูล</p>  
                     <div class="pl-3">
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ข่าวประชาสัมพันธ์</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">คลังภาพ</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">วิดีโอ</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">หนังสืออิเล็กทรอนิกส์</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">เอกสารดาวน์โหลด</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ประกาศรับสมัครงาน</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ถาม-ตอบ</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">เนื้อหาเว็บไซต์</p>
                       </label>
-                      <label class="form-check style-03 ai-center form-check-container-03 theme-02">
+                      <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
                         <span class="checkmark"></span>
                         <p class="ml-3 fw-400">ทั้งหมด</p>
@@ -193,10 +193,10 @@
                           </div>
                           <div class="grid sm-100">
                             <div class="btns">
-                              <a href="#" class="btn btn-action btn-white-theme mw-auto btn-36">
+                              <a href="#" class="btn btn-action black-theme mw-auto btn-36">
                                 ค้นหาขั้นสูง
                               </a>
-                              <a href="#" class="btn btn-action mw-auto btn-white-theme btn-37">
+                              <a href="#" class="btn btn-action mw-auto black-theme btn-37">
                                 ล้างข้อมูลใหม่
                               </a>
                             </div> 
@@ -250,7 +250,7 @@
                 <span>ค้นพบ <span class="color-04 color-black-theme fw-600">200</span> รายการ</span></span>
               </div>
               <?php foreach($informations as $d) {?>
-                <div class="ss-card ss-card-66 fling mt-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="ss-card ss-card-66 color-black-theme mt-6" data-aos="fade-up" data-aos-delay="300">
                   <div class="wrapper">
                     <div class="img-container">
                       <div class="ss-img">
@@ -284,7 +284,7 @@
                         </p>
                         <div class="link-footer c-btn c-btn--animate-left-right">
                           <div class="c-wrapper">
-                            <span class="text color-05 fw-500 border-bottom bcolor-05 lh-sm">อ่านเพิ่ม</span>
+                            <span class="text color-05 fw-500 color-black-theme bcolor-black-theme border-bottom bcolor-05 lh-sm">อ่านเพิ่ม</span>
                             <span class="c-icon pl-2">
                               <em class="fa-solid fa-arrow-right"></em>
                             </span>
