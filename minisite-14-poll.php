@@ -271,9 +271,6 @@
                               <button class="btn btn-action btn-13 btn-black-theme btn-popup-toggle" data-popup="99">
                                 โหวต
                               </button>
-                              <button type="submit" class="btn btn-action btn-03 btn-black-theme">
-                                ผลโหวต
-                              </button>
                             </div>
                           </form>
                         </div>
