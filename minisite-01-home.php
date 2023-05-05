@@ -16,15 +16,15 @@
       <div class="swiper-wrapper">
         <?php for($i=0; $i<3; $i++){?>
           <div class="swiper-slide size-02">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/29.jpg');"></div>
+            <div id="mainBanner0<?php echo $i+1 ?>" class="img-bg" style="background-image:url('public/assets/app/images/bg/banner-main-theme-01.jpg');"></div>
             <div class="hero size-02 animate" style="--delay:.55s;">
               <img src="public/assets/app/images/hero/06.png" class="Hero" />
             </div>
             <div class="container">
               <div class="quote-container style-02 animate" style="--delay:.4s;">
                 <div class="wrapper">
-                  <h1 class="color-black-theme lh-2xs fw-600">เลือกตั้ง อบต.</h1>
-                  <p class="h6 color-black-theme lh-xs fw-400">
+                  <h1 class="color-black-theme color-white lh-2xs fw-600">เลือกตั้ง อบต.</h1>
+                  <p class="h6 color-black-theme color-white lh-xs fw-400">
                     เลือกตั้งสมาชิกสภาองค์การบริหารส่วนตำบล<br>และนายกองค์การบริหารส่วนตำบล
                   </p>
                 </div>
@@ -293,7 +293,7 @@
       ],
     ];
   ?>
-  <section class="section-16 section-padding bg-11">
+  <section id="backgroundColor" class="section-16 section-padding bg-11">
     <div class="pattern style-01">
       <div class="wrapper">
         <img src="public/assets/app/images/pattern/05.png" alt="Hero">
@@ -397,7 +397,7 @@
     </div>
     <div class="container pos-relative" style="z-index:3;">
       <div class="ss-card ss-card-42" data-aos="fade-up" data-aos-delay="0">
-        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/51.jpg');"></div>
+        <div id="subBanner" class="img-bg" style="background-image:url('public/assets/app/images/bg/51.jpg');"></div>
         <div class="wrapper h-full">
           <div class="text-container">
             <h3 class="color-white fw-500 lh-xs md-no-br">
@@ -522,6 +522,50 @@
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
   <script>
+    
+    const mainBanner01 = document.getElementById('mainBanner01');
+    const mainBanner02 = document.getElementById('mainBanner02');
+    const mainBanner03 = document.getElementById('mainBanner03');
+    const subBanner = document.getElementById('subBanner');
+    const backgroundColor = document.getElementById('backgroundColor');
+
+    const theme01 = $('.theme-btn-3');
+    const theme02 = $('.theme-btn-4');
+    const theme03 = $('.theme-btn-5');
+    const theme04 = $('.theme-btn-6');
+
+    theme01.click(function(e){
+      mainBanner01.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-01.jpg')";
+      mainBanner02.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-01.jpg')";
+      mainBanner03.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-01.jpg')";
+      backgroundColor.style.backgroundColor = "#ded7d5";
+    });
+    theme02.click(function(e){
+      mainBanner01.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-02.jpg')";
+      mainBanner02.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-02.jpg')";
+      mainBanner03.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-02.jpg')";
+      subBanner.style.backgroundImage = "url('public/assets/app/images/bg/banner-sub-theme-02.jpg')";
+      backgroundColor.classList.remove('bg-11');
+      backgroundColor.style.backgroundColor = "#ceced1";
+    });
+    theme03.click(function(e){
+      mainBanner01.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-03.jpg')";
+      mainBanner02.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-03.jpg')";
+      mainBanner03.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-03.jpg')";
+      subBanner.style.backgroundImage = "url('public/assets/app/images/bg/banner-sub-theme-03.jpg')";
+      backgroundColor.classList.remove('bg-11');
+      backgroundColor.style.backgroundColor = "#fae3db";
+    });
+    theme04.click(function(e){
+      mainBanner01.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-04.jpg')";
+      mainBanner02.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-04.jpg')";
+      mainBanner03.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-04.jpg')";
+      subBanner.style.backgroundImage = "url('public/assets/app/images/bg/banner-sub-theme-04.jpg')";
+      backgroundColor.classList.remove('bg-11');
+      backgroundColor.style.backgroundColor = "#e7e7e7";
+    });
+
+
     let slideIndex = 1;
     showSlides(slideIndex);
 

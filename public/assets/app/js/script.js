@@ -143,13 +143,14 @@ $(function(){ 'use strict';
         e.preventDefault();
         var self = $(this);
         $('#css-theme').attr('href', 'public/assets/app/css/color-'+$(this).data('theme')+'.css');
-        $('body').removeClass('theme-0 theme-1 theme-2');
+        $('body').removeClass('theme-0 theme-1 theme-2 theme-3 theme-4 theme-5');
         $('body').addClass('theme-'+self.data('theme'));
 
         if(self.hasClass('option-row')){
             themeBtns.removeClass('active');
             self.addClass('active');
         }
+        
     });
 
     // Letter Spacing

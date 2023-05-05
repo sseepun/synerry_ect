@@ -118,20 +118,24 @@
                   <a class="ss-card ss-card-60" href="#" data-aos="fade-up" data-aos-delay="300">
                     <div class="ss-img">
                       <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
-                      <div class="btn-play">
+                      <div class="btn-video">
                         <div class="img-container">
-                          <img class="inactive" src="public/assets/app/images/icon/btn-play-inactive.png" alt="Icon Inactive">
-                          <img class="active" src="public/assets/app/images/icon/btn-play-active.png" alt="Icon active">
+                          <img src="public/assets/app/images/icon-svg/play-square.svg" alt="Video Icon">
                         </div>
                       </div>
-                      <div class="filter style-02">
+                      <div class="btn-scale">
+                        <div class="btn btn-action style-06 btn-27">
+                          <em class="fa-solid fa-arrow-right"></em>
+                        </div>
+                      </div>
+                      <div class="filter-04">
                         <div class="wrapper">
                           <div class="icon op-0">
                             <img src="public/assets/app/images/icon/51.png" alt="Icon">
                           </div>
                         </div>
                       </div>
-                      <div class="card-line style-01"></div>
+                      <div class="card-line style-01 size-02"></div>
                     </div>
                     <div class="text-container">
                       <p class="title fw-400 lh-sm mt-2 color-black-theme">

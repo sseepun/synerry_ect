@@ -1872,12 +1872,15 @@
   position:relative; width:100%; height:100%; min-height:12.5rem; padding:1.5rem 0 1rem 0;
   display:flex; align-items:flex-end;
 }
-.breadcrumb-02 .top .title{line-height:4.5;}
+.breadcrumb-02 .top .title{min-height:11rem; padding-top:3.5rem;}
 .breadcrumb-02 .top  .title-link{position:relative;}
 .breadcrumb-02 .top .title-link > span{-webkit-line-clamp:1;}
 .breadcrumb-02 .top  .title-link:not(.title-link:last-child) > span{border-bottom:0!important;}
 .breadcrumb-02 .top .title-link:not(:first-child)::before{
   content:":"; margin:0 1rem 0 1rem;
+}
+@media screen and (max-width:333.98px){
+  /* .breadcrumb-02 .top .title{line-height:1;} */
 }
 
 .breadcrumb-02 .top > .img-bg{

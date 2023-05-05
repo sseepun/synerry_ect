@@ -131,8 +131,7 @@
                   </div>
               </div>
             <?php }?>
-            <?php for($i=0; $i<2; $i++){?>
-              <div class="faq style-02">
+            <div class="faq style-02">
               <div class="question box-shadow style-02">
                 <h3 class="ftag">
                   <div class="icon">
@@ -145,13 +144,31 @@
                 </p>
                 <div class="chevron-wrapper">
                   <div class="icon">
-                    <img class="inactive" src="public/assets/app/images/icon/53.png" alt="Icon Inactive">
-                    <img class="active" src="public/assets/app/images/icon/54.png" alt="Icon Inactive">
+                    <img id="imgInactive" class="inactive" src="public/assets/app/images/icon/53.png" alt="Icon Inactive">
+                    <img id="imgActive" class="active" src="public/assets/app/images/icon/54.png" alt="Icon Inactive">
                   </div>
                 </div>
               </div>  
             </div>
-            <?php }?>
+            <div class="faq style-02">
+              <div class="question box-shadow style-02">
+                <h3 class="ftag">
+                  <div class="icon">
+                    <img src="public/assets/app/images/icon-svg/document-link.svg" alt="">
+                  </div>
+                </h3>
+                <p class="title sm lh-sm fw-500">
+                  ประกวดราคาจ้างผลิตสื่อสิ่งพิมพ์ประกอบการเสริมสร้างความรู้ความเข้าใจที่ถูกต้องเกี่ยวกับการปกครองในระบอบประชาธิปไตย 
+                  จำนวน 4 รายการ ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-bidding) 
+                </p>
+                <div class="chevron-wrapper">
+                  <div class="icon">
+                    <img id="imgInactive02" class="inactive" src="public/assets/app/images/icon/53.png" alt="Icon Inactive">
+                    <img id="imgActive02" class="active" src="public/assets/app/images/icon/54.png" alt="Icon Inactive">
+                  </div>
+                </div>
+              </div>  
+            </div>                       
           </div>
           <div class="mt-6 pt-4 mb-6">
             <?php
@@ -175,6 +192,36 @@
   <?php include_once('include/script.php'); ?>
   
   <script>
+
+    const theme01 = $('.theme-btn-3');
+    const theme02 = $('.theme-btn-4');
+    const theme03 = $('.theme-btn-5');
+    const theme04 = $('.theme-btn-6');
+    theme01.click(function(e){
+      document.getElementById("imgInactive").src = 'public/assets/app/images/icon/53.png';
+      document.getElementById("imgActive").src = 'public/assets/app/images/icon/54.png';
+      document.getElementById("imgInactive02").src = 'public/assets/app/images/icon/53.png';
+      document.getElementById("imgActive02").src = 'public/assets/app/images/icon/54.png';
+    });
+    theme02.click(function(e){
+      document.getElementById("imgInactive").src = 'public/assets/app/images/icon/external-link-inactive-theme-02.png';
+      document.getElementById("imgActive").src = 'public/assets/app/images/icon/external-link-active-theme-02.png';
+      document.getElementById("imgInactive02").src = 'public/assets/app/images/icon/external-link-inactive-theme-02.png';
+      document.getElementById("imgActive02").src = 'public/assets/app/images/icon/external-link-active-theme-02.png';
+    });
+    theme03.click(function(e){
+      document.getElementById("imgInactive").src = 'public/assets/app/images/icon/external-link-inactive-theme-03.png';
+      document.getElementById("imgActive").src = 'public/assets/app/images/icon/external-link-active-theme-03.png';
+      document.getElementById("imgInactive02").src = 'public/assets/app/images/icon/external-link-inactive-theme-03.png';
+      document.getElementById("imgActive02").src = 'public/assets/app/images/icon/external-link-active-theme-03.png';
+    });
+    theme04.click(function(e){
+      document.getElementById("imgInactive").src = 'public/assets/app/images/icon/external-link-inactive-theme-04.png';
+      document.getElementById("imgActive").src = 'public/assets/app/images/icon/external-link-active-theme-04.png';
+      document.getElementById("imgInactive02").src = 'public/assets/app/images/icon/external-link-inactive-theme-04.png';
+      document.getElementById("imgActive02").src = 'public/assets/app/images/icon/external-link-active-theme-04.png';
+    });
+
     var faqAll = $('.faq');
     var faqExpandAll = $('.faq-expand-all'),
         faqCollapseAll = $('.faq-collapse-all');
@@ -192,6 +239,8 @@
         faqAll.removeClass('active');
         faqAll.find('> .answer').slideUp();
     });
+
+   
   </script>
 </body>
 </html>

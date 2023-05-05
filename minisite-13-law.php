@@ -43,7 +43,7 @@
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
               กฎหมายการเลือกตั้ง
             </h3>
-            <a href="#" class="btn width-auto btn-action btn-25">
+            <a href="#" class="btn width-auto btn-action btn-31">
               ดาวน์โหลดทั้งหมด
             </a>
           </div>

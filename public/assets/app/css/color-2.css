@@ -4,7 +4,8 @@ html, body{background:#000000;}
 html, body, a, a:hover, table.table{color:#fecb00;}
 img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, iframe, .chart-container,
 .swiper-background::before, .swiper-background::after, .section-03 .section-card::before,.icon-view.disable,.checkbox-set input:checked ~ .checkmark::before,
-.checkbox-set input:checked ~ .checkmark.background-02::before, .ss-list.style-04.theme-01 > li:hover::after{filter: grayscale(1)!important;}
+.checkbox-set input:checked ~ .checkmark.background-02::before, .ss-list.style-04.theme-01 > li:hover::after,
+.post-video{filter: grayscale(1)!important;}
 
 /* Colors */
 /* Colors */
