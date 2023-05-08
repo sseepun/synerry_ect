@@ -679,10 +679,16 @@ body.minisite .form-check-container-02 .checkmark{background:#ffffff; border-col
 .faq-09 .faq > .question .chevron-wrapper{color:#56abcc;}
 .faq-09 .faq.active > .question .chevron-wrapper{background:#ea6b49; color:#ffffff;}
 .faq-09 .faq > .answer .content{border-color:#56abcc;}
+.faq-09 .faq > .question .ftag > .icon svg .st0{fill:none!important}
+.faq-09 .faq > .question .ftag > .icon svg .st1,
+.faq-09 .faq > .question .ftag > .icon svg .st2{fill:#ffffff!important; stroke:#ffffff!important;}
 
 .faq-09 .faq.style-02.active > .question .ftag{background:#8c6961;}
 .faq-09 .faq.style-02.active > .question .title{color:#000000; background:#ffffff;}
 .faq-09 .faq.style-02.active > .question .chevron-wrapper{background:#ffffff;}
+.faq-09 .faq.style-02 > .question .chevron-wrapper > .icon svg{fill:#56abcc!important;}
+.faq-09 .faq.style-02 > .question .chevron-wrapper > .icon svg:hover,
+.faq-09 .faq.style-02 > .question .chevron-wrapper > .icon svg.active{fill:#cc5737!important;}
 
 /* Faq 10 */
 .faq-10 .faq > .question .ftag{background:#ea6b49;}
@@ -690,6 +696,7 @@ body.minisite .form-check-container-02 .checkmark{background:#ffffff; border-col
 .faq-10 .faq:hover > .question .text-container > .title{color:#468aa5;}
 .faq-10 .faq > .question .text-container > .date-view .wrapper > .icon{color:#666666;}
 .faq-10 .faq:hover > .question .button-container > .btn{background:#468aa5; border-color:#468aa5;}
+.faq-10 .faq > .question .ftag > .icon svg{fill:#ffffff!important; stroke:#ffffff!important;}
 
 /* Faq 11 */
 .faq-11 .faq > .question .ftag{background:#30906a; border-color:#f7f7f7;}
@@ -1258,7 +1265,7 @@ nav.footer-single-page.style-02 .social-list .icon{color:#ffffff;}
 .form-container-03 .option .icon-view.active{background:#ffffff;}
 .form-container-03 .option .icon-view svg{fill:#ffffff!important; stroke:#ffffff!important;}
 .form-container-03 .option .icon-view:hover svg,
-.form-container-03 .option .icon-view.active svg{fill:#30906a!important; stroke:#30906a!important;}
+.form-container-03 .option .icon-view.active svg{fill:#56abcc!important; stroke:#56abcc!important;}
 .form-container-03 .option.search .input > input::placeholder{color:#69696a!important;}
 
 /* Form Group Style 02 */

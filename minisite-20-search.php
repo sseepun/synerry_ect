@@ -239,7 +239,7 @@
               </div>
             </div>
             <div class="grid xl-75 lg-70 md-60 sm-100">
-              <form class="form search" data-aos="fade-up" data-aos-delay="0">
+              <form class="form search search-page" data-aos="fade-up" data-aos-delay="0">
                 <div class="ui icon input">
                   <input class="size-02 bg-gray" id="search" type="search" placeholder="ค้นหา">
                   <em class="icon size-02 style-03 fa-solid fa-magnifying-glass"></em>
@@ -310,20 +310,18 @@
               <?php }?>
             </div> 
           </div>
+          <div class="mt-6 pt-4 mb-6">
+            <?php
+              $listFooter = ['total', 'paginate', 'pp'];
+              $style = 'style-02';
+              include('component/list-footer.php');
+            ?>
+          </div>
         </div> 
       </div>
     </div>
   </section>
 
-  <div class="container">
-    <div class="mt-6 pt-4 mb-6">
-      <?php
-        $listFooter = ['total', 'paginate', 'pp'];
-        $style = 'style-02';
-        include('component/list-footer.php');
-      ?>
-    </div>
-  </div>
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>

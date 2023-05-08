@@ -87,14 +87,14 @@
               </div>
             </div>
           </div>
+          <div class="mt-6 pt-4">
+            <?php
+              $listFooter = ['total', 'paginate', 'pp'];
+              $style = 'style-02';
+              include('component/list-footer.php');
+            ?>
+          </div>
         </div>
-      </div>
-      <div class="mt-6 pt-4">
-        <?php
-          $listFooter = ['total', 'paginate', 'pp'];
-          $style = 'style-02';
-          include('component/list-footer.php');
-        ?>
       </div>
     </div>
   </section>
