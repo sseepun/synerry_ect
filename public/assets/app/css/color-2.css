@@ -853,9 +853,12 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 .form.style-06 .ss-sep-01 > *::before, .form.style-06 .ss-sep-01 > *::after{background:#000000;}
 
 /* Form Container 03 */
-.form-container-03 .option .icon-view{border-color:#000000;}
+.form-container-03 .option .icon-view{background:#fecb00; border-color:#000000;}
 .form-container-03 .option .icon-view:hover, 
 .form-container-03 .option .icon-view.active{background:#000000;}
+.form-container-03 .option .icon-view svg{fill:#000000!important; stroke:#000000!important;}
+.form-container-03 .option .icon-view:hover svg,
+.form-container-03 .option .icon-view.active svg{fill:#fecb00!important; stroke:#fecb00!important;}
 
 /* rc-container */
 .rc-container.style-02 > label::before{border-color:#fecb00;}

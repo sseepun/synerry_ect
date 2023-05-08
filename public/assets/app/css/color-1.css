@@ -324,6 +324,7 @@ nav.stopnav .blocks > .option .hotline > em{border-color:#000000;}
 
 nav.stopnav.style-02{border-color:#000000;}
 nav.stopnav.style-02 .option{border-color:#ffffff;}
+nav.stopnav.style-02 .blocks > .option .hotline > em{border-color:#ffffff;}
 
 nav.stopnav.style-03 .option-select > .select{background:#000000; color:#ffffff;}
 
@@ -623,9 +624,12 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 .faq-12 .faq-link > .answer .content{border-color:#ffffff;}
 
 /* Form Container 03 */
-.form-container-03 .option .icon-view{border-color:#000000;}
+.form-container-03 .option .icon-view{background:#ffffff; border-color:#000000;}
 .form-container-03 .option .icon-view:hover, 
 .form-container-03 .option .icon-view.active{background:#000000;}
+.form-container-03 .option .icon-view svg{fill:#000000!important; stroke:#000000!important;}
+.form-container-03 .option .icon-view:hover svg,
+.form-container-03 .option .icon-view.active svg{fill:#ffffff!important; stroke:#ffffff!important;}
 
 /* rc-container */
 .rc-container.style-02 > label::before{border-color:#ffffff;}

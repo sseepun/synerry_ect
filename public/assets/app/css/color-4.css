@@ -1256,6 +1256,9 @@ nav.footer-single-page.style-02 .social-list .icon{color:#ffffff;}
 .form-container-03 .option > .dropdown-icon{background:#1e5763;}
 .form-container-03 .option .icon-view:hover,
 .form-container-03 .option .icon-view.active{background:#ffffff;}
+.form-container-03 .option .icon-view svg{fill:#ffffff!important; stroke:#ffffff!important;}
+.form-container-03 .option .icon-view:hover svg,
+.form-container-03 .option .icon-view.active svg{fill:#30906a!important; stroke:#30906a!important;}
 .form-container-03 .option.search .input > input::placeholder{color:#69696a!important;}
 
 /* Form Group Style 02 */
