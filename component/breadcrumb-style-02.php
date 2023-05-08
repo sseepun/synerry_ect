@@ -98,16 +98,16 @@
                       <div class="option view">
                         <div class="wrapper-view">
                           <a class="icon-view" href="#">
-                            <img class="icon-active" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
-                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
+                            <img id="iconGridActive" class="icon-active" src="public/assets/app/images/icon-svg/grid-inactive.svg" alt="Icon">
+                            <img id="iconGridInactive" class="icon-inactive" src="public/assets/app/images/icon-svg/grid-active.svg" alt="Icon">
                           </a>
                           <a class="icon-view ml-1" href="#">
-                            <img class="icon-active" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
-                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
+                            <img id="iconListActive" class="icon-active" src="public/assets/app/images/icon-svg/list-inactive.svg" alt="Icon">
+                            <img id="iconListInactive" class="icon-inactive" src="public/assets/app/images/icon-svg/list-active.svg" alt="Icon">
                           </a>
                             <a class="icon-view ml-1" href="#">
-                            <img class="icon-active" src="public/assets/app/images/icon-svg/rss-inactive.svg" alt="Icon">
-                            <img class="icon-inactive" src="public/assets/app/images/icon-svg/rss-active.svg" alt="Icon">
+                            <img id="iconRssActive" class="icon-active" src="public/assets/app/images/icon-svg/rss-inactive.svg" alt="Icon">
+                            <img id="iconRssInactive" class="icon-inactive" src="public/assets/app/images/icon-svg/rss-active.svg" alt="Icon">
                           </a>
                         </div>
                       </div>
@@ -132,8 +132,8 @@
                         <div class="option view">
                           <div class="wrapper-view">
                             <div class="icon-view faq-expand-all cursor-pointer size-02 ml-1">
-                              <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-drag-vertical-inactive-theme-01.svg" alt="Icon">
-                              <img class="icon-active" src="public/assets/app/images/icon-svg/minisite-drag-vertical-active-theme-01.svg" alt="Icon">
+                              <img id="iconDragInactive" class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-drag-vertical-inactive-theme-01.svg" alt="Icon">
+                              <img id="iconDragActive" class="icon-active" src="public/assets/app/images/icon-svg/minisite-drag-vertical-active-theme-01.svg" alt="Icon">
                             </div>
                             <div class="icon-view faq-collapse-all cursor-pointer size-02 ml-1" href="#">
                               <img class="icon-inactive" src="public/assets/app/images/icon-svg/minisite-arrows-collapse-inactive-theme-01.svg" alt="Icon">
@@ -192,6 +192,42 @@
     </div>
   </section>
 <?php }?>
+
+<script>
+
+  const iconGridActive = document.getElementById('iconGridActive');
+  const iconGridInactive = document.getElementById('iconGridInactive');
+  const iconListActive = document.getElementById('iconListActive');
+  const iconListInactive = document.getElementById('iconListInactive');
+  const iconRssActive = document.getElementById('iconRssActive');
+  const iconRssInactive = document.getElementById('iconRssInactive');
+
+  const btnThemeBlackWhite = document.querySelector('.theme-btn-1');
+  const btnThemeBlackYellow = document.querySelector('.theme-btn-2');
+
+  function changeIconThemeBlackWhite() {
+    iconGridActive.src = 'public/assets/app/images/icon-svg/grid-white.svg';
+    iconGridInactive.src = 'public/assets/app/images/icon-svg/grid-black.svg';
+    iconListActive.src = 'public/assets/app/images/icon-svg/list-white.svg';
+    iconListInactive.src = 'public/assets/app/images/icon-svg/list-black.svg';
+    iconRssActive.src = 'public/assets/app/images/icon-svg/rss-white.svg';
+    iconRssInactive.src = 'public/assets/app/images/icon-svg/rss-black.svg';
+  }
+  
+  function changeIconThemeBlackYellow() {
+    iconGridActive.src = 'public/assets/app/images/icon-svg/grid-yellow.svg';
+    iconGridInactive.src = 'public/assets/app/images/icon-svg/grid-black.svg';
+    iconListActive.src = 'public/assets/app/images/icon-svg/list-yellow.svg';
+    iconListInactive.src = 'public/assets/app/images/icon-svg/list-black.svg';
+    iconRssActive.src = 'public/assets/app/images/icon-svg/rss-yellow.svg';
+    iconRssInactive.src = 'public/assets/app/images/icon-svg/rss-black.svg';
+  }
+
+  btnThemeBlackWhite.addEventListener("click", changeIconThemeBlackWhite);
+  btnThemeBlackYellow.addEventListener("click", changeIconThemeBlackYellow);
+ 
+
+</script>
 
 
 

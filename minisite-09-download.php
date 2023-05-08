@@ -193,10 +193,32 @@
   
   <script>
 
+    const iconDragActive = document.getElementById('iconDragActive');
+    const iconDragInactive = document.getElementById('iconDragInactive');
+    
+    const btnThemeBlackWhiteViews03 = document.querySelector('.theme-btn-1');
+    const btnThemeBlackYellowViews03 = document.querySelector('.theme-btn-2');
+
+    function changeIconThemeBlackWhiteViews03() {
+      iconDragActive.src = 'public/assets/app/images/icon-svg/drag-white.svg';
+      iconDragInactive.src = 'public/assets/app/images/icon-svg/drag-black.svg';
+    }
+
+    function changeIconThemeBlackYellowViews03() {
+      iconDragActive.src = 'public/assets/app/images/icon-svg/drag-yellow.svg';
+      iconDragInactive.src = 'public/assets/app/images/icon-svg/drag-black.svg';
+    }
+
+    btnThemeBlackWhiteViews03.removeEventListener("click", changeIconThemeBlackYellow);
+    btnThemeBlackWhiteViews03.addEventListener("click", changeIconThemeBlackWhiteViews03);
+    btnThemeBlackYellowViews03.removeEventListener("click", changeIconThemeBlackYellow);
+    btnThemeBlackYellowViews03.addEventListener("click", changeIconThemeBlackYellowViews03);
+
     const theme01 = $('.theme-btn-3');
     const theme02 = $('.theme-btn-4');
     const theme03 = $('.theme-btn-5');
     const theme04 = $('.theme-btn-6');
+
     theme01.click(function(e){
       document.getElementById("imgInactive").src = 'public/assets/app/images/icon/53.png';
       document.getElementById("imgActive").src = 'public/assets/app/images/icon/54.png';

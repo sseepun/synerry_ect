@@ -430,11 +430,9 @@
     </section>
   <?php }?>
 
- 
-
- 
-
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  
 </body>
 </html>
