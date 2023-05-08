@@ -616,7 +616,7 @@ body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 .popup-container.theme-01 .close-icon{color:#000000; background:#fecb00;}
 .popup-container.theme-01 .close-icon:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
-.popup-container.style-02 .box-body{background:#000000; color:#fecb00; border:1px solid #fecb00}
+.popup-container.style-02 .box-body{background:#000000; color:#fecb00; border:1px solid #fecb00;}
 .popup-container.style-02 .popup-box > .mark-container{background:#fecb00;}
 .popup-container.style-02 .popup-box > .mark-container .fa-check{color:#000000;}
 

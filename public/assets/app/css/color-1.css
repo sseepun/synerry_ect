@@ -724,7 +724,7 @@ body.minisite .popular-search-container .ss-tags > .tag:hover{background:#000000
 
 body.minisite .popup-container.size-03 .popup-header{background:#ffffff; color:#000000;}
 
-.popup-container.style-02 .box-body{background:#ffffff; color:#000000;}
+.popup-container.style-02 .box-body{background:#ffffff; color:#000000; border:1px solid #000000;}
 .popup-container.style-02 .popup-box > .mark-container{background:#000000;}
 
 
