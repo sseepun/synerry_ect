@@ -229,7 +229,7 @@
                             </div>
                             <div class="item">
                               <div class="btns jc-end">
-                                <div class="btn style-03 btn-action btn-13 size-03 btn-black-theme pos-relative">
+                                <div class="btn style-03 btn-action btn-36 size-03 black-theme pos-relative">
                                   เลือกไฟล์
                                   <input type="file" class="file-upload">
                                 </div>

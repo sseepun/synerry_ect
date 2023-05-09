@@ -924,7 +924,8 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 /* Form Container 01 */
 .form-container-01.form-faq .form.style-02 select{background:#fecb00!important;}
 .form-container-01.form-faq .form.style-02 select{background:#fecb00!important; color:#000000!important;}
-.form-container-01.form-faq .form.style-02 input[type=text], .form.style-02 textarea, .form.style-02 input[type=password], 
+.form-container-01.form-faq .form.style-02 input[type=text], .form-container-01.form-faq .form.style-02 textarea, 
+.form-container-01.form-faq .form.style-02 input[type=password], 
 .form-container-01.form-faq .form.style-02 input[type=email]{
   background:#fecb00!important; border-color:#e4b703!important; color:#000000!important;
 }
