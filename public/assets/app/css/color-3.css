@@ -758,6 +758,7 @@ body.minisite nav.side-panel .option:not(.btn-cursor):hover,
 body.minisite nav.side-panel .option:not(.btn-cursor).active{
   background:#56abcc; color:#ffffff; fill:#ffffff;
 }
+body.minisite nav.side-panel .icon > svg{fill:#ffffff!important;}
 
 
 /* Global Search Container */
@@ -845,8 +846,10 @@ nav.stopnav .option-select > .dropdown{background:#0ab3de; border-color:rgba(255
 nav.stopnav .option-select > .dropdown .item{border-color:rgba(255,255,255,.3);}
 nav.stopnav .option-select > .dropdown .item:hover{background:#194e84; color:#f4b510;}
 nav.stopnav .btn-social:hover{background:#2e603c; color:#fff102!important;}
+nav.stopnav .option.login > .icon svg{fill:#56abcc!important; stroke:#56abcc!important;}
+nav.stopnav .option.login > .icon svg:hover{fill:#ea6b49!important; stroke:#ea6b49!important;}
 
-nav.stopnav.minisite .btn-social{color:#7cc5b5!important;}
+nav.stopnav.minisite .btn-social{color:#56abcc!important;}
 nav.stopnav.minisite .blocks > .option .hotline{color:#000000;}
 
 nav.stopnav.minisite.style-02{border-color:#e1e1e1;}
@@ -854,10 +857,10 @@ nav.stopnav.style-02 .blocks > .option .hotline > em{border-color:#ffffff;}
 nav.stopnav.minisite.style-02 .blocks > .option .hotline > em{border-color:#56abcc; background:#56abcc; color:#ffffff;}
 nav.stopnav.style-02 .blocks > .option .hotline:hover, nav.stopnav.style-02 .blocks > .option:hover{color:#fff102;}
 nav.stopnav.minisite.style-02 .blocks > .option .hotline:hover, nav.stopnav.minisite.style-02 .blocks > .option:hover{color:#8c6961;}
-nav.stopnav.minisite.style-02 .blocks > .option .hotline:hover > em{border-color:#8c6961; background:#8c6961;}
+nav.stopnav.minisite.style-02 .blocks > .option .hotline:hover > em{border-color:#ea6b49; background:#ea6b49;}
 nav.stopnav.style-02 .blocks > .option .hotline:hover > em{border-color:#fff102;}
 nav.stopnav.style-02 .btn-social:hover{background:#2e603c; color:#fff102}
-nav.stopnav.minisite.style-02 .btn-social:hover{background:#8c6961; color:#ffffff!important;}
+nav.stopnav.minisite.style-02 .btn-social:hover{background:#ea6b49; color:#ffffff!important;}
 nav.stopnav.style-02 .option-select > .dropdown{background:#30906a;}
 nav.stopnav.style-02 .option-select > .dropdown .item:hover{background:#1c4d38; color:#fff102;}
 

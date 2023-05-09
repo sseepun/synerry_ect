@@ -760,6 +760,7 @@ body.minisite nav.side-panel .option:not(.btn-cursor):hover,
 body.minisite nav.side-panel .option:not(.btn-cursor).active{
   background:#00ce8f; color:#ffffff; fill:#ffffff;
 }
+body.minisite nav.side-panel .icon > svg{fill:#ffffff!important;}
 
 
 /* Global Search Container */

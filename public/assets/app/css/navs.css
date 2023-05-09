@@ -21,9 +21,10 @@ nav.stopnav .option:first-child{padding-left:0;}
 nav.stopnav .option:last-child{padding-right:0; border-right:0;}
 nav.stopnav .option > .icon{margin:0 .4375rem 0 0; font-size:.875rem;}
 nav.stopnav .option.login > .icon{display:flex;}
-nav.stopnav .option.login > .icon img{
+nav.stopnav .option.login > .icon img,
+nav.stopnav .option.login > .icon svg{
   position:relative; display:block; max-width:100%; max-height:100%; width:auto; height:1.25rem;
-  margin-right:.375rem; transition:opacity .25s;
+  margin-right:.375rem; transition:all .25s;
 }
 nav.stopnav .option.login > .icon img.active{position:absolute; opacity:0;}
 nav.stopnav .option.login:hover > .icon img.active{opacity:1;}
@@ -229,8 +230,9 @@ nav.topnav .mega-menu-content .mega-menu .dot-list.style-02::after{background:#f
 nav.topnav .mega-menu-content:last-child{border-right:0;}
 nav.topnav .mega-menu-content .mega-menu a{display:block; font-weight:500; transition:color .25s;}
 nav.topnav .mega-menu-content > .mega-menu .icon{margin-right:.75rem; position:relative;}
-nav.topnav .mega-menu-content > .mega-menu .icon > img{
- display:block; max-width:100%; max-height:100%; width:auto; height:1rem; transition:opacity .25s;
+nav.topnav .mega-menu-content > .mega-menu .icon > img,
+nav.topnav .mega-menu-content > .mega-menu .icon > svg{
+ display:block; max-width:100%; max-height:100%; width:auto; height:1rem; transition:all .25s;
 }
 nav.topnav .mega-menu-content > .mega-menu .icon.xs{height:.5rem;}
 nav.topnav .mega-menu-content > .mega-menu .icon > img.active{position:absolute!important; top:0; opacity:0;}
@@ -241,7 +243,8 @@ nav.topnav .blocks{display:flex; margin:0 -.875rem 0 1.5rem;}
 nav.topnav .blocks .option{
   display:flex; align-items:center; justify-content:center; height:4.25rem; padding:0 .875rem;
 }
-nav.topnav .blocks .option img{display:block; height:1.625rem; width:auto;}
+nav.topnav .blocks .option img,
+nav.topnav .blocks .option svg{display:block; height:1.625rem; width:auto;}
 nav.topnav .sidenav-toggle{position:relative;}
 nav.topnav .sidenav-toggle::before{
   content:''; position:absolute; top:0; bottom:0; left:0; width:calc(100% + 1.75rem);
@@ -293,9 +296,14 @@ nav.topnav.style-02 .submenu .dot-list{
   width:.375rem; height:.375rem; border-radius:50%; transition:background .25s; background:#000000;
 }
 nav.topnav.style-02 .submenu > .wrapper .icon{position:relative; display:flex; align-items:center; margin-right:.75rem;}
-nav.topnav.style-02 .submenu > .wrapper .icon > img{
+nav.topnav.style-02 .submenu > .wrapper .icon > img,
+nav.topnav.style-02 .submenu > .wrapper .icon > svg{
  position:relative; display:block; max-width:100%; max-height:100%; width:auto; height:1rem; transition:opacity .25s;
 }
+
+
+
+
 nav.topnav.style-02 .submenu > .wrapper .icon.xs > img{height:.5rem;}
 nav.topnav.style-02 .submenu > .wrapper .icon > img.active{position:absolute; opacity:0;}
 nav.topnav.style-02 .submenu:hover > .wrapper .icon > img.inactive{opacity:0;}
@@ -381,7 +389,7 @@ nav.sidenav .menu > *:first-child, nav.sidenav .submenu > *:first-child{
   border-bottom:1px solid transparent; transition:background .25s, color .25s;
 }
 nav.sidenav .submenu > *:first-child{padding-left:1.5rem;}
-nav.sidenav .submenu .submenu > *:first-child{padding:1.0625rem 1rem .875rem 1rem;}
+/* nav.sidenav .submenu .submenu > *:first-child{padding:1.0625rem 1rem .875rem 1rem;} */
 nav.sidenav .submenu .icon{display:none;}
 nav.sidenav .has-children > *:first-child{padding-right:4.125rem!important;}
 nav.sidenav .submenu-dropdown, nav.sidenav .submenu > .submenu-wrapper{display:none;}
@@ -479,7 +487,8 @@ nav.side-panel .icon.main .icon-active{
 }
 nav.side-panel.active .icon.main .icon-active{opacity:1;}
 nav.side-panel.active .icon.main .icon-inactive{opacity:0;}
-nav.side-panel .icon > img{display:block; height:60%; width:auto;}
+nav.side-panel .icon > img,
+nav.side-panel .icon > svg{display:block; height:60%; width:auto;}
 nav.side-panel .panel{
   position:absolute; top:0; right:-1rem; opacity:0; pointer-events:none;
   border:1px solid transparent; border-radius:.4375rem 0 0 .4375rem;

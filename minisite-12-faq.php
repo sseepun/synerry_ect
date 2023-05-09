@@ -163,7 +163,7 @@
   <div class="section">
     <div class="container">
       <!-- FORM -->
-      <div class="form-container-01 bg-black-theme box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
+      <div class="form-container-01 form-faq bg-black-theme box-shadow style-02" data-aos="fade-up" data-aos-delay="300">
         <div class="grids">
           <div class="grid xl-50 lg-1-3 md-40 sm-100 mt-0">
             <h3 class="color-white-theme fw-600">แบบฟอร์มติดต่อสอบถาม</h3>
@@ -251,7 +251,7 @@
                         </div>
                         <div class="item">
                           <div class="btns jc-end">
-                            <div class="btn style-03 btn-action btn-13 size-03 btn-black-theme pos-relative">
+                            <div class="btn style-03 btn-action btn-36 black-theme size-03 btn-black-theme pos-relative">
                               เลือกไฟล์
                               <input type="file" class="file-upload">
                             </div>
@@ -268,7 +268,7 @@
                   <div class="ss-card ss-card-32 mini-site style-02">
                     <div class="wrapper box-shadow style-02">
                       <div class="icon">
-                        <img src="public/assets/app/images/file/pdf.png" alt="Image File" />
+                        <img src="public/assets/app/images/file/svg/pdf.svg" />
                       </div>
                       <div class="text-container">
                         <p class="title lh-sm fw-400">
@@ -293,7 +293,7 @@
                     <button type="submit" href="#" class="btn btn-popup-toggle btn-action size-03 btn-13" data-popup="98">
                       ส่งข้อความ
                     </button>
-                    <button type="cancel" href="#" class="btn btn-action mw-auto size-03 btn-05 btn-white-theme">
+                    <button type="cancel" href="#" class="btn btn-action mw-auto size-03 btn-37 white-theme">
                       ยกเลิก
                     </button>
                   </div>

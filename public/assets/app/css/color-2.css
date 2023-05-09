@@ -92,7 +92,7 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fecb00;}
 
-body.minisite .global-search-container button{background:#000000; color:#fecb00;}
+body.minisite .global-search-container button{background:#fecb00; color:#000000;}
 body.minisite .global-search-container{background:rgba(0,0,0,.85);}
 
 /* Super Topnav */
@@ -102,6 +102,8 @@ nav.stopnav .btn-social:hover{background:#fecb00; color:#000000;}
 nav.stopnav .option-select > .dropdown{background:#fecb00;}
 nav.stopnav .option-select > .dropdown .item{border-color:#000000; color:#000000;}
 nav.stopnav .option-select > .dropdown .item:hover{background:#000000; color:#fecb00;}
+nav.stopnav .option.login > .icon svg{fill:#fecb00!important; stroke:#fecb00!important;}
+nav.stopnav .option.login > .icon svg:hover{fill:#fecb00!important; stroke:#fecb00!important;}
 
 nav.stopnav.style-02{border-color:#fecb00;}
 nav.stopnav.style-02 .option{border-color:#fecb00;}
@@ -149,6 +151,22 @@ nav.topnav .submenu > a{color:#fecb00;}
 nav.topnav .submenu .submenu > a::before{background:#fecb00;}
 nav.topnav .submenu > a::after{background:#fecb00;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#fecb00;}
+nav.topnav .blocks .option svg.svg-search{fill:#fecb00!important;}
+
+nav.topnav .mega-menu-dropdown{background:#fecb00; border-color:#fecb00;}
+nav.topnav .mega-menu-dropdown a{color:#000000;}
+nav.topnav .mega-menu-dropdown .dot-list{background:#000000;}
+nav.topnav .mega-menu-content{border-color:#000000;}
+nav.topnav .mega-menu-content .mega-menu:hover{background:#000000;}
+nav.topnav .mega-menu-content .mega-menu:hover .dot-list{background:#fecb00;}
+nav.topnav .mega-menu-content .mega-menu:hover a{color:#fecb00;}
+nav.topnav .mega-menu-content .mega-menu .dot-list.style-02::after{background:#fecb00;}
+
+
+nav.topnav .mega-menu-content > .mega-menu .icon > svg{fill:#000000!important;}
+nav.topnav .mega-menu-content > .mega-menu .icon > svg.chart .st1{fill:none;}
+nav.topnav .mega-menu-content > .mega-menu:hover .icon > svg{fill:#fecb00!important;}
+
 nav.stopnav-minisite .option .dropdown .menu > a{color:#fecb00;}
 nav.stopnav-minisite .option .dropdown .menu:hover > a{background:#fecb00; color:#000000;}
 nav.stopnav-minisite .option .dropdown .menu > a::before{background:#fecb00;}
@@ -158,15 +176,20 @@ nav.topnav.clear:not(.sticky){background:transparent; border-color:transparent;}
 nav.topnav.style-02 .submenu-dropdown{background:#fecb00; color:#000000;}
 nav.topnav.style-02 .submenu:hover .dot-list{background:#fecb00;}
 nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .dot-list{background:#000000;}
-
 nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover .dot-list{background:#fecb00;}
+
+nav.topnav.style-02 .submenu > .wrapper .icon > svg{fill:#000000!important;}
+nav.topnav.style-02 .submenu > .wrapper .icon > svg.chart .st1{fill:none;}
+nav.topnav.style-02 .submenu:hover > .wrapper .icon > svg{fill:#fecb00!important;}
+
 nav.topnav.minisite.style-02 .menu:hover{background:#fecb00;}
 nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#000000;}
 nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#000000!important; color:#000000!important;}
 nav.topnav.minisite.style-02 .submenu a{color:#000000;}
 nav.topnav.minisite.style-02 .submenu:hover a{color:#fecb00;}
 nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 a{color:#000000;}
-nav.topnav.style-02 .submenu:hover > .submenu-dropdown.level-3 a{color:#fecb00;}
+nav.topnav.style-02 .submenu:hover > .submenu-dropdown.level-3 a{color:#000000;}
+nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .submenu:hover a{color:#fecb00!important;}
 
 nav.topnav.style-02 .submenu-container{background:#fecb00;}
 
@@ -192,7 +215,7 @@ nav.sidenav{background:#000000; border-left:1px solid #fecb00;}
 nav.sidenav .hamburger > *{background:#fecb00;}
 nav.sidenav .submenu > *:first-child{border-color:#000000;}
 nav.sidenav .submenu:hover > *:first-child{background:#000000; color:#fecb00;}
-nav.sidenav .submenu:hover > .dropdown-toggle{color:#fecb00;}
+nav.sidenav .submenu:hover > .dropdown-toggle{color:#000000;}
 nav.sidenav .sidenav-toggle, nav.sidenav .options, 
 nav.sidenav .options > .option, nav.sidenav .options > .option-btn,
 nav.sidenav .option > .dropdown, nav.sidenav .option > .dropdown > *, 
@@ -203,6 +226,11 @@ nav.sidenav .menu > a{color:#fecb00;}
 nav.sidenav .submenu > a{color:#000000; background:#fecb00;}
 nav.sidenav .dropdown-toggle{color:#fecb00;}
 nav.sidenav .submenu .dropdown-toggle{color:#000000;}
+nav.sidenav .menu > *:first-child{border-color:#fecb00;}
+
+body.minisite nav.sidenav .submenu > *:first-child{border-color:#000000!important;}
+body.minisite nav.sidenav.style-02 .submenu > *:first-child{background:#fecb00;}
+body.minisite nav.sidenav.style-02 .submenu > .wrapper a{color:#000000!important;}
 
 nav.side-panel .panel-row:first-child {background:#000000; color:#fecb00;}
 nav.side-panel .option:not(.btn-cursor):hover, nav.side-panel .option:not(.btn-cursor).active{
@@ -213,7 +241,9 @@ nav.side-panel .panel-row:nth-child(even){background:#171717;}
 nav.side-panel .panel-row{background:#000000; color:#fecb00;}
 nav.side-panel .panel{border-color:rgba(255,255,0,.3);}
 nav.side-panel .option-row .icon + *::before{background:#fecb00;}
-nav.side-panel .hamburger > *{background:#ffffff;}
+nav.side-panel .hamburger > *{background:#fecb00;}
+
+body.minisite nav.side-panel .icon > svg{fill:#fecb00!important;}
 
 /* Global Search Container */
 .global-search-container .search-panel{background:#000000; border:1px solid #fecb00;}
@@ -556,6 +586,26 @@ body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 .calendar-year .fc-popover .fc-popover-body .fc-event *{color:#000000;}
 .calendar-year .fc-popover .fc-popover-body .fc-event:hover{background:rgba(0,0,0,.06);}
 
+body.minisite .calendar-year .fc-multimonth-month .fc-multimonth-title{background:#000000; color:#fecb00;}
+body.minisite .calendar-year .fc-col-header-cell-cushion{color:#fecb00;}
+body.minisite .calendar-year .fc-multimonth-header-table .fc-col-header-cell{background:#000000;}
+body.minisite .calendar-year .fc-theme-standard td, body.minisite .fc-theme-standard th{border:1px solid #fecb00;}
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-day .fc-daygrid-day-number{color:#fecb00;}
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-end, 
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-start, 
+body.minisite .calendar-year .calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-end, 
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-event.fc-event-start, 
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{background:#fecb00!important;}
+body.minisite .calendar-year .fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number{color:#000000!important;}
+body.minisite .calendar-year .fc .fc-daygrid-day{background:#000000;}
+body.minisite .calendar-year .fc .fc-daygrid-day.fc-day-today{background:#e4b703!important;}
+body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-day.active .fc-daygrid-day-number{color:#000000!important;}
+body.minisite .calendar-year .fc-theme-standard .fc-popover-header{background:#000000; color:#fecb00;}
+body.minisite .calendar-year .fc-popover .fc-popover-header .fc-popover-title{color:#fecb00;}
+body.minisite .calendar-year .fc-popover-body{background:#fecb00;}
+body.minisite .calendar-year .fc-theme-standard .fc-popover{border:transparent!important;}
+body.minisite .calendar-year .fc-theme-standard .fc-popover{border-left:3px solid #000000!important;}
+
 
 /* Chat Container */
 .chat-container .chat > .profile-container{background:#fecb00;}
@@ -871,6 +921,19 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 .form.search.search-page input[type="search"]{color:#fecb00;}
 .form.search.search-page .ui.icon.input > em.icon{border-color:#000000; background:#fecb00;}
 
+/* Form Container 01 */
+.form-container-01.form-faq .form.style-02 select{background:#fecb00!important;}
+.form-container-01.form-faq .form.style-02 select{background:#fecb00!important; color:#000000!important;}
+.form-container-01.form-faq .form.style-02 input[type=text], .form.style-02 textarea, .form.style-02 input[type=password], 
+.form-container-01.form-faq .form.style-02 input[type=email]{
+  background:#fecb00!important; border-color:#e4b703!important; color:#000000!important;
+}
+.form-container-01.form-faq .ss-card-68{background:#fecb00; color:#000000;}
+.form-container-01.form-faq .ss-card-32.mini-site{background:#fecb00;}
+.form-container-01.form-faq .ss-card-32.style-02 .wrapper > .text-container .x-mark{background:#000000; color:#fecb00;}
+.form-container-01.form-faq .ss-card-32 .wrapper > .icon{border-color:#fecb00;}
+.form-container-01.form-faq input::placeholder, .form-container-01.form-faq textarea::placeholder{color:#000000!important;}
+
 /* Form Container 03 */
 .form-container-03 .option .icon-view{background:#fecb00; border-color:#000000;}
 .form-container-03 .option .icon-view:hover, 
@@ -909,6 +972,12 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 
 body.minisite .popular-search-container .ss-tags > .tag{background:transparent; color:#000000;}
 body.minisite .popular-search-container .ss-tags > .tag:hover{background:#000000; color:#fecb00;}
+body.minisite .popular-search-container.home-page .ss-tags{border-color:#fecb00;}
+body.minisite .popular-search-container.home-page .ss-tags > .tag{background:transparent; color:#fecb00;}
+body.minisite .popular-search-container.home-page .ss-tags > .tag:hover{background:#fecb00; color:#000000;}
+body.minisite .popular-search-container.home-page input{background:#000000!important;}
+body.minisite .input-container input{background:#000000!important; color:#fecb00!important; border:1px solid #fecb00!important;}
+body.minisite .input-container input::placeholder{color:#e4b703!important;}
 
 /* Table */
 table.table.table-download .download-card{background:#fecb00; border-color:#000000;}
@@ -1328,6 +1397,8 @@ body.minisite .search-container .form > .form-group .date-wrapper > input[type="
 .ss-card-67 .wrapper > .icon{background:#000000;}
 .ss-card-67 .wrapper > .icon em{background:#fecb00;}
 .ss-card-67 .text-container > .social-list .icon:hover{background:#000000;}
+.ss-card-67 .text-container > .social-list .icon > svg.inactive{fill:#000000;}
+.ss-card-67 .text-container > .social-list .icon > svg.active{fill:#fecb00;}
 
 /* Special Card 68 */
 .ss-card-68{border-color:#000000;}

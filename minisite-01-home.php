@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="minisite loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php 
     $sideNavStyle = 'theme-01';
     include_once('include/topnav-minisite-dropdown-menu.php'); 

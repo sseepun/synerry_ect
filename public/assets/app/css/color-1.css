@@ -312,6 +312,8 @@ nav.sidenav .submenu > .dropdown-toggle{color:#ffffff;}
 nav.sidenav .submenu:hover > .dropdown-toggle{color:#000000;}
 nav.sidenav .dropdown-toggle{color:#232323;}
 
+body.minisite nav.side-panel .icon > svg{fill:#ffffff!important;}
+
 /* Super Topnav */
 nav.stopnav{background:#000000;}
 nav.stopnav .blocks > .option .hotline > em{border-color:#ffffff;}
@@ -321,6 +323,8 @@ nav.stopnav .option-select > .dropdown .item{border-color:#ffffff;}
 nav.stopnav .option-select > .dropdown .item:hover{background:#ffffff; color:#000000;}
 nav.stopnav .btn-social:hover{background:#ffffff; color:#000000;}
 nav.stopnav .blocks > .option .hotline > em{border-color:#000000;}
+nav.stopnav .option.login > .icon svg{fill:#ffffff!important; stroke:#ffffff!important;}
+nav.stopnav .option.login > .icon svg:hover{fill:#ffffff!important; stroke:#ffffff!important;}
 
 nav.stopnav.style-02{border-color:#000000;}
 nav.stopnav.style-02 .option{border-color:#ffffff;}
@@ -341,17 +345,34 @@ nav.topnav .submenu-dropdown{background:rgba(0,0,0,.92); color:#ffffff;}
 nav.topnav .submenu > .submenu-dropdown{background:#000000!important;}
 nav.topnav .menu > *:first-child{color:#000000;}
 nav.topnav .option > .dropdown .flag-wrapper:hover{background:#e1e1e1;}
+nav.topnav .blocks .option svg.svg-search{fill:#000000!important;}
+
+nav.topnav .mega-menu-dropdown{background:#ffffff; border-color:#ffffff;}
+nav.topnav .mega-menu-dropdown a{color:#000000;}
+nav.topnav .mega-menu-dropdown .dot-list{background:#000000;}
+nav.topnav .mega-menu-content{border-color:#000000;}
+body.minisite nav.topnav .mega-menu-content .mega-menu:hover{background:#000000;}
+body.minisite nav.topnav .mega-menu-content .mega-menu:hover .dot-list{background:#ffffff;}
+body.minisite nav.topnav .mega-menu-content .mega-menu:hover a{color:#ffffff;}
+
+
+nav.topnav .mega-menu-content > .mega-menu .icon > svg{fill:#000000!important;}
+nav.topnav .mega-menu-content > .mega-menu .icon > svg.chart .st1{fill:none;}
+nav.topnav .mega-menu-content > .mega-menu:hover .icon > svg{fill:#ffffff!important;}
 
 nav.topnav.style-02 .logo{color:#000000;}
 nav.topnav.style-02 .menu > *:first-child::after{background:#000000;;}
 nav.topnav.style-02 .submenu > .submenu-dropdown .submenu:hover > *:first-child{background:#303032;}
-nav.topnav.style-02 .sidenav-toggle::before{background:#1f4e3a;}
 nav.topnav.style-02 .sidenav-toggle:hover::before{background:#303032;}
 nav.topnav.style-02 .sidenav-toggle::before{background:#000000;}
 nav.topnav.style-02 .submenu-dropdown{background:#ffffff; color:#000000;}
 nav.topnav.style-02 .submenu:hover .dot-list{background:#ffffff;}
 nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .dot-list{background:#000000;}
 nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover .dot-list{background:#ffffff;}
+nav.topnav.style-02 .submenu > .wrapper .icon > svg{fill:#000000!important;}
+nav.topnav.style-02 .submenu > .wrapper .icon > svg.chart .st1{fill:none;}
+nav.topnav.style-02 .submenu:hover > .wrapper .icon > svg{fill:#ffffff!important;}
+
 nav.topnav.minisite.style-02 .menu:hover{background:#000000;}
 nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffff;}
 nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#000000!important; color:#ffffff!important;}
@@ -637,6 +658,20 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 .faq-12 .faq-link > .answer{border-color:#ffffff;}
 .faq-12 .faq-link > .answer .content{border-color:#ffffff;}
 
+/* Form Container 01 */
+.form-container-01.form-faq .form.style-02 select{background:#ffffff!important;}
+.form-container-01.form-faq .form.style-02 select{background:#ffffff!important; color:#000000!important;}
+.form-container-01.form-faq .form.style-02 input[type=text], 
+.form-container-01.form-faq .form.style-02 textarea, 
+.form-container-01.form-faq .form.style-02 input[type=password], 
+.form-container-01.form-faq .form.style-02 input[type=email]{
+  background:#ffffff!important; border-color:#dddddd!important;
+}
+.form-container-01.form-faq .ss-card-68{background:#ffffff; color:#000000;}
+.form-container-01.form-faq .ss-card-32.mini-site{background:#ffffff;}
+.form-container-01.form-faq .ss-card-32.style-02 .wrapper > .text-container .x-mark{background:#000000; color:#ffffff;}
+.form-container-01.form-faq .ss-card-32 .wrapper > .icon{border-color:#ffffff;}
+
 /* Form Container 03 */
 .form-container-03 .option .icon-view{background:#ffffff; border-color:#000000;}
 .form-container-03 .option .icon-view:hover, 
@@ -714,6 +749,9 @@ nav.side-panel > .wrapper > .icon{background:#000000;}
 
 body.minisite .popular-search-container .ss-tags > .tag{background:transparent; color:#000000;}
 body.minisite .popular-search-container .ss-tags > .tag:hover{background:#000000; color:#ffffff;}
+body.minisite .popular-search-container.home-page .ss-tags{border-color:#ffffff;}
+body.minisite .popular-search-container.home-page .ss-tags > .tag{background:transparent; color:#ffffff;}
+body.minisite .popular-search-container.home-page .ss-tags > .tag:hover{background:#ffffff; color:#000000;}
 
 /* Popup Container */
 .popup-container.theme-01 .popup-header{border-color:#ffffff;}
@@ -1196,6 +1234,8 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{backgrou
 .ss-card-67 .wrapper > .icon{background:#000000;}
 .ss-card-67 .wrapper > .icon em{background:#ffffff;}
 .ss-card-67 .text-container > .social-list .icon:hover{background:#000000;}
+.ss-card-67 .text-container > .social-list .icon > svg.inactive{fill:#000000;}
+.ss-card-67 .text-container > .social-list .icon > svg.active{fill:#ffffff;}
 
 /* Special Card 68 */
 .ss-card-68{border-color:#000000; background:#dddddd;}
