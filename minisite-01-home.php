@@ -533,6 +533,8 @@
     const theme02 = $('.theme-btn-4');
     const theme03 = $('.theme-btn-5');
     const theme04 = $('.theme-btn-6');
+    const theme05 = $('.theme-btn-1');
+    const theme06 = $('.theme-btn-2');
 
     theme01.click(function(e){
       mainBanner01.style.backgroundImage = "url('public/assets/app/images/bg/banner-main-theme-01.jpg')";
@@ -563,6 +565,12 @@
       subBanner.style.backgroundImage = "url('public/assets/app/images/bg/banner-sub-theme-04.jpg')";
       backgroundColor.classList.remove('bg-11');
       backgroundColor.style.backgroundColor = "#e7e7e7";
+    });
+    theme05.click(function(e){
+      backgroundColor.style.backgroundColor = "#000000";
+    });
+    theme06.click(function(e){
+      backgroundColor.style.backgroundColor = "#000000";
     });
 
 

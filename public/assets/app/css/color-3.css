@@ -947,12 +947,15 @@ nav.topnav.style-02 .submenu:hover .dot-list{background:#ffffff}
 nav.topnav.style-02 .submenu .dot-list{background:#10563a}
 nav.topnav.style-02 .submenu > .submenu-dropdown.level-3 .dot-list{background:#10563a;}
 nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover  .dot-list{background:#ffffff;}
+nav.topnav.style-02 .submenu > .wrapper .icon > svg{fill:#000000!important;}
+nav.topnav.style-02 .submenu > .wrapper .icon > svg.chart .st1{fill:none;}
+nav.topnav.style-02 .submenu:hover > .wrapper .icon > svg{fill:#ffffff!important;}
 
-nav.topnav.minisite.style-02 .menu:hover{background:#8c6961;}
+nav.topnav.minisite.style-02 .menu:hover{background:#ea6b49;}
 nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffff;}
 
 /* Theme A */
-nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#8c6961; color:#ffffff;}
+nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#ea6b49; color:#ffffff;}
 
 nav.topnav.style-03 .logo{color:#333333;}
 nav.topnav.style-03 .menu:hover > *:first-child{color:#ffffff;}
