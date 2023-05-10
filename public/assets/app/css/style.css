@@ -936,6 +936,7 @@ fieldset{padding:0; margin:0; border:0;}
   .list-header.style-02 .option.search{width:100%;}
   .list-header.style-02 .option.cate,
   .list-header.style-02 .option.order{width:50%; margin-top:1rem;}
+  .list-header.style-02 .option.rss{width:100%; margin-top:1rem !important; justify-content:center;}
 
   .list-header.style-02 .option.search.size-02{width:33.33%;}
   .list-header.style-02 .option.cate.size-02,
