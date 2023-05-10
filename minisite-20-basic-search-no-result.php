@@ -47,7 +47,7 @@
             </h3>
           </div>
           <div class="mt-2" data-aos="fade-up" data-aos-delay="150">
-            <span class="fw-400">ผลการค้นหา <span class="h5 color-04 color-black-theme fw-600">"การเลือกตั้ง"</span>
+            <span class="fw-400">ผลการค้นหา <span class="h5 color-04 title-theme color-black-theme fw-600">"การเลือกตั้ง"</span>
             <span>ค้นพบ <span class="color-04 color-black-theme fw-600">0</span> รายการ</span></span>
           </div>
           <div class="d-flex jc-center">

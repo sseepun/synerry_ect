@@ -45,7 +45,7 @@
                   </p>
                   <ul class="list-style-01">
                     <li class="fw-400">
-                      ส่งเรื่องร้องเรียนผ่านทาง E-mail มาที่<a class="color-02 border-bottom bcolor-02 ml-1" href="#">help@ect.go.th</a>
+                      ส่งเรื่องร้องเรียนผ่านทาง E-mail มาที่<a class="color-02 border-bottom title-theme bcolor-theme bcolor-02 ml-1" href="#">help@ect.go.th</a>
                       <em class="fa-solid fa-arrow-up-right-from-square ml-2"></em>
                     </li>
                     <li class="fw-400 mt-2">หรือสามารถแจ้งผ่านแบบฟอร์มด้านล่าง (ควรเป็นเรื่องที่เปิดเผยต่อสาธารณชนได้)</li>
@@ -135,7 +135,7 @@
                               </div>
                               <div class="item">
                                 <div class="btns jc-end">
-                                  <div class="btn style-03 btn-action btn-13 size-03 btn-white-theme pos-relative">
+                                  <div class="btn style-03 btn-action btn-36 theme-bg-02 size-03 black-theme pos-relative">
                                     เลือกไฟล์
                                     <input type="file" class="file-upload" />
                                   </div>
@@ -175,7 +175,7 @@
                         <div class="grids no-gap">
                           <div class="grid sm-50 xs-50 mt-0">
                             <div class="pr-1">
-                              <button type="submit" class="btn btn-popup-toggle black-theme btn-action width-full mw-auto btn-36" data-popup="99">
+                              <button type="submit" class="btn btn-popup-toggle black-theme btn-action width-full mw-auto btn-36 theme-bg-02" data-popup="99">
                                 ส่งข้อความ
                               </button>
                             </div>

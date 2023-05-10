@@ -78,9 +78,13 @@
                           <span class="p sm fw-400 ml-2">60</span>
                         </div>
                       </div>
-                      <div class="link-footer">
-                        <p class="text color-05 fw-500 border-bottom bcolor-05 lh-sm mr-2">อ่านต่อ</p>
-                        <div class="arrow"><em class="fa-solid fa-arrow-right"></em></div>
+                      <div class="link-footer c-btn c-btn--animate-left-right">
+                        <div classname="c-wrapper">
+                          <span class="text color-05 fw-500 border-bottom bcolor-05 lh-sm">อ่านเพิ่ม</span>
+                          <span class="c-icon">
+                            <em class="fa-solid fa-arrow-right"></em>
+                          </span>
+                        </div>
                       </div>
                     </div>
                     <div class="card-line style-03"></div>

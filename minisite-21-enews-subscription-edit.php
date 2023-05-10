@@ -16,7 +16,11 @@
     <div class="main-header" data-aos="fade-in" data-aos-delay="0">
       <a class="main-header-menu" href="./01-home-01.php">
         <div class="icon">
-          <img src="public/assets/app/images/icon-svg/homepage-white.svg" alt="Icon">
+          <svg  viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ">
+            <g stroke-width="0"/>
+            <g stroke-linecap="round" stroke-linejoin="round"/>
+            <g> <path d="M14 15v-11h-3v-3h-9v14h-2v1h7v-3h2v3h7v-1h-2zM6 11h-2v-2h2v2zM6 8h-2v-2h2v2zM6 5h-2v-2h2v2zM9 11h-2v-2h2v2zM9 8h-2v-2h2v2zM9 5h-2v-2h2v2zM13 11h-2v-2h2v2zM13 8h-2v-2h2v2z"/></g>
+          </svg>
         </div>
         <p class="sm header-title fw-400 ml-1 mr-1">ไปที่หน้าหลักของเว็บไซต์</p>
         <div class="icon title-arrow">
@@ -41,10 +45,10 @@
                         จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>
                       </h4>
                       <h3>
-                        ตามหลัก<span class="h2 color-black-theme fw-600 color-04">ประชาธิปไตย</span>
+                        ตามหลัก<span class="h2 color-black-theme title-theme fw-600 color-04">ประชาธิปไตย</span>
                       </h3>
                       <h2 class="color-black-theme fw-700">
-                        <span class="color-04">โปร่งใส</span><span class="h3 fw-500">และ</span><span class="color-04">เป็นธรรม</span>
+                        <span class="color-04 title-theme">โปร่งใส</span><span class="h3 fw-500">และ</span><span class="color-04 title-theme">เป็นธรรม</span>
                       </h2>
                     </div>
                   </div>
@@ -72,7 +76,11 @@
         <div class="ss-box style-05 m-unset xxl size-04" data-aos="fade-in" data-aos-delay="150">
           <div class="ss-box-header style-03">
             <div class="ellipsis-container">
-              <img class="size-02" src="public/assets/app/images/icon-svg/mail.svg" alt="Password Icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15">
+                <g>
+                  <path d="M61.1,442.529q-1.406,1.093-6.016,4.414l-0.391.312a10.866,10.866,0,0,1-1.484,1.016,3.474,3.474,0,0,1-1.719.547,3.655,3.655,0,0,1-1.719-.508,15.457,15.457,0,0,1-1.484-1.016l-0.391-.351q-4.727-3.438-6.016-4.414a0.253,0.253,0,0,0-.254-0.02,0.214,0.214,0,0,0-.137.215v7.969a1.867,1.867,0,0,0,1.875,1.875h16.25a1.867,1.867,0,0,0,1.875-1.875v-7.969a0.253,0.253,0,0,0-.137-0.234A0.193,0.193,0,0,0,61.1,442.529Zm-9.609,5.039a2.489,2.489,0,0,1-1.25-.469,9.327,9.327,0,0,1-1.211-.859l-0.391-.274q-4.8-3.514-6.524-4.844l-0.273-.195a0.889,0.889,0,0,1-.352-0.742v-0.742a1.867,1.867,0,0,1,1.875-1.875h16.25a1.867,1.867,0,0,1,1.875,1.875v0.742a0.889,0.889,0,0,1-.351.742l-0.2.156q-1.68,1.329-6.6,4.883l-0.391.274a9.326,9.326,0,0,1-1.211.859A2.489,2.489,0,0,1,51.494,447.568Z" transform="translate(-41.5 -437.562)"></path>
+                </g>
+              </svg>
             </div>
             <h5 class="color-black color-05 fw-500 ml-3">
               จดหมายข่าวสาร
@@ -166,7 +174,7 @@
                     </div>
                     <div class="grid xl-100 lg-100 md-100 sm-100">
                       <div class="btns mt-2 jc-center pl-unset-xs h-full">
-                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action white-theme btn-36" data-popup="99">
+                        <button type="submit" href="#" class="btn btn-popup-toggle btn-action white-theme btn-36 theme-bg-02" data-popup="99">
                           บันทึก
                         </button>
                         <button type="cancel" href="#" class="btn btn-action white-theme btn-37">

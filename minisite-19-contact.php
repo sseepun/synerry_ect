@@ -149,7 +149,7 @@
                 </div>
               </div>
               <div class="grid xl-50 lg-50 md-50 sm-100 mt-0">
-                <h5 class="color-02 color-black-theme fw-500">แบบฟอร์มติดต่อสอบถาม</h5>
+                <h5 class="color-black-theme fw-500">แบบฟอร์มติดต่อสอบถาม</h5>
                 <p class="fw-400 lh-sm">
                   หากมีคำถาม คำติชม คำแนะนำ หรือพบปัญหากรุณากรอกแบบฟอร์มด้านล่างนี้ 
                   ทางเจ้าหน้าที่จะดำเนินการตามคำขอโดยเร็วที่สุด
@@ -229,7 +229,7 @@
                             </div>
                             <div class="item">
                               <div class="btns jc-end">
-                                <div class="btn style-03 btn-action btn-36 size-03 black-theme pos-relative">
+                                <div class="btn style-03 btn-action btn-36 theme-bg-02 size-03 black-theme pos-relative">
                                   เลือกไฟล์
                                   <input type="file" class="file-upload">
                                 </div>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="grid xl-50 lg-100 md-100 sm-100 mt-0">
                       <div class="btns h-full">
-                        <button type="submit" href="#" class="btn btn-popup-toggle black-theme btn-action size-03 btn-36" data-popup="99">
+                        <button type="submit" href="#" class="btn btn-popup-toggle black-theme btn-action size-03 btn-36 theme-bg-02" data-popup="99">
                           ส่งข้อความ
                         </button>
                         <button type="cancel" href="#" class="btn btn-action mw-auto black-theme size-03 btn-37">

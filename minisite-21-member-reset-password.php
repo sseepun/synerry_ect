@@ -65,7 +65,7 @@
                         <img class="img" src="public/assets/app/images/content/captcha.jpg" alt="CAPTCHA">
                         <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                       </div>
-                      <div class="btn btn-action btn-36 c-btn c-btn--animate-left-right mt-2 ml-4">
+                      <div class="btn btn-action btn-36 black-theme theme-bg-02 c-btn c-btn--animate-left-right mt-2 ml-4">
                         <div class="c-wrapper jc-center">
                           <span> รีเซ็ทรหัสผ่านใหม่</span> 
                           <span class="c-icon pl-2">

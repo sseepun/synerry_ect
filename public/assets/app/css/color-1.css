@@ -805,6 +805,10 @@ table.table.table-download.style-06{background:#ffffff!important;}
 table.table.table-download.style-06 tr > td.download-card{background:#000000;}
 table.table.table-download.style-06 .color-04{color:#000000!important;}
 
+table.table.table-download .download-card svg .st0{fill:none!important}
+table.table.table-download .download-card svg .st1,
+table.table.table-download .download-card svg .st2{fill:#000000!important; stroke:#000000!important;}
+
 /* Tab Container 01 */
 .tab-container.theme-02 .tab-contents.style-02 > .tab-content{background:#ffffff;}
 
@@ -1243,6 +1247,7 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{backgrou
 
 /* Special Card 69 */
 .ss-card-69{background:#000000; color:#ffffff!important;}
+.ss-card-69 .wrapper > .icon svg{fill:#ffffff!important;}
 
 /* Special Card 70 */
 .ss-card-70, .ss-card-70 h6{color:#000000!important;}

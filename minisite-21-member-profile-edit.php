@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="minisite loading">
-  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('component/page-loader.php'); ?>
   
   <?php 
     $sidebarStyle = 'style-02';
@@ -45,10 +45,10 @@
                         จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>
                       </h4>
                       <h3>
-                        ตามหลัก<span class="h2 color-black-theme fw-600 color-04">ประชาธิปไตย</span>
+                        ตามหลัก<span class="h2 color-black-theme title-theme fw-600 color-04">ประชาธิปไตย</span>
                       </h3>
                       <h2 class="color-black-theme fw-700">
-                        <span class="color-04">โปร่งใส</span><span class="h3 fw-500">และ</span><span class="color-04">เป็นธรรม</span>
+                        <span class="color-04 title-theme">โปร่งใส</span><span class="h3 fw-500">และ</span><span class="color-04 title-theme">เป็นธรรม</span>
                       </h2>
                     </div>
                   </div>
@@ -204,7 +204,7 @@
                 <div class="grid xl-100 lg-100 md-100 sm-100">
                   <div class="padding-style-04">
                     <div class="btns mt-2 jc-center pl-unset-xs h-full">
-                      <button type="submit" class="btn btn-action btn-popup-toggle btn-36 white-theme" data-popup="99">
+                      <button type="submit" class="btn btn-action btn-popup-toggle btn-36 theme-bg-02 white-theme" data-popup="99">
                         บันทึก
                       </button>
                       <div href="#" class="btn btn-action btn-37 white-theme">

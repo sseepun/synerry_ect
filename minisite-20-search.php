@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="minisite loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
@@ -103,8 +103,8 @@
               <div class="search-container box-shadow style-02" data-aos="fade-up" data-aos-delay="0">
                 <form class="form" action="action.php" method="get">
                   <div class="form-group mt-3">
-                    <h6 class="color-02 color-black-theme fw-500">ตัวกรองชั้นสูง</h6>
-                    <p class="color-02 color-black-theme fw-400 mt-3 mb-1">ประเภทข้อมูล</p>  
+                    <h6 class="color-02 title-theme color-black-theme fw-500">ตัวกรองชั้นสูง</h6>
+                    <p class="color-02 title-theme color-black-theme fw-400 mt-3 mb-1">ประเภทข้อมูล</p>  
                     <div class="pl-3">
                       <label class="form-check style-03 ai-center form-check-container-03 black-theme theme-02">
                         <input type="checkbox" class="form-check-input"/>
@@ -153,7 +153,7 @@
                       </label>
                     </div>   
                     <div class="form-group">
-                      <h6 class="color-02 color-black-theme fw-400 mt-3">ช่วงระยะเวลา</h6>
+                      <h6 class="color-02 color-black-theme title-theme fw-400 mt-3">ช่วงระยะเวลา</h6>
                       <p class="fw-400">จาก</p>
                       <div class="date-wrapper">
                         <input type="text" class="date-picker form-control">
@@ -164,7 +164,7 @@
                       </div>
                     </div>
                     <div class="form-group mt-3">
-                      <h6 class="color-02 color-black-theme fw-400">การเรียงลำดับ</h6>
+                      <h6 class="color-02 color-black-theme title-theme fw-400">การเรียงลำดับ</h6>
                       <fieldset>
                         <div class="gallery-grids">
                           <div class="grid sm-100">
@@ -193,7 +193,7 @@
                           </div>
                           <div class="grid sm-100">
                             <div class="btns">
-                              <a href="#" class="btn btn-action black-theme mw-auto btn-36">
+                              <a href="#" class="btn btn-action black-theme mw-auto btn-36 theme-bg-02">
                                 ค้นหาขั้นสูง
                               </a>
                               <a href="#" class="btn btn-action mw-auto black-theme btn-37">
@@ -246,8 +246,8 @@
                 </div>
               </form>
               <div class="mt-2" data-aos="fade-up" data-aos-delay="150">
-                <span class="fw-400">ผลการค้นหา <span class="h5 color-04 color-black-theme fw-600">"การเลือกตั้ง"</span>
-                <span>ค้นพบ <span class="color-04 color-black-theme fw-600">200</span> รายการ</span></span>
+                <span class="fw-400">ผลการค้นหา <span class="h5 color-04 title-theme color-black-theme fw-600">"การเลือกตั้ง"</span>
+                <span>ค้นพบ <span class="color-04 color-black-theme title-theme fw-600">200</span> รายการ</span></span>
               </div>
               <?php foreach($informations as $d) {?>
                 <div class="ss-card ss-card-66 color-black-theme mt-6" data-aos="fade-up" data-aos-delay="300">

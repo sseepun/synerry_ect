@@ -100,7 +100,7 @@
                           </div>
                         </fieldset>
                           <div class="btns mt-4">
-                            <button id="btnVote" type="submit" class="btn btn-action btn-36 black-theme btn-popup-toggle" data-popup="99">
+                            <button id="btnVote" type="submit" class="btn btn-action btn-36 theme-bg-02 black-theme btn-popup-toggle" data-popup="99">
                               โหวต
                             </button>
                           </div>
@@ -268,7 +268,7 @@
                               </div>
                             </div>
                             <div class="btns mt-4">
-                              <button class="btn btn-action btn-36 black-theme btn-popup-toggle" data-popup="99">
+                              <button class="btn btn-action btn-36 theme-bg-02 black-theme btn-popup-toggle" data-popup="99">
                                 โหวต
                               </button>
                             </div>

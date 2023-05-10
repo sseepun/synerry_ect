@@ -16,7 +16,11 @@
     <div class="main-header" data-aos="fade-in" data-aos-delay="0">
       <a class="main-header-menu" href="./01-home-01.php">
         <div class="icon">
-          <img src="public/assets/app/images/icon-svg/homepage-white.svg" alt="Icon">
+          <svg  viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ">
+            <g stroke-width="0"/>
+            <g stroke-linecap="round" stroke-linejoin="round"/>
+            <g> <path d="M14 15v-11h-3v-3h-9v14h-2v1h7v-3h2v3h7v-1h-2zM6 11h-2v-2h2v2zM6 8h-2v-2h2v2zM6 5h-2v-2h2v2zM9 11h-2v-2h2v2zM9 8h-2v-2h2v2zM9 5h-2v-2h2v2zM13 11h-2v-2h2v2zM13 8h-2v-2h2v2z"/></g>
+          </svg>
         </div>
         <p class="sm header-title fw-400 ml-1 mr-1">ไปที่หน้าหลักของเว็บไซต์</p>
         <div class="icon title-arrow">
@@ -41,10 +45,10 @@
                         จัดการ<span class="text-xl fw-700">การเลือกตั้ง</span>
                       </h4>
                       <h3>
-                        ตามหลัก<span class="h2 color-black-theme fw-600 color-04">ประชาธิปไตย</span>
+                        ตามหลัก<span class="h2 color-black-theme fw-600 color-04 title-theme">ประชาธิปไตย</span>
                       </h3>
                       <h2 class="color-black-theme fw-700">
-                        <span class="color-04">โปร่งใส</span><span class="h3 fw-500">และ</span><span class="color-04">เป็นธรรม</span>
+                        <span class="color-04 title-theme">โปร่งใส</span><span class="h3 fw-500">และ</span><span class="color-04 title-theme">เป็นธรรม</span>
                       </h2>
                     </div>
                   </div>
@@ -182,7 +186,7 @@
                 <div class="grid sm-100">
                   <div class="padding-style-04">
                     <div class="btns mt-2 jc-center h-full">
-                      <div href="#" class="btn btn-action btn-36 white-theme">
+                      <div href="#" class="btn btn-action btn-36 theme-bg-02 white-theme">
                         แก้ไข
                       </div>
                     </div>

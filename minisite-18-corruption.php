@@ -170,7 +170,7 @@
                             </div>
                             <div class="item">
                               <div class="btns jc-end">
-                                <div class="btn style-03 btn-action btn-13 size-03 btn-white-theme pos-relative">
+                                <div class="btn style-03 btn-action btn-36 theme-bg-02 size-03 black-theme pos-relative">
                                   เลือกไฟล์
                                   <input type="file" class="file-upload" />
                                 </div>
@@ -210,7 +210,7 @@
                       <div class="grids no-gap">
                         <div class="grid sm-50 xs-50 mt-0">
                           <div class="pr-1">
-                            <button type="submit" class="btn black-theme btn-popup-toggle btn-action width-full mw-auto btn-36" data-popup="99">
+                            <button type="submit" class="btn black-theme btn-popup-toggle btn-action width-full mw-auto btn-36 theme-bg-02" data-popup="99">
                               ส่งข้อความ
                             </button>
                           </div>

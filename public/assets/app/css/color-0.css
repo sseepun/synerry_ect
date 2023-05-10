@@ -482,6 +482,8 @@ body.minisite .calendar-year .fc-multiMonthYear-view .fc-daygrid-more-link{backg
 .election-commission-container .header{background:#35758e; color:#ffffff;}
 .election-commission-container .header:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
+.fg-pass .icon svg{fill:#7cc5b5!important;}
+
 /* Search Container */
 .search-container .form > .search-wrapper input,
 .search-container .form > .form-group .date-wrapper > input[type=text]{background:#eeeeee!important;}
@@ -687,6 +689,9 @@ body.minisite .form-check-container-02 .checkmark{background:#ffffff; border-col
 .faq-09 .faq.style-02 > .question .chevron-wrapper > .icon svg{fill:#3aa57b!important;}
 .faq-09 .faq.style-02 > .question .chevron-wrapper > .icon svg:hover,
 .faq-09 .faq.style-02 > .question .chevron-wrapper > .icon svg.active{fill:#303031!important;}
+
+
+
 
 
 /* Faq 10 */
@@ -916,6 +921,8 @@ nav.topnav .logo{color:#194e84;}
 nav.topnav .logo:hover{color:#0ab3de;}
 nav.topnav .menu:hover > *:first-child{color:#0ab3de;}
 nav.topnav .menu > *:first-child::after{background:#039cd6;}
+nav.topnav .menu > *:first-child em{color:#8c6961;}
+nav.topnav .menu:hover > *:first-child em{color:#ffffff;}
 nav.topnav .submenu-dropdown{background:rgba(10,179,222,.92); color:#ffffff;}
 nav.topnav .submenu{border-color:rgba(255,255,255,.3);}
 nav.topnav .submenu:hover > *:first-child{background:#194e84; color:#f4b510;}
@@ -1535,6 +1542,10 @@ table.table.table-download.style-06 tr > td.warning-container em{color:#ffab28;}
 table.table.table-download.style-06 tr > td.warning-container:hover em,
 table.table.table-download.style-06 tr > td.warning-container:hover a{color:#30906a;}
 
+table.table.table-download .download-card svg .st0{fill:none!important}
+table.table.table-download .download-card svg .st1,
+table.table.table-download .download-card svg .st2{fill:#ffffff!important; stroke:#ffffff!important;}
+
 
 /* Text Danger */
 .text-danger{color:#dc3545!important;}
@@ -1817,6 +1828,8 @@ body.minisite .card-line.style-01{background:#7dc6b5;}
 .ss-card-12 .text-container{border-color:#eeeeee;}
 .ss-card-12 .card-footer > .wrapper .icon > em{color:#2e603c;}
 .ss-card-12.style-02 .card-footer > .wrapper .icon > em{color:#7cc5b5;}
+body.minisite .ss-card-12 .card-footer > .wrapper .icon > em{color:#7cc5b5;}
+
 
 /* Special Card 15 */
 .ss-card-15 .wrapper > .text-container .info-content > .icon em{color:#2e603c;}
@@ -2059,6 +2072,7 @@ body.minisite .card-line.style-01{background:#7dc6b5;}
 /* Special Card 69 */
 .ss-card-69 .text-container > .arrow{color:#ffffff;}
 .ss-card-69{background:#7cc5b5;}
+.ss-card-69 .wrapper > .icon svg{fill:#ffffff!important;}
 
 /* Special Card 73 */
 .ss-card-73 .number{background:#08905a; color:#ffffff;}

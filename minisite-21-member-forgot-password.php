@@ -54,7 +54,7 @@
                         <label class="text-danger style-02">กรุณายืนยันตัวตน</label>
                       </div>
                       <div class="btns mt-2 ai-center ml-4">
-                        <button type="submit" href="#" class="btn c-btn c-btn--animate-left-right btn-popup-toggle btn-action btn-26" data-popup="99">
+                        <button type="submit" href="#" class="btn c-btn c-btn--animate-left-right btn-popup-toggle btn-action btn-36 theme-bg-02" data-popup="99">
                           <div class="c-wrapper jc-center">
                             <span>ขอรหัสผ่านใหม่</span>
                             <span class="c-icon pl-2">

@@ -523,7 +523,8 @@ textarea.style-02{border-radius:.4375rem;}
 .fg-pass{display:flex; align-items:flex-start; margin-top:.5rem;}
 .fg-pass > a{line-height:1.5; border-bottom:1px solid transparent;}
 .fg-pass .icon{display:flex; align-items:center; padding-top:.25rem;}
-.fg-pass .icon > img{
+.fg-pass .icon > img,
+.fg-pass .icon > svg{
   display:block; max-width:100%; max-height:100%; width:auto; height:.875rem;
 }
 .fg-pass > a{color:#8c6a61; border-color:#8c6a61;}
@@ -1931,12 +1932,15 @@ table.table.table-download td:nth-child(1){border-radius:.5rem 0 0 .5rem; overfl
 table.table.table-download td:nth-child(2){width:100%; padding-left:1.25rem;}
 table.table.table-download td:last-child{padding-right:1rem;}
 table.table.table-download .download-card{
-    width:4rem; height:5rem; display:flex; justify-content:center; align-items:center; border-right:1px solid transparent;
+  width:4rem; height:5rem; display:flex; justify-content:center; align-items:center; border-right:1px solid transparent;
 }
-table.table.table-download .download-card img{
-    display:block; width:1.875rem; height:auto; margin:0 auto .25rem auto;
+table.table.table-download .download-card img,
+table.table.table-download .download-card svg{
+  display:block; width:1.875rem; height:auto; margin:0 auto .25rem auto;
+  transition:all .25s;
 }
-table.table.table-download .download-card img.size-02{width:2.5rem;}
+table.table.table-download .download-card img.size-02,
+table.table.table-download .download-card svg.size-02{width:2.5rem;}
 table.table.table-download .text-footer > .wrapper{display:flex;}
 table.table.table-download .text-footer > .wrapper .icon{display:flex; align-items:center;}
 
@@ -2579,7 +2583,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-16 .text-container > .title{-webkit-line-clamp:2;}
 .ss-card-16 .text-container > .card-bottom .wrapper{display:flex; flex-wrap:wrap; align-items:center;}
 .ss-card-16 .text-container > .card-bottom .wrapper > .icon{display:flex; align-items:center; margin-right:1rem;}
-.ss-card-16 .text-container > .card-bottom .wrapper > .icon em{font-size:.5rem;}
+.ss-card-16 .text-container > .card-bottom .wrapper > .icon em{font-size:.75rem;}
 .ss-card-16 .text-container > .desc{-webkit-line-clamp:3;}
 
 /* Special Card 17 */ 
@@ -3847,7 +3851,8 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-69{padding:1rem; border-radius:.25rem;}
 .ss-card-69 .wrapper{display:flex; align-items:center;}
 .ss-card-69 .wrapper > .icon{width:2rem;}
-.ss-card-69 .wrapper > .icon img{
+.ss-card-69 .wrapper > .icon img,
+.ss-card-69 .wrapper > .icon svg{
   display:block; max-width:100%; max-height:100%; width:auto; height:1.5rem;
 }
 .ss-card-69 .text-container{
