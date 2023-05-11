@@ -11,7 +11,7 @@
         <div class="wrapper" data-aos="fade-in" data-aos-delay="0">
           <?php foreach($breadcrumb as $b){?>
             <a class="p title-link color-white sm bcolor-white fw-400" href="<?= $b['url'] ?>">
-              <span class="border-bottom bcolor-white"> <?= $b['display'] ?></span>
+              <span class="border-bottom bcolor-white-theme bcolor-white"> <?= $b['display'] ?></span>
             </a>
           <?php }?>
         </div>

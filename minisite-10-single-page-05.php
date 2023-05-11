@@ -5,14 +5,8 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="minisite loading">
-  <?php include_once('component/page-loader.php'); ?>
-  <?php 
-    $superTopNavStyle = 'theme-02';
-    $topNavStyle = 'theme-02';
-    $sideNavStyle = 'theme-02';
-    $sidePanelStyle = 'style-02';
-    include_once('include/topnav-minisite-dropdown-menu.php'); 
-  ?>
+  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -20,8 +14,7 @@
       [ 'url' => '#', 'display' => 'ข้อมูลการปกครอง' ],
     ];
     $breadcrumbTitle = 'ข้อมูลการปกครอง';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/27.jpg';
-    $backgroundColor = 'style-02';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/47.jpg';
     $sectionOptions = ['']; // ['views', 'rss']
     $formContainer = false; // select form
     include('component/breadcrumb-style-02.php');
@@ -41,7 +34,7 @@
             </h3>
           </div>
           <div class="mt-6" data-aos="fade-up" data-aos-delay="150">
-            <p class="h5 color-15 fw-500 mt-6">กรุงเทพมหานคร</p>
+            <p class="h5 color-15 single-title-theme fw-500 mt-6">กรุงเทพมหานคร</p>
             <p class="fw-500">เป็นการปกครองท้องถิ่นแบบพิเศษ ประกอบด้วย 50 เขตปกครอง ดังนี้</p>
           </div>
           <div class="grids" data-aos="fade-up" data-aos-delay="300">
@@ -59,7 +52,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-style-09.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>

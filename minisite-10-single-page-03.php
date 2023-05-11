@@ -7,10 +7,6 @@
 <body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
   <?php 
-    $superTopNavStyle = 'theme-02';
-    $topNavStyle = 'theme-02';
-    $sideNavStyle = 'theme-02';
-    $sidePanelStyle = 'style-02';
     include_once('include/topnav-minisite-dropdown-menu.php'); 
   ?>
   <?php
@@ -20,8 +16,7 @@
       [ 'url' => '#', 'display' => 'โครงสร้างองค์กร' ],
     ];
     $breadcrumbTitle = 'โครงสร้างองค์กร';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/25.jpg';
-    $backgroundColor = 'style-02';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/45.jpg';
     $sectionOptions = ['']; // ['views', 'rss']
     $formContainer = false; // select form
     include('component/breadcrumb-style-02.php');
@@ -33,7 +28,7 @@
       <div class="ss-box bg-white-theme style-02 w-full">
         <div class="ss-box-shadow md"></div>
         <div class="body">
-          <div class="ss-title style-02">
+          <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
               โครงสร้างองค์กร
             </h3>
@@ -46,10 +41,10 @@
                 </div>
               </div>
               <div class="text-container">
-                <h5 class="color-15 fw-500">
-                สำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดประกอบด้วย
+                <h5 class="color-15 fw-500 single-title-theme set-color-02">
+                  สำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัดประกอบด้วย
                 </h5>
-                <h6 class="color-15 fw-400 mt-2">
+                <h6 class="color-15 fw-400 mt-2 single-title-theme set-color-02">
                   ผู้อำนวยการการเลือกตั้งประจำจังหวัด (ผอ.กต.จว.)
                 </h6>
                 <p class="fw-300 mt-3">
@@ -65,7 +60,7 @@
           </div>
          <div class="grids" data-aos="fade-up" data-aos-delay="450">
           <div class="grid lg-50 sm-100">
-            <ol class="ss-list-style-01 pl-6 mt-0">
+            <ol class="ss-list-style-01 set-color-02 pl-6 mt-0">
               <li class="mt-0">
                 จัดทำและเสนอแผนปฏิบัติงานประจำปีของสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัด 
                 และแผนหรือโครงการเกี่่ยวกับการดำเนินการเลือกตั้งให้คณะกรรมการการเลือกตั้งประจำจังหวัดพิจารณาให้ความเห็นชอบ
@@ -121,14 +116,14 @@
               <tbody>
                 <?php
                   foreach([
-                    'pdf-02', 'pdf-02'
+                    'pdf', 'pdf'
                   ] as $k){
                 ?>
                   <tr class="box-shadow style-02 mb-2">
                     <td>
                       <div class="download-card flex-column style-02">
-                        <img src="public/assets/app/images/file/<?= $k ?>.png" alt="Image File" />
-                        <p class="xs color-white color-black-theme">0.2 MB</p>
+                        <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
+                        <p class="xs color-white color-white-theme">0.2 MB</p>
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">
@@ -137,18 +132,17 @@
                       </a>
                       <div class="text-footer mt-1">
                         <div class="wrapper">
-                          <div class="icon">
+                          <div class="icon cursor-pointer">
                             <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="sm color-black color-black-theme fw-400">แจ้งไฟล์เสีย</p>
+                            <p class="sm color-black btn-popup-toggle-02 color-black-theme fw-400" data-popup="99">แจ้งไฟล์เสีย</p>
                           </div>
                         </div>
                       </div>
                     </td>
                     <td class="button-container pr-6" style="min-width:90px;">
                     <div class="btns jc-end">
-                      <div href="#" class="btn btn-white-theme width-auto btn-action btn-18">
-                        ดาวน์โหลดไฟล์
-                        <em class="fa-solid fa-arrow-down ml-1"></em>
+                      <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30 btn-black-theme">
+                        ดาวน์โหลดไฟล์ <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
                       </div>
                     </div>
                     </td>
@@ -174,7 +168,13 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-style-09.php'); ?>
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
+
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>

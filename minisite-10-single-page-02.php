@@ -20,8 +20,7 @@
       [ 'url' => '#', 'display' => 'อำนาจหน้าที่' ],
     ];
     $breadcrumbTitle = 'อำนาจหน้าที่';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/24.jpg';
-    $backgroundColor = 'style-02';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/44.jpg';
     $sectionOptions = ['']; // ['views', 'rss']
     $formContainer = false; // select form
     include('component/breadcrumb-style-02.php');
@@ -33,7 +32,7 @@
       <div class="ss-box bg-white-theme style-02 w-full">
         <div class="ss-box-shadow md"></div>
         <div class="body">
-          <div class="ss-title style-02">
+          <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
               อำนาจหน้าที่
             </h3>
@@ -46,7 +45,7 @@
                 </div>
               </div>
               <div class="text-container">
-                <h5 class="color-15 fw-500">
+                <h5 class="color-15 single-title-theme fw-500">
                   สำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัด มีหน้าที่ดังนี้
                 </h5>
                 <p class="fw-300 mt-2">
@@ -70,7 +69,7 @@
               </div>
             </div>
           </div>
-          <h4 class="color-15 text-center fw-500 mt-6" data-aos="fade-up" data-aos-delay="300">
+          <h4 class="color-15 text-center single-title-theme fw-500 mt-6" data-aos="fade-up" data-aos-delay="300">
             โดยแบ่งโครงสร้างส่วนงานในสำนักงานคณะกรรมการการเลือกตั้งประจำจังหวัด เป็น 3 กลุ่มงาน
           </h4>
           <div class="grids no-gap" data-aos="fade-up" data-aos-delay="450">
@@ -168,7 +167,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-style-09.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>

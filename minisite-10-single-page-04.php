@@ -6,13 +6,7 @@
 </head>
 <body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php 
-    $superTopNavStyle = 'theme-02';
-    $topNavStyle = 'theme-02';
-    $sideNavStyle = 'theme-02';
-    $sidePanelStyle = 'style-02';
-    include_once('include/topnav-minisite-dropdown-menu.php'); 
-  ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -20,8 +14,7 @@
       [ 'url' => '#', 'display' => 'ทำเนียบ กกต. จว.' ],
     ];
     $breadcrumbTitle = 'ทำเนียบ กกต. จว.';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/26.jpg';
-    $backgroundColor = 'style-02';
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/46.jpg';
     $sectionOptions = ['']; // ['views', 'rss']
     $formContainer = false; // select form
     include('component/breadcrumb-style-02.php');
@@ -64,19 +57,19 @@
       <div class="ss-box bg-white-theme style-02 w-full">
         <div class="ss-box-shadow md"></div>
         <div class="body">
-          <div class="ss-title style-02">
+          <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
               ทำเนียบ กกต. จว.
             </h3>
           </div>
           <div class="election-commission-container">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/01.png')"></div>
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/52.jpg')"></div>
             <div class="header">
               <p class="h6 fw-500" data-aos="fade-up" data-aos-delay="150">
                 คณะกรรมการการเลือกตั้งประจำจังหวัดกรุงเทพมหานคร ชุดที่ 1
               </p>
             </div>
-            <div class="body" data-aos="fade-up" data-aos-delay="150">
+            <div class="body" data-aos="fade-up" data-aos-delay="300">
               <div class="grids">
                 <div class="grid lg-100 md-100 sm-100">
                   <div class="grids jc-center">
@@ -136,7 +129,7 @@
             ]
           ?>
           <div class="election-commission-container">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/01.png')"></div>
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/52.jpg')"></div>
             <div class="header">
               <p class="h6 fw-500" data-aos="fade-up" data-aos-delay="300">
                 คณะกรรมการการเลือกตั้งประจำจังหวัดกรุงเทพมหานคร ชุดที่ 2
@@ -242,7 +235,7 @@
             ]
           ?>
           <div class="election-commission-container">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/01.png')"></div>
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/52.jpg')"></div>
             <div class="header">
               <p class="h6 fw-500" data-aos="fade-up" data-aos-delay="600">
                 คณะกรรมการการเลือกตั้งประจำจังหวัดกรุงเทพมหานคร ชุดที่ 3
@@ -313,7 +306,7 @@
             ]
           ?>                
           <div class="election-commission-container">
-            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/01.png')"></div>
+            <div class="img-bg" style="background-image:url('public/assets/app/images/bg/52.jpg')"></div>
             <div class="header">
               <p class="h6 fw-500" data-aos="fade-up" data-aos-delay="900">
                 คณะกรรมการการเลือกตั้งประจำจังหวัดกรุงเทพมหานคร ชุดที่ 4
@@ -362,7 +355,7 @@
     </div>
   </section>
 
-  <?php include_once('include/footer-style-09.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 </body>
 </html>

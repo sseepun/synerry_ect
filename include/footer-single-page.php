@@ -17,10 +17,10 @@
       </a>
     </div>
     <div class="d-inline-block pos-relative">
-      <div id="btnLink" class="icon cursor-pointer">
+      <div id="btnLinkSingle" class="icon cursor-pointer">
         <em class="fa-solid fa-link"></em>
       </div>
-      <div id="toolTip" class="tooltip">
+      <div id="toolTipSingle" class="tooltip">
         <p>คัดลอก url สำเร็จ</p>
       </div>
     </div>
@@ -28,13 +28,13 @@
 </nav>
 
 <script>
-    let btn = document.querySelector("#btnLink")
-    let toolTip = document.querySelector('#toolTip')
+    let btnSingle = document.querySelector("#btnLinkSingle")
+    let toolTipSingle = document.querySelector('#toolTipSingle')
 
-    btn.addEventListener("click", () => {
-      toolTip.style.opacity = '1'
+    btnSingle.addEventListener("click", () => {
+      toolTipSingle.style.opacity = '1'
       setTimeout(function(){
-        toolTip.style.opacity = '0'
+        toolTipSingle.style.opacity = '0'
       }, 1200);
     });
 </script>

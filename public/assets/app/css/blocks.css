@@ -1935,11 +1935,12 @@
 
 /* Election Commission */
 .election-commission-container{
-  position:relative; margin-top:1.5rem; background-size:cover; background-position:center;
-  border-radius:0 0 .875rem .875rem; overflow:hidden;
+  position:relative; margin-top:1.5rem;
+  border-radius:.875rem; overflow:hidden;
 }
 .election-commission-container > .img-bg{
   position:absolute; top:0; right:0; bottom:0; left:0; z-index:1;
+  background-size:cover; background-position:center;
 
 }
 .election-commission-container .header{

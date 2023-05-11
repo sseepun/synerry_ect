@@ -198,6 +198,121 @@
       </div>
     </div>
   </section>
+
+  <section class="section-padding">
+    <div class="container">
+      <?php 
+        $tagContainerStyle = 'mt-0 full-responsive';
+        include('component/tags-container.php'); 
+      ?>
+      <h4 class="title mt-6 fw-600" style="position:relative;" data-aos="fade-up" data-aos-delay="350">
+        ไฟล์ที่เกี่ยวข้อง
+      </h4>     
+      <div class="box-shadow style-04" data-aos="fade-up" data-aos-delay="500">
+        <div class="scroll-x-wrapper pb-0 style-02 mt-2">
+          <table class="table table-download bg-white">
+            <tbody>
+              <?php
+                foreach([
+                  'pdf', 'doc', 'xls', 'pptx', 'zip',
+                  'rar', 'link'
+                ] as $k){
+              ?>
+                <tr class="table-card-01 border-bottom no-bradius">
+                  <td class="no-bradius">
+                    <div class="download-card">
+                      <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
+                    </div>
+                  </td>
+                  <td class="title-container" style="min-width:450px;">
+                    <a class="fw-600 title" href="#">
+                      รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565
+                    </a>
+                    <div class="text-footer">
+                      <div class="wrapper">
+                        <p class="sm fw-300 mr-4">ขนาดไฟล์ <span class="fw-600">0.2 MB</span></p>
+                        <p class="sm fw-300 mr-4">ดาวน์โหลด <span class="fw-600">122 ครั้ง</span></p>
+                        <div class="icon report-file">
+                          <em class="fa-solid fa-circle-exclamation mr-1"></em>
+                          <?php
+                            if($k === 'link'){?>
+                              <p class="btn-popup-toggle-02 cursor-pointer text-file sm color-black-theme fw-400" data-popup="99">
+                                แจ้งลิงก์เสีย
+                              </p>
+                          <?php } else {?>
+                            <p class="btn-popup-toggle-02 cursor-pointer text-file sm color-black-theme fw-400" data-popup="99">
+                              แจ้งไฟล์เสีย
+                            </p>
+                          <?php }?>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="arrow-container" style="min-width:100px;">
+                    <div class="img-wrapper d-flex ai-center jc-center fw-wrap">
+                      <img class="inactive" src="public/assets/app/images/icon-svg/download-inactive.svg" alt="Icon">
+                      <img class="active" src="public/assets/app/images/icon-svg/download-active.svg" alt="Icon">
+                    </div>
+                    <a class="xs color-02 color-black-theme text-center fw-500 mt-1" href="#">ดาวน์โหลด</a>
+                  </td>
+                </tr>
+              <?php }?>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <?php 
+        $videos = [
+          ['image' => 'public/assets/app/images/content/14.jpg'],
+          ['image' => 'public/assets/app/images/content/15.jpg'],
+          ['image' => 'public/assets/app/images/content/13.jpg'],
+          ['image' => 'public/assets/app/images/content/12.jpg'],
+        ]
+      ?>
+      <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="0">
+        วิดีโอที่เกี่ยวข้อง
+      </h4>
+      <div class="grids" data-aos="fade-up" data-aos-delay="150">
+        <?php foreach($videos as $d) {?>
+          <div class="grid lg-25 sm-50 mt-2">
+            <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
+              <div class="img-wrapper">
+                <div class="ss-img">
+                  <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                  <div class="hover-container show h-hidden">
+                    <div class="icon xs">
+                      <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                    </div>
+                  </div>
+                  <div class="filter style-02">
+                    <div class="wrapper">
+                      <div class="icon xs">
+                        <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-line style-01"></div>
+              </div>
+            </a>
+          </div>
+        <?php }?>
+      </div> 
+      
+      <h4 class="fw-600 mt-6" data-aos="fade-up" data-aos-delay="300">
+        สื่อที่เกี่ยวข้อง
+      </h4>
+      <div >
+        <blockquote data-aos="fade-up" data-aos-delay="450" class="twitter-tweet"><p lang="th" dir="ltr">ข้อห้ามในการหาเสียงเลือกตั้ง <a href="https://t.co/6ergCeZjhH">https://t.co/6ergCeZjhH</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; สำนักงานคณะกรรมการการเลือกตั้ง (@EctThailand) <a href="https://twitter.com/EctThailand/status/1620704316142260224?ref_src=twsrc%5Etfw">February 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </section>
+
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
   
   <?php include_once('include/script.php'); ?>
 

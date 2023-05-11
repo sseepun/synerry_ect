@@ -1,4 +1,4 @@
-<div class="tags-container <?= $tagContainerStyle ?>" data-aos="fade-up" data-aos-delay="300">
+<div class="tags-container <?= !empty($tagContainerStyle)? $tagContainerStyle : '' ?>" data-aos="fade-up" data-aos-delay="300">
   <div class="d-flex ai-center">
     <span class="fw-500">แท็ก:</span>
     <div class="ss-tags style-02 d-inline-block ml-2">

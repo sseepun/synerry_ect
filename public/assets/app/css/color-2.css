@@ -64,6 +64,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, iframe, .
 .bcolor-07,
 .bcolor-08{border-color:#fecb00!important;}
 .bcolor-black-theme{border-color:#000000!important;}
+.bcolor-white-theme{border-color:#fecb00!important;}
 
 
 /* Global Filter */
@@ -182,6 +183,10 @@ nav.topnav.style-02 .submenu > .wrapper .icon > svg{fill:#000000!important;}
 nav.topnav.style-02 .submenu > .wrapper .icon > svg.chart .st1{fill:none;}
 nav.topnav.style-02 .submenu:hover > .wrapper .icon > svg{fill:#fecb00!important;}
 
+nav.topnav.style-02 .submenu:hover > *:first-child{background:#000000!important; color:#000000!important;}
+nav.topnav.style-02 .submenu a{color:#000000;}
+nav.topnav.style-02 .submenu:hover a{color:#fecb00;}
+
 nav.topnav.minisite.style-02 .menu:hover{background:#fecb00;}
 nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#000000;}
 nav.topnav.minisite.style-02 .submenu:hover > *:first-child{background:#000000!important; color:#000000!important;}
@@ -244,6 +249,7 @@ nav.side-panel .panel{border-color:rgba(255,255,0,.3);}
 nav.side-panel .option-row .icon + *::before{background:#fecb00;}
 nav.side-panel .hamburger > *{background:#fecb00;}
 
+nav.side-panel .icon > svg{fill:#fecb00!important;}
 body.minisite nav.side-panel .icon > svg{fill:#fecb00!important;}
 
 /* Global Search Container */
@@ -998,8 +1004,9 @@ table.table.table-download.style-03 .data-analysis > .wrapper .icon{color:#00000
 table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{color:#000000!important;}
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#000000!important;}
 
+table.table.table-download.style-04 td:nth-child(1){background:#000000;}
+table.table.table-download.style-04 .download-card{background:#000000;}
 table.table.table-download.style-04 tr{border-color:#000000;}
-table.table.table-download.style-04 .download-card{background:#fecb00; border-color:#000000;}
 table.table.table-download.style-04 .button-container{background:#fecb00;}
 table.table.table-download.style-04 .button-container .btn{background:#000000; color:#fecb00;}
 table.table.table-download.style-04 .data-analysis > .wrapper .icon{color:#000000;}
@@ -1059,7 +1066,9 @@ table.table.table-download .download-card svg .st2{fill:#000000!important; strok
 .tags-container.style-02 .social-list .icon{color:#000000;}
 .tags-container.style-02 .social-list .icon:hover,
 .tags-container.style-02 .social-list .icon.active{background:#000000!important; color:#fecb00;}
-.tags-container .social-list .tooltip{background:#000000; color:#fecb00;}
+.tags-container .social-list .tooltip{background:#fecb00; color:#000000;}
+body.minisite .tags-container .social-list .tooltip{background:#000000; color:#fecb00;}
+
 
 /* Select */
 select.bg-style-02{background:#000000!important; border-color:#000000!important; color:#696969!important;}
@@ -1353,10 +1362,12 @@ body.minisite .search-container .form > .form-group .date-wrapper > input[type="
 
 /* Special Card 49 */
 .ss-card-49 .header{background:#000000; color:#fecb00;}
+.ss-card-49 .body > .text-container{border-color:#000000;}
 
 /* Special Card 51 */
 .ss-card-51{border-color:#fecb00;}
 .ss-card-51 .card-line{background:#fecb00;}
+.ss-card-51 .wrapper > .icon svg{fill:#fecb00;}
 
 /* Special Card 52 */
 .ss-card-52{background:#000000; color:#fecb00;}

@@ -218,10 +218,10 @@ body.minisite .btn.btn-03:hover, body.minisite .btn.btn-03:active{background:#8c
 .btn.btn-18:hover{background:#303031; border-color:#303031; color:#ffffff;}
 .btn.btn-18:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
-.btn-19 > .number{color:#35758e;}
+.btn-19 > .number{color:#f7b331;}
 .btn-19:hover > .number{color:#ffffff;}
-.btn.btn-19, .btn.btn-19:focus{color:#000000; background:transparent; border-color:#35758e;}
-.btn.btn-19:hover{background:#35758e; border-color:#35758e; color:#ffffff!important;}
+.btn.btn-19, .btn.btn-19:focus{color:#000000; background:transparent; border-color:#f7b331;}
+.btn.btn-19:hover{background:#f7b331; border-color:#f7b331; color:#ffffff!important;}
 .btn.btn-19:active{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 .btn.btn-20, .btn.btn-20:focus{color:#ffffff; background:#2e603c; border-color:#2e603c;}
@@ -484,7 +484,7 @@ body.minisite .calendar-year .fc-popover .fc-popover-header{background:#00ce8f; 
 .dropdown-icon.style-02{background:#f7b331; color:#ffffff;}
 
 /* Election Commission */
-.election-commission-container .header{background:#35758e; color:#ffffff;}
+.election-commission-container .header{background:#f7b331; color:#ffffff;}
 .election-commission-container .header:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 
 .fg-pass .icon svg{fill:#00ce8f!important;}
@@ -776,8 +776,8 @@ body.minisite nav.side-panel .icon > svg{fill:#ffffff!important;}
 .global-search-container .hamburger > *{background:#ffffff;}
 .global-search-container button{background:#2e603c; color:#ffffff;}
 
-body.minisite .global-search-container button{background:#8c6961; color:#ffffff;}
-body.minisite .global-search-container{background:rgba(124,197,180,.85);}
+body.minisite .global-search-container button{background:#00ce8f; color:#ffffff;}
+body.minisite .global-search-container{background:rgba(274,179,49,.49);}
 
 
 /* Inputs */
@@ -1383,7 +1383,7 @@ nav.footer-single-page.style-02 .social-list .icon{color:#ffffff;}
 .ss-list.style-14 > li::before{background:#f6ed59;}
 
 /* Number */
-.ss-list-style-01 > li::marker{color:#35758e;}
+.ss-list-style-01 > li::marker{color:#f7b331;}
 
 /* Special Tags */
 .ss-tags > .tag{background:#04adf0; color:#ffffff;}
@@ -1399,7 +1399,7 @@ nav.footer-single-page.style-02 .social-list .icon{color:#ffffff;}
 .ss-tags > .tag.style-03{background:#00ce8f; color:#ffffff;}
 .ss-tags > .tag.style-04{background:#c2c8cd; color:#3d3f4d;}
 .ss-tags.style-03.background-01 > .tag{background:#ffffff; color:#000000;}
-.ss-tags.style-03.background-01 > .tag:hover{background:#000000;}
+.ss-tags.style-03.background-01 > .tag:hover{background:#00ce8f;}
 .ss-tags.style-03.background-01 > .tag:hover .title{color:#ffffff;}
 
 /* Paginate */
@@ -1529,12 +1529,14 @@ table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#eeee
 table.table.table-download.style-03 td:nth-child(2) > .title:hover{color:#10563a; border-color:#10563a!important;}
 table.table.table-download.style-03 .text-footer > .wrapper .icon{color:#ffab28;}
 
-table.table.table-download.style-04 td:nth-child(1){background:#35758e;}
-table.table.table-download.style-04 .download-card{background:#35758e;}
+table.table.table-download.style-04 td:nth-child(1){background:#f7b331;}
+table.table.table-download.style-04 .download-card{background:#f7b331;}
 table.table.table-download.style-04 .data-analysis > .wrapper{border-color:#eeeeee!important;}
 table.table.table-download.style-04 td:nth-child(2) > .title:hover{color:#10563a;}
-table.table.table-download.style-04 .text-footer > .wrapper .icon{color:#cc4b4c;}
-table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#56abcc;}
+table.table.table-download.style-04 .text-footer > .wrapper .icon > em{color:#ffa92b;}
+table.table.table-download.style-04 .text-footer > .wrapper .icon:hover > em,
+table.table.table-download.style-04 .text-footer > .wrapper .icon:hover > p{color:#30906a!important;}
+table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#00ce8f;}
 
 table.table.table-download.style-05 td:nth-child(1){border-color:yellow;}
 
@@ -1633,6 +1635,7 @@ body.minisite .card-line.style-01{background:#f7b331;}
 
 .title-theme{color:#00ce8f!important;}
 .title-theme.bcolor-theme{border-color:#00ce8f!important;}
+.single-title-theme{color:#f7b331!important;}
 
 /* Shortcode */
 .shortcode-container .shortcode-content,
@@ -2001,7 +2004,7 @@ body.minisite .ss-card-12 .card-footer > .wrapper .icon > em{color:#f7b331;}
 .ss-card-47 .text-container > .card-bottom .wrapper > .icon em{color:#2e603b;}
 
 /* Special Card 49 */
-.ss-card-49 .header{background:#35758e; color:#ffffff}
+.ss-card-49 .header{background:#f7b331; color:#ffffff}
 .ss-card-49 .header:hover{box-shadow:inset 0 0 0 100rem rgba(0,0,0,.10);}
 .ss-card-49 .body > .text-container{background:#f2f2f2;}
 

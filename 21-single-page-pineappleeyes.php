@@ -185,9 +185,9 @@
   <section class="section-31 section-padding">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/46.jpg');"></div>
     <div class="container">
-      <h5 class="sm color-white text-center mt-6" data-aos="fade-up" data-aos-delay="150">
+      <h4 class="color-white text-center mt-6" data-aos="fade-up" data-aos-delay="150">
         การใช้งานแอปพลิเคชันตาสับปะรด
-      </h5>
+      </h4>
       <div class="swiper-container mt-4" data-aos="fade-up" data-aos-delay="300">
         <div class="swiper-wrapper">
           <?php foreach($mobileScreen as $d){?>
@@ -218,11 +218,12 @@
           </div>
         </div>
       </div>
-      <div class="pos-relative mt-6" style="z-index:2;">
-        <?php include_once('include/footer-single-page.php'); ?>
-      </div>
     </div>    
   </section>
+
+  <div class="container pt-6 pb-6">
+    <?php include_once('include/footer-single-page.php'); ?>
+  </div>
 
   <?php include_once('include/script.php'); ?>
 

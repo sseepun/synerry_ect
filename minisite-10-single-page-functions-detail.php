@@ -5,14 +5,8 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="minisite loading">
-  <?php include_once('component/page-loader.php'); ?>
-  <?php 
-    $superTopNavStyle = 'theme-02';
-    $topNavStyle = 'theme-02';
-    $sideNavStyle = 'theme-02';
-    $sidePanelStyle = 'style-06';
-    include_once('include/topnav-minisite-dropdown-menu.php'); 
-  ?>
+  <?php //include_once('component/page-loader.php'); ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
@@ -111,12 +105,140 @@
               </div>
             </div>
           </div>
+          <?php 
+            $tagContainerStyle = 'style-02 full-responsive';
+            include('component/tags-container-mini-site.php'); 
+          ?>
+          <h4 class="title fw-600 mt-6 pt-6" style="position:relative;" data-aos="fade-up" data-aos-delay="450">
+            ไฟล์ที่เกี่ยวข้อง
+          </h4>     
+          <div class="scroll-x-wrapper style-02 mt-2">
+            <table class="table style-05 table-download" data-aos="fade-up" data-aos-delay="600">
+              <tbody>
+                <?php
+                  foreach([
+                    'pdf', 'doc', 'xls', 'pptx', 'zip',
+                    'rar', 'link'
+                  ] as $k){
+                ?>
+                  <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
+                    <td>
+                      <div class="download-card">
+                        <div>
+                        <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
+                        <p class="xxs color-white color-black-theme fw-400">0.2 MB</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="title-container" style="min-width:450px;">
+                      <a class="p title fw-500 lh-sm" href="#">
+                        รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
+                        รายงานการจัดซื้อจัดจ้างส่วนภูมิภาค
+                      </a>
+                      <div class="text-footer mt-2">
+                        <div class="wrapper">
+                          <div class="icon color-02">
+                            <em class="fa-regular fa-calendar"></em>
+                            <p class="xs fw-400 ml-2">29 พฤศจิกายน</p>
+                          </div>
+                          <div class="icon color-02">
+                            <em class="fa-regular fa-floppy-disk"></em>
+                            <p class="xs fw-400 ml-2">ดาวน์โหลด 122 ครั้ง</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="button-container" style="min-width:90px;">
+                      <div class="btns jc-end">
+                        <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30 btn-black-theme">
+                          ดาวน์โหลดไฟล์ <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="report-container" style="min-width:150px;">
+                      <em class="fa-solid fa-triangle-exclamation"></em>
+                      <?php
+                        if($k === 'link'){?>
+                          <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                            แจ้งลิงก์เสีย
+                          </a>
+                      <?php } else {?>
+                          <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                            แจ้งไฟล์เสีย
+                          </a>
+                      <?php }?>
+                    </td>
+                  </tr>
+                <?php }?>
+              </tbody>
+            </table>
+          </div>
+
+          <?php 
+            $videos = [
+              ['image' => 'public/assets/app/images/content/14.jpg'],
+              ['image' => 'public/assets/app/images/content/15.jpg'],
+              ['image' => 'public/assets/app/images/content/13.jpg'],
+              ['image' => 'public/assets/app/images/content/12.jpg'],
+            ]
+          ?>
+          <h4 class="fw-600 mt-4" data-aos="fade-up" data-aos-delay="450">
+            วิดีโอที่เกี่ยวข้อง
+          </h4>
+          <div class="grids" data-aos="fade-up" data-aos-delay="650">
+            <?php foreach($videos as $d) {?>
+              <div class="grid lg-25 sm-50 mt-2">
+                <a class="ss-card ss-card-13" href="https://www.youtube.com/watch?v=hlWiI4xVXKY" data-fancybox>
+                  <div class="ss-img">
+                    <div class="img-bg" style="background-image:url('<?= $d['image']?>');"></div>
+                    <div class="hover-container show h-hidden">
+                      <div class="icon xs">
+                        <img src="public/assets/app/images/icon/video-01.png" alt="Icon">
+                      </div>
+                    </div>
+                    <div class="filter style-02">
+                      <div class="wrapper">
+                        <div class="icon xs">
+                          <img src="public/assets/app/images/icon-svg/youtube.svg" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-line style-01 size-02"></div>
+                  </div>
+                </a>
+              </div>
+            <?php }?>
+          </div> 
+          <h4 class="fw-600 mt-6 pt-2" data-aos="fade-up" data-aos-delay="800">
+            สื่อที่เกี่ยวข้อง
+          </h4>
+          <div data-aos="fade-up" data-aos-delay="950">
+            <blockquote class="twitter-tweet"><p lang="th" dir="ltr">ข้อห้ามในการหาเสียงเลือกตั้ง <a href="https://t.co/6ergCeZjhH">https://t.co/6ergCeZjhH</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; สำนักงานคณะกรรมการการเลือกตั้ง (@EctThailand) <a href="https://twitter.com/EctThailand/status/1620704316142260224?ref_src=twsrc%5Etfw">February 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
         </div> 
       </div>
     </div>
   </section>
 
+  <?php include_once('component/popup-file-error.php'); ?>
+  <?php
+    $listResult= ['report-file'];
+    include_once('component/popup-file-error-style-02.php');
+  ?>
+
   <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
+
+  <script>
+    let btn = document.querySelector("#btnLink")
+    let toolTip = document.querySelector('#toolTip')
+
+    btn.addEventListener("click", () => {
+      toolTip.style.opacity = '1'
+      setTimeout(function(){
+        toolTip.style.opacity = '0'
+      }, 1200);
+    });
+  </script>
 </body>
 </html>

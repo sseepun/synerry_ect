@@ -65,6 +65,7 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .bcolor-07,
 .bcolor-08{border-color:#ffffff!important;}
 .bcolor-black-theme{border-color:#000000!important;}
+.bcolor-white-theme{border-color:#ffffff!important;}
 
 
 /* Buttons */
@@ -312,6 +313,7 @@ nav.sidenav .submenu > .dropdown-toggle{color:#ffffff;}
 nav.sidenav .submenu:hover > .dropdown-toggle{color:#000000;}
 nav.sidenav .dropdown-toggle{color:#232323;}
 
+nav.side-panel .icon > svg{fill:#ffffff!important;}
 body.minisite nav.side-panel .icon > svg{fill:#ffffff!important;}
 
 /* Super Topnav */
@@ -351,6 +353,10 @@ nav.topnav .mega-menu-dropdown{background:#ffffff; border-color:#ffffff;}
 nav.topnav .mega-menu-dropdown a{color:#000000;}
 nav.topnav .mega-menu-dropdown .dot-list{background:#000000;}
 nav.topnav .mega-menu-content{border-color:#000000;}
+nav.topnav .mega-menu-content .mega-menu:hover{background:#000000;}
+nav.topnav .mega-menu-content .mega-menu:hover .dot-list{background:#ffffff;}
+nav.topnav .mega-menu-content .mega-menu:hover a{color:#ffffff;}
+
 body.minisite nav.topnav .mega-menu-content .mega-menu:hover{background:#000000;}
 body.minisite nav.topnav .mega-menu-content .mega-menu:hover .dot-list{background:#ffffff;}
 body.minisite nav.topnav .mega-menu-content .mega-menu:hover a{color:#ffffff;}
@@ -372,6 +378,10 @@ nav.topnav.style-02 .submenu-dropdown.level-3 .submenu:hover .dot-list{backgroun
 nav.topnav.style-02 .submenu > .wrapper .icon > svg{fill:#000000!important;}
 nav.topnav.style-02 .submenu > .wrapper .icon > svg.chart .st1{fill:none;}
 nav.topnav.style-02 .submenu:hover > .wrapper .icon > svg{fill:#ffffff!important;}
+
+nav.topnav.style-02 .menu:hover{background:#000000;}
+nav.topnav.style-02 .menu:hover > *:first-child{color:#ffffff;}
+nav.topnav.style-02 .submenu:hover > *:first-child{background:#000000!important; color:#ffffff!important;}
 
 nav.topnav.minisite.style-02 .menu:hover{background:#000000;}
 nav.topnav.minisite.style-02 .menu:hover > *:first-child{color:#ffffff;}
@@ -781,8 +791,9 @@ table.table.table-download.style-03 .data-analysis > .wrapper .icon{color:#00000
 table.table.table-download.style-03 .data-analysis > .wrapper .icon > em{color:#000000!important;}
 table.table.table-download.style-03 .data-analysis > .wrapper{border-color:#000000!important;}
 
+table.table.table-download.style-04 td:nth-child(1){background:#000000;}
+table.table.table-download.style-04 .download-card{background:#000000;}
 table.table.table-download.style-04 tr{border-color:#000000;}
-table.table.table-download.style-04 .download-card{background:#ffffff; border-color:#000000;}
 table.table.table-download.style-04 .button-container{background:#ffffff;}
 table.table.table-download.style-04 .data-analysis > .wrapper .icon{color:#000000;}
 table.table.table-download.style-04 .data-analysis > .wrapper .icon > em{color:#000000!important;}
@@ -839,7 +850,8 @@ table.table.table-download .download-card svg .st2{fill:#000000!important; strok
 .tags-container.style-02 .social-list .icon{color:#000000;}
 .tags-container.style-02 .social-list .icon:hover,
 .tags-container.style-02 .social-list .icon.active{background:#000000; color:#ffffff;}
-.tags-container .social-list .tooltip{background:#000000; color:#ffffff;}
+.tags-container .social-list .tooltip{background:#ffffff; color:#000000;}
+body.minisite .tags-container .social-list .tooltip{background:#000000; color:#ffffff;}
 
 /* Pagination */
 .paginate.style-02 .arrow{border-color:#ffffff; color:#000000; background:#ffffff;}
@@ -878,6 +890,9 @@ select.style-02{background:#ffffff!important;}
 .list-style-01 li:before{background:#000000;}
 .list-style-02 li:before{background:#000000;}
 .list-style-02.white-theme li:before{background:#ffffff;}
+
+.shortcode-footer{background:#ffffff!important;}
+.shortcode-footer .color-02{color:#000000!important;}
 
 /* Shortcode */
 body.minisite .shortcode-container .shortcode-content, 
@@ -1187,10 +1202,12 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{backgrou
 
 /* Special Card 49 */
 .ss-card-49 .header{background:#000000; color:#ffffff;}
+.ss-card-49 .body > .text-container{border-color:#000000;}
 
 /* Special Card 51 */
 .ss-card-51{border-color:#ffffff;}
 .ss-card-51 .card-line{background:#ffffff;}
+.ss-card-51 .wrapper > .icon svg{fill:#ffffff;}
 
 /* Special Card 52 */
 .ss-card-52{background:#ffffff; color:#000000;}
