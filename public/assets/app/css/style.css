@@ -3092,7 +3092,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-37 .text-container > .card-footer .wrapper{display:flex; flex-wrap:wrap; align-items:center; transition:color .25s;}
 .ss-card-37 .card-footer .wrapper > .icon{display:flex; align-items:center; margin-right:.5rem;}
 .ss-card-37 .wrapper > .icon:not(:last-child)::after{content:"/"; padding-left:.375rem;}
-.ss-card-37 .card-footer .wrapper > .icon em{font-size:.5rem;}
+.ss-card-37 .card-footer .wrapper > .icon em{font-size:.75rem;}
 @media screen and (max-width:575.98px){
   .ss-card-37 .text-container > .title, 
   .ss-card-37 .text-container > .desc{min-height:0;}
@@ -3604,7 +3604,7 @@ table.table.table-sm th:last-child{padding:.4375rem 0 .4375rem .5625rem;}
 .ss-card-61 .text-container > .card-footer .wrapper{display:flex; flex-wrap:wrap; align-items:center; transition:color .25s;}
 .ss-card-61 .card-footer .wrapper > .icon{display:flex; align-items:center; margin-right:.5rem;}
 .ss-card-61 .wrapper > .icon:not(:last-child)::after{content:"/"; padding-left:.375rem;}
-.ss-card-61 .card-footer .wrapper > .icon em{font-size:.5rem;}
+.ss-card-61 .card-footer .wrapper > .icon em{font-size:.75rem;}
 @media screen and (max-width:575.98px){
   .ss-card-61 .text-container > .title{min-height:0;}
 }

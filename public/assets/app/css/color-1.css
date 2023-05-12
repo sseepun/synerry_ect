@@ -3,7 +3,7 @@
 html, body, table.table{background:#000000; color:#ffffff;}
 img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-background::before, iframe, .chart-container,
 .swiper-background::after, .section-03 .section-card::before, .icon-view.disable, .post-video, .checkbox-set input:checked ~ .checkmark::before,
-.checkbox-set input:checked ~ .checkmark.background-02::before, .ss-list.style-04.theme-01 > li:hover::after{filter:grayscale(1)!important;}
+.checkbox-set input:checked ~ .checkmark.background-02::before, .ss-list.style-04.theme-01 > li:hover::after, .rev_slider, .post-video{filter:grayscale(1)!important;}
 
 
 
@@ -659,6 +659,9 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 .faq-11 .faq > .question .ftag{border-color:#ffffff;}
 .faq-11 .faq > .answer{border-color:#ffffff;}
 .faq-11 .faq > .answer .content{border-color:#ffffff;}
+.faq-11 .faq > .question .ftag > .icon svg .st0{fill:none!important}
+.faq-11 .faq > .question .ftag > .icon svg .st1,
+.faq-11 .faq > .question .ftag > .icon svg .st2{fill:#ffffff!important; stroke:#ffffff!important;}
 
 .faq-11.theme-02 .faq > .question .ftag{background:#000000;}
 
@@ -835,6 +838,8 @@ table.table.table-download .download-card svg .st2{fill:#000000!important; strok
 /* Tab 04 */
 .tab-container .tabs.tabs-04 .tab.active > .title{color:#ffffff;}
 .tab-container .tabs.tabs-04 .tab::before{background:#000000!important;}
+.tab-container .tabs.tabs-04 .tab > .icon-active > svg{fill:#ffffff!important;}
+.tab-container .tabs.tabs-04 .tab > .icon-inactive > svg{fill:#000000!important;}
 
 /* Tags Container */
 .tags-container{border-color:#ffffff;}

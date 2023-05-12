@@ -5,7 +5,7 @@ html, body, a, a:hover, table.table{color:#fecb00;}
 img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, iframe, .chart-container,
 .swiper-background::before, .swiper-background::after, .section-03 .section-card::before,.icon-view.disable,.checkbox-set input:checked ~ .checkmark::before,
 .checkbox-set input:checked ~ .checkmark.background-02::before, .ss-list.style-04.theme-01 > li:hover::after,
-.post-video{filter: grayscale(1)!important;}
+.post-video, .rev_slider{filter: grayscale(1)!important;}
 
 /* Colors */
 .color-p, 
@@ -872,6 +872,9 @@ body.minisite .rc-container.style-04 > input:checked + label::after{background:#
 /* Faq 11 */
 .faq-11.theme-02 .faq > .question{color:#000000;}
 .faq-11.theme-02 .faq > .question .ftag{background:#000000;}
+.faq-11 .faq > .question .ftag > .icon svg .st0{fill:none!important}
+.faq-11 .faq > .question .ftag > .icon svg .st1,
+.faq-11 .faq > .question .ftag > .icon svg .st2{fill:#fecb00!important; stroke:#fecb00!important;}
 
 /* Faq 12 */
 .faq-12 .faq-link > .question{border-color:#fecb00;}
@@ -1051,6 +1054,8 @@ table.table.table-download .download-card svg .st2{fill:#000000!important; strok
 /* Tab 04 */
 .tab-container .tabs.tabs-04 .tab.active > .title{color:#fecb00;}
 .tab-container .tabs.tabs-04 .tab::before{background:#000000!important;}
+.tab-container .tabs.tabs-04 .tab > .icon-active > svg{fill:#fecb00!important;}
+.tab-container .tabs.tabs-04 .tab > .icon-inactive > svg{fill:#000000!important;}
 
 /* Tags Container */
 .tags-container{border-color:#fecb00;}

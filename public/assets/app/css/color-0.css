@@ -709,6 +709,9 @@ body.minisite .form-check-container-02 .checkmark{background:#ffffff; border-col
 .faq-11 .faq > .question .ftag{background:#30906a; border-color:#f7f7f7;}
 .faq-11 .faq:hover > .question .title{color:#30906a;}
 .faq-11 .faq > .question  .footer > .wrapper .icon{color:#30906a;}
+.faq-11 .faq > .question .ftag > .icon svg .st0{fill:none!important}
+.faq-11 .faq > .question .ftag > .icon svg .st1,
+.faq-11 .faq > .question .ftag > .icon svg .st2{fill:#ffffff!important; stroke:#ffffff!important;}
 
 /* Faq 12 */
 .faq-12 .faq-link:hover > .question .title{color:#30906a;}
@@ -928,7 +931,7 @@ nav.topnav .logo:hover{color:#0ab3de;}
 nav.topnav .menu:hover > *:first-child{color:#0ab3de;}
 nav.topnav .menu > *:first-child::after{background:#039cd6;}
 nav.topnav .menu > *:first-child em{color:#8c6961;}
-nav.topnav .menu:hover > *:first-child em{color:#ffffff;}
+body.minisite nav.topnav .menu:hover > *:first-child em{color:#ffffff;}
 nav.topnav .submenu-dropdown{background:rgba(10,179,222,.92); color:#ffffff;}
 nav.topnav .submenu{border-color:rgba(255,255,255,.3);}
 nav.topnav .submenu:hover > *:first-child{background:#194e84; color:#f4b510;}
@@ -1470,6 +1473,8 @@ body.minisite .ss-title{border-color:#8c6961;}
 .tab-container .tabs.tabs-04 .tab::before{background:#30906a!important;}
 .tab-container .tabs.tabs-04 .tab::after{background:#e1e1e1;}
 .tab-container .tabs.tabs-04 .tab.active > .title{color:#ffffff;}
+.tab-container .tabs.tabs-04 .tab > .icon-active > svg{fill:#ffffff!important;}
+.tab-container .tabs.tabs-04 .tab > .icon-inactive > svg{fill:#b0b0b0!important;}
 
 /* List Header */
 .list-header.style-02 .option .icon-view{background:#eeeeee;}
@@ -1760,7 +1765,7 @@ body.minisite .card-line.style-01{background:#7dc6b5;}
 .intro-01 .intro-footer > .wrapper.left::after{background:#fef200;}
 
 /* Ribbon */
-.ribbon-wrapper{background:#f1f1f1; border-color:#30906a;}
+.ribbon-wrapper{background:#f1f1f1; border-color:#30906a; box-shadow: rgba(85, 145, 121) 0px 13px 27px -8px, rgba(85, 145, 121, 0.3) 0px 8px 16px -8px;}
 .ribbon-wrapper:before{border-color:transparent #095034 transparent transparent}
 .ribbon-wrapper:after{border-color:#095034 transparent transparent transparent}
 

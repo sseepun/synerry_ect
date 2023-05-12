@@ -923,7 +923,8 @@
   align-items:center; font-weight:600; border-right:2px solid transparent;
 }
 .faq-11 .faq > .question .ftag > .icon{display:flex; justify-content:center; align-items:center;}
-.faq-11 .faq > .question .ftag > .icon img{
+.faq-11 .faq > .question .ftag > .icon img,
+.faq-11 .faq > .question .ftag > .icon svg{
   display:block; max-width:100%; max-height:100%; width:auto; height:2.5rem;  
 }
 .faq-11 .faq > .question .text-container{
@@ -2128,7 +2129,9 @@
 .tab-container .tabs.tabs-04 .tab.active > .icon-inactive{opacity:0;}
 .tab-container .tabs.tabs-04 .tab.active > .icon-active{opacity:1;}
 .tab-container .tabs.tabs-04 .tab > .icon-inactive > img,
-.tab-container .tabs.tabs-04 .tab > .icon-active > img{
+.tab-container .tabs.tabs-04 .tab > .icon-active > img,
+.tab-container .tabs.tabs-04 .tab > .icon-inactive > svg,
+.tab-container .tabs.tabs-04 .tab > .icon-active > svg{
   display:block; width:auto; max-width:100%; height:auto; max-height:100%;
 }
 @media screen and (max-width:575.98px){

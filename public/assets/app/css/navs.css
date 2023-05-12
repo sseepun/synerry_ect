@@ -121,6 +121,9 @@ nav.topnav .logo p{font-size:1.25rem; font-weight:500; transition:color .25s;}
 nav.topnav .menu-container{display:flex; align-items:center; margin:0 0 0 auto;}
 nav.topnav .menu{position:relative; display:block; padding:0 .875rem;}
 nav.topnav .menu:first-child .fa-chevron-down{display:none;}
+nav.topnav.mega-menu-01 .menu:nth-child(7), nav.topnav.mega-menu-01 .menu:nth-child(8){position:relative!important;} 
+nav.topnav.mega-menu-01 .menu:nth-child(7) .mega-menu-dropdown{width:620px;}
+nav.topnav.mega-menu-01 .menu:nth-child(8) .mega-menu-dropdown{width:800px;}
 nav.topnav .menu.mega, nav.topnav .menu:nth-child(2){position:static!important;}
 body.minisite nav.topnav .menu.mega:nth-child(6), body.minisite nav.topnav .menu.mega:nth-child(3),
 body.minisite nav.topnav .menu.mega:nth-child(2), body.minisite nav.topnav .menu.mega:nth-child(7),
