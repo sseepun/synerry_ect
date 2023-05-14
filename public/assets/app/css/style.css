@@ -1051,11 +1051,11 @@ fieldset{padding:0; margin:0; border:0;}
 .ui.icon.input input.size-03{min-height:2.875rem!important;}
 .ui.icon.input > em.icon{border-radius:0 .375rem .375rem 0;}
 .ui{
-  position:relative; border:none; border-radius:.375rem; cursor:pointer; min-height:2.875rem;
+  position:relative; border:none; border-radius:.375rem; cursor:pointer;
 }
 .dropdown-icon{
   position:absolute; right:0; pointer-events:none; width:2.5rem; height:100%; border-radius:0 .375rem .375rem 0;
-  top:0; bottom:0; display:flex; justify-content:center; align-items:center; min-height:2.875rem;
+  top:0; bottom:0; display:flex; justify-content:center; align-items:center; 
 }
 .dropdown-icon.size-02{width:3rem; min-height:2.875rem;}
 
