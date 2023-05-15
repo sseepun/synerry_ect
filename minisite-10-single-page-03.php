@@ -111,52 +111,61 @@
          <h4 class="title fw-600 mt-6 color-black-theme pt-6"  data-aos="fade-up" data-aos-delay="450">
             ไฟล์ที่เกี่ยวข้อง
           </h4>  
-          <div class="scroll-x-wrapper mt-3" data-simplebar>
-            <table class="table table-download style-04 bg-white-theme" data-aos="fade-up" data-aos-delay="450">
+          <div class="scroll-x-wrapper style-02 mt-2">
+            <table class="table style-05 table-download" data-aos="fade-up" data-aos-delay="600">
               <tbody>
                 <?php
                   foreach([
-                    'pdf', 'pdf'
+                    'pdf', 'doc', 'xls', 'pptx', 'zip',
+                    'rar', 'link'
                   ] as $k){
                 ?>
-                  <tr class="box-shadow style-02 mb-2">
+                  <tr class="table-card border table-card-01 box-shadow style-02 mb-2">
                     <td>
-                      <div class="download-card flex-column style-02">
+                      <div class="download-card">
+                        <div>
                         <img src="public/assets/app/images/file/svg/<?= $k ?>.svg" alt="Image File" />
-                        <p class="xs color-white color-white-theme">0.2 MB</p>
+                        <p class="xxs color-white color-black-theme fw-400">0.2 MB</p>
+                        </div>
                       </div>
                     </td>
                     <td class="title-container" style="min-width:450px;">
-                      <a class="p lh-sm title fw-600" href="#">
-                        โครงสร้างองค์กร
+                      <a class="p title fw-500 lh-sm" href="#">
+                        รายงานการจัดซื้อจัดจ้างส่วนภูมิภาคประจำเดือนมกราคม 2565 
+                        รายงานการจัดซื้อจัดจ้างส่วนภูมิภาค
                       </a>
-                      <div class="text-footer mt-1">
+                      <div class="text-footer mt-2">
                         <div class="wrapper">
-                          <div class="icon cursor-pointer">
-                            <em class="fa-solid fa-circle-exclamation mr-1"></em>
-                            <p class="sm color-black btn-popup-toggle-02 color-black-theme fw-400" data-popup="99">แจ้งไฟล์เสีย</p>
+                          <div class="icon color-02">
+                            <em class="fa-regular fa-calendar"></em>
+                            <p class="xs fw-400 ml-2">29 พฤศจิกายน</p>
+                          </div>
+                          <div class="icon color-02">
+                            <em class="fa-regular fa-floppy-disk"></em>
+                            <p class="xs fw-400 ml-2">ดาวน์โหลด 122 ครั้ง</p>
                           </div>
                         </div>
                       </div>
                     </td>
-                    <td class="button-container pr-6" style="min-width:90px;">
-                    <div class="btns jc-end">
-                      <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30 btn-black-theme">
-                        ดาวน์โหลดไฟล์ <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
+                    <td class="button-container" style="min-width:90px;">
+                      <div class="btns jc-end">
+                        <div href="#" class="btn btn-white-theme btn-fling-down width-auto btn-action btn-30 btn-black-theme">
+                          ดาวน์โหลดไฟล์ <em class="fa-solid fa-arrow-down fling-down ml-1"></em>
+                        </div>
                       </div>
-                    </div>
                     </td>
-                    <td class="data-analysis" style="min-width:220px;">
-                      <div class="wrapper">
-                        <div class="icon">
-                          <em class="fa-regular fa-calendar mr-1"></em>
-                          <p class="sm fw-400">15 กุมภาพันธ์ 2565</p>
-                        </div>
-                        <div class="icon">
-                          <em class="fa-solid fa-floppy-disk mr-1"></em>
-                          <p class="sm fw-400">ดาวน์โหลด 120 ครั้ง</p>
-                        </div>
-                      </div>
+                    <td class="report-container" style="min-width:150px;">
+                      <em class="fa-solid fa-triangle-exclamation"></em>
+                      <?php
+                        if($k === 'link'){?>
+                          <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                            แจ้งลิงก์เสีย
+                          </a>
+                      <?php } else {?>
+                          <a class="xs text btn-popup-toggle-02 color-black-theme text-center fw-500 mt-1" data-popup="99">
+                            แจ้งไฟล์เสีย
+                          </a>
+                      <?php }?>
                     </td>
                   </tr>
                 <?php }?>

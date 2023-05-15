@@ -59,7 +59,7 @@
         <div class="body">
           <div class="ss-title">
             <h3 class="fw-500" data-aos="fade-up" data-aos-delay="0">
-              ทำเนียบ กกต. จว.
+              ทำเนียบ กกต. จังหวัด
             </h3>
           </div>
           <div class="election-commission-container">
