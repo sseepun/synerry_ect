@@ -1802,11 +1802,14 @@ body.minisite .search-container .form > .form-group .date-wrapper:after{border:1
 .ss-list.style-04 > li a {transition:color .25s;}
 .ss-list.style-04.theme-01 > li a:hover{text-decoration:underline;}
 .ss-list.style-04.theme-01 > li:hover::before{opacity:0;}
-.ss-list.style-04.theme-01 > li:hover::after{
-  content: ''; position:absolute; top:.625rem; left:-.25rem; width:.9375rem;
-  height:.75rem; background-image: url('../images/icon/sitemap-icon-hover.png')!important; background-size:cover!important;
-  background-repeat:no-repeat!important; 
+.ss-list.style-04.theme-01 > li .wrapper{display:flex; position:relative;}
+.ss-list.style-04.theme-01 > li .icon{position:absolute; top:.4375rem; left:-1rem;}
+.ss-list.style-04.theme-01 > li .icon > svg{
+  display:block; max-width:100%; max-height:100%; width:auto; height:.75rem;
+  opacity:0; transition:all .25s;
 }
+.ss-list.style-04.theme-01 > li:hover .icon > svg{opacity:1;}
+
 .ss-list.style-04 > li::before{
   content:""; position:absolute; top:.8125rem; left:0; width:.375rem; height:.375rem;
   border-radius:0; z-index:2; transition:background .25s;

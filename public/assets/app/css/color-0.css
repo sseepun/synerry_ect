@@ -422,11 +422,11 @@ body.minisite .calendar-week .fc-time-grid td.fc-axis.fc-widget-content:first-ch
 body.minisite .calendar-week .fc-day-grid .fc-bg td{background:#371e1a; color:#ffffff;}
 body.minisite .calendar-week .custom-date{color:#ffffff;}
 body.minisite .calendar-week .custom-date.active{background:#7cc5b5;}
-body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#7cc5b5;}
+body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#7cc5b5; background:#000000!important;}
 body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#8c6961!important;}
 body.minisite .calendar-week .fc-time-grid .fc-event.bcolor-theme-01{border-color:#e7b300!important;}
 body.minisite .calendar-week .fc-time-grid .fc-event.bcolor-theme-02{border-color:#0d5cb7!important;}
-
+body.minisite .calendar-week .fc-day-today{background:#000000!important;}
 /* Calendar - Month */
 .calendar-month.main-site .fc-col-header-cell{background:#bfe7d7; color:#000000;}
 .calendar-month.main-site .fc-theme-standard th{border-color:#bfe7d7!important;}
@@ -1376,6 +1376,7 @@ body.minisite .ss-title{border-color:#8c6961;}
 .ss-list.style-04 > li:hover::before{background:#30906a!important;}
 .ss-list.style-04 > li a:hover{color:#30906a;}
 .ss-list.style-04.theme-01 > li:hover a{color:#3dce95!important;}
+.ss-list.style-04.theme-01 > li .icon > svg{fill:#3dce95;}
 .ss-list.style-04 > li:hover::before{background:#30906a!important;}
 .ss-list.style-05 > li::before{background:#30906a;}
 .ss-list.style-05 > li a:hover{color:#2e603c;}

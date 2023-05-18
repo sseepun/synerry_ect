@@ -118,6 +118,9 @@
           center: 'title',
           right: 'next'
         },
+        theme:{
+          todayBackgroundColor: '#FF7066',
+        },
         defaultView: 'timeGridWeek',
         firstDay: 1,
         locale: 'th',
