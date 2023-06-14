@@ -155,6 +155,7 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 .calendar-month .custom-event{position:relative; padding:0 .5rem;}
 .calendar-month .custom-event .date-time{display:flex; align-items:center;}
 .calendar-month .custom-event .date-time > .icon{margin-right:.5rem;}
+.calendar-month .fc-daygrid-day{height:10rem!important;}
 .calendar-month .custom-event > .table .title{
   display: block; text-overflow: ellipsis; overflow: hidden;
    -webkit-line-clamp: 2;
@@ -290,6 +291,10 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
   display:flex; justify-content:center; align-items:center; height:100%;
   font-size:1rem; font-weight:500;
 }
+
+/* Calendar - Week 02 */
+.calendar-week-02 .fc-header-toolbar{display:none;}
+.calendar-week-02 .fc-col-header-cell{padding:.75rem 0;}
 
 
 /* Calendar - Year */

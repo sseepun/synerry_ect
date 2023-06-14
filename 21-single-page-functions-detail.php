@@ -190,12 +190,6 @@
           </div>
         </div>
       </div>
-      <div class="pos-relative mt-6" style="z-index:2;">
-        <?php 
-          $footerStyle = 'style-02';
-          include_once('include/footer-single-page.php'); 
-        ?>
-      </div>
     </div>
   </section>
 
