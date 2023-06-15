@@ -138,8 +138,8 @@
         events: [
           {
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
-            start: '2023-03-27T08:00:00',
-            end: '2023-03-27T12:00:00',
+            start: '2023-06-15T08:00:00',
+            end: '2023-07-16T12:00:00',
             url: '#',
           }, {
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
@@ -154,6 +154,7 @@
         eventRender: function(info, d){
           var event = info.event,
               dateStart = new Date(event.start),
+              dateEnd = new Date(event.end),
               timeStart = new Date(event.start),
               timeEnd = new Date(event.end),
               minutesStart = String(timeStart.getMinutes()).padStart(2, '0'),
@@ -161,9 +162,6 @@
               minutesEnd = String(timeEnd.getMinutes()).padStart(2, '0'),
               hoursEnd = String(timeEnd.getHours()).padStart(2, '0')
 
-              console.log(minutesStart)
-              console.log(hoursStart)
-         
           info.el.innerHTML = `
             <div class="ss-card ss-card-70 color-dark"> 
               <h6 class="color-dark fw-500">${event.title}</h6>
@@ -171,8 +169,10 @@
                 <div class="icon">
                   <em class="fa-solid fa-calendar-days"></em>
                 </div>
-                <span class="p sm fw-500">${dateStart.getDate()} มีนาคม ${dateStart.getFullYear() + 543}</span>
-                <span class="p sm fw-500">
+                <span class="p sm fw-500">${dateStart.getDate()} ${months[dateStart.getMonth()]} ${dateStart.getFullYear() + 543}</span>
+                <span class="ml-1 mr-1"> - </span>
+                <span class="p sm fw-500">${dateEnd.getDate()} ${months[dateEnd.getMonth()]} ${dateStart.getFullYear() + 543}</span>
+                <span class="p sm fw-500 ml-3">
                   เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
                 </span>
               </div>
@@ -203,6 +203,7 @@
         calendarDay.next();
       });
     });
+
   </script>
 </body>
 </html>

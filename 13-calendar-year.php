@@ -103,15 +103,16 @@
         },
         initialView: 'multiMonthYear',
         initialDate: '2023-01-12',
-        editable: true,
+        editable: false,
         locale: 'th',
-        selectable: true,
+        selectable: false,
         dayMaxEvents: true,
         events: [
           {
             id: 1,
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
-            start: '2023-04-12'
+            start: '2023-04-12',
+            end: '2023-04-14'
           }, {
             id: 2,
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',

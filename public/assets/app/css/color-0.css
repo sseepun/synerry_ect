@@ -415,11 +415,25 @@ body.minisite .calendar-day .fc-time-grid-event.bcolor-theme-02{border-color:#e7
 .calendar-week .fc-day.fc-today{background:#dff3eb!important;}
 
 /* Calendar Week 02 */
+.calendar-week-02 th.fc-timegrid-axis{background:#063112; color:#ffffff;}
 .calendar-week-02 .fc-col-header-cell{background:#bfe7d7;}
-.calendar-week-02 .fc-col-header-cell.fc-day-today{background:#063112;}
+.calendar-week-02 .fc-col-header-cell.fc-day-today{background:#063112!important;}
 .calendar-week-02 .fc-col-header-cell.fc-day-today > .fc-scrollgrid-sync-inner a{color:#ffffff;}
-/* .calendar-week-02 .fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor,
-.fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{background:#2e603c;} */
+.calendar-week-02 .fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor,
+.calendar-week-02 .fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{background:#2e603c; color:#ffffff;}
+.calendar-week-02 .fc-event{background:#ffffff!important; border-color:#2e603c!important}
+.calendar-week-02 .fc-timegrid-axis-frame.fc-scrollgrid-shrink-frame.fc-timegrid-axis-frame-liquid{background:#2e603c; color:#ffffff;}
+.calendar-week-02 .fc-day.fc-day-today{background:#dff3eb;}
+
+/* Calendar Week 02 - Mini Site */
+body.minisite .calendar-week-02 .fc-col-header-cell{background:#371e1a; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-col-header-cell.fc-day-today{background:#7cc5b5!important;}
+body.minisite .calendar-week-02 .fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor,
+body.minisite .calendar-week-02 .fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{background:#7cc5b5; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-timegrid-axis-frame.fc-scrollgrid-shrink-frame.fc-timegrid-axis-frame-liquid{background:#7cc5b5; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-event{border-color:#7cc5b5!important;}
+body.minisite .ss-card-70 .option > .icon{color:#7cc5b5;}
+
 
 /* Calendar Week - Minisite */
 body.minisite .calendar-week .fc-day-grid .fc-bg td:first-child{background:#371e1a;}

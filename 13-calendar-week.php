@@ -112,6 +112,7 @@
           center: 'title',
           right: 'next'
         },
+        allDay : true,
         defaultView: 'timeGridWeek',
         firstDay: 1,
         locale: 'th',
@@ -126,8 +127,8 @@
           },
           {
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้ง ที่ 4',
-            start: '2023-03-28T08:00:00',
-            end: '2023-03-28T15:00:00',
+            start: '2023-06-17T08:00:00',
+            end: '2023-03-17T09:00:00',
             url: '#',
           },
           {

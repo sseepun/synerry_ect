@@ -18,6 +18,7 @@
 .calendar-wrapper{
   display:block; width:100%; min-width:44rem; padding:0; overflow:hidden;
 }
+.calendar-wrapper.lg{min-width:75rem;}
 .calendar-wrapper .calendar-header-title > .wrapper{display:flex; height:3.5rem;}
 .calendar-wrapper .calendar-header-title > .wrapper .time{
   width:4rem; height:100%; display:flex; align-items:center; justify-content:center; border-radius:.3125rem 0 0 0;
@@ -29,8 +30,9 @@
   .calendar-header .text-wrapper, .calendar-header .button-container{width:50%;}
 }
 @media screen and (max-width:991.98px){
-  .calendar-header .text-wrapper, .calendar-header .button-container{width:100%;}
-  .calendar-header .button-container{justify-content:flex-start; margin-top:1rem;}
+  .calendar-header .text-wrapper, 
+  .calendar-header .button-container{width:100%; justify-content:center;}
+  .calendar-header .button-container{justify-content:center; margin-top:1rem;}
   body.minisite .calendar-header .button-container{justify-content:center;}
   body.minisite .calendar-header .text-wrapper{justify-content:center;}
 }
@@ -93,7 +95,7 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 .calendar-day .fc-ltr .fc-time-grid .fc-event-container{margin:0 1.5% 0 2px;}
 .calendar-day .fc-rtl .fc-time-grid .fc-event-container{margin:0 2px 0 1.5%;}
 .calendar-day .fc-time-grid .fc-event,
-.calendar-day .fc-time-grid .fc-bgevent{position:absolute; padding:0;}
+.calendar-day .fc-time-grid .fc-bgevent{position:absolute; padding:0; height:max-content;}
 .calendar-day .fc-time-grid .fc-bgevent{left:0; right:0;}
 .calendar-day .fc-time-grid-event{
   border-left:4px solid transparent; max-width:600px; padding:1rem!important;
@@ -120,7 +122,7 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
   border-top-width:0; padding-top:1px; border-top-left-radius:0; border-top-right-radius:0;
 }
 .calendar-day .fc-time-grid-event.fc-not-end{
-  border-bottom-width:0; padding-bottom:1px; border-bottom-left-radius:0; 
+  border-bottom-width:1; padding-bottom:1px; border-bottom-left-radius:0; 
   border-bottom-right-radius:0;
 }
 .calendar-day .fc-time-grid-event.fc-allow-mouse-resize .fc-resizer{
@@ -295,7 +297,24 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 /* Calendar - Week 02 */
 .calendar-week-02 .fc-header-toolbar{display:none;}
 .calendar-week-02 .fc-col-header-cell{padding:.75rem 0;}
-
+.calendar-week-02 .fc-direction-ltr .fc-timegrid-slot-label-frame{text-align:center;}
+.calendar-week-02 th.fc-timegrid-axis::after{
+  content:'เวลา'; height:100%; display:flex; justify-content:center; align-items:center;
+}
+.calendar-week-02 .fc-timegrid-slot-label-cushion.fc-scrollgrid-shrink-cushion::after{content:'.00';}
+.calendar-week-02 th.fc-timegrid-axis{  border-radius:.3125rem 0 0 0;}
+.calendar-week-02 .fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{padding:.375rem 0!important;}
+.calendar-week-02 .fc-timegrid-slot-minor{display:none!important;}
+.calendar-week-02 .fc-scrollgrid-section-liquid .fc-scroller.fc-scroller-liquid-absolute{overflow:hidden hidden!important;}
+.calendar-week-02 .fc-view-harness.fc-view-harness-active{height:1085px!important;}
+.calendar-week-02 .fc .fc-timegrid-slot-minor{border-top-style:none!important;}
+.calendar-week-02 .fc-scrollgrid-sync-table,
+.calendar-week-02 .fc-timegrid-body, .calendar-week-02 .fc-timegrid-slots table{width:100%!important;}
+.calendar-week-02 .fc .fc-daygrid-body-natural .fc-daygrid-day-events{margin-bottom:0;}
+.calendar-week-02 .fc-event{
+  border-radius:0!important; border:1px solid transparent; border-left:4px solid transparent;
+  padding:.5rem; height:max-content; 
+}
 
 /* Calendar - Year */
 .calendar-year .fc-view-harness.fc-view-harness-active{height:auto!important;}

@@ -500,6 +500,15 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 .calendar-week .fc-day.fc-today{background:#e4b703!important;}
 .calendar-week .fc-unthemed td{border-color:#fecb00;}
 
+/* Calendar - Week 02 */
+.calendar-week-02 .fc-event{background:#fecb00!important; border-color:#e4b703!important}
+.calendar-week-02 .fc-col-header-cell.fc-day-today{background:#fecb00;}
+.calendar-week-02 .fc-col-header-cell.fc-day-today > .fc-scrollgrid-sync-inner a{color:#000000;}
+.calendar-week-02 .fc-day.fc-day-today{background:#fecb00!important;}
+.calendar-week-02 .fc-theme-standard td, .calendar-week-02 .fc-theme-standard th, 
+.calendar-week-02 .fc-theme-standard .fc-scrollgrid{border-color:#fecb00;}
+.calendar-week-02 .fc-event{box-shadow:unset;}
+
 /* Calendar Week - Minisite */
 body.minisite .calendar-week .fc-day-grid .fc-bg td:first-child{background:#000000;}
 body.minisite .calendar-week .fc-time-grid td.fc-axis.fc-widget-content:first-child{

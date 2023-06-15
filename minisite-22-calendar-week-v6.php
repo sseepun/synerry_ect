@@ -4,79 +4,85 @@
   <?php include_once('include/header.php'); ?>
   <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="minisite loading">
   <?php include_once('component/page-loader.php'); ?>
-  <?php include_once('include/topnav-style-01.php'); ?>
+  <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
       [ 'url' => '#', 'display' => 'หน้าหลัก' ],
       [ 'url' => '#', 'display' => 'ปฏิทินกิจกรรม' ],
     ];
     $breadcrumbTitle = 'ปฏิทินกิจกรรม';
-    $breadcrumbBg = 'public/assets/app/images/breadcrumb/11.jpg';
-    include('component/breadcrumb.php');
+    $breadcrumbBg = 'public/assets/app/images/breadcrumb/42.jpg';
+    $formContainer = true;
+    $sectionOptions = ['option-02', 'views-05'];
+    include('component/breadcrumb-style-02.php');
   ?>
-
-  <section class="section-padding">
+  
+  <section class="section-14">
     <div class="container">
-    <div data-aos="fade-up" data-aos-delay="0">
-        <?php include('component/list-header-calendar-style-02.php'); ?>
-      </div>
-      <div class="calendar-header mt-6 mb-6" data-aos="fade-up" data-aos-delay="150">
-        <div class="text-wrapper">
-          <p id="calendar-title" class="h3 fw-600">
-            <span class="month">&nbsp;</span>
-            <span class="year">&nbsp;</span>
-          </p>
-          <div class="wrapper">
-            <div id="prev-week-btn" class="btn-calendar">
-              <em class="fa-solid fa-arrow-left"></em>
+      <div class="ss-box bg-white-theme style-02 w-full">
+        <div class="ss-box-shadow xl"></div>
+        <div class="body pt-0">
+        <div class="calendar-header mt-6" data-aos="fade-up" data-aos-delay="0">
+          <div class="text-wrapper">
+            <div class="wrapper ml-0">
+              <div id="prev-week-btn" class="btn-calendar">
+                <em class="fa-solid fa-arrow-left"></em>
+              </div>
+              <p id="calendar-title" class="h3 ml-2 mr-2 fw-600">
+                <span class="month">&nbsp;</span>
+                <span class="year">&nbsp;</span>
+              </p>
+              <a class="text fw-400 size-02" href="#">สัปดาห์นี้</a>
+              <div id="next-week-btn" class="btn-calendar">
+                <em class="fa-solid fa-arrow-right"></em>
+              </div>
             </div>
-            <a class="text fw-400 size-02" href="#">สัปดาห์นี้</a>
-            <div id="next-week-btn" class="btn-calendar">
-              <em class="fa-solid fa-arrow-right"></em>
+          </div>
+          <div class="button-container">
+            <div class="button-wrapper">
+            <div class="btns">
+              <div class="btn btn-action btn-29 size-05 btn-white-theme">
+                วัน
+              </div>
+              <div class="btn btn-action btn-29 size-05 active btn-white-theme">
+                สัปดาห์
+              </div>
+              <div class="btn btn-action btn-29 size-05 btn-white-theme">
+                เดือน
+              </div>
+              <div class="btn btn-action btn-29 size-05 btn-white-theme">
+                ปี
+              </div>
+            </div>
             </div>
           </div>
         </div>
-        <div class="button-container">
-          <div class="button-wrapper">
-          <div class="btns">
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              วัน
+        <div class="scroll-x-wrapper mt-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="calendar-wrapper theme-01">
+            <div class="calendar-week-02">
+              <div id="calendar"></div>
             </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              สัปดาห์
-            </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              เดือน
-            </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
-              ปี
-            </div>
-          </div>
           </div>
         </div>
-      </div>
-      <div class="scroll-x-wrapper">
-        <div class="calendar-wrapper lg">
-          <div class="calendar-week-02">
-            <div id='calendar'></div>
-          </div>
+          <div class="pt-6 pb-6"></div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <?php include_once('include/footer-02.php'); ?>
+  <?php include_once('include/footer-style-05.php'); ?>
   <?php include_once('include/script.php'); ?>
 
   <link rel="stylesheet" type="text/css" href="public/assets/app/css/custom-calendar.css" />
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
-   
+
   <script>
     $(function(){
 
       var today = new Date();
+   
 
       // Calendar Month
       var calendarTitle = $('#calendar-title'),
@@ -105,9 +111,9 @@
         center: 'title',
         right: 'timeGridWeek',
       },
+      allDayText: 'กิจกรรมต่อเนื่อง',
       editable: false,
       droppable: false, 
-      allDayText: 'กิจกรรมต่อเนื่อง',
       events: [
         {
           id: 1,
@@ -146,24 +152,22 @@
                     <div class="icon">
                       <em class="fa-solid fa-calendar-days"></em>
                     </div>
-                    <p class="xs fw-400">
-                      เวลา <span class="p xs fw-400">${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}</span>
-                    </p>
+                    <span id="dateTime" class="p xxs fw-400">
+                      เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
+                    </span>
                   </div>
                   <div class="option ai-start mt-1">
                     <div class="icon">
                       <em class="fa-solid fa-location-dot"></em>
                     </div>
-                    <p class="xs fw-400 lh-xs">จังหวัดเชียงราย</p>
+                    <p class="xxs fw-400 lh-xs">จังหวัดเชียงราย</p>
                   </div>
               </div>`
             };
           },
       });
       calendarWeek.render();
-
-     
-
+   
       
       // Events
       prevWeekBtn.click(function(e){
