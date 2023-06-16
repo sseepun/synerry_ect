@@ -5,7 +5,7 @@
   <?php include_once('include/style.php'); ?>
 </head>
 <body class="minisite loading">
-  <?php include_once('component/page-loader.php'); ?>
+  <?php //include_once('component/page-loader.php'); ?>
   <?php include_once('include/topnav-minisite-dropdown-menu.php'); ?>
   <?php
     $breadcrumb = [
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="scroll-x-wrapper mt-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="calendar-wrapper theme-01">
+          <div class="calendar-wrapper lg theme-01">
             <div class="calendar-week-02">
               <div id="calendar"></div>
             </div>
@@ -125,11 +125,16 @@
           title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
           start: '2023-06-12T03:00:00',
           end:'2023-06-12T05:00:00'
-        }, {
+        },{
           id: 3,
           title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
           start: '2023-06-16T01:00:00',
           end:'2023-06-16T03:00:00'
+        },{
+          id: 4,
+          title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+          start: '2023-06-13',
+          end:'2023-06-16'
         },
       ],
       datesSet: function(info){

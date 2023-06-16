@@ -380,6 +380,9 @@ nav.sfooter-minisite .grid-line > .line::before{background:#fecb00;}
 .btn.btn-37.black-theme, .btn.btn-37.black-theme:focus{background:#000000; color:#fecb00;}
 .btn.btn-37.white-theme, .btn.btn-37.white-theme:focus{background:#fecb00; color:#000000;}
 .btn.btn-29.active{background:#d3a901; color:#000000;}
+.btn.btn-33.calendar-main-site, .btn.btn-33.calendar-main-site:focus{color:#000000; background:#fecb00; border-color:#fecb00;}
+.btn.btn-33.calendar-main-site:hover, .btn.btn-33.calendar-main-site.active{background:#000000; color:#fecb00;}
+.btn.btn-22.calendar-main-site:hover, .btn.btn-22:focus.calendar-main-site.active{background:#000000; color:#fecb00; border-color:#fecb00;}
 
 .btn.btn-02:hover{background:#fecb00!important; color:#000000!important;}
 .btn.btn-03.btn-white-theme, .btn.btn-03:focus.btn-white-theme,
@@ -502,9 +505,9 @@ input[type="email"][disabled], input[type="text"][disabled]{color:#000000!import
 
 /* Calendar - Week 02 */
 .calendar-week-02 .fc-event{background:#fecb00!important; border-color:#e4b703!important}
-.calendar-week-02 .fc-col-header-cell.fc-day-today{background:#fecb00;}
+.calendar-week-02 .fc-col-header-cell.fc-day-today{background:#fecb00!important;}
 .calendar-week-02 .fc-col-header-cell.fc-day-today > .fc-scrollgrid-sync-inner a{color:#000000;}
-.calendar-week-02 .fc-day.fc-day-today{background:#fecb00!important;}
+.calendar-week-02 .fc-day.fc-day-today{background:#fecb00;}
 .calendar-week-02 .fc-theme-standard td, .calendar-week-02 .fc-theme-standard th, 
 .calendar-week-02 .fc-theme-standard .fc-scrollgrid{border-color:#fecb00;}
 .calendar-week-02 .fc-event{box-shadow:unset;}
@@ -521,6 +524,20 @@ body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#d3a901!impor
 body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#000000!important;}
 body.minisite .calendar-week .fc-time-grid-event{background:#fecb00;}
 body.minisite .calendar-week .fc-widget-content{background:#000000!important; color:#fecb00!important;}
+
+/* Calendar Week 02 - Mini Site */
+body.minisite .calendar-week-02 th.fc-timegrid-axis{background:#000000; color:#fecb00;}
+body.minisite .calendar-week-02 .fc-col-header-cell{background:#000000; color:#fecb00;}
+body.minisite .calendar-week-02 .fc-col-header-cell.fc-day-today{background:#fecb00!important;}
+body.minisite .calendar-week-02 .fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor,
+body.minisite .calendar-week-02 .fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{background:#000000; color:#fecb00;}
+body.minisite .calendar-week-02 .fc-timegrid-axis-frame.fc-scrollgrid-shrink-frame.fc-timegrid-axis-frame-liquid{background:#000000; color:#fecb00;}
+body.minisite .calendar-week-02 .fc-event{border-color:#000000!important;}
+body.minisite .ss-card-70 .option > .icon{color:#000000;}
+body.minisite .calendar-week-02 .fc-day.fc-day-today{background:rgba(0,0,0,.1);}
+body.minisite .calendar-week-02 .fc-theme-standard td, 
+body.minisite .calendar-week-02 .fc-theme-standard th, 
+body.minisite .calendar-week-02 .fc-theme-standard .fc-scrollgrid{border-color:#000000;}
 
 
 /* Calendar */

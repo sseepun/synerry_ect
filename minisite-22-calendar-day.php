@@ -142,8 +142,8 @@
         events: [
           {
             title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
-            start: '2023-05-01T08:00:00',
-            end: '2023-05-01T12:00:00',
+            start: '2023-06-16T08:00:00',
+            end: '2023-06-17T12:00:00',
             url: '#',
             className: "bcolor-theme-01",
           },{
@@ -165,6 +165,7 @@
         eventRender: function(info, d){
           var event = info.event,
               dateStart = new Date(event.start),
+              dateEnd = new Date(event.end),
               timeStart = new Date(event.start),
               timeEnd = new Date(event.end),
               minutesStart = String(timeStart.getMinutes()).padStart(2, '0'),
@@ -180,14 +181,16 @@
               <h6 class="color-dark fw-500">${event.title}</h6>
               <div class="option">
                 <p class="sm fw-500 mr-2">วันเวลา</p>
-                <span class="p sm fw-300">${dateStart.getDate()} มีนาคม ${dateStart.getFullYear() + 543}</span>
-                <span class="p sm ml-2 fw-300">
+                <span class="p sm fw-400">${dateStart.getDate()} ${months[dateStart.getMonth()]} ${dateStart.getFullYear() + 543}</span>
+                <span class="ml-1 mr-1"> - </span>
+                <span class="p sm fw-400">${dateEnd.getDate()} ${months[dateEnd.getMonth()]} ${dateStart.getFullYear() + 543}</span>
+                <span class="p sm ml-2 fw-400">
                   เวลา ${hoursStart} : ${minutesStart} - ${hoursEnd} : ${minutesEnd}
                 </span>
               </div>
               <div class="option">
                 <p class="sm fw-500 mr-2">สถานที่</p>
-                <p class="sm fw-300">องค์การบริหารส่วนตำบลเทอดไทย, จังหวัดเชียงราย</p>
+                <p class="sm fw-400">องค์การบริหารส่วนตำบลเทอดไทย, จังหวัดเชียงราย</p>
               </div>
             </div>
           `;

@@ -434,6 +434,18 @@ body.minisite .calendar-week .fc-time-grid .fc-event.bcolor-theme-01{border-colo
 body.minisite .calendar-week .fc-time-grid .fc-event.bcolor-theme-02{border-color:#0d5cb7!important;}
 body.minisite .calendar-week .fc-day.fc-today{background:rgba(0,206,143,.1)!important;}
 
+/* Calendar Week 02 - Mini Site */
+body.minisite .calendar-week-02 .fc-event{background:#ffffff;}
+body.minisite .calendar-week-02 th.fc-timegrid-axis{background:#30906a; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-col-header-cell{background:#f2af8f; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-col-header-cell.fc-day-today{background:#f7b331!important;}
+body.minisite .calendar-week-02 .fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor,
+body.minisite .calendar-week-02 .fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{background:#f7b331; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-timegrid-axis-frame.fc-scrollgrid-shrink-frame.fc-timegrid-axis-frame-liquid{background:#f7b331; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-event{border-color:#f7b331!important;}
+body.minisite .ss-card-70 .option > .icon{color:#f7b331;}
+body.minisite .calendar-week-02 .fc-day.fc-day-today{background:rgba(0,206,143,.1);}
+
 
 /* Calendar - Month */
 .calendar-month.main-site .fc-col-header-cell{background:#bfe7d7; color:#000000;}

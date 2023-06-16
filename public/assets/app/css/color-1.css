@@ -133,6 +133,9 @@ img, .img-bg, .hero, .section-bg, .img-fill, .pattern, .mobile-screen, .swiper-b
 .btn.btn-32:hover, .btn.btn-32.active{color:#000000; background:#dddddd; border-color:#dddddd;}
 .btn.btn-33, .btn.btn-33:focus{color:#ffffff; background:#000000; border-color:#000000;}
 .btn.btn-33:hover, .btn.btn-33.active{color:#000000; background:#dddddd; border-color:#dddddd;}
+.btn.btn-33.calendar-main-site, .btn.btn-33.calendar-main-site:focus{color:#000000; background:#ffffff; border-color:#ffffff;}
+.btn.btn-33.calendar-main-site:hover, .btn.btn-33.calendar-main-site.active{background:#000000; color:#ffffff;}
+.btn.btn-22.calendar-main-site:hover, .btn.btn-22:focus.calendar-main-site.active{background:#000000; color:#ffffff; border-color:#ffffff;}
 
 .btn.btn-action-style-02:hover{border-color:#000000;}
 .btn.btn-action-style-04 .wrapper > .icon{background:#000000; color:#ffffff!important;}
@@ -218,9 +221,9 @@ body.minisite .calendar-day .fc-unthemed td{border-color:#000000;}
 
 /* Calendar - Week 02 */
 .calendar-week-02 .fc-event{background:#ffffff!important; border-color:#dddddd!important}
-.calendar-week-02 .fc-col-header-cell.fc-day-today{background:#ffffff;}
+.calendar-week-02 .fc-col-header-cell.fc-day-today{background:#ffffff!important;}
 .calendar-week-02 .fc-col-header-cell.fc-day-today > .fc-scrollgrid-sync-inner a{color:#000000;}
-.calendar-week-02 .fc-day.fc-day-today{background:#ffffff!important;}
+.calendar-week-02 .fc-day.fc-day-today{background:#ffffff;}
 
 /* Calendar Week - Minisite */
 body.minisite .calendar-week .fc-day-grid .fc-bg td:first-child{background:#000000;}
@@ -234,6 +237,16 @@ body.minisite .calendar-week .fc-day-grid .fc-bg td.fc-today{color:#dddddd!impor
 body.minisite .calendar-week .fc-time-grid .fc-event{border-color:#000000!important;}
 body.minisite .calendar-week .fc-time-grid-event{background:#ffffff;}
 
+/* Calendar Week 02 - Mini Site */
+body.minisite .calendar-week-02 th.fc-timegrid-axis{background:#000000; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-col-header-cell{background:#000000; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-col-header-cell.fc-day-today{background:#ffffff!important;}
+body.minisite .calendar-week-02 .fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor,
+body.minisite .calendar-week-02 .fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{background:#000000; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-timegrid-axis-frame.fc-scrollgrid-shrink-frame.fc-timegrid-axis-frame-liquid{background:#000000; color:#ffffff;}
+body.minisite .calendar-week-02 .fc-event{border-color:#000000!important;}
+body.minisite .ss-card-70 .option > .icon{color:#000000;}
+body.minisite .calendar-week-02 .fc-day.fc-day-today{background:rgba(0,0,0,.1);}
 
 /* Calendar - Year */
 .calendar-year .fc-multimonth-month{border:3px solid #ffffff;}

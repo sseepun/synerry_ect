@@ -23,10 +23,10 @@
     <div class="button-wrapper">
     <span class="p sm fw-500 mr-2">มุมมอง</span>
     <div class="btns">
-      <div class="btn btn-action btn-22 size-05 btn-white-theme">
+      <div class="btn btn-action btn-22 calendar-main-site size-05 btn-white-theme">
         รายการ
       </div>
-      <div class="btn btn-action btn-22 size-05 btn-white-theme">
+      <div class="btn btn-action btn-22 calendar-main-site size-05 btn-white-theme">
         ปฏิทิน
       </div>
     </div>

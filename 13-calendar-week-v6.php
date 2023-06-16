@@ -41,23 +41,23 @@
         <div class="button-container">
           <div class="button-wrapper">
           <div class="btns">
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
+            <div class="btn btn-action btn-33 calendar-main-site size-05 btn-white-theme">
               วัน
             </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
+            <div class="btn btn-action btn-33 calendar-main-site size-05 btn-white-theme">
               สัปดาห์
             </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
+            <div class="btn btn-action btn-33 calendar-main-site size-05 btn-white-theme">
               เดือน
             </div>
-            <div class="btn btn-action btn-33 size-05 btn-white-theme">
+            <div class="btn btn-action btn-33 calendar-main-site size-05 btn-white-theme">
               ปี
             </div>
           </div>
           </div>
         </div>
       </div>
-      <div class="scroll-x-wrapper">
+      <div class="scroll-x-wrapper" data-aos="fade-up" data-aos-delay="300">
         <div class="calendar-wrapper lg">
           <div class="calendar-week-02">
             <div id='calendar'></div>
@@ -124,6 +124,11 @@
           title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
           start: '2023-06-16T01:00:00',
           end:'2023-06-16T03:00:00'
+        },{
+          id: 4,
+          title: 'เลือกตั้ง ส.อบต. เทอดไทย เขตเลือกตั้งที่ 4',
+          start: '2023-06-13',
+          end:'2023-06-16'
         },
       ],
       datesSet: function(info){

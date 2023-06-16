@@ -85,7 +85,7 @@
     </div>
   </section>
 
-  <section class="section-28 size-02" data-aos="fade-up" data-aos-delay="0">
+  <section class="section-28 size-02 civic" data-aos="fade-up" data-aos-delay="0">
     <div class="img-bg" style="background-image:url('public/assets/app/images/bg/02.png');"></div>   
   </section>
 

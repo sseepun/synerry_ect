@@ -39,6 +39,10 @@
 @media screen and (max-width:575.98px){
   .calendar-header .wrapper > .btn-calendar{width:2rem; height:2rem; font-size:.875rem;}
 }
+@media screen and (max-width:375.98px){
+  body.minisite .calendar-header .wrapper{flex-direction:column;}
+  body.minisite .calendar-header .wrapper > .btn-calendar{margin:.5rem 0;}
+}
 
 body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10rem; overflow-y:auto;}
 
@@ -302,19 +306,22 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
   content:'เวลา'; height:100%; display:flex; justify-content:center; align-items:center;
 }
 .calendar-week-02 .fc-timegrid-slot-label-cushion.fc-scrollgrid-shrink-cushion::after{content:'.00';}
-.calendar-week-02 th.fc-timegrid-axis{  border-radius:.3125rem 0 0 0;}
+.calendar-week-02 .fc-view-harness{border-radius:.3125rem 0 0 0; overflow:hidden;}
 .calendar-week-02 .fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{padding:.375rem 0!important;}
 .calendar-week-02 .fc-timegrid-slot-minor{display:none!important;}
-.calendar-week-02 .fc-scrollgrid-section-liquid .fc-scroller.fc-scroller-liquid-absolute{overflow:hidden hidden!important;}
-.calendar-week-02 .fc-view-harness.fc-view-harness-active{height:1085px!important;}
+.calendar-week-02 .fc-view-harness.fc-view-harness-active{height:68.75rem!important;}
 .calendar-week-02 .fc .fc-timegrid-slot-minor{border-top-style:none!important;}
 .calendar-week-02 .fc-scrollgrid-sync-table,
-.calendar-week-02 .fc-timegrid-body, .calendar-week-02 .fc-timegrid-slots table{width:100%!important;}
 .calendar-week-02 .fc .fc-daygrid-body-natural .fc-daygrid-day-events{margin-bottom:0;}
 .calendar-week-02 .fc-event{
   border-radius:0!important; border:1px solid transparent; border-left:4px solid transparent;
   padding:.5rem; height:max-content; 
 }
+.calendar-week-02 .fc-scroller-harness .fc-scroller{max-height:auto; overflow:hidden hidden!important;}
+.calendar-week-02 .fc-daygrid-body{width:100%!important;}
+.calendar-week-02 .fc-timegrid-body{width:100%!important;}
+.calendar-week-02 .fc-scroller-harness.fc-scroller-harness-liquid .fc-scroller.fc-scroller-liquid-absolute{max-height:unset!important;}
+.calendar-week-02 .fc .fc-scrollgrid-section table{width:100%!important;}
 
 /* Calendar - Year */
 .calendar-year .fc-view-harness.fc-view-harness-active{height:auto!important;}

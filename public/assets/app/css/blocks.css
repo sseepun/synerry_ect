@@ -1684,6 +1684,13 @@
 @media screen and (max-width:767.98px){
   .section-28.size-03 .img-bg{background-size:cover;}
 }
+@media screen and (max-width:575.98px){
+  .section-28.size-02.civic{min-height:300px;}
+}
+@media screen and (max-width:375.98px){
+  .section-28.size-02.civic{min-height:200px;}
+}
+
 
 /* Section 29 */
 .section-29 .steps{

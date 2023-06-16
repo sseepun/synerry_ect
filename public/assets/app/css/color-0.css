@@ -426,6 +426,7 @@ body.minisite .calendar-day .fc-time-grid-event.bcolor-theme-02{border-color:#e7
 .calendar-week-02 .fc-day.fc-day-today{background:#dff3eb;}
 
 /* Calendar Week 02 - Mini Site */
+body.minisite .calendar-week-02 th.fc-timegrid-axis{background:#371e1a; color:#ffffff;}
 body.minisite .calendar-week-02 .fc-col-header-cell{background:#371e1a; color:#ffffff;}
 body.minisite .calendar-week-02 .fc-col-header-cell.fc-day-today{background:#7cc5b5!important;}
 body.minisite .calendar-week-02 .fc-timegrid-slot.fc-timegrid-slot-label.fc-timegrid-slot-minor,
