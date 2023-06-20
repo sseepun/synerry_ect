@@ -458,7 +458,6 @@ body.minisite .calendar-week .fc-day-today{background:#000000!important;}
 .calendar-month.main-site .fc-daygrid-day-number{background:#2e603c;}
 .calendar-month.main-site .fc-popover{border-left-color:#2e603c!important}
 
-.calendar-month .fc-daygrid-event-harness:hover{background:#ccbaba!important;}
 .calendar-month .custom-event{color:#000000;}
 .calendar-month .fc-popover{border-left-color:#30906a!important}
 .calendar-month .fc-daygrid-day-number{background:#8c6961; color:#ffffff;}
@@ -469,6 +468,7 @@ body.minisite .calendar-week .fc-day-today{background:#000000!important;}
 .calendar-month  .fc-daygrid-day.fc-day-today{background:#dff3eb;}
 .calendar-month .fc-day-other{background:#e6e6e6;}
 .calendar-month .fc-day-other .fc-daygrid-day-number{background:#e6e6e6; color:#000000;}
+.calendar-month .fc-daygrid-event-harness{background:#ccbaba!important;}
 .calendar-month .fc-daygrid-event-harness:hover{background:#dff3eb;}
 .calendar-month .fc-col-header-cell{background:#371e1a; color:#ffffff;}
 .calendar-month .fc-theme-standard th{border-color:#371e1a!important;}

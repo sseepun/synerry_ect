@@ -184,6 +184,8 @@ body.minisite .calendar-year .fc .fc-more-popover .fc-popover-body{max-height:10
 .calendar-month .fc-daygrid-day-bottom{
   position:absolute; top:-1.625rem; right:0; display:flex; justify-content:flex-end; padding-right:.5rem;
 }
+.calendar-month .fc-daygrid-event-harness{transition:opacity .25s; opacity:.9;}
+.calendar-month .fc-daygrid-event-harness:hover{opacity:1;}
 .calendar-month .fc-more-link{font-size:1rem; text-decoration:underline; font-weight:400;}
 .calendar-month .fc .fc-col-header-cell-cushion{padding:.9375rem .25rem;}
 .calendar-month .fc-header-toolbar{display:none;}
